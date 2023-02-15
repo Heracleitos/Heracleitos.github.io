@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="canonical" href="https://www.hcsl.com/Notes/index.html" />
+    <title>A Note on the Reliability and Risk Based Optimization of Statistical Quality Control</title>
+    <link href="../favicon.ico" rel="shortcut icon" title="HCSL shortcut" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="keywords" content="quality control, measurement error, risk, residual risk, hazard, cost, reliability, failure, critical failure, critical failure mode, sampling time interval, optimization, clinical, laboratory" />
+    <meta name="description" content="A note on the method of optimization of statistical quality control procedures to minimize the residual risk, developed by the Hellenic Complex Systems Laboratory." />
+    <meta name="author" content="ath@hcsl.com" />
+    <link href="../css/hcsl.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="sidebar">
+        <p><img src="../Images/HCSLlogo.svg" alt="HCSL Logo" class="center" style="width:96px;height:100px" /></p>
+        <p style="text-align:center"><span class="c6">Hellenic<br>Complex&nbsp;Systems<br>Laboratory</span></p>
+        <a href="../index.html" class="hidden">Home</a>
+        <a href="../Intro/index.html" class="hidden">An Introduction to QC Design and Optimization</a>
+		<a href="index.html" class="hidden"><span style="font-weight:bold;">A Note on the Reliability and Risk Based QC</span></a>
+        <a href="../Publications/index.html" class="hidden">HCSL Publications</a>
+        <a href="../Publications/Fellows.html" class="hidden">Other Publications</a>
+        <a href="../CLSI/index.html" class="hidden">CLSI Documents</a>
+        <a href="../Tools/index.html" class="hidden">HCSL Software </a>
+        <a href="../Links/index.html" class="hidden">Links</a>
+        <a href="../Glossary/index.html" class="hidden">Glossary</a>
+        <a href="../Contact/index.html" class="hidden">Contact Information</a>
+		<a href="../About/index.html" class="hidden">About</a>
+    </div>
+    <div class="content">
+        <article>
+            <h1>
+                A Note on the Reliability and Risk Based Optimization of Statistical Quality Control
+            </h1>
+            <p class="c1">
+                The statistical <a href="../Glossary/index.html#Quality_Control" title="glossary: quality control">quality control</a> (QC) optimization of an analytical process can be translated into a probabilistic
+                <a href="../Glossary/index.html#Risk" title="glossary: risk">risk</a> assessment problem that
+                requires <a href="../Glossary/index.html#Reliability" title="glossary: reliability">reliability</a> analysis of the analytical system and estimation of the risk caused by measurement error. Reliability analysis of an analytical system should include a quantitative fault tree analysis to define the <a href="../Glossary/index.html#Critical_Failure" title="glossary: critical failure">critical-failure</a> modes and estimate the critical-failure time and measurement error <a href="../Glossary/index.html#Probability_Density_Function" title="glossary: probability density function">probability density functions</a> and their dependencies. Critical failure of an analytical system in a <a href="../Glossary/index.html#Clinical" title="glossary: clinical">clinical</a> laboratory setting can initiate <a href="../Glossary/index.html#Hazard" title="glossary: hazard">hazard</a> when total measurement error of a result of a patient exceeds the medically acceptable measurement error. An incorrect result can cause harmful medical decisions. The risk of a critical failure is associated with the probability that it will occur and with the time that it will persist. A statistcal QC procedure detects a critical failure with a certain probability. As <a href="../Glossary/index.html#Residual_Risk" title="glossary: residual risk">residual risk</a> can be considered the risk of the measurement process, assuming the application of a QC procedure. We can define risk measures based on the partial moments of the measurement error with reference to the medically acceptable measurement error. Then we can estimate the risk before the application of the QC procedure and the residual risk assuming it was applied.
+            </p>
+            <p class="c1">
+                There is a certain financial cost associated with QC, including the cost of the control materials and their measurements and the cost of the repetitions because of the rejections. Therefore, an operational approach to optimal QC sampling planning could be based on minimization of the QC related cost while the residual risk is acceptable.
+            </p>
+            <p class="c1">
+                To explore the estimation of the QC sampling time intervals using a residual risk measure, we have developed an algorithm that estimates the residual risk of any sampling time interval of a statistical QC procedure applied to analytical systems with an arbitrary number of critical-failure modes, assuming any probability density function of critical-failure time and measurement error for each mode. Furthermore, it estimates the optimal QC sampling time intervals that minimize a QC related cost measure.
+            </p>
+            <p class="c1">
+                The algorithm we have developed offers an insight in the relation among a QC procedure, the reliability of an analytical system, the risk of the measurement error and the QC related cost. Furthermore, it demonstrates a method for the rational estimation of the QC sampling time intervals of analytical systems with an arbitrary number of failure modes. Therefore, given the reliability analysis of an analytical system, the risk analysis of the measurement error and a statistical QC procedure, there is an optimal QC sampling time interval approach that can sustain an acceptable residual risk, while minimizes the QC related cost.
+            </p>
+            <p class="c1">
+                The needed quantitative fault tree analysis and the estimation of the critical-failure time probability density functions of modern analytical systems may be overly complex. It is possible though to derive at least their upper bounds, using techniques handling uncertainty. A more complex issue is the estimation of the dependencies among the critical-failure time probability density functions as well as of the respective measurement error probability density functions. Although the failure time probability density functions of some critical-failure modes may be independent, as for example the failure of an optical component of a photometric module and the purely mechanical failure of a sampling module, others will be dependent. There are techniques that can be used to estimate dependencies.
+            </p>
+            <p class="c1">
+                If the measurement error probability density functions are dependent, then multivariate distributions could be used, and the respective covariance matrices could be estimated.
+            </p>
+            <p class="c1">
+                This is a large-scale procedure that can be accomplished by the industry. Then a database could be established with reliability analysis data, which could be continuously updated with failure data from the analytical systems in the field, operated by different operators, in different environments. Possibly a substantial commitment is required for such an effort to succeed, giving priority to the safety of the patient.
+            </p>
+            <p class="c1">
+                For the rigorous QC design and estimation of the optimal QC sampling time intervals, it is necessary a risk analysis to be performed to correlate the size of the measurement error with the risk that can cause. Then the medically acceptable analytical error, the risk function which can be even a simple step or fuzzy function, and the acceptable risk and residual risk measures can be defined. Risk analysis is an extremely complex task too. It can be subjective or objective, quantitative or semi-quantitative and should be accomplished by the medical profession. In the future, as the potential of the data analysis will increase exponentially, appropriate risk functions should be estimated using evidence-based methods.
+            </p>
+            <p class="c1">
+                Therefore, to optimize the QC planning process, reliability analysis of the analytical system and risk analysis of the measurement error are needed. Then it is possible to rationally estimate the optimal QC sampling time intervals to sustain an acceptable residual risk with minimum QC related cost. Since 2009, we have developed a theoretical framework and a <a href="../Glossary/index.html#Symbolic_Computation" title="glossary: symbolic computation">symbolic computation</a> algorithm for the optimization of statistical quality control of an analytical process, based on the reliability of the analytical system and the risk of the analytical error<sup>1</sup> (see <a href="../Publications/Risk.html">HCSL publications on statistical QC, reliability, and risk</a>).
+            </p>
+            <p class="c1">
+                <a href="../About/index.html#Greek_Names" title="on the standardisation of the Greek names">Aristeidis T. Chatzimichail, M.D., Ph.D.</a>,
+            </p>
+            <p class="c1">
+                <a href="mailto:ath@hcsl.com">ath@hcsl.com</a>
+            </p>
+            <h2>References</h2>
+            <p class="c1">
+                1. Hatjimihail AT. <span class="c7">Estimation of the optimal statistical quality control sampling time intervals using a residual risk measure.</span> PLoS ONE 2009 4(6): e5770.
+            </p>
+        </article>
+    </div>
+</body>
+</html>

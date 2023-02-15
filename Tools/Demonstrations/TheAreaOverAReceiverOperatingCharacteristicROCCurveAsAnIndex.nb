@@ -1,0 +1,2793 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    137113,       2785]
+NotebookOptionsPosition[    129744,       2631]
+NotebookOutlinePosition[    131457,       2676]
+CellTagsIndexPosition[    131253,       2667]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+The Area Over a Receiver Operating Characteristic (ROC) Curve as an Index of \
+Diagnostic Inaccuracy\
+\>", "Title",
+ CellChangeTimes->{
+  3.8240249774547644`*^9},ExpressionUUID->"984cdae3-766d-411c-b84d-\
+2b0c498ca2bb"],
+
+Cell[TextData[{
+ "Aristides T. Hatjimihail, MD, PhD\n",
+ StyleBox[" ath@hcsl.com\n ", "Affiliation"]
+}], "Author",
+ CellChangeTimes->{
+  3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
+   3.780026882968507*^9, 3.7800269771474247`*^9}, 3.7804577481605635`*^9, 
+   3.8243620772379937`*^9},ExpressionUUID->"5665cf20-0da1-42d8-b01a-\
+9dffcc655524"],
+
+Cell["\<\
+Hellenic Complex Systems Laboratory, Kostis Palamas 21, 66131 Drama, Greece.\
+\>", "Affiliation",
+ CellChangeTimes->{{3.779939871863575*^9, 3.77994000946682*^9}, {
+   3.7799400566027045`*^9, 3.7799400570186176`*^9}, 3.780026865496773*^9, 
+   3.790605454904579*^9},ExpressionUUID->"fa1dff45-b7ce-4bf1-b6a3-\
+f6cecc5b136a"],
+
+Cell[CellGroupData[{
+
+Cell["Initialization Code", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{
+  3.82435306679001*^9, {3.824353271200124*^9, 3.8243533002079124`*^9}},
+ CellTags->
+  "Initialization \
+Code",ExpressionUUID->"f5b2920e-5b35-4b02-85f0-ed257e15c878"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"auc", "[", 
+   RowBox[{
+   "\[Mu]D_", ",", "\[Mu]H_", ",", "\[Sigma]D_", ",", "\[Sigma]H_", ",", 
+    "u_"}], "]"}], ":=", 
+  RowBox[{"CDF", "[", 
+   RowBox[{
+    RowBox[{"NormalDistribution", "[", 
+     RowBox[{"0", ",", "1"}], "]"}], ",", 
+    FractionBox[
+     RowBox[{"\[Mu]D", "-", "\[Mu]H"}], 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox["\[Sigma]D", "2"], "+", 
+       SuperscriptBox["\[Sigma]H", "2"], "+", 
+       RowBox[{"2", 
+        SuperscriptBox["u", "2"]}]}]]]}], "]"}]}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellChangeTimes->{3.8243617048715835`*^9},
+ CellLabel->"In[103]:=",
+ CellID->611437,ExpressionUUID->"b0ea46ff-9cad-4cc7-888d-7b6694f69d73"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rcAUC", "[", 
+   RowBox[{
+   "\[Mu]D_", ",", "\[Mu]H_", ",", "\[Sigma]D_", ",", "\[Sigma]H_", ",", 
+    "u_"}], "]"}], ":=", 
+  RowBox[{"-", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"-", 
+       FractionBox[
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"\[Mu]D", "-", "\[Mu]H"}], ")"}], "2"], 
+        RowBox[{"2", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"2", " ", 
+            SuperscriptBox["u", "2"]}], "+", 
+           SuperscriptBox["\[Sigma]D", "2"], "+", 
+           SuperscriptBox["\[Sigma]H", "2"]}], ")"}]}]]}]], " ", 
+     SqrtBox[
+      FractionBox["2", "\[Pi]"]], " ", "u", " ", 
+     RowBox[{"(", 
+      RowBox[{"\[Mu]D", "-", "\[Mu]H"}], ")"}]}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", 
+        SuperscriptBox["u", "2"]}], "+", 
+       SuperscriptBox["\[Sigma]D", "2"], "+", 
+       SuperscriptBox["\[Sigma]H", "2"]}], ")"}], 
+     RowBox[{"3", "/", "2"}]]]}]}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellChangeTimes->{{3.751891192395872*^9, 3.7518911999348717`*^9}, 
+   3.8243617048715835`*^9},
+ CellLabel->"In[104]:=",
+ CellID->227791355,ExpressionUUID->"f6330880-96eb-4eb6-8026-03f9627992b8"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rcAOC", "[", 
+   RowBox[{
+   "\[Mu]D_", ",", "\[Mu]H_", ",", "\[Sigma]D_", ",", "\[Sigma]H_", ",", 
+    "u_"}], "]"}], ":=", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"-", 
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[Mu]D", "-", "\[Mu]H"}], ")"}], "2"], 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", 
+           SuperscriptBox["u", "2"]}], "+", 
+          SuperscriptBox["\[Sigma]D", "2"], "+", 
+          SuperscriptBox["\[Sigma]H", "2"]}], ")"}]}]]}]], " ", 
+    SqrtBox[
+     FractionBox["2", "\[Pi]"]], " ", "u", " ", 
+    RowBox[{"(", 
+     RowBox[{"\[Mu]D", "-", "\[Mu]H"}], ")"}]}], 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"2", " ", 
+       SuperscriptBox["u", "2"]}], "+", 
+      SuperscriptBox["\[Sigma]D", "2"], "+", 
+      SuperscriptBox["\[Sigma]H", "2"]}], ")"}], 
+    RowBox[{"3", "/", "2"}]]]}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellChangeTimes->{{3.751891213932872*^9, 3.7518912462788715`*^9}, 
+   3.8243617048715835`*^9},
+ CellLabel->"In[105]:=",
+ CellID->647156883,ExpressionUUID->"568fa43c-4d7a-4065-819f-04f23786566e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rrcAUC", "[", 
+   RowBox[{
+   "\[Mu]D_", ",", "\[Mu]H_", ",", "\[Sigma]D_", ",", "\[Sigma]H_", ",", 
+    "u_"}], "]"}], ":=", 
+  RowBox[{"-", 
+   FractionBox[
+    RowBox[{"2", " ", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"-", 
+       FractionBox[
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"\[Mu]D", "-", "\[Mu]H"}], ")"}], "2"], 
+        RowBox[{"2", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"2", " ", 
+            SuperscriptBox["u", "2"]}], "+", 
+           SuperscriptBox["\[Sigma]D", "2"], "+", 
+           SuperscriptBox["\[Sigma]H", "2"]}], ")"}]}]]}]], " ", 
+     SqrtBox[
+      FractionBox["2", "\[Pi]"]], " ", "u", " ", 
+     RowBox[{"(", 
+      RowBox[{"\[Mu]D", "-", "\[Mu]H"}], ")"}]}], 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"2", " ", 
+         SuperscriptBox["u", "2"]}], "+", 
+        SuperscriptBox["\[Sigma]D", "2"], "+", 
+        SuperscriptBox["\[Sigma]H", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]], " ", 
+     RowBox[{"Erfc", "[", 
+      RowBox[{"-", 
+       FractionBox[
+        RowBox[{"\[Mu]D", "-", "\[Mu]H"}], 
+        RowBox[{
+         SqrtBox["2"], " ", 
+         SqrtBox[
+          RowBox[{
+           RowBox[{"2", " ", 
+            SuperscriptBox["u", "2"]}], "+", 
+           SuperscriptBox["\[Sigma]D", "2"], "+", 
+           SuperscriptBox["\[Sigma]H", "2"]}]]}]]}], "]"}]}]]}]}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellChangeTimes->{{3.7518777129901037`*^9, 3.751877832477098*^9}, {
+   3.751877877441098*^9, 3.751877886297098*^9}, {3.7518780586191034`*^9, 
+   3.7518780592890973`*^9}, 3.7518781215781035`*^9, 3.7518917701678767`*^9, 
+   3.8243617048715835`*^9},
+ CellLabel->"In[106]:=",
+ CellID->86857576,ExpressionUUID->"eb93a145-d3bf-4a5d-8929-c76b1206f870"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rrcAOC", "[", 
+   RowBox[{
+   "\[Mu]D_", ",", "\[Mu]H_", ",", "\[Sigma]D_", ",", "\[Sigma]H_", ",", 
+    "u_"}], "]"}], ":=", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"-", 
+      FractionBox[
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[Mu]D", "-", "\[Mu]H"}], ")"}], "2"], 
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", 
+           SuperscriptBox["u", "2"]}], "+", 
+          SuperscriptBox["\[Sigma]D", "2"], "+", 
+          SuperscriptBox["\[Sigma]H", "2"]}], ")"}]}]]}]], " ", 
+    SqrtBox[
+     FractionBox["2", "\[Pi]"]], " ", "u", " ", 
+    RowBox[{"(", 
+     RowBox[{"\[Mu]D", "-", "\[Mu]H"}], ")"}]}], 
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", " ", 
+        SuperscriptBox["u", "2"]}], "+", 
+       SuperscriptBox["\[Sigma]D", "2"], "+", 
+       SuperscriptBox["\[Sigma]H", "2"]}], ")"}], 
+     RowBox[{"3", "/", "2"}]], " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      RowBox[{
+       FractionBox["1", "2"], " ", 
+       RowBox[{"Erfc", "[", 
+        RowBox[{"-", 
+         FractionBox[
+          RowBox[{"\[Mu]D", "-", "\[Mu]H"}], 
+          RowBox[{
+           SqrtBox["2"], " ", 
+           SqrtBox[
+            RowBox[{
+             RowBox[{"2", " ", 
+              SuperscriptBox["u", "2"]}], "+", 
+             SuperscriptBox["\[Sigma]D", "2"], "+", 
+             SuperscriptBox["\[Sigma]H", "2"]}]]}]]}], "]"}]}]}], 
+     ")"}]}]]}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellChangeTimes->{{3.7518777129901037`*^9, 3.7518778620010977`*^9}, {
+   3.7518778937131033`*^9, 3.7518778948411036`*^9}, {3.751878052340103*^9, 
+   3.7518780528570986`*^9}, 3.751878159592103*^9, 3.7518918197508726`*^9, 
+   3.8243617048715835`*^9},
+ CellLabel->"In[107]:=",
+ CellID->454121070,ExpressionUUID->"5adf54e9-92ef-41d8-b32b-d409ebaf44e5"],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Which", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"plot", "==", "0"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Tooltip", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"auc", "[", 
+             RowBox[{
+             "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", ",",
+               "y"}], "]"}], "-", 
+            RowBox[{"auc", "[", 
+             RowBox[{
+             "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", ",",
+               "0"}], "]"}]}], ",", "\"\<change of AUC\>\""}], "]"}], ",", 
+         RowBox[{"Tooltip", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"auc", "[", 
+             RowBox[{
+             "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", ",",
+               "0"}], "]"}], "-", 
+            RowBox[{"auc", "[", 
+             RowBox[{
+             "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", ",",
+               "y"}], "]"}]}], ",", "\"\<change of AOC\>\""}], "]"}]}], "}"}],
+        ",", 
+       RowBox[{"{", 
+        RowBox[{"y", ",", "0", ",", "uu"}], "}"}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+       RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+       RowBox[{"AxesLabel", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"\"\<uncertainty\>\"", ",", "\"\<change\>\""}], "}"}]}], ",", 
+       RowBox[{"AxesOrigin", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}]}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"ColorData", "[", 
+           RowBox[{"\"\<HTML\>\"", ",", "\"\<SlateBlue\>\""}], "]"}], ",", 
+          " ", 
+          RowBox[{"RGBColor", "[", 
+           RowBox[{"1", ",", ".47", ",", "0"}], "]"}]}], "}"}]}], " ", ",", 
+       RowBox[{"Filling", "\[Rule]", "Bottom"}], ",", 
+       RowBox[{"PlotLegends", "\[Rule]", 
+        RowBox[{"Placed", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Row", "[", 
+             RowBox[{"{", 
+              RowBox[{"\"\<\[CapitalDelta](AUC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<))\>\""}], "}"}], "]"}], ",", 
+            RowBox[{"Row", "[", 
+             RowBox[{"{", 
+              RowBox[{"\"\<\[CapitalDelta](AOC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<))\>\""}], "}"}], "]"}]}], "}"}], ",", "Above"}], "]"}]}],
+        ",", 
+       RowBox[{"ImageSize", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"340", ",", "340"}], "}"}]}], ",", 
+       RowBox[{"PlotPoints", "\[Rule]", "25"}], ",", 
+       RowBox[{"MaxRecursion", "\[Rule]", "2"}]}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"plot", "\[Equal]", "1"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Tooltip", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"auc", "[", 
+               RowBox[{
+               "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", 
+                ",", "y"}], "]"}], "-", 
+              RowBox[{"auc", "[", 
+               RowBox[{
+               "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", 
+                ",", "0"}], "]"}]}], ")"}], "/", 
+            RowBox[{"auc", "[", 
+             RowBox[{
+             "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", ",",
+               "0"}], "]"}]}], ",", "\"\<relative change of AUC\>\""}], "]"}],
+          ",", 
+         RowBox[{"Tooltip", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"auc", "[", 
+               RowBox[{
+               "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", 
+                ",", "0"}], "]"}], "-", 
+              RowBox[{"auc", "[", 
+               RowBox[{
+               "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", 
+                ",", "y"}], "]"}]}], ")"}], "/", 
+            RowBox[{"(", 
+             RowBox[{"1", "-", 
+              RowBox[{"auc", "[", 
+               RowBox[{
+               "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", 
+                ",", "0"}], "]"}]}], ")"}]}], ",", 
+           "\"\<relative change of AOC\>\""}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"y", ",", "0", ",", "uu"}], "}"}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+       RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+       RowBox[{"AxesLabel", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"\"\<uncertainty\>\"", ",", "\"\<relative change\>\""}], 
+         "}"}]}], ",", 
+       RowBox[{"AxesOrigin", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}]}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"ColorData", "[", 
+           RowBox[{"\"\<HTML\>\"", ",", "\"\<SlateBlue\>\""}], "]"}], ",", 
+          " ", 
+          RowBox[{"RGBColor", "[", 
+           RowBox[{"1", ",", ".47", ",", "0"}], "]"}]}], "}"}]}], " ", ",", 
+       RowBox[{"Filling", "\[Rule]", "Bottom"}], ",", 
+       RowBox[{"PlotLegends", "\[Rule]", 
+        RowBox[{"Placed", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Row", "[", 
+             RowBox[{"{", 
+              RowBox[{"\"\<\[CapitalDelta](AUC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<)) / AUC(0)\>\""}], "}"}], "]"}], ",", 
+            RowBox[{"Row", "[", 
+             RowBox[{"{", 
+              RowBox[{"\"\<\[CapitalDelta](AOC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<)) / AOC(0)\>\""}], "}"}], "]"}]}], "}"}], ",", "Above"}],
+          "]"}]}], ",", 
+       RowBox[{"ImageSize", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"340", ",", "340"}], "}"}]}], ",", 
+       RowBox[{"PlotPoints", "\[Rule]", "25"}], ",", 
+       RowBox[{"MaxRecursion", "\[Rule]", "2"}]}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"plot", "\[Equal]", "2"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Tooltip", "[", 
+          RowBox[{
+           RowBox[{"rcAUC", "[", 
+            RowBox[{
+            "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", ",", 
+             "y"}], "]"}], ",", "\"\<rate of change of AUC\>\""}], "]"}], ",", 
+         RowBox[{"Tooltip", "[", 
+          RowBox[{
+           RowBox[{"rcAOC", "[", 
+            RowBox[{
+            "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", ",", 
+             "y"}], "]"}], ",", "\"\<rate of change of AOC\>\""}], "]"}]}], 
+        "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"y", ",", "0", ",", "uu"}], "}"}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+       RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+       RowBox[{"AxesLabel", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"\"\<uncertainty\>\"", ",", "\"\<rate of change\>\""}], 
+         "}"}]}], ",", 
+       RowBox[{"AxesOrigin", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}]}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"ColorData", "[", 
+           RowBox[{"\"\<HTML\>\"", ",", "\"\<SlateBlue\>\""}], "]"}], ",", 
+          " ", 
+          RowBox[{"RGBColor", "[", 
+           RowBox[{"1", ",", ".47", ",", "0"}], "]"}]}], "}"}]}], " ", ",", 
+       RowBox[{"Filling", "\[Rule]", "Bottom"}], ",", 
+       RowBox[{"PlotLegends", "\[Rule]", 
+        RowBox[{"Placed", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Row", "[", 
+             RowBox[{"{", 
+              RowBox[{
+              "\"\<\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<)\>\""}], "}"}], "]"}], ",", 
+            RowBox[{"Row", "[", 
+             RowBox[{"{", 
+              RowBox[{
+              "\"\<\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<)\>\""}], "}"}], "]"}]}], "}"}], ",", "Above"}], "]"}]}], 
+       ",", 
+       RowBox[{"ImageSize", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"340", ",", "340"}], "}"}]}], ",", 
+       RowBox[{"PlotPoints", "\[Rule]", "25"}], ",", 
+       RowBox[{"MaxRecursion", "\[Rule]", "2"}]}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"plot", "\[Equal]", "3"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Tooltip", "[", 
+          RowBox[{
+           RowBox[{"rrcAUC", "[", 
+            RowBox[{
+            "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", ",", 
+             "y"}], "]"}], ",", "\"\<relative rate of change of AUC\>\""}], 
+          "]"}], ",", 
+         RowBox[{"Tooltip", "[", 
+          RowBox[{
+           RowBox[{"rrcAOC", "[", 
+            RowBox[{
+            "\[Mu]D", ",", "\[Mu]H", ",", "\[Sigma]D", ",", "\[Sigma]H", ",", 
+             "y"}], "]"}], ",", "\"\<relative rate of change of AOC\>\""}], 
+          "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"y", ",", "0", ",", "uu"}], "}"}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+       RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+       RowBox[{"AxesLabel", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+         "\"\<uncertainty\>\"", ",", "\"\<relative rate of change\>\""}], 
+         "}"}]}], ",", 
+       RowBox[{"AxesOrigin", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}]}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"ColorData", "[", 
+           RowBox[{"\"\<HTML\>\"", ",", "\"\<SlateBlue\>\""}], "]"}], ",", 
+          " ", 
+          RowBox[{"RGBColor", "[", 
+           RowBox[{"1", ",", ".47", ",", "0"}], "]"}]}], "}"}]}], " ", ",", 
+       RowBox[{"Filling", "\[Rule]", "Bottom"}], ",", 
+       RowBox[{"PlotLegends", "\[Rule]", 
+        RowBox[{"Placed", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Row", "[", 
+             RowBox[{"{", 
+              RowBox[{
+              "\"\<\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<) / AUC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<)\>\""}], "}"}], "]"}], ",", 
+            RowBox[{"Row", "[", 
+             RowBox[{"{", 
+              RowBox[{
+              "\"\<\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<) / AOC(\>\"", ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{"\"\<u\>\"", ",", "Italic"}], "]"}], ",", 
+               "\"\<)\>\""}], "}"}], "]"}]}], "}"}], ",", "Above"}], "]"}]}], 
+       ",", 
+       RowBox[{"ImageSize", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"340", ",", "340"}], "}"}]}], ",", 
+       RowBox[{"PlotPoints", "\[Rule]", "25"}], ",", 
+       RowBox[{"MaxRecursion", "\[Rule]", "2"}]}], "]"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"plot", ",", "1", ",", "\"\<plot\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"0", "\[Rule]", "\"\<change\>\""}], ",", 
+       RowBox[{"1", "\[Rule]", "\"\<relative change\>\""}], ",", 
+       RowBox[{"2", "\[Rule]", "\"\<rate of change\>\""}], ",", " ", 
+       RowBox[{"3", "\[Rule]", "\"\<relative rate of change\>\""}]}], "}"}], 
+     ",", 
+     RowBox[{"ControlType", "\[Rule]", "PopupMenu"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", "\"\<\>\"", ",", "\[IndentingNewLine]", 
+   "\"\<nondiseased population\>\"", ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Mu]H", ",", "0", ",", "\"\<mean\>\""}], "}"}], ",", "0", ",",
+      "6", ",", ".01", ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Sigma]H", ",", "1", ",", "\"\<standard deviation\>\""}], 
+      "}"}], ",", "0.01", ",", "6", ",", ".01", ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+   "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
+   "\"\<diseased population\>\"", ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Mu]D", ",", "3.67", ",", "\"\<mean\>\""}], "}"}], ",", "0", 
+     ",", "6", ",", ".01", ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Sigma]D", ",", "1", ",", "\"\<standard deviation\>\""}], 
+      "}"}], ",", "0.01", ",", "6", ",", ".01", ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+   "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
+   "\"\<upper bound of the uncertainty\\nof measurement,\>\"", ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"uu", ",", "1", ",", "\"\<second test\>\""}], "}"}], ",", "0", 
+     ",", "6", ",", ".01", ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+   RowBox[{"ControlPlacement", "\[Rule]", "Left"}], ",", 
+   RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
+   RowBox[{"AutorunSequencing", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2", ",", "5", ",", "6"}], "}"}]}], ",", 
+   RowBox[{"SynchronousUpdating", "\[Rule]", "False"}], ",", 
+   RowBox[{"TrackedSymbols", "\[Rule]", "True"}]}], "]"}]], "Code",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.3895828905643167`*^9, 3.389582896222453*^9}, {
+   3.389582966994218*^9, 3.3895830735173903`*^9}, {3.3895832554590096`*^9, 
+   3.3895833612311025`*^9}, {3.3895833931269665`*^9, 3.389583454985915*^9}, {
+   3.389583570622192*^9, 3.3895836115710735`*^9}, {3.3895836602410574`*^9, 
+   3.3895837299212527`*^9}, {3.3895907943235455`*^9, 
+   3.3895908448962655`*^9}, {3.389590910130067*^9, 3.3895909180013857`*^9}, {
+   3.389591461923507*^9, 3.3895915322346096`*^9}, {3.3895918732349443`*^9, 
+   3.389591909116539*^9}, {3.389592241133957*^9, 3.389592258288624*^9}, {
+   3.389592288682328*^9, 3.3895923203378468`*^9}, {3.389592507026291*^9, 
+   3.3895925084984083`*^9}, 3.3896153159754925`*^9, {3.3896153845374928`*^9, 
+   3.389615431056693*^9}, {3.389615469167493*^9, 3.389615475516693*^9}, {
+   3.3896155380570927`*^9, 3.3896155407402925`*^9}, {3.3899208785746*^9, 
+   3.389920916701*^9}, {3.3899215906382*^9, 3.3899217629245996`*^9}, 
+   3.389921969999*^9, {3.3899222282102003`*^9, 3.3899222309402*^9}, {
+   3.3899227029806004`*^9, 3.389922763259*^9}, {3.3899227997942*^9, 
+   3.3899228081870003`*^9}, {3.3899228775601997`*^9, 3.3899229500846*^9}, {
+   3.389923466663*^9, 3.3899234758982*^9}, {3.3899236689793997`*^9, 
+   3.3899236839866*^9}, {3.3899294325074944`*^9, 3.3899294384961057`*^9}, {
+   3.3900039199078865`*^9, 3.390003930593887*^9}, {3.3900040112926865`*^9, 
+   3.390004017220687*^9}, {3.390004255729087*^9, 3.390004268396287*^9}, {
+   3.390004410840887*^9, 3.390004414553687*^9}, 3.3900049988516865`*^9, {
+   3.390088997477687*^9, 3.390089083832687*^9}, {3.390089126909687*^9, 
+   3.390089127652687*^9}, {3.390089166301687*^9, 3.3900891786276865`*^9}, {
+   3.3900892621176867`*^9, 3.390089283268687*^9}, {3.3900901283188868`*^9, 
+   3.390090154261687*^9}, {3.3900913585972867`*^9, 3.390091360406887*^9}, {
+   3.390116367956287*^9, 3.3901163684710865`*^9}, {3.3901337184572926`*^9, 
+   3.3901337649104176`*^9}, {3.3901338003166676`*^9, 
+   3.3901338345197926`*^9}, {3.3901356065702868`*^9, 3.390135630453887*^9}, {
+   3.390135681965087*^9, 3.390135688080287*^9}, {3.3901439826760426`*^9, 
+   3.3901439989729176`*^9}, 3.3901578803968782`*^9, 3.3903590813516593`*^9, {
+   3.406812989055258*^9, 3.406813046612258*^9}, {3.406813322189258*^9, 
+   3.406813361770258*^9}, {3.406813515849258*^9, 3.406813529105258*^9}, {
+   3.4068140762412577`*^9, 3.406814096039258*^9}, {3.4068142324832582`*^9, 
+   3.4068142371602583`*^9}, {3.4068143763522577`*^9, 3.406814384631258*^9}, {
+   3.406815785287258*^9, 3.406815903941258*^9}, {3.406815936456258*^9, 
+   3.4068159411352577`*^9}, {3.406816023339258*^9, 3.4068160344502583`*^9}, {
+   3.406820555192258*^9, 3.406820559631258*^9}, {3.406821610155258*^9, 
+   3.406821620291258*^9}, {3.406821682032258*^9, 3.406821755051258*^9}, {
+   3.406823152316258*^9, 3.406823153172258*^9}, {3.407118586913*^9, 
+   3.407118591808*^9}, 3.407118621925*^9, {3.4071186590030003`*^9, 
+   3.4071186699230003`*^9}, {3.407118766645*^9, 3.407118770005*^9}, {
+   3.4071567813459997`*^9, 3.407156795472*^9}, {3.4071568550439997`*^9, 
+   3.4071568615880003`*^9}, {3.407157066304*^9, 3.4071571407*^9}, {
+   3.4071571827*^9, 3.407157200703*^9}, {3.407157251756*^9, 
+   3.40715725506*^9}, {3.4071581047720003`*^9, 3.407158214461*^9}, {
+   3.40715941005*^9, 3.407159427273*^9}, {3.407159460631*^9, 
+   3.407159464231*^9}, 3.407159555384*^9, {3.407159673258*^9, 
+   3.407159712467*^9}, {3.407160087743*^9, 3.407160119308*^9}, {
+   3.407160151226*^9, 3.407160158908*^9}, 3.407160310225*^9, 
+   3.407160737053*^9, {3.407160858271*^9, 3.40716086971*^9}, {
+   3.407160903428*^9, 3.407160907933*^9}, 3.40716094477*^9, {
+   3.407180128085*^9, 3.407180199784*^9}, {3.407180352704*^9, 
+   3.4071803724630003`*^9}, {3.407180471041*^9, 3.4071804896400003`*^9}, {
+   3.407180523342*^9, 3.407180530422*^9}, {3.407180858365*^9, 
+   3.407180881176*^9}, {3.407180921016*^9, 3.407180968435*^9}, {
+   3.4071810854119997`*^9, 3.407181103533*^9}, {3.407181252469*^9, 
+   3.407181272252*^9}, {3.407181406789*^9, 3.407181413613*^9}, {
+   3.4071815078859997`*^9, 3.40718150931*^9}, {3.407181912984*^9, 
+   3.407182007722*^9}, {3.407182215974*^9, 3.407182228278*^9}, {
+   3.407182261034*^9, 3.407182262058*^9}, {3.4071823068719997`*^9, 
+   3.4071823226549997`*^9}, {3.407182455618*^9, 3.4071825520369997`*^9}, 
+   3.407182649507*^9, {3.40718272005*^9, 3.4071827403459997`*^9}, {
+   3.4071828413459997`*^9, 3.407182885712*^9}, {3.407244418703125*^9, 
+   3.407244480765625*^9}, {3.407244618953125*^9, 3.40724479028125*^9}, {
+   3.407244825234375*^9, 3.40724501809375*^9}, {3.40724508678125*^9, 
+   3.407245090171875*^9}, {3.407255842554*^9, 3.407255854657*^9}, {
+   3.407259013109375*^9, 3.407259015515625*^9}, {3.407332247375*^9, 
+   3.407332254390625*^9}, {3.4077620174468765`*^9, 3.4077620448048763`*^9}, {
+   3.4082849729320183`*^9, 3.408284975463252*^9}, {3.408288030499242*^9, 
+   3.4082880429990816`*^9}, {3.408288173559911*^9, 3.408288206184493*^9}, {
+   3.4082882634025106`*^9, 3.4082882675274577`*^9}, {3.408288297792695*^9, 
+   3.4082883084488087`*^9}, {3.4082883519170027`*^9, 
+   3.4082883595887794`*^9}, {3.4082883979476633`*^9, 3.408288409072521*^9}, {
+   3.408288442806464*^9, 3.4082884768060293`*^9}, {3.408288524555418*^9, 
+   3.4082885366958876`*^9}, {3.40828866814733*^9, 3.408288689225185*^9}, {
+   3.408288724052864*^9, 3.4082887594117866`*^9}, {3.4083367870130754`*^9, 
+   3.4083367912030754`*^9}, {3.4083371960840755`*^9, 3.4083372061630754`*^9}, 
+   3.4083374477240753`*^9, {3.408337656865075*^9, 3.4083376586960754`*^9}, {
+   3.4083376958930755`*^9, 3.408337735476075*^9}, {3.408337768476075*^9, 
+   3.4083377951140757`*^9}, {3.4083378306320753`*^9, 
+   3.4083378765970755`*^9}, {3.408337977752075*^9, 3.4083379817110753`*^9}, {
+   3.4083382739090757`*^9, 3.4083383402640753`*^9}, {3.4083383918690753`*^9, 
+   3.4083384006840754`*^9}, {3.4083384909870753`*^9, 3.408338573773075*^9}, {
+   3.4083391000930758`*^9, 3.4083391294930754`*^9}, {3.4084203160484753`*^9, 
+   3.408420321927475*^9}, 3.4084598446922407`*^9, {3.4450092570192795`*^9, 
+   3.4450092712952795`*^9}, {3.4450093166552796`*^9, 
+   3.4450093210942793`*^9}, {3.4450093604522796`*^9, 
+   3.4450093649902797`*^9}, {3.4484112548537817`*^9, 
+   3.4484112570137815`*^9}, {3.448411319531782*^9, 3.448411322170782*^9}, {
+   3.4484969127700744`*^9, 3.4484970173955355`*^9}, 3.4484970766274586`*^9, {
+   3.4484971156683617`*^9, 3.4484972784866424`*^9}, {3.4484973285126443`*^9, 
+   3.4484974047542677`*^9}, {3.448497663449135*^9, 3.448497757174506*^9}, {
+   3.4484977958753757`*^9, 3.4484978764674344`*^9}, {3.448497942585046*^9, 
+   3.4484979818319697`*^9}, {3.44850512895164*^9, 3.4485051539521403`*^9}, {
+   3.448505203564101*^9, 3.4485052310708513`*^9}, {3.448505336679411*^9, 
+   3.44850534376712*^9}, 3.4485059563653736`*^9, {3.448506034624199*^9, 
+   3.448506089789715*^9}, {3.448506125984334*^9, 3.448506164087144*^9}, {
+   3.448510006631714*^9, 3.448510044603714*^9}, 3.448510224484714*^9, {
+   3.448510366506714*^9, 3.4485103888837137`*^9}, {3.4485104621187143`*^9, 
+   3.448510485244714*^9}, {3.4485106130337143`*^9, 3.448510614510714*^9}, {
+   3.448510805024714*^9, 3.448510816904714*^9}, {3.448511337564714*^9, 
+   3.448511338696714*^9}, {3.448511393103714*^9, 3.448511409657714*^9}, {
+   3.448511465687714*^9, 3.4485114916407137`*^9}, 3.4485115301477137`*^9, 
+   3.448511562676714*^9, {3.448511655307714*^9, 3.4485117102647142`*^9}, {
+   3.4488248828467464`*^9, 3.448824890128043*^9}, {3.448824928831416*^9, 
+   3.4488249372220945`*^9}, {3.448830542333935*^9, 3.448830567849233*^9}, {
+   3.4488422792722034`*^9, 3.448842305429434*^9}, {3.448843961565595*^9, 
+   3.4488439693651547`*^9}, {3.4488440539770737`*^9, 3.448844102102697*^9}, 
+   3.448844147952865*^9, {3.4489302368433733`*^9, 3.4489302399593735`*^9}, {
+   3.4491985365987043`*^9, 3.449198537114756*^9}, {3.449198970775118*^9, 
+   3.4491989878158216`*^9}, {3.449243404124293*^9, 3.4492434310699873`*^9}, {
+   3.7517028164464836`*^9, 3.751702823828487*^9}, {3.7517032921104836`*^9, 
+   3.7517032973074875`*^9}, {3.751703335072483*^9, 3.7517033719314876`*^9}, {
+   3.7518624722235126`*^9, 3.7518625425415125`*^9}, {3.7518625737325134`*^9, 
+   3.751862595747518*^9}, {3.751862706380518*^9, 3.7518627242675133`*^9}, {
+   3.751862867614518*^9, 3.751862875268518*^9}, {3.751876055790103*^9, 
+   3.7518760592910986`*^9}, {3.751876146346103*^9, 3.7518761678501043`*^9}, {
+   3.751876222481104*^9, 3.7518762518240995`*^9}, {3.7518762953531036`*^9, 
+   3.7518763012950997`*^9}, {3.751876350485098*^9, 3.7518763509561033`*^9}, {
+   3.7518763992851033`*^9, 3.751876616267099*^9}, {3.7518767110031033`*^9, 
+   3.751876726752099*^9}, {3.751876809871101*^9, 3.751876810643103*^9}, {
+   3.751877158807099*^9, 3.751877176524098*^9}, 3.751877255037098*^9, {
+   3.751877286990098*^9, 3.7518772890121036`*^9}, {3.7518779133411036`*^9, 
+   3.751877985222103*^9}, {3.751878204925098*^9, 3.7518782067630987`*^9}, {
+   3.7518799428380375`*^9, 3.751879974797042*^9}, {3.7518800714700418`*^9, 
+   3.7518804858880415`*^9}, {3.751880538080037*^9, 3.7518805496350365`*^9}, {
+   3.7518806300190372`*^9, 3.751880671047037*^9}, {3.751880715106042*^9, 
+   3.751880739071042*^9}, {3.7518808597110415`*^9, 3.751880909728042*^9}, {
+   3.751880941839037*^9, 3.751880947993042*^9}, {3.751881024232037*^9, 
+   3.751881273856036*^9}, {3.7518822275540833`*^9, 3.7518822711370893`*^9}, {
+   3.7518823176500883`*^9, 3.751882626125084*^9}, {3.751891304807871*^9, 
+   3.7518914464458714`*^9}, {3.751891879800873*^9, 3.751891880547871*^9}, {
+   3.751892234254872*^9, 3.751892305708872*^9}, {3.7518924759678774`*^9, 
+   3.7518924816048713`*^9}, 3.7518925850338774`*^9, {3.751892615536872*^9, 
+   3.7518926764208717`*^9}, {3.751892954247871*^9, 3.7518930119248714`*^9}, {
+   3.7518930726798725`*^9, 3.751893083324871*^9}, {3.7518931840658712`*^9, 
+   3.751893215974871*^9}, 3.751893248494871*^9, {3.7518933718168707`*^9, 
+   3.751893380653872*^9}, {3.7518934205048723`*^9, 3.751893445814871*^9}, {
+   3.751893538279872*^9, 3.7518935531598716`*^9}, {3.7518936763618774`*^9, 
+   3.7518937350718713`*^9}, {3.751893861898872*^9, 3.7518938769518766`*^9}, {
+   3.7518939303788714`*^9, 3.751893970642874*^9}, {3.7518940075753913`*^9, 
+   3.751894024899391*^9}, 3.7518940577763915`*^9, {3.751894094473391*^9, 
+   3.751894138393391*^9}, {3.751894264377392*^9, 3.7518944136173916`*^9}, 
+   3.7518944503723917`*^9, {3.7518945275313916`*^9, 3.751894571051397*^9}, {
+   3.751894799133391*^9, 3.7518948011213913`*^9}, {3.751894846010391*^9, 
+   3.751895009113391*^9}, {3.751895158899391*^9, 3.751895169281391*^9}, {
+   3.7518952878813972`*^9, 3.7518953651363916`*^9}, {3.751895477367397*^9, 
+   3.751895614687398*^9}, {3.7518958156043973`*^9, 3.7518958259353914`*^9}, {
+   3.7518958869383917`*^9, 3.751895998471391*^9}, {3.751896203850397*^9, 
+   3.751896221559391*^9}, {3.7518962890903916`*^9, 3.7518963635203905`*^9}, {
+   3.751896451226392*^9, 3.7518964521353908`*^9}, {3.751897834546391*^9, 
+   3.7518978369923973`*^9}, {3.7518978743553967`*^9, 3.751897876256391*^9}, {
+   3.7518980359353914`*^9, 3.751898043257391*^9}, {3.7518980949783907`*^9, 
+   3.751898142168391*^9}, {3.751898251083391*^9, 3.751898408722391*^9}, {
+   3.7518984793753924`*^9, 3.7518985334193907`*^9}, {3.7518990941803913`*^9, 
+   3.751899100828391*^9}, {3.751899240823392*^9, 3.751899251644391*^9}, {
+   3.751902984701639*^9, 3.7519029862926335`*^9}, {3.751905792348993*^9, 
+   3.751905849369993*^9}, {3.751905881778988*^9, 3.7519058905899878`*^9}, {
+   3.751905967484993*^9, 3.751906070393993*^9}, {3.751944630316859*^9, 
+   3.7519446691098533`*^9}, {3.751944714761859*^9, 3.751944759976858*^9}, {
+   3.7523767667764263`*^9, 3.752376767370426*^9}, {3.75259435181231*^9, 
+   3.752594539582893*^9}, {3.7525945857554483`*^9, 3.7525946028218393`*^9}, {
+   3.752594641894546*^9, 3.752594694849566*^9}, {3.753116939651147*^9, 
+   3.753116940814662*^9}, {3.753116991274571*^9, 3.753117111952509*^9}, 
+   3.8243617841131606`*^9},
+ CellLabel->"In[108]:=",
+ CellID->4362360,ExpressionUUID->"35961cd4-9310-4af8-9d90-d8d73dea358e"]
+}, Closed]],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`plot$$ = 1, $CellContext`uu$$ = 
+    1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+    0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`plot$$], 1, "plot"}, {
+      0 -> "change", 1 -> "relative change", 2 -> "rate of change", 3 -> 
+       "relative rate of change"}}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold["nondiseased population"], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}, {
+      Hold["diseased population"], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}, {
+      Hold["upper bound of the uncertainty\nof measurement,"], 
+      Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`uu$$], 1, "second test"}, 0, 6, 0.01}}, 
+    Typeset`size$$ = {340., {167., 204.2}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`plot$$ = 1, $CellContext`uu$$ = 
+        1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+        0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Which[$CellContext`plot$$ == 0, 
+        Plot[{
+          
+          Tooltip[$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0],
+            "change of AUC"], 
+          
+          Tooltip[$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+             0] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y], "change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$}, 
+         PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "change"}, AxesOrigin -> {0, 0}, 
+         PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\[CapitalDelta](AUC(", 
+              Style["u", Italic], "))"}], 
+            Row[{"\[CapitalDelta](AOC(", 
+              Style["u", Italic], "))"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2], $CellContext`plot$$ == 1, 
+        Plot[{
+          
+          Tooltip[($CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+             0])/$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0],
+            "relative change of AUC"], 
+          
+          Tooltip[($CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+              0] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y])/(
+           1 - $CellContext`auc[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0]), 
+           "relative change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$},
+          PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "relative change"}, 
+         AxesOrigin -> {0, 0}, PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\[CapitalDelta](AUC(", 
+              Style["u", Italic], ")) / AUC(0)"}], 
+            Row[{"\[CapitalDelta](AOC(", 
+              Style["u", Italic], ")) / AOC(0)"}]}, Above], 
+         ImageSize -> {340, 340}, PlotPoints -> 25, MaxRecursion -> 
+         2], $CellContext`plot$$ == 2, 
+        Plot[{
+          Tooltip[
+           $CellContext`rcAUC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "rate of change of AUC"], 
+          Tooltip[
+           $CellContext`rcAOC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "rate of change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$}, 
+         PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "rate of change"}, AxesOrigin -> {0, 0},
+          PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(", 
+              Style["u", Italic], ")"}], 
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(", 
+              Style["u", Italic], ")"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2], $CellContext`plot$$ == 3, 
+        Plot[{
+          Tooltip[
+           $CellContext`rrcAUC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "relative rate of change of AUC"], 
+          Tooltip[
+           $CellContext`rrcAOC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "relative rate of change of AOC"]}, {$CellContext`y, 
+          0, $CellContext`uu$$}, PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "relative rate of change"}, 
+         AxesOrigin -> {0, 0}, PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(", 
+              Style["u", Italic], ") / AUC(", 
+              Style["u", Italic], ")"}], 
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(", 
+              Style["u", Italic], ") / AOC(", 
+              Style["u", Italic], ")"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2]], 
+      "Specifications" :> {{{$CellContext`plot$$, 1, "plot"}, {
+         0 -> "change", 1 -> "relative change", 2 -> "rate of change", 3 -> 
+          "relative rate of change"}, ControlType -> PopupMenu}, "", 
+        "nondiseased population", {{$CellContext`\[Mu]H$$, 0, "mean"}, 0, 6, 
+         0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Delimiter, 
+        "diseased population", {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 0, 6, 
+         0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Delimiter, 
+        "upper bound of the uncertainty\nof measurement,", \
+{{$CellContext`uu$$, 1, "second test"}, 0, 6, 0.01, ImageSize -> Tiny, 
+         Appearance -> "Labeled"}}, 
+      "Options" :> {
+       ControlPlacement -> Left, AutorunSequencing -> {1, 2, 5, 6}, 
+        SynchronousUpdating -> False, TrackedSymbols -> True}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{575., {212., 218.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`auc[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := CDF[
+         NormalDistribution[
+         0, 1], ($CellContext`\[Mu]D - $CellContext`\[Mu]H)/
+         Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`\[Sigma]H^2 + 
+          2 $CellContext`u^2]], 
+       Attributes[PlotRange] = {ReadProtected}, $CellContext`rcAUC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := -(((
+           Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - $CellContext`\
+\[Mu]H))/(
+         E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+           2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) (
+           2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2))), $CellContext`rcAOC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((
+          Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - \
+$CellContext`\[Mu]H))/(
+        E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+          2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) (
+          2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2)), $CellContext`rrcAUC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := -((((2 
+            Sqrt[2/Pi]) $CellContext`u) ($CellContext`\[Mu]D - $CellContext`\
+\[Mu]H))/(
+         E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+           2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) ((
+            2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2) 
+          Erfc[-(($CellContext`\[Mu]D - $CellContext`\[Mu]H)/(Sqrt[2] 
+             Sqrt[2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + \
+$CellContext`\[Sigma]H^2]))]))), $CellContext`rrcAOC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((
+          Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - \
+$CellContext`\[Mu]H))/(
+        E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+          2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) ((
+           2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2) (1 - (1/2) 
+          Erfc[-(($CellContext`\[Mu]D - $CellContext`\[Mu]H)/(Sqrt[2] 
+             Sqrt[2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + \
+$CellContext`\[Sigma]H^2]))])))}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.8243617961304426`*^9},
+ CellLabel->
+  "Out[108]=",ExpressionUUID->"b5b21320-4a44-4625-9088-fed6988c48de"],
+
+Cell[CellGroupData[{
+
+Cell["Description", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.824353340464686*^9, 3.8243533672832766`*^9}},
+ CellTags->"Caption",ExpressionUUID->"dfffced6-35cd-4eaa-b4d9-69a1cb096dcf"],
+
+Cell["\<\
+This Demonstration plots the change, the relative change, the rate of change \
+and the relative rate of change of the area under (blue plot) and the area \
+over (orange plot) the receiver operating characteristic (ROC) curve of a \
+diagnostic test as the uncertainty of measurement increases from 0 to a \
+user-defined upper bound. Measures are determined for normally distributed \
+nondiseased and diseased populations for various values of the mean and \
+standard deviation of the populations. A normal distribution of the \
+uncertainty is assumed. The type of plot is selected using the \"plot\" menu. \
+The five parameters that can be varied using the sliders are given in \
+arbitrary units.\
+\>", "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.4077625855098763`*^9, 3.4077625905488763`*^9}, {
+   3.4083362627490754`*^9, 3.4083362697790756`*^9}, {3.4083378929060755`*^9, 
+   3.408337902384075*^9}, {3.4083379543420753`*^9, 3.4083379680840755`*^9}, 
+   3.4450101357272797`*^9, {3.44501016968528*^9, 3.4450101961222796`*^9}, {
+   3.4450102265632796`*^9, 3.4450102814982796`*^9}, 3.4450104935502796`*^9, {
+   3.448498517309512*^9, 3.448498521059887*^9}, {3.4485006123467345`*^9, 
+   3.4485006167107344`*^9}, {3.448510969056714*^9, 3.448511035221714*^9}, {
+   3.448511094418714*^9, 3.448511122280714*^9}, {3.448511158886714*^9, 
+   3.448511286788714*^9}, {3.448892597238201*^9, 3.4488925979569654`*^9}, {
+   3.448930371306373*^9, 3.448930378267373*^9}, {3.4489305303363733`*^9, 
+   3.4489306640513735`*^9}, {3.448930713931373*^9, 3.448930774486373*^9}, {
+   3.448930819075373*^9, 3.448930920925373*^9}, 3.448931678923373*^9, {
+   3.4491986965757008`*^9, 3.4491987007351165`*^9}, {3.751702760473488*^9, 
+   3.751702764319483*^9}, 3.7518815409960423`*^9, {3.751881614052042*^9, 
+   3.7518816192280416`*^9}, {3.7518951327513914`*^9, 
+   3.7518951341113915`*^9}, {3.751896611917391*^9, 3.7518967313123913`*^9}, {
+   3.751896800972391*^9, 3.751896836448391*^9}, {3.7518968681693907`*^9, 
+   3.751896883672391*^9}, {3.7518969558743963`*^9, 3.751897062905391*^9}, {
+   3.751897126116391*^9, 3.7518971273613906`*^9}, {3.751897221562391*^9, 
+   3.7518973106573915`*^9}, {3.7518975691703916`*^9, 3.751897569614391*^9}, {
+   3.751897601674391*^9, 3.7518976539373913`*^9}, {3.7519035309655447`*^9, 
+   3.751903548869545*^9}, {3.7519420680024037`*^9, 3.751942101644404*^9}, {
+   3.751942147931409*^9, 3.751942206635404*^9}, 3.751945667757924*^9, {
+   3.751946436390921*^9, 3.7519464412229233`*^9}, 3.751949152832919*^9, {
+   3.751983590298004*^9, 3.751983594113*^9}, {3.752594728173183*^9, 
+   3.752594737408237*^9}, {3.752597475208344*^9, 3.7525974763953648`*^9}, {
+   3.7525977657919083`*^9, 3.7525977952333403`*^9}, 3.7531192641979322`*^9, 
+   3.753119400416498*^9, 3.8243619020445075`*^9},
+ CellID->435014217,ExpressionUUID->"81ff0218-7bdc-413b-91ae-29ae281487b5"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Snapshots", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.824353379227399*^9, 3.824353398994195*^9}},
+ CellTags->"Snapshots",ExpressionUUID->"71424b22-7231-4dd5-bfc3-df3203b1c902"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`plot$$ = 0, $CellContext`uu$$ = 
+    1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+    0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`plot$$], 0, "plot"}, {
+      0 -> "change", 1 -> "relative change", 2 -> "rate of change", 3 -> 
+       "relative rate of change"}}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold["nondiseased population"], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}, {
+      Hold["diseased population"], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}, {
+      Hold["upper bound of the uncertainty\nof measurement,"], 
+      Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`uu$$], 1, "second test"}, 0, 6, 0.01}}, 
+    Typeset`size$$ = {340., {167., 204.2}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`plot$$ = 0, $CellContext`uu$$ = 
+        1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+        0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Which[$CellContext`plot$$ == 0, 
+        Plot[{
+          
+          Tooltip[$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0],
+            "change of AUC"], 
+          
+          Tooltip[$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+             0] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y], "change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$}, 
+         PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "change"}, AxesOrigin -> {0, 0}, 
+         PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\[CapitalDelta](AUC(", 
+              Style["u", Italic], "))"}], 
+            Row[{"\[CapitalDelta](AOC(", 
+              Style["u", Italic], "))"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2], $CellContext`plot$$ == 1, 
+        Plot[{
+          
+          Tooltip[($CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+             0])/$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0],
+            "relative change of AUC"], 
+          
+          Tooltip[($CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+              0] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y])/(
+           1 - $CellContext`auc[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0]), 
+           "relative change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$},
+          PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "relative change"}, 
+         AxesOrigin -> {0, 0}, PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\[CapitalDelta](AUC(", 
+              Style["u", Italic], ")) / AUC(0)"}], 
+            Row[{"\[CapitalDelta](AOC(", 
+              Style["u", Italic], ")) / AOC(0)"}]}, Above], 
+         ImageSize -> {340, 340}, PlotPoints -> 25, MaxRecursion -> 
+         2], $CellContext`plot$$ == 2, 
+        Plot[{
+          Tooltip[
+           $CellContext`rcAUC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "rate of change of AUC"], 
+          Tooltip[
+           $CellContext`rcAOC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "rate of change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$}, 
+         PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "rate of change"}, AxesOrigin -> {0, 0},
+          PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(", 
+              Style["u", Italic], ")"}], 
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(", 
+              Style["u", Italic], ")"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2], $CellContext`plot$$ == 3, 
+        Plot[{
+          Tooltip[
+           $CellContext`rrcAUC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "relative rate of change of AUC"], 
+          Tooltip[
+           $CellContext`rrcAOC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "relative rate of change of AOC"]}, {$CellContext`y, 
+          0, $CellContext`uu$$}, PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "relative rate of change"}, 
+         AxesOrigin -> {0, 0}, PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(", 
+              Style["u", Italic], ") / AUC(", 
+              Style["u", Italic], ")"}], 
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(", 
+              Style["u", Italic], ") / AOC(", 
+              Style["u", Italic], ")"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2]], 
+      "Specifications" :> {{{$CellContext`plot$$, 0, "plot"}, {
+         0 -> "change", 1 -> "relative change", 2 -> "rate of change", 3 -> 
+          "relative rate of change"}, ControlType -> PopupMenu}, "", 
+        "nondiseased population", {{$CellContext`\[Mu]H$$, 0, "mean"}, 0, 6, 
+         0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Delimiter, 
+        "diseased population", {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 0, 6, 
+         0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Delimiter, 
+        "upper bound of the uncertainty\nof measurement,", \
+{{$CellContext`uu$$, 1, "second test"}, 0, 6, 0.01, ImageSize -> Tiny, 
+         Appearance -> "Labeled"}}, 
+      "Options" :> {
+       ControlPlacement -> Left, AutorunSequencing -> {1, 2, 5, 6}, 
+        SynchronousUpdating -> False, TrackedSymbols -> True}, 
+      "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{575., {212., 218.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`auc[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := CDF[
+         NormalDistribution[
+         0, 1], ($CellContext`\[Mu]D - $CellContext`\[Mu]H)/
+         Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`\[Sigma]H^2 + 
+          2 $CellContext`u^2]], 
+       Attributes[PlotRange] = {ReadProtected}, $CellContext`rcAUC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := -(((
+           Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - $CellContext`\
+\[Mu]H))/(
+         E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+           2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) (
+           2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2))), $CellContext`rcAOC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((
+          Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - \
+$CellContext`\[Mu]H))/(
+        E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+          2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) (
+          2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2)), $CellContext`rrcAUC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := -((((2 
+            Sqrt[2/Pi]) $CellContext`u) ($CellContext`\[Mu]D - $CellContext`\
+\[Mu]H))/(
+         E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+           2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) ((
+            2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2) 
+          Erfc[-(($CellContext`\[Mu]D - $CellContext`\[Mu]H)/(Sqrt[2] 
+             Sqrt[2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + \
+$CellContext`\[Sigma]H^2]))]))), $CellContext`rrcAOC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((
+          Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - \
+$CellContext`\[Mu]H))/(
+        E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+          2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) ((
+           2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2) (1 - (1/2) 
+          Erfc[-(($CellContext`\[Mu]D - $CellContext`\[Mu]H)/(Sqrt[2] 
+             Sqrt[2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + \
+$CellContext`\[Sigma]H^2]))])))}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{3.82436192380294*^9},
+ CellID->185560448,ExpressionUUID->"f48680e9-57de-4d1a-9078-82d748489456"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`plot$$ = 2, $CellContext`uu$$ = 
+    1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+    0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`plot$$], 2, "plot"}, {
+      0 -> "change", 1 -> "relative change", 2 -> "rate of change", 3 -> 
+       "relative rate of change"}}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold["nondiseased population"], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}, {
+      Hold["diseased population"], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}, {
+      Hold["upper bound of the uncertainty\nof measurement,"], 
+      Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`uu$$], 1, "second test"}, 0, 6, 0.01}}, 
+    Typeset`size$$ = {340., {167., 204.2}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`plot$$ = 2, $CellContext`uu$$ = 
+        1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+        0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Which[$CellContext`plot$$ == 0, 
+        Plot[{
+          
+          Tooltip[$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0],
+            "change of AUC"], 
+          
+          Tooltip[$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+             0] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y], "change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$}, 
+         PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "change"}, AxesOrigin -> {0, 0}, 
+         PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\[CapitalDelta](AUC(", 
+              Style["u", Italic], "))"}], 
+            Row[{"\[CapitalDelta](AOC(", 
+              Style["u", Italic], "))"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2], $CellContext`plot$$ == 1, 
+        Plot[{
+          
+          Tooltip[($CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+             0])/$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0],
+            "relative change of AUC"], 
+          
+          Tooltip[($CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+              0] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y])/(
+           1 - $CellContext`auc[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0]), 
+           "relative change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$},
+          PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "relative change"}, 
+         AxesOrigin -> {0, 0}, PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\[CapitalDelta](AUC(", 
+              Style["u", Italic], ")) / AUC(0)"}], 
+            Row[{"\[CapitalDelta](AOC(", 
+              Style["u", Italic], ")) / AOC(0)"}]}, Above], 
+         ImageSize -> {340, 340}, PlotPoints -> 25, MaxRecursion -> 
+         2], $CellContext`plot$$ == 2, 
+        Plot[{
+          Tooltip[
+           $CellContext`rcAUC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "rate of change of AUC"], 
+          Tooltip[
+           $CellContext`rcAOC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "rate of change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$}, 
+         PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "rate of change"}, AxesOrigin -> {0, 0},
+          PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(", 
+              Style["u", Italic], ")"}], 
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(", 
+              Style["u", Italic], ")"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2], $CellContext`plot$$ == 3, 
+        Plot[{
+          Tooltip[
+           $CellContext`rrcAUC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "relative rate of change of AUC"], 
+          Tooltip[
+           $CellContext`rrcAOC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "relative rate of change of AOC"]}, {$CellContext`y, 
+          0, $CellContext`uu$$}, PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "relative rate of change"}, 
+         AxesOrigin -> {0, 0}, PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(", 
+              Style["u", Italic], ") / AUC(", 
+              Style["u", Italic], ")"}], 
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(", 
+              Style["u", Italic], ") / AOC(", 
+              Style["u", Italic], ")"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2]], 
+      "Specifications" :> {{{$CellContext`plot$$, 2, "plot"}, {
+         0 -> "change", 1 -> "relative change", 2 -> "rate of change", 3 -> 
+          "relative rate of change"}, ControlType -> PopupMenu}, "", 
+        "nondiseased population", {{$CellContext`\[Mu]H$$, 0, "mean"}, 0, 6, 
+         0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Delimiter, 
+        "diseased population", {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 0, 6, 
+         0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Delimiter, 
+        "upper bound of the uncertainty\nof measurement,", \
+{{$CellContext`uu$$, 1, "second test"}, 0, 6, 0.01, ImageSize -> Tiny, 
+         Appearance -> "Labeled"}}, 
+      "Options" :> {
+       ControlPlacement -> Left, AutorunSequencing -> {1, 2, 5, 6}, 
+        SynchronousUpdating -> False, TrackedSymbols -> True}, 
+      "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{575., {212., 218.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`auc[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := CDF[
+         NormalDistribution[
+         0, 1], ($CellContext`\[Mu]D - $CellContext`\[Mu]H)/
+         Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`\[Sigma]H^2 + 
+          2 $CellContext`u^2]], 
+       Attributes[PlotRange] = {ReadProtected}, $CellContext`rcAUC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := -(((
+           Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - $CellContext`\
+\[Mu]H))/(
+         E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+           2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) (
+           2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2))), $CellContext`rcAOC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((
+          Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - \
+$CellContext`\[Mu]H))/(
+        E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+          2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) (
+          2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2)), $CellContext`rrcAUC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := -((((2 
+            Sqrt[2/Pi]) $CellContext`u) ($CellContext`\[Mu]D - $CellContext`\
+\[Mu]H))/(
+         E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+           2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) ((
+            2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2) 
+          Erfc[-(($CellContext`\[Mu]D - $CellContext`\[Mu]H)/(Sqrt[2] 
+             Sqrt[2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + \
+$CellContext`\[Sigma]H^2]))]))), $CellContext`rrcAOC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((
+          Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - \
+$CellContext`\[Mu]H))/(
+        E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+          2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) ((
+           2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2) (1 - (1/2) 
+          Erfc[-(($CellContext`\[Mu]D - $CellContext`\[Mu]H)/(Sqrt[2] 
+             Sqrt[2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + \
+$CellContext`\[Sigma]H^2]))])))}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{3.82436192380294*^9},
+ CellID->144842278,ExpressionUUID->"b9ba49d0-3cc7-4953-bbb5-8c814592cc09"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`plot$$ = 3, $CellContext`uu$$ = 
+    1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+    0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`plot$$], 3, "plot"}, {
+      0 -> "change", 1 -> "relative change", 2 -> "rate of change", 3 -> 
+       "relative rate of change"}}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl}, {
+      Hold["nondiseased population"], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]H$$], 0, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]H$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}, {
+      Hold["diseased population"], Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Mu]D$$], 3.67, "mean"}, 0, 6, 0.01}, {{
+       Hold[$CellContext`\[Sigma]D$$], 1, "standard deviation"}, 0.01, 6, 
+      0.01}, {
+      Hold["upper bound of the uncertainty\nof measurement,"], 
+      Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`uu$$], 1, "second test"}, 0, 6, 0.01}}, 
+    Typeset`size$$ = {340., {167., 204.2}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`plot$$ = 3, $CellContext`uu$$ = 
+        1, $CellContext`\[Mu]D$$ = 3.67, $CellContext`\[Mu]H$$ = 
+        0, $CellContext`\[Sigma]D$$ = 1, $CellContext`\[Sigma]H$$ = 1}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Which[$CellContext`plot$$ == 0, 
+        Plot[{
+          
+          Tooltip[$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0],
+            "change of AUC"], 
+          
+          Tooltip[$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+             0] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y], "change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$}, 
+         PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "change"}, AxesOrigin -> {0, 0}, 
+         PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\[CapitalDelta](AUC(", 
+              Style["u", Italic], "))"}], 
+            Row[{"\[CapitalDelta](AOC(", 
+              Style["u", Italic], "))"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2], $CellContext`plot$$ == 1, 
+        Plot[{
+          
+          Tooltip[($CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+             0])/$CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0],
+            "relative change of AUC"], 
+          
+          Tooltip[($CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 
+              0] - $CellContext`auc[$CellContext`\[Mu]D$$, \
+$CellContext`\[Mu]H$$, $CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, \
+$CellContext`y])/(
+           1 - $CellContext`auc[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, 0]), 
+           "relative change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$},
+          PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "relative change"}, 
+         AxesOrigin -> {0, 0}, PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\[CapitalDelta](AUC(", 
+              Style["u", Italic], ")) / AUC(0)"}], 
+            Row[{"\[CapitalDelta](AOC(", 
+              Style["u", Italic], ")) / AOC(0)"}]}, Above], 
+         ImageSize -> {340, 340}, PlotPoints -> 25, MaxRecursion -> 
+         2], $CellContext`plot$$ == 2, 
+        Plot[{
+          Tooltip[
+           $CellContext`rcAUC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "rate of change of AUC"], 
+          Tooltip[
+           $CellContext`rcAOC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "rate of change of AOC"]}, {$CellContext`y, 0, $CellContext`uu$$}, 
+         PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "rate of change"}, AxesOrigin -> {0, 0},
+          PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(", 
+              Style["u", Italic], ")"}], 
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(", 
+              Style["u", Italic], ")"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2], $CellContext`plot$$ == 3, 
+        Plot[{
+          Tooltip[
+           $CellContext`rrcAUC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "relative rate of change of AUC"], 
+          Tooltip[
+           $CellContext`rrcAOC[$CellContext`\[Mu]D$$, $CellContext`\[Mu]H$$, \
+$CellContext`\[Sigma]D$$, $CellContext`\[Sigma]H$$, $CellContext`y], 
+           "relative rate of change of AOC"]}, {$CellContext`y, 
+          0, $CellContext`uu$$}, PlotRange -> All, AspectRatio -> 1, 
+         AxesLabel -> {"uncertainty", "relative rate of change"}, 
+         AxesOrigin -> {0, 0}, PlotStyle -> {
+           ColorData["HTML", "SlateBlue"], 
+           RGBColor[1, 0.47, 0]}, Filling -> Bottom, PlotLegends -> Placed[{
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AUC(", 
+              Style["u", Italic], ") / AUC(", 
+              Style["u", Italic], ")"}], 
+            Row[{"\!\(\*SubscriptBox[\(\[PartialD]\), \(u\)]\)AOC(", 
+              Style["u", Italic], ") / AOC(", 
+              Style["u", Italic], ")"}]}, Above], ImageSize -> {340, 340}, 
+         PlotPoints -> 25, MaxRecursion -> 2]], 
+      "Specifications" :> {{{$CellContext`plot$$, 3, "plot"}, {
+         0 -> "change", 1 -> "relative change", 2 -> "rate of change", 3 -> 
+          "relative rate of change"}, ControlType -> PopupMenu}, "", 
+        "nondiseased population", {{$CellContext`\[Mu]H$$, 0, "mean"}, 0, 6, 
+         0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]H$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Delimiter, 
+        "diseased population", {{$CellContext`\[Mu]D$$, 3.67, "mean"}, 0, 6, 
+         0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Sigma]D$$, 1, "standard deviation"}, 
+         0.01, 6, 0.01, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Delimiter, 
+        "upper bound of the uncertainty\nof measurement,", \
+{{$CellContext`uu$$, 1, "second test"}, 0, 6, 0.01, ImageSize -> Tiny, 
+         Appearance -> "Labeled"}}, 
+      "Options" :> {
+       ControlPlacement -> Left, AutorunSequencing -> {1, 2, 5, 6}, 
+        SynchronousUpdating -> False, TrackedSymbols -> True}, 
+      "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{575., {212., 218.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`auc[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := CDF[
+         NormalDistribution[
+         0, 1], ($CellContext`\[Mu]D - $CellContext`\[Mu]H)/
+         Sqrt[$CellContext`\[Sigma]D^2 + $CellContext`\[Sigma]H^2 + 
+          2 $CellContext`u^2]], 
+       Attributes[PlotRange] = {ReadProtected}, $CellContext`rcAUC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := -(((
+           Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - $CellContext`\
+\[Mu]H))/(
+         E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+           2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) (
+           2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2))), $CellContext`rcAOC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((
+          Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - \
+$CellContext`\[Mu]H))/(
+        E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+          2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) (
+          2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2)), $CellContext`rrcAUC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          
+          Blank[]]] := -((((2 
+            Sqrt[2/Pi]) $CellContext`u) ($CellContext`\[Mu]D - $CellContext`\
+\[Mu]H))/(
+         E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+           2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) ((
+            2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2) 
+          Erfc[-(($CellContext`\[Mu]D - $CellContext`\[Mu]H)/(Sqrt[2] 
+             Sqrt[2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + \
+$CellContext`\[Sigma]H^2]))]))), $CellContext`rrcAOC[
+         Pattern[$CellContext`\[Mu]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Mu]H, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]D, 
+          Blank[]], 
+         Pattern[$CellContext`\[Sigma]H, 
+          Blank[]], 
+         Pattern[$CellContext`u, 
+          Blank[]]] := ((
+          Sqrt[2/Pi] $CellContext`u) ($CellContext`\[Mu]D - \
+$CellContext`\[Mu]H))/(
+        E^(($CellContext`\[Mu]D - $CellContext`\[Mu]H)^2/(
+          2 (2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2))) ((
+           2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + $CellContext`\
+\[Sigma]H^2)^(3/2) (1 - (1/2) 
+          Erfc[-(($CellContext`\[Mu]D - $CellContext`\[Mu]H)/(Sqrt[2] 
+             Sqrt[2 $CellContext`u^2 + $CellContext`\[Sigma]D^2 + \
+$CellContext`\[Sigma]H^2]))])))}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{3.82436192380294*^9},
+ CellID->711199176,ExpressionUUID->"367ad00a-b7fa-4793-9823-e2062a2f2ba3"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Details", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{{3.8243534066574497`*^9, 3.824353415146681*^9}, 
+   3.8243663881205864`*^9},
+ CellTags->"Details",ExpressionUUID->"23bfe302-2119-431b-a015-7ac8c8d9115b"],
+
+Cell["\<\
+The ROC curves are used in the evaluation of the clinical accuracy of a \
+diagnostic test applied to diseased and nondiseased populations. An ROC curve \
+is a plot of the sensitivity of a test versus 1-specificity. Sensitivity is \
+the fraction of the diseased population with a positive test while \
+specificity is the fraction of the nondiseased population with a negative \
+test. Therefore, the ROC plots the true positive fraction versus the false \
+positive fraction. Furthermore, the area under an ROC curve is used as an \
+index of the diagnostic accuracy of the respective test. The area under the \
+curve decreases as the uncertainty of measurement of the diagnostic test \
+increases [1].\
+\>", "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.3899219850842*^9, 3.3899219857082*^9}, {
+   3.3899229576038*^9, 3.3899231398898*^9}, {3.3899234822474003`*^9, 
+   3.3899235308101997`*^9}, {3.390004047578287*^9, 3.390004138729087*^9}, 
+   3.390004312793887*^9, {3.3900070051810865`*^9, 3.390007034602687*^9}, {
+   3.390007332280687*^9, 3.390007332499087*^9}, {3.3900180877012815`*^9, 
+   3.390018105607029*^9}, {3.3900181380236416`*^9, 3.3900181651125937`*^9}, {
+   3.390018199672288*^9, 3.3900182456684275`*^9}, {3.390018285475667*^9, 
+   3.39001835444484*^9}, {3.3900204953933725`*^9, 3.3900205431019745`*^9}, {
+   3.3900921859120865`*^9, 3.390092269574887*^9}, 3.3900924831544867`*^9, {
+   3.3901373470041676`*^9, 3.3901373490510426`*^9}, {3.3901440184416676`*^9, 
+   3.3901440220354176`*^9}, {3.3903561991414595`*^9, 3.390356203478259*^9}, {
+   3.390358739212459*^9, 3.390358925289259*^9}, {3.390358981948459*^9, 
+   3.390358992244459*^9}, {3.390359027063659*^9, 3.390359047468459*^9}, {
+   3.3903591380732594`*^9, 3.3903591848732595`*^9}, {3.3903592229996595`*^9, 
+   3.3903592463372593`*^9}, 3.390359333697259*^9, {3.3903596274764595`*^9, 
+   3.3903596315324593`*^9}, {3.390360014808859*^9, 3.3903600827468596`*^9}, 
+   3.3903601191884594`*^9, {3.3903609680972595`*^9, 3.3903609711548595`*^9}, {
+   3.407158317882*^9, 3.4071583252019997`*^9}, {3.407158559557*^9, 
+   3.407158599035*^9}, {3.407160413891*^9, 3.4071604420889997`*^9}, {
+   3.407332519395216*^9, 3.407332533687839*^9}, {3.4083363537490754`*^9, 
+   3.4083363537580757`*^9}, 3.4450117576362796`*^9, {3.4484074114721746`*^9, 
+   3.448407431812208*^9}, {3.4484074804770746`*^9, 3.448407541678194*^9}, {
+   3.4484075755205774`*^9, 3.4484076481238375`*^9}, {3.448408093326353*^9, 
+   3.448408124558476*^9}, 3.4484081826322827`*^9, {3.448408222835303*^9, 
+   3.4484082274527645`*^9}, {3.448408259118931*^9, 3.448408270126031*^9}, {
+   3.4484605070734787`*^9, 3.448460594415212*^9}, {3.44846063559933*^9, 
+   3.448460646378408*^9}, {3.4484989625070276`*^9, 3.448499109393715*^9}, {
+   3.4484991804378185`*^9, 3.448499268200594*^9}, {3.448499300923866*^9, 
+   3.4484993608447347`*^9}, {3.4485002661637344`*^9, 
+   3.4485002672207346`*^9}, {3.448500643664735*^9, 3.448500723018735*^9}, {
+   3.448500999565735*^9, 3.4485009999657345`*^9}, {3.4485010954817343`*^9, 
+   3.4485012072767344`*^9}, {3.4485012564767346`*^9, 3.448501275553735*^9}, {
+   3.4485013127537346`*^9, 3.4485013289897346`*^9}, {3.4485017788597345`*^9, 
+   3.448501825525735*^9}, 3.448503734839243*^9, {3.4485038727060285`*^9, 
+   3.448503873856144*^9}, 3.4485042164503994`*^9, {3.448512308903714*^9, 
+   3.448512328940714*^9}, {3.448512359039714*^9, 3.448512410774714*^9}, {
+   3.448761381495547*^9, 3.4487614506165466`*^9}, {3.448761515893547*^9, 
+   3.448761544691547*^9}, 3.448761817103547*^9, {3.4487618545175467`*^9, 
+   3.448761990949547*^9}, {3.448762025987547*^9, 3.448762026947547*^9}, {
+   3.448762064547547*^9, 3.4487620856255465`*^9}, 3.448762126300927*^9, {
+   3.448762211453411*^9, 3.4487622242861276`*^9}, {3.448843901788642*^9, 
+   3.448843902281741*^9}, {3.4488924822031717`*^9, 3.4488925300175076`*^9}, {
+   3.448892598847607*^9, 3.448892600285135*^9}, {3.4489317155933733`*^9, 
+   3.448931716523373*^9}, {3.7518973497533913`*^9, 3.7518973637253914`*^9}, {
+   3.751897713050391*^9, 3.7518977225623913`*^9}, {3.751898602946391*^9, 
+   3.751898832443391*^9}, {3.7518991393793907`*^9, 3.7518991404673967`*^9}, {
+   3.751899178709391*^9, 3.751899178709391*^9}, {3.7519035964425445`*^9, 
+   3.751903596504545*^9}, 3.7519037260135393`*^9, {3.75190380054088*^9, 
+   3.7519038659898806`*^9}, {3.7519422435074043`*^9, 
+   3.7519422535234036`*^9}, {3.751949033693924*^9, 3.751949033719924*^9}, {
+   3.751984528881998*^9, 3.751984532001004*^9}, 3.7520191638438854`*^9, {
+   3.7520192102268915`*^9, 3.752019261207885*^9}, {3.752019512535886*^9, 
+   3.752019544415891*^9}, 3.752021043490887*^9, {3.752022348570407*^9, 
+   3.7520223772104115`*^9}, {3.752048391585725*^9, 3.752048410216724*^9}, {
+   3.7520852096686983`*^9, 3.752085233443694*^9}, {3.7520853561636934`*^9, 
+   3.7520853679556923`*^9}, {3.752118014315685*^9, 3.752118085222679*^9}, {
+   3.752594782928288*^9, 3.752594876823494*^9}, 3.7525952563577414`*^9, {
+   3.7525978291075983`*^9, 3.7525978367730637`*^9}, 3.753120259449605*^9, 
+   3.8243663881205864`*^9},
+ CellID->107142632,ExpressionUUID->"0f641cd3-ff61-42e6-a338-cb6aae9bcff4"],
+
+Cell[TextData[{
+ "Assuming ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"AUC", 
+    RowBox[{"(", "u", ")"}]}], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "6e4c1f69-fddd-40c9-af77-6a709238031d"],
+ " is the area under an ROC curve and",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{" ", 
+    RowBox[{"AOC", 
+     RowBox[{"(", "u", ")"}]}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"c41c791b-bdb1-42e2-90a0-1ad10a105498"],
+ " is the area over the ROC curve for an uncertainty of measurement ",
+ Cell[BoxData[
+  FormBox["u", TraditionalForm]], "InlineMath",ExpressionUUID->
+  "174e607b-d48c-472b-a91c-7da333ac23d3"],
+ ", the changes ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", 
+    RowBox[{"(", 
+     RowBox[{"AUC", 
+      RowBox[{"(", "u", ")"}]}], ")"}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"d1a6a194-8e36-4616-89fc-43f79d3ee7ab"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", 
+    RowBox[{"(", 
+     RowBox[{"AOC", 
+      RowBox[{"(", "u", ")"}]}], ")"}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"c4d79125-31f9-43eb-9ea0-4091cb92c2f5"],
+ " are defined as ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"AUC", 
+     RowBox[{"(", "u", ")"}]}], "-", 
+    RowBox[{"AUC", 
+     RowBox[{"(", "0", ")"}]}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"ebda119f-f2d7-49c7-a607-e1c544068edb"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"AOC", 
+     RowBox[{"(", "u", ")"}]}], "-", 
+    RowBox[{"AOC", 
+     RowBox[{"(", "0", ")"}]}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"06a6dd31-4314-43d8-bdf5-fdbf4c37b074"],
+ ", the relative changes as ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"AUC", 
+       RowBox[{"(", "u", ")"}]}], ")"}], "/", "AUC"}], 
+    RowBox[{"(", "0", ")"}]}], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "704a1c81-90db-4b2e-8eea-ea15882468bc"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"AOC", 
+       RowBox[{"(", "u", ")"}]}], ")"}], "/", "AOC"}], 
+    RowBox[{"(", "0", ")"}]}], TraditionalForm]], "InlineMath",ExpressionUUID->
+  "cb941384-4749-4b3d-8e58-f50b87dff464"],
+ ", the rates of change as ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[PartialD]", "u"], 
+    RowBox[{"AUC", "(", "u", ")"}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"b4659f2a-10e7-47e4-9189-412bf04c87fd"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[PartialD]", "u"], 
+    RowBox[{"AOC", "(", "u", ")"}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"4f7a2bdb-f332-4f1a-bf66-9487c955fd22"],
+ ", and the relative rates of change as ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["\[PartialD]", "u"], 
+     RowBox[{"AUC", "(", "u", ")"}]}], "/", 
+    RowBox[{"AUC", "(", "u", ")"}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"2dc59161-128c-4769-9870-07461c3c7b78"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["\[PartialD]", "u"], 
+     RowBox[{"AOC", "(", "u", ")"}]}], "/", 
+    RowBox[{"AOC", "(", "u", ")"}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"529f3ffc-33d6-4e83-b378-663c4512417d"],
+ ", respectively."
+}], "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.3899219850842*^9, 3.3899219857082*^9}, {
+   3.3899229576038*^9, 3.3899231398898*^9}, {3.3899234822474003`*^9, 
+   3.3899235308101997`*^9}, {3.390004047578287*^9, 3.390004138729087*^9}, 
+   3.390004312793887*^9, {3.3900070051810865`*^9, 3.390007034602687*^9}, {
+   3.390007332280687*^9, 3.390007332499087*^9}, {3.3900180877012815`*^9, 
+   3.390018105607029*^9}, {3.3900181380236416`*^9, 3.3900181651125937`*^9}, {
+   3.390018199672288*^9, 3.3900182456684275`*^9}, {3.390018285475667*^9, 
+   3.39001835444484*^9}, {3.3900204953933725`*^9, 3.3900205431019745`*^9}, {
+   3.3900921859120865`*^9, 3.390092269574887*^9}, 3.3900924831544867`*^9, {
+   3.3901373470041676`*^9, 3.3901373490510426`*^9}, {3.3901440184416676`*^9, 
+   3.3901440220354176`*^9}, {3.3903561991414595`*^9, 3.390356203478259*^9}, {
+   3.390358739212459*^9, 3.390358925289259*^9}, {3.390358981948459*^9, 
+   3.390358992244459*^9}, {3.390359027063659*^9, 3.390359047468459*^9}, {
+   3.3903591380732594`*^9, 3.3903591848732595`*^9}, {3.3903592229996595`*^9, 
+   3.3903592463372593`*^9}, 3.390359333697259*^9, {3.3903596274764595`*^9, 
+   3.3903596315324593`*^9}, {3.390360014808859*^9, 3.3903600827468596`*^9}, 
+   3.3903601191884594`*^9, {3.3903609680972595`*^9, 3.3903609711548595`*^9}, {
+   3.407158317882*^9, 3.4071583252019997`*^9}, {3.407158559557*^9, 
+   3.407158599035*^9}, {3.407160413891*^9, 3.4071604420889997`*^9}, {
+   3.407332519395216*^9, 3.407332533687839*^9}, {3.4083363537490754`*^9, 
+   3.4083363537580757`*^9}, 3.4450117576362796`*^9, {3.4484074114721746`*^9, 
+   3.448407431812208*^9}, {3.4484074804770746`*^9, 3.448407541678194*^9}, {
+   3.4484075755205774`*^9, 3.4484076481238375`*^9}, {3.448408093326353*^9, 
+   3.448408124558476*^9}, 3.4484081826322827`*^9, {3.448408222835303*^9, 
+   3.4484082274527645`*^9}, {3.448408259118931*^9, 3.448408270126031*^9}, {
+   3.4484605070734787`*^9, 3.448460594415212*^9}, {3.44846063559933*^9, 
+   3.448460646378408*^9}, {3.4484989625070276`*^9, 3.448499109393715*^9}, {
+   3.4484991804378185`*^9, 3.448499268200594*^9}, {3.448499300923866*^9, 
+   3.4484993608447347`*^9}, {3.4485002661637344`*^9, 
+   3.4485002672207346`*^9}, {3.448500643664735*^9, 3.448500723018735*^9}, {
+   3.448500999565735*^9, 3.4485009999657345`*^9}, {3.4485010954817343`*^9, 
+   3.4485012072767344`*^9}, {3.4485012564767346`*^9, 3.448501275553735*^9}, {
+   3.4485013127537346`*^9, 3.4485013289897346`*^9}, {3.4485017788597345`*^9, 
+   3.448501825525735*^9}, 3.448503734839243*^9, {3.4485038727060285`*^9, 
+   3.448503873856144*^9}, 3.4485042164503994`*^9, {3.448512308903714*^9, 
+   3.448512328940714*^9}, {3.448512359039714*^9, 3.448512410774714*^9}, {
+   3.448761381495547*^9, 3.4487614506165466`*^9}, {3.448761515893547*^9, 
+   3.448761544691547*^9}, 3.448761817103547*^9, {3.4487618545175467`*^9, 
+   3.448761990949547*^9}, {3.448762025987547*^9, 3.448762026947547*^9}, {
+   3.448762064547547*^9, 3.4487620856255465`*^9}, 3.448762126300927*^9, {
+   3.448762211453411*^9, 3.4487622242861276`*^9}, {3.448843901788642*^9, 
+   3.448843902281741*^9}, {3.4488924822031717`*^9, 3.4488925300175076`*^9}, {
+   3.448892598847607*^9, 3.448892600285135*^9}, {3.4489317155933733`*^9, 
+   3.448931716523373*^9}, {3.7518973497533913`*^9, 3.751897353849391*^9}, 
+   3.7518991814793916`*^9, {3.7518993106023912`*^9, 3.7518994640983915`*^9}, {
+   3.7518995647063913`*^9, 3.7518995886663914`*^9}, {3.7519043671178856`*^9, 
+   3.751904425677885*^9}, {3.751904507941886*^9, 3.751904528561882*^9}, {
+   3.7519045608698807`*^9, 3.7519047166378856`*^9}, {3.7519047627048855`*^9, 
+   3.751904960057993*^9}, {3.751904997958988*^9, 3.751905140761993*^9}, {
+   3.7519056169359927`*^9, 3.7519056350239897`*^9}, {3.7519056856559877`*^9, 
+   3.751905719215988*^9}, {3.7519057497999887`*^9, 3.7519057657759876`*^9}, 
+   3.751906103936989*^9, {3.7519425014334044`*^9, 3.7519425372784085`*^9}, {
+   3.7519425742594037`*^9, 3.7519426426944084`*^9}, {3.751942683837409*^9, 
+   3.7519427440974035`*^9}, 3.751949053761924*^9, {3.7519845615579977`*^9, 
+   3.751984570107003*^9}, {3.7519846006389985`*^9, 3.7519846297389984`*^9}, {
+   3.751984852658998*^9, 3.751984889355999*^9}, {3.7520210636548853`*^9, 
+   3.752021064466886*^9}, {3.7520211123628855`*^9, 3.75202115436989*^9}, {
+   3.752021963156412*^9, 3.752021966450407*^9}, {3.7525949011850348`*^9, 
+   3.752594951692197*^9}, {3.7525949831498823`*^9, 3.7525950128747396`*^9}, 
+   3.8243663881205864`*^9},
+ CellID->335972811,ExpressionUUID->"2bc6c629-c5aa-472c-b274-79e055bb5e43"],
+
+Cell[TextData[{
+ "As ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"AOC", 
+     RowBox[{"(", "u", ")"}]}], "=", 
+    RowBox[{"1", "-", 
+     RowBox[{"AUC", 
+      RowBox[{"(", "u", ")"}]}]}]}], TraditionalForm]], "InlineMath",
+  ExpressionUUID->"6146cfdb-621c-4d4d-84ff-a83f36e54374"],
+ ", it can be considered that the area over the ROC curve is an index of \
+diagnostic inaccuracy. In fact, as the plots of this Demonstration show, the \
+relative change, the rate of change and the relative rate of change of the \
+area over an ROC curve versus the uncertainty of measurement are greater than \
+the absolute value of the respective measures of the area under the ROC curve \
+for the same populations. "
+}], "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.3899219850842*^9, 3.3899219857082*^9}, {
+   3.3899229576038*^9, 3.3899231398898*^9}, {3.3899234822474003`*^9, 
+   3.3899235308101997`*^9}, {3.390004047578287*^9, 3.390004138729087*^9}, 
+   3.390004312793887*^9, {3.3900070051810865`*^9, 3.390007034602687*^9}, {
+   3.390007332280687*^9, 3.390007332499087*^9}, {3.3900180877012815`*^9, 
+   3.390018105607029*^9}, {3.3900181380236416`*^9, 3.3900181651125937`*^9}, {
+   3.390018199672288*^9, 3.3900182456684275`*^9}, {3.390018285475667*^9, 
+   3.39001835444484*^9}, {3.3900204953933725`*^9, 3.3900205431019745`*^9}, {
+   3.3900921859120865`*^9, 3.390092269574887*^9}, 3.3900924831544867`*^9, {
+   3.3901373470041676`*^9, 3.3901373490510426`*^9}, {3.3901440184416676`*^9, 
+   3.3901440220354176`*^9}, {3.3903561991414595`*^9, 3.390356203478259*^9}, {
+   3.390358739212459*^9, 3.390358925289259*^9}, {3.390358981948459*^9, 
+   3.390358992244459*^9}, {3.390359027063659*^9, 3.390359047468459*^9}, {
+   3.3903591380732594`*^9, 3.3903591848732595`*^9}, {3.3903592229996595`*^9, 
+   3.3903592463372593`*^9}, 3.390359333697259*^9, {3.3903596274764595`*^9, 
+   3.3903596315324593`*^9}, {3.390360014808859*^9, 3.3903600827468596`*^9}, 
+   3.3903601191884594`*^9, {3.3903609680972595`*^9, 3.3903609711548595`*^9}, {
+   3.407158317882*^9, 3.4071583252019997`*^9}, {3.407158559557*^9, 
+   3.407158599035*^9}, {3.407160413891*^9, 3.4071604420889997`*^9}, {
+   3.407332519395216*^9, 3.407332533687839*^9}, {3.4083363537490754`*^9, 
+   3.4083363537580757`*^9}, 3.4450117576362796`*^9, {3.4484074114721746`*^9, 
+   3.448407431812208*^9}, {3.4484074804770746`*^9, 3.448407541678194*^9}, {
+   3.4484075755205774`*^9, 3.4484076481238375`*^9}, {3.448408093326353*^9, 
+   3.448408124558476*^9}, 3.4484081826322827`*^9, {3.448408222835303*^9, 
+   3.4484082274527645`*^9}, {3.448408259118931*^9, 3.448408270126031*^9}, {
+   3.4484605070734787`*^9, 3.448460594415212*^9}, {3.44846063559933*^9, 
+   3.448460646378408*^9}, {3.4484989625070276`*^9, 3.448499109393715*^9}, {
+   3.4484991804378185`*^9, 3.448499268200594*^9}, {3.448499300923866*^9, 
+   3.4484993608447347`*^9}, {3.4485002661637344`*^9, 
+   3.4485002672207346`*^9}, {3.448500643664735*^9, 3.448500723018735*^9}, {
+   3.448500999565735*^9, 3.4485009999657345`*^9}, {3.4485010954817343`*^9, 
+   3.4485012072767344`*^9}, {3.4485012564767346`*^9, 3.448501275553735*^9}, {
+   3.4485013127537346`*^9, 3.4485013289897346`*^9}, {3.4485017788597345`*^9, 
+   3.448501825525735*^9}, 3.448503734839243*^9, {3.4485038727060285`*^9, 
+   3.448503873856144*^9}, 3.4485042164503994`*^9, {3.448512308903714*^9, 
+   3.448512328940714*^9}, {3.448512359039714*^9, 3.448512410774714*^9}, {
+   3.448761381495547*^9, 3.4487614506165466`*^9}, {3.448761515893547*^9, 
+   3.448761544691547*^9}, 3.448761817103547*^9, {3.4487618545175467`*^9, 
+   3.448761990949547*^9}, {3.448762025987547*^9, 3.448762026947547*^9}, {
+   3.448762064547547*^9, 3.4487620856255465`*^9}, 3.448762126300927*^9, {
+   3.448762211453411*^9, 3.4487622242861276`*^9}, {3.448843901788642*^9, 
+   3.448843902281741*^9}, {3.4488924822031717`*^9, 3.4488925300175076`*^9}, {
+   3.448892598847607*^9, 3.448892600285135*^9}, {3.4489317155933733`*^9, 
+   3.448931716523373*^9}, {3.7518973497533913`*^9, 3.751897353849391*^9}, 
+   3.7518991814793916`*^9, {3.7518993106023912`*^9, 3.7518994640983915`*^9}, {
+   3.7518995647063913`*^9, 3.7518995886663914`*^9}, {3.7519043671178856`*^9, 
+   3.751904425677885*^9}, {3.751904507941886*^9, 3.751904528561882*^9}, {
+   3.7519045608698807`*^9, 3.7519047166378856`*^9}, {3.7519047627048855`*^9, 
+   3.751904960057993*^9}, {3.751904997958988*^9, 3.751905140761993*^9}, {
+   3.7519056169359927`*^9, 3.7519056350239897`*^9}, {3.7519056856559877`*^9, 
+   3.751905719215988*^9}, {3.7519057497999887`*^9, 3.7519057657759876`*^9}, 
+   3.751906103936989*^9, {3.7519425014334044`*^9, 3.7519425372784085`*^9}, {
+   3.7519425742594037`*^9, 3.7519426426944084`*^9}, {3.751942683837409*^9, 
+   3.751942745476409*^9}, {3.751942864139927*^9, 3.7519428736779275`*^9}, {
+   3.7519430522039332`*^9, 3.7519430592759323`*^9}, {3.751945739325924*^9, 
+   3.7519457844779243`*^9}, {3.751948917111924*^9, 3.7519489293599243`*^9}, {
+   3.7519491937919235`*^9, 3.751949202335924*^9}, {3.7519552840078835`*^9, 
+   3.751955284052884*^9}, 3.751955965701884*^9, {3.7519846684820037`*^9, 
+   3.7519846919620037`*^9}, 3.7520193891198854`*^9, {3.7520211953608913`*^9, 
+   3.752021214528886*^9}, {3.7520220032654123`*^9, 3.7520220080574064`*^9}, {
+   3.7520485028877244`*^9, 3.75204850391173*^9}, {3.752085429459693*^9, 
+   3.7520854793236933`*^9}, {3.752085568115698*^9, 3.752085568907694*^9}, {
+   3.7523759425954256`*^9, 3.752375959482426*^9}, {3.752376315846427*^9, 
+   3.7523763548114257`*^9}, {3.7523771073404317`*^9, 3.7523771185954266`*^9}, 
+   3.7523771868194323`*^9, {3.752595022415966*^9, 3.7525950551090927`*^9}, 
+   3.753119651723749*^9, 3.8243663881205864`*^9},
+ CellID->305937259,ExpressionUUID->"934eb1a0-e681-4183-8ba1-4bf2ba8868f8"],
+
+Cell["\<\
+To the best of the author's knowledge, measures of the area over the ROC \
+curve versus the uncertainty of measurement have not been discussed in the \
+literature except for [2].\
+\>", "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.3899219850842*^9, 3.3899219857082*^9}, {
+   3.3899229576038*^9, 3.3899231398898*^9}, {3.3899234822474003`*^9, 
+   3.3899235308101997`*^9}, {3.390004047578287*^9, 3.390004138729087*^9}, 
+   3.390004312793887*^9, {3.3900070051810865`*^9, 3.390007034602687*^9}, {
+   3.390007332280687*^9, 3.390007332499087*^9}, {3.3900180877012815`*^9, 
+   3.390018105607029*^9}, {3.3900181380236416`*^9, 3.3900181651125937`*^9}, {
+   3.390018199672288*^9, 3.3900182456684275`*^9}, {3.390018285475667*^9, 
+   3.39001835444484*^9}, {3.3900204953933725`*^9, 3.3900205431019745`*^9}, {
+   3.3900921859120865`*^9, 3.390092269574887*^9}, 3.3900924831544867`*^9, {
+   3.3901373470041676`*^9, 3.3901373490510426`*^9}, {3.3901440184416676`*^9, 
+   3.3901440220354176`*^9}, {3.3903561991414595`*^9, 3.390356203478259*^9}, {
+   3.390358739212459*^9, 3.390358925289259*^9}, {3.390358981948459*^9, 
+   3.390358992244459*^9}, {3.390359027063659*^9, 3.390359047468459*^9}, {
+   3.3903591380732594`*^9, 3.3903591848732595`*^9}, {3.3903592229996595`*^9, 
+   3.3903592463372593`*^9}, 3.390359333697259*^9, {3.3903596274764595`*^9, 
+   3.3903596315324593`*^9}, {3.390360014808859*^9, 3.3903600827468596`*^9}, 
+   3.3903601191884594`*^9, {3.3903609680972595`*^9, 3.3903609711548595`*^9}, {
+   3.407158317882*^9, 3.4071583252019997`*^9}, {3.407158559557*^9, 
+   3.407158599035*^9}, {3.407160413891*^9, 3.4071604420889997`*^9}, {
+   3.407332519395216*^9, 3.407332533687839*^9}, {3.4083363537490754`*^9, 
+   3.4083363537580757`*^9}, 3.4450117576362796`*^9, {3.4484074114721746`*^9, 
+   3.448407431812208*^9}, {3.4484074804770746`*^9, 3.448407541678194*^9}, {
+   3.4484075755205774`*^9, 3.4484076481238375`*^9}, {3.448408093326353*^9, 
+   3.448408124558476*^9}, 3.4484081826322827`*^9, {3.448408222835303*^9, 
+   3.4484082274527645`*^9}, {3.448408259118931*^9, 3.448408270126031*^9}, {
+   3.4484605070734787`*^9, 3.448460594415212*^9}, {3.44846063559933*^9, 
+   3.448460646378408*^9}, {3.4484989625070276`*^9, 3.448499109393715*^9}, {
+   3.4484991804378185`*^9, 3.448499268200594*^9}, {3.448499300923866*^9, 
+   3.4484993608447347`*^9}, {3.4485002661637344`*^9, 
+   3.4485002672207346`*^9}, {3.448500643664735*^9, 3.448500723018735*^9}, {
+   3.448500999565735*^9, 3.4485009999657345`*^9}, {3.4485010954817343`*^9, 
+   3.4485012072767344`*^9}, {3.4485012564767346`*^9, 3.448501275553735*^9}, {
+   3.4485013127537346`*^9, 3.4485013289897346`*^9}, {3.4485017788597345`*^9, 
+   3.448501825525735*^9}, 3.448503734839243*^9, {3.4485038727060285`*^9, 
+   3.448503873856144*^9}, 3.4485042164503994`*^9, {3.448512308903714*^9, 
+   3.448512328940714*^9}, {3.448512359039714*^9, 3.448512410774714*^9}, {
+   3.448761381495547*^9, 3.4487614506165466`*^9}, {3.448761515893547*^9, 
+   3.448761544691547*^9}, 3.448761817103547*^9, {3.4487618545175467`*^9, 
+   3.448761990949547*^9}, {3.448762025987547*^9, 3.448762026947547*^9}, {
+   3.448762064547547*^9, 3.4487620856255465`*^9}, 3.448762126300927*^9, {
+   3.448762211453411*^9, 3.4487622242861276`*^9}, {3.448843901788642*^9, 
+   3.448843902281741*^9}, {3.4488924822031717`*^9, 3.4488925300175076`*^9}, {
+   3.448892598847607*^9, 3.448892600285135*^9}, {3.4489317155933733`*^9, 
+   3.448931716523373*^9}, {3.7518973497533913`*^9, 3.751897353849391*^9}, 
+   3.7518991814793916`*^9, {3.7518993106023912`*^9, 3.7518994640983915`*^9}, {
+   3.7518995647063913`*^9, 3.7518995886663914`*^9}, {3.7519043671178856`*^9, 
+   3.751904425677885*^9}, {3.751904507941886*^9, 3.751904528561882*^9}, {
+   3.7519045608698807`*^9, 3.7519047166378856`*^9}, {3.7519047627048855`*^9, 
+   3.751904960057993*^9}, {3.751904997958988*^9, 3.751905140761993*^9}, {
+   3.7519056169359927`*^9, 3.7519056350239897`*^9}, {3.7519056856559877`*^9, 
+   3.751905719215988*^9}, {3.7519057497999887`*^9, 3.7519057657759876`*^9}, 
+   3.751906103936989*^9, {3.7519425014334044`*^9, 3.7519425372784085`*^9}, {
+   3.7519425742594037`*^9, 3.7519426426944084`*^9}, {3.751942683837409*^9, 
+   3.751942745476409*^9}, {3.751942864139927*^9, 3.7519428736779275`*^9}, {
+   3.7519430522039332`*^9, 3.7519430592759323`*^9}, {3.751945739325924*^9, 
+   3.7519457844779243`*^9}, {3.751948917111924*^9, 3.7519489293599243`*^9}, {
+   3.7519491937919235`*^9, 3.751949202335924*^9}, {3.751955285860884*^9, 
+   3.751955301748884*^9}, {3.751955464276884*^9, 3.7519555184288845`*^9}, {
+   3.7519555499428835`*^9, 3.7519556463408833`*^9}, {3.7519558199728837`*^9, 
+   3.751955822292884*^9}, {3.751984705137004*^9, 3.7519847108250036`*^9}, {
+   3.7520212815848904`*^9, 3.7520212836888905`*^9}, {3.7520656653433523`*^9, 
+   3.7520656657343564`*^9}, {3.7520663130954266`*^9, 
+   3.7520663485674267`*^9}, {3.7520664048314266`*^9, 3.752066422895427*^9}, {
+   3.75237233075257*^9, 3.7523723716395755`*^9}, {3.7523728027235713`*^9, 
+   3.75237282656857*^9}, {3.7523730951035705`*^9, 3.7523731139525704`*^9}, {
+   3.752378088915448*^9, 3.7523780911234465`*^9}, {3.7523782008734474`*^9, 
+   3.7523782167154484`*^9}, {3.752595062781818*^9, 3.752595068485498*^9}, 
+   3.7531203297486343`*^9, 3.8243663881205864`*^9},
+ CellID->593204738,ExpressionUUID->"8594c57c-2e73-4226-9928-2a4910233acf"],
+
+Cell["\<\
+The area over the ROC curve could be used in the evaluation of a diagnostic \
+test as a diagnostic inaccuracy index. For example, in the thumbnail and the \
+snapshots, the population data describes a bimodal distribution of serum \
+glucose on a nondiabetic and a diabetic population [3].\
+\>", "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.3899219850842*^9, 3.3899219857082*^9}, {
+   3.3899229576038*^9, 3.3899231398898*^9}, {3.3899234822474003`*^9, 
+   3.3899235308101997`*^9}, {3.390004047578287*^9, 3.390004138729087*^9}, 
+   3.390004312793887*^9, {3.3900070051810865`*^9, 3.390007034602687*^9}, {
+   3.390007332280687*^9, 3.390007332499087*^9}, {3.3900180877012815`*^9, 
+   3.390018105607029*^9}, {3.3900181380236416`*^9, 3.3900181651125937`*^9}, {
+   3.390018199672288*^9, 3.3900182456684275`*^9}, {3.390018285475667*^9, 
+   3.39001835444484*^9}, {3.3900204953933725`*^9, 3.3900205431019745`*^9}, {
+   3.3900921859120865`*^9, 3.390092269574887*^9}, 3.3900924831544867`*^9, {
+   3.3901373470041676`*^9, 3.3901373490510426`*^9}, {3.3901440184416676`*^9, 
+   3.3901440220354176`*^9}, {3.3903561991414595`*^9, 3.390356203478259*^9}, {
+   3.390358739212459*^9, 3.390358925289259*^9}, {3.390358981948459*^9, 
+   3.390358992244459*^9}, {3.390359027063659*^9, 3.390359047468459*^9}, {
+   3.3903591380732594`*^9, 3.3903591848732595`*^9}, {3.3903592229996595`*^9, 
+   3.3903592463372593`*^9}, 3.390359333697259*^9, {3.3903596274764595`*^9, 
+   3.3903596315324593`*^9}, {3.390360014808859*^9, 3.3903600827468596`*^9}, 
+   3.3903601191884594`*^9, {3.3903609680972595`*^9, 3.3903609711548595`*^9}, {
+   3.407158317882*^9, 3.4071583252019997`*^9}, {3.407158559557*^9, 
+   3.407158599035*^9}, {3.407160413891*^9, 3.4071604420889997`*^9}, {
+   3.407332519395216*^9, 3.407332533687839*^9}, {3.4083363537490754`*^9, 
+   3.4083363537580757`*^9}, 3.4450117576362796`*^9, {3.4484074114721746`*^9, 
+   3.448407431812208*^9}, {3.4484074804770746`*^9, 3.448407541678194*^9}, {
+   3.4484075755205774`*^9, 3.4484076481238375`*^9}, {3.448408093326353*^9, 
+   3.448408124558476*^9}, 3.4484081826322827`*^9, {3.448408222835303*^9, 
+   3.4484082274527645`*^9}, {3.448408259118931*^9, 3.448408270126031*^9}, {
+   3.4484605070734787`*^9, 3.448460594415212*^9}, {3.44846063559933*^9, 
+   3.448460646378408*^9}, {3.4484989625070276`*^9, 3.448499109393715*^9}, {
+   3.4484991804378185`*^9, 3.448499268200594*^9}, {3.448499300923866*^9, 
+   3.4484993608447347`*^9}, {3.4485002661637344`*^9, 
+   3.4485002672207346`*^9}, {3.448500643664735*^9, 3.448500723018735*^9}, {
+   3.448500999565735*^9, 3.4485009999657345`*^9}, {3.4485010954817343`*^9, 
+   3.4485012072767344`*^9}, {3.4485012564767346`*^9, 3.448501275553735*^9}, {
+   3.4485013127537346`*^9, 3.4485013289897346`*^9}, {3.4485017788597345`*^9, 
+   3.448501825525735*^9}, 3.448503734839243*^9, {3.4485038727060285`*^9, 
+   3.448503873856144*^9}, 3.4485042164503994`*^9, {3.448512308903714*^9, 
+   3.448512328940714*^9}, {3.448512359039714*^9, 3.448512410774714*^9}, {
+   3.448761381495547*^9, 3.4487614506165466`*^9}, {3.448761515893547*^9, 
+   3.448761544691547*^9}, 3.448761817103547*^9, {3.4487618545175467`*^9, 
+   3.448761990949547*^9}, {3.448762025987547*^9, 3.448762026947547*^9}, {
+   3.448762064547547*^9, 3.4487620856255465`*^9}, 3.448762126300927*^9, {
+   3.448762211453411*^9, 3.4487622242861276`*^9}, {3.448843901788642*^9, 
+   3.448843902281741*^9}, {3.4488924822031717`*^9, 3.448892483937613*^9}, {
+   3.448892535767728*^9, 3.4488925584092226`*^9}, {3.4488926009882736`*^9, 
+   3.448892601691412*^9}, 3.4489317192683735`*^9, {3.7517028928864827`*^9, 
+   3.7517028983424883`*^9}, 3.7518751842231035`*^9, {3.751897380545391*^9, 
+   3.7518974223453913`*^9}, {3.7519061192549877`*^9, 
+   3.7519061307909937`*^9}, {3.7519431301159325`*^9, 3.751943179763933*^9}, {
+   3.7519457201759233`*^9, 3.751945724357924*^9}, {3.7519556590608835`*^9, 
+   3.7519556818838916`*^9}, {3.751955720444884*^9, 3.751955802332884*^9}, 
+   3.751955837773884*^9, {3.7519847551860037`*^9, 3.7519848032650037`*^9}, {
+   3.7520213114248915`*^9, 3.7520213206648855`*^9}, {3.752023364905965*^9, 
+   3.752023365673966*^9}, {3.7520636432549753`*^9, 3.7520636633819704`*^9}, {
+   3.75206377193497*^9, 3.75206379615797*^9}, 3.7520638885019703`*^9, 
+   3.752063930077972*^9, {3.7520640829099703`*^9, 3.752064094029971*^9}, {
+   3.7520670021674266`*^9, 3.752067002592433*^9}, {3.75237238379257*^9, 
+   3.75237238430457*^9}, 3.752595083853863*^9, 3.7525952595517597`*^9, {
+   3.753119668766157*^9, 3.7531196824558945`*^9}, 3.8243663881205864`*^9},
+ CellID->4072355,ExpressionUUID->"07fb2694-bfd8-446b-9cd0-3a0f54e54c4f"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["References", "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.7519038694328804`*^9, 3.7519038694378805`*^9}, 
+   3.7519552657168837`*^9, 3.752595088455492*^9, 3.8243619858841763`*^9},
+ CellID->24383986,ExpressionUUID->"08fde6bc-3035-4d7a-bb66-bd6397766ca6"],
+
+Cell[TextData[{
+ "[1] A. T. Hatjimihail. \"Receiver Operating Characteristic Curves and \
+Uncertainty of Measurement\" from the Wolfram Demonstrations Project\
+\[LongDash]A Wolfram Web Resource. ",
+ ButtonBox["demonstrations.wolfram.com/\
+ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/\
+ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure/"], None},
+  ButtonNote->
+   "http://demonstrations.wolfram.com/\
+ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure/"],
+ "."
+}], "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.7519039487298803`*^9, 3.7519039605898857`*^9}, 
+   3.752021515433407*^9, {3.752372391910571*^9, 3.7523723920265703`*^9}, {
+   3.7525951092375307`*^9, 3.7525951156157503`*^9}, 3.8243619858841763`*^9},
+ CellID->405299277,ExpressionUUID->"cee5d885-7a5a-4afa-841b-898146e5ffeb"],
+
+Cell[TextData[{
+ "[2] A. T. Hatjimihail. \"Uncertainty of Measurement and Areas Over and \
+Under the ROC Curves\" from the Wolfram Demonstrations Project\[LongDash]A \
+Wolfram Web Resource. ",
+ ButtonBox["demonstrations.wolfram.com/\
+UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/\
+UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves/"], None},
+  ButtonNote->
+   "http://demonstrations.wolfram.com/\
+UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves/"],
+ "."
+}], "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.7519039487298803`*^9, 3.7519039605898857`*^9}, 
+   3.752021515433407*^9, {3.752372407800572*^9, 3.7523724335155697`*^9}, {
+   3.75237261696157*^9, 3.7523726200245695`*^9}, 3.7523729611485696`*^9, {
+   3.752378065203447*^9, 3.752378068443446*^9}, 3.752595134168202*^9, 
+   3.8243619858841763`*^9},
+ CellID->367631313,ExpressionUUID->"ccb2eea8-7320-40fd-84fc-7f827b93b23a"],
+
+Cell[TextData[{
+ "[3] T.-O. Lim, R. Bakri, Z. Morad and M. A. Hamid, \"Bimodality in Blood \
+Glucose Distribution\[LongDash]Is It Universal?,\" ",
+ StyleBox["Diabetes Care,",
+  FontSlant->"Italic"],
+ " ",
+ StyleBox["25",
+  FontWeight->"Bold"],
+ "(12), 2002 pp. 2212\[Dash]2217. ",
+ ButtonBox["doi:10.2337/diacare.25.12.2212",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://doi.org/10.2337/diacare.25.12.2212"], None},
+  ButtonNote->"https://doi.org/10.2337/diacare.25.12.2212"],
+ "."
+}], "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.7519039487298803`*^9, 3.7519039605898857`*^9}, 
+   3.752021515433407*^9, {3.752372407800572*^9, 3.7523724335155697`*^9}, {
+   3.75237261696157*^9, 3.7523726200245695`*^9}, 3.7523729655605707`*^9, 
+   3.75259514320289*^9, 3.8243619858841763`*^9},
+ CellID->250923407,ExpressionUUID->"e0a532b4-b2cc-4c23-97f8-96ed87aaa928"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Keywords", "Section"]], "Section",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{{3.8243534066574497`*^9, 3.824353415146681*^9}, {
+   3.8243534795559416`*^9, 3.824353485732515*^9}, {3.824353534558292*^9, 
+   3.8243535363089743`*^9}, {3.8243542740185456`*^9, 3.824354287234497*^9}, 
+   3.824362032477103*^9},
+ CellTags->"Details",ExpressionUUID->"02bfe67e-dd8f-4199-a5d7-bcc7a11a5662"],
+
+Cell["\<\
+receiver operating characteristic curves
+ROC curves
+uncertainty of measurement
+sensitivity
+specificity
+diagnostic test
+clinical accuracy
+diagnostic accuracy
+diagnostic inaccuracy
+normal distribution
+binormal distribution
+area under ROC curves
+area over ROC curves
+AUC
+AOC
+relative change
+rate of change
+relative rate of change\
+\>", "Text",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.4485125650887136`*^9, 3.4485125830887136`*^9}, {
+   3.4487623104745083`*^9, 3.44876237194836*^9}, {3.448931101871373*^9, 
+   3.448931125375373*^9}, {3.4531213813471837`*^9, 3.4531213813721857`*^9}, {
+   3.8243620219598937`*^9, 3.824362032477103*^9}},
+ CellID->439892608,ExpressionUUID->"53f498cb-b40f-4ca0-a75c-a0751d5e7577"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Related Links", "Section",
+ CellChangeTimes->{3.8243620513814793`*^9},
+ CellTags->
+  "Related Links",ExpressionUUID->"a50a9970-ac93-449f-a418-4627c0268939"],
+
+Cell[TextData[ButtonBox["Receiver Operating Characteristic Curves and \
+Uncertainty of Measurement",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://demonstrations.wolfram.com/\
+ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure/"], None},
+ ButtonNote->
+  "http://demonstrations.wolfram.com/\
+ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure/"]], "Text",
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.448512756479714*^9, 3.448512756480714*^9}, {
+   3.4531214344344916`*^9, 3.4531214409751453`*^9}, {3.7523726281565714`*^9, 
+   3.752372628157571*^9}},
+ CellID->213482007,ExpressionUUID->"5db3b88e-6483-43f5-86b8-8353f2148c0d"],
+
+Cell[TextData[ButtonBox["Uncertainty of Measurement and Areas Over and Under \
+the ROC Curves",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://demonstrations.wolfram.com/\
+UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves/"], None},
+ ButtonNote->
+  "http://demonstrations.wolfram.com/\
+UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves/"]], "Text",
+ CellID->1445726509,ExpressionUUID->"1775ce30-d0b0-4b45-b0e9-366201e08569"],
+
+Cell[TextData[ButtonBox["Receiver Operating Characteristic Curves and \
+Uncertainty of Measure",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://demonstrations.wolfram.com/\
+ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure/"], None},
+ ButtonNote->
+  "http://demonstrations.wolfram.com/\
+ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure/"]], "Text",
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.448512756479714*^9, 3.448512756480714*^9}, {
+   3.4531214344344916`*^9, 3.4531214409751453`*^9}, {3.7523726296355705`*^9, 
+   3.75237265876057*^9}, {3.7523727716955695`*^9, 3.75237277169657*^9}, {
+   3.7525027747019615`*^9, 3.7525027753582153`*^9}},
+ CellID->23912822,ExpressionUUID->"22e5f7c6-c96d-461c-92e5-fb7de93eee5e"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["About",
+ FontSize->20]], "Section",
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.8066664862909436`*^9, 3.806666502895442*^9}, 3.8070765097138042`*^9, {
+   3.8070767128593364`*^9, 3.8070767130363336`*^9}, {3.824277477031402*^9, 
+   3.8242775113805923`*^9}, {3.8242775488355193`*^9, 
+   3.8242775597815175`*^9}, {3.824277599212511*^9, 3.8242776309438195`*^9}, {
+   3.8242874099302607`*^9, 3.824287440745445*^9}, 3.824287582450876*^9, {
+   3.8242882798951616`*^9, 3.824288292274851*^9}, 3.824288335615207*^9, {
+   3.824288545290736*^9, 3.824288562748387*^9}, {3.8242887845456886`*^9, 
+   3.824288813125119*^9}, 3.824288959149333*^9, {3.8242891797141066`*^9, 
+   3.824289214280095*^9}, {3.8242892479277906`*^9, 
+   3.824289271662448*^9}},ExpressionUUID->"cf443aa7-1ad7-4821-9433-\
+6a0bfec50178"],
+
+Cell[TextData[{
+ StyleBox["The Area Over a Receiver Operating Characteristic (ROC) Curve as \
+an Index of Diagnostic Inaccuracy",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nVersion Number 1.1.0\nHellenic Complex Systems Laboratory 2021\n\
+First published at Wolfram Demonstrations Project at: ",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ Cell[BoxData[
+  TemplateBox[{
+   "\"demonstrations.wolfram.com/\
+TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex/\"", 
+    "https://demonstrations.wolfram.com/\
+TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex/"},
+   "HyperlinkURL"]],
+  CellChangeTimes->{3.8243553175707464`*^9, 3.824356570008988*^9, 
+   3.824357314184272*^9, 3.8243580035354223`*^9, 3.8243585051316223`*^9, 
+   3.824359148413159*^9, 3.824359407030446*^9, 3.8243613809991393`*^9, 
+   3.8243621613197007`*^9},
+  FontSize->12,ExpressionUUID->"9fe6952e-eaf9-4c88-822a-d475c6ae6428"],
+ StyleBox["\nThis software is distributed under  an",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[" ",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]],
+ StyleBox[ButtonBox["Attribution - NonCommercial - ShareAlike 4.0 \
+International Creative Commons License",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://creativecommons.org/licenses/by-nc-sa/4.0/"], None},
+  ButtonNote->"http://creativecommons.org/licenses/by-nc-sa/4.0/"],
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]],
+ StyleBox[".",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]]
+}], "Text",
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.8066664862909436`*^9, 3.806666502895442*^9}, 3.8070765097138042`*^9, {
+   3.8070767128593364`*^9, 3.8070767130363336`*^9}, {3.824277477031402*^9, 
+   3.8242775113805923`*^9}, {3.8242775488355193`*^9, 
+   3.8242775597815175`*^9}, {3.824277599212511*^9, 3.8242776309438195`*^9}, {
+   3.8242874099302607`*^9, 3.824287440745445*^9}, 3.824287582450876*^9, {
+   3.8242882798951616`*^9, 3.824288292274851*^9}, 3.824288335615207*^9, {
+   3.824288545290736*^9, 3.824288562748387*^9}, {3.8242887845456886`*^9, 
+   3.824288813125119*^9}, 3.824288959149333*^9, {3.8242891797141066`*^9, 
+   3.824289214280095*^9}, {3.8242899243079195`*^9, 3.8242899601497383`*^9}, {
+   3.824290040477727*^9, 3.8242901022921233`*^9}, {3.8242901748076315`*^9, 
+   3.824290174808632*^9}, 3.8242910218861465`*^9, {3.824291151069277*^9, 
+   3.8242911545732164`*^9}, 3.8242925404292994`*^9, {3.8242926286453743`*^9, 
+   3.824292661660508*^9}, {3.8243536859842525`*^9, 3.8243536927688494`*^9}, 
+   3.8243538389141397`*^9, {3.824362105814563*^9, 3.8243621106306586`*^9}, 
+   3.8243621737729177`*^9},ExpressionUUID->"bd2cbe4f-24f6-4694-9f11-\
+f7a37b1b4817"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1440., 748.5},
+WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c8c69a5f-92fa-4e6d-91e8-085b59228aec"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Initialization Code"->{
+  Cell[1541, 50, 279, 6, 67, "Section",ExpressionUUID->"f5b2920e-5b35-4b02-85f0-ed257e15c878",
+   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+   CellTags->"Initialization Code"]},
+ "Caption"->{
+  Cell[48651, 1069, 230, 3, 67, "Section",ExpressionUUID->"dfffced6-35cd-4eaa-b4d9-69a1cb096dcf",
+   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+   CellTags->"Caption"]},
+ "Snapshots"->{
+  Cell[51848, 1121, 228, 3, 53, "Section",ExpressionUUID->"71424b22-7231-4dd5-bfc3-df3203b1c902",
+   CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+   CellTags->"Snapshots"]},
+ "Details"->{
+  Cell[89649, 1897, 254, 4, 53, "Section",ExpressionUUID->"23bfe302-2119-431b-a015-7ac8c8d9115b",
+   CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+   CellTags->"Details"],
+  Cell[122208, 2459, 436, 6, 53, "Section",ExpressionUUID->"02bfe67e-dd8f-4199-a5d7-bcc7a11a5662",
+   CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+   CellTags->"Details"]},
+ "Related Links"->{
+  Cell[123461, 2498, 162, 3, 53, "Section",ExpressionUUID->"a50a9970-ac93-449f-a418-4627c0268939",
+   CellTags->"Related Links"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Initialization Code", 130119, 2642},
+ {"Caption", 130323, 2646},
+ {"Snapshots", 130520, 2650},
+ {"Details", 130717, 2654},
+ {"Related Links", 131099, 2661}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 229, 6, 160, "Title",ExpressionUUID->"984cdae3-766d-411c-b84d-2b0c498ca2bb"],
+Cell[812, 30, 370, 8, 79, "Author",ExpressionUUID->"5665cf20-0da1-42d8-b01a-9dffcc655524"],
+Cell[1185, 40, 331, 6, 31, "Affiliation",ExpressionUUID->"fa1dff45-b7ce-4bf1-b6a3-f6cecc5b136a"],
+Cell[CellGroupData[{
+Cell[1541, 50, 279, 6, 67, "Section",ExpressionUUID->"f5b2920e-5b35-4b02-85f0-ed257e15c878",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellTags->"Initialization Code"],
+Cell[1823, 58, 762, 22, 69, "Input",ExpressionUUID->"b0ea46ff-9cad-4cc7-888d-7b6694f69d73",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellID->611437],
+Cell[2588, 82, 1331, 39, 95, "Input",ExpressionUUID->"f6330880-96eb-4eb6-8026-03f9627992b8",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellID->227791355],
+Cell[3922, 123, 1286, 38, 95, "Input",ExpressionUUID->"568fa43c-4d7a-4065-819f-04f23786566e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellID->647156883],
+Cell[5211, 163, 1903, 54, 104, "Input",ExpressionUUID->"eb93a145-d3bf-4a5d-8929-c76b1206f870",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellID->86857576],
+Cell[7117, 219, 1984, 58, 107, "Input",ExpressionUUID->"5adf54e9-92ef-41d8-b32b-d409ebaf44e5",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ InitializationCell->True,
+ CellID->454121070],
+Cell[9104, 279, 27067, 529, 415, "Code",ExpressionUUID->"35961cd4-9310-4af8-9d90-d8d73dea358e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellID->4362360]
+}, Closed]],
+Cell[36186, 811, 12440, 254, 448, "Output",ExpressionUUID->"b5b21320-4a44-4625-9088-fed6988c48de"],
+Cell[CellGroupData[{
+Cell[48651, 1069, 230, 3, 67, "Section",ExpressionUUID->"dfffced6-35cd-4eaa-b4d9-69a1cb096dcf",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellTags->"Caption"],
+Cell[48884, 1074, 2927, 42, 104, "Text",ExpressionUUID->"81ff0218-7bdc-413b-91ae-29ae281487b5",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellID->435014217]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[51848, 1121, 228, 3, 53, "Section",ExpressionUUID->"71424b22-7231-4dd5-bfc3-df3203b1c902",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellTags->"Snapshots"],
+Cell[52079, 1126, 12509, 254, 449, "Output",ExpressionUUID->"f48680e9-57de-4d1a-9078-82d748489456",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellID->185560448],
+Cell[64591, 1382, 12509, 254, 449, "Output",ExpressionUUID->"b9ba49d0-3cc7-4953-bbb5-8c814592cc09",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellID->144842278],
+Cell[77103, 1638, 12509, 254, 449, "Output",ExpressionUUID->"367ad00a-b7fa-4793-9823-e2062a2f2ba3",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellID->711199176]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[89649, 1897, 254, 4, 53, "Section",ExpressionUUID->"23bfe302-2119-431b-a015-7ac8c8d9115b",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellTags->"Details"],
+Cell[89906, 1903, 5202, 73, 104, "Text",ExpressionUUID->"0f641cd3-ff61-42e6-a338-cb6aae9bcff4",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellID->107142632],
+Cell[95111, 1978, 7911, 168, 81, "Text",ExpressionUUID->"2bc6c629-c5aa-472c-b274-79e055bb5e43",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellID->335972811],
+Cell[103025, 2148, 5802, 86, 81, "Text",ExpressionUUID->"934eb1a0-e681-4183-8ba1-4bf2ba8868f8",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellID->305937259],
+Cell[108830, 2236, 5416, 75, 35, "Text",ExpressionUUID->"8594c57c-2e73-4226-9928-2a4910233acf",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellID->593204738],
+Cell[114249, 2313, 4691, 65, 58, "Text",ExpressionUUID->"07fb2694-bfd8-446b-9cd0-3a0f54e54c4f",
+ CellGroupingRules->{"GroupTogetherGrouping", 10002.},
+ CellID->4072355]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[118977, 2383, 302, 4, 53, "Section",ExpressionUUID->"08fde6bc-3035-4d7a-bb66-bd6397766ca6",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellID->24383986],
+Cell[119282, 2389, 949, 19, 58, "Text",ExpressionUUID->"cee5d885-7a5a-4afa-841b-898146e5ffeb",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellID->405299277],
+Cell[120234, 2410, 1029, 21, 58, "Text",ExpressionUUID->"ccb2eea8-7320-40fd-84fc-7f827b93b23a",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellID->367631313],
+Cell[121266, 2433, 905, 21, 35, "Text",ExpressionUUID->"e0a532b4-b2cc-4c23-97f8-96ed87aaa928",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellID->250923407]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[122208, 2459, 436, 6, 53, "Section",ExpressionUUID->"02bfe67e-dd8f-4199-a5d7-bcc7a11a5662",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellTags->"Details"],
+Cell[122647, 2467, 777, 26, 426, "Text",ExpressionUUID->"53f498cb-b40f-4ca0-a75c-a0751d5e7577",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellID->439892608]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[123461, 2498, 162, 3, 53, "Section",ExpressionUUID->"a50a9970-ac93-449f-a418-4627c0268939",
+ CellTags->"Related Links"],
+Cell[123626, 2503, 654, 13, 35, "Text",ExpressionUUID->"5db3b88e-6483-43f5-86b8-8353f2148c0d",
+ CellID->213482007],
+Cell[124283, 2518, 446, 9, 35, "Text",ExpressionUUID->"1775ce30-d0b0-4b45-b0e9-366201e08569",
+ CellID->1445726509],
+Cell[124732, 2529, 749, 14, 35, "Text",ExpressionUUID->"22e5f7c6-c96d-461c-92e5-fb7de93eee5e",
+ CellID->23912822]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[125518, 2548, 995, 15, 43, "Section",ExpressionUUID->"cf443aa7-1ad7-4821-9433-6a0bfec50178"],
+Cell[126516, 2565, 3200, 62, 107, "Text",ExpressionUUID->"bd2cbe4f-24f6-4694-9f11-f7a37b1b4817"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

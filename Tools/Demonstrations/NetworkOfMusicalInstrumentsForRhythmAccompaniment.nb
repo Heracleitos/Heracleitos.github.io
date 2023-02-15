@@ -1,0 +1,1795 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     74939,       1787]
+NotebookOptionsPosition[     70130,       1698]
+NotebookOutlinePosition[     70554,       1715]
+CellTagsIndexPosition[     70511,       1712]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Network of Musical Instruments for Rhythm Accompaniment ", "Title",
+ Editable->False,
+ CellChangeTimes->{{3.8330156914235086`*^9, 3.8330156914235086`*^9}, 
+   3.833016145512512*^9},ExpressionUUID->"d4bc6fc5-af6b-41bb-926c-\
+674275de5aa5"],
+
+Cell[TextData[{
+ "Chrysavgi Chatzimichail, BA \n",
+ StyleBox["avgi@hcsl . com",
+  FontColor->GrayLevel[0.5]],
+ "\nAristides T . Hatjimihail, MD, PhD\n",
+ StyleBox["ath@hcsl . com\n",
+  FontColor->GrayLevel[0.5]]
+}], "Author",
+ Editable->False,
+ CellChangeTimes->{{3.833015701909092*^9, 3.8330157100146875`*^9}, 
+   3.8330161617027235`*^9, 
+   3.8330162282223177`*^9},ExpressionUUID->"c6c9be86-4ddb-44bd-9020-\
+059a1be74584"],
+
+Cell["\<\
+Hellenic Complex Systems Laboratory, Kostis Palamas 21, 66131 Drama, Greece .\
+\>", "Affiliation",
+ Editable->False,
+ CellChangeTimes->{{3.833015726061058*^9, 3.8330157260620584`*^9}, 
+   3.833016265312614*^9},ExpressionUUID->"8348fc2c-4bf5-4401-98a4-\
+14d3babeeef5"],
+
+Cell[CellGroupData[{
+
+Cell["Initialization Code", "Section",
+ Editable->False,
+ CellChangeTimes->{{3.833015736885433*^9, 3.833015736886432*^9}, 
+   3.833016289854207*^9},ExpressionUUID->"8fc2367a-c857-4c73-81f5-\
+f7bdbcb61b8e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"data", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<guitar\>\"", "}"}], ",", "19"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<harpsichord\>\"", "}"}], ",", "5"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", " ", "\"\<baglamas\>\""}], "}"}], 
+       ",", "4"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", " ", "\"\<toumperleki\>\""}], 
+        "}"}], ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<spoon drums\>\"", "}"}], ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<bendir\>\"", "}"}], ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", " ", "\"\<kompoloi-glass\>\""}], 
+        "}"}], ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", " ", "\"\<spoon drums\>\""}], 
+        "}"}], ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", " ", "\"\<zither\>\""}], "}"}], 
+       ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", " ", "\"\<harpsichord\>\""}], 
+        "}"}], ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<oud\>\"", ",", "\"\<spoon drums\>\""}], "}"}], ",", 
+       "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<oud\>\"", " ", ",", " ", "\"\<toumperleki\>\""}], "}"}], 
+       ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<glass\>\"", "}"}], ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<saz\>\"", " ", ",", "\"\<bendir\>\""}], "}"}], ",", 
+       "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<toumperleki\>\"", "}"}], ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<toumperleki\>\"", " ", ",", "\"\<zil\>\""}], "}"}], ",", 
+       "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<accordion\>\"", " ", ",", "\"\<lute\>\"", " ", ",", 
+         "\"\<davul\>\"", " ", ",", "\"\<spoon drums\>\""}], "}"}], ",", 
+       "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", " ", ",", "\"\<accordion\>\"", " ", ",", 
+         "\"\<spoon drums\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", "\"\<castanets\>\""}], "}"}], ",",
+        "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", "\"\<triangle\>\""}], "}"}], ",", 
+       "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", "\"\<bendir\>\""}], "}"}], ",", 
+       "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", "\"\<tambourine\>\""}], "}"}], 
+       ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<guitar\>\"", " ", ",", "\"\<glass\>\""}], "}"}], ",", 
+       "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<spoon drums\>\"", " ", ",", 
+         "\"\<zil\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<baglamas\>\"", " ", ",", 
+         "\"\<maracas\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<baglamas\>\"", " ", ",", 
+         "\"\<contrabass\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<baglamas\>\"", " ", ",", 
+         "\"\<bendir\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<baglamas\>\"", " ", ",", 
+         "\"\<toumperleki\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<contrabass\>\"", " ", ",", 
+         "\"\<zil\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<contrabass\>\"", ",", "\"\<bendir\>\"", 
+         " ", ",", "\"\<spoon drums\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<bendir\>\"", " ", ",", 
+         "\"\<contrabass\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<glass\>\"", ",", "\"\<maracas\>\"", ",", 
+         "\"\<spoon drums\>\"", " ", ",", "\"\<tambourine\>\""}], "}"}], ",", 
+       "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<toumperleki\>\"", " ", ",", 
+         "\"\<zil\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<toumperleki\>\"", " ", ",", 
+         "\"\<contrabass\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<toumperleki\>\"", " ", ",", 
+         "\"\<glass\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<castanets\>\"", " ", ",", 
+         "\"\<glass\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<lute\>\"", "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<lute\>\"", " ", ",", "\"\<zither\>\""}], "}"}], ",", 
+       "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<lute\>\"", " ", ",", "\"\<toumperleki\>\""}], "}"}], ",",
+        "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<baglamas\>\"", ",", "\"\<guitar\>\"", " ", ",", 
+         "\"\<contrabass\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<baglamas\>\"", ",", "\"\<contrabass\>\"", " ", ",", 
+         "\"\<synthesizer\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<contrabass\>\"", ",", "\"\<drums\>\"", ",", 
+         "\"\<electric guitar\>\"", " ", ",", "\"\<tambourine\>\""}], "}"}], 
+       ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<contrabass\>\"", ",", "\"\<toumperleki\>\"", " ", ",", 
+         "\"\<bendir\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<contrabass\>\"", ",", "\"\<toumperleki\>\"", " ", ",", 
+         "\"\<zil\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<contrabass\>\"", ",", "\"\<toumperleki\>\"", " ", ",", 
+         "\"\<drums\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<ney\>\"", ",", "\"\<crotalums\>\"", " ", ",", 
+         "\"\<maracas\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<davul\>\"", " ", ",", "\"\<glass\>\""}], "}"}], ",", 
+       "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<davul\>\"", ",", "\"\<tabla\>\"", ",", "\"\<toumperleki\>\"", 
+         " ", ",", "\"\<tambourine\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<oud\>\"", "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<oud\>\"", " ", ",", "\"\<bendir\[Hyphen]zil\>\""}], 
+        "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<oud\>\"", ",", "\"\<toumperleki\>\"", " ", ",", 
+         "\"\<spoon drums\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<oud\>\"", ",", "\"\<toumperleki\>\"", " ", ",", 
+         "\"\<bendir\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<guitar\>\"", ",", "\"\<baglamas\>\"", " ", ",", 
+         "\"\<toumperleki\>\"", ",", "\"\<tambourine\>\""}], "}"}], ",", 
+       "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<saz\>\"", ",", "\"\<bendir\>\"", " ", ",", "\"\<baglamas\>\""}], 
+        "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<zither\>\"", " ", ",", "\"\<spoon drums\>\""}], "}"}], 
+       ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<synthesizer\>\"", ",", "\"\<guitar\>\"", " ", ",", 
+         "\"\<contrabass\>\""}], "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<toumperleki\>\"", " ", ",", "\"\<bendir\[Hyphen]zil\>\""}], 
+        "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "\"\<voice\>\"", "}"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<voice\>\"", " ", ",", "\"\<bendir\>\""}], "}"}], ",", 
+       "1"}], "}"}]}], "}"}]}], ";"}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellLabel->"In[37]:=",ExpressionUUID->"69d06f77-440a-4b99-8238-40e06b097457"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"fdata", "=", 
+   RowBox[{"Flatten", "[", 
+    RowBox[{
+     RowBox[{"Map", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"ConstantArray", "[", 
+         RowBox[{
+          RowBox[{"#", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], ",", 
+          RowBox[{"#", "[", 
+           RowBox[{"[", "2", "]"}], "]"}]}], "]"}], "&"}], ",", "data"}], 
+      "]"}], ",", "1"}], "]"}]}], ";"}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellChangeTimes->{3.833016339844728*^9},
+ CellLabel->"In[38]:=",ExpressionUUID->"69d8540f-b5e7-4143-a992-0771fa867378"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"sfdata", "=", 
+   RowBox[{"DeleteDuplicates", "[", 
+    RowBox[{"Flatten", "[", "fdata", "]"}], "]"}]}], ";"}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellLabel->"In[39]:=",ExpressionUUID->"f9708d09-deb5-4eb7-a597-cb8e0ea3d423"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"paired", "[", 
+   RowBox[{"a_", ",", "b_", ",", "l_List"}], "]"}], ":=", 
+  RowBox[{"MemberQ", "[", 
+   RowBox[{
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"ContainsAll", "[", 
+        RowBox[{"#", ",", 
+         RowBox[{"{", 
+          RowBox[{"a", ",", "b"}], "}"}]}], "]"}], "&"}], ",", "l"}], "]"}], 
+    ",", "True"}], "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellLabel->"In[40]:=",ExpressionUUID->"90cc6900-719f-4ada-b453-f1caf69178ff"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"single", "[", 
+   RowBox[{"a_", ",", "l_List"}], "]"}], ":=", 
+  RowBox[{"MemberQ", "[", 
+   RowBox[{
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"ContainsExactly", "[", 
+        RowBox[{"#", ",", 
+         RowBox[{"{", "a", "}"}]}], "]"}], "&"}], ",", "l"}], "]"}], ",", 
+    "True"}], "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellLabel->"In[41]:=",ExpressionUUID->"3af9900c-4392-4538-bf53-ed51d089c287"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"graph", "=", 
+   RowBox[{"RelationGraph", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"paired", "[", 
+           RowBox[{"#1", ",", "#2", ",", "fdata"}], "]"}], "&&", 
+          RowBox[{"UnsameQ", "[", 
+           RowBox[{"#1", ",", "#2"}], "]"}]}], ")"}], "||", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"single", "[", 
+           RowBox[{"#1", ",", "fdata"}], "]"}], "&&", 
+          RowBox[{"SameQ", "[", 
+           RowBox[{"#1", ",", "#2"}], "]"}]}], ")"}]}], ")"}], "&"}], ",", 
+     "sfdata"}], "]"}]}], ";"}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellLabel->"In[42]:=",ExpressionUUID->"4629464c-734a-43cd-a6ef-bd7ef3f6c6d9"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"efreq", "[", 
+   RowBox[{"loa_", ",", "edge_"}], "]"}], ":=", 
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{"SubsetQ", "[", 
+     RowBox[{
+      RowBox[{"loa", "[", 
+       RowBox[{"[", "1", "]"}], "]"}], ",", "edge"}], "]"}], ",", 
+    RowBox[{"loa", "[", 
+     RowBox[{"[", "2", "]"}], "]"}], ",", "0"}], "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellLabel->"In[43]:=",ExpressionUUID->"6f37a4e1-c1b0-491a-8a94-080d0560bf98"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"instrWeight", "[", "org_", "]"}], ":=", 
+  RowBox[{"Apply", "[", 
+   RowBox[{"Plus", ",", 
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"efreq", "[", 
+        RowBox[{"#", ",", "org"}], "]"}], "&"}], ",", "data"}], "]"}]}], 
+   "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellLabel->"In[44]:=",ExpressionUUID->"24c7d0dd-878b-42d2-841b-c552603dbe56"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"weightList", "[", "ol_", "]"}], ":=", 
+  RowBox[{"Map", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"instrWeight", "[", "#", "]"}], "&"}], ",", " ", "ol"}], 
+   "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellLabel->"In[45]:=",ExpressionUUID->"b3ff3283-c05d-47fa-9258-ebc152d60f35"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"edgeWeights", "=", 
+   RowBox[{"weightList", "[", 
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Apply", "[", 
+        RowBox[{"List", ",", "#"}], "]"}], "&"}], ",", 
+      RowBox[{"EdgeList", "[", "graph", "]"}]}], "]"}], "]"}]}], 
+  ";"}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellChangeTimes->{3.833018114881728*^9},
+ CellLabel->"In[46]:=",ExpressionUUID->"1a1e0032-32f0-4a4e-9d5d-4c5f5f4a179d"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"wGraph", "=", 
+   RowBox[{"RelationGraph", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"paired", "[", 
+           RowBox[{"#1", ",", "#2", ",", "fdata"}], "]"}], "&&", 
+          RowBox[{"UnsameQ", "[", 
+           RowBox[{"#1", ",", "#2"}], "]"}]}], ")"}], "||", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"single", "[", 
+           RowBox[{"#1", ",", "fdata"}], "]"}], "&&", 
+          RowBox[{"SameQ", "[", 
+           RowBox[{"#1", ",", "#2"}], "]"}]}], ")"}]}], ")"}], "&"}], ",", 
+     "sfdata", ",", 
+     RowBox[{"VertexLabels", "\[Rule]", 
+      RowBox[{"Placed", "[", 
+       RowBox[{"\"\<Name\>\"", ",", "Center"}], "]"}]}], ",", 
+     RowBox[{"VertexLabelStyle", "\[Rule]", 
+      RowBox[{"Directive", "[", 
+       RowBox[{"Italic", ",", " ", "10"}], "]"}]}], ",", 
+     RowBox[{"EdgeWeight", "\[Rule]", "edgeWeights"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"750", ",", "500"}], "}"}]}]}], "]"}]}], ";"}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellChangeTimes->{
+  3.833017643816614*^9, 3.8330177009051714`*^9, 3.8330177664082155`*^9, {
+   3.8330178526356573`*^9, 3.8330178811011753`*^9}, 3.833018150610196*^9, {
+   3.8330182171766195`*^9, 3.8330182186515737`*^9}, {3.833018317911454*^9, 
+   3.8330183195545874`*^9}, {3.8331567088629513`*^9, 3.8331567163115296`*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"55ddd41d-5aa6-4792-b55c-8c3e8895ef53"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"measuresTable", "[", "l_", "]"}], ":=", 
+  RowBox[{"Pane", "[", 
+   RowBox[{
+    RowBox[{"Text", "@", 
+     RowBox[{"Grid", "[", 
+      RowBox[{
+       RowBox[{"Sort", "[", 
+        RowBox[{
+         RowBox[{"MapThread", "[", 
+          RowBox[{"List", ",", 
+           RowBox[{"{", 
+            RowBox[{"sfdata", ",", 
+             RowBox[{"If", "[", 
+              RowBox[{
+               RowBox[{"Apply", "[", 
+                RowBox[{"And", ",", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"FractionalPart", "[", "#", "]"}], "\[Equal]", 
+                    "0"}], "&"}], "/@", "l"}]}], "]"}], ",", "l", ",", 
+               RowBox[{"Map", "[", 
+                RowBox[{
+                 RowBox[{
+                  RowBox[{"NumberForm", "[", 
+                   RowBox[{"#", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"3", ",", "4"}], "}"}]}], "]"}], "&"}], ",", 
+                 RowBox[{"N", "@", "l"}]}], "]"}]}], "]"}]}], "}"}]}], "]"}], 
+         ",", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"#1", "[", 
+            RowBox[{"[", "2", "]"}], "]"}], ">", 
+           RowBox[{"#2", "[", 
+            RowBox[{"[", "2", "]"}], "]"}]}], "&"}]}], "]"}], ",", " ", 
+       RowBox[{"Alignment", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"{", 
+          RowBox[{"Left", ",", "\"\<.\>\""}], "}"}], "}"}]}], ",", 
+       RowBox[{"Spacings", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"5", ",", "0"}], "}"}]}]}], "]"}]}], ",", 
+    RowBox[{"ImageSize", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"750", ",", "500"}], "}"}]}]}], "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellChangeTimes->{
+  3.833017644501068*^9, 3.8330177015765076`*^9, 3.8330177669310045`*^9, 
+   3.8330178817780905`*^9, 3.8330181512858405`*^9, {3.8331567219024353`*^9, 
+   3.833156726471593*^9}},
+ CellLabel->"In[48]:=",ExpressionUUID->"e75123ea-c7e9-4526-8cfe-bb6823bc7670"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"measuresList", "[", "l_", "]"}], ":=", " ", 
+  RowBox[{"Sort", "[", 
+   RowBox[{
+    RowBox[{"MapThread", "[", 
+     RowBox[{"List", ",", 
+      RowBox[{"{", 
+       RowBox[{"sfdata", ",", "l"}], "}"}]}], "]"}], ",", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"#1", "[", 
+       RowBox[{"[", "2", "]"}], "]"}], ">", 
+      RowBox[{"#2", "[", 
+       RowBox[{"[", "2", "]"}], "]"}]}], "&"}]}], "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellLabel->"In[49]:=",ExpressionUUID->"0aefd820-1310-44fa-b11a-0e900ae39ace"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"measuresPlot", "[", "l_", "]"}], ":=", 
+  RowBox[{"ListPlot", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Labeled", "[", 
+       RowBox[{
+        RowBox[{"#", "[", 
+         RowBox[{"[", "2", "]"}], "]"}], ",", 
+        RowBox[{"Rotate", "[", 
+         RowBox[{
+          RowBox[{"#", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], ",", 
+          RowBox[{"90", " ", "Degree"}]}], "]"}], ",", "Top"}], "]"}], "&"}], 
+     "/@", 
+     RowBox[{"measuresList", "[", "l", "]"}]}], ",", 
+    RowBox[{"PlotStyle", "\[Rule]", 
+     RowBox[{"PointSize", "[", "Medium", "]"}]}], ",", 
+    RowBox[{"PlotRange", "\[Rule]", 
+     RowBox[{"1.2", 
+      RowBox[{"Max", "[", "l", "]"}]}]}], ",", 
+    RowBox[{"ImageSize", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"750", ",", "500"}], "}"}]}]}], "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellChangeTimes->{
+  3.833017645258393*^9, 3.8330177021051826`*^9, 3.833017767455497*^9, 
+   3.8330178824362354`*^9, 3.8330181519997025`*^9, {3.8331567325781794`*^9, 
+   3.833156737319721*^9}},
+ CellLabel->"In[50]:=",ExpressionUUID->"9a88c835-0c42-42b5-84b5-c289f2a5620f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"hGraph", "[", "l_", "]"}], ":=", 
+  RowBox[{"HighlightGraph", "[", 
+   RowBox[{"wGraph", ",", 
+    RowBox[{"VertexList", "[", "wGraph", "]"}], ",", 
+    RowBox[{"VertexSize", "\[Rule]", " ", 
+     RowBox[{"Thread", "[", 
+      RowBox[{
+       RowBox[{"VertexList", "[", "wGraph", "]"}], "\[Rule]", " ", 
+       RowBox[{"Rescale", "[", "l", "]"}]}], "]"}]}], ",", 
+    RowBox[{"ImageSize", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"750", ",", "500"}], "}"}]}]}], "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellChangeTimes->{
+  3.8330174821371965`*^9, 3.8330176375098567`*^9, 3.833017702677082*^9, 
+   3.8330177682113843`*^9, 3.833017883091255*^9, 3.8330181526940746`*^9, {
+   3.833156483209278*^9, 3.8331564877665443`*^9}, {3.833156742515688*^9, 
+   3.8331567468540797`*^9}},
+ CellLabel->"In[51]:=",ExpressionUUID->"47872729-ad89-49d7-acff-4f9354b9287a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"hubCentrality", "[", "g_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"HITSCentrality", "[", "g", "]"}], "[", 
+   RowBox[{"[", "1", "]"}], "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellChangeTimes->{3.8330163999316535`*^9},
+ CellLabel->"In[52]:=",ExpressionUUID->"7afaac48-5fac-43b0-9aa0-b028c812ab9c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"authCentrality", "[", "g_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"HITSCentrality", "[", "g", "]"}], "[", 
+   RowBox[{"[", "2", "]"}], "]"}]}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellChangeTimes->{3.8330163999316535`*^9},
+ CellLabel->"In[53]:=",ExpressionUUID->"a32efcbc-546f-4709-a498-0ca89ee5ec49"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"h", "@", 
+    RowBox[{"m", "@", "wGraph"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"Row", "[", 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"Control", "@", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"h", ",", "hGraph", ",", "\"\<show\>\""}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"hGraph", "\[Rule]", "\"\<highlighted network\>\""}], ",", 
+           RowBox[{"measuresPlot", "\[Rule]", "\"\<scatter plot\>\""}], ",", 
+           RowBox[{"measuresTable", "\[Rule]", "\"\<table\>\""}]}], "}"}]}], 
+        "}"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"Spacer", "[", "15", "]"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"Control", "@", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"m", ",", "VertexDegree", ",", "\"\<measure\>\""}], "}"}], 
+         ",", 
+         RowBox[{"{", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"VertexDegree", "\[Rule]", "\"\<valence\>\""}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+           "ClosenessCentrality", "\[Rule]", "\"\<closeness centrality\>\""}],
+            ",", "\[IndentingNewLine]", 
+           RowBox[{
+           "BetweennessCentrality", "\[Rule]", 
+            "\"\<betweenness centrality\>\""}], ",", "\[IndentingNewLine]", 
+           RowBox[{
+           "DegreeCentrality", "\[Rule]", "\"\<degree centrality\>\""}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+           "RadialityCentrality", "->", "\"\<radiality centrality\>\""}], ",",
+            "\[IndentingNewLine]", 
+           RowBox[{
+           "EccentricityCentrality", "->", 
+            "\"\<eccentricity centrality\>\""}], ",", "\[IndentingNewLine]", 
+           RowBox[{"hubCentrality", "->", "\"\<hub centrality\>\""}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{"authCentrality", "->", "\"\<authority centrality\>\""}], 
+           ",", "\[IndentingNewLine]", 
+           RowBox[{
+           "EigenvectorCentrality", "\[Rule]", 
+            "\"\<eigenvector centrality\>\""}], ",", "\[IndentingNewLine]", 
+           RowBox[{"StatusCentrality", "->", "\"\<status centrality\>\""}], 
+           ",", "\[IndentingNewLine]", 
+           RowBox[{"PageRankCentrality", "\[Rule]", "\"\<page ranks\>\""}], 
+           ",", "\[IndentingNewLine]", 
+           RowBox[{
+           "LocalClusteringCoefficient", "->", 
+            "\"\<local clustering coefficient\>\""}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+           "MeanNeighborDegree", "\[Rule]", 
+            "\"\<mean neighbor degree\>\""}]}], "}"}]}], "}"}]}]}], "}"}], 
+    "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"ControlPlacement", "\[Rule]", "Top"}], ",", " ", 
+   RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", " ", 
+   RowBox[{"Deployed", "\[Rule]", "True"}]}], "\[IndentingNewLine]", 
+  "]"}]], "Input",
+ Editable->False,
+ InitializationCell->True,
+ CellChangeTimes->{{3.8330159067433405`*^9, 3.833015914729311*^9}, {
+   3.8330179119177136`*^9, 3.8330179405339813`*^9}, {3.833018983692296*^9, 
+   3.8330189850321007`*^9}, {3.8330196513249784`*^9, 3.833019658616563*^9}, 
+   3.8331270082016077`*^9, {3.8331271061197386`*^9, 3.833127108167339*^9}, 
+   3.8331552802941008`*^9, {3.8331557444598827`*^9, 3.8331557603480797`*^9}, 
+   3.833157125288102*^9, {3.833157308806924*^9, 3.8331573089690747`*^9}, {
+   3.833157348693207*^9, 3.833157361046586*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"48672fea-d900-4c4c-bafd-6e3af0bc8015"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`h$$ = $CellContext`hGraph, $CellContext`m$$ \
+= VertexDegree, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`h$$], $CellContext`hGraph, 
+       "show"}, {$CellContext`hGraph -> 
+       "highlighted network", $CellContext`measuresPlot -> 
+       "scatter plot", $CellContext`measuresTable -> "table"}}, {{
+       Hold[$CellContext`m$$], VertexDegree, "measure"}, {
+      VertexDegree -> "valence", ClosenessCentrality -> 
+       "closeness centrality", BetweennessCentrality -> 
+       "betweenness centrality", DegreeCentrality -> "degree centrality", 
+       RadialityCentrality -> "radiality centrality", EccentricityCentrality -> 
+       "eccentricity centrality", $CellContext`hubCentrality -> 
+       "hub centrality", $CellContext`authCentrality -> 
+       "authority centrality", EigenvectorCentrality -> 
+       "eigenvector centrality", StatusCentrality -> "status centrality", 
+       PageRankCentrality -> "page ranks", LocalClusteringCoefficient -> 
+       "local clustering coefficient", MeanNeighborDegree -> 
+       "mean neighbor degree"}}, {
+      Hold[
+       Row[{
+         Manipulate`Place[1], 
+         Spacer[15], 
+         Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
+    Typeset`size$$ = {750., {248., 252.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     2, StandardForm, 
+      "Variables" :> {$CellContext`h$$ = $CellContext`hGraph, \
+$CellContext`m$$ = VertexDegree}, "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> $CellContext`h$$[
+        $CellContext`m$$[$CellContext`wGraph]], 
+      "Specifications" :> {{{$CellContext`h$$, $CellContext`hGraph, 
+          "show"}, {$CellContext`hGraph -> 
+          "highlighted network", $CellContext`measuresPlot -> 
+          "scatter plot", $CellContext`measuresTable -> "table"}, 
+         ControlPlacement -> 
+         1}, {{$CellContext`m$$, VertexDegree, "measure"}, {
+         VertexDegree -> "valence", ClosenessCentrality -> 
+          "closeness centrality", BetweennessCentrality -> 
+          "betweenness centrality", DegreeCentrality -> "degree centrality", 
+          RadialityCentrality -> "radiality centrality", 
+          EccentricityCentrality -> 
+          "eccentricity centrality", $CellContext`hubCentrality -> 
+          "hub centrality", $CellContext`authCentrality -> 
+          "authority centrality", EigenvectorCentrality -> 
+          "eigenvector centrality", StatusCentrality -> "status centrality", 
+          PageRankCentrality -> "page ranks", LocalClusteringCoefficient -> 
+          "local clustering coefficient", MeanNeighborDegree -> 
+          "mean neighbor degree"}, ControlPlacement -> 2}, 
+        Row[{
+          Manipulate`Place[1], 
+          Spacer[15], 
+          Manipulate`Place[2]}]}, 
+      "Options" :> {ControlPlacement -> Top, Deployed -> True}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{798., {292.13403309800196`, 297.86596690199804`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`wGraph = 
+       Graph[{"guitar", "harpsichord", "baglamas", "toumperleki", 
+          "spoon drums", "bendir", "kompoloi-glass", "zither", "oud", "glass",
+           "saz", "zil", "accordion", "lute", "davul", "castanets", 
+          "triangle", "tambourine", "maracas", "contrabass", "synthesizer", 
+          "drums", "electric guitar", "ney", "crotalums", "tabla", 
+          "bendir\[Hyphen]zil", "voice"}, {
+         Null, SparseArray[
+          Automatic, {28, 28}, 0, {
+           1, {{0, 17, 18, 25, 38, 50, 55, 55, 56, 58, 63, 63, 64, 66, 68, 70,
+              70, 70, 75, 77, 80, 80, 81, 81, 82, 82, 82, 82, 83}, {{1}, {
+             2}, {3}, {4}, {5}, {6}, {7}, {8}, {10}, {12}, {13}, {16}, {17}, {
+             18}, {19}, {20}, {21}, {2}, {4}, {6}, {11}, {18}, {19}, {20}, {
+             21}, {4}, {5}, {6}, {9}, {10}, {12}, {14}, {15}, {18}, {20}, {
+             22}, {26}, {27}, {5}, {6}, {8}, {9}, {10}, {12}, {13}, {14}, {
+             15}, {18}, {19}, {20}, {6}, {9}, {11}, {20}, {28}, {14}, {9}, {
+             27}, {10}, {15}, {16}, {18}, {19}, {20}, {14}, {15}, {14}, {
+             15}, {18}, {26}, {19}, {20}, {22}, {23}, {26}, {24}, {25}, {
+             21}, {22}, {23}, {23}, {25}, {28}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1}}]}, {
+         EdgeWeight -> {56, 3, 10, 8, 6, 4, 2, 1, 4, 3, 1, 2, 1, 3, 2, 7, 1, 
+           8, 2, 2, 1, 1, 1, 3, 1, 22, 1, 2, 4, 1, 4, 1, 1, 2, 4, 1, 1, 1, 14,
+            1, 1, 3, 1, 1, 2, 1, 1, 1, 1, 1, 13, 1, 3, 3, 1, 1, 8, 1, 7, 1, 1,
+            1, 1, 2, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 2},
+           ImageSize -> {750, 500}, VertexLabels -> {
+            Placed["Name", Center]}, VertexLabelStyle -> {
+            Directive[Italic, 10]}}], $CellContext`hGraph[
+         Pattern[$CellContext`l, 
+          Blank[]]] := HighlightGraph[$CellContext`wGraph, 
+         VertexList[$CellContext`wGraph], VertexSize -> 
+         Thread[VertexList[$CellContext`wGraph] -> Rescale[$CellContext`l]], 
+         ImageSize -> {750, 500}], $CellContext`measuresPlot[
+         Pattern[$CellContext`l, 
+          Blank[]]] := ListPlot[
+         Map[Labeled[
+           Part[#, 2], 
+           Rotate[
+            Part[#, 1], 90 Degree], Top]& , 
+          $CellContext`measuresList[$CellContext`l]], PlotStyle -> 
+         PointSize[Medium], PlotRange -> 1.2 Max[$CellContext`l], 
+         ImageSize -> {750, 500}], $CellContext`measuresList[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Sort[
+         MapThread[List, {$CellContext`sfdata, $CellContext`l}], Part[#, 2] > 
+         Part[#2, 2]& ], $CellContext`sfdata = {
+        "guitar", "harpsichord", "baglamas", "toumperleki", "spoon drums", 
+         "bendir", "kompoloi-glass", "zither", "oud", "glass", "saz", "zil", 
+         "accordion", "lute", "davul", "castanets", "triangle", "tambourine", 
+         "maracas", "contrabass", "synthesizer", "drums", "electric guitar", 
+         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", 
+         "voice"}, $CellContext`measuresTable[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Pane[
+         Text[
+          Grid[
+           Sort[
+            MapThread[List, {$CellContext`sfdata, 
+              If[
+               Apply[And, 
+                Map[
+                FractionalPart[#] == 0& , $CellContext`l]], $CellContext`l, 
+               Map[NumberForm[#, {3, 4}]& , 
+                N[$CellContext`l]]]}], Part[#, 2] > Part[#2, 2]& ], 
+           Alignment -> {{Left, "."}}, Spacings -> {5, 0}]], 
+         ImageSize -> {750, 500}], $CellContext`hubCentrality[
+         Pattern[$CellContext`g, 
+          Blank[]]] := Part[
+         HITSCentrality[$CellContext`g], 1], $CellContext`authCentrality[
+         Pattern[$CellContext`g, 
+          Blank[]]] := Part[
+         HITSCentrality[$CellContext`g], 2]}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ Editable->False,
+ CellChangeTimes->{{3.833157316262968*^9, 3.8331573222413425`*^9}, {
+   3.8331577118979616`*^9, 3.8331577141801414`*^9}, 3.8331578421065836`*^9, 
+   3.833158052617132*^9},
+ CellLabel->"Out[55]=",ExpressionUUID->"b504ad27-ba1f-4898-b7c8-fefea14617eb"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Snapshots", "Section",
+ Editable->False,
+ CellChangeTimes->{{3.8330159420578456`*^9, 3.8330159420588455`*^9}, 
+   3.833016430612822*^9},ExpressionUUID->"c7f2f0bf-9ae5-408a-b8f0-\
+9dcd51ec9b9b"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`h$$ = $CellContext`hGraph, $CellContext`m$$ \
+= BetweennessCentrality, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`h$$], $CellContext`hGraph, 
+       "show"}, {$CellContext`hGraph -> 
+       "highlighted network", $CellContext`measuresPlot -> 
+       "scatter plot", $CellContext`measuresTable -> "table"}}, {{
+       Hold[$CellContext`m$$], VertexDegree, "measure"}, {
+      VertexDegree -> "valence", ClosenessCentrality -> 
+       "closeness centrality", BetweennessCentrality -> 
+       "betweenness centrality", DegreeCentrality -> "degree centrality", 
+       RadialityCentrality -> "radiality centrality", EccentricityCentrality -> 
+       "eccentricity centrality", $CellContext`hubCentrality -> 
+       "hub centrality", $CellContext`authCentrality -> 
+       "authority centrality", EigenvectorCentrality -> 
+       "eigenvector centrality", StatusCentrality -> "status centrality", 
+       PageRankCentrality -> "page ranks", LocalClusteringCoefficient -> 
+       "local clustering coefficient", MeanNeighborDegree -> 
+       "mean neighbor degree"}}, {
+      Hold[
+       Row[{
+         Manipulate`Place[1], 
+         Spacer[15], 
+         Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
+    Typeset`size$$ = {900., {298., 302.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     2, StandardForm, 
+      "Variables" :> {$CellContext`h$$ = $CellContext`hGraph, \
+$CellContext`m$$ = VertexDegree}, "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> $CellContext`h$$[
+        $CellContext`m$$[$CellContext`wGraph]], 
+      "Specifications" :> {{{$CellContext`h$$, $CellContext`hGraph, 
+          "show"}, {$CellContext`hGraph -> 
+          "highlighted network", $CellContext`measuresPlot -> 
+          "scatter plot", $CellContext`measuresTable -> "table"}, 
+         ControlPlacement -> 
+         1}, {{$CellContext`m$$, VertexDegree, "measure"}, {
+         VertexDegree -> "valence", ClosenessCentrality -> 
+          "closeness centrality", BetweennessCentrality -> 
+          "betweenness centrality", DegreeCentrality -> "degree centrality", 
+          RadialityCentrality -> "radiality centrality", 
+          EccentricityCentrality -> 
+          "eccentricity centrality", $CellContext`hubCentrality -> 
+          "hub centrality", $CellContext`authCentrality -> 
+          "authority centrality", EigenvectorCentrality -> 
+          "eigenvector centrality", StatusCentrality -> "status centrality", 
+          PageRankCentrality -> "page ranks", LocalClusteringCoefficient -> 
+          "local clustering coefficient", MeanNeighborDegree -> 
+          "mean neighbor degree"}, ControlPlacement -> 2}, 
+        Row[{
+          Manipulate`Place[1], 
+          Spacer[15], 
+          Manipulate`Place[2]}]}, 
+      "Options" :> {ControlPlacement -> Top, Deployed -> True}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{948., {342.13403309800196`, 347.86596690199804`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`wGraph = 
+       Graph[{"guitar", "harpsichord", "baglamas", "toumperleki", 
+          "spoon drums", "bendir", "kompoloi-glass", "zither", "oud", "glass",
+           "saz", "zil", "accordion", "lute", "davul", "castanets", 
+          "triangle", "tambourine", "maracas", "contrabass", "synthesizer", 
+          "drums", "electric guitar", "ney", "crotalums", "tabla", 
+          "bendir\[Hyphen]zil", "voice"}, {
+         Null, SparseArray[
+          Automatic, {28, 28}, 0, {
+           1, {{0, 17, 18, 25, 38, 50, 55, 55, 56, 58, 63, 63, 64, 66, 68, 70,
+              70, 70, 75, 77, 80, 80, 81, 81, 82, 82, 82, 82, 83}, {{1}, {
+             2}, {3}, {4}, {5}, {6}, {7}, {8}, {10}, {12}, {13}, {16}, {17}, {
+             18}, {19}, {20}, {21}, {2}, {4}, {6}, {11}, {18}, {19}, {20}, {
+             21}, {4}, {5}, {6}, {9}, {10}, {12}, {14}, {15}, {18}, {20}, {
+             22}, {26}, {27}, {5}, {6}, {8}, {9}, {10}, {12}, {13}, {14}, {
+             15}, {18}, {19}, {20}, {6}, {9}, {11}, {20}, {28}, {14}, {9}, {
+             27}, {10}, {15}, {16}, {18}, {19}, {20}, {14}, {15}, {14}, {
+             15}, {18}, {26}, {19}, {20}, {22}, {23}, {26}, {24}, {25}, {
+             21}, {22}, {23}, {23}, {25}, {28}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1}}]}, {
+         EdgeWeight -> {56, 3, 10, 8, 6, 4, 2, 1, 4, 3, 1, 2, 1, 3, 2, 7, 1, 
+           8, 2, 2, 1, 1, 1, 3, 1, 22, 1, 2, 4, 1, 4, 1, 1, 2, 4, 1, 1, 1, 14,
+            1, 1, 3, 1, 1, 2, 1, 1, 1, 1, 1, 13, 1, 3, 3, 1, 1, 8, 1, 7, 1, 1,
+            1, 1, 2, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 2},
+           ImageSize -> {750, 500}, VertexLabels -> {
+            Placed["Name", Center]}, VertexLabelStyle -> {
+            Directive[Italic, 10]}}], $CellContext`hGraph[
+         Pattern[$CellContext`l, 
+          Blank[]]] := HighlightGraph[$CellContext`wGraph, 
+         VertexList[$CellContext`wGraph], VertexSize -> 
+         Thread[VertexList[$CellContext`wGraph] -> Rescale[$CellContext`l]], 
+         ImageSize -> {750, 500}], $CellContext`measuresPlot[
+         Pattern[$CellContext`l, 
+          Blank[]]] := ListPlot[
+         Map[Labeled[
+           Part[#, 2], 
+           Rotate[
+            Part[#, 1], 90 Degree], Top]& , 
+          $CellContext`measuresList[$CellContext`l]], PlotStyle -> 
+         PointSize[Medium], PlotRange -> 1.2 Max[$CellContext`l], 
+         ImageSize -> {750, 500}], $CellContext`measuresList[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Sort[
+         MapThread[List, {$CellContext`sfdata, $CellContext`l}], Part[#, 2] > 
+         Part[#2, 2]& ], $CellContext`sfdata = {
+        "guitar", "harpsichord", "baglamas", "toumperleki", "spoon drums", 
+         "bendir", "kompoloi-glass", "zither", "oud", "glass", "saz", "zil", 
+         "accordion", "lute", "davul", "castanets", "triangle", "tambourine", 
+         "maracas", "contrabass", "synthesizer", "drums", "electric guitar", 
+         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", 
+         "voice"}, $CellContext`measuresTable[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Pane[
+         Text[
+          Grid[
+           Sort[
+            MapThread[List, {$CellContext`sfdata, 
+              If[
+               Apply[And, 
+                Map[
+                FractionalPart[#] == 0& , $CellContext`l]], $CellContext`l, 
+               Map[NumberForm[#, {3, 4}]& , 
+                N[$CellContext`l]]]}], Part[#, 2] > Part[#2, 2]& ], 
+           Alignment -> {{Left, "."}}, Spacings -> {5, 0}]], 
+         ImageSize -> {750, 500}], $CellContext`hubCentrality[
+         Pattern[$CellContext`g, 
+          Blank[]]] := Part[
+         HITSCentrality[$CellContext`g], 1], $CellContext`authCentrality[
+         Pattern[$CellContext`g, 
+          Blank[]]] := Part[
+         HITSCentrality[$CellContext`g], 2]}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ Editable->False,
+ CellChangeTimes->{{3.833157316262968*^9, 3.8331573222413425`*^9}, {
+   3.8331577118979616`*^9, 3.8331577141801414`*^9}, 3.8331578421065836`*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"feabb6b9-0dee-47f4-900b-17265eaae040"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`h$$ = $CellContext`measuresPlot, \
+$CellContext`m$$ = $CellContext`authCentrality, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`h$$], $CellContext`hGraph, 
+       "show"}, {$CellContext`hGraph -> 
+       "highlighted network", $CellContext`measuresPlot -> 
+       "scatter plot", $CellContext`measuresTable -> "table"}}, {{
+       Hold[$CellContext`m$$], VertexDegree, "measure"}, {
+      VertexDegree -> "valence", ClosenessCentrality -> 
+       "closeness centrality", BetweennessCentrality -> 
+       "betweenness centrality", DegreeCentrality -> "degree centrality", 
+       RadialityCentrality -> "radiality centrality", EccentricityCentrality -> 
+       "eccentricity centrality", $CellContext`hubCentrality -> 
+       "hub centrality", $CellContext`authCentrality -> 
+       "authority centrality", EigenvectorCentrality -> 
+       "eigenvector centrality", StatusCentrality -> "status centrality", 
+       PageRankCentrality -> "page ranks", LocalClusteringCoefficient -> 
+       "local clustering coefficient", MeanNeighborDegree -> 
+       "mean neighbor degree"}}, {
+      Hold[
+       Row[{
+         Manipulate`Place[1], 
+         Spacer[15], 
+         Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
+    Typeset`size$$ = {900., {298., 302.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     2, StandardForm, 
+      "Variables" :> {$CellContext`h$$ = $CellContext`hGraph, \
+$CellContext`m$$ = VertexDegree}, "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> $CellContext`h$$[
+        $CellContext`m$$[$CellContext`wGraph]], 
+      "Specifications" :> {{{$CellContext`h$$, $CellContext`hGraph, 
+          "show"}, {$CellContext`hGraph -> 
+          "highlighted network", $CellContext`measuresPlot -> 
+          "scatter plot", $CellContext`measuresTable -> "table"}, 
+         ControlPlacement -> 
+         1}, {{$CellContext`m$$, VertexDegree, "measure"}, {
+         VertexDegree -> "valence", ClosenessCentrality -> 
+          "closeness centrality", BetweennessCentrality -> 
+          "betweenness centrality", DegreeCentrality -> "degree centrality", 
+          RadialityCentrality -> "radiality centrality", 
+          EccentricityCentrality -> 
+          "eccentricity centrality", $CellContext`hubCentrality -> 
+          "hub centrality", $CellContext`authCentrality -> 
+          "authority centrality", EigenvectorCentrality -> 
+          "eigenvector centrality", StatusCentrality -> "status centrality", 
+          PageRankCentrality -> "page ranks", LocalClusteringCoefficient -> 
+          "local clustering coefficient", MeanNeighborDegree -> 
+          "mean neighbor degree"}, ControlPlacement -> 2}, 
+        Row[{
+          Manipulate`Place[1], 
+          Spacer[15], 
+          Manipulate`Place[2]}]}, 
+      "Options" :> {ControlPlacement -> Top, Deployed -> True}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{948., {342.13403309800196`, 347.86596690199804`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`wGraph = 
+       Graph[{"guitar", "harpsichord", "baglamas", "toumperleki", 
+          "spoon drums", "bendir", "kompoloi-glass", "zither", "oud", "glass",
+           "saz", "zil", "accordion", "lute", "davul", "castanets", 
+          "triangle", "tambourine", "maracas", "contrabass", "synthesizer", 
+          "drums", "electric guitar", "ney", "crotalums", "tabla", 
+          "bendir\[Hyphen]zil", "voice"}, {
+         Null, SparseArray[
+          Automatic, {28, 28}, 0, {
+           1, {{0, 17, 18, 25, 38, 50, 55, 55, 56, 58, 63, 63, 64, 66, 68, 70,
+              70, 70, 75, 77, 80, 80, 81, 81, 82, 82, 82, 82, 83}, {{1}, {
+             2}, {3}, {4}, {5}, {6}, {7}, {8}, {10}, {12}, {13}, {16}, {17}, {
+             18}, {19}, {20}, {21}, {2}, {4}, {6}, {11}, {18}, {19}, {20}, {
+             21}, {4}, {5}, {6}, {9}, {10}, {12}, {14}, {15}, {18}, {20}, {
+             22}, {26}, {27}, {5}, {6}, {8}, {9}, {10}, {12}, {13}, {14}, {
+             15}, {18}, {19}, {20}, {6}, {9}, {11}, {20}, {28}, {14}, {9}, {
+             27}, {10}, {15}, {16}, {18}, {19}, {20}, {14}, {15}, {14}, {
+             15}, {18}, {26}, {19}, {20}, {22}, {23}, {26}, {24}, {25}, {
+             21}, {22}, {23}, {23}, {25}, {28}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1}}]}, {
+         EdgeWeight -> {56, 3, 10, 8, 6, 4, 2, 1, 4, 3, 1, 2, 1, 3, 2, 7, 1, 
+           8, 2, 2, 1, 1, 1, 3, 1, 22, 1, 2, 4, 1, 4, 1, 1, 2, 4, 1, 1, 1, 14,
+            1, 1, 3, 1, 1, 2, 1, 1, 1, 1, 1, 13, 1, 3, 3, 1, 1, 8, 1, 7, 1, 1,
+            1, 1, 2, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 2},
+           ImageSize -> {750, 500}, VertexLabels -> {
+            Placed["Name", Center]}, VertexLabelStyle -> {
+            Directive[Italic, 10]}}], $CellContext`hGraph[
+         Pattern[$CellContext`l, 
+          Blank[]]] := HighlightGraph[$CellContext`wGraph, 
+         VertexList[$CellContext`wGraph], VertexSize -> 
+         Thread[VertexList[$CellContext`wGraph] -> Rescale[$CellContext`l]], 
+         ImageSize -> {750, 500}], $CellContext`measuresPlot[
+         Pattern[$CellContext`l, 
+          Blank[]]] := ListPlot[
+         Map[Labeled[
+           Part[#, 2], 
+           Rotate[
+            Part[#, 1], 90 Degree], Top]& , 
+          $CellContext`measuresList[$CellContext`l]], PlotStyle -> 
+         PointSize[Medium], PlotRange -> 1.2 Max[$CellContext`l], 
+         ImageSize -> {750, 500}], $CellContext`measuresList[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Sort[
+         MapThread[List, {$CellContext`sfdata, $CellContext`l}], Part[#, 2] > 
+         Part[#2, 2]& ], $CellContext`sfdata = {
+        "guitar", "harpsichord", "baglamas", "toumperleki", "spoon drums", 
+         "bendir", "kompoloi-glass", "zither", "oud", "glass", "saz", "zil", 
+         "accordion", "lute", "davul", "castanets", "triangle", "tambourine", 
+         "maracas", "contrabass", "synthesizer", "drums", "electric guitar", 
+         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", 
+         "voice"}, $CellContext`measuresTable[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Pane[
+         Text[
+          Grid[
+           Sort[
+            MapThread[List, {$CellContext`sfdata, 
+              If[
+               Apply[And, 
+                Map[
+                FractionalPart[#] == 0& , $CellContext`l]], $CellContext`l, 
+               Map[NumberForm[#, {3, 4}]& , 
+                N[$CellContext`l]]]}], Part[#, 2] > Part[#2, 2]& ], 
+           Alignment -> {{Left, "."}}, Spacings -> {5, 0}]], 
+         ImageSize -> {750, 500}], $CellContext`hubCentrality[
+         Pattern[$CellContext`g, 
+          Blank[]]] := Part[
+         HITSCentrality[$CellContext`g], 1], $CellContext`authCentrality[
+         Pattern[$CellContext`g, 
+          Blank[]]] := Part[
+         HITSCentrality[$CellContext`g], 2]}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ Editable->False,
+ CellChangeTimes->{{3.833157316262968*^9, 3.8331573222413425`*^9}, {
+   3.8331577118979616`*^9, 3.8331577141801414`*^9}, 3.8331578421065836`*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"3c89c419-92a3-4bbb-9ba3-701ef2c1ab2b"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`h$$ = $CellContext`measuresTable, \
+$CellContext`m$$ = StatusCentrality, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`h$$], $CellContext`hGraph, 
+       "show"}, {$CellContext`hGraph -> 
+       "highlighted network", $CellContext`measuresPlot -> 
+       "scatter plot", $CellContext`measuresTable -> "table"}}, {{
+       Hold[$CellContext`m$$], VertexDegree, "measure"}, {
+      VertexDegree -> "valence", ClosenessCentrality -> 
+       "closeness centrality", BetweennessCentrality -> 
+       "betweenness centrality", DegreeCentrality -> "degree centrality", 
+       RadialityCentrality -> "radiality centrality", EccentricityCentrality -> 
+       "eccentricity centrality", $CellContext`hubCentrality -> 
+       "hub centrality", $CellContext`authCentrality -> 
+       "authority centrality", EigenvectorCentrality -> 
+       "eigenvector centrality", StatusCentrality -> "status centrality", 
+       PageRankCentrality -> "page ranks", LocalClusteringCoefficient -> 
+       "local clustering coefficient", MeanNeighborDegree -> 
+       "mean neighbor degree"}}, {
+      Hold[
+       Row[{
+         Manipulate`Place[1], 
+         Spacer[15], 
+         Manipulate`Place[2]}]], Manipulate`Dump`ThisIsNotAControl}}, 
+    Typeset`size$$ = {900., {297.13403309800196`, 302.86596690199804`}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     2, StandardForm, 
+      "Variables" :> {$CellContext`h$$ = $CellContext`hGraph, \
+$CellContext`m$$ = VertexDegree}, "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> $CellContext`h$$[
+        $CellContext`m$$[$CellContext`wGraph]], 
+      "Specifications" :> {{{$CellContext`h$$, $CellContext`hGraph, 
+          "show"}, {$CellContext`hGraph -> 
+          "highlighted network", $CellContext`measuresPlot -> 
+          "scatter plot", $CellContext`measuresTable -> "table"}, 
+         ControlPlacement -> 
+         1}, {{$CellContext`m$$, VertexDegree, "measure"}, {
+         VertexDegree -> "valence", ClosenessCentrality -> 
+          "closeness centrality", BetweennessCentrality -> 
+          "betweenness centrality", DegreeCentrality -> "degree centrality", 
+          RadialityCentrality -> "radiality centrality", 
+          EccentricityCentrality -> 
+          "eccentricity centrality", $CellContext`hubCentrality -> 
+          "hub centrality", $CellContext`authCentrality -> 
+          "authority centrality", EigenvectorCentrality -> 
+          "eigenvector centrality", StatusCentrality -> "status centrality", 
+          PageRankCentrality -> "page ranks", LocalClusteringCoefficient -> 
+          "local clustering coefficient", MeanNeighborDegree -> 
+          "mean neighbor degree"}, ControlPlacement -> 2}, 
+        Row[{
+          Manipulate`Place[1], 
+          Spacer[15], 
+          Manipulate`Place[2]}]}, 
+      "Options" :> {ControlPlacement -> Top, Deployed -> True}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{948., {342.13403309800196`, 347.86596690199804`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`wGraph = 
+       Graph[{"guitar", "harpsichord", "baglamas", "toumperleki", 
+          "spoon drums", "bendir", "kompoloi-glass", "zither", "oud", "glass",
+           "saz", "zil", "accordion", "lute", "davul", "castanets", 
+          "triangle", "tambourine", "maracas", "contrabass", "synthesizer", 
+          "drums", "electric guitar", "ney", "crotalums", "tabla", 
+          "bendir\[Hyphen]zil", "voice"}, {
+         Null, SparseArray[
+          Automatic, {28, 28}, 0, {
+           1, {{0, 17, 18, 25, 38, 50, 55, 55, 56, 58, 63, 63, 64, 66, 68, 70,
+              70, 70, 75, 77, 80, 80, 81, 81, 82, 82, 82, 82, 83}, {{1}, {
+             2}, {3}, {4}, {5}, {6}, {7}, {8}, {10}, {12}, {13}, {16}, {17}, {
+             18}, {19}, {20}, {21}, {2}, {4}, {6}, {11}, {18}, {19}, {20}, {
+             21}, {4}, {5}, {6}, {9}, {10}, {12}, {14}, {15}, {18}, {20}, {
+             22}, {26}, {27}, {5}, {6}, {8}, {9}, {10}, {12}, {13}, {14}, {
+             15}, {18}, {19}, {20}, {6}, {9}, {11}, {20}, {28}, {14}, {9}, {
+             27}, {10}, {15}, {16}, {18}, {19}, {20}, {14}, {15}, {14}, {
+             15}, {18}, {26}, {19}, {20}, {22}, {23}, {26}, {24}, {25}, {
+             21}, {22}, {23}, {23}, {25}, {28}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+            1, 1, 1, 1, 1, 1, 1, 1}}]}, {
+         EdgeWeight -> {56, 3, 10, 8, 6, 4, 2, 1, 4, 3, 1, 2, 1, 3, 2, 7, 1, 
+           8, 2, 2, 1, 1, 1, 3, 1, 22, 1, 2, 4, 1, 4, 1, 1, 2, 4, 1, 1, 1, 14,
+            1, 1, 3, 1, 1, 2, 1, 1, 1, 1, 1, 13, 1, 3, 3, 1, 1, 8, 1, 7, 1, 1,
+            1, 1, 2, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 2},
+           ImageSize -> {750, 500}, VertexLabels -> {
+            Placed["Name", Center]}, VertexLabelStyle -> {
+            Directive[Italic, 10]}}], $CellContext`hGraph[
+         Pattern[$CellContext`l, 
+          Blank[]]] := HighlightGraph[$CellContext`wGraph, 
+         VertexList[$CellContext`wGraph], VertexSize -> 
+         Thread[VertexList[$CellContext`wGraph] -> Rescale[$CellContext`l]], 
+         ImageSize -> {750, 500}], $CellContext`measuresPlot[
+         Pattern[$CellContext`l, 
+          Blank[]]] := ListPlot[
+         Map[Labeled[
+           Part[#, 2], 
+           Rotate[
+            Part[#, 1], 90 Degree], Top]& , 
+          $CellContext`measuresList[$CellContext`l]], PlotStyle -> 
+         PointSize[Medium], PlotRange -> 1.2 Max[$CellContext`l], 
+         ImageSize -> {750, 500}], $CellContext`measuresList[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Sort[
+         MapThread[List, {$CellContext`sfdata, $CellContext`l}], Part[#, 2] > 
+         Part[#2, 2]& ], $CellContext`sfdata = {
+        "guitar", "harpsichord", "baglamas", "toumperleki", "spoon drums", 
+         "bendir", "kompoloi-glass", "zither", "oud", "glass", "saz", "zil", 
+         "accordion", "lute", "davul", "castanets", "triangle", "tambourine", 
+         "maracas", "contrabass", "synthesizer", "drums", "electric guitar", 
+         "ney", "crotalums", "tabla", "bendir\[Hyphen]zil", 
+         "voice"}, $CellContext`measuresTable[
+         Pattern[$CellContext`l, 
+          Blank[]]] := Pane[
+         Text[
+          Grid[
+           Sort[
+            MapThread[List, {$CellContext`sfdata, 
+              If[
+               Apply[And, 
+                Map[
+                FractionalPart[#] == 0& , $CellContext`l]], $CellContext`l, 
+               Map[NumberForm[#, {3, 4}]& , 
+                N[$CellContext`l]]]}], Part[#, 2] > Part[#2, 2]& ], 
+           Alignment -> {{Left, "."}}, Spacings -> {5, 0}]], 
+         ImageSize -> {750, 500}], $CellContext`hubCentrality[
+         Pattern[$CellContext`g, 
+          Blank[]]] := Part[
+         HITSCentrality[$CellContext`g], 1], $CellContext`authCentrality[
+         Pattern[$CellContext`g, 
+          Blank[]]] := Part[
+         HITSCentrality[$CellContext`g], 2]}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ Editable->False,
+ CellChangeTimes->{{3.833157316262968*^9, 3.8331573222413425`*^9}, {
+   3.8331577118979616`*^9, 3.8331577141801414`*^9}, 3.8331578421065836`*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"e6aaaa55-b9e2-47b4-93f5-0f48de1b0919"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Description", "Section",
+ Editable->False,
+ CellChangeTimes->{{3.833015924419983*^9, 3.833015924419983*^9}, 
+   3.8330164106917753`*^9},ExpressionUUID->"f2a37068-4b83-44ac-a8f6-\
+b451fdb97eff"],
+
+Cell["\<\
+This Demonstration plots a network encoding musical instruments used for \
+rhythm accompaniment . The data consists of 100 recordings of 21 popular \
+songs of Smyrna in nine - beat rhythms . You can choose various measures . \
+The results are also presented in tables and scatter plots .\
+\>", "Text",
+ Editable->False,
+ CellChangeTimes->{{3.8330159325040846`*^9, 3.8330159325051174`*^9}, 
+   3.83301641990232*^9},ExpressionUUID->"2f8eafcb-d5f4-4a94-bada-\
+9c20626ef5fb"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Details", "Section",
+ Editable->False,
+ CellChangeTimes->{{3.8330159797828083`*^9, 3.833015979784808*^9}, 
+   3.833016442006449*^9},ExpressionUUID->"0835ae3e-02d4-4a1e-99d2-\
+83dcadce65e5"],
+
+Cell["\<\
+The following musical instruments used for rhythm accompaniment were \
+considered : guitar, toumperleki, spoon drums, bendir, baglamas, contrabass, \
+oud, harpsichord, glass, zil, tambourine, lute, maracas, davul, saz, zither, \
+bendir with zil (bendir - zil), drums, castanets, accordion, kompoloi with a \
+glass (kompoloi - glass), synthesizer, tabla, crotalums, ney, electric \
+guitar, and triangle, as well as the voice . \
+\>", "Text",
+ Editable->False,
+ CellChangeTimes->{{3.8330159882842827`*^9, 3.8330159882842827`*^9}, 
+   3.833016451845913*^9},ExpressionUUID->"65d7a31c-6648-4f0c-b66b-\
+83ff8ab91eec"],
+
+Cell["\<\
+The network encodes the use of these musical instruments in the recordings, \
+either alone or in combination . Each vertex of the network represents an \
+instrument . If an instrument was used alone, it is connected to itself with \
+a loop . If it was used in combination with any other instruments, it is \
+connected to each of them with an edge . The network is weighted . The weight \
+of each loop or edge is the frequency of use for each instrument or \
+combination of instruments in the recordings . The surface of each \
+highlighted vertex is proportional to its respective measure . The calculated \
+measures are the valences, the closeness, betweenness, degree, radiality, \
+eccentricity, hub, authority, eigenvector and status centralities, the page \
+ranks, the local clustering coefficients and the mean neighbor degrees .\
+\>", "Text",
+ Editable->False,
+ CellChangeTimes->{{3.833016002308832*^9, 3.83301600231083*^9}, 
+   3.8330164518469133`*^9},ExpressionUUID->"36525a57-3ca1-4b16-b68d-\
+e0c5961a4ae2"],
+
+Cell["\<\
+As far as we know, this Demonstration presents a novel method for studying \
+the characteristics of musical instruments .\
+\>", "Text",
+ Editable->False,
+ CellChangeTimes->{{3.8330160103251524`*^9, 3.833016010326153*^9}, 
+   3.8330164518469133`*^9},ExpressionUUID->"f942b17d-70bf-4969-987a-\
+02175b3b4f08"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["References", "Section",
+ Editable->False,
+ CellChangeTimes->{{3.833016023563834*^9, 3.833016023563834*^9}, 
+   3.833016468153018*^9},ExpressionUUID->"f6c00c40-3714-4aeb-b7ef-\
+e31b03a244d8"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"[", "1", "]"}], " ", 
+    RowBox[{"C", ".", " ", "Chatzimichail"}]}], ",", " ", 
+   "\"\<The Popular Songs of Smyrna in Nine Beat Rhythms Before and After the \
+Destruction of Smyrna\>\"", ",", " ", "Thesis", ",", " ", 
+   RowBox[{"Department", " ", "of", " ", "Traditional", " ", "Music"}], ",", 
+   " ", 
+   RowBox[{
+   "Technological", " ", "Educational", " ", "Institute", " ", "of", " ", 
+    "Epirus"}], ",", " ", "Greece", ",", " ", 
+   RowBox[{"2017.", " ", 
+    RowBox[{
+     ButtonBox[
+      RowBox[{"doi", ":", 
+       RowBox[{
+        RowBox[{"10.17605", "/", 
+         RowBox[{"OSF", ".", "IO"}]}], "/", "WEK3Q"}]}],
+      BaseStyle->"Hyperlink",
+      ButtonData->{
+        URL["https://thesiscommons.org/wek3q/"], None},
+      ButtonNote->"https://thesiscommons.org/wek3q/"], "."}]}]}], 
+  "ItemNumbered"]], "Text",
+ Editable->False,
+ CellChangeTimes->{{3.8330160333811727`*^9, 3.833016033382198*^9}, 
+   3.8330164759711175`*^9, {3.833016561401458*^9, 
+   3.833016599587844*^9}},ExpressionUUID->"38cd2e45-6510-4305-becc-\
+4b09d20a25a9"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "Section",
+ Editable->False,
+ CellChangeTimes->{{3.8330160866616564`*^9, 3.833016091755706*^9}, 
+   3.833016762191374*^9},ExpressionUUID->"e50378b3-891a-46bd-938b-\
+63fc5cdcf7ff"],
+
+Cell["\<\
+network
+graph
+measure
+music
+popular songs of Smyrna
+musical instruments
+rhythm accompaniment instruments
+recordings\
+\>", "Text",
+ Editable->False,
+ CellChangeTimes->{{3.8330161011305804`*^9, 3.8330161011325817`*^9}, 
+   3.833016770229192*^9},ExpressionUUID->"ddd1e148-e80f-4002-a628-\
+75f1f1e115a6"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["About", "Subsection",
+ Editable->False,
+ CellChangeTimes->{{3.833016117477112*^9, 3.833016119466317*^9}, 
+   3.83301679300926*^9},ExpressionUUID->"11c7dc7f-3906-4c04-a95e-\
+4c160f4a7e80"],
+
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{
+   RowBox[{
+   "Network", " ", "of", " ", "Musical", " ", "Instruments", " ", "for", " ", 
+    "Rhythm", " ", "Accompaniment"}], " "}],
+  FontFamily->"Source Sans Pro",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]], "\n", 
+ StyleBox[
+  RowBox[{"Version", " ", "Number", " ", "1.2"}], "Text",
+  FontFamily->"Source Sans Pro",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]], "\n", 
+ StyleBox[
+  RowBox[{
+  "Hellenic", " ", "Complex", " ", "Systems", " ", "Laboratory", " ", "2021"}],
+  FontFamily->"Source Sans Pro",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]], "\n", 
+ StyleBox[
+  RowBox[{
+   StyleBox["First",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["published",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["at",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["Wolfram",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["Demonstrations",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["Project",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontFamily->"Source Sans Pro ExtraLight",
+    FontColor->RGBColor[0., 0., 0.]], 
+   RowBox[{
+    StyleBox["at",
+     FontFamily->"Source Sans Pro ExtraLight",
+     FontColor->RGBColor[0., 0., 0.]], 
+    StyleBox[":",
+     FontFamily->"Source Sans Pro ExtraLight",
+     FontColor->RGBColor[0., 0., 0.]], 
+    StyleBox[" ",
+     FontFamily->"Source Sans Pro ExtraLight",
+     FontColor->RGBColor[0., 0., 0.]], 
+    StyleBox[
+     TemplateBox[{
+      "\"demonstrations.wolfram.com/\
+NetworkOfMusicalInstrumentsForRhythmAccompaniment/\"", 
+       "https://demonstrations.wolfram.com/\
+NetworkOfMusicalInstrumentsForRhythmAccompaniment/"},
+      "HyperlinkURL"],
+     FontFamily->"Source Sans Pro"]}]}],
+  FontSize->12], "\n", 
+ StyleBox[
+  RowBox[{
+   StyleBox["This",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["software",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["is",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["distributed",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["under",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["  ",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["an",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox[" ",
+    FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]], 
+   StyleBox[
+    RowBox[{
+     ButtonBox[
+      RowBox[{"Attribution", " ", "-", " ", "NonCommercial", " ", "-", " ", 
+       RowBox[{
+       "ShareAlike", " ", "4.0", " ", "International", " ", "Creative", " ", 
+        "Commons", " ", "License"}]}],
+      BaseStyle->"Hyperlink",
+      ButtonData->{
+        URL["http://creativecommons.org/licenses/by-nc-sa/4.0/"], None},
+      ButtonNote->"http://creativecommons.org/licenses/by-nc-sa/4.0/"], "."}],
+    FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]]}],
+  FontFamily->"Source Sans Pro",
+  FontSize->12]}], "Text",
+ Editable->False,
+ CellChangeTimes->{{3.8330161268374405`*^9, 3.8330161268384123`*^9}, {
+  3.833016801419777*^9, 3.833016815103711*^9}, {3.833019727636589*^9, 
+  3.8330197289988256`*^9}, {3.833070622969451*^9, 3.8330706623816605`*^9}, {
+  3.83307069678131*^9, 3.8330707261353345`*^9}, {3.833071619560191*^9, 
+  3.8330717089943657`*^9}},ExpressionUUID->"3ffe3345-d57b-4a3f-abe5-\
+eb6a2cfae16a"]
+}, Open  ]]
+},
+CellGrouping->Manual,
+WindowSize->{1430.25, 738.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (May 11, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"3a5eaeaa-d6d7-4237-aad2-c9abaaa0d3b0"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 244, 4, 98, "Title",ExpressionUUID->"d4bc6fc5-af6b-41bb-926c-674275de5aa5"],
+Cell[827, 28, 424, 12, 135, "Author",ExpressionUUID->"c6c9be86-4ddb-44bd-9020-059a1be74584"],
+Cell[1254, 42, 277, 6, 31, "Affiliation",ExpressionUUID->"8348fc2c-4bf5-4401-98a4-14d3babeeef5"],
+Cell[CellGroupData[{
+Cell[1556, 52, 205, 4, 67, "Section",ExpressionUUID->"8fc2367a-c857-4c73-81f5-f7bdbcb61b8e"],
+Cell[1764, 58, 10552, 317, 292, "Input",ExpressionUUID->"69d06f77-440a-4b99-8238-40e06b097457",
+ InitializationCell->True],
+Cell[12319, 377, 602, 18, 44, "Input",ExpressionUUID->"69d8540f-b5e7-4143-a992-0771fa867378",
+ InitializationCell->True],
+Cell[12924, 397, 280, 7, 44, "Input",ExpressionUUID->"f9708d09-deb5-4eb7-a597-cb8e0ea3d423",
+ InitializationCell->True],
+Cell[13207, 406, 527, 16, 44, "Input",ExpressionUUID->"90cc6900-719f-4ada-b453-f1caf69178ff",
+ InitializationCell->True],
+Cell[13737, 424, 489, 15, 44, "Input",ExpressionUUID->"3af9900c-4392-4538-bf53-ed51d089c287",
+ InitializationCell->True],
+Cell[14229, 441, 786, 23, 44, "Input",ExpressionUUID->"4629464c-734a-43cd-a6ef-bd7ef3f6c6d9",
+ InitializationCell->True],
+Cell[15018, 466, 485, 14, 44, "Input",ExpressionUUID->"6f37a4e1-c1b0-491a-8a94-080d0560bf98",
+ InitializationCell->True],
+Cell[15506, 482, 429, 13, 44, "Input",ExpressionUUID->"24c7d0dd-878b-42d2-841b-c552603dbe56",
+ InitializationCell->True],
+Cell[15938, 497, 338, 10, 44, "Input",ExpressionUUID->"b3ff3283-c05d-47fa-9258-ebc152d60f35",
+ InitializationCell->True],
+Cell[16279, 509, 476, 14, 44, "Input",ExpressionUUID->"1a1e0032-32f0-4a4e-9d5d-4c5f5f4a179d",
+ InitializationCell->True],
+Cell[16758, 525, 1552, 38, 64, "Input",ExpressionUUID->"55ddd41d-5aa6-4792-b55c-8c3e8895ef53",
+ InitializationCell->True],
+Cell[18313, 565, 2025, 54, 83, "Input",ExpressionUUID->"e75123ea-c7e9-4526-8cfe-bb6823bc7670",
+ InitializationCell->True],
+Cell[20341, 621, 569, 17, 44, "Input",ExpressionUUID->"0aefd820-1310-44fa-b11a-0e900ae39ace",
+ InitializationCell->True],
+Cell[20913, 640, 1174, 32, 44, "Input",ExpressionUUID->"9a88c835-0c42-42b5-84b5-c289f2a5620f",
+ InitializationCell->True],
+Cell[22090, 674, 914, 21, 44, "Input",ExpressionUUID->"47872729-ad89-49d7-acff-4f9354b9287a",
+ InitializationCell->True],
+Cell[23007, 697, 353, 9, 44, "Input",ExpressionUUID->"7afaac48-5fac-43b0-9aa0-b028c812ab9c",
+ InitializationCell->True],
+Cell[23363, 708, 354, 9, 44, "Input",ExpressionUUID->"a32efcbc-546f-4709-a498-0ca89ee5ec49",
+ InitializationCell->True],
+Cell[CellGroupData[{
+Cell[23742, 721, 3645, 77, 425, "Input",ExpressionUUID->"48672fea-d900-4c4c-bafd-6e3af0bc8015",
+ InitializationCell->True],
+Cell[27390, 800, 8280, 153, 609, "Output",ExpressionUUID->"b504ad27-ba1f-4898-b7c8-fefea14617eb"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35731, 960, 199, 4, 67, "Section",ExpressionUUID->"c7f2f0bf-9ae5-408a-b8f0-9dcd51ec9b9b"],
+Cell[35933, 966, 8263, 152, 709, "Output",ExpressionUUID->"feabb6b9-0dee-47f4-900b-17265eaae040"],
+Cell[44199, 1120, 8280, 153, 709, "Output",ExpressionUUID->"3c89c419-92a3-4bbb-9ba3-701ef2c1ab2b"],
+Cell[52482, 1275, 8300, 153, 709, "Output",ExpressionUUID->"e6aaaa55-b9e2-47b4-93f5-0f48de1b0919"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[60819, 1433, 199, 4, 53, "Section",ExpressionUUID->"f2a37068-4b83-44ac-a8f6-b451fdb97eff"],
+Cell[61021, 1439, 481, 9, 58, "Text",ExpressionUUID->"2f8eafcb-d5f4-4a94-bada-9c20626ef5fb"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[61539, 1453, 195, 4, 53, "Section",ExpressionUUID->"0835ae3e-02d4-4a1e-99d2-83dcadce65e5"],
+Cell[61737, 1459, 621, 11, 58, "Text",ExpressionUUID->"65d7a31c-6648-4f0c-b66b-83ff8ab91eec"],
+Cell[62361, 1472, 1025, 16, 104, "Text",ExpressionUUID->"36525a57-3ca1-4b16-b68d-e0c5961a4ae2"],
+Cell[63389, 1490, 316, 7, 35, "Text",ExpressionUUID->"f942b17d-70bf-4969-987a-02175b3b4f08"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[63742, 1502, 196, 4, 53, "Section",ExpressionUUID->"f6c00c40-3714-4aeb-b7ef-e31b03a244d8"],
+Cell[63941, 1508, 1112, 29, 59, "Text",ExpressionUUID->"38cd2e45-6510-4305-becc-4b09d20a25a9"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[65090, 1542, 196, 4, 53, "Section",ExpressionUUID->"e50378b3-891a-46bd-938b-63fc5cdcf7ff"],
+Cell[65289, 1548, 310, 13, 196, "Text",ExpressionUUID->"ddd1e148-e80f-4002-a628-75f1f1e115a6"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[65636, 1566, 193, 4, 38, "Subsection",ExpressionUUID->"11c7dc7f-3906-4c04-a95e-4c160f4a7e80"],
+Cell[65832, 1572, 4282, 123, 121, "Text",ExpressionUUID->"3ffe3345-d57b-4a3f-abe5-eb6a2cfae16a"]
+}, Open  ]]
+}
+]
+*)
+
