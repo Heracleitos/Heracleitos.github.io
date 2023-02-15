@@ -1,0 +1,386 @@
+﻿
+.c1 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #000000;
+	font-style: normal;
+	background-color: #FFFFFF;
+}
+.c2 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #A80000;
+	font-style: normal;
+	background-color: #FFFFFF;
+}
+.c3 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #000080;
+	font-style: normal;
+	background-color: #FFFFFF;
+}
+.c4 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	color: #000080;
+	font-style: normal;
+	background-color: #FFFFFF;
+}
+.c5 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	color: #000080;
+	font-style: normal;
+	background-color: #FFFFFF;
+}
+.c6 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-large;
+	font-weight: normal;
+	color: #000080;
+	font-style: normal;
+	background-color: #F7F7F7;
+}
+.c7 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #000000;
+	font-style: italic;
+	background-color: #FFFFFF;
+}
+.c8 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-small;
+	font-weight: normal;
+	color: #000000;
+	font-style: italic;
+	background-color: #FFFFFF;
+	vertical-align: sub;
+}
+.c9 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	color: #A80000;
+	font-style: normal;
+	background-color: #FFFFFF;
+}
+.c10 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-small;
+	font-weight: normal;
+	color: #000000;
+	font-style: normal;
+	background-color: #FFFFFF;
+	vertical-align: super;
+}
+.c11 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #000000;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+.c12 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-small;
+	font-weight: normal;
+	color: #000000;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	vertical-align: sub;
+}
+.c13 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #000000;
+	font-style: italic;
+	background-color: #FFFFFF;
+}
+.c14 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-large;
+	font-weight: normal;
+	color: #000080;
+	background-color: #FFFFFF;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+	text-align: left;
+}
+h1 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: x-large;
+	font-weight: normal;
+	color: #A80000;
+	background-color: #FFFFFF;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+	text-align: left;
+}
+h2 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	color: #A80000;
+	background-color: #FFFFFF;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+	text-align: left;
+}
+h3 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	color: #494949;
+	background-color: #FFFFFF;
+	font-style: normal;
+	text-decoration: none;
+	text-align: left;
+}
+h4 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #A80000;
+	background-color: #FFFFFF;
+	font-style: normal;
+	text-decoration: none;
+	text-align: left;
+}
+h5 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #494949;
+	background-color: #FFFFFF;
+	font-style: normal;
+	text-decoration: none;
+	text-align: left;
+}
+h6 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: large;
+	font-weight: normal;
+	color: #000080;
+	background-color: #FFFFFF;
+	font-style: normal;
+	text-decoration: none;
+	text-align: left;
+}
+a {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: medium;
+	font-style: normal;
+}
+
+a:link {
+color: #000000;
+background-color: #FFFFFF;
+text-decoration: underline;
+text-decoration-color: #0000F0;
+}
+a:visited {
+color: #000000;
+background-color: #FFFFFF;
+}
+	a:hover {
+		color: #0000F0;
+		text-decoration: none;
+	}
+a:active {
+	color: #FF0000;
+	background-color:#FFFFFF;
+	 font-weight: bold;
+}
+a.hidden {
+	color: #000080;
+	text-decoration: none;
+	background-color:#F7F7F7;
+}
+a.hidden:visited {
+  color: #000080;
+  background-color:#F7F7F7;
+}
+a.hidden:hover {
+	color: #0000CC;
+	background-color:#F7F7F7;
+}
+a.hidden:active {
+	color: #000080;
+	background-color:#F7F7F7;
+	font-weight: bold;
+}
+a.nav:visited {
+	color: #cccccc;
+	background-color:#FFFFFF;
+	padding: 2px;
+}
+a.nav:hover {
+	color: #FFFFFF;
+	background-color: #666666;
+	padding: 2px;
+}
+a.menu:hover {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	letter-spacing: 1px;
+}
+a.box:hover {
+ color:#000000;
+	padding: 3px;
+	text-decoration: none;
+	background-color:#FFFFFF;
+	border: medium solid #3366FF;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+}
+
+img 
+{ 	max-width: 100%; 
+	height: auto; 
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color:  #F7F7F7;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: #000080;
+  background-color: #F7F7F7;
+  padding: 4%;
+  text-align: center;
+  text-decoration: none;
+}
+/* Active/current link */
+.sidebar a.active {
+  background-color: #00BFFF;
+  color: #000080;
+}
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #daecff;
+  color: #0000CC;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+	margin-left: calc(250px + (100% - 1210px) / 4);
+	padding: 2% 4% 2% 4%;
+	height: auto;
+	max-width: 960px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+div.icontent {
+	margin-left: calc(250px + (100% - 1210px) / 4);
+	padding: 6% 4% 2% 4%;
+	height: auto;
+	max-width: 960px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/*On screens that are less than 1250px wide */
+@media screen and (max-width: 1250px) {
+ .sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color:  #F7F7F7;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+div.content {
+	margin-left: 250px;
+	padding: 2% 4% 2% 4%;
+	text-align: justify;
+	text-justify: inter-word;	
+}
+div.icontent {
+	margin-left: 250px;
+	padding: 6% 4% 2% 4%;
+	height: auto;
+	max-width: 960px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+}
+/* On screens that are less than 600px wide */
+@media screen and (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+  .sidebar a {
+    text-align: center;
+    float: none;
+	padding: 1%;
+}
+  div.content {
+	margin-left: 0px;
+	padding: 0px 1% 1% 1%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+div.icontent {
+	margin-left: 0px;
+	padding: 0px 1% 1% 1%;
+	height: auto;
+	text-align: justify;
+	text-justify: inter-word; 
+}
+}
+/* On screens that are less than 400px wide */
+@media screen and (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+  .sidebar a {
+    text-align: center;
+    float: none;
+	padding: 1%;
+}
+  div.content {
+	margin-left: 0px;
+	padding: 0px 2% 2% 2%;
+	text-align: left;
+}
+div.icontent {
+	margin-left: 0px;
+	padding: 0px 2% 2% 2%;
+	height: auto;
+	text-align: left;
+}
+}
