@@ -119,6 +119,17 @@
 	text-transform: none;
 	text-align: left;
 }
+.c15 {
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #000000;
+	font-style: normal;
+	background-color: #FFFFFF;
+}
+.mid { 
+vertical-align: middle; 
+}
 h1 {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
 	font-size: x-large;
