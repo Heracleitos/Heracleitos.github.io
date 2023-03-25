@@ -1,4 +1,4 @@
-﻿
+
 .c1 {
 	font-family: 'Source Sans Pro', Verdana, sans-serif;
 	font-size: medium;
@@ -199,24 +199,27 @@ a {
 }
 
 a:link {
-color: #000000;
-background-color: #FFFFFF;
-text-decoration: underline;
-text-decoration-color: #0000F0;
-text-decoration-thickness: 1px;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-decoration: underline;
+	text-decoration-color: #0000F0;
+	text-decoration-thickness: 1px;
 }
 a:visited {
-color: #000000;
-background-color: #FFFFFF;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-decoration: underline;
+	text-decoration-color: #000000;
+	text-decoration-thickness: 1px;
 }
-	a:hover {
-		color: #0000F0;
-		text-decoration: none;
-	}
+a:hover {
+	color: #0000F0;
+	text-decoration: none;
+}
 a:active {
-	color: #FF0000;
+	color: #0000F0;
 	background-color:#FFFFFF;
-	 font-weight: bold;
+	font-weight: bold;
 }
 a.hidden {
 	color: #000080;
@@ -224,8 +227,8 @@ a.hidden {
 	background-color:#F7F7F7;
 }
 a.hidden:visited {
-  color: #000080;
-  background-color:#F7F7F7;
+	color: #000080;
+	background-color:#F7F7F7;
 }
 a.hidden:hover {
 	color: #0000CC;
