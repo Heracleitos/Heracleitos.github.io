@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    652155,      15076]
-NotebookOptionsPosition[    650798,      15045]
-NotebookOutlinePosition[    651202,      15061]
-CellTagsIndexPosition[    651159,      15058]
+NotebookDataLength[    653182,      15099]
+NotebookOptionsPosition[    651713,      15067]
+NotebookOutlinePosition[    652117,      15083]
+CellTagsIndexPosition[    652074,      15080]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -15006,6 +15006,7 @@ Measure", "SubsubitemParagraph",
   FontSize->10]
 }], "Subsubsubsubsection",
  Editable->False,
+ Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
   3.8066347247297487`*^9}, {3.806634802358505*^9, 
@@ -15013,11 +15014,30 @@ Measure", "SubsubitemParagraph",
 ff8cde674aa6"],
 
 Cell[TextData[{
+ StyleBox["Note\n",
+  FontSize->10],
+ StyleBox["It is assumed that if a test measurement is above the diagnostic \
+threshold, the patient is classified as test-positive, otherwise as \
+test-negative.", "SubsubitemParagraph",
+  FontSize->10]
+}], "Subsubsubsubsection",
+ Editable->False,
+ Deployed->True,
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+  3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+  3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+  3.8946810592083073`*^9, 3.8946810613518553`*^9}, {3.8946813173615294`*^9, 
+  3.8946813569756613`*^9}, {3.8946821088444633`*^9, 3.8946821325590963`*^9}, {
+  3.8946822382547655`*^9, 3.8946822485563297`*^9}, {3.8947120225049753`*^9, 
+  3.894712037039548*^9}},ExpressionUUID->"ac2f104c-a0cf-4cd6-9214-\
+8a0d53debfd2"],
+
+Cell[TextData[{
  StyleBox["About",
   FontSize->10],
  StyleBox["\n",
   FontSize->12],
- StyleBox["Relation \nVersion Number 1.0.1 \nHellenic Complex Systems \
+ StyleBox["Relation \nVersion Number 1.0.2 \nHellenic Complex Systems \
 Laboratory 2020\nThis software is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
@@ -15034,20 +15054,22 @@ International Creative Commons License",
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
  Editable->False,
+ Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
    3.8066664862909436`*^9, 3.806666502895442*^9}, 3.8070765097138042`*^9, {
    3.8070767128593364`*^9, 3.8070767130363336`*^9}, {3.857308171862177*^9, 
-   3.8573081718631754`*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
+   3.8573081718631754`*^9}, 
+   3.894712081663641*^9},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
 WindowSize->{1428., 732.75},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
-FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"0f22e20e-6540-48c8-88b0-8d21b6f4d0c8"
+ExpressionUUID->"edba649a-6e9e-4eea-bcc5-70a93ef5d00b"
 ]
 (* End of Notebook Content *)
 
@@ -15075,8 +15097,9 @@ Cell[158508, 4177, 107375, 2215, 19, "Input",ExpressionUUID->"101cd957-340d-431e
  CellOpen->False],
 Cell[265886, 6394, 383189, 8603, 667, "Output",ExpressionUUID->"d3ae8ad4-3d08-4f7f-ace9-4b5ef8fa500a"]
 }, Open  ]],
-Cell[649090, 15000, 511, 12, 53, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
-Cell[649604, 15014, 1178, 28, 75, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
+Cell[649090, 15000, 528, 13, 53, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
+Cell[649621, 15015, 852, 17, 33, "Subsubsubsubsection",ExpressionUUID->"ac2f104c-a0cf-4cd6-9214-8a0d53debfd2"],
+Cell[650476, 15034, 1221, 30, 75, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
 }, Open  ]]
 }
 ]
