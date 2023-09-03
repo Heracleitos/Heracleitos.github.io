@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.hcsl.com</loc>
-        <lastmod>2023-08-31</lastmod>
+        <lastmod>2023-09-03</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
@@ -104,13 +104,13 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Tools/index.html</loc>
-        <lastmod>2023-06-02</lastmod>
+        <lastmod>2023-09-03</lastmod>
         <changefreq>always</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
-        <lastmod>2023-03-21</lastmod>
+        <lastmod>2023-09-03</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
@@ -122,7 +122,7 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Tools/Uncertainty/index.html</loc>
-        <lastmod>2023-03-21</lastmod>
+        <lastmod>2023-09-03</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
@@ -132,9 +132,21 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
+	 <url>
+        <loc>https://www.hcsl.com/Tools/BayesianDiagnosis/index.html</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://www.hcsl.com/Tools/BayesianDiagnosis/BayesianDiagnosis.nb</loc>
+        <lastmod>2023-09-03</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
     <url>
         <loc>https://www.hcsl.com/Tools/Nutrition/index.html</loc>
-        <lastmod>2023-03-21</lastmod>
+        <lastmod>2023-09-03</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
@@ -146,7 +158,7 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Tools/Quality/index.html</loc>
-        <lastmod>2023-03-21</lastmod>
+        <lastmod>2023-09-03</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
@@ -158,7 +170,7 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Tools/QualityControl/index.html</loc>
-        <lastmod>2023-03-21</lastmod>
+        <lastmod>2023-09-03</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
@@ -170,7 +182,7 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Tools/IntelligentQuality/index.html</loc>
-        <lastmod>2023-03-21</lastmod>
+        <lastmod>2023-09-03</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
@@ -182,7 +194,7 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Tools/IntelligentQualityControl/index.html</loc>
-        <lastmod>2023-03-21</lastmod>
+        <lastmod>2023-09-03</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
