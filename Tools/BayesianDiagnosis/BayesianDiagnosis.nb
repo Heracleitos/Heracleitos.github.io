@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3320273,      58758]
-NotebookOptionsPosition[   3318245,      58708]
-NotebookOutlinePosition[   3318993,      58735]
-CellTagsIndexPosition[   3318918,      58730]
+NotebookDataLength[   3320415,      58760]
+NotebookOptionsPosition[   3318360,      58709]
+NotebookOutlinePosition[   3319135,      58737]
+CellTagsIndexPosition[   3319060,      58732]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -35,8 +35,8 @@ Cell[TextData[StyleBox["Bayesian Diagnosis",
    3.8945129460252132`*^9},ExpressionUUID->"57d27950-ec35-4f64-861b-\
 33c982f5bbb7"],
 
-Cell[TextData[StyleBox["A Bayesian-Based Computational Tool for Parametric \
-and Nonparametric Medical Diagnosis", "Subtitle",
+Cell[TextData[StyleBox["A Bayesian Inference Based Computational Tool for \
+Parametric and Nonparametric Medical Diagnosis", "Subtitle",
  FontSize->24]], "Title",
  Editable->False,
  Deployed->True,
@@ -49,7 +49,8 @@ and Nonparametric Medical Diagnosis", "Subtitle",
    3.806637999223695*^9}, 3.8066381021359987`*^9, {3.889353649763666*^9, 
    3.8893537120907927`*^9}, {3.8893537441798906`*^9, 3.889353751755268*^9}, {
    3.8945014004009104`*^9, 3.894501455194312*^9}, {3.902506558058407*^9, 
-   3.902506560070706*^9}},ExpressionUUID->"4d872ecb-439d-4da2-a3c4-\
+   3.902506560070706*^9}, {3.9028823387567205`*^9, 
+   3.9028823409044046`*^9}},ExpressionUUID->"4d872ecb-439d-4da2-a3c4-\
 3948d3173047"],
 
 Cell[TextData[{
@@ -102,7 +103,7 @@ Cell[BoxData[
    RowBox[{
     RowBox[{
      RowBox[{
-      RowBox[{"The", " ", "current", " ", "datasets"}], ",", " ", 
+      RowBox[{"The", " ", "provided", " ", "datasets"}], ",", " ", 
       RowBox[{"d1", " ", 
        RowBox[{"(", 
         RowBox[{"Fasting", " ", "Plasma", " ", "Glucose", " ", 
@@ -286,14 +287,14 @@ Cell[BoxData[
        "118.`", ",", "121.`", ",", "198.`", ",", "93.`", ",", "112.`", ",", 
        "114.`", ",", "322.`", ",", "111.`", ",", "150.`", ",", "123.`", ",", 
        "111.`", ",", "111.`", ",", "125.`", ",", "93.`", ",", "158.`", ",", 
-       "133.`", ",", "97.`"}], "}"}]}], ";"}], "\n", 
+       "133.`", ",", "97.`"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{"d2", ":", " ", 
      RowBox[{"2", "nd", " ", "measurand", " ", "in", " ", 
       RowBox[{"diseased", ".", " ", "Current"}], " ", "dataset"}], ":", " ", 
      RowBox[{"Glycated", " ", "Hemoglobin", " ", "A1c", " ", 
       RowBox[{"(", "%", ")"}], " ", "in", " ", "nondiabetics"}]}], " ", 
-    "*)"}], "\[IndentingNewLine]", 
+    "*)"}], "\n", 
    RowBox[{
     RowBox[{"d2", ":=", 
      RowBox[{"{", 
@@ -429,7 +430,7 @@ Cell[BoxData[
        "6.1`", ",", "9.4`", ",", "5.7`", ",", "6.6`", ",", "5.9`", ",", 
        "11.`", ",", "6.`", ",", "6.5`", ",", "5.9`", ",", "6.1`", ",", "5.9`",
         ",", "6.1`", ",", "5.5`", ",", "7.1`", ",", "6.4`", ",", "5.4`"}], 
-      "}"}]}], ";"}], "\[IndentingNewLine]", 
+      "}"}]}], ";"}], "\n", 
    RowBox[{"(*", " ", 
     RowBox[{"nd1", ":", " ", 
      RowBox[{"1", "st", " ", "measurand", " ", "in", " ", 
@@ -438,7 +439,7 @@ Cell[BoxData[
      RowBox[{"Fasting", " ", "Plasma", " ", "Glucose", " ", 
       RowBox[{"(", 
        RowBox[{"mg", "/", "dl"}], ")"}], "in", " ", "nondiabetics"}]}], " ", 
-    "*)"}], "\n", 
+    "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"nd1", ":=", 
      RowBox[{"{", 
@@ -2547,7 +2548,7 @@ Cell[BoxData[
        "99.`", ",", "109.`", ",", "92.`", ",", "106.`", ",", "96.`", ",", 
        "98.`", ",", "74.`", ",", "116.`", ",", "101.`", ",", "107.`", ",", 
        "98.`", ",", "111.`", ",", "105.`", ",", "99.`"}], "}"}]}], ";"}], 
-   "\n", 
+   "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{"nd2", ":", " ", 
      RowBox[{"2", "nd", " ", "measurand", " ", "in", " ", 
@@ -2555,7 +2556,7 @@ Cell[BoxData[
      " ", 
      RowBox[{"Glycated", " ", "Hemoglobin", " ", "A1c", " ", 
       RowBox[{"(", "%", ")"}], " ", "in", " ", "nondiabetics"}]}], " ", 
-    "*)"}], "\[IndentingNewLine]", 
+    "*)"}], "\n", 
    RowBox[{
     RowBox[{"nd2", ":=", 
      RowBox[{"{", 
@@ -5077,7 +5078,7 @@ Cell[BoxData[
    3.902750550613866*^9}, {3.9027505811320457`*^9, 3.9027506282780523`*^9}, {
    3.902750672257616*^9, 3.9027507349031935`*^9}, {3.902750774959872*^9, 
    3.9027508455268383`*^9}, {3.9027508860831633`*^9, 3.9027509474419374`*^9}, 
-   3.9027509851537347`*^9},
+   3.9027509851537347`*^9, {3.9028823859088535`*^9, 3.9028823885670433`*^9}},
  CellTags->"Datasets",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd"]
 }, Open  ]],
 
@@ -19235,7 +19236,7 @@ $CellContext`val$$], 900, Alignment -> Center],
              "gamma"}}}, 
          "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
          "DefaultOptions" :> {}],
-        ImageSizeCache->{1310., {293.63403309800196`, 299.36596690199804`}},
+        ImageSizeCache->{1188., {332.63403309800196`, 338.36596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -58707,6 +58708,7 @@ c1dc4ff25d19"]
 }, Open  ]]
 },
 WindowToolbars->"MultipurposeBar",
+WindowSize->{1440, 742.5},
 WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
 DockedCells->{},
 SpellingDictionaries->{"CorrectWords"->{
@@ -58721,7 +58723,7 @@ ExpressionUUID->"2634fa2d-310d-4c0a-83ef-168316d85548"
 (*CellTagsOutline
 CellTagsIndex->{
  "Datasets"->{
-  Cell[4072, 98, 373007, 4982, 19, "Input",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd",
+  Cell[4136, 99, 373058, 4982, 19, "Input",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd",
    CellOpen->False,
    InitializationCell->True,
    CellTags->"Datasets"]}
@@ -58729,7 +58731,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Datasets", 3318720, 58722}
+ {"Datasets", 3318862, 58724}
  }
 *)
 (*NotebookFileOutline
@@ -58737,28 +58739,28 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 730, 13, 86, "Title",ExpressionUUID->"57d27950-ec35-4f64-861b-33c982f5bbb7",
  Evaluatable->False],
-Cell[1313, 37, 889, 15, 71, "Title",ExpressionUUID->"4d872ecb-439d-4da2-a3c4-3948d3173047",
+Cell[1313, 37, 953, 16, 71, "Title",ExpressionUUID->"4d872ecb-439d-4da2-a3c4-3948d3173047",
  Evaluatable->False],
-Cell[2205, 54, 459, 12, 129, "Author",ExpressionUUID->"7baeeaa4-fa17-4d3b-b131-f1e57344defe"],
-Cell[2667, 68, 366, 8, 31, "Affiliation",ExpressionUUID->"5715299a-9866-456d-b185-790c5a6ee8eb"],
+Cell[2269, 55, 459, 12, 129, "Author",ExpressionUUID->"7baeeaa4-fa17-4d3b-b131-f1e57344defe"],
+Cell[2731, 69, 366, 8, 31, "Affiliation",ExpressionUUID->"5715299a-9866-456d-b185-790c5a6ee8eb"],
 Cell[CellGroupData[{
-Cell[3058, 80, 1011, 16, 25, "Subsubsubsubsection",ExpressionUUID->"5b7223cb-6ed4-46ec-bae1-6fc3d88d03ee"],
-Cell[4072, 98, 373007, 4982, 19, "Input",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd",
+Cell[3122, 81, 1011, 16, 25, "Subsubsubsubsection",ExpressionUUID->"5b7223cb-6ed4-46ec-bae1-6fc3d88d03ee"],
+Cell[4136, 99, 373058, 4982, 19, "Input",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd",
  CellOpen->False,
  InitializationCell->True,
  CellTags->"Datasets"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[377116, 5085, 997, 16, 25, "Subsubsubsubsection",ExpressionUUID->"3db43d26-a103-423f-ac7c-7351e72d7c9c"],
+Cell[377231, 5086, 997, 16, 25, "Subsubsubsubsection",ExpressionUUID->"3db43d26-a103-423f-ac7c-7351e72d7c9c"],
 Cell[CellGroupData[{
-Cell[378138, 5105, 646469, 13934, 19, "Input",ExpressionUUID->"1b5538c7-505f-4823-9b61-0f6f03cd46b2",
+Cell[378253, 5106, 646469, 13934, 19, "Input",ExpressionUUID->"1b5538c7-505f-4823-9b61-0f6f03cd46b2",
  CellOpen->False,
  InitializationCell->True],
-Cell[1024610, 19041, 2290284, 39592, 758, "Output",ExpressionUUID->"39a23089-fac0-4f1c-9033-a474dc801fea"]
+Cell[1024725, 19042, 2290284, 39592, 836, "Output",ExpressionUUID->"39a23089-fac0-4f1c-9033-a474dc801fea"]
 }, Open  ]]
 }, Open  ]],
-Cell[3314921, 58637, 1541, 29, 67, "Subsubsubsubsection",ExpressionUUID->"6e02de44-2a78-4951-bf85-66e2850280f4"],
-Cell[3316465, 58668, 1764, 37, 75, "Subsubsubsubsection",ExpressionUUID->"46404344-e892-42af-ba46-c1dc4ff25d19"]
+Cell[3315036, 58638, 1541, 29, 67, "Subsubsubsubsection",ExpressionUUID->"6e02de44-2a78-4951-bf85-66e2850280f4"],
+Cell[3316580, 58669, 1764, 37, 75, "Subsubsubsubsection",ExpressionUUID->"46404344-e892-42af-ba46-c1dc4ff25d19"]
 }, Open  ]]
 }
 ]
