@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2373139,      43149]
-NotebookOptionsPosition[   2371090,      43098]
-NotebookOutlinePosition[   2371859,      43126]
-CellTagsIndexPosition[   2371784,      43121]
+NotebookDataLength[   2370379,      43063]
+NotebookOptionsPosition[   2368345,      43013]
+NotebookOutlinePosition[   2369114,      43041]
+CellTagsIndexPosition[   2369039,      43036]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5705,88 +5705,6 @@ Cell[BoxData[{
         RowBox[{
         "\[Mu]X", ",", "\[Sigma]X", ",", "\[Mu]Y", ",", "\[Sigma]Y", ",", 
          "\[Rho]"}], "]"}]}], "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"kernel", "[", 
-    RowBox[{"u_", ",", 
-     RowBox[{"\"\<Gaussian\>\"", "_"}]}], "]"}], ":=", 
-   RowBox[{"Switch", "[", 
-    RowBox[{"\"\<Gaussian\>\"", ",", "\"\<Biweight\>\"", ",", 
-     RowBox[{"If", "[", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"Abs", "[", "u", "]"}], "<=", "1"}], ",", 
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{"15", "/", "16"}], ")"}], "*", 
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{"1", "-", 
-           RowBox[{"u", "^", "2"}]}], ")"}], "^", "2"}]}], ",", "0"}], "]"}], 
-     ",", "\"\<Cosine\>\"", ",", 
-     RowBox[{"If", "[", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"Abs", "[", "u", "]"}], "<=", "1"}], ",", 
-       RowBox[{
-        RowBox[{"Pi", "/", "4"}], "*", 
-        RowBox[{"Cos", "[", 
-         RowBox[{
-          RowBox[{"Pi", "/", "2"}], "*", "u"}], "]"}]}], ",", "0"}], "]"}], 
-     ",", "\"\<Epanechnikov\>\"", ",", 
-     RowBox[{"If", "[", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"Abs", "[", "u", "]"}], "<=", "1"}], ",", 
-       RowBox[{
-        RowBox[{"3", "/", "4"}], "*", 
-        RowBox[{"(", 
-         RowBox[{"1", "-", 
-          RowBox[{"u", "^", "2"}]}], ")"}]}], ",", "0"}], "]"}], ",", 
-     "\"\<Gaussian\>\"", ",", 
-     RowBox[{
-      RowBox[{"Exp", "[", 
-       RowBox[{
-        RowBox[{"-", 
-         RowBox[{"(", 
-          RowBox[{"u", "^", "2"}], ")"}]}], "/", "2"}], "]"}], "/", 
-      RowBox[{"Sqrt", "[", 
-       RowBox[{"2", "*", "Pi"}], "]"}]}], ",", "\"\<Rectangular\>\"", ",", 
-     RowBox[{"If", "[", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"Abs", "[", "u", "]"}], "<=", "1"}], ",", 
-       RowBox[{"1", "/", "2"}], ",", "0"}], "]"}], ",", "\"\<SemiCircle\>\"", 
-     ",", 
-     RowBox[{"If", "[", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"Abs", "[", "u", "]"}], "<=", "1"}], ",", 
-       RowBox[{"2", "/", 
-        RowBox[{"(", 
-         RowBox[{"Pi", "*", 
-          RowBox[{"Sqrt", "[", 
-           RowBox[{"1", "-", 
-            RowBox[{"u", "^", "2"}]}], "]"}]}], ")"}]}], ",", "0"}], "]"}], 
-     ",", "\"\<Triangular\>\"", ",", 
-     RowBox[{"If", "[", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"Abs", "[", "u", "]"}], "<=", "1"}], ",", 
-       RowBox[{"1", "-", 
-        RowBox[{"Abs", "[", "u", "]"}]}], ",", "0"}], "]"}], ",", 
-     "\"\<Triweight\>\"", ",", 
-     RowBox[{"If", "[", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"Abs", "[", "u", "]"}], "<=", "1"}], ",", 
-       RowBox[{
-        RowBox[{"35", "/", "32"}], "*", 
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{"1", "-", 
-           RowBox[{"u", "^", "2"}]}], ")"}], "^", "3"}]}], ",", "0"}], 
-      "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"ll", "[", 
@@ -18511,9 +18429,6 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
          RowBox[{"ImageSize", "->", "Automatic"}]}], "]"}]}]}], "}"}], ",", 
     "\[IndentingNewLine]", 
     RowBox[{"ImageSize", "->", "Automatic"}]}], "]"}], "]"}]}], "Input",
- Editable->False,
- Deployed->True,
- CellOpen->False,
  InitializationCell->True,
  CellChangeTimes->{{3.8896912300950117`*^9, 3.8896912309170127`*^9}, {
    3.8896912644171963`*^9, 3.889691275348404*^9}, {3.889691384719347*^9, 
@@ -19032,9 +18947,9 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
    3.9022310137659225`*^9, 3.902231015351775*^9}, {3.902231062842846*^9, 
    3.9022311045123615`*^9}, 3.9022845006132326`*^9, 3.902506248035385*^9, {
    3.9029123482273517`*^9, 3.9029123492469745`*^9}, {3.9029124105336127`*^9, 
-   3.9029124108842244`*^9}},
- CellLabel->
-  "In[169]:=",ExpressionUUID->"1b5538c7-505f-4823-9b61-0f6f03cd46b2"],
+   3.9029124108842244`*^9}, {3.903261981237281*^9, 
+   3.903261982002649*^9}},ExpressionUUID->"1b5538c7-505f-4823-9b61-\
+0f6f03cd46b2"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"parametric\"\>"->
@@ -43120,7 +43035,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Datasets", 2371586, 43113}
+ {"Datasets", 2368841, 43028}
  }
 *)
 (*NotebookFileOutline
@@ -43142,14 +43057,13 @@ Cell[4136, 99, 373086, 4984, 19, "Input",ExpressionUUID->"0e7788a4-bacd-48d3-b24
 Cell[CellGroupData[{
 Cell[377259, 5088, 997, 16, 25, "Subsubsubsubsection",ExpressionUUID->"3db43d26-a103-423f-ac7c-7351e72d7c9c"],
 Cell[CellGroupData[{
-Cell[378281, 5108, 646471, 13928, 19, "Input",ExpressionUUID->"1b5538c7-505f-4823-9b61-0f6f03cd46b2",
- CellOpen->False,
+Cell[378281, 5108, 643726, 13843, 27243, "Input",ExpressionUUID->"1b5538c7-505f-4823-9b61-0f6f03cd46b2",
  InitializationCell->True],
-Cell[1024755, 19038, 1342884, 23984, 758, "Output",ExpressionUUID->"68ca109d-b19c-47bb-9aab-510d7b63cbec"]
+Cell[1022010, 18953, 1342884, 23984, 758, "Output",ExpressionUUID->"68ca109d-b19c-47bb-9aab-510d7b63cbec"]
 }, Open  ]]
 }, Open  ]],
-Cell[2367666, 43026, 1587, 29, 67, "Subsubsubsubsection",ExpressionUUID->"6e02de44-2a78-4951-bf85-66e2850280f4"],
-Cell[2369256, 43057, 1818, 38, 75, "Subsubsubsubsection",ExpressionUUID->"46404344-e892-42af-ba46-c1dc4ff25d19"]
+Cell[2364921, 42941, 1587, 29, 67, "Subsubsubsubsection",ExpressionUUID->"6e02de44-2a78-4951-bf85-66e2850280f4"],
+Cell[2366511, 42972, 1818, 38, 75, "Subsubsubsubsection",ExpressionUUID->"46404344-e892-42af-ba46-c1dc4ff25d19"]
 }, Open  ]]
 }
 ]
