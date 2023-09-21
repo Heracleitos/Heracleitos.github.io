@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1608173,      31301]
-NotebookOptionsPosition[   1606163,      31252]
-NotebookOutlinePosition[   1606938,      31280]
-CellTagsIndexPosition[   1606863,      31275]
+NotebookDataLength[   1607746,      31310]
+NotebookOptionsPosition[   1605732,      31261]
+NotebookOutlinePosition[   1606511,      31289]
+CellTagsIndexPosition[   1606436,      31284]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -199,7 +199,7 @@ Cell[BoxData[
        "245.`", ",", "117.`", ",", "129.`", ",", "173.`", ",", "114.`", ",", 
        "108.`", ",", "127.`", ",", "150.`", ",", "140.`", ",", "131.`", ",", 
        "118.`", ",", "121.`", ",", "112.`", ",", "150.`", ",", "125.`", ",", 
-       "158.`"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+       "158.`"}], "}"}]}], ";"}], "\n", 
    RowBox[{"(*", " ", 
     RowBox[{"d2", ":", " ", 
      RowBox[{"2", "nd", " ", "measurand", " ", "in", " ", 
@@ -208,7 +208,8 @@ Cell[BoxData[
       RowBox[{"Glycated", " ", "Hemoglobin", " ", "A1c", " ", 
        RowBox[{"(", "%", ")"}], " ", "in", " ", "nondiabetics", " ", "40"}], 
       "-", 
-      RowBox[{"60", " ", "years", " ", "old"}]}]}], " ", "*)"}], "\n", 
+      RowBox[{"60", " ", "years", " ", "old"}]}]}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"d2", "=", 
      RowBox[{"{", 
@@ -253,7 +254,7 @@ Cell[BoxData[
        "10.2`", ",", "9.2`", ",", "7.`", ",", "6.4`", ",", "6.7`", ",", "6.`",
         ",", "5.9`", ",", "6.1`", ",", "7.4`", ",", "6.3`", ",", "5.9`", ",", 
        "5.5`", ",", "6.1`", ",", "6.6`", ",", "6.5`", ",", "6.1`", ",", 
-       "7.1`"}], "}"}]}], ";"}], "\n", 
+       "7.1`"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{"nd1", ":", " ", 
      RowBox[{"1", "st", " ", "measurand", " ", "in", " ", 
@@ -264,8 +265,7 @@ Cell[BoxData[
        RowBox[{"(", 
         RowBox[{"mg", "/", "dl"}], ")"}], "in", " ", "nondiabetics", " ", 
        "40"}], "-", 
-      RowBox[{"60", " ", "years", " ", "old"}]}]}], "*)"}], 
-   "\[IndentingNewLine]", 
+      RowBox[{"60", " ", "years", " ", "old"}]}]}], "*)"}], "\n", 
    RowBox[{
     RowBox[{"nd1", "=", 
      RowBox[{"{", 
@@ -998,7 +998,8 @@ Cell[BoxData[
        "101.`", ",", "94.`", ",", "96.`", ",", "97.`", ",", "102.`", ",", 
        "117.`", ",", "110.`", ",", "101.`", ",", "104.`", ",", "115.`", ",", 
        "95.`", ",", "101.`", ",", "104.`", ",", "113.`", ",", "101.`", ",", 
-       "98.`", ",", "74.`", ",", "98.`"}], "}"}]}], ";"}], "\n", 
+       "98.`", ",", "74.`", ",", "98.`"}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{"nd2", ":", " ", 
      RowBox[{"2", "nd", " ", "measurand", " ", "in", " ", 
@@ -1008,8 +1009,7 @@ Cell[BoxData[
       RowBox[{"Glycated", " ", "Hemoglobin", " ", "A1c", " ", 
        RowBox[{"(", "%", ")"}], " ", "in", " ", "nondiabetics", " ", "40"}], 
       "-", 
-      RowBox[{"60", " ", "years", " ", "old"}]}]}], "*)"}], 
-   "\[IndentingNewLine]", 
+      RowBox[{"60", " ", "years", " ", "old"}]}]}], "*)"}], "\n", 
    RowBox[{
     RowBox[{"nd2", "=", 
      RowBox[{"{", 
@@ -2239,8 +2239,7 @@ Cell[BoxData[
    3.9041276155973*^9, 3.9041277036215086`*^9}, {3.904130101143835*^9, 
    3.9041301120329213`*^9}, {3.9041459171361127`*^9, 3.904145975007594*^9}},
  CellTags->"Datasets",
- CellLabel->
-  "In[406]:=",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd"]
+ CellLabel->"In[5]:=",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -10781,8 +10780,8 @@ nondiseased\>\""}], ",",
                     RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "}"}], 
                    ",", "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -11105,8 +11104,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                     "}"}], "]"}]}], "}"}], "]"}], ",", "\[IndentingNewLine]", 
                    "\"\<\>\"", ",", "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -11385,8 +11384,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                     RowBox[{"ControlPlacement", "\[Rule]", "Left"}]}], "}"}], 
                    ",", "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -11636,8 +11635,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                    ",", "\[IndentingNewLine]", "\"\<\>\"", ",", 
                    "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -11852,7 +11851,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
               RowBox[{"{", 
                RowBox[{
                 RowBox[{
-                "\"\<mesurements statistics\>\"", "->", "\[IndentingNewLine]", 
+                "\"\<measurements statistics\>\"", "->", 
+                 "\[IndentingNewLine]", 
                  RowBox[{"Manipulate", "[", 
                   RowBox[{
                    RowBox[{"Pane", "[", 
@@ -11869,28 +11869,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                     RowBox[{"Alignment", "\[Rule]", "Center"}]}], "]"}], ",", 
                    "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<measurands\>\"", ",", "Bold"}], "]"}], ",", 
-                   "\[IndentingNewLine]", 
-                   RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"x", ",", "126", ",", "\"\<1st measurand\>\""}], 
-                    "}"}], ",", "0.01", ",", "10000.00", ",", "0.01", ",", 
-                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
-                    RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "}"}], ",", 
-                   "\[IndentingNewLine]", 
-                   RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"y", ",", "6.5", ",", "\"\<2nd measurand\>\""}], 
-                    "}"}], ",", "0.01", ",", "10000.00", ",", "0.01", ",", 
-                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
-                    RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "}"}], ",", 
-                   "\[IndentingNewLine]", "\"\<\>\"", ",", 
-                   "\[IndentingNewLine]", 
-                   RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -12164,8 +12144,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                    "\[IndentingNewLine]", "\"\<\>\"", ",", 
                    "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -13386,7 +13366,7 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
              RowBox[{"{", 
               RowBox[{
                RowBox[{
-               "\"\<mesurements statistics\>\"", "->", "\[IndentingNewLine]", 
+               "\"\<measurements statistics\>\"", "->", "\[IndentingNewLine]", 
                 RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
                  RowBox[{
                   RowBox[{
@@ -13508,19 +13488,6 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                     "dnd122"}], "]"}], ",", "900", ",", 
                     RowBox[{"Alignment", "\[Rule]", "Center"}]}], "]"}]}], 
                   ",", "\[IndentingNewLine]", 
-                  RowBox[{"Style", "[", 
-                   RowBox[{
-                   "\"\<prior probability for disease (prevalence):\>\"", ",",
-                     "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
-                  RowBox[{"{", 
-                   RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"vd", ",", "0.055", ",", "\"\<\>\""}], "}"}], ",",
-                     "0.010", ",", "0.500", ",", "0.001", ",", 
-                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
-                    RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "}"}], ",", 
-                  "\[IndentingNewLine]", "\"\<\>\"", ",", 
-                  "\[IndentingNewLine]", 
                   RowBox[{"Style", "[", 
                    RowBox[{"\"\<1st kernel distribution\>\"", ",", "Bold"}], 
                    "]"}], ",", "\[IndentingNewLine]", 
@@ -13983,8 +13950,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                    ",", "\[IndentingNewLine]", "\"\<\>\"", ",", 
                    "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -14348,8 +14315,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                     "}"}], "]"}]}], "}"}], "]"}], ",", "\[IndentingNewLine]", 
                    "\"\<\>\"", ",", "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -14648,8 +14615,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                    ",", "\[IndentingNewLine]", "\"\<\>\"", ",", 
                    "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -14877,8 +14844,8 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                    ",", "\[IndentingNewLine]", "\"\<\>\"", ",", 
                    "\[IndentingNewLine]", 
                    RowBox[{"Style", "[", 
-                    RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
-                    "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}],
+                     "]"}], ",", "\[IndentingNewLine]", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{"{", 
@@ -15079,7 +15046,7 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
              RowBox[{"{", 
               RowBox[{
                RowBox[{
-               "\"\<mesurements statistics\>\"", "->", "\[IndentingNewLine]", 
+               "\"\<measurements statistics\>\"", "->", "\[IndentingNewLine]", 
                 RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
                  RowBox[{
                   RowBox[{
@@ -15151,7 +15118,7 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                     RowBox[{"Alignment", "\[Rule]", "Center"}]}], "]"}]}], 
                   ",", "\[IndentingNewLine]", 
                   RowBox[{"Style", "[", 
-                   RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
+                   RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}], 
                    "]"}], ",", "\[IndentingNewLine]", 
                   RowBox[{"{", 
                    RowBox[{
@@ -15480,7 +15447,7 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
                   "\[IndentingNewLine]", "\"\<\>\"", ",", 
                   "\[IndentingNewLine]", 
                   RowBox[{"Style", "[", 
-                   RowBox[{"\"\<mesurements statistics:\>\"", ",", "Bold"}], 
+                   RowBox[{"\"\<measurements statistics:\>\"", ",", "Bold"}], 
                    "]"}], ",", "\[IndentingNewLine]", 
                   RowBox[{"{", 
                    RowBox[{
@@ -16234,9 +16201,11 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
    3.904262656390814*^9}, {3.9042628627422915`*^9, 3.9042629075923643`*^9}, {
    3.904262968564886*^9, 3.904262977381027*^9}, {3.9042630094890127`*^9, 
    3.904263010735712*^9}, {3.9042630931618533`*^9, 3.904263116684814*^9}, {
-   3.9042638909449477`*^9, 3.9042639181919656`*^9}},
- CellLabel->
-  "In[410]:=",ExpressionUUID->"1bc535ab-7101-424e-91cb-558aa44877f5"],
+   3.9042638909449477`*^9, 3.9042639181919656`*^9}, {3.9042694745005674`*^9, 
+   3.9042694760588417`*^9}, {3.904269543967684*^9, 3.9042695448014607`*^9}, {
+   3.90426961082463*^9, 
+   3.9042696122703953`*^9}},ExpressionUUID->"1bc535ab-7101-424e-91cb-\
+558aa44877f5"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"parametric\"\>"->
@@ -16434,7 +16403,7 @@ $CellContext`val$$], 900, Alignment -> Center],
              "gamma"}}}, 
          "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
          "DefaultOptions" :> {}],
-        ImageSizeCache->{1310., {261.13403309800196`, 266.86596690199804`}},
+        ImageSizeCache->{1313., {262.63403309800196`, 268.36596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -16884,26 +16853,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -17036,8 +17009,9 @@ $CellContext`biGammaDistribution[
           Hold[$CellContext`nddist22$$], "gamma", 
           "distribution of 2nd measurand in nondiseased"}, {
          "normal" -> "normal", "lognormal" -> "lognormal", "gamma" -> 
-          "gamma"}}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
-       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+          "gamma"}}}, Typeset`size$$ = {
+       650., {180.63403309800196`, 186.36596690199804`}}, Typeset`update$$ = 
+       0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         2, StandardForm, 
          "Variables" :> {$CellContext`dcc$$ = 0.914, $CellContext`ddist11$$ = 
@@ -17161,6 +17135,7 @@ $CellContext`pop$$]], 650, Alignment -> Center],
              "gamma"}}}, 
          "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
          "DefaultOptions" :> {}],
+        ImageSizeCache->{1059., {290.63403309800196`, 296.36596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -17577,6 +17552,7 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]],
                
                NormalDistribution[$CellContext`\[Mu]Y, \
 $CellContext`\[Sigma]Y]}], "lognormal", 
+             
              CopulaDistribution[{
               "Binormal", ($CellContext`\[Rho] \
 $CellContext`\[Sigma]Y)/($CellContext`\[Mu]Y Sqrt[
@@ -17613,26 +17589,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -18342,8 +18322,9 @@ P9Mf309/rz+b+0N/zfd/N+H//HD6P3WkfHQ=
           Hold[$CellContext`nddist22$$], "gamma", 
           "distribution of 2nd measurand in nondiseased"}, {
          "normal" -> "normal", "lognormal" -> "lognormal", "gamma" -> 
-          "gamma"}}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
-       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+          "gamma"}}}, Typeset`size$$ = {
+       670., {178.63403309800196`, 184.36596690199804`}}, Typeset`update$$ = 
+       0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`ddist11$$ = 
@@ -18434,6 +18415,7 @@ $CellContext`msr$$, $CellContext`pop$$], 670, Alignment -> Center],
              "gamma"}}}, 
          "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
          "DefaultOptions" :> {}],
+        ImageSizeCache->{1031., {239.63403309800196`, 245.36596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -19358,7 +19340,7 @@ rMedxzWpPs33vllX8/cUS8+Ukx6HfRJHtB9tf9RL/gM0bIZy
        UntrackedVariables:>{Typeset`size$$}], "Manipulate",
       Deployed->True,
       StripOnInput->False],
-     Manipulate`InterpretManipulate[1]]}}, 1,
+     Manipulate`InterpretManipulate[1]]}}, 2,
     ImageSize->Automatic]}, {2,"\<\"tables\"\>"->
    TabViewBox[{{1,"\<\"mesurements statistics\"\>"->
     TagBox[
@@ -19450,8 +19432,9 @@ rMedxzWpPs33vllX8/cUS8+Ukx6HfRJHtB9tf9RL/gM0bIZy
           Hold[$CellContext`nddist22$$], "gamma", 
           "distribution of 2nd measurand in nondiseased"}, {
          "normal" -> "normal", "lognormal" -> "lognormal", "gamma" -> 
-          "gamma"}}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
-       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+          "gamma"}}}, Typeset`size$$ = {
+       800., {237.63403309800196`, 243.36596690199804`}}, Typeset`update$$ = 
+       0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`dcc$$ = 0.914, $CellContext`ddist11$$ = 
@@ -19553,6 +19536,7 @@ $CellContext`ddist22$$, $CellContext`nddist22$$], 800, Alignment -> Center],
              "gamma"}}}, 
          "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
          "DefaultOptions" :> {}],
+        ImageSizeCache->{1206., {269.13403309800196`, 274.86596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -20341,10 +20325,10 @@ $CellContext`nddist22$$], 800, Alignment -> Center], "Specifications" :> {
                 "1st measurand = " <> ToString[
                   NumberForm[$CellContext`x, {3, 0}]], " 2nd measurand = " <> 
                 ToString[
-                  NumberForm[$CellContext`y, {3, 1}]], "1st measurand = " <> 
-                ToString[
-                  NumberForm[$CellContext`x, {3, 0}]] <> 
-                " & 2nd measurand = " <> ToString[
+                  NumberForm[$CellContext`y, {3, 1}]], (("1st measurand = " <> 
+                  ToString[
+                    NumberForm[$CellContext`x, {3, 0}]]) <> 
+                 " & 2nd measurand = ") <> ToString[
                   NumberForm[$CellContext`y, {3, 1}]]}, {SpanFromLeft, 
                 NumberForm[$CellContext`vd, {7, 4}], SpanFromLeft, "1st set", 
                 $CellContext`pp[$CellContext`x, $CellContext`vd, \
@@ -20676,26 +20660,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -20727,7 +20715,7 @@ $CellContext`biGammaDistribution[
       Deployed->True,
       StripOnInput->False],
      Manipulate`InterpretManipulate[1]]}}, 1,
-    ImageSize->Automatic]}}, 1,
+    ImageSize->Automatic]}}, 2,
    ImageSize->Automatic]}, {2,"\<\"KDE\"\>"->
   TabViewBox[{{1,"\<\"plots\"\>"->
    TabViewBox[{{1,"\<\"P(disease)\"\>"->
@@ -20780,8 +20768,9 @@ $CellContext`biGammaDistribution[
           Hold[$CellContext`w212$$], 0.34, "2nd measurand in diseased"}, 0.01,
           2., 0.01}, {{
           Hold[$CellContext`w222$$], 0.35, "2nd measurand in nondiseased"}, 
-         0.01, 2., 0.01}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
-       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+         0.01, 2., 0.01}}, Typeset`size$$ = {
+       900., {192.13403309800196`, 197.86596690199804`}}, Typeset`update$$ = 
+       0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`msr$$ = 1, $CellContext`val$$ = 
@@ -20888,6 +20877,7 @@ $CellContext`dnd122, $CellContext`msr$$, $CellContext`val$$], 900, Alignment ->
             "Labeled", ImageSize -> Small}}, 
          "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
          "DefaultOptions" :> {}],
+        ImageSizeCache->{1213., {223.13403309800196`, 228.86596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -21706,7 +21696,6 @@ $CellContext`\[Sigma]Y]}], "lognormal",
              $CellContext`biLogNormalDistribution[$CellContext`\[Mu]X, \
 $CellContext`\[Sigma]X, $CellContext`\[Mu]Y, $CellContext`\[Sigma]Y, \
 $CellContext`\[Rho]], "gamma", 
-             
              CopulaDistribution[{
               "Binormal", ($CellContext`\[Rho] \
 $CellContext`\[Sigma]X)/($CellContext`\[Mu]X Sqrt[
@@ -21767,26 +21756,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -24709,7 +24702,6 @@ $CellContext`sdnd1, $CellContext`w221$$ $CellContext`sdnd2}, {
              SmoothKernelDistribution[$CellContext`d2, {
               "Standardized", $CellContext`w212$$}, 
               "Gaussian"]]; $CellContext`dnd22 = Quiet[
-             
              SmoothKernelDistribution[$CellContext`nd2, {
               "Standardized", $CellContext`w222$$}, 
               "Gaussian"]]; $CellContext`dd122 = Quiet[
@@ -25220,10 +25212,10 @@ P9Mf309/rz+b+0N/zfd/N+H//HD6P3WkfHQ=
                 "1st measurand = " <> ToString[
                   NumberForm[$CellContext`x, {3, 0}]], "2nd measurand = " <> 
                 ToString[
-                  NumberForm[$CellContext`y, {3, 1}]], "1st measurand = " <> 
-                ToString[
-                  NumberForm[$CellContext`x, {3, 0}]] <> 
-                " & 2nd measurand = " <> ToString[
+                  NumberForm[$CellContext`y, {3, 1}]], (("1st measurand = " <> 
+                  ToString[
+                    NumberForm[$CellContext`x, {3, 0}]]) <> 
+                 " & 2nd measurand = ") <> ToString[
                   NumberForm[$CellContext`y, {3, 1}]]}, {SpanFromLeft, 
                 NumberForm[$CellContext`vd, {7, 4}], SpanFromLeft, 
                 "1st distribution", 
@@ -25532,30 +25524,35 @@ $CellContext`\[Rho]]]], $CellContext`biLogNormalDistribution[
               Log[($CellContext`\[Mu]X^2 + \
 $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
               2 Log[$CellContext`\[Mu]Y] - 
+              
               Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -26679,26 +26676,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -26855,7 +26856,6 @@ $CellContext`biGammaDistribution[
              SmoothKernelDistribution[$CellContext`nd1, {
               "Standardized", $CellContext`w12$$}, 
               "Gaussian"]]; $CellContext`dd2 = Quiet[
-             
              SmoothKernelDistribution[$CellContext`d2, {
               "Standardized", $CellContext`w21$$}, 
               "Gaussian"]]; $CellContext`dnd2 = Quiet[
@@ -27484,8 +27484,7 @@ $CellContext`cc1, $CellContext`dist11, $CellContext`dist21],
                  Mean[$CellContext`dd2]] + Max[$CellContext`s21, 
                  StandardDeviation[$CellContext`dd2]]}, PlotRange -> Full, 
               PlotPoints -> 100, 
-              AxesLabel -> {"1st measurand", " 2nd measurand", ""}, 
-              PlotLabel -> 
+              AxesLabel -> {"1st measurand", " 2nd measurand", ""}, PlotLabel -> 
               "bivariate PDF of 1st and 2nd measurands in diseased", 
               PlotLegends -> Placed[{"parametric PDF", "KDE PDF"}, Bottom], 
               ImageSize -> 550, PlotTheme -> "Scientific", Filling -> 
@@ -27830,26 +27829,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -28704,6 +28707,7 @@ $CellContext`\[Sigma]^2/$CellContext`\[Mu]]}; Typeset`initDone$$ = True),
              SmoothKernelDistribution[$CellContext`d1, {
               "Standardized", $CellContext`w11$$}, 
               "Gaussian"]]; $CellContext`dnd1 = Quiet[
+             
              SmoothKernelDistribution[$CellContext`nd1, {
               "Standardized", $CellContext`w12$$}, 
               "Gaussian"]]; $CellContext`dd2 = Quiet[
@@ -29139,6 +29143,7 @@ $CellContext`logNormalDistribution[
             Pattern[$CellContext`\[Sigma], 
              Blank[]]] := 
           LogNormalDistribution[(1/2) (2 Log[$CellContext`\[Mu]] - 
+             
              Log[($CellContext`\[Mu]^2 + \
 $CellContext`\[Sigma]^2)/$CellContext`\[Mu]^2]), 
             Sqrt[
@@ -30010,6 +30015,7 @@ $CellContext`s]]]], $CellContext`m[
              Blank[]]] := Mean[$CellContext`l], $CellContext`s[
             Pattern[$CellContext`l, 
              Blank[]]] := 
+          
           StandardDeviation[$CellContext`l], \
 $CellContext`logNormalDistribution[
             Pattern[$CellContext`\[Mu], 
@@ -30789,10 +30795,10 @@ P9Mf309/rz+b+0N/zfd/N+H//HD6P3WkfHQ=
                 "1st measurand = " <> ToString[
                   NumberForm[$CellContext`x, {3, 0}]], " 2nd measurand = " <> 
                 ToString[
-                  NumberForm[$CellContext`y, {3, 1}]], "1st measurand = " <> 
-                ToString[
-                  NumberForm[$CellContext`x, {3, 0}]] <> 
-                " & 2nd measurand = " <> ToString[
+                  NumberForm[$CellContext`y, {3, 1}]], (("1st measurand = " <> 
+                  ToString[
+                    NumberForm[$CellContext`x, {3, 0}]]) <> 
+                 " & 2nd measurand = ") <> ToString[
                   NumberForm[$CellContext`y, {3, 1}]]}, {SpanFromLeft, 
                 NumberForm[$CellContext`vd, {7, 4}], SpanFromLeft, 
                 "parametric", 
@@ -31086,7 +31092,6 @@ $CellContext`\[Sigma]Y)/($CellContext`\[Mu]Y Sqrt[
                
                GammaDistribution[$CellContext`\[Mu]X^2/$CellContext`\[Sigma]X^\
 2, $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X], 
-               
                LogNormalDistribution[(1/2) (2 Log[$CellContext`\[Mu]Y] - 
                  Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]), 
@@ -31115,26 +31120,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -31251,14 +31260,14 @@ c1dc4ff25d19"]
 }, Open  ]]
 },
 WindowToolbars->"MultipurposeBar",
-WindowSize->{1440, 742.5},
+WindowSize->{1430.25, 732.75},
 WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
 DockedCells->{},
 SpellingDictionaries->{"CorrectWords"->{
  "Palamas", "Kostis", "glycated", "nondiseased"}},
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"821dc9e6-ef5e-40f2-b53b-61acf509be78"
+ExpressionUUID->"11180db3-03c7-4e43-aec7-10bb132646ed"
 ]
 (* End of Notebook Content *)
 
@@ -31266,7 +31275,7 @@ ExpressionUUID->"821dc9e6-ef5e-40f2-b53b-61acf509be78"
 (*CellTagsOutline
 CellTagsIndex->{
  "Datasets"->{
-  Cell[4077, 96, 157572, 2146, 19, "Input",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd",
+  Cell[4077, 96, 157567, 2145, 19, "Input",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd",
    CellOpen->False,
    InitializationCell->True,
    CellTags->"Datasets"]}
@@ -31274,7 +31283,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Datasets", 1606665, 31267}
+ {"Datasets", 1606238, 31276}
  }
 *)
 (*NotebookFileOutline
@@ -31286,22 +31295,22 @@ Cell[2227, 53, 459, 12, 129, "Author",ExpressionUUID->"7baeeaa4-fa17-4d3b-b131-f
 Cell[2689, 67, 366, 8, 31, "Affiliation",ExpressionUUID->"5715299a-9866-456d-b185-790c5a6ee8eb"],
 Cell[CellGroupData[{
 Cell[3080, 79, 994, 15, 25, "Subsubsubsubsection",ExpressionUUID->"5b7223cb-6ed4-46ec-bae1-6fc3d88d03ee"],
-Cell[4077, 96, 157572, 2146, 19, "Input",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd",
+Cell[4077, 96, 157567, 2145, 19, "Input",ExpressionUUID->"0e7788a4-bacd-48d3-b24e-cc37835271cd",
  CellOpen->False,
  InitializationCell->True,
  CellTags->"Datasets"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[161686, 2247, 962, 14, 25, "Subsubsubsubsection",ExpressionUUID->"3db43d26-a103-423f-ac7c-7351e72d7c9c"],
+Cell[161681, 2246, 962, 14, 25, "Subsubsubsubsection",ExpressionUUID->"3db43d26-a103-423f-ac7c-7351e72d7c9c"],
 Cell[CellGroupData[{
-Cell[162673, 2265, 648815, 13973, 19, "Input",ExpressionUUID->"1bc535ab-7101-424e-91cb-558aa44877f5",
+Cell[162668, 2264, 647143, 13943, 19, "Input",ExpressionUUID->"1bc535ab-7101-424e-91cb-558aa44877f5",
  CellOpen->False,
  InitializationCell->True],
-Cell[811491, 16240, 791147, 14935, 693, "Output",ExpressionUUID->"a20d052a-69ed-43b2-b337-4beb330a6ca3"]
+Cell[809814, 16209, 792393, 14975, 709, "Output",ExpressionUUID->"a20d052a-69ed-43b2-b337-4beb330a6ca3"]
 }, Open  ]]
 }, Open  ]],
-Cell[1602665, 31179, 1587, 29, 67, "Subsubsubsubsection",ExpressionUUID->"6e02de44-2a78-4951-bf85-66e2850280f4"],
-Cell[1604255, 31210, 1892, 39, 75, "Subsubsubsubsection",ExpressionUUID->"46404344-e892-42af-ba46-c1dc4ff25d19"]
+Cell[1602234, 31188, 1587, 29, 67, "Subsubsubsubsection",ExpressionUUID->"6e02de44-2a78-4951-bf85-66e2850280f4"],
+Cell[1603824, 31219, 1892, 39, 75, "Subsubsubsubsection",ExpressionUUID->"46404344-e892-42af-ba46-c1dc4ff25d19"]
 }, Open  ]]
 }
 ]
