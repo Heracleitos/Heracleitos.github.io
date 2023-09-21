@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1607746,      31310]
+NotebookDataLength[   1607741,      31310]
 NotebookOptionsPosition[   1605732,      31261]
-NotebookOutlinePosition[   1606511,      31289]
-CellTagsIndexPosition[   1606436,      31284]
+NotebookOutlinePosition[   1606506,      31289]
+CellTagsIndexPosition[   1606431,      31284]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -199,7 +199,7 @@ Cell[BoxData[
        "245.`", ",", "117.`", ",", "129.`", ",", "173.`", ",", "114.`", ",", 
        "108.`", ",", "127.`", ",", "150.`", ",", "140.`", ",", "131.`", ",", 
        "118.`", ",", "121.`", ",", "112.`", ",", "150.`", ",", "125.`", ",", 
-       "158.`"}], "}"}]}], ";"}], "\n", 
+       "158.`"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{"d2", ":", " ", 
      RowBox[{"2", "nd", " ", "measurand", " ", "in", " ", 
@@ -208,8 +208,7 @@ Cell[BoxData[
       RowBox[{"Glycated", " ", "Hemoglobin", " ", "A1c", " ", 
        RowBox[{"(", "%", ")"}], " ", "in", " ", "nondiabetics", " ", "40"}], 
       "-", 
-      RowBox[{"60", " ", "years", " ", "old"}]}]}], " ", "*)"}], 
-   "\[IndentingNewLine]", 
+      RowBox[{"60", " ", "years", " ", "old"}]}]}], " ", "*)"}], "\n", 
    RowBox[{
     RowBox[{"d2", "=", 
      RowBox[{"{", 
@@ -254,7 +253,7 @@ Cell[BoxData[
        "10.2`", ",", "9.2`", ",", "7.`", ",", "6.4`", ",", "6.7`", ",", "6.`",
         ",", "5.9`", ",", "6.1`", ",", "7.4`", ",", "6.3`", ",", "5.9`", ",", 
        "5.5`", ",", "6.1`", ",", "6.6`", ",", "6.5`", ",", "6.1`", ",", 
-       "7.1`"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+       "7.1`"}], "}"}]}], ";"}], "\n", 
    RowBox[{"(*", " ", 
     RowBox[{"nd1", ":", " ", 
      RowBox[{"1", "st", " ", "measurand", " ", "in", " ", 
@@ -265,7 +264,8 @@ Cell[BoxData[
        RowBox[{"(", 
         RowBox[{"mg", "/", "dl"}], ")"}], "in", " ", "nondiabetics", " ", 
        "40"}], "-", 
-      RowBox[{"60", " ", "years", " ", "old"}]}]}], "*)"}], "\n", 
+      RowBox[{"60", " ", "years", " ", "old"}]}]}], "*)"}], 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"nd1", "=", 
      RowBox[{"{", 
@@ -998,8 +998,7 @@ Cell[BoxData[
        "101.`", ",", "94.`", ",", "96.`", ",", "97.`", ",", "102.`", ",", 
        "117.`", ",", "110.`", ",", "101.`", ",", "104.`", ",", "115.`", ",", 
        "95.`", ",", "101.`", ",", "104.`", ",", "113.`", ",", "101.`", ",", 
-       "98.`", ",", "74.`", ",", "98.`"}], "}"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+       "98.`", ",", "74.`", ",", "98.`"}], "}"}]}], ";"}], "\n", 
    RowBox[{"(*", " ", 
     RowBox[{"nd2", ":", " ", 
      RowBox[{"2", "nd", " ", "measurand", " ", "in", " ", 
@@ -1009,7 +1008,8 @@ Cell[BoxData[
       RowBox[{"Glycated", " ", "Hemoglobin", " ", "A1c", " ", 
        RowBox[{"(", "%", ")"}], " ", "in", " ", "nondiabetics", " ", "40"}], 
       "-", 
-      RowBox[{"60", " ", "years", " ", "old"}]}]}], "*)"}], "\n", 
+      RowBox[{"60", " ", "years", " ", "old"}]}]}], "*)"}], 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"nd2", "=", 
      RowBox[{"{", 
@@ -16403,7 +16403,7 @@ $CellContext`val$$], 900, Alignment -> Center],
              "gamma"}}}, 
          "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
          "DefaultOptions" :> {}],
-        ImageSizeCache->{1313., {262.63403309800196`, 268.36596690199804`}},
+        ImageSizeCache->{1310., {261.13403309800196`, 266.86596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -17135,7 +17135,7 @@ $CellContext`pop$$]], 650, Alignment -> Center],
              "gamma"}}}, 
          "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
          "DefaultOptions" :> {}],
-        ImageSizeCache->{1059., {290.63403309800196`, 296.36596690199804`}},
+        ImageSizeCache->{1056., {289.13403309800196`, 294.86596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -19340,7 +19340,7 @@ rMedxzWpPs33vllX8/cUS8+Ukx6HfRJHtB9tf9RL/gM0bIZy
        UntrackedVariables:>{Typeset`size$$}], "Manipulate",
       Deployed->True,
       StripOnInput->False],
-     Manipulate`InterpretManipulate[1]]}}, 2,
+     Manipulate`InterpretManipulate[1]]}}, 1,
     ImageSize->Automatic]}, {2,"\<\"tables\"\>"->
    TabViewBox[{{1,"\<\"mesurements statistics\"\>"->
     TagBox[
@@ -20715,7 +20715,7 @@ $CellContext`biGammaDistribution[
       Deployed->True,
       StripOnInput->False],
      Manipulate`InterpretManipulate[1]]}}, 1,
-    ImageSize->Automatic]}}, 2,
+    ImageSize->Automatic]}}, 1,
    ImageSize->Automatic]}, {2,"\<\"KDE\"\>"->
   TabViewBox[{{1,"\<\"plots\"\>"->
    TabViewBox[{{1,"\<\"P(disease)\"\>"->
@@ -20877,7 +20877,7 @@ $CellContext`dnd122, $CellContext`msr$$, $CellContext`val$$], 900, Alignment ->
             "Labeled", ImageSize -> Small}}, 
          "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
          "DefaultOptions" :> {}],
-        ImageSizeCache->{1213., {223.13403309800196`, 228.86596690199804`}},
+        ImageSizeCache->{1210., {221.63403309800196`, 227.36596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -31261,13 +31261,13 @@ c1dc4ff25d19"]
 },
 WindowToolbars->"MultipurposeBar",
 WindowSize->{1430.25, 732.75},
-WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
+WindowMargins->{{-4.875, Automatic}, {Automatic, 0}},
 DockedCells->{},
 SpellingDictionaries->{"CorrectWords"->{
  "Palamas", "Kostis", "glycated", "nondiseased"}},
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"11180db3-03c7-4e43-aec7-10bb132646ed"
+ExpressionUUID->"e7ca9b3c-9b7d-4bcc-8b81-c9742d3ff05e"
 ]
 (* End of Notebook Content *)
 
@@ -31283,7 +31283,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Datasets", 1606238, 31276}
+ {"Datasets", 1606233, 31276}
  }
 *)
 (*NotebookFileOutline
@@ -31306,7 +31306,7 @@ Cell[CellGroupData[{
 Cell[162668, 2264, 647143, 13943, 19, "Input",ExpressionUUID->"1bc535ab-7101-424e-91cb-558aa44877f5",
  CellOpen->False,
  InitializationCell->True],
-Cell[809814, 16209, 792393, 14975, 709, "Output",ExpressionUUID->"a20d052a-69ed-43b2-b337-4beb330a6ca3"]
+Cell[809814, 16209, 792393, 14975, 693, "Output",ExpressionUUID->"a20d052a-69ed-43b2-b337-4beb330a6ca3"]
 }, Open  ]]
 }, Open  ]],
 Cell[1602234, 31188, 1587, 29, 67, "Subsubsubsubsection",ExpressionUUID->"6e02de44-2a78-4951-bf85-66e2850280f4"],
