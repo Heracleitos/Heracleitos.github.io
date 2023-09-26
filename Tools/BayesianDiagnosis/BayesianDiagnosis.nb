@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3039622,      54955]
-NotebookOptionsPosition[   3037761,      54910]
-NotebookOutlinePosition[   3038386,      54934]
-CellTagsIndexPosition[   3038311,      54929]
+NotebookDataLength[   3040324,      54988]
+NotebookOptionsPosition[   3038463,      54943]
+NotebookOutlinePosition[   3039088,      54967]
+CellTagsIndexPosition[   3039013,      54962]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2269,9 +2269,7 @@ Cell[BoxData[{
   RowBox[{"$MaxPrecision", " ", "=", " ", "Infinity"}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"Off", "[", "\"\<Compiler\>\"", "]"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"Off", "[", "\"\<CompilerWarnings\>\"", "]"}], 
+  RowBox[{"Off", "[", "\"\<General::munfl\>\"", "]"}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"d12", "=", 
@@ -8704,6 +8702,7 @@ nondiseased\>\""}], ",",
             RowBox[{"LineLegend", "[", 
              RowBox[{
               RowBox[{"{", 
+               
                TemplateBox[<|
                 "color" -> RGBColor[0.365248, 0.427802, 0.758297]|>,
                 "RGBColorSwatchTemplate"], "}"}], ",", 
@@ -15723,7 +15722,7 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
          RowBox[{"ImageSize", "->", "Automatic"}]}], "]"}]}]}], "}"}], ",", 
     "\[IndentingNewLine]", 
     RowBox[{"ImageSize", "->", "Automatic"}]}], "]"}], "]"}]}], "Input",
- Editable->False,
+ Deployed->True,
  CellOpen->False,
  InitializationCell->True,
  CellChangeTimes->{{3.8896912300950117`*^9, 3.8896912309170127`*^9}, {
@@ -16270,8 +16269,10 @@ nondiseased\>\""}], "}"}], ",", "0.100", ",", "1.000", ",", "0.001", ",",
    3.9042749070160027`*^9, 3.904274907791473*^9}, {3.9042749897217445`*^9, 
    3.9042749950893974`*^9}, 3.904299437233302*^9, 3.9042994894180193`*^9, 
    3.9042995215478005`*^9, {3.904299573796742*^9, 3.904299657598813*^9}, 
-   3.904308501925093*^9, {3.9043085388607054`*^9, 3.9043085793724966`*^9}},
- CellLabel->"In[89]:=",ExpressionUUID->"40c5606c-8227-4c4a-af36-0bfd38a810f1"],
+   3.904308501925093*^9, {3.9043085388607054`*^9, 3.9043085793724966`*^9}, {
+   3.904702201066931*^9, 
+   3.904702216504236*^9}},ExpressionUUID->"40c5606c-8227-4c4a-af36-\
+0bfd38a810f1"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"parametric\"\>"->
@@ -16919,26 +16920,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -17648,26 +17653,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -20363,10 +20372,10 @@ $CellContext`nddist22$$], 800, Alignment -> Center], "Specifications" :> {
                 "1st measurand = " <> ToString[
                   NumberForm[$CellContext`x, {3, 1}]], " 2nd measurand = " <> 
                 ToString[
-                  NumberForm[$CellContext`y, {3, 1}]], "1st measurand = " <> 
-                ToString[
-                  NumberForm[$CellContext`x, {3, 1}]] <> 
-                " & 2nd measurand = " <> ToString[
+                  NumberForm[$CellContext`y, {3, 1}]], (("1st measurand = " <> 
+                  ToString[
+                    NumberForm[$CellContext`x, {3, 1}]]) <> 
+                 " & 2nd measurand = ") <> ToString[
                   NumberForm[$CellContext`y, {3, 1}]]}, {SpanFromLeft, 
                 NumberForm[$CellContext`vd, {7, 3}], SpanFromLeft, "1st set", 
                 $CellContext`pp[$CellContext`x, $CellContext`vd, \
@@ -20698,26 +20707,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -25547,26 +25560,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -43114,10 +43131,10 @@ rEtpLR2SKe71I0/o8N2i4B9mumGoo4niudMN+zYND3a2uoGpNVcnv3ZDL5cX
                 "1st measurand = " <> ToString[
                   NumberForm[$CellContext`x, {3, 1}]], "2nd measurand = " <> 
                 ToString[
-                  NumberForm[$CellContext`y, {3, 1}]], "1st measurand = " <> 
-                ToString[
-                  NumberForm[$CellContext`x, {3, 1}]] <> 
-                " & 2nd measurand = " <> ToString[
+                  NumberForm[$CellContext`y, {3, 1}]], (("1st measurand = " <> 
+                  ToString[
+                    NumberForm[$CellContext`x, {3, 1}]]) <> 
+                 " & 2nd measurand = ") <> ToString[
                   NumberForm[$CellContext`y, {3, 1}]]}, {SpanFromLeft, 
                 NumberForm[$CellContext`vd, {7, 3}], SpanFromLeft, 
                 "1st distribution", 
@@ -43430,26 +43447,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -45651,26 +45672,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -47876,26 +47901,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -54449,10 +54478,10 @@ P9Mf309/rz+b+0N/zfd/N+H//HD6P3WkfHQ=
                 "1st measurand = " <> ToString[
                   NumberForm[$CellContext`x, {3, 1}]], " 2nd measurand = " <> 
                 ToString[
-                  NumberForm[$CellContext`y, {3, 1}]], "1st measurand = " <> 
-                ToString[
-                  NumberForm[$CellContext`x, {3, 1}]] <> 
-                " & 2nd measurand = " <> ToString[
+                  NumberForm[$CellContext`y, {3, 1}]], (("1st measurand = " <> 
+                  ToString[
+                    NumberForm[$CellContext`x, {3, 1}]]) <> 
+                 " & 2nd measurand = ") <> ToString[
                   NumberForm[$CellContext`y, {3, 1}]]}, {SpanFromLeft, 
                 NumberForm[$CellContext`vd, {7, 3}], SpanFromLeft, 
                 "parametric", 
@@ -54775,26 +54804,30 @@ $CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]), (1/2) (
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2])}, {{
               
               Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2], (((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
-$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(
-               1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
-               E^($CellContext`\[Rho] 
-                 Sqrt[Log[1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
-                   Log[1 + $CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]])) \
-$CellContext`\[Mu]X $CellContext`\[Mu]Y Sqrt[
-                
-                Log[($CellContext`\[Mu]X^2 + \
-$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]] Sqrt[
+$CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]]}, {(((((
+                   1/($CellContext`\[Sigma]X $CellContext`\[Sigma]Y)) (-1 + 
+                   E^($CellContext`\[Rho] 
+                    Sqrt[Log[
+                    1 + $CellContext`\[Sigma]X^2/$CellContext`\[Mu]X^2] 
+                    Log[1 + \
+$CellContext`\[Sigma]Y^2/$CellContext`\[Mu]Y^2]]))) $CellContext`\[Mu]X) \
+$CellContext`\[Mu]Y) Sqrt[
+                 
+                 Log[($CellContext`\[Mu]X^2 + \
+$CellContext`\[Sigma]X^2)/$CellContext`\[Mu]X^2]]) Sqrt[
                 
                 Log[($CellContext`\[Mu]Y^2 + \
 $CellContext`\[Sigma]Y^2)/$CellContext`\[Mu]Y^2]], 
@@ -54928,7 +54961,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Datasets", 3038113, 54921}
+ {"Datasets", 3038815, 54954}
  }
 *)
 (*NotebookFileOutline
@@ -54948,14 +54981,14 @@ Cell[4077, 96, 157568, 2145, 19, "Input",ExpressionUUID->"68b99d57-a3f0-46b9-bd7
 Cell[CellGroupData[{
 Cell[161682, 2246, 997, 16, 25, "Subsubsubsubsection",ExpressionUUID->"3ce00f08-5d48-424e-9777-787655802a0a"],
 Cell[CellGroupData[{
-Cell[162704, 2266, 650446, 14007, 19, "Input",ExpressionUUID->"40c5606c-8227-4c4a-af36-0bfd38a810f1",
+Cell[162704, 2266, 650401, 14008, 19, "Input",ExpressionUUID->"40c5606c-8227-4c4a-af36-0bfd38a810f1",
  CellOpen->False,
  InitializationCell->True],
-Cell[813153, 16275, 2221083, 38558, 693, "Output",ExpressionUUID->"bde38f8c-e1f3-4833-925a-a2b6ecb381ea"]
+Cell[813108, 16276, 2221830, 38590, 693, "Output",ExpressionUUID->"bde38f8c-e1f3-4833-925a-a2b6ecb381ea"]
 }, Open  ]]
 }, Open  ]],
-Cell[3034263, 54837, 1587, 29, 67, "Subsubsubsubsection",ExpressionUUID->"d03882c2-7e64-4c84-80ee-87a91ebafa27"],
-Cell[3035853, 54868, 1892, 39, 75, "Subsubsubsubsection",ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-fccc5b89c344"]
+Cell[3034965, 54870, 1587, 29, 67, "Subsubsubsubsection",ExpressionUUID->"d03882c2-7e64-4c84-80ee-87a91ebafa27"],
+Cell[3036555, 54901, 1892, 39, 75, "Subsubsubsubsection",ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-fccc5b89c344"]
 }, Open  ]]
 }
 ]
