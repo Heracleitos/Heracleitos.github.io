@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3040296,      54986]
-NotebookOptionsPosition[   3038435,      54941]
-NotebookOutlinePosition[   3039060,      54965]
-CellTagsIndexPosition[   3038985,      54960]
+NotebookDataLength[   3040246,      54981]
+NotebookOptionsPosition[   3038385,      54936]
+NotebookOutlinePosition[   3039010,      54960]
+CellTagsIndexPosition[   3038935,      54955]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,7 +23,6 @@ Cell[CellGroupData[{
 Cell[TextData[StyleBox["Bayesian Diagnosis",
  FontSize->36]], "Title",
  Editable->False,
- Deployed->True,
  CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
    3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
    3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
@@ -38,7 +37,6 @@ Cell[TextData[StyleBox["A Bayesian Inference Based Computational Tool for \
 Parametric and Nonparametric Medical Diagnosis", "Subtitle",
  FontSize->24]], "Title",
  Editable->False,
- Deployed->True,
  CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
    3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
    3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
@@ -58,7 +56,6 @@ Cell[TextData[{
  StyleBox[" ath@hcsl.com\n ", "Affiliation"]
 }], "Author",
  Editable->False,
- Deployed->True,
  CellChangeTimes->{
   3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
    3.780026882968507*^9, 3.7800269771474247`*^9}, 
@@ -69,7 +66,6 @@ Cell["\<\
 Hellenic Complex Systems Laboratory, Kostis Palamas 21, 66131 Drama, Greece.\
 \>", "Affiliation",
  Editable->False,
- Deployed->True,
  CellChangeTimes->{{3.779939871863575*^9, 3.77994000946682*^9}, {
    3.7799400566027045`*^9, 3.7799400570186176`*^9}, 3.780026865496773*^9, 
    3.790605454904579*^9},ExpressionUUID->"6b813d33-fddf-46f5-b195-\
@@ -54877,7 +54873,6 @@ P(disease): probability of disease",
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
  Editable->False,
- Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
@@ -54902,7 +54897,7 @@ Cell[TextData[{
   FontSize->10],
  StyleBox["\n",
   FontSize->12],
- StyleBox["Bayesian Diagnosis\nVersion Number 1.0.1\nHellenic Complex Systems \
+ StyleBox["Bayesian Diagnosis\nVersion Number 1.0.2\nHellenic Complex Systems \
 Laboratory 2023\nThis software is distributed under an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
@@ -54919,7 +54914,6 @@ International Creative Commons License",
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
  Editable->False,
- Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
@@ -54934,8 +54928,9 @@ International Creative Commons License",
    3.902531804785098*^9, 3.9025318393529997`*^9}, {3.902716376988284*^9, 
    3.902716409105589*^9}, 3.9027165187999363`*^9, {3.9027167813793097`*^9, 
    3.9027167837456055`*^9}, {3.903043595550623*^9, 3.9030435959387336`*^9}, 
-   3.904127753237666*^9, {3.904264027437067*^9, 
-   3.9042640609555044`*^9}},ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-\
+   3.904127753237666*^9, {3.904264027437067*^9, 3.9042640609555044`*^9}, {
+   3.904821572209103*^9, 
+   3.9048215729071016`*^9}},ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-\
 fccc5b89c344"]
 }, Open  ]]
 },
@@ -54943,7 +54938,7 @@ WindowSize->{1430.25, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"e04f4e11-9d4d-4eca-a51c-be3538cedb72"
+ExpressionUUID->"0a45b632-3f54-4bb8-94c4-33b50dfb3b2b"
 ]
 (* End of Notebook Content *)
 
@@ -54951,7 +54946,7 @@ ExpressionUUID->"e04f4e11-9d4d-4eca-a51c-be3538cedb72"
 (*CellTagsOutline
 CellTagsIndex->{
  "Datasets"->{
-  Cell[4077, 96, 157522, 2142, 19, "Input",ExpressionUUID->"68b99d57-a3f0-46b9-bd7f-12e7e8a00187",
+  Cell[4009, 92, 157522, 2142, 19, "Input",ExpressionUUID->"68b99d57-a3f0-46b9-bd7f-12e7e8a00187",
    CellOpen->False,
    InitializationCell->True,
    CellTags->"Datasets"]}
@@ -54959,34 +54954,34 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Datasets", 3038787, 54952}
+ {"Datasets", 3038737, 54947}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 709, 12, 86, "Title",ExpressionUUID->"86ff102a-94e1-4d71-af48-16d9af6fae40"],
-Cell[1292, 36, 932, 15, 71, "Title",ExpressionUUID->"7dc427a1-4f47-48d8-b9c5-37f82ef00d42"],
-Cell[2227, 53, 459, 12, 129, "Author",ExpressionUUID->"bcb5766f-6cc3-4154-ac7b-44070d43e69a"],
-Cell[2689, 67, 366, 8, 31, "Affiliation",ExpressionUUID->"6b813d33-fddf-46f5-b195-fd5bbf089672"],
+Cell[580, 22, 692, 11, 86, "Title",ExpressionUUID->"86ff102a-94e1-4d71-af48-16d9af6fae40"],
+Cell[1275, 35, 915, 14, 71, "Title",ExpressionUUID->"7dc427a1-4f47-48d8-b9c5-37f82ef00d42"],
+Cell[2193, 51, 442, 11, 129, "Author",ExpressionUUID->"bcb5766f-6cc3-4154-ac7b-44070d43e69a"],
+Cell[2638, 64, 349, 7, 31, "Affiliation",ExpressionUUID->"6b813d33-fddf-46f5-b195-fd5bbf089672"],
 Cell[CellGroupData[{
-Cell[3080, 79, 994, 15, 25, "Subsubsubsubsection",ExpressionUUID->"ab2ae93d-2de1-46f7-ba54-e3368d58ec4d"],
-Cell[4077, 96, 157522, 2142, 19, "Input",ExpressionUUID->"68b99d57-a3f0-46b9-bd7f-12e7e8a00187",
+Cell[3012, 75, 994, 15, 25, "Subsubsubsubsection",ExpressionUUID->"ab2ae93d-2de1-46f7-ba54-e3368d58ec4d"],
+Cell[4009, 92, 157522, 2142, 19, "Input",ExpressionUUID->"68b99d57-a3f0-46b9-bd7f-12e7e8a00187",
  CellOpen->False,
  InitializationCell->True,
  CellTags->"Datasets"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[161636, 2243, 997, 16, 25, "Subsubsubsubsection",ExpressionUUID->"3ce00f08-5d48-424e-9777-787655802a0a"],
+Cell[161568, 2239, 997, 16, 25, "Subsubsubsubsection",ExpressionUUID->"3ce00f08-5d48-424e-9777-787655802a0a"],
 Cell[CellGroupData[{
-Cell[162658, 2263, 650419, 14009, 19, "Input",ExpressionUUID->"40c5606c-8227-4c4a-af36-0bfd38a810f1",
+Cell[162590, 2259, 650419, 14009, 19, "Input",ExpressionUUID->"40c5606c-8227-4c4a-af36-0bfd38a810f1",
  CellOpen->False,
  InitializationCell->True],
-Cell[813080, 16274, 2221830, 38590, 693, "Output",ExpressionUUID->"bde38f8c-e1f3-4833-925a-a2b6ecb381ea"]
+Cell[813012, 16270, 2221830, 38590, 693, "Output",ExpressionUUID->"bde38f8c-e1f3-4833-925a-a2b6ecb381ea"]
 }, Open  ]]
 }, Open  ]],
-Cell[3034937, 54868, 1587, 29, 67, "Subsubsubsubsection",ExpressionUUID->"d03882c2-7e64-4c84-80ee-87a91ebafa27"],
-Cell[3036527, 54899, 1892, 39, 75, "Subsubsubsubsection",ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-fccc5b89c344"]
+Cell[3034869, 54864, 1570, 28, 67, "Subsubsubsubsection",ExpressionUUID->"d03882c2-7e64-4c84-80ee-87a91ebafa27"],
+Cell[3036442, 54894, 1927, 39, 75, "Subsubsubsubsection",ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-fccc5b89c344"]
 }, Open  ]]
 }
 ]
