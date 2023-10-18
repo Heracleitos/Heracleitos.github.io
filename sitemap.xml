@@ -38,25 +38,25 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Publications/Diagnostic.html</loc>
-        <lastmod>2023-10-16</lastmod>
+        <lastmod>2023-10-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
 	<url>
         <loc>https://www.hcsl.com/Publications/BayesianDiagnosis.html</loc>
-        <lastmod>2023-10-16</lastmod>
+        <lastmod>2023-10-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.hcsl.com/Publications/NNQC.html</loc>
-        <lastmod>2023-10-17</lastmod>
+        <lastmod>2023-10-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.hcsl.com/Publications/QC.html</loc>
-        <lastmod>2023-10-16</lastmod>
+        <lastmod>2023-10-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
@@ -74,7 +74,7 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Publications/Clinical.html</loc>
-        <lastmod>2023-09-04</lastmod>
+        <lastmod>2023-10-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
