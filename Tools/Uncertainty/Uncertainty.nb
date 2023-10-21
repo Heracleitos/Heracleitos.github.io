@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1272444,      28360]
-NotebookOptionsPosition[   1271048,      28327]
-NotebookOutlinePosition[   1271475,      28344]
-CellTagsIndexPosition[   1271432,      28341]
+NotebookDataLength[   1272489,      28361]
+NotebookOptionsPosition[   1271098,      28328]
+NotebookOutlinePosition[   1271520,      28345]
+CellTagsIndexPosition[   1271477,      28342]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28295,7 +28295,7 @@ Cell[TextData[{
   FontSize->10],
  StyleBox["\n",
   FontSize->12],
- StyleBox["Diagnostic Uncertainty\nVersion Number 1.0.3\nHellenic Complex \
+ StyleBox["Diagnostic Uncertainty\nVersion Number 1.0.4\nHellenic Complex \
 Systems Laboratory 2021\nThis software is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
@@ -28320,13 +28320,14 @@ International Creative Commons License",
    3.8167403775532656`*^9}, {3.8170995526369734`*^9, 3.817099553175012*^9}, {
    3.8199480451950355`*^9, 3.819948065902923*^9}, {3.8221852591351533`*^9, 
    3.822185259412125*^9}, {3.8233254695842333`*^9, 3.8233254702972383`*^9}, {
-   3.8573083998527756`*^9, 3.8573083998527756`*^9}, 
-   3.906827753313318*^9},ExpressionUUID->"fb4fc060-c052-422d-a842-\
+   3.8573083998527756`*^9, 3.8573083998527756`*^9}, 3.906827753313318*^9, {
+   3.906871618032697*^9, 
+   3.906871618667078*^9}},ExpressionUUID->"fb4fc060-c052-422d-a842-\
 5a583aa7bc50"]
 }, Open  ]]
 },
-WindowSize->{1440, 742.5},
-WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
+WindowSize->{1430.25, 737.625},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 Magnification->1.,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
 StyleDefinitions->"Default.nb",
@@ -28357,10 +28358,10 @@ Cell[CellGroupData[{
 Cell[400926, 10340, 94625, 1885, 19, "Input",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120",
  CellOpen->False,
  InitializationCell->True],
-Cell[495554, 12227, 773467, 16048, 665, "Output",ExpressionUUID->"9064e281-47a0-4136-93fd-a9d61f330baf"]
+Cell[495554, 12227, 773467, 16048, 642, "Output",ExpressionUUID->"9064e281-47a0-4136-93fd-a9d61f330baf"]
 }, Open  ]],
 Cell[1269036, 28278, 521, 12, 53, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
-Cell[1269560, 28292, 1472, 32, 75, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
+Cell[1269560, 28292, 1522, 33, 75, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
 }, Open  ]]
 }
 ]
