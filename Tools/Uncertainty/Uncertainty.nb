@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1272489,      28361]
-NotebookOptionsPosition[   1271098,      28328]
-NotebookOutlinePosition[   1271520,      28345]
-CellTagsIndexPosition[   1271477,      28342]
+NotebookDataLength[   1270462,      28305]
+NotebookOptionsPosition[   1269072,      28272]
+NotebookOutlinePosition[   1269493,      28289]
+CellTagsIndexPosition[   1269450,      28286]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5897,7 +5897,7 @@ Cell[BoxData[{
       RowBox[{"(", 
        RowBox[{
         RowBox[{"\[Sqrt]", "2"}], " ", "sH"}], ")"}]}], "]"}]}]}], 
-  "\[IndentingNewLine]"}], "\n", 
+  "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"cmccz", "[", 
    RowBox[{
@@ -6858,38 +6858,6 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{"Indeterminate", ",", "Indeterminate", ",", "Indeterminate"}], 
       "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"lb", "[", "pr_", "]"}], ":=", 
-  RowBox[{"Switch", "[", 
-   RowBox[{"pr", ",", "True", ",", 
-    RowBox[{"Max", "[", 
-     RowBox[{
-      RowBox[{"mD", "-", 
-       RowBox[{"4", "sD"}]}], ",", 
-      RowBox[{"mH", "-", 
-       RowBox[{"4", "sH"}]}]}], "]"}], ",", "False", ",", 
-    RowBox[{"Max", "[", 
-     RowBox[{
-      RowBox[{"mD", "-", 
-       RowBox[{"2", "sD"}]}], ",", 
-      RowBox[{"mH", "-", 
-       RowBox[{"2", "sH"}]}]}], "]"}]}], "]"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"ub", "[", "pr_", "]"}], ":=", 
-  RowBox[{"Switch", "[", 
-   RowBox[{"pr", ",", "True", ",", 
-    RowBox[{"Min", "[", 
-     RowBox[{
-      RowBox[{"mD", "+", 
-       RowBox[{"4", "sD"}]}], ",", 
-      RowBox[{"mH", "+", 
-       RowBox[{"4", "sH"}]}]}], "]"}], ",", "False", ",", 
-    RowBox[{"Min", "[", 
-     RowBox[{
-      RowBox[{"mD", "+", 
-       RowBox[{"2", "sD"}]}], ",", 
-      RowBox[{"mH", "+", 
-       RowBox[{"2", "sH"}]}]}], "]"}]}], "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"pci", "[", 
    RowBox[{
@@ -10332,9 +10300,9 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
    3.8021337597012935`*^9, 3.802133785697006*^9}, 3.8233253862075396`*^9, {
    3.906827028903116*^9, 3.9068270656380167`*^9}, {3.906827128992629*^9, 
    3.906827169164036*^9}, {3.906827243419684*^9, 3.9068273440874033`*^9}, {
-   3.9068274050174303`*^9, 3.9068275410138283`*^9}},
- CellLabel->
-  "In[253]:=",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca"],
+   3.9068274050174303`*^9, 3.9068275410138283`*^9}, {3.907060079898307*^9, 
+   3.907060080554903*^9}},
+ CellLabel->"In[62]:=",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca"],
 
 Cell[CellGroupData[{
 
@@ -12223,7 +12191,7 @@ Cell[BoxData[
    3.817099340607771*^9}, {3.822185133344711*^9, 3.8221851333676844`*^9}, {
    3.8233302767073803`*^9, 3.8233302768433776`*^9}},
  CellLabel->
-  "In[315]:=",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120"],
+  "In[122]:=",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"Plots\"\>"->
@@ -12866,11 +12834,10 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^4 + \
 $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2], $CellContext`lb[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Max[$CellContext`mD$$ - 4 $CellContext`sD$$, $CellContext`mH$$ - 
-             4 $CellContext`sH$$], False, 
-            Max[$CellContext`mD$$ - 2 $CellContext`sD$$, $CellContext`mH$$ - 
-             2 $CellContext`sH$$]], $CellContext`lb[
+            Max[FE`mD$$83 - 4 FE`sD$$83, FE`mH$$83 - 4 FE`sH$$83], False, 
+            Max[
+            FE`mD$$83 - 2 FE`sD$$83, FE`mH$$83 - 2 
+             FE`sH$$83]], $CellContext`lb[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -12886,15 +12853,14 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2], $CellContext`lb[
              4 $CellContext`sH], False, 
             
             Max[$CellContext`mD - 2.5 $CellContext`sD, $CellContext`mH - 
-             2.5 $CellContext`sH]], $CellContext`ub[
+             2.5 $CellContext`sH]], 
+          Attributes[$CellContext`pr$] = {Temporary}, $CellContext`ub[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
-             4 $CellContext`sH$$], False, 
-            
-            Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
-             2 $CellContext`sH$$]], $CellContext`ub[
+            Min[FE`mD$$83 + 4 FE`sD$$83, FE`mH$$83 + 4 FE`sH$$83], False, 
+            Min[
+            FE`mD$$83 + 2 FE`sD$$83, FE`mH$$83 + 
+             2 FE`sH$$83]], $CellContext`ub[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -13124,8 +13090,8 @@ $CellContext`mH, $CellContext`sD, $CellContext`sH], 0},
                   Dashing[{Large, Small}]}}, PlotLegends -> 
                Placed[{"combined", "measurement", "sampling"}, Bottom], 
                ImageSize -> Automatic]], 
-             
-             Column[{"relative standard uncertainty of " <> \
+             Column[{
+              "relative standard uncertainty of " <> \
 $CellContext`ltxt[$CellContext`mf] <> 
                " (u(" <> $CellContext`txt[$CellContext`mf] <> 
                ")/" <> $CellContext`txt[$CellContext`mf] <> ")", 
@@ -13311,6 +13277,7 @@ $CellContext`nH $CellContext`u^2)
                 Erfc[($CellContext`mD - $CellContext`t)/(
                    Sqrt[2] $CellContext`sD)]^2)/
                E^(($CellContext`mH - $CellContext`t)^2/$CellContext`sH^2))/(
+              
               Pi $CellContext`sH^2) + (($CellContext`nD^2 $CellContext`nH^2 \
 ($CellContext`mD - $CellContext`t)^2 ($CellContext`sD^2 + 
                  2 (-1 + $CellContext`nD) $CellContext`u^2) 
@@ -13795,12 +13762,10 @@ $CellContext`nD
              Sqrt[2] $CellContext`sH)], $CellContext`lb[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Max[$CellContext`mD$$ - 4 $CellContext`sD$$, $CellContext`mH$$ - 
-             4 $CellContext`sH$$], False, 
-            
-            Max[$CellContext`mD$$ - 2 $CellContext`sD$$, $CellContext`mH$$ - 
-             2 $CellContext`sH$$]], $CellContext`lb[
+            Max[FE`mD$$83 - 4 FE`sD$$83, FE`mH$$83 - 4 FE`sH$$83], False, 
+            Max[
+            FE`mD$$83 - 2 FE`sD$$83, FE`mH$$83 - 2 
+             FE`sH$$83]], $CellContext`lb[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -13816,15 +13781,14 @@ $CellContext`nD
              4 $CellContext`sH], False, 
             
             Max[$CellContext`mD - 2.5 $CellContext`sD, $CellContext`mH - 
-             2.5 $CellContext`sH]], $CellContext`ub[
+             2.5 $CellContext`sH]], 
+          Attributes[$CellContext`pr$] = {Temporary}, $CellContext`ub[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
-             4 $CellContext`sH$$], False, 
-            
-            Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
-             2 $CellContext`sH$$]], $CellContext`ub[
+            Min[FE`mD$$83 + 4 FE`sD$$83, FE`mH$$83 + 4 FE`sH$$83], False, 
+            Min[
+            FE`mD$$83 + 2 FE`sD$$83, FE`mH$$83 + 
+             2 FE`sH$$83]], $CellContext`ub[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -16002,12 +15966,10 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
              3, $CellContext`nD + $CellContext`nH - 2]], $CellContext`lb[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Max[$CellContext`mD$$ - 4 $CellContext`sD$$, $CellContext`mH$$ - 
-             4 $CellContext`sH$$], False, 
-            
-            Max[$CellContext`mD$$ - 2 $CellContext`sD$$, $CellContext`mH$$ - 
-             2 $CellContext`sH$$]], $CellContext`lb[
+            Max[FE`mD$$83 - 4 FE`sD$$83, FE`mH$$83 - 4 FE`sH$$83], False, 
+            Max[
+            FE`mD$$83 - 2 FE`sD$$83, FE`mH$$83 - 2 
+             FE`sH$$83]], $CellContext`lb[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -16023,15 +15985,14 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
              4 $CellContext`sH], False, 
             
             Max[$CellContext`mD - 2.5 $CellContext`sD, $CellContext`mH - 
-             2.5 $CellContext`sH]], $CellContext`ub[
+             2.5 $CellContext`sH]], 
+          Attributes[$CellContext`pr$] = {Temporary}, $CellContext`ub[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
-             4 $CellContext`sH$$], False, 
-            
-            Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
-             2 $CellContext`sH$$]], $CellContext`ub[
+            Min[FE`mD$$83 + 4 FE`sD$$83, FE`mH$$83 + 4 FE`sH$$83], False, 
+            Min[
+            FE`mD$$83 + 2 FE`sD$$83, FE`mH$$83 + 
+             2 FE`sH$$83]], $CellContext`ub[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -16497,6 +16458,7 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^4]/Sqrt[
           Sqrt[((($CellContext`mH - $CellContext`t)^2 ($CellContext`sH^2/(
                   2 (-1 + $CellContext`nH)) + $CellContext`u^2) + \
 $CellContext`sH^2 ($CellContext`sH^2/$CellContext`nH + $CellContext`u^2))/
+              
               E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4]/Sqrt[
            2 Pi], $CellContext`cmcoda[
@@ -16682,6 +16644,7 @@ $CellContext`nH $CellContext`u^2) (-2 +
                     Sqrt[2] $CellContext`sD)])^2 
                 Erfc[($CellContext`mD - $CellContext`t)/(
                    Sqrt[2] $CellContext`sD)]^2)/
+               
                E^(($CellContext`mH - $CellContext`t)^2/$CellContext`sH^2) + \
 ($CellContext`nD (-1 + $CellContext`nH) $CellContext`nH $CellContext`sH^4 \
 ($CellContext`mD - $CellContext`t)^2 ($CellContext`sD^2 + 
@@ -16921,12 +16884,10 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2], $CellContext`txt[
             "concordance probability"], $CellContext`lb[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Max[$CellContext`mD$$ - 4 $CellContext`sD$$, $CellContext`mH$$ - 
-             4 $CellContext`sH$$], False, 
-            
-            Max[$CellContext`mD$$ - 2 $CellContext`sD$$, $CellContext`mH$$ - 
-             2 $CellContext`sH$$]], $CellContext`lb[
+            Max[FE`mD$$83 - 4 FE`sD$$83, FE`mH$$83 - 4 FE`sH$$83], False, 
+            Max[
+            FE`mD$$83 - 2 FE`sD$$83, FE`mH$$83 - 2 
+             FE`sH$$83]], $CellContext`lb[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -16942,15 +16903,14 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2], $CellContext`txt[
              4 $CellContext`sH], False, 
             
             Max[$CellContext`mD - 2.5 $CellContext`sD, $CellContext`mH - 
-             2.5 $CellContext`sH]], $CellContext`ub[
+             2.5 $CellContext`sH]], 
+          Attributes[$CellContext`pr$] = {Temporary}, $CellContext`ub[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
-             4 $CellContext`sH$$], False, 
-            
-            Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
-             2 $CellContext`sH$$]], $CellContext`ub[
+            Min[FE`mD$$83 + 4 FE`sD$$83, FE`mH$$83 + 4 FE`sH$$83], False, 
+            Min[
+            FE`mD$$83 + 2 FE`sD$$83, FE`mH$$83 + 
+             2 FE`sH$$83]], $CellContext`ub[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -17855,12 +17815,10 @@ $CellContext`nD
             "concordance probability"], $CellContext`lb[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Max[$CellContext`mD$$ - 4 $CellContext`sD$$, $CellContext`mH$$ - 
-             4 $CellContext`sH$$], False, 
-            
-            Max[$CellContext`mD$$ - 2 $CellContext`sD$$, $CellContext`mH$$ - 
-             2 $CellContext`sH$$]], $CellContext`lb[
+            Max[FE`mD$$83 - 4 FE`sD$$83, FE`mH$$83 - 4 FE`sH$$83], False, 
+            Max[
+            FE`mD$$83 - 2 FE`sD$$83, FE`mH$$83 - 2 
+             FE`sH$$83]], $CellContext`lb[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -17876,15 +17834,14 @@ $CellContext`nD
              4 $CellContext`sH], False, 
             
             Max[$CellContext`mD - 2.5 $CellContext`sD, $CellContext`mH - 
-             2.5 $CellContext`sH]], $CellContext`ub[
+             2.5 $CellContext`sH]], 
+          Attributes[$CellContext`pr$] = {Temporary}, $CellContext`ub[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
-             4 $CellContext`sH$$], False, 
-            
-            Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
-             2 $CellContext`sH$$]], $CellContext`ub[
+            Min[FE`mD$$83 + 4 FE`sD$$83, FE`mH$$83 + 4 FE`sH$$83], False, 
+            Min[
+            FE`mD$$83 + 2 FE`sD$$83, FE`mH$$83 + 
+             2 FE`sH$$83]], $CellContext`ub[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -18749,8 +18706,7 @@ $CellContext`t)^2/$CellContext`sD^2))/((-1 + $CellContext`nD) $CellContext`nD \
           Sqrt[2/Pi] 
            Sqrt[(1/(1 + 
                Erf[($CellContext`mH - $CellContext`t)/(
-                 Sqrt[
-                  2] $CellContext`sH)])^4) (((($CellContext`mH - \
+                 Sqrt[2] $CellContext`sH)])^4) (((($CellContext`mH - \
 $CellContext`t)^2 ($CellContext`sH^2/(
                    2 (-1 + $CellContext`nH)) + $CellContext`u^2) (1 + 
                    Erf[($CellContext`mD - $CellContext`t)/(
@@ -19512,6 +19468,7 @@ $CellContext`nD (-1 + $CellContext`nH) $CellContext`nH
                     Sqrt[2] $CellContext`sD)]^4 (-2 + 
                     Erfc[($CellContext`mH - $CellContext`t)/(
                     Sqrt[2] $CellContext`sH)])^4)) + (
+                   
                    4 (((-1 + $CellContext`nD) $CellContext`nD $CellContext`nH \
 $CellContext`sD^4 ($CellContext`mH - $CellContext`t)^2 ($CellContext`sH^2 + 
                     2 (-1 + $CellContext`nH) $CellContext`u^2) (-2 + 
@@ -19606,9 +19563,7 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^4 + \
 $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2)^2)/(
              Pi^2 (1 + Erf[($CellContext`mH - $CellContext`t)/(
                  Sqrt[2] $CellContext`sH)])^8 ((((
-                
-                 2 (1 + 
-                    Erf[($CellContext`mD - $CellContext`t)/(
+                    2 (1 + Erf[($CellContext`mD - $CellContext`t)/(
                     Sqrt[2] $CellContext`sD)])^2)/
                    E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/($CellContext`nH 
@@ -19707,6 +19662,7 @@ $CellContext`nH)^3 $CellContext`nH^2 (
                     2 (-1 + $CellContext`nH)) + $CellContext`u^2) 
                     Erfc[($CellContext`mD - $CellContext`t)/(
                     Sqrt[2] $CellContext`sD)]^2)/
+                   
                    E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4 + \
 ((($CellContext`sH^2/$CellContext`nH + $CellContext`u^2) 
@@ -20033,12 +19989,10 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
             "concordance probability"], $CellContext`lb[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Max[$CellContext`mD$$ - 4 $CellContext`sD$$, $CellContext`mH$$ - 
-             4 $CellContext`sH$$], False, 
-            
-            Max[$CellContext`mD$$ - 2 $CellContext`sD$$, $CellContext`mH$$ - 
-             2 $CellContext`sH$$]], $CellContext`lb[
+            Max[FE`mD$$83 - 4 FE`sD$$83, FE`mH$$83 - 4 FE`sH$$83], False, 
+            Max[
+            FE`mD$$83 - 2 FE`sD$$83, FE`mH$$83 - 2 
+             FE`sH$$83]], $CellContext`lb[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -20054,15 +20008,14 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
              4 $CellContext`sH], False, 
             
             Max[$CellContext`mD - 2.5 $CellContext`sD, $CellContext`mH - 
-             2.5 $CellContext`sH]], $CellContext`ub[
+             2.5 $CellContext`sH]], 
+          Attributes[$CellContext`pr$] = {Temporary}, $CellContext`ub[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
-             4 $CellContext`sH$$], False, 
-            
-            Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
-             2 $CellContext`sH$$]], $CellContext`ub[
+            Min[FE`mD$$83 + 4 FE`sD$$83, FE`mH$$83 + 4 FE`sH$$83], False, 
+            Min[
+            FE`mD$$83 + 2 FE`sD$$83, FE`mH$$83 + 
+             2 FE`sH$$83]], $CellContext`ub[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -20776,12 +20729,10 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2], $CellContext`txt[
             "concordance probability"], $CellContext`lb[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Max[$CellContext`mD$$ - 4 $CellContext`sD$$, $CellContext`mH$$ - 
-             4 $CellContext`sH$$], False, 
-            
-            Max[$CellContext`mD$$ - 2 $CellContext`sD$$, $CellContext`mH$$ - 
-             2 $CellContext`sH$$]], $CellContext`lb[
+            Max[FE`mD$$83 - 4 FE`sD$$83, FE`mH$$83 - 4 FE`sH$$83], False, 
+            Max[
+            FE`mD$$83 - 2 FE`sD$$83, FE`mH$$83 - 2 
+             FE`sH$$83]], $CellContext`lb[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -20797,14 +20748,14 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2], $CellContext`txt[
              4 $CellContext`sH], False, 
             
             Max[$CellContext`mD - 2.5 $CellContext`sD, $CellContext`mH - 
-             2.5 $CellContext`sH]], $CellContext`ub[
+             2.5 $CellContext`sH]], 
+          Attributes[$CellContext`pr$] = {Temporary}, $CellContext`ub[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
-             4 $CellContext`sH$$], False, 
-            
-            Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
-             2 $CellContext`sH$$]], $CellContext`ub[
+            Min[FE`mD$$83 + 4 FE`sD$$83, FE`mH$$83 + 4 FE`sH$$83], False, 
+            Min[
+            FE`mD$$83 + 2 FE`sD$$83, FE`mH$$83 + 
+             2 FE`sH$$83]], $CellContext`ub[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -21442,6 +21393,7 @@ $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^2], $CellContext`cmced[
                    2 (-1 + $CellContext`nH)) + $CellContext`u^2) (1 + 
                    Erf[($CellContext`mH - $CellContext`t)/(
                     Sqrt[2] $CellContext`sH)])^2)/
+                
                 E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4 + \
 ((($CellContext`sH^2/$CellContext`nH + $CellContext`u^2) (1 + 
@@ -21736,12 +21688,10 @@ $CellContext`nD
             "concordance probability"], $CellContext`lb[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Max[$CellContext`mD$$ - 4 $CellContext`sD$$, $CellContext`mH$$ - 
-             4 $CellContext`sH$$], False, 
-            
-            Max[$CellContext`mD$$ - 2 $CellContext`sD$$, $CellContext`mH$$ - 
-             2 $CellContext`sH$$]], $CellContext`lb[
+            Max[FE`mD$$83 - 4 FE`sD$$83, FE`mH$$83 - 4 FE`sH$$83], False, 
+            Max[
+            FE`mD$$83 - 2 FE`sD$$83, FE`mH$$83 - 2 
+             FE`sH$$83]], $CellContext`lb[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -21752,20 +21702,18 @@ $CellContext`nD
              Blank[]], 
             Pattern[$CellContext`sH, 
              Blank[]]] := Switch[$CellContext`pr, True, 
-            
             Max[$CellContext`mD - 4 $CellContext`sD, $CellContext`mH - 
              4 $CellContext`sH], False, 
             
             Max[$CellContext`mD - 2.5 $CellContext`sD, $CellContext`mH - 
-             2.5 $CellContext`sH]], $CellContext`ub[
+             2.5 $CellContext`sH]], 
+          Attributes[$CellContext`pr$] = {Temporary}, $CellContext`ub[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
-             4 $CellContext`sH$$], False, 
-            
-            Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
-             2 $CellContext`sH$$]], $CellContext`ub[
+            Min[FE`mD$$83 + 4 FE`sD$$83, FE`mH$$83 + 4 FE`sH$$83], False, 
+            Min[
+            FE`mD$$83 + 2 FE`sD$$83, FE`mH$$83 + 
+             2 FE`sH$$83]], $CellContext`ub[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -22778,6 +22726,7 @@ $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4 + \
 ((($CellContext`sH^2/$CellContext`nH + $CellContext`u^2) (1 + 
                    Erf[($CellContext`mH - $CellContext`t)/(
                     Sqrt[2] $CellContext`sH)])^2)/
+                
                 E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^2 + ((($CellContext`mD - \
 $CellContext`t)^2 ($CellContext`sD^2/(
@@ -23528,9 +23477,8 @@ $CellContext`t)^2 (1 +
 $CellContext`t)^2/$CellContext`sH^2))/((-1 + $CellContext`nH) 
                   Pi $CellContext`sH^2 (1 + 
                     Erf[($CellContext`mH - $CellContext`t)/(
-                    Sqrt[
-                    2] $CellContext`sH)])^4))^2/(-1 + $CellContext`nH) + ((2/
-                   E^(($CellContext`mD - \
+                    Sqrt[2] $CellContext`sH)])^4))^2/(-1 + $CellContext`nH) + \
+((2/E^(($CellContext`mD - \
 $CellContext`t)^2/$CellContext`sD^2))/($CellContext`nD 
                   Pi (1 + Erf[($CellContext`mH - $CellContext`t)/(
                     Sqrt[2] $CellContext`sH)])^2) + (($CellContext`mD - \
@@ -23539,8 +23487,9 @@ $CellContext`t)^2/
 $CellContext`t)^2/$CellContext`sD^2))/((-1 + $CellContext`nD) 
                   Pi $CellContext`sD^2 (1 + 
                     Erf[($CellContext`mH - $CellContext`t)/(
-                    Sqrt[2] $CellContext`sH)])^2))^2/(-1 + $CellContext`nD) + \
-(1/(-1 + $CellContext`nU)) (-((1/(
+                    Sqrt[
+                    2] $CellContext`sH)])^2))^2/(-1 + $CellContext`nD) + (
+                1/(-1 + $CellContext`nU)) (-((1/(
                     Pi (1 + Erf[($CellContext`mH - $CellContext`t)/(
                     Sqrt[2] $CellContext`sH)])^4)) (
                     2 (((1 + Erf[($CellContext`mD - $CellContext`t)/(
@@ -23713,7 +23662,6 @@ $CellContext`nD $CellContext`t^2)^2/
 $CellContext`t)^2)/$CellContext`sD^2))/((-1 + $CellContext`nD)^3 \
 $CellContext`nD^2 $CellContext`sD^4) + (($CellContext`mH^2 $CellContext`nH + 
                  2 (-1 + $CellContext`nH) $CellContext`sH^2 - 
-                 
                  2 $CellContext`mH $CellContext`nH $CellContext`t + \
 $CellContext`nH $CellContext`t^2)^2/
                E^((2 ($CellContext`mH - \
@@ -23942,12 +23890,10 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
             "concordance probability"], $CellContext`lb[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Max[$CellContext`mD$$ - 4 $CellContext`sD$$, $CellContext`mH$$ - 
-             4 $CellContext`sH$$], False, 
-            
-            Max[$CellContext`mD$$ - 2 $CellContext`sD$$, $CellContext`mH$$ - 
-             2 $CellContext`sH$$]], $CellContext`lb[
+            Max[FE`mD$$83 - 4 FE`sD$$83, FE`mH$$83 - 4 FE`sH$$83], False, 
+            Max[
+            FE`mD$$83 - 2 FE`sD$$83, FE`mH$$83 - 2 
+             FE`sH$$83]], $CellContext`lb[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -23963,15 +23909,14 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
              4 $CellContext`sH], False, 
             
             Max[$CellContext`mD - 2.5 $CellContext`sD, $CellContext`mH - 
-             2.5 $CellContext`sH]], $CellContext`ub[
+             2.5 $CellContext`sH]], 
+          Attributes[$CellContext`pr$] = {Temporary}, $CellContext`ub[
             Pattern[$CellContext`pr$, 
              Blank[]]] := Switch[$CellContext`pr$, True, 
-            
-            Min[$CellContext`mD$$ + 4 $CellContext`sD$$, $CellContext`mH$$ + 
-             4 $CellContext`sH$$], False, 
-            
-            Min[$CellContext`mD$$ + 2 $CellContext`sD$$, $CellContext`mH$$ + 
-             2 $CellContext`sH$$]], $CellContext`ub[
+            Min[FE`mD$$83 + 4 FE`sD$$83, FE`mH$$83 + 4 FE`sH$$83], False, 
+            Min[
+            FE`mD$$83 + 2 FE`sD$$83, FE`mH$$83 + 
+             2 FE`sH$$83]], $CellContext`ub[
             Pattern[$CellContext`pr, 
              Blank[]], 
             Pattern[$CellContext`mD, 
@@ -24703,7 +24648,6 @@ $CellContext`t)^2 ($CellContext`sH^2/(
                   2 (-1 + $CellContext`nH)) + $CellContext`u^2) 
                 Erfc[($CellContext`mD - $CellContext`t)/(
                    Sqrt[2] $CellContext`sD)]^2)/
-               
                E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4 + \
 ((($CellContext`sH^2/$CellContext`nH + $CellContext`u^2) 
@@ -25526,6 +25470,7 @@ $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4 + \
 ((($CellContext`sH^2/$CellContext`nH + $CellContext`u^2) (1 + 
                   Erf[($CellContext`mD - $CellContext`t)/(
                     Sqrt[2] $CellContext`sD)])^2)/
+               
                E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^2 + ((($CellContext`mD - \
 $CellContext`t)^2 ($CellContext`sD^2/(
@@ -26868,6 +26813,7 @@ $CellContext`nH $CellContext`u^2)
                 2 (-1 + $CellContext`nD) $CellContext`u^2) 
                Erfc[($CellContext`mH - $CellContext`t)/(
                   Sqrt[2] $CellContext`sH)]^2)/
+              
               E^(($CellContext`mD - \
 $CellContext`t)^2/$CellContext`sD^2))/((-1 + $CellContext`nD) 
              Pi $CellContext`sD^4) + ((
@@ -27049,7 +26995,6 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^4 + \
 $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2 + ((($CellContext`mH - \
 $CellContext`t)^2 ($CellContext`sH^2/(
                  2 (-1 + $CellContext`nH)) + $CellContext`u^2))/
-              
               E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/$CellContext`sH^4 + \
 (($CellContext`sH^2/$CellContext`nH + $CellContext`u^2)/
@@ -27246,7 +27191,6 @@ $CellContext`u^4)/(-1 + $CellContext`nU)),
 ($CellContext`sH^2/(2 (-1 + $CellContext`nH)) + $CellContext`u^2))/
                 E^(($CellContext`mH - $CellContext`t)^2/$CellContext`sH^2))/(
                Pi $CellContext`sH^4) + ((
-                 
                  2 $CellContext`nD ($CellContext`sD^2 + $CellContext`nD \
 $CellContext`u^2))/
                 E^(($CellContext`mD - $CellContext`t)^2/$CellContext`sD^2))/(
@@ -27260,8 +27204,8 @@ $CellContext`u^2))/
                     Sqrt[2] $CellContext`sD)] + 
                   Erfc[($CellContext`mH - $CellContext`t)/(
                     Sqrt[2] $CellContext`sH)])^2)/(
-                4 + $CellContext`nD + $CellContext`nH)^2)^2/(($CellContext`nD + \
-$CellContext`nH)^4 ((($CellContext`nD^2 ($CellContext`mD^2 $CellContext`nD + 
+                4 + $CellContext`nD + $CellContext`nH)^2)^2/(($CellContext`nD + $\
+CellContext`nH)^4 ((($CellContext`nD^2 ($CellContext`mD^2 $CellContext`nD + 
                   2 (-1 + $CellContext`nD) $CellContext`sD^2 - 
                   2 $CellContext`mD $CellContext`nD $CellContext`t + \
 $CellContext`nD $CellContext`t^2)^2)/
@@ -27442,6 +27386,7 @@ $CellContext`t)^2 ($CellContext`sH^2 +
                 E^(($CellContext`mH - \
 $CellContext`t)^2/$CellContext`sH^2))/((-1 + $CellContext`nH) 
                Pi $CellContext`sH^4) + ((
+                 
                  2 $CellContext`nD^2 $CellContext`nH ($CellContext`sH^2 + \
 $CellContext`nH $CellContext`u^2) 
                  Erfc[($CellContext`mD - $CellContext`t)/(
@@ -27811,7 +27756,6 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^4 + \
 ((($CellContext`sD^2/$CellContext`nD + $CellContext`u^2) (1 + 
                     Erf[($CellContext`mH - $CellContext`t)/(
                     Sqrt[2] $CellContext`sH)])^2)/
-                 
                  E^(($CellContext`mD - \
 $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2)^2)/(
             Pi^2 (1 + Erf[($CellContext`mH - $CellContext`t)/(
@@ -28180,7 +28124,6 @@ $CellContext`nH $CellContext`t^2)^2 (-2 +
 $CellContext`t)^2)/$CellContext`sH^2))/((-1 + $CellContext`nH)^3 \
 $CellContext`nH^2 $CellContext`sH^4) + ((($CellContext`mD^2 $CellContext`nD + 
                  2 (-1 + $CellContext`nD) $CellContext`sD^2 - 
-                 
                  2 $CellContext`mD $CellContext`nD $CellContext`t + \
 $CellContext`nD $CellContext`t^2)^2 
                Erfc[($CellContext`mH - $CellContext`t)/(
@@ -28271,9 +28214,10 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
    3.817099395270835*^9, 3.819948102718277*^9, {3.822185189414711*^9, 
    3.822185192113635*^9}, 3.8221853916393557`*^9, {3.8233255288056817`*^9, 
    3.8233255315868745`*^9}, 3.823330291973242*^9, {3.9068275634761953`*^9, 
-   3.906827567213127*^9}, 3.906827773011181*^9},
+   3.906827567213127*^9}, 3.906827773011181*^9, {3.907060157432908*^9, 
+   3.907060160803194*^9}},
  CellLabel->
-  "Out[315]=",ExpressionUUID->"9064e281-47a0-4136-93fd-a9d61f330baf"]
+  "Out[122]=",ExpressionUUID->"aaef9576-4069-4922-b1f2-00ff0a7812ce"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -28326,7 +28270,7 @@ International Creative Commons License",
 5a583aa7bc50"]
 }, Open  ]]
 },
-WindowSize->{1430.25, 737.625},
+WindowSize->{1430.25, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 Magnification->1.,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
@@ -28351,17 +28295,17 @@ Cell[1225, 35, 714, 12, 71, "Title",ExpressionUUID->"82ae1769-2870-4f89-845c-451
  Evaluatable->False],
 Cell[1942, 49, 442, 11, 129, "Author",ExpressionUUID->"1cc76b04-6cbc-4aef-a873-b937edcba28a"],
 Cell[2387, 62, 349, 7, 31, "Affiliation",ExpressionUUID->"e486d917-8f69-429f-a367-b2ac69fd62eb"],
-Cell[2739, 71, 398162, 10265, 19, "Input",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca",
+Cell[2739, 71, 397206, 10233, 19, "Input",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[400926, 10340, 94625, 1885, 19, "Input",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120",
+Cell[399970, 10308, 94625, 1885, 19, "Input",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120",
  CellOpen->False,
  InitializationCell->True],
-Cell[495554, 12227, 773467, 16048, 642, "Output",ExpressionUUID->"9064e281-47a0-4136-93fd-a9d61f330baf"]
+Cell[494598, 12195, 772397, 16024, 642, "Output",ExpressionUUID->"aaef9576-4069-4922-b1f2-00ff0a7812ce"]
 }, Open  ]],
-Cell[1269036, 28278, 521, 12, 53, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
-Cell[1269560, 28292, 1522, 33, 75, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
+Cell[1267010, 28222, 521, 12, 53, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
+Cell[1267534, 28236, 1522, 33, 75, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
 }, Open  ]]
 }
 ]
