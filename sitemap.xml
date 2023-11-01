@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.hcsl.com</loc>
-        <lastmod>2023-10-28</lastmod>
+        <lastmod>2023-11-01</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
@@ -26,7 +26,7 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Publications/index.html</loc>
-        <lastmod>2023-10-17</lastmod>
+        <lastmod>2023-11-01</lastmod>
         <changefreq>always</changefreq>
         <priority>0.9</priority>
     </url>
@@ -50,7 +50,7 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/Publications/NNQC.html</loc>
-        <lastmod>2023-10-18</lastmod>
+        <lastmod>2023-11-01</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
     </url>
@@ -320,7 +320,7 @@
     </url>
     <url>
         <loc>https://www.hcsl.com/About/index.html</loc>
-        <lastmod>2023-10-28</lastmod>
+        <lastmod>2023-11-01</lastmod>
         <changefreq>always</changefreq>
         <priority>0.9</priority>
     </url>
