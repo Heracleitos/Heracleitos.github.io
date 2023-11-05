@@ -123,65 +123,11 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/Documents/ToolForQualityControlDesignAndEvaluation.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://www.hcsl.com/Documents/letter.pdf</loc>
   <lastmod>2023-11-05T05:48:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://www.hcsl.com/Documents/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasurement.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/AnalysisOfDiagnosticAccuracyMeasures.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnosticTests.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnosticTests.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/RelationOfDiagnosticAccuracyMeasures.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/CalculatorForDiagnosticAccuracyMeasures.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/CalculationOfDiagnosticAccuracyMeasures.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 <url>
   <loc>https://www.hcsl.com/Documents/Relation.pdf</loc>
   <lastmod>2023-11-05T05:48:50+00:00</lastmod>
@@ -193,32 +139,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/Documents/EnteralNutritionalDesign.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://www.hcsl.com/Documents/Nutrition.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/NetworkOfMusicalInstrumentsForRhythmAccompaniment.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/ExactConfidenceIntervalsForASingleProportion.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/InferencesAbouttheDifferenceBetweenTwoProportions.pdf</loc>
-  <lastmod>2023-11-05T05:48:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/hcsltr01.pdf</loc>
   <lastmod>2023-11-05T05:48:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -282,26 +203,4 @@
   <lastmod>2023-11-04T19:55:08+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://www.hcsl.com/Documents/Quality.pdf</loc>
-  <lastmod>2023-11-04T19:55:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/IntelligentQuality.pdf</loc>
-  <lastmod>2023-11-04T19:55:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/QualityControl.pdf</loc>
-  <lastmod>2023-11-04T19:55:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Documents/IntelligentQualityControl.pdf</loc>
-  <lastmod>2023-11-04T19:55:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
 </urlset>
