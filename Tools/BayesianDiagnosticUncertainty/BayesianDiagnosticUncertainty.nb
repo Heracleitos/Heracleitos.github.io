@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3847314,      74795]
-NotebookOptionsPosition[   3845962,      74764]
-NotebookOutlinePosition[   3846488,      74782]
-CellTagsIndexPosition[   3846445,      74779]
+NotebookDataLength[   3847360,      74795]
+NotebookOptionsPosition[   3846008,      74764]
+NotebookOutlinePosition[   3846534,      74782]
+CellTagsIndexPosition[   3846491,      74779]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -20857,7 +20857,7 @@ Cell[BoxData[{
          RowBox[{"fc0", "\[Element]", "Reals"}], "&&", 
          RowBox[{"fc0", ">=", "0"}], " ", "&&", 
          RowBox[{"fd", "\[Element]", "Reals"}], "&&", 
-         RowBox[{"fd", ">=", "0"}], "&&", 
+         RowBox[{"fd", ">", "0"}], "&&", 
          RowBox[{"fc", ">=", "fc0"}]}], ",", 
         RowBox[{"{", 
          RowBox[{
@@ -26402,7 +26402,7 @@ disease\>\"", ",", "Bold"}], "]"}], ",", "\"\<measurand distribution\>\"",
    3.9136850974379396`*^9, 3.9136850981367617`*^9}, {3.9136866281866245`*^9, 
    3.913686709388261*^9}, {3.913686752944331*^9, 3.913686756481372*^9}, {
    3.913686798607725*^9, 3.9136868201933804`*^9}, {3.913687559547439*^9, 
-   3.9136875674349995`*^9}},
+   3.9136875674349995`*^9}, {3.91368824086076*^9, 3.9136882636280513`*^9}},
  CodeAssistOptions->{
  "CodeToolsOptions"-><|
   "CodeInspect" -> <|
@@ -74768,7 +74768,7 @@ CodeAssistOptions->{"CodeToolsOptions"-><|
  "CodeInspect" -> <|"Tags" -> <|"InternalError" -> <|Enabled -> False|>|>|>|>},
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"f31bacaf-28a3-4bc3-a2ec-d82e079722f3"
+ExpressionUUID->"b6c40355-2a16-48df-90a8-da481723be93"
 ]
 (* End of Notebook Content *)
 
@@ -74789,13 +74789,13 @@ Cell[1288, 36, 780, 13, 71, "Title",ExpressionUUID->"80df67f0-b041-44f0-9766-16c
 Cell[2071, 51, 494, 12, 129, "Author",ExpressionUUID->"1e376c36-f318-4c3d-b975-ee2079afbd71"],
 Cell[2568, 65, 349, 7, 31, "Affiliation",ExpressionUUID->"b90c6a00-0e7e-4b84-8ec8-73d76b92af39"],
 Cell[CellGroupData[{
-Cell[2942, 76, 1154606, 26334, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
+Cell[2942, 76, 1154652, 26334, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
  CellOpen->False,
  InitializationCell->True],
-Cell[1157551, 26412, 2682152, 48228, 606, "Output",ExpressionUUID->"f17c9f4e-ad8e-4d52-b760-788a0eb7e7cd"]
+Cell[1157597, 26412, 2682152, 48228, 606, "Output",ExpressionUUID->"f17c9f4e-ad8e-4d52-b760-788a0eb7e7cd"]
 }, Open  ]],
-Cell[3839718, 74643, 4618, 82, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
-Cell[3844339, 74727, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
+Cell[3839764, 74643, 4618, 82, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
+Cell[3844385, 74727, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
 }, Open  ]]
 }
 ]
