@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3845060,      74736]
-NotebookOptionsPosition[   3843708,      74705]
-NotebookOutlinePosition[   3844234,      74723]
-CellTagsIndexPosition[   3844191,      74720]
+NotebookDataLength[   3845086,      74737]
+NotebookOptionsPosition[   3843734,      74706]
+NotebookOutlinePosition[   3844260,      74724]
+CellTagsIndexPosition[   3844217,      74721]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -74587,7 +74587,7 @@ Cell[TextData[{
   FontSize->10],
  StyleBox["\n",
   FontSize->12],
- StyleBox["P(D|T): Bayesian probability for disease\n(P(D|T)): standard \
+ StyleBox["P(D|T): Bayesian probability for disease\nu(P(D|T)): standard \
 uncertainty of Bayesian probability for disease\nCI: Confidence Interval\n", 
   "SubsubitemParagraph",
   FontSize->10],
@@ -74663,7 +74663,8 @@ uncertainty of Bayesian probability for disease\nCI: Confidence Interval\n",
    3.906871618032697*^9, 3.906871618667078*^9}, {3.9072403361031866`*^9, 
    3.907240371335797*^9}, 3.9117967785644584`*^9, {3.9133342855549836`*^9, 
    3.9133342998855925`*^9}, 3.9133343318276725`*^9, {3.91368698488538*^9, 
-   3.9136870066440115`*^9}},ExpressionUUID->"54c70681-198b-4775-9989-\
+   3.9136870066440115`*^9}, 
+   3.91372244527429*^9},ExpressionUUID->"54c70681-198b-4775-9989-\
 331e330265b0"],
 
 Cell[TextData[{
@@ -74735,8 +74736,8 @@ Cell[2942, 76, 1152352, 26275, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8
  InitializationCell->True],
 Cell[1155297, 26353, 2682152, 48228, 606, "Output",ExpressionUUID->"f17c9f4e-ad8e-4d52-b760-788a0eb7e7cd"]
 }, Open  ]],
-Cell[3837464, 74584, 4618, 82, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
-Cell[3842085, 74668, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
+Cell[3837464, 74584, 4644, 83, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
+Cell[3842111, 74669, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
 }, Open  ]]
 }
 ]
