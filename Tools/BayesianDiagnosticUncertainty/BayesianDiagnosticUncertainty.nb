@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3847547,      74800]
-NotebookOptionsPosition[   3846210,      74770]
-NotebookOutlinePosition[   3846736,      74788]
-CellTagsIndexPosition[   3846693,      74785]
+NotebookDataLength[   3847321,      74793]
+NotebookOptionsPosition[   3845969,      74762]
+NotebookOutlinePosition[   3846495,      74780]
+CellTagsIndexPosition[   3846452,      74777]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23608,7 +23608,7 @@ disease\>\"", ",", "Bold"}], "]"}], ",", "\"\<measurand distribution\>\"",
        RowBox[{"{", 
         RowBox[{"1", ",", "1"}], "}"}]}], ",", 
       RowBox[{"ItemSize", "\[Rule]", "Automatic"}]}], "]"}]}]}], 
-  "\[IndentingNewLine]"}], "\n", 
+  "\n"}], "\[IndentingNewLine]", 
  RowBox[{"Quiet", "[", 
   RowBox[{"TabView", "[", 
    RowBox[{
@@ -26206,6 +26206,8 @@ disease\>\"", ",", "Bold"}], "]"}], ",", "\"\<measurand distribution\>\"",
              RowBox[{"Alignment", "\[Rule]", "Top"}]}], "]"}]}]}], "}"}], 
         "]"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
     RowBox[{"ImageSize", "\[Rule]", "Automatic"}]}], "]"}], "]"}]}], "Input",
+ Editable->False,
+ CellOpen->False,
  InitializationCell->True,
  CellChangeTimes->{
   3.907161480406876*^9, {3.9072399437121*^9, 3.9072399678000665`*^9}, {
@@ -26397,11 +26399,14 @@ disease\>\"", ",", "Bold"}], "]"}], ",", "\"\<measurand distribution\>\"",
    3.9136845735718923`*^9, 3.9136846427004285`*^9}, {3.913684685053586*^9, 
    3.9136847285082035`*^9}, {3.9136849663887525`*^9, 
    3.9136849737813864`*^9}, {3.913685012986663*^9, 3.9136850598208976`*^9}, {
-   3.9136850974379396`*^9, 3.9136850981367617`*^9}},
+   3.9136850974379396`*^9, 3.9136850981367617`*^9}, {3.9136866281866245`*^9, 
+   3.913686709388261*^9}, {3.913686752944331*^9, 3.913686756481372*^9}, {
+   3.913686798607725*^9, 3.9136868201933804`*^9}},
  CodeAssistOptions->{
  "CodeToolsOptions"-><|
   "CodeInspect" -> <|"Tags" -> <|"InternalError" -> <||>|>|>|>},
- CellLabel->"In[61]:=",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e"],
+ CellLabel->
+  "In[119]:=",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"plots\"\>"->
@@ -30282,7 +30287,8 @@ $CellContext`lb[
           "proportionality constant \!\(\*SubscriptBox[\(b\), \(1\)]\)"}, 0, 
          0.1, 0.0001}, {{
           Hold[$CellContext`nU$$], 1350, "sample size"}, 20, 10000, 1}}, 
-       Typeset`size$$ = {450., {171., 163.40019576000049`}}, 
+       Typeset`size$$ = {
+       57.17968940734863, {1.498046929948032, 9.489746441831812}}, 
        Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
        False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
@@ -30358,7 +30364,7 @@ $CellContext`dD$$, $CellContext`dH$$, $CellContext`pr$$]), "Specifications" :> {
          "Options" :> {
           ContinuousAction -> False, TrackedSymbols -> True, ControlPlacement -> 
            Left, Alignment -> Top}, "DefaultOptions" :> {}],
-        ImageSizeCache->{712., {201.13403309800196`, 206.86596690199804`}},
+        ImageSizeCache->{320., {201.13403309800196`, 206.86596690199804`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -64427,10 +64433,8 @@ $CellContext`nH (
         Dynamic[$CellContext`sH$$], 0.001}, {{
          Hold[$CellContext`b1$$], 0.0109, 
          "proportionality constant \!\(\*SubscriptBox[\(b\), \(1\)]\)"}, 0, 
-        0.1, 0.0001}}, Typeset`size$$ = {
-      459.13576436042786`, {148.6418482392328, 155.3576687980676}}, 
-      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-      False}, 
+        0.1, 0.0001}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
+      Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`b0$$ = 0.866, $CellContext`b1$$ = 
@@ -64488,7 +64492,6 @@ $CellContext`sH$$, $CellContext`b0$$, $CellContext`b1$$, $CellContext`nl$$],
         "Options" :> {
          ContinuousAction -> False, TrackedSymbols -> True, ControlPlacement -> 
           Left, Alignment -> Top}, "DefaultOptions" :> {}],
-       ImageSizeCache->{722., {178.63403309800196`, 184.36596690199804`}},
        SingleEvaluation->True],
       Deinitialization:>None,
       DynamicModuleValues:>{},
@@ -64839,7 +64842,8 @@ $CellContext`bpnl[
                2 $CellContext`\[Sigma]D^2) - (2 Log[$CellContext`x] - 2 
                 Log[$CellContext`\[Mu]H] + 
                 Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2/(8 
-              Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])) \
+              Log[
+               1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])) \
 $CellContext`nH $CellContext`\[Sigma]D)/($CellContext`nD $CellContext`x Sqrt[
              Log[
              1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]])), \
@@ -64937,10 +64941,10 @@ $CellContext`bplg[
 $CellContext`nD ($CellContext`\[Sigma]H^2/$CellContext`\[Mu]H)^($CellContext`\
 \[Mu]H^2/$CellContext`\[Sigma]H^2) 
            Gamma[$CellContext`\[Mu]H^2/$CellContext`\[Sigma]H^2])/(
-          Sqrt[2] 
-           E^(($CellContext`x $CellContext`\[Mu]H)/$CellContext`\[Sigma]H^2) \
-$CellContext`nD ($CellContext`\[Sigma]H^2/$CellContext`\[Mu]H)^($CellContext`\
-\[Mu]H^2/$CellContext`\[Sigma]H^2) 
+          Sqrt[2] E^(($CellContext`x $CellContext`\[Mu]H)/$CellContext`\
+\[Sigma]H^2) $CellContext`nD \
+($CellContext`\[Sigma]H^2/$CellContext`\[Mu]H)^($CellContext`\[Mu]H^2/$\
+CellContext`\[Sigma]H^2) 
            Gamma[$CellContext`\[Mu]H^2/$CellContext`\[Sigma]H^2] + 
           2 E^((2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]D] + 
                Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])^2/(8 
@@ -65124,7 +65128,6 @@ $CellContext`\[Mu]D)^2 $CellContext`\[Sigma]D^2 ($CellContext`nD \
 ($CellContext`b0 + $CellContext`b1 $CellContext`x)^2 + \
 $CellContext`\[Sigma]D^2) $CellContext`\[Sigma]H^6 + (
                  1 - $CellContext`nD) $CellContext`nD^2 $CellContext`nH^2 (
-                  
                   4 + $CellContext`nD + $CellContext`nH)^2 $CellContext`\
 \[Sigma]D^6 ((-2) (-1 + $CellContext`nH) ($CellContext`b0 + $CellContext`b1 \
 $CellContext`x)^2 - $CellContext`\[Sigma]H^2) (($CellContext`x - \
@@ -65365,7 +65368,6 @@ $CellContext`\[Sigma]D^6)/(
 ($CellContext`b0 + $CellContext`b1 $CellContext`x)^2 - \
 $CellContext`\[Sigma]D^2) (($CellContext`x - $CellContext`\[Mu]D)^2 - \
 $CellContext`\[Sigma]D^2)^2)/(1 - $CellContext`nD) + 
-                
                 2 $CellContext`nD $CellContext`nH^2 ($CellContext`x - \
 $CellContext`\[Mu]D)^2 $CellContext`\[Sigma]D^2 ($CellContext`nD \
 ($CellContext`b0 + $CellContext`b1 $CellContext`x)^2 + \
@@ -65538,8 +65540,8 @@ $CellContext`\[Sigma]H^2)
 ((-4) Log[$CellContext`x]^2 + 8 Log[$CellContext`x] Log[$CellContext`\[Mu]H] - 
                   4 Log[$CellContext`\[Mu]H]^2 + 
                   Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2] (4 + 
-                    Log[1 + \
-$CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]))^2 + 
+                    Log[
+                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]))^2 + 
                2 (1 - $CellContext`nD) $CellContext`nD^2 (
                  1 - $CellContext`nH) $CellContext`nH (
                   4 + $CellContext`nD + $CellContext`nH)^2 \
@@ -65784,9 +65786,9 @@ $CellContext`\[Mu]H^2 ($CellContext`\[Mu]D^2 + $CellContext`\[Sigma]D^2)^2 \
 $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])^2/Log[
                     1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2] - (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
-                    Log[1 + \
-$CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2/Log[
-                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])) \
+                    Log[
+                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2/
+                    Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])) \
 $CellContext`nH Sqrt[
                    Log[
                    1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]]))^4 
@@ -65862,8 +65864,7 @@ $CellContext`\[Sigma]H^2)
                   2 ($CellContext`\[Mu]H^2 + 2 $CellContext`\[Sigma]H^2) 
                    Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2] (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
-                    Log[
-                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
+                    Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
 $CellContext`\[Sigma]H^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
                     Log[1 + \
 $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2)^2))/((-1 + \
@@ -65953,9 +65954,10 @@ $CellContext`\[Sigma]D^2) $CellContext`\[Sigma]H^6 (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]D] + 
                     Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]) - \
 $CellContext`\[Sigma]D^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]D] + 
-                    Log[
-                    1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])^2)^2 + 
+                    Log[1 + \
+$CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])^2)^2 + 
                64 (-1 + $CellContext`nD) $CellContext`nD^2 $CellContext`nH^2 (
+                  
                   4 + $CellContext`nD + $CellContext`nH)^2 \
 $CellContext`\[Mu]D^2 $CellContext`\[Mu]H^2 ($CellContext`\[Mu]D^2 + \
 $CellContext`\[Sigma]D^2)^2 (2 (-1 + $CellContext`nH) $CellContext`b0^2 + 
@@ -66206,7 +66208,6 @@ $CellContext`\[Mu]D - 2 $CellContext`\[Mu]D Log[$CellContext`x] +
                    Log[$CellContext`\[Sigma]D^2/$CellContext`\[Mu]D] + 
                   2 $CellContext`\[Mu]D 
                    PolyGamma[
-                    
                     0, $CellContext`\[Mu]D^2/$CellContext`\[Sigma]D^2])^2))/($\
 CellContext`\[Sigma]H^8 ($CellContext`nD + (
                  E^(($CellContext`x \
@@ -66480,7 +66481,6 @@ $CellContext`x)^2 + $CellContext`\[Sigma]H^2) ($CellContext`x - $CellContext`\
                    Log[$CellContext`\[Sigma]H^2/$CellContext`\[Mu]H] + 
                   2 $CellContext`\[Mu]H 
                    PolyGamma[
-                    
                     0, $CellContext`\[Mu]H^2/$CellContext`\[Sigma]H^2])^2))/($\
 CellContext`\[Sigma]H^2/$CellContext`\[Mu]H)^((
                2 $CellContext`\[Mu]H^2)/$CellContext`\[Sigma]H^2))/(($\
@@ -66622,10 +66622,8 @@ CellContext`\[Sigma]H^2)
         Dynamic[$CellContext`sH$$], 0.001}, {{
          Hold[$CellContext`b1$$], 0.0109, 
          "proportionality constant \!\(\*SubscriptBox[\(b\), \(1\)]\)"}, 0, 
-        0.1, 0.0001}}, Typeset`size$$ = {
-      459.13576436042786`, {148.6418482392328, 155.3576687980676}}, 
-      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-      False}, 
+        0.1, 0.0001}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
+      Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`b0$$ = 0.866, $CellContext`b1$$ = 
@@ -66683,7 +66681,6 @@ $CellContext`sH$$, $CellContext`b0$$, $CellContext`b1$$, $CellContext`nl$$],
         "Options" :> {
          ContinuousAction -> False, TrackedSymbols -> True, ControlPlacement -> 
           Left, Alignment -> Top}, "DefaultOptions" :> {}],
-       ImageSizeCache->{722., {178.63403309800196`, 184.36596690199804`}},
        SingleEvaluation->True],
       Deinitialization:>None,
       DynamicModuleValues:>{},
@@ -67081,7 +67078,8 @@ CellContext`nH Sqrt[2 Pi] $CellContext`\[Sigma]D)), $CellContext`bpln[
 $CellContext`\[Mu]H)^2)/$CellContext`\[Sigma]H^2) + (2 Log[$CellContext`x] - 
                   2 Log[$CellContext`\[Mu]D] + 
                   Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])^2/
-                Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])) \
+                Log[
+                1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])) \
 $CellContext`nH $CellContext`x Sqrt[
               Log[
               1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]])/($\
@@ -67263,7 +67261,6 @@ $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H}]; If[
               Element[$CellContext`fc, Reals], $CellContext`fc >= 0, 
               Element[$CellContext`fc0, Reals], $CellContext`fc0 >= 0, 
               Element[$CellContext`fd, Reals], $CellContext`fd >= 
-              
               0, $CellContext`fc >= $CellContext`fc0], \
 {$CellContext`fc/$CellContext`fd, 
               Sqrt[$CellContext`fc^2 - $CellContext`fc0^2]/$CellContext`fd, \
@@ -67506,11 +67503,12 @@ $CellContext`x^2) + $CellContext`\[Sigma]H^2) ((-4) $CellContext`\[Sigma]H^2 (
 $CellContext`\[Sigma]H^2) (Log[$CellContext`x] - Log[$CellContext`\[Mu]H])) 
                    Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2] + (
                     2 $CellContext`\[Mu]H^2 + 3 $CellContext`\[Sigma]H^2) 
-                   Log[
-                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]^2)^2 + \
-(-1 + $CellContext`nD) $CellContext`nD^2 $CellContext`nH^2 (
+                   Log[1 + \
+$CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]^2)^2 + (-1 + $CellContext`nD) \
+$CellContext`nD^2 $CellContext`nH^2 (
                   4 + $CellContext`nD + $CellContext`nH)^2 \
 $CellContext`\[Mu]H^2 $CellContext`\[Sigma]D^6 $CellContext`\[Sigma]H^2 (
+                 
                  2 (-1 + $CellContext`nH) ($CellContext`b0^2 + \
 $CellContext`b1^2 $CellContext`x^2) + $CellContext`\[Sigma]H^2) ((-4) (
                     Log[$CellContext`x] - Log[$CellContext`\[Mu]H])^2 + 
@@ -67847,7 +67845,8 @@ $CellContext`\[Sigma]H^2)
                   2 ($CellContext`\[Mu]H^2 + 2 $CellContext`\[Sigma]H^2) 
                    Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2] (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
-                    Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
+                    Log[
+                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
 $CellContext`\[Sigma]H^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
                     Log[1 + \
 $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2)^2))/((-1 + \
@@ -67935,7 +67934,8 @@ $CellContext`\[Sigma]H^2)^2 (
                   2 ($CellContext`\[Mu]D^2 + 2 $CellContext`\[Sigma]D^2) 
                    Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2] (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]D] + 
-                    Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]) - \
+                    Log[
+                    1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]) - \
 $CellContext`\[Sigma]D^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]D] + 
                     Log[1 + \
 $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])^2)^2 
@@ -68534,6 +68534,7 @@ $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2/(4
                   32 (2 + $CellContext`nD) (
                    2 + $CellContext`nH) ($CellContext`nD + $CellContext`nH)^3 
                   Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]^4)/(
+                  
                   4 + $CellContext`nD + $CellContext`nH)^2 + \
 ($CellContext`nD^2 $CellContext`nH^2 $CellContext`\[Sigma]H^2 (
                    2 $CellContext`b0^2 (-1 + $CellContext`nH) + 
@@ -68706,7 +68707,6 @@ $CellContext`\[Mu]H)/$CellContext`\[Sigma]H^2) $CellContext`x^(-((
                  2 $CellContext`\[Mu]D^2)/$CellContext`\[Sigma]D^2) 
               Gamma[$CellContext`\[Mu]D^2/$CellContext`\[Sigma]D^2]^2 (((
                   2 + $CellContext`nD) (
-                  
                   2 + $CellContext`nH) ($CellContext`nD + \
 $CellContext`nH)^3)/(4 + $CellContext`nD + $CellContext`nH)^2 + (
                  1/((-1 + $CellContext`nD) $CellContext`\[Sigma]D^6)) 
@@ -68829,10 +68829,8 @@ CellContext`\[Sigma]H^2)
          Style["measurements sample", Bold]], 
         Manipulate`Dump`ThisIsNotAControl}, {{
          Hold[$CellContext`nU$$], 1350, "sample size"}, 20, 10000, 1}}, 
-      Typeset`size$$ = {
-      432.0566615788266, {136.12109606526792`, 142.83691662410274`}}, 
-      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-      False}, 
+      Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+      Typeset`skipInitDone$$ = False}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`b0$$ = 0.866, $CellContext`b1$$ = 
@@ -68880,8 +68878,9 @@ $CellContext`b1$$, $CellContext`nl$$], "Specifications" :> {"",
           "measurement uncertainty", 
            Bold], {{$CellContext`nl$$, 1, 
             "\!\(\*SubscriptBox[\(u\), \(m\)]\) = "}, {
-           0 -> "\!\(\*SubscriptBox[\(b\), \(0\)]\)+\!\(\*SubscriptBox[\(b\), \
-\(1\)]\)x", 1 -> 
+           0 -> 
+            "\!\(\*SubscriptBox[\(b\), \(0\)]\)+\!\(\*SubscriptBox[\(b\), \(1\
+\)]\)x", 1 -> 
             "\!\(\*SqrtBox[\(\*SubsuperscriptBox[\(b\), \(0\), \(2\)] + \
 \*SubsuperscriptBox[\(b\), \(1\), \(2\)] \*SuperscriptBox[\(x\), \
 \(2\)]\)]\)"}, ImageSize -> 
@@ -68898,7 +68897,6 @@ $CellContext`b1$$, $CellContext`nl$$], "Specifications" :> {"",
         "Options" :> {
          ContinuousAction -> False, TrackedSymbols -> True, ControlPlacement -> 
           Left, Alignment -> Top}, "DefaultOptions" :> {}],
-       ImageSizeCache->{695., {186.63403309800196`, 192.36596690199804`}},
        SingleEvaluation->True],
       Deinitialization:>None,
       DynamicModuleValues:>{},
@@ -70020,7 +70018,8 @@ $CellContext`\[Sigma]H^2)^2 (
                   2 ($CellContext`\[Mu]D^2 + 2 $CellContext`\[Sigma]D^2) 
                    Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2] (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]D] + 
-                    Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]) - \
+                    Log[
+                    1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]) - \
 $CellContext`\[Sigma]D^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]D] + 
                     Log[1 + \
 $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])^2)^2 
@@ -70092,8 +70091,7 @@ $CellContext`\[Mu]D^2 $CellContext`\[Mu]H^2 ($CellContext`\[Mu]D^2 + \
 $CellContext`\[Sigma]D^2)^2 ($CellContext`\[Mu]H^2 + \
 $CellContext`\[Sigma]H^2)^2 
                 Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]^4 
-                Log[
-                  1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]^4 + \
+                Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]^4 + \
 $CellContext`nD^2 (-1 + $CellContext`nH) $CellContext`nH^2 (
                   4 + $CellContext`nD + $CellContext`nH)^2 \
 $CellContext`\[Mu]D^2 $CellContext`\[Mu]H^2 $CellContext`\[Sigma]D^2 (
@@ -70171,8 +70169,7 @@ $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2/Log[
 $CellContext`nH Sqrt[
                    Log[
                    1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]]))^4 
-             Log[
-               1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]^5)]], \
+             Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]^5)]], \
 $CellContext`ubpll[
            Pattern[$CellContext`x, 
             Blank[]], 
@@ -70259,7 +70256,6 @@ $CellContext`\[Sigma]H^2)
 $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]))^2 + 
                2 (1 - $CellContext`nD) $CellContext`nD^2 (
                  1 - $CellContext`nH) $CellContext`nH (
-                  
                   4 + $CellContext`nD + $CellContext`nH)^2 \
 $CellContext`\[Mu]D^2 ($CellContext`\[Mu]D^2 + $CellContext`\[Sigma]D^2)^2 \
 ($CellContext`nH ($CellContext`b0 + $CellContext`b1 $CellContext`x)^2 + \
@@ -70522,6 +70518,7 @@ $CellContext`\[Mu]D^2 ($CellContext`\[Mu]D^2 + $CellContext`\[Sigma]D^2)^2 \
 $CellContext`\[Sigma]H^6 
                 Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]^4 + \
 $CellContext`nD^2 (-1 + $CellContext`nH) $CellContext`nH^2 (
+                  
                   4 + $CellContext`nD + $CellContext`nH)^2 \
 $CellContext`\[Mu]D^2 $CellContext`\[Sigma]D^2 (
                  2 $CellContext`b0^2 (-1 + $CellContext`nD) + 
@@ -70682,7 +70679,6 @@ $CellContext`\[Sigma]H^6)/(
                    2 $CellContext`x $CellContext`\[Mu]H + \
 $CellContext`\[Mu]H^2 - $CellContext`\[Sigma]H^2)^2 (
                   2 $CellContext`b0^2 (-1 + $CellContext`nH) + 
-                  
                   2 $CellContext`b1^2 (-1 + $CellContext`nH) $CellContext`x^2 + \
 $CellContext`\[Sigma]H^2))/(-1 + $CellContext`nH) + 
                2 $CellContext`nD^2 $CellContext`nH ($CellContext`x - \
@@ -70859,8 +70855,7 @@ $CellContext`\[Sigma]H^2) (
                    2 ($CellContext`\[Mu]H^2 + 2 $CellContext`\[Sigma]H^2) 
                     Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2] (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
-                    Log[
-                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
+                    Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
 $CellContext`\[Sigma]H^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
                     Log[1 + \
 $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2)^2 + (
@@ -71201,7 +71196,6 @@ $CellContext`\[Mu]D)^2 $CellContext`\[Sigma]D^2 ($CellContext`nD \
                    1 - $CellContext`nD) $CellContext`nD^2 $CellContext`nH^2 (
                     4 + $CellContext`nD + $CellContext`nH)^2 $CellContext`\
 \[Sigma]D^6 ((-2) (-1 + $CellContext`nH) $CellContext`b0^2 - 
-                   
                    2 (-1 + $CellContext`nH) $CellContext`b1^2 \
 $CellContext`x^2 - $CellContext`\[Sigma]H^2) (($CellContext`x - $CellContext`\
 \[Mu]H)^2 - $CellContext`\[Sigma]H^2)^2 + 
@@ -71211,6 +71205,7 @@ $CellContext`nH) $CellContext`nH (
 $CellContext`\[Mu]H)^2 $CellContext`\[Sigma]D^6 $CellContext`\[Sigma]H^2 \
 ($CellContext`nH ($CellContext`b0^2 + $CellContext`b1^2 $CellContext`x^2) + \
 $CellContext`\[Sigma]H^2))^2)/((
+                
                 1 - $CellContext`nU) ((-2) (-1 + $CellContext`nD) \
 $CellContext`nD^2 (-1 + $CellContext`nH) $CellContext`nH (
                     4 + $CellContext`nD + $CellContext`nH)^2 ($CellContext`x - \
@@ -71518,7 +71513,6 @@ $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]^2)^2 + (-1 + $CellContext`nD) \
 $CellContext`nD^2 $CellContext`nH^2 (
                    4 + $CellContext`nD + $CellContext`nH)^2 \
 $CellContext`\[Mu]H^2 $CellContext`\[Sigma]D^6 $CellContext`\[Sigma]H^2 (
-                  
                   2 (-1 + $CellContext`nH) ($CellContext`b0^2 + \
 $CellContext`b1^2 $CellContext`x^2) + $CellContext`\[Sigma]H^2) ((-4) (
                     Log[$CellContext`x] - Log[$CellContext`\[Mu]H])^2 + 
@@ -71681,7 +71675,6 @@ $CellContext`nH)^3 $CellContext`\[Sigma]D^6)/(
 ($CellContext`b0 + $CellContext`b1 $CellContext`x)^2 - \
 $CellContext`\[Sigma]D^2) (($CellContext`x - $CellContext`\[Mu]D)^2 - \
 $CellContext`\[Sigma]D^2)^2)/(1 - $CellContext`nD) + 
-                 
                  2 $CellContext`nD $CellContext`nH^2 ($CellContext`x - \
 $CellContext`\[Mu]D)^2 $CellContext`\[Sigma]D^2 ($CellContext`nD \
 ($CellContext`b0 + $CellContext`b1 $CellContext`x)^2 + \
@@ -72397,8 +72390,8 @@ $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]))^2 +
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
                     Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
 $CellContext`\[Sigma]H^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
-                    Log[
-                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2)^2 - 
+                    Log[1 + \
+$CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2)^2 - 
                  2 (1 - $CellContext`nD) $CellContext`nD (
                   1 - $CellContext`nH) $CellContext`\[Mu]D^2 ($CellContext`\
 \[Mu]D^2 + $CellContext`\[Sigma]D^2)^2 ($CellContext`nH ($CellContext`b0^2 + \
@@ -72574,7 +72567,8 @@ $CellContext`\[Sigma]D^2)^2 $CellContext`\[Sigma]H^4
                     2 ($CellContext`\[Mu]H^2 + 2 $CellContext`\[Sigma]H^2) 
                     Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2] (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
-                    Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
+                    Log[
+                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
 $CellContext`\[Sigma]H^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
                     Log[1 + \
 $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2)^2)^2 + (
@@ -72638,7 +72632,6 @@ $CellContext`\[Sigma]H^4
                     4 Log[$CellContext`\[Mu]H]^2 + 
                     Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2] (
                     4 + Log[
-                    
                     1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]))^2 - \
 (-1 + $CellContext`nD) $CellContext`nD $CellContext`nH $CellContext`\[Mu]D^2 \
 $CellContext`\[Mu]H^2 ($CellContext`\[Mu]D^2 + $CellContext`\[Sigma]D^2)^2 \
@@ -72802,7 +72795,8 @@ $CellContext`\[Sigma]D^2)^2 $CellContext`\[Sigma]H^4
                     2 ($CellContext`\[Mu]H^2 + 2 $CellContext`\[Sigma]H^2) 
                     Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2] (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
-                    Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
+                    Log[
+                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2]) - \
 $CellContext`\[Sigma]H^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]H] + 
                     Log[1 + \
 $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2)^2)^2 + (
@@ -73293,8 +73287,8 @@ $CellContext`\[Sigma]D^2) $CellContext`\[Sigma]H^6 (
                     2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]D] + 
                     Log[1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2]) - \
 $CellContext`\[Sigma]D^2 (2 Log[$CellContext`x] - 2 Log[$CellContext`\[Mu]D] + 
-                    Log[1 + \
-$CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])^2)^2 + 
+                    Log[
+                    1 + $CellContext`\[Sigma]D^2/$CellContext`\[Mu]D^2])^2)^2 + 
                  2 (1 - $CellContext`nD) (
                    1 - $CellContext`nH) $CellContext`nH \
 $CellContext`\[Sigma]H^6 (
@@ -73461,7 +73455,6 @@ $CellContext`nH) $CellContext`nH (4 + $CellContext`nD + $CellContext`nH)^2
 $CellContext`nH)^3 Pi $CellContext`\[Sigma]D^4 $CellContext`\[Sigma]H^6 - (
                    1 - $CellContext`nD) $CellContext`nD^2 $CellContext`nH^2 (
                     4 + $CellContext`nD + $CellContext`nH)^2 
-                  
                   Pi $CellContext`\[Sigma]D^4 $CellContext`\[Sigma]H^2 \
 (($CellContext`x - $CellContext`\[Mu]H)^2 - $CellContext`\[Sigma]H^2)^2 - 
                   4 $CellContext`nD^2 $CellContext`nH^2 (
@@ -73474,6 +73467,7 @@ $CellContext`nH)^3 Pi $CellContext`\[Sigma]D^4 $CellContext`\[Sigma]H^6 - (
 $CellContext`\[Mu]D 
                     PolyGamma[
                     0, $CellContext`\[Mu]D^2/$CellContext`\[Sigma]D^2])^2 + 
+                  
                   2 (-1 + $CellContext`nD) $CellContext`nD (-1 + \
 $CellContext`nH) $CellContext`nH^2 (4 + $CellContext`nD + $CellContext`nH)^2 
                    Pi $CellContext`\[Sigma]D^2 $CellContext`\[Sigma]H^6 \
@@ -73737,7 +73731,8 @@ $CellContext`\[Mu]D)/$CellContext`\[Sigma]D^2 - (2 Log[$CellContext`x] - 2
                    Log[$CellContext`\[Mu]H] + 
                    Log[1 + \
 $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2/(2 
-                 Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])) \
+                 Log[
+                  1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])) \
 ($CellContext`\[Sigma]D^2/$CellContext`\[Mu]D)^((
                   4 $CellContext`\[Mu]D^2)/$CellContext`\[Sigma]D^2) 
                Gamma[$CellContext`\[Mu]D^2/$CellContext`\[Sigma]D^2]^4 ((
@@ -74065,8 +74060,7 @@ $CellContext`\[Mu]D)/$CellContext`\[Sigma]D^2 - (2 Log[$CellContext`x] - 2
                     Log[$CellContext`\[Mu]H] + 
                     Log[1 + \
 $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])^2/(8 
-                   Log[
-                    1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])) \
+                   Log[1 + $CellContext`\[Sigma]H^2/$CellContext`\[Mu]H^2])) \
 $CellContext`nH ($CellContext`\[Sigma]D^2/$CellContext`\[Mu]D)^($CellContext`\
 \[Mu]D^2/$CellContext`\[Sigma]D^2) 
                  Gamma[$CellContext`\[Mu]D^2/$CellContext`\[Sigma]D^2])/($\
@@ -74335,8 +74329,7 @@ $CellContext`nH)^3)/(4 + $CellContext`nD + $CellContext`nH)^2 + (
 ($CellContext`x - $CellContext`\[Mu]D - $CellContext`\[Mu]D 
                     Log[$CellContext`x] + $CellContext`\[Mu]D 
                     Log[$CellContext`\[Sigma]D^2/$CellContext`\[Mu]D] + \
-$CellContext`\[Mu]D 
-                    PolyGamma[
+$CellContext`\[Mu]D PolyGamma[
                     0, $CellContext`\[Mu]D^2/$CellContext`\[Sigma]D^2])^2) + (
                   1/$CellContext`\[Sigma]D^2) ($CellContext`nD \
 $CellContext`nH^2 ($CellContext`x - $CellContext`\[Mu]D - 
@@ -74412,7 +74405,6 @@ $CellContext`\[Mu]H
                  1/((-1 + $CellContext`nH) $CellContext`\[Sigma]H^6)) 
                 2 $CellContext`nD $CellContext`nH $CellContext`\[Mu]H^2 (
                  2 (-1 + $CellContext`nH) $CellContext`b0^2 + 
-                 
                  4 (-1 + $CellContext`nH) $CellContext`b0 $CellContext`b1 \
 $CellContext`x + 
                  2 (-1 + $CellContext`nH) $CellContext`b1^2 $CellContext`x^2 + \
@@ -74494,7 +74486,8 @@ $CellContext`\[Sigma]D^4 $CellContext`\[Sigma]H^4 +
 \[Sigma]H^4 ($CellContext`x - $CellContext`\[Mu]D - $CellContext`\[Mu]D 
                     Log[$CellContext`x] + $CellContext`\[Mu]D 
                     Log[$CellContext`\[Sigma]D^2/$CellContext`\[Mu]D] + \
-$CellContext`\[Mu]D PolyGamma[
+$CellContext`\[Mu]D 
+                    PolyGamma[
                     0, $CellContext`\[Mu]D^2/$CellContext`\[Sigma]D^2])^2 + \
 (-1 + $CellContext`nD) $CellContext`nD (-1 + $CellContext`nH) \
 $CellContext`nH^2 (
@@ -74580,7 +74573,6 @@ $CellContext`\[Sigma]D^2 $CellContext`\[Sigma]H^2 ((-1 + $CellContext`nD) (
                     2 + $CellContext`nD) (-1 + $CellContext`nH) (
                     2 + $CellContext`nH) ($CellContext`nD + \
 $CellContext`nH)^3 $CellContext`\[Sigma]D^4 $CellContext`\[Sigma]H^4 + 
-                  
                   2 $CellContext`nD^2 (-1 + $CellContext`nH) \
 $CellContext`nH^2 (
                     4 + $CellContext`nD + $CellContext`nH)^2 $CellContext`\
@@ -74636,15 +74628,15 @@ $CellContext`nH (
       UntrackedVariables:>{Typeset`size$$}], "Manipulate",
      Deployed->True,
      StripOnInput->False],
-    Manipulate`InterpretManipulate[1]]}}, 3]}}, 2,
+    Manipulate`InterpretManipulate[1]]}}, 1]}}, 1,
   ImageSize->Automatic]], "Output",
  CellChangeTimes->{
   3.912317381473496*^9, 3.9123174309452724`*^9, 3.912317658312771*^9, 
    3.9123189974394608`*^9, 3.9123203912272673`*^9, {3.913333597854026*^9, 
    3.913333619154133*^9}, 3.9133759667212715`*^9, 3.9133759987881107`*^9, 
-   3.913685112367071*^9, 3.9136851518422804`*^9},
+   3.913685112367071*^9, 3.9136851518422804`*^9, 3.9136869059532137`*^9},
  CellLabel->
-  "Out[118]=",ExpressionUUID->"5ce8d0a1-6795-4ffe-ab34-d9443fd9d38e"]
+  "Out[176]=",ExpressionUUID->"f17c9f4e-ad8e-4d52-b760-788a0eb7e7cd"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -74652,8 +74644,8 @@ Cell[TextData[{
   FontSize->10],
  StyleBox["\n",
   FontSize->12],
- StyleBox["P(D|T): Bayesian probability of disease\n(P(D|T)): standard \
-uncertainty of Bayesian probability of disease\nCI: Confidence Interval\n", 
+ StyleBox["P(D|T): Bayesian probability for disease\n(P(D|T)): standard \
+uncertainty of Bayesian probability for disease\nCI: Confidence Interval\n", 
   "SubsubitemParagraph",
   FontSize->10],
  StyleBox[Cell[BoxData[
@@ -74727,8 +74719,8 @@ uncertainty of Bayesian probability of disease\nCI: Confidence Interval\n",
    3.8573083998527756`*^9, 3.8573083998527756`*^9}, 3.906827753313318*^9, {
    3.906871618032697*^9, 3.906871618667078*^9}, {3.9072403361031866`*^9, 
    3.907240371335797*^9}, 3.9117967785644584`*^9, {3.9133342855549836`*^9, 
-   3.9133342998855925`*^9}, 
-   3.9133343318276725`*^9},ExpressionUUID->"54c70681-198b-4775-9989-\
+   3.9133342998855925`*^9}, 3.9133343318276725`*^9, {3.91368698488538*^9, 
+   3.9136870066440115`*^9}},ExpressionUUID->"54c70681-198b-4775-9989-\
 331e330265b0"],
 
 Cell[TextData[{
@@ -74795,12 +74787,13 @@ Cell[1288, 36, 780, 13, 71, "Title",ExpressionUUID->"80df67f0-b041-44f0-9766-16c
 Cell[2071, 51, 494, 12, 129, "Author",ExpressionUUID->"1e376c36-f318-4c3d-b975-ee2079afbd71"],
 Cell[2568, 65, 349, 7, 31, "Affiliation",ExpressionUUID->"b90c6a00-0e7e-4b84-8ec8-73d76b92af39"],
 Cell[CellGroupData[{
-Cell[2942, 76, 1154423, 26327, 43024, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
+Cell[2942, 76, 1154613, 26332, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
+ CellOpen->False,
  InitializationCell->True],
-Cell[1157368, 26405, 2682632, 48241, 495, "Output",ExpressionUUID->"5ce8d0a1-6795-4ffe-ab34-d9443fd9d38e"]
+Cell[1157558, 26410, 2682152, 48228, 629, "Output",ExpressionUUID->"f17c9f4e-ad8e-4d52-b760-788a0eb7e7cd"]
 }, Open  ]],
-Cell[3840015, 74649, 4569, 82, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
-Cell[3844587, 74733, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
+Cell[3839725, 74641, 4618, 82, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
+Cell[3844346, 74725, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
 }, Open  ]]
 }
 ]
