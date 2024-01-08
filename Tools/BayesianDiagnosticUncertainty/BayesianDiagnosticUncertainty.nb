@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3847321,      74793]
-NotebookOptionsPosition[   3845969,      74762]
-NotebookOutlinePosition[   3846495,      74780]
-CellTagsIndexPosition[   3846452,      74777]
+NotebookDataLength[   3847314,      74795]
+NotebookOptionsPosition[   3845962,      74764]
+NotebookOutlinePosition[   3846488,      74782]
+CellTagsIndexPosition[   3846445,      74779]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -20882,7 +20882,7 @@ Cell[BoxData[{
     RowBox[{
     "t_", ",", "p_", ",", "nD_", ",", "nH_", ",", "\[Mu]D_", ",", "\[Mu]H_", 
      ",", "\[Sigma]D_", ",", "\[Sigma]H_", ",", "nU_", ",", "b0_", ",", "b1_",
-      ",", "nl_", ",", "dm_", ",", "dD_", ",", "dH_"}], "]"}], ":=", 
+      ",", "nl_", ",", "dD_", ",", "dH_"}], "]"}], ":=", 
    RowBox[{"Block", "[", 
     RowBox[{
      RowBox[{"{", 
@@ -20891,7 +20891,7 @@ Cell[BoxData[{
       RowBox[{"fc", "=", 
        RowBox[{
         RowBox[{"c", "[", 
-         RowBox[{"dm", ",", "dD", ",", "dH"}], "]"}], "@@", 
+         RowBox[{"dD", ",", "dH"}], "]"}], "@@", 
         RowBox[{"{", 
          RowBox[{
          "t", ",", "nD", ",", "nH", ",", "\[Mu]D", ",", "\[Mu]H", ",", 
@@ -20900,7 +20900,7 @@ Cell[BoxData[{
       RowBox[{"fd", "=", 
        RowBox[{
         RowBox[{"d", "[", 
-         RowBox[{"dm", ",", "dD", ",", "dH"}], "]"}], "@@", 
+         RowBox[{"dD", ",", "dH"}], "]"}], "@@", 
         RowBox[{"{", 
          RowBox[{
          "t", ",", "nD", ",", "nH", ",", "\[Mu]D", ",", "\[Mu]H", ",", 
@@ -20908,7 +20908,7 @@ Cell[BoxData[{
       RowBox[{"fdf", "=", 
        RowBox[{
         RowBox[{"df", "[", 
-         RowBox[{"dm", ",", "dD", ",", "dH"}], "]"}], "@@", 
+         RowBox[{"dD", ",", "dH"}], "]"}], "@@", 
         RowBox[{"{", 
          RowBox[{
          "t", ",", "nD", ",", "nH", ",", "\[Mu]D", ",", "\[Mu]H", ",", 
@@ -23608,7 +23608,7 @@ disease\>\"", ",", "Bold"}], "]"}], ",", "\"\<measurand distribution\>\"",
        RowBox[{"{", 
         RowBox[{"1", ",", "1"}], "}"}]}], ",", 
       RowBox[{"ItemSize", "\[Rule]", "Automatic"}]}], "]"}]}]}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{"Quiet", "[", 
   RowBox[{"TabView", "[", 
    RowBox[{
@@ -26401,12 +26401,14 @@ disease\>\"", ",", "Bold"}], "]"}], ",", "\"\<measurand distribution\>\"",
    3.9136849737813864`*^9}, {3.913685012986663*^9, 3.9136850598208976`*^9}, {
    3.9136850974379396`*^9, 3.9136850981367617`*^9}, {3.9136866281866245`*^9, 
    3.913686709388261*^9}, {3.913686752944331*^9, 3.913686756481372*^9}, {
-   3.913686798607725*^9, 3.9136868201933804`*^9}},
+   3.913686798607725*^9, 3.9136868201933804`*^9}, {3.913687559547439*^9, 
+   3.9136875674349995`*^9}},
  CodeAssistOptions->{
  "CodeToolsOptions"-><|
-  "CodeInspect" -> <|"Tags" -> <|"InternalError" -> <||>|>|>|>},
- CellLabel->
-  "In[119]:=",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e"],
+  "CodeInspect" -> <|
+    "Tags" -> <|
+      "InternalError" -> \
+<||>|>|>|>},ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"plots\"\>"->
@@ -74787,13 +74789,13 @@ Cell[1288, 36, 780, 13, 71, "Title",ExpressionUUID->"80df67f0-b041-44f0-9766-16c
 Cell[2071, 51, 494, 12, 129, "Author",ExpressionUUID->"1e376c36-f318-4c3d-b975-ee2079afbd71"],
 Cell[2568, 65, 349, 7, 31, "Affiliation",ExpressionUUID->"b90c6a00-0e7e-4b84-8ec8-73d76b92af39"],
 Cell[CellGroupData[{
-Cell[2942, 76, 1154613, 26332, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
+Cell[2942, 76, 1154606, 26334, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
  CellOpen->False,
  InitializationCell->True],
-Cell[1157558, 26410, 2682152, 48228, 629, "Output",ExpressionUUID->"f17c9f4e-ad8e-4d52-b760-788a0eb7e7cd"]
+Cell[1157551, 26412, 2682152, 48228, 606, "Output",ExpressionUUID->"f17c9f4e-ad8e-4d52-b760-788a0eb7e7cd"]
 }, Open  ]],
-Cell[3839725, 74641, 4618, 82, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
-Cell[3844346, 74725, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
+Cell[3839718, 74643, 4618, 82, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
+Cell[3844339, 74727, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
 }, Open  ]]
 }
 ]
