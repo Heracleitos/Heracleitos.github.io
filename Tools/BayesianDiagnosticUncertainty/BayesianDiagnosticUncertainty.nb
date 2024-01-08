@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3847360,      74795]
-NotebookOptionsPosition[   3846008,      74764]
-NotebookOutlinePosition[   3846534,      74782]
-CellTagsIndexPosition[   3846491,      74779]
+NotebookDataLength[   3845060,      74736]
+NotebookOptionsPosition[   3843708,      74705]
+NotebookOutlinePosition[   3844234,      74723]
+CellTagsIndexPosition[   3844191,      74720]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -114,66 +114,6 @@ Cell[BoxData[{
       SuperscriptBox["\[Sigma]", "2"]}], ",", 
      RowBox[{
       SuperscriptBox["\[Sigma]", "2"], "/", "\[Mu]"}]}], "]"}]}], ";"}], "\n", 
- RowBox[{
-  RowBox[{
-   RowBox[{"bp", "[", 
-    RowBox[{
-    "x_", ",", "nD_", ",", "nH_", ",", "mD_", ",", "mH_", ",", "sD_", ",", 
-     "sH_", ",", "distD_", ",", "distH_"}], "]"}], ":=", 
-   RowBox[{"Module", "[", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{
-      "likelihoodDiseased", ",", "likelihoodNonDiseased", ",", "evidence", 
-       ",", "vd"}], "}"}], ",", 
-     RowBox[{
-      RowBox[{"vd", "=", 
-       FractionBox["nD", 
-        RowBox[{"nD", "+", "nH"}]]}], ";", "\[IndentingNewLine]", 
-      RowBox[{"likelihoodDiseased", "=", 
-       RowBox[{"Switch", "[", 
-        RowBox[{"distD", ",", "\"\<normal\>\"", ",", 
-         RowBox[{"PDF", "[", 
-          RowBox[{
-           RowBox[{"NormalDistribution", "[", 
-            RowBox[{"mD", ",", "sD"}], "]"}], ",", "x"}], "]"}], ",", 
-         "\"\<lognormal\>\"", ",", 
-         RowBox[{"PDF", "[", 
-          RowBox[{
-           RowBox[{"logNormalDistribution", "[", 
-            RowBox[{"mD", ",", "sD"}], "]"}], ",", "x"}], "]"}], ",", 
-         "\"\<gamma\>\"", ",", 
-         RowBox[{"PDF", "[", 
-          RowBox[{
-           RowBox[{"gammaDistribution", "[", 
-            RowBox[{"m1", ",", "s1"}], "]"}], ",", "x"}], "]"}]}], "]"}]}], 
-      ";", "\[IndentingNewLine]", 
-      RowBox[{"likelihoodNonDiseased", "=", 
-       RowBox[{"Switch", "[", 
-        RowBox[{"distH", ",", "\"\<normal\>\"", ",", 
-         RowBox[{"PDF", "[", 
-          RowBox[{
-           RowBox[{"NormalDistribution", "[", 
-            RowBox[{"mH", ",", "sH"}], "]"}], ",", "x"}], "]"}], ",", 
-         "\"\<lognormal\>\"", ",", 
-         RowBox[{"PDF", "[", 
-          RowBox[{
-           RowBox[{"logNormalDistribution", "[", 
-            RowBox[{"mH", ",", "sH"}], "]"}], ",", "x"}], "]"}], ",", 
-         "\"\<gamma\>\"", ",", 
-         RowBox[{"PDF", "[", 
-          RowBox[{
-           RowBox[{"gammaDistribution", "[", 
-            RowBox[{"mH", ",", "sH"}], "]"}], ",", "x"}], "]"}]}], "]"}]}], 
-      ";", "\[IndentingNewLine]", 
-      RowBox[{"evidence", "=", 
-       RowBox[{
-        RowBox[{"likelihoodDiseased", "*", "vd"}], "+", 
-        RowBox[{"likelihoodNonDiseased", "*", 
-         RowBox[{"(", 
-          RowBox[{"1", "-", "vd"}], ")"}]}]}]}], ";", "\[IndentingNewLine]", 
-      RowBox[{"likelihoodDiseased", "*", 
-       RowBox[{"vd", "/", "evidence"}]}]}]}], "]"}]}], ";"}], "\n", 
  RowBox[{
   RowBox[{"bpnn", "[", 
    RowBox[{
@@ -26402,7 +26342,8 @@ disease\>\"", ",", "Bold"}], "]"}], ",", "\"\<measurand distribution\>\"",
    3.9136850974379396`*^9, 3.9136850981367617`*^9}, {3.9136866281866245`*^9, 
    3.913686709388261*^9}, {3.913686752944331*^9, 3.913686756481372*^9}, {
    3.913686798607725*^9, 3.9136868201933804`*^9}, {3.913687559547439*^9, 
-   3.9136875674349995`*^9}, {3.91368824086076*^9, 3.9136882636280513`*^9}},
+   3.9136875674349995`*^9}, {3.91368824086076*^9, 3.9136882636280513`*^9}, {
+   3.913717941905199*^9, 3.9137179448168774`*^9}},
  CodeAssistOptions->{
  "CodeToolsOptions"-><|
   "CodeInspect" -> <|
@@ -74768,7 +74709,7 @@ CodeAssistOptions->{"CodeToolsOptions"-><|
  "CodeInspect" -> <|"Tags" -> <|"InternalError" -> <|Enabled -> False|>|>|>|>},
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"b6c40355-2a16-48df-90a8-da481723be93"
+ExpressionUUID->"a7daa3ee-91d5-4f65-acba-b25196c9f9cc"
 ]
 (* End of Notebook Content *)
 
@@ -74789,13 +74730,13 @@ Cell[1288, 36, 780, 13, 71, "Title",ExpressionUUID->"80df67f0-b041-44f0-9766-16c
 Cell[2071, 51, 494, 12, 129, "Author",ExpressionUUID->"1e376c36-f318-4c3d-b975-ee2079afbd71"],
 Cell[2568, 65, 349, 7, 31, "Affiliation",ExpressionUUID->"b90c6a00-0e7e-4b84-8ec8-73d76b92af39"],
 Cell[CellGroupData[{
-Cell[2942, 76, 1154652, 26334, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
+Cell[2942, 76, 1152352, 26275, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
  CellOpen->False,
  InitializationCell->True],
-Cell[1157597, 26412, 2682152, 48228, 606, "Output",ExpressionUUID->"f17c9f4e-ad8e-4d52-b760-788a0eb7e7cd"]
+Cell[1155297, 26353, 2682152, 48228, 606, "Output",ExpressionUUID->"f17c9f4e-ad8e-4d52-b760-788a0eb7e7cd"]
 }, Open  ]],
-Cell[3839764, 74643, 4618, 82, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
-Cell[3844385, 74727, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
+Cell[3837464, 74584, 4618, 82, 99, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
+Cell[3842085, 74668, 1607, 34, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
 }, Open  ]]
 }
 ]
