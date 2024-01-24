@@ -9,12 +9,12 @@
 
 <url>
   <loc>https://www.hcsl.com/</loc>
-  <lastmod>2024-01-17</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/index.html</loc>
-  <lastmod>2023-11-17</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -29,7 +29,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/index.html</loc>
-  <lastmod>2024-01-05</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -44,7 +44,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/index.html</loc>
-  <lastmod>2024-01-04</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -69,7 +69,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/About/index.html</loc>
-  <lastmod>2024-01-17</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -84,7 +84,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/Bayesian.html</loc>
-  <lastmod>2024-01-05</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -274,7 +274,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr26/index.html</loc>
-  <lastmod>2024-01-07</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -294,7 +294,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/index.html</loc>
-  <lastmod>2024-01-04</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>0.64</priority>
 </url
 <url>
@@ -329,7 +329,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Documents/DiagnosticUncertaintyInterface.pdf</loc>
-  <lastmod>2024-01-04</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -474,7 +474,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr26/hcsltr26.pdf</loc>
-  <lastmod>2024-01-04</lastmod>
+  <lastmod>2024-01-24</lastmod>
   <priority>0.51</priority>
 </url>
 </urlset>
