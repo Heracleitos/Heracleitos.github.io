@@ -313,14 +313,6 @@ div.content {
 	text-align: justify;
 	text-justify: inter-word;
 }
-div.icontent {
-	margin-left: calc(250px + (100% - 1210px) / 4);
-	padding: 6% 4% 2% 4%;
-	height: auto;
-	max-width: 960px;
-	text-align: justify;
-	text-justify: inter-word;
-}
 
 /*On screens that are less than 1250px wide */
 @media screen and (max-width: 1250px) {
@@ -339,14 +331,6 @@ div.content {
 	padding: 2% 4% 2% 4%;
 	text-align: justify;
 	text-justify: inter-word;	
-}
-div.icontent {
-	margin-left: 250px;
-	padding: 6% 4% 2% 4%;
-	height: auto;
-	max-width: 960px;
-	text-align: justify;
-	text-justify: inter-word;
 }
 }
 /* On screens that are less than 600px wide */
@@ -367,13 +351,6 @@ div.icontent {
 	text-align: justify;
 	text-justify: inter-word;
 }
-div.icontent {
-	margin-left: 0px;
-	padding: 0px 1% 1% 1%;
-	height: auto;
-	text-align: justify;
-	text-justify: inter-word; 
-}
 }
 /* On screens that are less than 400px wide */
 @media screen and (max-width: 400px) {
@@ -390,12 +367,6 @@ div.icontent {
   div.content {
 	margin-left: 0px;
 	padding: 0px 2% 2% 2%;
-	text-align: left;
-}
-div.icontent {
-	margin-left: 0px;
-	padding: 0px 2% 2% 2%;
-	height: auto;
 	text-align: left;
 }
 }
