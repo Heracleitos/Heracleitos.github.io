@@ -6,7 +6,7 @@ Welcome to the official GitHub repository for the Hellenic Complex System Labora
 
 **About the Laboratory**
 
-Established in 1993, HCSL is an innovative research laboratory committed to the evaluation and reduction of uncertainty in complex systems. Through a transdisciplinary approach, HCSL develops clinical, laboratory, research, and educational tools to assess and address the uncertainty associated with complex processes. For more information on our work, please refer to HCSL publications and HCSL software.
+Established in 1993, HCSL is an innovative research laboratory committed to the evaluation and reduction of uncertainty in complex systems. Through a transdisciplinary approach, HCSL develops clinical, laboratory, research, and educational tools to assess and address the uncertainty associated with complex processes.
 
 **Objectives**
 
