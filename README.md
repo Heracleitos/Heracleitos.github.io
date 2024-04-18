@@ -1,4 +1,4 @@
-# HCSL
+# Hellenic Complex Systems Laboratory
 
 Overview
 
