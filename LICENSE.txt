@@ -1,1 +1,5 @@
-Except where otherwise noted, content of this repository is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Content Licensing: 
+Except where otherwise specified, the content of this repository is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+
+Logotype and Copyright: 
+The Hellenic Complex Systems Laboratory logotype is the exclusive property of the Hellenic Complex Systems Laboratory and is protected under applicable copyright laws. Unauthorized use is prohibited.
