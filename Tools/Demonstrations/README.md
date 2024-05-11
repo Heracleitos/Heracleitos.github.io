@@ -30,3 +30,5 @@ Source Code: [TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb](T
 Source Code: [ExactConfidenceIntervalsForASingleProportion.nb](ExactConfidenceIntervalsForASingleProportion.nb)
 15. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 Source Code: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](InferencesAboutTheDifferenceBetweenTwoProportions.nb)
+
+Additional resources are available through the Hellenic Complex Systems Laboratory official website at https://www.hcsl.com/Tools/Demonstrations/.
