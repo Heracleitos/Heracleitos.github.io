@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1216734,      26991]
-NotebookOptionsPosition[   1215345,      26958]
-NotebookOutlinePosition[   1215767,      26975]
-CellTagsIndexPosition[   1215724,      26972]
+NotebookDataLength[   1218974,      27036]
+NotebookOptionsPosition[   1217467,      27002]
+NotebookOutlinePosition[   1217893,      27019]
+CellTagsIndexPosition[   1217850,      27016]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,11 +23,11 @@ Cell[CellGroupData[{
 Cell[TextData[StyleBox["Diagnostic Uncertainty",
  FontSize->36]], "Title",
  Evaluatable->False,
- CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
-   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
-   3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
+ CellChangeTimes->{{3.779939682019757*^9, 3.779939763802432*^9}, {
+   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.787143897093936*^9, 
+   3.7871439406473494`*^9}, {3.8023000419716*^9, 3.802300064165675*^9}, {
    3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
-   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.8066379544882393`*^9, 
+   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.806637954488239*^9, 
    3.806637999223695*^9}, 3.8066380980786543`*^9, {3.816740234302414*^9, 
    3.816740244318205*^9}},ExpressionUUID->"4f897285-8c8a-4ddd-bf21-\
 1c9d4058ce01"],
@@ -37,11 +37,11 @@ diagnostic accuracy measures ", "Subtitle",
  FontSize->24]], "Title",
  Editable->False,
  Evaluatable->False,
- CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
-   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
-   3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
+ CellChangeTimes->{{3.779939682019757*^9, 3.779939763802432*^9}, {
+   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.787143897093936*^9, 
+   3.7871439406473494`*^9}, {3.8023000419716*^9, 3.802300064165675*^9}, {
    3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
-   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.8066379544882393`*^9, 
+   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.806637954488239*^9, 
    3.806637999223695*^9}, 3.8066381021359987`*^9, {3.816740202548535*^9, 
    3.816740206625699*^9}},ExpressionUUID->"82ae1769-2870-4f89-845c-\
 451d95b87268"],
@@ -55,8 +55,8 @@ Cell[TextData[{
  Editable->False,
  CellChangeTimes->{
   3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
-   3.780026882968507*^9, 3.7800269771474247`*^9}, 
-   3.7804577481605635`*^9},ExpressionUUID->"1cc76b04-6cbc-4aef-a873-\
+   3.780026882968507*^9, 3.7800269771474257`*^9}, 
+   3.7804577481605644`*^9},ExpressionUUID->"1cc76b04-6cbc-4aef-a873-\
 b937edcba28a"],
 
 Cell["\<\
@@ -5120,7 +5120,7 @@ Cell[BoxData[{
       RowBox[{"(", 
        RowBox[{
         RowBox[{"\[Sqrt]", "2"}], " ", "sH"}], ")"}]}], "]"}]}]}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{"cmccz", "[", 
    RowBox[{
@@ -9462,48 +9462,47 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
  Editable->False,
  CellOpen->False,
  InitializationCell->True,
- CellChangeTimes->{{3.7994605699669313`*^9, 3.799460603440236*^9}, 
-   3.7996726615390334`*^9, {3.8001657829176826`*^9, 3.8001657998991256`*^9}, {
+ CellChangeTimes->{{3.799460569966932*^9, 3.799460603440236*^9}, 
+   3.7996726615390334`*^9, {3.800165782917683*^9, 3.800165799899125*^9}, {
    3.8001661381147947`*^9, 3.8001661579288144`*^9}, 3.800166622926964*^9, 
-   3.8001679249046307`*^9, {3.800168156908834*^9, 3.8001681751471586`*^9}, {
-   3.8001682918077197`*^9, 3.800168296836157*^9}, 3.8001683802804384`*^9, 
-   3.8001686289472075`*^9, {3.8001688882862787`*^9, 3.8001689048371286`*^9}, 
-   3.8001691837467513`*^9, 3.800169364272662*^9, 3.8001695282646685`*^9, 
-   3.8001695622069116`*^9, {3.8001695926819744`*^9, 3.8001696056869745`*^9}, 
-   3.800169637535618*^9, {3.800169737747448*^9, 3.8001697555859575`*^9}, {
-   3.8001698765433483`*^9, 3.8001698891472282`*^9}, {3.800170033577199*^9, 
-   3.8001700477485237`*^9}, {3.8001756867230544`*^9, 3.800175711028959*^9}, {
+   3.8001679249046307`*^9, {3.800168156908834*^9, 3.800168175147158*^9}, {
+   3.80016829180772*^9, 3.800168296836157*^9}, 3.8001683802804384`*^9, 
+   3.8001686289472075`*^9, {3.800168888286279*^9, 3.800168904837128*^9}, 
+   3.800169183746751*^9, 3.800169364272662*^9, 3.8001695282646685`*^9, 
+   3.800169562206912*^9, {3.800169592681975*^9, 3.8001696056869745`*^9}, 
+   3.800169637535618*^9, {3.800169737747448*^9, 3.800169755585958*^9}, {
+   3.8001698765433483`*^9, 3.800169889147228*^9}, {3.800170033577199*^9, 
+   3.800170047748524*^9}, {3.8001756867230544`*^9, 3.800175711028959*^9}, {
    3.800175875174993*^9, 3.800175894899891*^9}, {3.8001759756493077`*^9, 
-   3.800176061260105*^9}, {3.8001761116524897`*^9, 3.800176124081709*^9}, 
-   3.800176162587537*^9, {3.800176203143725*^9, 3.8001762520419583`*^9}, 
-   3.8001763159172792`*^9, {3.8001763562703075`*^9, 3.8001763717788963`*^9}, 
+   3.800176061260105*^9}, {3.80017611165249*^9, 3.800176124081709*^9}, 
+   3.800176162587537*^9, {3.800176203143725*^9, 3.8001762520419593`*^9}, 
+   3.800176315917279*^9, {3.800176356270308*^9, 3.8001763717788963`*^9}, 
    3.800176412245835*^9, 3.8001764767896214`*^9, 3.8001765229537287`*^9, {
-   3.800176566646966*^9, 3.800176581253411*^9}, 3.8001766181899767`*^9, {
-   3.8001766587147007`*^9, 3.800176687605078*^9}, 3.8001767221331015`*^9, 
-   3.800176834006051*^9, 3.800176867780243*^9, 3.8001772489127088`*^9, 
-   3.800177335882077*^9, 3.800177889802281*^9, 3.8001781477407923`*^9, 
-   3.800178314018853*^9, {3.800182631295337*^9, 3.8001828991992617`*^9}, {
+   3.800176566646966*^9, 3.800176581253411*^9}, 3.8001766181899776`*^9, {
+   3.800176658714701*^9, 3.800176687605078*^9}, 3.8001767221331015`*^9, 
+   3.800176834006051*^9, 3.800176867780243*^9, 3.8001772489127097`*^9, 
+   3.800177335882077*^9, 3.800177889802281*^9, 3.8001781477407928`*^9, 
+   3.800178314018853*^9, {3.800182631295337*^9, 3.800182899199261*^9}, {
    3.800182932865981*^9, 3.8001830059032583`*^9}, {3.800183062560933*^9, 
-   3.8001831419976597`*^9}, 3.8001841684561634`*^9, {3.800184386788357*^9, 
-   3.8001844041052856`*^9}, {3.8002751720379333`*^9, 
-   3.8002752293578415`*^9}, {3.800275961055599*^9, 3.800276054983143*^9}, {
-   3.8002760897614775`*^9, 3.8002762213031034`*^9}, {3.8002829591341953`*^9, 
-   3.800282961851081*^9}, {3.800282996062399*^9, 3.8002831124017887`*^9}, 
-   3.8002834323094907`*^9, 3.8003183948725686`*^9, 3.8003185451799097`*^9, 
-   3.8003189298699303`*^9, 3.800318973393711*^9, {3.8003192524516487`*^9, 
-   3.8003192559610653`*^9}, 3.8003298166950407`*^9, 3.8003532053316793`*^9, 
-   3.802133299655473*^9, 3.8021333375243034`*^9, 3.802133406345046*^9, 
-   3.802133442182989*^9, 3.802133523268051*^9, 3.802133573158058*^9, 
-   3.802133668130677*^9, {3.802133701571233*^9, 3.8021337239358544`*^9}, {
-   3.8021337597012935`*^9, 3.802133785697006*^9}, 3.8233253862075396`*^9, {
-   3.906827028903116*^9, 3.9068270656380167`*^9}, {3.906827128992629*^9, 
-   3.906827169164036*^9}, {3.906827243419684*^9, 3.9068273440874033`*^9}, {
-   3.9068274050174303`*^9, 3.9068275410138283`*^9}, {3.907060079898307*^9, 
-   3.907060080554903*^9}, 3.9108458974432745`*^9, 3.9108465549204335`*^9, 
-   3.910846831158614*^9, 3.9108469904000096`*^9, 3.910847224063452*^9, 
-   3.9108473432086535`*^9, 3.9108474694682055`*^9, 3.9108475574140377`*^9, 
-   3.910847687496379*^9, 3.9108479853649807`*^9, 3.910848090175221*^9, 
-   3.910848176932735*^9},
+   3.80018314199766*^9}, 3.800184168456164*^9, {3.800184386788357*^9, 
+   3.800184404105285*^9}, {3.800275172037934*^9, 3.800275229357841*^9}, {
+   3.800275961055599*^9, 3.800276054983143*^9}, {3.8002760897614775`*^9, 
+   3.800276221303103*^9}, {3.800282959134195*^9, 3.800282961851081*^9}, {
+   3.800282996062399*^9, 3.8002831124017887`*^9}, 3.8002834323094907`*^9, 
+   3.800318394872568*^9, 3.80031854517991*^9, 3.8003189298699303`*^9, 
+   3.800318973393711*^9, {3.800319252451649*^9, 3.800319255961066*^9}, 
+   3.800329816695041*^9, 3.8003532053316793`*^9, 3.802133299655473*^9, 
+   3.8021333375243034`*^9, 3.802133406345046*^9, 3.802133442182989*^9, 
+   3.802133523268051*^9, 3.802133573158058*^9, 3.802133668130677*^9, {
+   3.802133701571233*^9, 3.8021337239358544`*^9}, {3.802133759701294*^9, 
+   3.802133785697006*^9}, 3.82332538620754*^9, {3.906827028903116*^9, 
+   3.906827065638017*^9}, {3.906827128992629*^9, 3.906827169164036*^9}, {
+   3.906827243419684*^9, 3.906827344087404*^9}, {3.9068274050174303`*^9, 
+   3.9068275410138283`*^9}, {3.907060079898307*^9, 3.907060080554903*^9}, 
+   3.9108458974432735`*^9, 3.9108465549204335`*^9, 3.910846831158614*^9, 
+   3.9108469904000087`*^9, 3.910847224063452*^9, 3.910847343208653*^9, 
+   3.9108474694682045`*^9, 3.910847557414038*^9, 3.910847687496379*^9, 
+   3.91084798536498*^9, 3.910848090175221*^9, 3.910848176932735*^9},
  CellLabel->"In[62]:=",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca"],
 
 Cell[CellGroupData[{
@@ -11385,13 +11384,13 @@ Cell[BoxData[
  Editable->False,
  CellOpen->False,
  InitializationCell->True,
- CellChangeTimes->{{3.7994605699669313`*^9, 3.799460603440236*^9}, {
-   3.8003215168586187`*^9, 3.8003215169076476`*^9}, {3.817098832638522*^9, 
+ CellChangeTimes->{{3.799460569966932*^9, 3.799460603440236*^9}, {
+   3.800321516858619*^9, 3.800321516907648*^9}, {3.817098832638522*^9, 
    3.8170988326565228`*^9}, 3.817099071890277*^9, {3.817099194947034*^9, 
    3.817099196659784*^9}, {3.81709925158495*^9, 3.817099251731923*^9}, {
-   3.8170993026661043`*^9, 3.8170993038997545`*^9}, {3.8170993380225716`*^9, 
-   3.817099340607771*^9}, {3.822185133344711*^9, 3.8221851333676844`*^9}, {
-   3.8233302767073803`*^9, 3.8233302768433776`*^9}},
+   3.8170993026661043`*^9, 3.817099303899754*^9}, {3.8170993380225716`*^9, 
+   3.817099340607771*^9}, {3.822185133344711*^9, 3.822185133367684*^9}, {
+   3.8233302767073812`*^9, 3.8233302768433785`*^9}},
  CellLabel->
   "In[122]:=",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120"],
 
@@ -11568,7 +11567,7 @@ $CellContext`mH, $CellContext`sD, $CellContext`sH]}, Exclusions ->
                  $CellContext`lb[$CellContext`pr, $CellContext`mD, \
 $CellContext`mH, $CellContext`sD, $CellContext`sH], 0}, 
                AxesLabel -> {
-                "d", "u(" <> $CellContext`txt[$CellContext`mf] <> ")"}, 
+                "d", ("u(" <> $CellContext`txt[$CellContext`mf]) <> ")"}, 
                PlotStyle -> {
                  RGBColor[1, 0.47, 0], {
                   ColorData["HTML", "SlateBlue"], 
@@ -11578,9 +11577,10 @@ $CellContext`mH, $CellContext`sD, $CellContext`sH], 0},
                Placed[{"combined", "measurement", "sampling"}, Bottom], 
                ImageSize -> Automatic]], 
              
-             Column[{"standard uncertainty of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (u(" <> $CellContext`txt[$CellContext`mf] <> "))", 
+             Column[{(((
+                  "standard uncertainty of " <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                 " (u(") <> $CellContext`txt[$CellContext`mf]) <> "))", 
                "versus diagnostic threshold (d) curves"}, Center], 
              Top]], $CellContext`c[
             Pattern[$CellContext`mf, 
@@ -12270,8 +12270,8 @@ $CellContext`mH, $CellContext`sD, $CellContext`sH]}, Exclusions ->
                  $CellContext`lb[$CellContext`pr, $CellContext`mD, \
 $CellContext`mH, $CellContext`sD, $CellContext`sH], 0}, 
                AxesLabel -> {
-                "d", "u(" <> $CellContext`txt[$CellContext`mf] <> 
-                 ")/" <> $CellContext`txt[$CellContext`mf]}, PlotStyle -> {
+                "d", (("u(" <> $CellContext`txt[$CellContext`mf]) <> 
+                  ")/") <> $CellContext`txt[$CellContext`mf]}, PlotStyle -> {
                  RGBColor[1, 0.47, 0], {
                   ColorData["HTML", "SlateBlue"], 
                   Dashing[{Large, Small}]}, {
@@ -12280,10 +12280,11 @@ $CellContext`mH, $CellContext`sD, $CellContext`sH], 0},
                Placed[{"combined", "measurement", "sampling"}, Bottom], 
                ImageSize -> Automatic]], 
              
-             Column[{"relative standard uncertainty of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (u(" <> $CellContext`txt[$CellContext`mf] <> 
-               ")/" <> $CellContext`txt[$CellContext`mf] <> ")", 
+             Column[{(((((
+                    "relative standard uncertainty of " <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                   " (u(") <> $CellContext`txt[$CellContext`mf]) <> 
+                 ")/") <> $CellContext`txt[$CellContext`mf]) <> ")", 
                "versus diagnostic threshold (d) curves"}, Center], 
              Top]], $CellContext`c[
             Pattern[$CellContext`mf, 
@@ -13197,12 +13198,12 @@ $CellContext`mH, $CellContext`sD, $CellContext`sH], 0.1}]], {$CellContext`i,
                 ColorData["HTML", "Green"]}, PlotLegends -> 
               Placed[{"lower bound", "point estimation", "upper bound"}, 
                 Bottom], ImageSize -> Automatic], 
-             Column[{ToString[
-                 NumberForm[
-                  N[100 $CellContext`p], {4, 2}]] <> 
-               " % confidence intervals of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (" <> $CellContext`txt[$CellContext`mf] <> ")", 
+             Column[{((((ToString[
+                    NumberForm[
+                    N[100 $CellContext`p], {4, 2}]] <> 
+                   " % confidence intervals of ") <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                 " (") <> $CellContext`txt[$CellContext`mf]) <> ")", 
                "versus diagnostic threshold (d) curves"}, Center], 
              Top]], $CellContext`mci[
             Pattern[$CellContext`t, 
@@ -15267,12 +15268,12 @@ $CellContext`mH, $CellContext`sD, $CellContext`sH]}, Exclusions ->
                  ColorData["HTML", "Green"]}, PlotLegends -> 
                Placed[{"lower bound", "point estimation", "upper bound"}, 
                  Bottom], ImageSize -> Automatic]], 
-             Column[{ToString[
-                 NumberForm[
-                  N[100 $CellContext`p], {4, 2}]] <> 
-               " % confidence intervals of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (" <> $CellContext`txt[$CellContext`mf] <> ")", 
+             Column[{((((ToString[
+                    NumberForm[
+                    N[100 $CellContext`p], {4, 2}]] <> 
+                   " % confidence intervals of ") <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                 " (") <> $CellContext`txt[$CellContext`mf]) <> ")", 
                "versus diagnostic threshold (d) curves"}, Center], Top]]}; 
         Typeset`initDone$$ = True),
        SynchronousInitialization->True,
@@ -15458,8 +15459,9 @@ $CellContext`mD, $CellContext`mH, $CellContext`sD, $CellContext`sH,
                  0.15 $CellContext`sH]}, Exclusions -> "Singularities", 
                AspectRatio -> 1, AxesOrigin -> {0, 0}, 
                AxesLabel -> {
-                "\!\(\*SubscriptBox[\(u\), \(m\)]\)", 
-                 "u(" <> $CellContext`txt[$CellContext`mf] <> ")"}, PlotStyle -> {
+                "\!\(\*SubscriptBox[\(u\), \(m\)]\)", (
+                  "u(" <> $CellContext`txt[$CellContext`mf]) <> ")"}, 
+               PlotStyle -> {
                  RGBColor[1, 0.47, 0], {
                   ColorData["HTML", "SlateBlue"], 
                   Dashing[{Large, Small}]}, {
@@ -15468,9 +15470,10 @@ $CellContext`mD, $CellContext`mH, $CellContext`sD, $CellContext`sH,
                Placed[{"combined", "measurement", "sampling"}, Bottom], 
                ImageSize -> Automatic]], 
              
-             Column[{"standard uncertainty of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (u(" <> $CellContext`txt[$CellContext`mf] <> "))", 
+             Column[{(((
+                  "standard uncertainty of " <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                 " (u(") <> $CellContext`txt[$CellContext`mf]) <> "))", 
                "versus measurement uncertainy (\!\(\*SubscriptBox[\(u\), \
 \(m\)]\)) curves"}, Center], Top]], $CellContext`c[
             Pattern[$CellContext`mf, 
@@ -16164,9 +16167,9 @@ $CellContext`nD, $CellContext`nH}]}, {$CellContext`u, 0,
                  0.15 $CellContext`sH]}, Exclusions -> "Singularities", 
                AspectRatio -> 1, AxesOrigin -> {0, 0}, 
                AxesLabel -> {
-                "\!\(\*SubscriptBox[\(u\), \(m\)]\)", 
-                 "u(" <> $CellContext`txt[$CellContext`mf] <> 
-                 ")/" <> $CellContext`txt[$CellContext`mf]}, PlotStyle -> {
+                "\!\(\*SubscriptBox[\(u\), \(m\)]\)", ((
+                   "u(" <> $CellContext`txt[$CellContext`mf]) <> 
+                  ")/") <> $CellContext`txt[$CellContext`mf]}, PlotStyle -> {
                  RGBColor[1, 0.47, 0], {
                   ColorData["HTML", "SlateBlue"], 
                   Dashing[{Large, Small}]}, {
@@ -16175,10 +16178,11 @@ $CellContext`nD, $CellContext`nH}]}, {$CellContext`u, 0,
                Placed[{"combined", "measurement", "sampling"}, Bottom], 
                ImageSize -> Automatic]], 
              
-             Column[{"relative standard uncertainty of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (u(" <> $CellContext`txt[$CellContext`mf] <> 
-               ")/" <> $CellContext`txt[$CellContext`mf] <> ")", 
+             Column[{(((((
+                    "relative standard uncertainty of " <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                   " (u(") <> $CellContext`txt[$CellContext`mf]) <> 
+                 ")/") <> $CellContext`txt[$CellContext`mf]) <> ")", 
                "versus measurement uncertainy (\!\(\*SubscriptBox[\(u\), \
 \(m\)]\)) curves"}, Center], Top]], $CellContext`c[
             Pattern[$CellContext`mf, 
@@ -17221,12 +17225,12 @@ $CellContext`p], 2], 0], 1]]}, {$CellContext`u, 0,
                  ColorData["HTML", "Green"]}, PlotLegends -> 
                Placed[{"lower bound", "point estimation", "upper bound"}, 
                  Bottom], ImageSize -> Automatic]], 
-             Column[{ToString[
-                 NumberForm[
-                  N[100 $CellContext`p], {4, 2}]] <> 
-               " % confidence intervals of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (" <> $CellContext`txt[$CellContext`mf] <> ")", 
+             Column[{((((ToString[
+                    NumberForm[
+                    N[100 $CellContext`p], {4, 2}]] <> 
+                   " % confidence intervals of ") <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                 " (") <> $CellContext`txt[$CellContext`mf]) <> ")", 
                "versus measurement uncertainty (\!\(\*SubscriptBox[\(u\), \(m\
 \)]\)) curves"}, Center], Top]], $CellContext`studentTCI[
             Pattern[$CellContext`m, 
@@ -17687,6 +17691,7 @@ $CellContext`nD $CellContext`u^2)
              Blank[]], 
             Pattern[$CellContext`nH, 
              Blank[]]] := (1/Sqrt[Pi]) 2 
+           
            Sqrt[(((-1 + $CellContext`nD) $CellContext`nD $CellContext`nH \
 $CellContext`sD^4 ($CellContext`mH - $CellContext`t)^2 ($CellContext`sH^2 + 
                  2 (-1 + $CellContext`nH) $CellContext`u^2) (-2 + 
@@ -17785,8 +17790,7 @@ $CellContext`t)^2/$CellContext`sD^2))/$CellContext`sD^2)], $CellContext`cmcnlr[
              Blank[]]] := 
           Sqrt[2/Pi] 
            Sqrt[(1/Erfc[($CellContext`mH - $CellContext`t)/(
-                Sqrt[
-                 2] $CellContext`sH)]^4) (((($CellContext`mH - \
+                Sqrt[2] $CellContext`sH)]^4) (((($CellContext`mH - \
 $CellContext`t)^2 ($CellContext`sH^2/(
                    2 (-1 + $CellContext`nH)) + $CellContext`u^2) 
                  Erfc[($CellContext`mD - $CellContext`t)/(
@@ -18068,6 +18072,7 @@ $CellContext`t)^2)/(
                     Sqrt[2] $CellContext`sH)])^2)/(
                   4 + $CellContext`nD + $CellContext`nH)^2)^2), 
              If[$CellContext`u > 0, 
+              
               Min[$CellContext`nD - 1, $CellContext`nH - 1, $CellContext`nU - 
                1], 
               Min[$CellContext`nD - 1, $CellContext`nH - 1]]], 
@@ -19167,7 +19172,7 @@ $CellContext`mD, $CellContext`mH, $CellContext`sD, $CellContext`sH,
                   Ceiling[2/$CellContext`r], 
                   Ceiling[2/(1 - $CellContext`r)], 20], 0}, 
                AxesLabel -> {
-                "n", "u(" <> $CellContext`txt[$CellContext`mf] <> ")"}, 
+                "n", ("u(" <> $CellContext`txt[$CellContext`mf]) <> ")"}, 
                PlotStyle -> {
                  RGBColor[1, 0.47, 0], {
                   ColorData["HTML", "SlateBlue"], 
@@ -19177,9 +19182,10 @@ $CellContext`mD, $CellContext`mH, $CellContext`sD, $CellContext`sH,
                Placed[{"combined", "measurement", "sampling"}, Bottom], 
                ImageSize -> Automatic]], 
              
-             Column[{"standard uncertainty of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (u(" <> $CellContext`txt[$CellContext`mf] <> "))", 
+             Column[{(((
+                  "standard uncertainty of " <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                 " (u(") <> $CellContext`txt[$CellContext`mf]) <> "))", 
                "versus total population sample size (n) curves"}, Center], 
              Top]], $CellContext`c[
             Pattern[$CellContext`mf, 
@@ -19901,8 +19907,8 @@ $CellContext`n $CellContext`r, $CellContext`n (
                   Ceiling[2/$CellContext`r], 
                   Ceiling[2/(1 - $CellContext`r)], 20], 0}, 
                AxesLabel -> {
-                "n", "u(" <> $CellContext`txt[$CellContext`mf] <> 
-                 ")/" <> $CellContext`txt[$CellContext`mf]}, PlotStyle -> {
+                "n", (("u(" <> $CellContext`txt[$CellContext`mf]) <> 
+                  ")/") <> $CellContext`txt[$CellContext`mf]}, PlotStyle -> {
                  RGBColor[1, 0.47, 0], {
                   ColorData["HTML", "SlateBlue"], 
                   Dashing[{Large, Small}]}, {
@@ -19911,10 +19917,11 @@ $CellContext`n $CellContext`r, $CellContext`n (
                Placed[{"combined", "measurement", "sampling"}, Bottom], 
                ImageSize -> Automatic]], 
              
-             Column[{"relative standard uncertainty of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (u(" <> $CellContext`txt[$CellContext`mf] <> 
-               ")/" <> $CellContext`txt[$CellContext`mf] <> ")", 
+             Column[{(((((
+                    "relative standard uncertainty of " <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                   " (u(") <> $CellContext`txt[$CellContext`mf]) <> 
+                 ")/") <> $CellContext`txt[$CellContext`mf]) <> ")", 
                "versus total population sample size (n) curves"}, Center], 
              Top]], $CellContext`c[
             Pattern[$CellContext`mf, 
@@ -20987,12 +20994,12 @@ $CellContext`p], 2], 0], 1]]}, {$CellContext`n,
                  ColorData["HTML", "Green"]}, PlotLegends -> 
                Placed[{"lower bound", "point estimation", "upper bound"}, 
                  Bottom], ImageSize -> Automatic]], 
-             Column[{ToString[
-                 NumberForm[
-                  N[100 $CellContext`p], {4, 2}]] <> 
-               " % confidence intervals of " <> \
-$CellContext`ltxt[$CellContext`mf] <> 
-               " (" <> $CellContext`txt[$CellContext`mf] <> ")", 
+             Column[{((((ToString[
+                    NumberForm[
+                    N[100 $CellContext`p], {4, 2}]] <> 
+                   " % confidence intervals of ") <> \
+$CellContext`ltxt[$CellContext`mf]) <> 
+                 " (") <> $CellContext`txt[$CellContext`mf]) <> ")", 
                "versus total population sample size (n) curves"}, Center], 
              Top]], $CellContext`studentTCI[
             Pattern[$CellContext`m, 
@@ -24776,9 +24783,9 @@ $CellContext`u$$, $CellContext`nD$$, $CellContext`nH$$, $CellContext`nU$$],
             Quiet[
              Transpose[{{
                 Style[
-                 Style["diagnostic accuracy measures: " <> ToString[
+                 Style[("diagnostic accuracy measures: " <> ToString[
                     NumberForm[
-                    N[100 $CellContext`p], {4, 2}]] <> 
+                    N[100 $CellContext`p], {4, 2}]]) <> 
                   "% confidence intervals"], Bold], 
                 Style["diagnostic accuracy measures", Bold], "sensitivity", 
                 "specificity", "overall diagnostic accuracy", 
@@ -26861,46 +26868,46 @@ $CellContext`sH^4 ($CellContext`mD^2 + $CellContext`sD^2 -
   3.798553189913136*^9, 3.798553591017194*^9, {3.798553777511444*^9, 
    3.7985538035939093`*^9}, 3.7985539842977223`*^9, {3.7985540215968556`*^9, 
    3.7985540306109085`*^9}, 3.798554318610076*^9, 3.798554421013342*^9, 
-   3.7985544851907053`*^9, 3.798554776650386*^9, 3.7985680579771953`*^9, 
+   3.7985544851907053`*^9, 3.798554776650386*^9, 3.7985680579771957`*^9, 
    3.798568657947558*^9, 3.798568688046727*^9, 3.798568754980692*^9, 
-   3.798592979676836*^9, 3.798596993843054*^9, 3.7985971294594584`*^9, 
-   3.798597226608404*^9, 3.7985990108219757`*^9, 3.7986007811504*^9, 
+   3.798592979676836*^9, 3.798596993843054*^9, 3.798597129459459*^9, 
+   3.798597226608404*^9, 3.7985990108219767`*^9, 3.7986007811504*^9, 
    3.798611627586441*^9, 3.7986118710487022`*^9, 3.7986292609744606`*^9, 
    3.798629876394725*^9, 3.798639373731718*^9, 3.7986568524741836`*^9, 
-   3.7986571117663374`*^9, 3.7986578027276735`*^9, 3.7987415444250546`*^9, 
-   3.7987417037521057`*^9, 3.798767905631915*^9, 3.798767959236581*^9, 
-   3.7987682430580463`*^9, 3.798768423111288*^9, 3.7987705890216465`*^9, 
-   3.7987714361588264`*^9, 3.7987752231166296`*^9, 3.798775437381897*^9, 
-   3.7987770401685376`*^9, 3.798777327407342*^9, 3.798799661374511*^9, 
+   3.798657111766338*^9, 3.798657802727674*^9, 3.798741544425055*^9, 
+   3.798741703752106*^9, 3.798767905631915*^9, 3.798767959236581*^9, 
+   3.7987682430580463`*^9, 3.798768423111288*^9, 3.798770589021647*^9, 
+   3.7987714361588264`*^9, 3.798775223116629*^9, 3.798775437381897*^9, 
+   3.798777040168538*^9, 3.798777327407342*^9, 3.798799661374511*^9, 
    3.798799740474044*^9, 3.798800099767641*^9, 3.7988003338569813`*^9, 
    3.7988003910948124`*^9, 3.798800634644687*^9, 3.798800758274009*^9, 
-   3.798800825314039*^9, 3.7988012415433145`*^9, 3.798801411215019*^9, 
-   3.7988547202677298`*^9, {3.7988555693010445`*^9, 3.79885558801262*^9}, 
-   3.7988557630902977`*^9, 3.7988560881758723`*^9, 3.7988563474838533`*^9, 
-   3.798856884256852*^9, 3.798856983513158*^9, 3.7989302975190773`*^9, {
-   3.7989307697434697`*^9, 3.7989307948738194`*^9}, 3.798931324013635*^9, 
-   3.798931546212963*^9, 3.7989315811323357`*^9, 3.798933613047426*^9, 
-   3.7989341077904487`*^9, 3.7989345876458683`*^9, 3.798954968590561*^9, 
-   3.7989582205269065`*^9, 3.798959213403677*^9, 3.798959379858429*^9, 
-   3.799035504286312*^9, 3.7990356684269743`*^9, 3.7994606748266506`*^9, 
-   3.799672718217041*^9, {3.800152745109997*^9, 3.8001527717294736`*^9}, 
+   3.798800825314039*^9, 3.7988012415433154`*^9, 3.798801411215019*^9, 
+   3.7988547202677298`*^9, {3.798855569301044*^9, 3.79885558801262*^9}, 
+   3.7988557630902977`*^9, 3.798856088175873*^9, 3.7988563474838533`*^9, 
+   3.798856884256852*^9, 3.798856983513158*^9, 3.7989302975190783`*^9, {
+   3.79893076974347*^9, 3.7989307948738194`*^9}, 3.798931324013635*^9, 
+   3.798931546212963*^9, 3.798931581132337*^9, 3.798933613047426*^9, 
+   3.7989341077904496`*^9, 3.798934587645869*^9, 3.798954968590561*^9, 
+   3.798958220526907*^9, 3.798959213403677*^9, 3.798959379858429*^9, 
+   3.799035504286312*^9, 3.7990356684269753`*^9, 3.7994606748266506`*^9, 
+   3.799672718217041*^9, {3.800152745109997*^9, 3.800152771729474*^9}, 
    3.800170059753006*^9, 3.800171013490201*^9, 3.80017167731312*^9, 
-   3.80017693446706*^9, 3.8001773435541415`*^9, 3.800177897182458*^9, 
-   3.80017815618125*^9, 3.8001783359595737`*^9, 3.8001806059037523`*^9, 
+   3.80017693446706*^9, 3.800177343554141*^9, 3.800177897182458*^9, 
+   3.80017815618125*^9, 3.8001783359595737`*^9, 3.800180605903753*^9, 
    3.800181159353873*^9, 3.8001814033238273`*^9, 3.800183292597431*^9, 
-   3.8001840023505354`*^9, 3.800184175889573*^9, 3.80018441490724*^9, 
+   3.800184002350536*^9, 3.800184175889573*^9, 3.80018441490724*^9, 
    3.800184729531541*^9, 3.800186739719448*^9, 3.8001872808346405`*^9, 
    3.8002743531093044`*^9, 3.8002752400612073`*^9, 3.800283120663643*^9, 
-   3.8002842415080595`*^9, 3.800319043409442*^9, 3.8003191882354565`*^9, 
-   3.8003192613818645`*^9, 3.80031935308016*^9, 3.8003215260194187`*^9, 
+   3.80028424150806*^9, 3.800319043409442*^9, 3.800319188235457*^9, 
+   3.8003192613818645`*^9, 3.80031935308016*^9, 3.800321526019419*^9, 
    3.8003252439835386`*^9, 3.800353274369727*^9, 3.8003543987332897`*^9, 
-   3.8005494585949373`*^9, 3.8021339015992193`*^9, 3.8021339929694767`*^9, 
+   3.800549458594938*^9, 3.8021339015992193`*^9, 3.802133992969477*^9, 
    3.805073406539098*^9, 3.817098855224211*^9, 3.817099084770664*^9, 
    3.817099395270835*^9, 3.819948102718277*^9, {3.822185189414711*^9, 
-   3.822185192113635*^9}, 3.8221853916393557`*^9, {3.8233255288056817`*^9, 
+   3.822185192113635*^9}, 3.8221853916393557`*^9, {3.823325528805682*^9, 
    3.8233255315868745`*^9}, 3.823330291973242*^9, {3.9068275634761953`*^9, 
    3.906827567213127*^9}, 3.906827773011181*^9, {3.907060157432908*^9, 
-   3.907060160803194*^9}, {3.910848219085603*^9, 3.9108482232647095`*^9}, {
+   3.907060160803194*^9}, {3.910848219085603*^9, 3.910848223264708*^9}, {
    3.910888413159104*^9, 3.910888417841133*^9}},
  CellLabel->
   "Out[122]=",ExpressionUUID->"b4dbbb08-7390-43b5-95a8-5afe61a3a6d5"]
@@ -26915,10 +26922,47 @@ Cell[TextData[{
 }], "Subsubsubsubsection",
  Editable->False,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
-   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, 
    3.816740306572104*^9},ExpressionUUID->"77e7e27b-af69-4ef8-9133-\
 e3a4e015335b"],
+
+Cell[TextData[{
+ StyleBox["Disclaimer of Warranties",
+  FontSize->10],
+ StyleBox["\n",
+  FontSize->12],
+ StyleBox["This software is provided on an \[OpenCurlyQuote]AS IS\
+\[CloseCurlyQuote] and \[OpenCurlyQuote]AS AVAILABLE\[CloseCurlyQuote] basis \
+without warranty of any kind whether express or implied, including but not \
+limited to the implied warranties of satisfactory quality, fitness for a \
+particular purpose, non-infringement, compatibility, security, and accuracy.",
+  FontSize->10,
+  FontColor->RGBColor[0., 0., 0.]]
+}], "Subsubsubsubsection",
+ Editable->False,
+ Deployed->True,
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.807076712859339*^9, 3.807076713036334*^9}, {3.857308171862177*^9, 
+   3.857308171863175*^9}, {3.88935530034098*^9, 3.889355325663695*^9}, {
+   3.894501479648944*^9, 3.894501480656904*^9}, {3.894502404394955*^9, 
+   3.894502404400076*^9}, 3.894502523405162*^9, {3.894512932432593*^9, 
+   3.8945129577291107`*^9}, {3.8945543659519515`*^9, 
+   3.8945543691153607`*^9}, {3.9025314313414316`*^9, 
+   3.9025314351601505`*^9}, {3.902531468543082*^9, 3.902531471420502*^9}, {
+   3.902531804785098*^9, 3.902531839353*^9}, {3.902716376988284*^9, 
+   3.902716409105589*^9}, 3.902716518799938*^9, {3.90271678137931*^9, 
+   3.902716783745605*^9}, {3.903043595550623*^9, 3.903043595938733*^9}, 
+   3.904127753237666*^9, {3.904264027437067*^9, 3.9042640609555044`*^9}, {
+   3.904821572209103*^9, 3.9048215729071016`*^9}, {3.905079746472635*^9, 
+   3.905079747109184*^9}, 3.905578448377225*^9, {3.908541449262427*^9, 
+   3.908541450005062*^9}, {3.925964631512097*^9, 3.925964653775696*^9}, {
+   3.925964983015711*^9, 
+   3.925965007477089*^9}},ExpressionUUID->"99851bbd-9263-024d-ada0-\
+0a57cd8d1110"],
 
 Cell[TextData[{
  StyleBox["About",
@@ -26943,14 +26987,14 @@ International Creative Commons License",
 }], "Subsubsubsubsection",
  Editable->False,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
-   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
-   3.8066664862909436`*^9, 3.806666502895442*^9}, 3.8070765097138042`*^9, {
-   3.8070767128593364`*^9, 3.8070767130363336`*^9}, {3.816740359114893*^9, 
-   3.8167403775532656`*^9}, {3.8170995526369734`*^9, 3.817099553175012*^9}, {
-   3.8199480451950355`*^9, 3.819948065902923*^9}, {3.8221852591351533`*^9, 
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.8070767128593373`*^9, 3.807076713036334*^9}, {3.816740359114893*^9, 
+   3.8167403775532646`*^9}, {3.8170995526369743`*^9, 3.817099553175012*^9}, {
+   3.819948045195035*^9, 3.819948065902923*^9}, {3.8221852591351533`*^9, 
    3.822185259412125*^9}, {3.8233254695842333`*^9, 3.8233254702972383`*^9}, {
-   3.8573083998527756`*^9, 3.8573083998527756`*^9}, 3.906827753313318*^9, {
+   3.857308399852775*^9, 3.857308399852775*^9}, 3.906827753313318*^9, {
    3.906871618032697*^9, 3.906871618667078*^9}, {3.91088832883856*^9, 
    3.910888334654536*^9}},ExpressionUUID->"fb4fc060-c052-422d-a842-\
 5a583aa7bc50"]
@@ -26959,7 +27003,7 @@ International Creative Commons License",
 WindowSize->{1430.25, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 Magnification->1.,
-FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"8fcc216a-9ee6-4a7a-8656-d889b3cbd95e"
 ]
@@ -26975,23 +27019,24 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 624, 10, 86, "Title",ExpressionUUID->"4f897285-8c8a-4ddd-bf21-1c9d4058ce01",
+Cell[580, 22, 616, 10, 86, "Title",ExpressionUUID->"4f897285-8c8a-4ddd-bf21-1c9d4058ce01",
  Evaluatable->False],
-Cell[1207, 34, 714, 12, 71, "Title",ExpressionUUID->"82ae1769-2870-4f89-845c-451d95b87268",
+Cell[1199, 34, 706, 12, 71, "Title",ExpressionUUID->"82ae1769-2870-4f89-845c-451d95b87268",
  Evaluatable->False],
-Cell[1924, 48, 442, 11, 129, "Author",ExpressionUUID->"1cc76b04-6cbc-4aef-a873-b937edcba28a"],
-Cell[2369, 61, 349, 7, 31, "Affiliation",ExpressionUUID->"e486d917-8f69-429f-a367-b2ac69fd62eb"],
-Cell[2721, 70, 364547, 9436, 19, "Input",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca",
+Cell[1908, 48, 442, 11, 129, "Author",ExpressionUUID->"1cc76b04-6cbc-4aef-a873-b937edcba28a"],
+Cell[2353, 61, 349, 7, 31, "Affiliation",ExpressionUUID->"e486d917-8f69-429f-a367-b2ac69fd62eb"],
+Cell[2705, 70, 364463, 9435, 19, "Input",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[367293, 9510, 94625, 1885, 19, "Input",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120",
+Cell[367193, 9509, 94615, 1885, 19, "Input",ExpressionUUID->"8dabbb7a-939a-4ff1-b3b8-9482fb462120",
  CellOpen->False,
  InitializationCell->True],
-Cell[461921, 11397, 751302, 15508, 665, "Output",ExpressionUUID->"b4dbbb08-7390-43b5-95a8-5afe61a3a6d5"]
+Cell[461811, 11396, 751569, 15516, 642, "Output",ExpressionUUID->"b4dbbb08-7390-43b5-95a8-5afe61a3a6d5"]
 }, Open  ]],
-Cell[1213238, 26908, 521, 12, 53, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
-Cell[1213762, 26922, 1567, 33, 75, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
+Cell[1213395, 26915, 519, 12, 53, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
+Cell[1213917, 26929, 1976, 35, 33, "Subsubsubsubsection",ExpressionUUID->"99851bbd-9263-024d-ada0-0a57cd8d1110"],
+Cell[1215896, 26966, 1555, 33, 75, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
 }, Open  ]]
 }
 ]

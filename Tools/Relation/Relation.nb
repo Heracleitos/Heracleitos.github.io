@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    653182,      15099]
-NotebookOptionsPosition[    651713,      15067]
-NotebookOutlinePosition[    652117,      15083]
-CellTagsIndexPosition[    652074,      15080]
+NotebookDataLength[    655340,      15139]
+NotebookOptionsPosition[    653757,      15106]
+NotebookOutlinePosition[    654162,      15122]
+CellTagsIndexPosition[    654119,      15119]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4101,25 +4101,24 @@ Cell[BoxData[{
  Editable->False,
  CellOpen->False,
  InitializationCell->True,
- CellChangeTimes->{{3.785999104463036*^9, 3.7859991768490934`*^9}, {
-   3.7859992085182667`*^9, 3.7859992553777523`*^9}, {3.786330887519555*^9, 
-   3.7863309158170557`*^9}, {3.7863309484362717`*^9, 
-   3.7863309830648155`*^9}, {3.786331064340767*^9, 3.786331205371955*^9}, {
-   3.7863315336019917`*^9, 3.786331536560069*^9}, 3.7863315676164303`*^9, {
-   3.786331663811243*^9, 3.786331706634637*^9}, {3.7863317517522783`*^9, 
-   3.7863317546794815`*^9}, {3.7863317895047193`*^9, 3.78633182760751*^9}, {
-   3.7863318974858055`*^9, 3.786331926724553*^9}, {3.7863319886916237`*^9, 
-   3.7863319955498247`*^9}, {3.786332068560058*^9, 3.786332070451582*^9}, 
-   3.7863321328177247`*^9, {3.786332171921389*^9, 3.78633218447431*^9}, {
-   3.786332222707994*^9, 3.786332440434511*^9}, {3.786332495917285*^9, 
-   3.786332514825452*^9}, {3.7863325590295973`*^9, 3.7863326838097663`*^9}, {
-   3.786332716902234*^9, 3.7863327478723955`*^9}, {3.786332822159889*^9, 
-   3.7863328989005723`*^9}, {3.7863330529716206`*^9, 
-   3.7863330592645493`*^9}, {3.786333121975546*^9, 3.7863331392170887`*^9}, {
-   3.786334076066203*^9, 3.7863340891690474`*^9}, {3.7863341300108595`*^9, 
-   3.786334174448306*^9}, {3.786334228668041*^9, 3.7863342502819824`*^9}, 
-   3.7863343499319515`*^9, 3.7864932094005303`*^9, {3.7864935021364145`*^9, 
-   3.786493516548094*^9}},
+ CellChangeTimes->{{3.785999104463036*^9, 3.785999176849094*^9}, {
+   3.7859992085182676`*^9, 3.7859992553777537`*^9}, {3.786330887519555*^9, 
+   3.786330915817056*^9}, {3.7863309484362726`*^9, 3.7863309830648155`*^9}, {
+   3.786331064340767*^9, 3.786331205371955*^9}, {3.7863315336019926`*^9, 
+   3.786331536560069*^9}, 3.7863315676164317`*^9, {3.786331663811243*^9, 
+   3.786331706634637*^9}, {3.7863317517522798`*^9, 3.786331754679482*^9}, {
+   3.7863317895047197`*^9, 3.78633182760751*^9}, {3.786331897485806*^9, 
+   3.786331926724553*^9}, {3.7863319886916246`*^9, 3.7863319955498247`*^9}, {
+   3.786332068560058*^9, 3.786332070451582*^9}, 3.786332132817725*^9, {
+   3.786332171921389*^9, 3.78633218447431*^9}, {3.786332222707994*^9, 
+   3.786332440434511*^9}, {3.786332495917285*^9, 3.786332514825452*^9}, {
+   3.7863325590295978`*^9, 3.7863326838097663`*^9}, {3.786332716902234*^9, 
+   3.786332747872397*^9}, {3.786332822159889*^9, 3.7863328989005733`*^9}, {
+   3.786333052971621*^9, 3.7863330592645497`*^9}, {3.786333121975546*^9, 
+   3.7863331392170887`*^9}, {3.786334076066203*^9, 3.786334089169048*^9}, {
+   3.7863341300108595`*^9, 3.786334174448306*^9}, {3.786334228668041*^9, 
+   3.786334250281984*^9}, 3.7863343499319525`*^9, 3.786493209400531*^9, {
+   3.786493502136415*^9, 3.786493516548094*^9}},
  CellLabel->"In[75]:=",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2"],
 
 Cell[CellGroupData[{
@@ -4128,11 +4127,11 @@ Cell[TextData[StyleBox["Relation",
  FontSize->36]], "Title",
  Editable->False,
  Evaluatable->False,
- CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
-   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
-   3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
+ CellChangeTimes->{{3.779939682019757*^9, 3.779939763802432*^9}, {
+   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.787143897093936*^9, 
+   3.7871439406473494`*^9}, {3.8023000419716*^9, 3.802300064165675*^9}, {
    3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
-   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.8066379544882393`*^9, 
+   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.806637954488239*^9, 
    3.806637999223695*^9}, 
    3.8066380980786543`*^9},ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-\
 6b83082cf940"],
@@ -4142,11 +4141,11 @@ Diagnostic Accuracy and Measurement Uncertainty", "Subtitle",
  FontSize->24]], "Title",
  Editable->False,
  Evaluatable->False,
- CellChangeTimes->{{3.779939682019757*^9, 3.7799397638024316`*^9}, {
-   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.7871438970939355`*^9, 
-   3.7871439406473484`*^9}, {3.8023000419716*^9, 3.8023000641656756`*^9}, {
+ CellChangeTimes->{{3.779939682019757*^9, 3.779939763802432*^9}, {
+   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.787143897093936*^9, 
+   3.7871439406473494`*^9}, {3.8023000419716*^9, 3.802300064165675*^9}, {
    3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
-   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.8066379544882393`*^9, 
+   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.806637954488239*^9, 
    3.806637999223695*^9}, 
    3.8066381021359987`*^9},ExpressionUUID->"771d281b-3709-4a85-8858-\
 f4a7c81c5ee6"],
@@ -4160,8 +4159,8 @@ Cell[TextData[{
  Editable->False,
  CellChangeTimes->{
   3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
-   3.780026882968507*^9, 3.7800269771474247`*^9}, 
-   3.7804577481605635`*^9},ExpressionUUID->"48efdfee-c390-4c7d-aeb4-\
+   3.780026882968507*^9, 3.7800269771474257`*^9}, 
+   3.7804577481605644`*^9},ExpressionUUID->"48efdfee-c390-4c7d-aeb4-\
 cdbc08fe34f9"],
 
 Cell["\<\
@@ -6372,22 +6371,22 @@ Cell[BoxData[
   "]"}]], "Input",
  Editable->False,
  CellOpen->False,
- CellChangeTimes->{{3.7859992777297583`*^9, 3.785999302165043*^9}, 
-   3.7859993443009005`*^9, {3.785999493150648*^9, 3.785999493700471*^9}, {
+ CellChangeTimes->{{3.785999277729759*^9, 3.785999302165043*^9}, 
+   3.785999344300901*^9, {3.785999493150648*^9, 3.785999493700471*^9}, {
    3.785999677285038*^9, 3.7859996776121416`*^9}, {3.78599972765471*^9, 
    3.785999727899057*^9}, {3.786263719248585*^9, 3.786263719358303*^9}, {
-   3.7863313454040594`*^9, 3.7863314028599033`*^9}, {3.7863314676452117`*^9, 
-   3.78633147717187*^9}, 3.7863334380606146`*^9, 3.786333488544013*^9, {
-   3.786333544604725*^9, 3.786333575027809*^9}, {3.7863336835479293`*^9, 
+   3.7863313454040604`*^9, 3.7863314028599043`*^9}, {3.7863314676452127`*^9, 
+   3.78633147717187*^9}, 3.786333438060615*^9, 3.786333488544013*^9, {
+   3.786333544604725*^9, 3.786333575027809*^9}, {3.78633368354793*^9, 
    3.786333690667099*^9}, {3.786333904219014*^9, 3.7863339110981693`*^9}, 
-   3.786335377761732*^9, {3.7863354860224657`*^9, 3.7863355135428333`*^9}, 
-   3.786335916126876*^9, {3.786493386008211*^9, 3.7864933882303553`*^9}, {
-   3.7864936202941585`*^9, 3.7864936229172773`*^9}, {3.78649400864621*^9, 
-   3.7864940448587303`*^9}, {3.799803495028287*^9, 3.7998035251981497`*^9}, {
+   3.786335377761732*^9, {3.786335486022466*^9, 3.786335513542834*^9}, 
+   3.786335916126876*^9, {3.786493386008211*^9, 3.7864933882303557`*^9}, {
+   3.7864936202941585`*^9, 3.786493622917278*^9}, {3.78649400864621*^9, 
+   3.786494044858731*^9}, {3.799803495028287*^9, 3.799803525198149*^9}, {
    3.799803567022024*^9, 3.799803569420128*^9}, {3.799803612335002*^9, 
-   3.7998036134721794`*^9}, {3.799803844185357*^9, 3.7998038640767717`*^9}, 
-   3.799803964621254*^9, {3.799804226552205*^9, 3.7998042714027643`*^9}, {
-   3.799851807908222*^9, 3.7998518260781546`*^9}, 3.7998525047677884`*^9, 
+   3.799803613472179*^9}, {3.799803844185357*^9, 3.7998038640767717`*^9}, 
+   3.799803964621254*^9, {3.799804226552205*^9, 3.799804271402765*^9}, {
+   3.799851807908222*^9, 3.799851826078154*^9}, 3.799852504767788*^9, 
    3.7998526951870227`*^9},
  CellLabel->
   "In[149]:=",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831"],
@@ -7035,8 +7034,8 @@ $CellContext`l}}]},
                 RGBColor[1, 0.47, 0]}, PlotLegends -> 
               Placed[{"first test", "second test"}, Top], 
               ImageSize -> {400, 
-               400}]], $CellContext`txt[$CellContext`f, $CellContext`m] <> 
-            " versus " <> $CellContext`ltxt[$CellContext`s] <> " curve", 
+               400}]], (($CellContext`txt[$CellContext`f, $CellContext`m] <> 
+              " versus ") <> $CellContext`ltxt[$CellContext`s]) <> " curve", 
             Top]], $CellContext`mf[
            Pattern[$CellContext`ma, 
             Blank[]], 
@@ -7926,25 +7925,27 @@ $CellContext`u2, $CellContext`l}}],
                 RGBColor[1, 0.47, 0]}, PlotLegends -> Placed[{
                  $CellContext`pl[$CellContext`f, $CellContext`m]}, Top], 
               ImageSize -> {400, 
-               400}]], $CellContext`txt[$CellContext`f, $CellContext`m] <> 
-            " versus " <> $CellContext`ltxt[$CellContext`s] <> " curve", 
+               400}]], (($CellContext`txt[$CellContext`f, $CellContext`m] <> 
+              " versus ") <> $CellContext`ltxt[$CellContext`s]) <> " curve", 
             Top]], $CellContext`pl[
            Pattern[$CellContext`f, 
             Blank[]], 
            Pattern[$CellContext`m, 
             Blank[]]] := 
-         Switch[$CellContext`f, $CellContext`deltaf, 
-           "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m] <> 
-           " of the first test - " <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> " of the second test)", $CellContext`rdeltaf, 
-           "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m] <> 
-           " of the first test - " <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> 
-           " of the second test) / (" <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> " of the first test)", $CellContext`rf, 
-           "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m] <> 
-           " of the first test / " <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> " of the second test)"]}; Typeset`initDone$$ = True),
+         Switch[$CellContext`f, $CellContext`deltaf, (((
+              "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m]) <> 
+             " of the first test - ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> 
+           " of the second test)", $CellContext`rdeltaf, (((((
+                "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m]) <> 
+               " of the first test - ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> 
+             " of the second test) / (") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> 
+           " of the first test)", $CellContext`rf, (((
+              "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m]) <> 
+             " of the first test / ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> " of the second test)"]}; Typeset`initDone$$ = True),
       SynchronousInitialization->True,
       UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
       UnsavedVariables:>{Typeset`initDone$$},
@@ -8279,8 +8280,8 @@ $CellContext`l$}}],
                 RGBColor[1, 0.47, 0]}, PlotLegends -> 
               Placed[{"first test", "second test"}, Top], 
               ImageSize -> {400, 
-               400}]], $CellContext`txt[$CellContext`vf, $CellContext`m$] <> 
-            " versus " <> "prevalence (v) curve", Top]], $CellContext`ttr[
+               400}]], ($CellContext`txt[$CellContext`vf, $CellContext`m$] <> 
+             " versus ") <> "prevalence (v) curve", Top]], $CellContext`ttr[
            Pattern[$CellContext`t, 
             Blank[]], 
            Pattern[$CellContext`\[Mu]D, 
@@ -9158,24 +9159,27 @@ $CellContext`u2$}}]], {$CellContext`x$$, 1.*^-8, 0.99999999}, Exclusions ->
                 RGBColor[1, 0.47, 0]}, PlotLegends -> Placed[{
                  $CellContext`pl[$CellContext`f$, $CellContext`m$]}, Top], 
               ImageSize -> {400, 
-               400}]], $CellContext`txt[$CellContext`f$, $CellContext`m$] <> 
-            " versus " <> "prevalence (v)" <> " curve", Top]], $CellContext`pl[
+               400}]], (($CellContext`txt[$CellContext`f$, $CellContext`m$] <> 
+              " versus ") <> "prevalence (v)") <> " curve", 
+            Top]], $CellContext`pl[
            Pattern[$CellContext`f, 
             Blank[]], 
            Pattern[$CellContext`m, 
             Blank[]]] := 
-         Switch[$CellContext`f, $CellContext`deltaf, 
-           "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m] <> 
-           " of the first test - " <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> " of the second test)", $CellContext`rdeltaf, 
-           "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m] <> 
-           " of the first test - " <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> 
-           " of the second test) / (" <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> " of the first test)", $CellContext`rf, 
-           "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m] <> 
-           " of the first test / " <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> " of the second test)"]}; Typeset`initDone$$ = True),
+         Switch[$CellContext`f, $CellContext`deltaf, (((
+              "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m]) <> 
+             " of the first test - ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> 
+           " of the second test)", $CellContext`rdeltaf, (((((
+                "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m]) <> 
+               " of the first test - ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> 
+             " of the second test) / (") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> 
+           " of the first test)", $CellContext`rf, (((
+              "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m]) <> 
+             " of the first test / ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> " of the second test)"]}; Typeset`initDone$$ = True),
       SynchronousInitialization->True,
       UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
       UnsavedVariables:>{Typeset`initDone$$},
@@ -9675,7 +9679,6 @@ $CellContext`ed[
              4) (1 + Erf[(-$CellContext`\[Mu]D + $CellContext`\[Mu]H + (
                    Sqrt[2] Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]D^2]) 
                   InverseErfc[2 - 2 $CellContext`sn])/(Sqrt[2] 
-                
                 Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]H^2])])^2], \
 $CellContext`cz[
            Pattern[$CellContext`sn, 
@@ -10026,7 +10029,6 @@ $CellContext`tdor[
           Erfc[(-$CellContext`t + $CellContext`\[Mu]D)/(Sqrt[2] 
             Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]D^2])] (-2 + 
            Erfc[(-$CellContext`t + $CellContext`\[Mu]H)/(Sqrt[2] 
-             
              Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]H^2])])), \
 $CellContext`tplr[
            Pattern[$CellContext`t, 
@@ -10128,6 +10130,7 @@ $CellContext`txt[
             Blank[]], 
            Pattern[$CellContext`m, 
             Blank[]]] := Switch[$CellContext`f, $CellContext`vf, 
+           
            Switch[$CellContext`m, $CellContext`sns, "Se", $CellContext`spc, 
             "Sp", $CellContext`csens, "CSens", $CellContext`cspec, 
             "CSpec", $CellContext`oda, "ODA", $CellContext`ppv, 
@@ -10640,8 +10643,8 @@ $CellContext`l}}]},
                 RGBColor[1, 0.47, 0]}, PlotLegends -> 
               Placed[{"first test", "second test"}, Top], 
               ImageSize -> {400, 
-               400}]], $CellContext`txt[$CellContext`f, $CellContext`m] <> 
-            " versus " <> $CellContext`ltxt[$CellContext`s] <> " curve", 
+               400}]], (($CellContext`txt[$CellContext`f, $CellContext`m] <> 
+              " versus ") <> $CellContext`ltxt[$CellContext`s]) <> " curve", 
             Top]], $CellContext`mf[
            Pattern[$CellContext`ma, 
             Blank[]], 
@@ -10703,9 +10706,9 @@ $CellContext`ppv[
             Blank[]], 
            Pattern[$CellContext`u, 
             Blank[]]] := ((2 $CellContext`pd) $CellContext`sn)/(
-          2 + (
-            2 $CellContext`pd) (-1 + $CellContext`sn) + (-1 + $CellContext`pd)
-             Erfc[(-$CellContext`\[Mu]D + $CellContext`\[Mu]H + (Sqrt[2] 
+          2 + (2 $CellContext`pd) (-1 + $CellContext`sn) + (-1 + \
+$CellContext`pd) 
+           Erfc[(-$CellContext`\[Mu]D + $CellContext`\[Mu]H + (Sqrt[2] 
                 Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]D^2]) 
                InverseErfc[2 - 2 $CellContext`sn])/(Sqrt[2] 
              Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]H^2])]), \
@@ -11305,7 +11308,6 @@ $CellContext`ttr[
               Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]D^2])] + ((-1 + \
 $CellContext`pd) ($CellContext`rfp - $CellContext`rtn)) 
             Erfc[(-$CellContext`t + $CellContext`\[Mu]H)/(Sqrt[2] 
-              
               Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]H^2])]), \
 $CellContext`txt[
            Pattern[$CellContext`f, 
@@ -11532,25 +11534,27 @@ $CellContext`u2, $CellContext`l}}],
                 RGBColor[1, 0.47, 0]}, PlotLegends -> Placed[{
                  $CellContext`pl[$CellContext`f, $CellContext`m]}, Top], 
               ImageSize -> {400, 
-               400}]], $CellContext`txt[$CellContext`f, $CellContext`m] <> 
-            " versus " <> $CellContext`ltxt[$CellContext`s] <> " curve", 
+               400}]], (($CellContext`txt[$CellContext`f, $CellContext`m] <> 
+              " versus ") <> $CellContext`ltxt[$CellContext`s]) <> " curve", 
             Top]], $CellContext`pl[
            Pattern[$CellContext`f, 
             Blank[]], 
            Pattern[$CellContext`m, 
             Blank[]]] := 
-         Switch[$CellContext`f, $CellContext`deltaf, 
-           "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m] <> 
-           " of the first test - " <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> " of the second test)", $CellContext`rdeltaf, 
-           "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m] <> 
-           " of the first test - " <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> 
-           " of the second test) / (" <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> " of the first test)", $CellContext`rf, 
-           "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m] <> 
-           " of the first test / " <> $CellContext`txt[$CellContext`vf, \
-$CellContext`m] <> " of the second test)"]}; Typeset`initDone$$ = True),
+         Switch[$CellContext`f, $CellContext`deltaf, (((
+              "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m]) <> 
+             " of the first test - ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> 
+           " of the second test)", $CellContext`rdeltaf, (((((
+                "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m]) <> 
+               " of the first test - ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> 
+             " of the second test) / (") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> 
+           " of the first test)", $CellContext`rf, (((
+              "(" <> $CellContext`txt[$CellContext`vf, $CellContext`m]) <> 
+             " of the first test / ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`m]) <> " of the second test)"]}; Typeset`initDone$$ = True),
       SynchronousInitialization->True,
       UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
       UnsavedVariables:>{Typeset`initDone$$},
@@ -11875,6 +11879,7 @@ $CellContext`\[Sigma]H, $CellContext`pd, $CellContext`u2, $CellContext`l}}],
           Erfc[(-$CellContext`\[Mu]D + $CellContext`\[Mu]H + (Sqrt[2] 
                Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]D^2]) 
               InverseErfc[2 - 2 $CellContext`sn])/(Sqrt[2] 
+            
             Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]H^2])], \
 $CellContext`mf[
            Pattern[$CellContext`ma, 
@@ -11937,9 +11942,9 @@ $CellContext`ppv[
             Blank[]], 
            Pattern[$CellContext`u, 
             Blank[]]] := ((2 $CellContext`pd) $CellContext`sn)/(
-          2 + (
-            2 $CellContext`pd) (-1 + $CellContext`sn) + (-1 + $CellContext`pd)
-             Erfc[(-$CellContext`\[Mu]D + $CellContext`\[Mu]H + (Sqrt[2] 
+          2 + (2 $CellContext`pd) (-1 + $CellContext`sn) + (-1 + \
+$CellContext`pd) 
+           Erfc[(-$CellContext`\[Mu]D + $CellContext`\[Mu]H + (Sqrt[2] 
                 Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]D^2]) 
                InverseErfc[2 - 2 $CellContext`sn])/(Sqrt[2] 
              Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]H^2])]), \
@@ -12539,7 +12544,6 @@ $CellContext`ttr[
               Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]D^2])] + ((-1 + \
 $CellContext`pd) ($CellContext`rfp - $CellContext`rtn)) 
             Erfc[(-$CellContext`t + $CellContext`\[Mu]H)/(Sqrt[2] 
-              
               Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]H^2])]), \
 $CellContext`txt[
            Pattern[$CellContext`f, 
@@ -12981,9 +12985,9 @@ $CellContext`pd, $CellContext`u2}]]}}, {$CellContext`x, 0.001, 0.999},
                 RGBColor[1, 0.47, 0]}, PlotLegends -> 
               Placed[{"first test", "second test"}, Top], 
               ImageSize -> {400, 
-               400}]], $CellContext`txt[$CellContext`vf, $CellContext`ma] <> 
-            " versus " <> $CellContext`txt[$CellContext`vf, $CellContext`mb] <> 
-            " curve", Top]], $CellContext`tr[
+               400}]], (($CellContext`txt[$CellContext`vf, $CellContext`ma] <> 
+              " versus ") <> $CellContext`txt[$CellContext`vf, \
+$CellContext`mb]) <> " curve", Top]], $CellContext`tr[
            Pattern[$CellContext`sn, 
             Blank[]], 
            Pattern[$CellContext`\[Mu]D, 
@@ -13385,7 +13389,6 @@ $CellContext`uu}], $CellContext`rf[
          Apply[$CellContext`m, {$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`pd, $CellContext`u1, $CellContext`l}]/
-          
           Apply[$CellContext`m, {$CellContext`x, $CellContext`\[Mu]D, \
 $CellContext`\[Mu]H, $CellContext`\[Sigma]D, $CellContext`\[Sigma]H, \
 $CellContext`pd, $CellContext`u2, $CellContext`l}]}; 
@@ -14674,7 +14677,6 @@ $CellContext`pd, $CellContext`u, $CellContext`l}], $CellContext`z,
           Erf[(-$CellContext`t + $CellContext`\[Mu]D)/(Sqrt[2] 
             Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]D^2])] + 
           Erfc[(-$CellContext`t + $CellContext`\[Mu]H)/(Sqrt[2] 
-            
             Sqrt[$CellContext`u^2 + $CellContext`\[Sigma]H^2])]), \
 $CellContext`ed[
           Pattern[$CellContext`sn, 
@@ -14991,9 +14993,9 @@ $CellContext`tnlr[
    Manipulate`InterpretManipulate[1]]}}, 1,
   ImageSize->Automatic]], "Output",
  CellChangeTimes->{3.7998042740958166`*^9, 3.799841424202299*^9, 
-  3.799850793068594*^9, 3.7998523956831303`*^9, 3.7998526971559634`*^9, 
-  3.799852734480923*^9, 3.8022998642690167`*^9, 3.8043388349863997`*^9, 
-  3.8066378642194424`*^9, 3.8066381681292014`*^9, 3.80666674349555*^9},
+  3.799850793068594*^9, 3.79985239568313*^9, 3.7998526971559634`*^9, 
+  3.799852734480923*^9, 3.8022998642690167`*^9, 3.8043388349864*^9, 
+  3.8066378642194424`*^9, 3.806638168129201*^9, 3.80666674349555*^9},
  CellLabel->
   "Out[149]=",ExpressionUUID->"d3ae8ad4-3d08-4f7f-ace9-4b5ef8fa500a"]
 }, Open  ]],
@@ -15008,7 +15010,7 @@ Measure", "SubsubitemParagraph",
  Editable->False,
  Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
-  3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+  3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
   3.8066347247297487`*^9}, {3.806634802358505*^9, 
   3.8066348105295067`*^9}},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
 ff8cde674aa6"],
@@ -15024,13 +15026,50 @@ test-negative.", "SubsubitemParagraph",
  Editable->False,
  Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
-  3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+  3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
   3.8946810592083073`*^9, 3.8946810613518553`*^9}, {3.8946813173615294`*^9, 
   3.8946813569756613`*^9}, {3.8946821088444633`*^9, 3.8946821325590963`*^9}, {
-  3.8946822382547655`*^9, 3.8946822485563297`*^9}, {3.8947120225049753`*^9, 
+  3.8946822382547646`*^9, 3.89468224855633*^9}, {3.8947120225049753`*^9, 
   3.894712037039548*^9}},ExpressionUUID->"ac2f104c-a0cf-4cd6-9214-\
 8a0d53debfd2"],
+
+Cell[TextData[{
+ StyleBox["Disclaimer of Warranties",
+  FontSize->10],
+ StyleBox["\n",
+  FontSize->12],
+ StyleBox["This software is provided on an \[OpenCurlyQuote]AS IS\
+\[CloseCurlyQuote] and \[OpenCurlyQuote]AS AVAILABLE\[CloseCurlyQuote] basis \
+without warranty of any kind whether express or implied, including but not \
+limited to the implied warranties of satisfactory quality, fitness for a \
+particular purpose, non-infringement, compatibility, security, and accuracy.",
+  FontSize->10,
+  FontColor->RGBColor[0., 0., 0.]]
+}], "Subsubsubsubsection",
+ Editable->False,
+ Deployed->True,
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.807076712859339*^9, 3.807076713036334*^9}, {3.857308171862177*^9, 
+   3.857308171863175*^9}, {3.88935530034098*^9, 3.889355325663695*^9}, {
+   3.894501479648944*^9, 3.894501480656904*^9}, {3.894502404394955*^9, 
+   3.894502404400076*^9}, 3.894502523405162*^9, {3.894512932432593*^9, 
+   3.8945129577291107`*^9}, {3.8945543659519515`*^9, 
+   3.8945543691153607`*^9}, {3.9025314313414316`*^9, 
+   3.9025314351601505`*^9}, {3.902531468543082*^9, 3.902531471420502*^9}, {
+   3.902531804785098*^9, 3.902531839353*^9}, {3.902716376988284*^9, 
+   3.902716409105589*^9}, 3.902716518799938*^9, {3.90271678137931*^9, 
+   3.902716783745605*^9}, {3.903043595550623*^9, 3.903043595938733*^9}, 
+   3.904127753237666*^9, {3.904264027437067*^9, 3.9042640609555044`*^9}, {
+   3.904821572209103*^9, 3.9048215729071016`*^9}, {3.905079746472635*^9, 
+   3.905079747109184*^9}, 3.905578448377225*^9, {3.908541449262427*^9, 
+   3.908541450005062*^9}, {3.925964631512097*^9, 3.925964653775696*^9}, {
+   3.925964983015711*^9, 
+   3.925965007477089*^9}},ExpressionUUID->"3bbd9980-1158-5544-9110-\
+ba66cbb5890d"],
 
 Cell[TextData[{
  StyleBox["About",
@@ -15056,18 +15095,18 @@ International Creative Commons License",
  Editable->False,
  Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
-   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.8066346558494463`*^9, 
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
-   3.8066664862909436`*^9, 3.806666502895442*^9}, 3.8070765097138042`*^9, {
-   3.8070767128593364`*^9, 3.8070767130363336`*^9}, {3.857308171862177*^9, 
-   3.8573081718631754`*^9}, 
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.8070767128593373`*^9, 3.807076713036334*^9}, {3.857308171862177*^9, 
+   3.857308171863175*^9}, 
    3.894712081663641*^9},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
 WindowSize->{1428., 732.75},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
-FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
+FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"edba649a-6e9e-4eea-bcc5-70a93ef5d00b"
 ]
@@ -15082,24 +15121,25 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 155832, 4102, 19, "Input",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2",
+Cell[558, 20, 155806, 4101, 19, "Input",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[156415, 4126, 582, 11, 86, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
+Cell[156389, 4125, 574, 11, 86, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
  Evaluatable->False],
-Cell[157000, 4139, 686, 12, 71, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
+Cell[156966, 4138, 678, 12, 71, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
  Evaluatable->False],
-Cell[157689, 4153, 442, 11, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9"],
-Cell[158134, 4166, 349, 7, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750"],
+Cell[157647, 4152, 442, 11, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9"],
+Cell[158092, 4165, 349, 7, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750"],
 Cell[CellGroupData[{
-Cell[158508, 4177, 107375, 2215, 19, "Input",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831",
+Cell[158466, 4176, 107348, 2215, 19, "Input",ExpressionUUID->"101cd957-340d-431e-91ec-e5cb76a39831",
  CellOpen->False],
-Cell[265886, 6394, 383189, 8603, 667, "Output",ExpressionUUID->"d3ae8ad4-3d08-4f7f-ace9-4b5ef8fa500a"]
+Cell[265817, 6393, 383338, 8606, 667, "Output",ExpressionUUID->"d3ae8ad4-3d08-4f7f-ace9-4b5ef8fa500a"]
 }, Open  ]],
-Cell[649090, 15000, 528, 13, 53, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
-Cell[649621, 15015, 852, 17, 33, "Subsubsubsubsection",ExpressionUUID->"ac2f104c-a0cf-4cd6-9214-8a0d53debfd2"],
-Cell[650476, 15034, 1221, 30, 75, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
+Cell[649170, 15002, 526, 13, 53, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
+Cell[649699, 15017, 847, 17, 33, "Subsubsubsubsection",ExpressionUUID->"ac2f104c-a0cf-4cd6-9214-8a0d53debfd2"],
+Cell[650549, 15036, 1976, 35, 33, "Subsubsubsubsection",ExpressionUUID->"3bbd9980-1158-5544-9110-ba66cbb5890d"],
+Cell[652528, 15073, 1213, 30, 75, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
 }, Open  ]]
 }
 ]
