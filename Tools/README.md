@@ -62,3 +62,10 @@ Source Code: [ExactConfidenceIntervalsForASingleProportion.nb](Tools/ExactConfid
 15. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 Source Code: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](Tools/InferencesAboutTheDifferenceBetweenTwoProportions.nb)
 
+**Intellectual Property Rights**
+
+HCSL software is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Disclaimer**
+
+HCSL software is provided on an 'AS IS' and 'AS AVAILABLE' basis without warranty of any kind whether express or implied, including but not limited to the implied warranties of satisfactory quality, fitness for a particular purpose, non-infringement, compatibility, security, and accuracy.
