@@ -16,7 +16,7 @@ For further information regarding our research initiatives and outputs, please v
 
 **Intellectual Property Rights**
 
-Except where otherwise noted, content of this GitHub repository for HCSL is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License] (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Except where otherwise noted, content of this GitHub repository for HCSL is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **Disclaimer**
 
