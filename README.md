@@ -18,7 +18,7 @@ For further information regarding our research initiatives and outputs, please v
 
 Except where otherwise noted, content of this GitHub repository for HCSL is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**Disclaimer**
+**Disclaimer of Warranties**
 
 HCSL material is provided on an 'AS IS' and 'AS AVAILABLE' basis without warranty of any kind whether express or implied, including but not limited to the implied warranties of satisfactory quality, fitness for a particular purpose, non-infringement, compatibility, security, and accuracy.
 
