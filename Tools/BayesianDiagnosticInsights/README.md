@@ -1,4 +1,4 @@
-#Bayesian Diagnostic Insights
+# Bayesian Diagnostic Insights
 
 A Software Tool for Bayesian Probabilistic Methods in Medical Diagnostics. Ver. 1.0.0. Drama: Hellenic Complex Systems Laboratory, 2024.
 
