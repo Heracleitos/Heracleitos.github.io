@@ -8,11 +8,11 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 1. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.2. Drama: Hellenic Complex Systems Laboratory, 2020.
 	Source code: [Relation.nb](Relation/Relation.nb)
-2. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 1.1.0. Drama: Hellenic Complex Systems Laboratory, 2021.
+2. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 1.1.1. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
-3. Chatzimichail T., Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.5. Drama: Hellenic Complex Systems Laboratory, 2023.
+3. Chatzimichail T., Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
-4. Chatzimichail T., Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 1.0.0. Drama: Hellenic Complex Systems Laboratory, 2023. 
+4. Chatzimichail T., Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 1.0.1. Drama: Hellenic Complex Systems Laboratory, 2024. 
 	Source code: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 5. A software tool for parametric estimation of Bayesian medical diagnostic measures and their uncertainty. Ver. 1.0.0. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source Code: [BayesianDiagnosticMeasures.nb] (BayesianDiagnosticMeasures/BayesianDiagnosticMeasures.nb)
@@ -20,13 +20,13 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 	Source Code: [BayesianDiagnosticMeasures.nb] (BayesianDiagnosticMeasures/BayesianDiagnosticMeasures.nb)
 7. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.0. Drama: Hellenic Complex Systems Laboratory, 2021.
 	Source code: [Nutrition.nb](Nutrition/Nutrition.nb)
-8. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.1. Drama: Hellenic Complex Systems Laboratory, 2022.
+8. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [Quality.nb](Quality/Quality.nb)
-9. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.2. Drama: Hellenic Complex Systems Laboratory, 2022.
+9. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
-10.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.2. Drama: Hellenic Complex Systems Laboratory, 2022
+10.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.3. Drama: Hellenic Complex Systems Laboratory, 2024
 	Source code: [QualityControl.nb](QualityControl/QualityControl.nb)
-11. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.4. Drama: Hellenic Complex Systems Laboratory, 2022.
+11. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.5. Drama: Hellenic Complex Systems Laboratory, 2024.
      Source code: [IntelligentQualityControl.nb](IntelligentQualityControl/IntelligentQualityControl.nb)
 
 **Demonstrations**

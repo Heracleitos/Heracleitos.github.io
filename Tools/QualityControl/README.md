@@ -1,6 +1,6 @@
 # Quality Control
 
-A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.2. Drama: Hellenic Complex Systems Laboratory, 2022.
+A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 
 Source Code: [QualityControl.nb](QualityControl.nb)
 
