@@ -508,3 +508,57 @@
   <priority>0.51</priority>
 </url>
 </urlset>
+<url>
+  <loc>https://www.hcsl.com/Tools/Relation/Relation.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/Uncertainty/Uncertainty.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/BayesianDiagnosis/BayesianDiagnosis.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/BayesianDiagnosticMeasures/BayesianDiagnosticMeasures.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/Nutrition/Nutrition.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/Quality/Quality.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/QualityControl/QualityControl.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/IntelligentQuality/IntelligentQuality.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/IntelligentQualityControl/IntelligentQualityControl.nb</loc>
+  <lastmod>2024-06-03</lastmod>
+  <priority>0.64</priority>
