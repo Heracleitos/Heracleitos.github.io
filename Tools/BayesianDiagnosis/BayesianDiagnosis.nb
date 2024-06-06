@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1641670,      31876]
-NotebookOptionsPosition[   1639690,      31830]
-NotebookOutlinePosition[   1640320,      31854]
-CellTagsIndexPosition[   1640245,      31849]
+NotebookDataLength[   1641735,      31876]
+NotebookOptionsPosition[   1639755,      31830]
+NotebookOutlinePosition[   1640385,      31854]
+CellTagsIndexPosition[   1640310,      31849]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -34,21 +34,22 @@ Cell[TextData[StyleBox["Bayesian Diagnosis",
    3.8945129460252132`*^9},ExpressionUUID->"86ff102a-94e1-4d71-af48-\
 16d9af6fae40"],
 
-Cell[TextData[StyleBox["A Bayesian Inference Based Computational Tool for \
-Parametric and Nonparametric Medical Diagnosis", "Subtitle",
+Cell[TextData[StyleBox["A Bayesian inference based computational tool for \
+parametric and nonparametric medical diagnosis", "Subtitle",
  FontSize->24]], "Title",
  Editable->False,
  Deployed->True,
  CellChangeTimes->{{3.779939682019757*^9, 3.779939763802432*^9}, {
    3.7865363228492603`*^9, 3.786536325564995*^9}, {3.787143897093936*^9, 
-   3.7871439406473494`*^9}, {3.8023000419716*^9, 3.802300064165675*^9}, {
+   3.7871439406473503`*^9}, {3.8023000419716*^9, 3.802300064165675*^9}, {
    3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
    3.806637885132716*^9, 3.8066379181196594`*^9}, {3.806637954488239*^9, 
    3.806637999223695*^9}, 3.8066381021359987`*^9, {3.889353649763666*^9, 
    3.889353712090793*^9}, {3.8893537441798906`*^9, 3.889353751755268*^9}, {
    3.894501400400911*^9, 3.894501455194312*^9}, {3.902506558058407*^9, 
-   3.902506560070706*^9}, {3.90288233875672*^9, 
-   3.902882340904404*^9}},ExpressionUUID->"7dc427a1-4f47-48d8-b9c5-\
+   3.902506560070706*^9}, {3.90288233875672*^9, 3.902882340904404*^9}, {
+   3.9266317158938465`*^9, 
+   3.9266317449515514`*^9}},ExpressionUUID->"7dc427a1-4f47-48d8-b9c5-\
 37f82ef00d42"],
 
 Cell[TextData[{
@@ -61,8 +62,8 @@ Cell[TextData[{
  Deployed->True,
  CellChangeTimes->{
   3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
-   3.780026882968507*^9, 3.7800269771474257`*^9}, 
-   3.7804577481605644`*^9},ExpressionUUID->"bcb5766f-6cc3-4154-ac7b-\
+   3.780026882968507*^9, 3.7800269771474266`*^9}, 
+   3.7804577481605654`*^9},ExpressionUUID->"bcb5766f-6cc3-4154-ac7b-\
 44070d43e69a"],
 
 Cell["\<\
@@ -20662,10 +20663,10 @@ $CellContext`nddist22$$], 800, Alignment -> Center], "Specifications" :> {
                 "1st measurand = " <> ToString[
                   NumberForm[$CellContext`x, {3, 1}]], " 2nd measurand = " <> 
                 ToString[
-                  NumberForm[$CellContext`y, {3, 1}]], "1st measurand = " <> 
-                ToString[
-                  NumberForm[$CellContext`x, {3, 1}]] <> 
-                " & 2nd measurand = " <> ToString[
+                  NumberForm[$CellContext`y, {3, 1}]], (("1st measurand = " <> 
+                  ToString[
+                    NumberForm[$CellContext`x, {3, 1}]]) <> 
+                 " & 2nd measurand = ") <> ToString[
                   NumberForm[$CellContext`y, {3, 1}]]}, {SpanFromLeft, 
                 NumberForm[$CellContext`vd, {7, 3}], SpanFromLeft, "1st set", 
                 $CellContext`pp[$CellContext`x, $CellContext`vd, \
@@ -25601,10 +25602,10 @@ P9Mf309/rz+b+0N/zfd/N+H//HD6P3WkfHQ=
                 "1st measurand = " <> ToString[
                   NumberForm[$CellContext`x, {3, 1}]], "2nd measurand = " <> 
                 ToString[
-                  NumberForm[$CellContext`y, {3, 1}]], "1st measurand = " <> 
-                ToString[
-                  NumberForm[$CellContext`x, {3, 1}]] <> 
-                " & 2nd measurand = " <> ToString[
+                  NumberForm[$CellContext`y, {3, 1}]], (("1st measurand = " <> 
+                  ToString[
+                    NumberForm[$CellContext`x, {3, 1}]]) <> 
+                 " & 2nd measurand = ") <> ToString[
                   NumberForm[$CellContext`y, {3, 1}]]}, {SpanFromLeft, 
                 NumberForm[$CellContext`vd, {7, 3}], SpanFromLeft, 
                 "1st distribution", 
@@ -25783,7 +25784,6 @@ $CellContext`vd + $CellContext`likelihoodNonDiseased (
             Pattern[$CellContext`\[Sigma], 
              Blank[]]] := 
           LogNormalDistribution[(1/2) (2 Log[$CellContext`\[Mu]] - 
-             
              Log[($CellContext`\[Mu]^2 + \
 $CellContext`\[Sigma]^2)/$CellContext`\[Mu]^2]), 
             Sqrt[
@@ -31318,10 +31318,10 @@ P9Mf309/rz+b+0N/zfd/N+H//HD6P3WkfHQ=
                 "1st measurand = " <> ToString[
                   NumberForm[$CellContext`x, {3, 1}]], " 2nd measurand = " <> 
                 ToString[
-                  NumberForm[$CellContext`y, {3, 1}]], "1st measurand = " <> 
-                ToString[
-                  NumberForm[$CellContext`x, {3, 1}]] <> 
-                " & 2nd measurand = " <> ToString[
+                  NumberForm[$CellContext`y, {3, 1}]], (("1st measurand = " <> 
+                  ToString[
+                    NumberForm[$CellContext`x, {3, 1}]]) <> 
+                 " & 2nd measurand = ") <> ToString[
                   NumberForm[$CellContext`y, {3, 1}]]}, {SpanFromLeft, 
                 NumberForm[$CellContext`vd, {7, 3}], SpanFromLeft, 
                 "parametric", 
@@ -31711,7 +31711,7 @@ $CellContext`biGammaDistribution[
    3.90854133439189*^9, 3.908541337086425*^9}, {3.926333626425051*^9, 
    3.926333630072466*^9}, 3.926333977948263*^9, {3.926336848641863*^9, 
    3.926336851864279*^9}, {3.92633743800391*^9, 3.9263374578398666`*^9}, 
-   3.9263376300920568`*^9, {3.926339321293276*^9, 3.9263393243592815`*^9}},
+   3.926337630092057*^9, {3.926339321293276*^9, 3.9263393243592806`*^9}},
  CellLabel->
   "Out[344]=",ExpressionUUID->"b6b875ea-ae9b-d14a-9893-9ac59397803d"]
 }, Open  ]]
@@ -31840,7 +31840,7 @@ ExpressionUUID->"33334be7-7cfe-4f6a-9843-818c8ab3a7d6"
 (*CellTagsOutline
 CellTagsIndex->{
  "Datasets"->{
-  Cell[4064, 98, 154328, 2107, 19, "Input",ExpressionUUID->"68b99d57-a3f0-46b9-bd7f-12e7e8a00187",
+  Cell[4118, 99, 154328, 2107, 19, "Input",ExpressionUUID->"68b99d57-a3f0-46b9-bd7f-12e7e8a00187",
    CellOpen->False,
    InitializationCell->True,
    CellTags->"Datasets"]}
@@ -31848,35 +31848,35 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Datasets", 1640047, 31841}
+ {"Datasets", 1640112, 31841}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 699, 12, 86, "Title",ExpressionUUID->"86ff102a-94e1-4d71-af48-16d9af6fae40"],
-Cell[1282, 36, 915, 15, 71, "Title",ExpressionUUID->"7dc427a1-4f47-48d8-b9c5-37f82ef00d42"],
-Cell[2200, 53, 459, 12, 129, "Author",ExpressionUUID->"bcb5766f-6cc3-4154-ac7b-44070d43e69a"],
-Cell[2662, 67, 366, 8, 31, "Affiliation",ExpressionUUID->"6b813d33-fddf-46f5-b195-fd5bbf089672"],
+Cell[1282, 36, 969, 16, 71, "Title",ExpressionUUID->"7dc427a1-4f47-48d8-b9c5-37f82ef00d42"],
+Cell[2254, 54, 459, 12, 129, "Author",ExpressionUUID->"bcb5766f-6cc3-4154-ac7b-44070d43e69a"],
+Cell[2716, 68, 366, 8, 31, "Affiliation",ExpressionUUID->"6b813d33-fddf-46f5-b195-fd5bbf089672"],
 Cell[CellGroupData[{
-Cell[3053, 79, 1008, 17, 25, "Subsubsubsubsection",ExpressionUUID->"ab2ae93d-2de1-46f7-ba54-e3368d58ec4d"],
-Cell[4064, 98, 154328, 2107, 19, "Input",ExpressionUUID->"68b99d57-a3f0-46b9-bd7f-12e7e8a00187",
+Cell[3107, 80, 1008, 17, 25, "Subsubsubsubsection",ExpressionUUID->"ab2ae93d-2de1-46f7-ba54-e3368d58ec4d"],
+Cell[4118, 99, 154328, 2107, 19, "Input",ExpressionUUID->"68b99d57-a3f0-46b9-bd7f-12e7e8a00187",
  CellOpen->False,
  InitializationCell->True,
  CellTags->"Datasets"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[158429, 2210, 976, 16, 25, "Subsubsubsubsection",ExpressionUUID->"3ce00f08-5d48-424e-9777-787655802a0a"],
+Cell[158483, 2211, 976, 16, 25, "Subsubsubsubsection",ExpressionUUID->"3ce00f08-5d48-424e-9777-787655802a0a"],
 Cell[CellGroupData[{
-Cell[159430, 2230, 663370, 14237, 19, "Input",ExpressionUUID->"40c5606c-8227-4c4a-af36-0bfd38a810f1",
+Cell[159484, 2231, 663370, 14237, 19, "Input",ExpressionUUID->"40c5606c-8227-4c4a-af36-0bfd38a810f1",
  CellOpen->False,
  InitializationCell->True],
-Cell[822803, 16469, 811221, 15246, 693, "Output",ExpressionUUID->"b6b875ea-ae9b-d14a-9893-9ac59397803d"]
+Cell[822857, 16470, 811232, 15245, 693, "Output",ExpressionUUID->"b6b875ea-ae9b-d14a-9893-9ac59397803d"]
 }, Open  ]]
 }, Open  ]],
-Cell[1634051, 31719, 1560, 29, 67, "Subsubsubsubsection",ExpressionUUID->"d03882c2-7e64-4c84-80ee-87a91ebafa27"],
-Cell[1635614, 31750, 1964, 34, 33, "Subsubsubsubsection",ExpressionUUID->"30b84285-0bf2-2d43-a043-c12e0f2f1c5f"],
-Cell[1637581, 31786, 2093, 41, 75, "Subsubsubsubsection",ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-fccc5b89c344"]
+Cell[1634116, 31719, 1560, 29, 67, "Subsubsubsubsection",ExpressionUUID->"d03882c2-7e64-4c84-80ee-87a91ebafa27"],
+Cell[1635679, 31750, 1964, 34, 33, "Subsubsubsubsection",ExpressionUUID->"30b84285-0bf2-2d43-a043-c12e0f2f1c5f"],
+Cell[1637646, 31786, 2093, 41, 75, "Subsubsubsubsection",ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-fccc5b89c344"]
 }, Open  ]]
 }
 ]
