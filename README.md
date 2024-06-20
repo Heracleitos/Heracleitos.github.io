@@ -1,3 +1,5 @@
+![image](https://github.com/Heracleitos/Heracleitos.github.io/assets/39529973/6ac4bc18-cbab-4b4f-b081-a7e86011accd)
+
 # Hellenic Complex System Laboratory
 
 **Overview**
