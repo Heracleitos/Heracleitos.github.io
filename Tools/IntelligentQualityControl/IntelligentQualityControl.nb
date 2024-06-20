@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    559307,      11838]
-NotebookOptionsPosition[    557689,      11804]
-NotebookOutlinePosition[    558139,      11821]
-CellTagsIndexPosition[    558096,      11818]
+NotebookDataLength[    559353,      11838]
+NotebookOptionsPosition[    557735,      11804]
+NotebookOutlinePosition[    558185,      11821]
+CellTagsIndexPosition[    558142,      11818]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -74,7 +74,7 @@ Cell[TextData[{
  Deployed->True,
  CellChangeTimes->{
   3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
-   3.780026882968507*^9, 3.7800269771474266`*^9}, 3.7804577481605654`*^9, {
+   3.780026882968507*^9, 3.780026977147427*^9}, 3.7804577481605663`*^9, {
    3.857954268390501*^9, 3.857954275782502*^9}, {3.857956704152818*^9, 
    3.85795670672882*^9}, {3.8582956642919564`*^9, 3.8582956869059477`*^9}, {
    3.86020592071698*^9, 3.8602059217103243`*^9}, 
@@ -11142,7 +11142,7 @@ $CellContext`p]]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
  Editable->False,
  Deployed->True,
  CellChangeTimes->{
-  3.8718971240532465`*^9, 3.871898697362045*^9, 3.871898770783771*^9, 
+  3.8718971240532455`*^9, 3.871898697362045*^9, 3.871898770783771*^9, 
    3.8718995729767427`*^9, 3.871900621201192*^9, 3.871900700957356*^9, 
    3.8719008151209583`*^9, 3.871900866774664*^9, 3.871900959636643*^9, 
    3.8719010986651263`*^9, 3.871901193785294*^9, 3.871937220789415*^9, 
@@ -11757,7 +11757,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/IntelligentQualityControl/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.0.5\n",
+ StyleBox["\nVersion Number 1.0.5.1\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory",
@@ -11796,9 +11796,9 @@ International Creative Commons License",
    3.872018352016431*^9}, 3.873458026338218*^9, {3.873501162418352*^9, 
    3.873501163082353*^9}, 3.873626435696471*^9, 3.8737064138396*^9, {
    3.907895895309593*^9, 3.907895915086475*^9}, {3.926340246965779*^9, 
-   3.92634025446296*^9}, {3.927733544935568*^9, 3.9277335449375687`*^9}, {
-   3.927733583733057*^9, 
-   3.9277335837350655`*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
+   3.92634025446296*^9}, {3.927733544935568*^9, 3.9277335449375696`*^9}, {
+   3.927733583733057*^9, 3.9277335837350655`*^9}, {3.927868206815504*^9, 
+   3.927868207444462*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
 da8b685956ea"]
 }, Open  ]]
 },
@@ -11825,20 +11825,20 @@ Cell[580, 22, 1149, 20, 86, "Title",ExpressionUUID->"29168691-58a1-4939-9745-ba2
  Evaluatable->False],
 Cell[1732, 44, 1215, 20, 106, "Title",ExpressionUUID->"df09ce5c-3c35-4b13-b788-d004dc50aa9a",
  Evaluatable->False],
-Cell[2950, 66, 686, 15, 129, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
-Cell[3639, 83, 392, 9, 31, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
-Cell[4034, 94, 226996, 5769, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
+Cell[2950, 66, 684, 15, 129, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
+Cell[3637, 83, 392, 9, 31, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
+Cell[4032, 94, 226996, 5769, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[231055, 5867, 13555, 267, 19, "Input",ExpressionUUID->"3eec0729-eb31-4485-988c-8c4dc5c88586",
+Cell[231053, 5867, 13555, 267, 19, "Input",ExpressionUUID->"3eec0729-eb31-4485-988c-8c4dc5c88586",
  CellOpen->False],
-Cell[244613, 6136, 291467, 5026, 407, "Output",ExpressionUUID->"0e0e6535-829e-4146-9a80-3e5aad77ae17"]
+Cell[244611, 6136, 291467, 5026, 407, "Output",ExpressionUUID->"0e0e6535-829e-4146-9a80-3e5aad77ae17"]
 }, Open  ]],
-Cell[536095, 11165, 1355, 24, 95, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
-Cell[537453, 11191, 15419, 512, 175, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
-Cell[552875, 11705, 2302, 40, 47, "Subsubsubsubsection",ExpressionUUID->"1a21f170-b034-7d45-bfc9-eb06a32ae48b"],
-Cell[555180, 11747, 2493, 54, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
+Cell[536093, 11165, 1355, 24, 95, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
+Cell[537451, 11191, 15419, 512, 175, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
+Cell[552873, 11705, 2302, 40, 47, "Subsubsubsubsection",ExpressionUUID->"1a21f170-b034-7d45-bfc9-eb06a32ae48b"],
+Cell[555178, 11747, 2541, 54, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
 }, Open  ]]
 }
 ]

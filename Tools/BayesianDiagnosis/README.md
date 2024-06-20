@@ -1,6 +1,6 @@
 # Bayesian Diagnosis
 
-A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6. Drama: Hellenic Complex Systems Laboratory, 2024.
+A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6.1. Drama: Hellenic Complex Systems Laboratory, 2024.
 
 Source Code: [BayesianDiagnosis.nb](BayesianDiagnosis.nb)
 

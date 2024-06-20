@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1147859,      21836]
-NotebookOptionsPosition[   1143150,      21734]
-NotebookOutlinePosition[   1144475,      21771]
-CellTagsIndexPosition[   1144329,      21764]
+NotebookDataLength[   1147903,      21836]
+NotebookOptionsPosition[   1143194,      21734]
+NotebookOutlinePosition[   1144519,      21771]
+CellTagsIndexPosition[   1144373,      21764]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21666,7 +21666,7 @@ Cell[TextData[{
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.0.0\n",
+ StyleBox["\nVersion Number 1.0.0.1\n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -21706,8 +21706,8 @@ International Creative Commons License",
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
    3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
-   3.8070767128593383`*^9, 3.807076713036334*^9}, {3.824277477031402*^9, 
-   3.824277511380593*^9}, {3.8242775488355207`*^9, 3.824277559781518*^9}, {
+   3.807076712859339*^9, 3.807076713036334*^9}, {3.824277477031402*^9, 
+   3.824277511380593*^9}, {3.824277548835521*^9, 3.824277559781518*^9}, {
    3.824277599212511*^9, 3.824277630943819*^9}, {3.82428740993026*^9, 
    3.824287440745445*^9}, 3.824287582450876*^9, {3.824288279895161*^9, 
    3.824288292274851*^9}, 3.824288335615207*^9, {3.824288545290736*^9, 
@@ -21726,8 +21726,8 @@ International Creative Commons License",
    3.8321350038793373`*^9}, {3.834746716879453*^9, 3.834746743240554*^9}, {
    3.840096961142706*^9, 3.840096966903595*^9}, {3.840098688871152*^9, 
    3.840098689294138*^9}, {3.840457477270516*^9, 3.84045748672804*^9}, {
-   3.927733784668062*^9, 
-   3.9277338063852425`*^9}},ExpressionUUID->"6b0a6cda-d651-4486-99b0-\
+   3.927733784668062*^9, 3.927733806385243*^9}, {3.9278683845367813`*^9, 
+   3.927868385155546*^9}},ExpressionUUID->"6b0a6cda-d651-4486-99b0-\
 725257a2db5e"]
 }, Open  ]]
 }, Open  ]]
@@ -21763,9 +21763,9 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 1143537, 21746},
- {"Caption", 1143741, 21750},
- {"Details", 1143939, 21754}
+ {"Initialization Code", 1143581, 21746},
+ {"Caption", 1143785, 21750},
+ {"Details", 1143983, 21754}
  }
 *)
 (*NotebookFileOutline
@@ -21835,7 +21835,7 @@ Cell[1136857, 21608, 1707, 27, 50, "Text",ExpressionUUID->"dbc081ee-b20a-2448-86
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[1138601, 21640, 1007, 17, 57, "Section",ExpressionUUID->"5eda4602-8403-42aa-a086-3f7d462c6045"],
-Cell[1139611, 21659, 3511, 71, 88, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
+Cell[1139611, 21659, 3555, 71, 88, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
 }, Open  ]]
 }, Open  ]]
 }

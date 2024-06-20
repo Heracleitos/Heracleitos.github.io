@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1220254,      27074]
-NotebookOptionsPosition[   1218747,      27040]
-NotebookOutlinePosition[   1219173,      27057]
-CellTagsIndexPosition[   1219130,      27054]
+NotebookDataLength[   1220301,      27074]
+NotebookOptionsPosition[   1218794,      27040]
+NotebookOutlinePosition[   1219220,      27057]
+CellTagsIndexPosition[   1219177,      27054]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26995,7 +26995,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/Uncertainty/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.1\n",
+ StyleBox["\nVersion Number 1.1.1.1\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory",
@@ -27033,8 +27033,8 @@ International Creative Commons License",
    3.857308399852775*^9, 3.857308399852775*^9}, 3.906827753313318*^9, {
    3.906871618032697*^9, 3.906871618667078*^9}, {3.91088832883856*^9, 
    3.910888334654536*^9}, {3.926341677250885*^9, 3.926341682355221*^9}, {
-   3.9277342183317986`*^9, 
-   3.9277342411976566`*^9}},ExpressionUUID->"fb4fc060-c052-422d-a842-\
+   3.9277342183317995`*^9, 3.927734241197658*^9}, {3.92786920158976*^9, 
+   3.9278692024808865`*^9}},ExpressionUUID->"fb4fc060-c052-422d-a842-\
 5a583aa7bc50"]
 }, Open  ]]
 },
@@ -27074,7 +27074,7 @@ Cell[462137, 11409, 751569, 15516, 642, "Output",ExpressionUUID->"b4dbbb08-7390-
 }, Open  ]],
 Cell[1213721, 26928, 536, 13, 53, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
 Cell[1214260, 26943, 2302, 40, 47, "Subsubsubsubsection",ExpressionUUID->"3e5bb845-99be-2b40-97b8-3545d9af3813"],
-Cell[1216565, 26985, 2166, 52, 75, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
+Cell[1216565, 26985, 2213, 52, 75, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
 }, Open  ]]
 }
 ]

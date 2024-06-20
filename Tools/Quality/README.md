@@ -1,6 +1,6 @@
 # Quality
 
-A Software Tool for Statistical Quality Control Design. Ver. 1.0.2. Drama: Hellenic Complex Systems Laboratory, 2024.
+A Software Tool for Statistical Quality Control Design. Ver. 1.0.2.1. Drama: Hellenic Complex Systems Laboratory, 2024.
 
 Source Code: [Quality.nb](Quality.nb)
 

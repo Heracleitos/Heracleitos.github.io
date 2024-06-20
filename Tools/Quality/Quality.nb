@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    245089,       5214]
-NotebookOptionsPosition[    243464,       5179]
-NotebookOutlinePosition[    243914,       5196]
-CellTagsIndexPosition[    243871,       5193]
+NotebookDataLength[    245141,       5215]
+NotebookOptionsPosition[    243516,       5180]
+NotebookOutlinePosition[    243966,       5197]
+CellTagsIndexPosition[    243923,       5194]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5137,7 +5137,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/Quality/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.0.2\n",
+ StyleBox["\nVersion Number 1.0.2.1\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory ",
@@ -5172,8 +5172,9 @@ International Creative Commons License",
    3.859034366001465*^9, {3.859034501558225*^9, 3.859034501559221*^9}, {
    3.8593713043744144`*^9, 3.859371306756342*^9}, 3.8600285018206224`*^9, {
    3.860029144724223*^9, 3.8600291539083023`*^9}, 3.870408066606884*^9, {
-   3.926340662805847*^9, 3.9263406689729776`*^9}, {3.9277339385967045`*^9, 
-   3.92773395988912*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
+   3.926340662805847*^9, 3.926340668972978*^9}, {3.9277339385967045`*^9, 
+   3.92773395988912*^9}, {3.9278685915227356`*^9, 
+   3.927868592101845*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
@@ -5214,7 +5215,7 @@ Cell[146088, 3201, 86028, 1669, 528, "Output",ExpressionUUID->"2014d025-c012-468
 Cell[232131, 4873, 1740, 45, 68, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
 Cell[233874, 4920, 5144, 163, 61, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16"],
 Cell[239021, 5085, 2302, 40, 47, "Subsubsubsubsection",ExpressionUUID->"ffb1272d-ba61-7d4f-be32-b74765694cea"],
-Cell[241326, 5127, 2122, 49, 75, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
+Cell[241326, 5127, 2174, 50, 75, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
 }, Open  ]]
 }
 ]

@@ -1,6 +1,6 @@
 # Diagnostic Uncertainty
 
-A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 1.1.1. Drama: Hellenic Complex Systems Laboratory, 2024.
+A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 1.1.1.1. Drama: Hellenic Complex Systems Laboratory, 2024.
 
 Source Code: [Uncertainty.nb](Uncertainty.nb)
 

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3835372,      74410]
-NotebookOptionsPosition[   3833900,      74378]
-NotebookOutlinePosition[   3834430,      74396]
-CellTagsIndexPosition[   3834387,      74393]
+NotebookDataLength[   3835426,      74411]
+NotebookOptionsPosition[   3833954,      74379]
+NotebookOutlinePosition[   3834484,      74397]
+CellTagsIndexPosition[   3834441,      74394]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -74333,7 +74333,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.0.1\n",
+ StyleBox["\nVersion Number 1.0.1.1\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory",
@@ -74371,8 +74371,9 @@ International Creative Commons License",
    3.857308399852775*^9, 3.857308399852775*^9}, 3.906827753313318*^9, {
    3.906871618032697*^9, 3.906871618667078*^9}, {3.907240336103186*^9, 
    3.907240371335797*^9}, 3.911796778564459*^9, {3.9263387927512684`*^9, 
-   3.9263387933345146`*^9}, {3.927729687160658*^9, 
-   3.9277297319889736`*^9}},ExpressionUUID->"d0a6109d-1bce-426d-a7de-\
+   3.9263387933345146`*^9}, {3.927729687160658*^9, 3.927729731988974*^9}, {
+   3.9278677964931564`*^9, 
+   3.9278677970414677`*^9}},ExpressionUUID->"d0a6109d-1bce-426d-a7de-\
 40faeacf026f"]
 }, Open  ]]
 },
@@ -74410,7 +74411,7 @@ Cell[1156144, 26370, 2668003, 47805, 630, "Output",ExpressionUUID->"31c91912-dcd
 }, Open  ]],
 Cell[3824162, 74178, 5178, 101, 145, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
 Cell[3829343, 74281, 2302, 40, 47, "Subsubsubsubsection",ExpressionUUID->"deded76d-0b81-044a-b809-d1f96c82825b"],
-Cell[3831648, 74323, 2236, 52, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
+Cell[3831648, 74323, 2290, 53, 75, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
 }, Open  ]]
 }
 ]
