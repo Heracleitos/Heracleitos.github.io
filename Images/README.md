@@ -4,7 +4,11 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 
 **Intellectual Property Rights**
 
-Except where otherwise noted, the material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, software, images and web content, is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). Notable exception is the HCSL logotype, copyrighted by Dr. A. T. Hatjimihail, HCSL.
+Except where otherwise noted, the material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, software, images and web content, is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+**Logotype and Copyright** 
+
+The Hellenic Complex Systems Laboratory logotype is the exclusive property of A. T. Chatzimichail, HCSL, and is protected under applicable copyright laws. Unauthorized use is strictly prohibited.
 
 **Disclaimer of Warranties**
 
