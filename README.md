@@ -22,7 +22,7 @@ Except where otherwise noted, the material provided by the Hellenic Complex Syst
 
 **Logotype and Copyright**
 
-The above logotype of the Hellenic Complex Systems Laboratory is the exclusive property of the Hellenic Complex Systems Laboratory and is protected under applicable copyright laws. Unauthorized use is strictly prohibited.
+The above logotype of the Hellenic Complex Systems Laboratory is the exclusive property of A. T. Chatzimichail, HCSL, and is protected under applicable copyright laws. Unauthorized use is strictly prohibited.
 
 **Disclaimer of Warranties**
 
