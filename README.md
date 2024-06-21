@@ -16,9 +16,9 @@ The primary aim of this repository is to disseminate knowledge produced by Helle
 
 For further information regarding our research initiatives and outputs, please visit our [website](https://www.hcsl.com).
 
-**HCSL Software Repository**
+**Hellenic Complex System Laboratory Software Repository**
 
-Specifically, the source code of the software developed by HCSL is available at: https://www.hcsl.com/Tools/.
+Specifically, the source code of the software developed by Hellenic Complex System Laboratory is available at: https://www.hcsl.com/Tools/.
 
 **Intellectual Property Rights**
 
