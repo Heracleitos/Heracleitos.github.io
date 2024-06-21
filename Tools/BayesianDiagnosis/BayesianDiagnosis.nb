@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1642706,      31901]
-NotebookOptionsPosition[   1640726,      31855]
-NotebookOutlinePosition[   1641356,      31879]
-CellTagsIndexPosition[   1641281,      31874]
+NotebookDataLength[   1642828,      31902]
+NotebookOptionsPosition[   1640848,      31856]
+NotebookOutlinePosition[   1641478,      31880]
+CellTagsIndexPosition[   1641403,      31875]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -31757,10 +31757,10 @@ Cell[TextData[{
 \[CloseCurlyDoubleQuote], without warranty of any kind, express or implied, \
 including but not limited to the warranties of merchantability, fitness for a \
 particular purpose and noninfringement. In no event shall the authors or \
-Hellenic Complex Systems Laboratory be liable for any claim, damages or other \
-liability, whether in an action of contract, tort or otherwise, arising from, \
-out of or in connection with the software or the use or other dealings in the \
-software.",
+Hellenic Complex Systems Laboratory or any of its members be liable for any \
+claim, damages or other liability, whether in an action of contract, tort or \
+otherwise, arising from, out of or in connection with the software or the use \
+or other dealings in the software.",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
@@ -31786,8 +31786,8 @@ software.",
    3.908541450005062*^9}, {3.925964631512097*^9, 3.925964653775696*^9}, {
    3.925964983015711*^9, 3.925965007477089*^9}, {3.927722504886324*^9, 
    3.927722516644697*^9}, {3.927723268882079*^9, 3.927723286469499*^9}, {
-   3.927723332582638*^9, 
-   3.9277233562949753`*^9}},ExpressionUUID->"1e9afeee-306d-ed47-8359-\
+   3.927723332582638*^9, 3.927723356294976*^9}, {3.9279405252322197`*^9, 
+   3.9279405355143833`*^9}},ExpressionUUID->"1e9afeee-306d-ed47-8359-\
 0f918c528e96"],
 
 Cell[TextData[{
@@ -31802,7 +31802,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/BayesianDiagnosis/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.0.6.1\n",
+ StyleBox["\nVersion Number 1.0.6.2\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory ",
@@ -31848,8 +31848,9 @@ International Creative Commons License",
    3.905079747109184*^9}, 3.905578448377225*^9, {3.908541449262427*^9, 
    3.908541450005062*^9}, {3.926337725237419*^9, 3.926337725885233*^9}, {
    3.92633934647744*^9, 3.9263393471531105`*^9}, {3.927729120687123*^9, 
-   3.92772916192914*^9}, {3.9278675679781055`*^9, 
-   3.927867568484314*^9}},ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-\
+   3.92772916192914*^9}, {3.9278675679781055`*^9, 3.927867568484314*^9}, {
+   3.9279418309636345`*^9, 
+   3.927941831702856*^9}},ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-\
 fccc5b89c344"]
 }, Open  ]]
 },
@@ -31873,7 +31874,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Datasets", 1641083, 31866}
+ {"Datasets", 1641205, 31867}
  }
 *)
 (*NotebookFileOutline
@@ -31900,8 +31901,8 @@ Cell[822857, 16470, 811229, 15245, 693, "Output",ExpressionUUID->"b6b875ea-ae9b-
 }, Open  ]]
 }, Open  ]],
 Cell[1634113, 31719, 1558, 29, 67, "Subsubsubsubsection",ExpressionUUID->"d03882c2-7e64-4c84-80ee-87a91ebafa27"],
-Cell[1635674, 31750, 2298, 40, 47, "Subsubsubsubsection",ExpressionUUID->"1e9afeee-306d-ed47-8359-0f918c528e96"],
-Cell[1637975, 31792, 2735, 60, 75, "Subsubsubsubsection",ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-fccc5b89c344"]
+Cell[1635674, 31750, 2368, 40, 47, "Subsubsubsubsection",ExpressionUUID->"1e9afeee-306d-ed47-8359-0f918c528e96"],
+Cell[1638045, 31792, 2787, 61, 75, "Subsubsubsubsection",ExpressionUUID->"a07b6c6c-31eb-4b34-8efa-fccc5b89c344"]
 }, Open  ]]
 }
 ]

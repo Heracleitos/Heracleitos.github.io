@@ -6,27 +6,27 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 **Programs**
 
-1. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.4.1. Drama: Hellenic Complex Systems Laboratory, 2024.
+1. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.4.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [Relation.nb](Relation/Relation.nb)
-2. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 1.1.1.1. Drama: Hellenic Complex Systems Laboratory, 2024.
+2. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 1.1.1.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
-3. Chatzimichail T., Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6.1. Drama: Hellenic Complex Systems Laboratory, 2024.
+3. Chatzimichail T., Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
-4. Chatzimichail T., Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 1.0.1.1. Drama: Hellenic Complex Systems Laboratory, 2024.
+4. Chatzimichail T., Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 1.0.1.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 5. A software tool for parametric estimation of Bayesian medical diagnostic measures and their uncertainty. Ver. 1.0.0. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source Code: [BayesianDiagnosticInsights.nb] (BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
 6. A software tool for parametric estimation of Bayesian medical diagnostic measures and their uncertainty. Ver. 1.0.0. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source Code: [BayesianDiagnosticMeasures.nb] (BayesianDiagnosticMeasures/BayesianDiagnosticMeasures.nb)
-7. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.0.1. Drama: Hellenic Complex Systems Laboratory, 2024.
+7. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.0.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [Nutrition.nb](Nutrition/Nutrition.nb)
-8. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.2.1. Drama: Hellenic Complex Systems Laboratory, 2024.
+8. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.2.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [Quality.nb](Quality/Quality.nb)
-9. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.3.1. Drama: Hellenic Complex Systems Laboratory, 2024.
+9. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.3.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
-10.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.3.1. Drama: Hellenic Complex Systems Laboratory, 2024
+10.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.3.2. Drama: Hellenic Complex Systems Laboratory, 2024
 	Source code: [QualityControl.nb](QualityControl/QualityControl.nb)
-11. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.5.1. Drama: Hellenic Complex Systems Laboratory, 2024.
+11. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.5.2. Drama: Hellenic Complex Systems Laboratory, 2024.
      Source code: [IntelligentQualityControl.nb](IntelligentQualityControl/IntelligentQualityControl.nb)
 
 **Demonstrations**
@@ -68,4 +68,4 @@ Hellenic Complex Systems Laboratory software is licensed under a [Creative Commo
 
 **Disclaimer of Warranties**
 
-Hellenic Complex Systems Laboratory software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or Hellenic Complex Systems Laboratory be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+Hellenic Complex Systems Laboratory software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or Hellenic Complex Systems Laboratory or any of its members be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.

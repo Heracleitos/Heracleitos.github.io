@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    365052,       7627]
-NotebookOptionsPosition[    360005,       7518]
-NotebookOutlinePosition[    361419,       7557]
-CellTagsIndexPosition[    361249,       7549]
+NotebookDataLength[    365116,       7628]
+NotebookOptionsPosition[    360075,       7519]
+NotebookOutlinePosition[    361483,       7558]
+CellTagsIndexPosition[    361313,       7550]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -7394,10 +7394,10 @@ Cell[TextData[StyleBox["The software is provided \[OpenCurlyDoubleQuote]as is\
 \[CloseCurlyDoubleQuote], without warranty of any kind, express or implied, \
 including but not limited to the warranties of merchantability, fitness for a \
 particular purpose and noninfringement. In no event shall the authors or \
-Hellenic Complex Systems Laboratory be liable for any claim, damages or other \
-liability, whether in an action of contract, tort or otherwise, arising from, \
-out of or in connection with the software or the use or other dealings in the \
-software.",
+Hellenic Complex Systems Laboratory or any of its members be liable for any \
+claim, damages or other liability, whether in an action of contract, tort or \
+otherwise, arising from, out of or in connection with the software or the use \
+or other dealings in the software.",
  FontFamily->"Source Sans Pro ExtraLight",
  FontSize->12,
  FontColor->RGBColor[0., 0., 0.]]], "Text",
@@ -7414,9 +7414,10 @@ software.",
    3.824288562748387*^9}, {3.824288784545688*^9, 3.824288813125119*^9}, 
    3.824288959149333*^9, {3.824289179714106*^9, 3.824289214280095*^9}, 
    3.824364536962468*^9, 3.925965926224615*^9, {3.925965974557173*^9, 
-   3.9259660019968224`*^9}, {3.927733685974373*^9, 
-   3.9277337207143173`*^9}},ExpressionUUID->"27479fb7-3677-3f40-a5a0-\
-49bb7d1f73fb"]
+   3.9259660019968224`*^9}, {3.927733685974373*^9, 3.927733720714319*^9}, {
+   3.927941061182068*^9, 
+   3.927941069056101*^9}},ExpressionUUID->"20083572-2e18-2147-b6bf-\
+9c921f775f34"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7516,8 +7517,8 @@ International Creative Commons License",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{718.5, 736.875},
-WindowMargins->{{-4.125, Automatic}, {Automatic, 0}},
+WindowSize->{718.5, 732.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"4f578bca-52e1-4e0d-8727-2c5dc7e5466f"
@@ -7548,10 +7549,10 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 360377, 7529},
- {"Caption", 360581, 7533},
- {"Snapshots", 360779, 7537},
- {"Details", 360977, 7541}
+ {"Initialization Code", 360441, 7530},
+ {"Caption", 360645, 7534},
+ {"Snapshots", 360843, 7538},
+ {"Details", 361041, 7542}
  }
 *)
 (*NotebookFileOutline
@@ -7622,11 +7623,11 @@ Cell[352082, 7350, 532, 19, 311, "Text",ExpressionUUID->"62d11376-5ea2-466d-bde0
 }, Closed]],
 Cell[CellGroupData[{
 Cell[352651, 7374, 1053, 16, 43, "Section",ExpressionUUID->"031e2808-4f34-be45-ace3-28e53b7502f5"],
-Cell[353707, 7392, 1690, 26, 88, "Text",ExpressionUUID->"27479fb7-3677-3f40-a5a0-49bb7d1f73fb"]
+Cell[353707, 7392, 1760, 27, 88, "Text",ExpressionUUID->"20083572-2e18-2147-b6bf-9c921f775f34"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[355434, 7423, 990, 16, 57, "Section",ExpressionUUID->"93816431-e201-4148-a0fa-4544fb842d07"],
-Cell[356427, 7441, 3550, 73, 125, "Text",ExpressionUUID->"b88127d1-64f1-427f-bb9c-5d8ac90f567e"]
+Cell[355504, 7424, 990, 16, 57, "Section",ExpressionUUID->"93816431-e201-4148-a0fa-4544fb842d07"],
+Cell[356497, 7442, 3550, 73, 125, "Text",ExpressionUUID->"b88127d1-64f1-427f-bb9c-5d8ac90f567e"]
 }, Open  ]]
 }, Open  ]]
 }
