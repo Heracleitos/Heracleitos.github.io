@@ -12,4 +12,4 @@ The material provided by the Hellenic Complex Systems Laboratory, including but 
 
 **Limitation of Liability**
 
-This website contains links to (or may be accessed through links on) other World Wide Web sites. HCSL is not responsible for the contents, availability, operation, or performance of said other websites to which this website may be linked or from which this website may be accessed.
+This website contains links to (or may be accessed through links on) other World Wide Web sites. Hellenic Complex Systems Laboratory is not responsible for the contents, availability, operation, or performance of said other websites to which this website may be linked or from which this website may be accessed.
