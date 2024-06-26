@@ -15,9 +15,9 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 4. Chatzimichail T., Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 1.0.1.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 5. A software tool for parametric estimation of Bayesian medical diagnostic measures and their uncertainty. Ver. 1.0.0. Drama: Hellenic Complex Systems Laboratory, 2024.
-	Source Code: [BayesianDiagnosticInsights.nb] (BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
+	Source Code: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
 6. A software tool for parametric estimation of Bayesian medical diagnostic measures and their uncertainty. Ver. 1.0.0. Drama: Hellenic Complex Systems Laboratory, 2024.
-	Source Code: [BayesianDiagnosticMeasures.nb] (BayesianDiagnosticMeasures/BayesianDiagnosticMeasures.nb)
+	Source Code: [BayesianDiagnosticMeasures.nb](BayesianDiagnosticMeasures/BayesianDiagnosticMeasures.nb)
 7. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.0.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source code: [Nutrition.nb](Nutrition/Nutrition.nb)
 8. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.2.2. Drama: Hellenic Complex Systems Laboratory, 2024.
