@@ -1,6 +1,6 @@
 # Relation
 
-A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.4.2. Drama: Hellenic Complex Systems Laboratory, 2024.
+A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.4.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 
 Source Code: [Relation.nb](Relation.nb)
 

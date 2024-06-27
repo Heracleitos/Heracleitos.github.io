@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    245259,       5216]
-NotebookOptionsPosition[    243634,       5181]
-NotebookOutlinePosition[    244084,       5198]
-CellTagsIndexPosition[    244041,       5195]
+NotebookDataLength[    245408,       5218]
+NotebookOptionsPosition[    243783,       5183]
+NotebookOutlinePosition[    244233,       5200]
+CellTagsIndexPosition[    244190,       5197]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5088,14 +5088,14 @@ Cell[TextData[{
   FontSize->10],
  StyleBox["\n",
   FontSize->12],
- StyleBox["The software is provided \[OpenCurlyDoubleQuote]as is\
+ StyleBox["The notebook is provided \[OpenCurlyDoubleQuote]as is\
 \[CloseCurlyDoubleQuote], without warranty of any kind, express or implied, \
 including but not limited to the warranties of merchantability, fitness for a \
 particular purpose and noninfringement. In no event shall the authors or \
 Hellenic Complex Systems Laboratory or any of its members be liable for any \
 claim, damages or other liability, whether in an action of contract, tort or \
-otherwise, arising from, out of or in connection with the software or the use \
-or other dealings in the software.",
+otherwise, arising from, out of or in connection with the notebook or the use \
+or other dealings in the notebook.",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
@@ -5122,8 +5122,10 @@ or other dealings in the software.",
    3.925964983015711*^9, 3.925965007477089*^9}, {3.927722504886324*^9, 
    3.927722516644697*^9}, {3.927723268882079*^9, 3.927723286469499*^9}, {
    3.927723332582638*^9, 3.927723356294976*^9}, {3.9279405252322197`*^9, 
-   3.9279405355143833`*^9}},ExpressionUUID->"9c56cf39-f3b3-6142-ab8a-\
-587cb349966b"],
+   3.9279405355143833`*^9}, {3.9284985843864956`*^9, 3.928498591413629*^9}, {
+   3.928498695086847*^9, 
+   3.9284987074139404`*^9}},ExpressionUUID->"6e788064-e866-e245-8a64-\
+06756dbd556a"],
 
 Cell[TextData[{
  StyleBox["About",
@@ -5137,7 +5139,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/Quality/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.0.2.2\n",
+ StyleBox["\nVersion Number 1.0.2.3\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory ",
@@ -5147,7 +5149,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["2024\nThis software is distributed under  an ",
+ StyleBox["2024\nThe notebook is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Attribution - NonCommercial - ShareAlike 4.0 \
@@ -5174,8 +5176,8 @@ International Creative Commons License",
    3.860029144724223*^9, 3.8600291539083023`*^9}, 3.870408066606884*^9, {
    3.926340662805847*^9, 3.926340668972978*^9}, {3.9277339385967045`*^9, 
    3.92773395988912*^9}, {3.9278685915227356`*^9, 3.927868592101845*^9}, {
-   3.927942173417349*^9, 
-   3.9279421739506645`*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
+   3.927942173417349*^9, 3.927942173950664*^9}, {3.928508099395378*^9, 
+   3.9285081121738853`*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
@@ -5215,8 +5217,8 @@ Cell[146088, 3201, 86028, 1669, 528, "Output",ExpressionUUID->"2014d025-c012-468
 }, Open  ]],
 Cell[232131, 4873, 1740, 45, 68, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
 Cell[233874, 4920, 5144, 163, 61, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16"],
-Cell[239021, 5085, 2368, 40, 47, "Subsubsubsubsection",ExpressionUUID->"9c56cf39-f3b3-6142-ab8a-587cb349966b"],
-Cell[241392, 5127, 2226, 51, 75, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
+Cell[239021, 5085, 2472, 42, 47, "Subsubsubsubsection",ExpressionUUID->"6e788064-e866-e245-8a64-06756dbd556a"],
+Cell[241496, 5129, 2271, 51, 75, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
 }, Open  ]]
 }
 ]

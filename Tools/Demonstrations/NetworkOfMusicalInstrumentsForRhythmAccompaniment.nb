@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     78155,       1843]
-NotebookOptionsPosition[     73144,       1752]
-NotebookOutlinePosition[     73571,       1769]
-CellTagsIndexPosition[     73528,       1766]
+NotebookDataLength[     78428,       1856]
+NotebookOptionsPosition[     73384,       1763]
+NotebookOutlinePosition[     73811,       1780]
+CellTagsIndexPosition[     73768,       1777]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1562,6 +1562,8 @@ recordings\
 75f1f1e115a6"]
 }, Closed]],
 
+Cell[CellGroupData[{
+
 Cell[TextData[StyleBox["Disclaimer of Warranties",
  FontSize->20]], "Section",
  Editable->False,
@@ -1577,17 +1579,17 @@ Cell[TextData[StyleBox["Disclaimer of Warranties",
    3.824288562748387*^9}, {3.824288784545688*^9, 3.824288813125119*^9}, 
    3.824288959149333*^9, {3.824289179714106*^9, 3.824289214280095*^9}, {
    3.824289247927791*^9, 3.824289271662448*^9}, {3.925965869115904*^9, 
-   3.9259659061160583`*^9}},ExpressionUUID->"47b31a13-d8e8-e24b-a88a-\
-eef886ba42e7"],
+   3.9259659061160583`*^9}},ExpressionUUID->"d91e8544-3652-0249-b079-\
+e82e7bce9ae5"],
 
-Cell[TextData[StyleBox["The software is provided \[OpenCurlyDoubleQuote]as is\
+Cell[TextData[StyleBox["The notebook is provided \[OpenCurlyDoubleQuote]as is\
 \[CloseCurlyDoubleQuote], without warranty of any kind, express or implied, \
 including but not limited to the warranties of merchantability, fitness for a \
 particular purpose and noninfringement. In no event shall the authors or \
 Hellenic Complex Systems Laboratory or any of its members be liable for any \
 claim, damages or other liability, whether in an action of contract, tort or \
-otherwise, arising from, out of or in connection with the software or the use \
-or other dealings in the software.",
+otherwise, arising from, out of or in connection with the notebook or the use \
+or other dealings in the notebook.",
  FontFamily->"Source Sans Pro ExtraLight",
  FontSize->12,
  FontColor->RGBColor[0., 0., 0.]]], "Text",
@@ -1605,9 +1607,11 @@ or other dealings in the software.",
    3.824288959149333*^9, {3.824289179714106*^9, 3.824289214280095*^9}, 
    3.824364536962468*^9, 3.925965926224615*^9, {3.925965974557173*^9, 
    3.9259660019968224`*^9}, {3.927733685974373*^9, 3.927733720714319*^9}, {
-   3.927941061182068*^9, 
-   3.927941069056101*^9}},ExpressionUUID->"475619df-86f7-df4a-af16-\
-852e186db08f"],
+   3.927941061182068*^9, 3.927941069056101*^9}, {3.928499152520767*^9, 
+   3.9284991563353868`*^9}, {3.928499187084198*^9, 
+   3.928499199284963*^9}},ExpressionUUID->"c92f475c-135c-9e4b-8a69-\
+0f4d322a08db"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1618,31 +1622,38 @@ Cell["About", "Subsection",
 4c160f4a7e80"],
 
 Cell[BoxData[{
- StyleBox[
-  RowBox[{
+ RowBox[{
+  StyleBox[
    RowBox[{
    "Network", " ", "of", " ", "Musical", " ", "Instruments", " ", "for", " ", 
-    "Rhythm", " ", "Accompaniment"}], " "}],
-  FontFamily->"Source Sans Pro",
-  FontSize->12,
-  FontColor->RGBColor[0., 0., 0.]], "\n", 
+    "Rhythm", " ", "Accompaniment"}],
+   FontFamily->"Source Sans Pro",
+   FontSize->12,
+   FontColor->RGBColor[0., 0., 0.]], 
+  StyleBox[" ",
+   FontFamily->"Source Sans Pro",
+   FontSize->12,
+   FontColor->RGBColor[0., 0., 0.]]}], "\n", 
  StyleBox[
   RowBox[{"Version", " ", "Number", " ", "1.2"}], "Text",
   FontFamily->"Source Sans Pro",
   FontSize->12,
-  FontColor->RGBColor[0., 0., 0.]], "\n", 
+  FontColor->GrayLevel[0.5]], "\n", 
  StyleBox[
   RowBox[{
-   TemplateBox[{
-     RowBox[{
-      "Hellenic", " ", "Complex", " ", "Systems", " ", "Laboratory", " "}], {
-      URL["https://www.hcsl.com"], None}, "https://www.hcsl.com", 
-     "HyperlinkActionNew", {"HyperlinkActive"}, BaseStyle -> {"Hyperlink"}, 
-     HyperlinkAction -> "New"},
-    "HyperlinkTemplate"], "2021"}],
-  FontFamily->"Source Sans Pro",
-  FontSize->12,
-  FontColor->RGBColor[0., 0., 0.]], "\n", 
+   StyleBox[
+    TemplateBox[{
+      RowBox[{
+       "Hellenic", " ", "Complex", " ", "Systems", " ", "Laboratory", " "}], {
+       URL["https://www.hcsl.com"], None}, "https://www.hcsl.com", 
+      "HyperlinkActionNew", {"HyperlinkActive"}, BaseStyle -> {"Hyperlink"}, 
+      HyperlinkAction -> "New"},
+     "HyperlinkTemplate"],
+    FontFamily->"Source Sans Pro",
+    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["2021",
+    FontColor->GrayLevel[0.5]]}],
+  FontSize->12], "\n", 
  StyleBox[
   RowBox[{
    StyleBox["First",
@@ -1702,30 +1713,30 @@ NetworkOfMusicalInstrumentsForRhythmAccompaniment/"},
   FontSize->12], "\n", 
  StyleBox[
   RowBox[{
-   StyleBox["This",
-    FontColor->RGBColor[0., 0., 0.]], 
+   StyleBox["The",
+    FontColor->GrayLevel[0.5]], 
    StyleBox[" ",
-    FontColor->RGBColor[0., 0., 0.]], 
-   StyleBox["software",
-    FontColor->RGBColor[0., 0., 0.]], 
+    FontColor->GrayLevel[0.5]], 
+   StyleBox["notebook",
+    FontColor->GrayLevel[0.5]], 
    StyleBox[" ",
-    FontColor->RGBColor[0., 0., 0.]], 
+    FontColor->GrayLevel[0.5]], 
    StyleBox["is",
-    FontColor->RGBColor[0., 0., 0.]], 
+    FontColor->GrayLevel[0.5]], 
    StyleBox[" ",
-    FontColor->RGBColor[0., 0., 0.]], 
+    FontColor->GrayLevel[0.5]], 
    StyleBox["distributed",
-    FontColor->RGBColor[0., 0., 0.]], 
+    FontColor->GrayLevel[0.5]], 
    StyleBox[" ",
-    FontColor->RGBColor[0., 0., 0.]], 
+    FontColor->GrayLevel[0.5]], 
    StyleBox["under",
-    FontColor->RGBColor[0., 0., 0.]], 
+    FontColor->GrayLevel[0.5]], 
    StyleBox["  ",
-    FontColor->RGBColor[0., 0., 0.]], 
+    FontColor->GrayLevel[0.5]], 
    StyleBox["an",
-    FontColor->RGBColor[0., 0., 0.]], 
+    FontColor->GrayLevel[0.5]], 
    StyleBox[" ",
-    FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]], 
+    FontColor->GrayLevel[0.5]], 
    StyleBox[
     RowBox[{
      ButtonBox[
@@ -1745,8 +1756,8 @@ NetworkOfMusicalInstrumentsForRhythmAccompaniment/"},
    3.833016801419777*^9, 3.833016815103711*^9}, {3.833019727636589*^9, 
    3.833019728998825*^9}, {3.833070622969451*^9, 3.8330706623816605`*^9}, {
    3.83307069678131*^9, 3.8330707261353345`*^9}, {3.833071619560191*^9, 
-   3.833071708994366*^9}, 
-   3.9277356173141785`*^9},ExpressionUUID->"3ffe3345-d57b-4a3f-abe5-\
+   3.833071708994366*^9}, 3.9277356173141785`*^9, {3.928502418254671*^9, 
+   3.9285024239438744`*^9}},ExpressionUUID->"3ffe3345-d57b-4a3f-abe5-\
 eb6a2cfae16a"]
 }, Open  ]]
 },
@@ -1839,11 +1850,13 @@ Cell[CellGroupData[{
 Cell[65021, 1542, 194, 4, 53, "Section",ExpressionUUID->"e50378b3-891a-46bd-938b-63fc5cdcf7ff"],
 Cell[65218, 1548, 307, 13, 196, "Text",ExpressionUUID->"ddd1e148-e80f-4002-a628-75f1f1e115a6"]
 }, Closed]],
-Cell[65540, 1564, 1053, 16, 43, "Section",ExpressionUUID->"47b31a13-d8e8-e24b-a88a-eef886ba42e7"],
-Cell[66596, 1582, 1760, 27, 84, "Text",ExpressionUUID->"475619df-86f7-df4a-af16-852e186db08f"],
 Cell[CellGroupData[{
-Cell[68381, 1613, 193, 4, 54, "Subsection",ExpressionUUID->"11c7dc7f-3906-4c04-a95e-4c160f4a7e80"],
-Cell[68577, 1619, 4551, 130, 166, "Text",ExpressionUUID->"3ffe3345-d57b-4a3f-abe5-eb6a2cfae16a"]
+Cell[65562, 1566, 1053, 16, 43, "Section",ExpressionUUID->"d91e8544-3652-0249-b079-e82e7bce9ae5"],
+Cell[66618, 1584, 1858, 28, 88, "Text",ExpressionUUID->"c92f475c-135c-9e4b-8a69-0f4d322a08db"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[68513, 1617, 193, 4, 54, "Subsection",ExpressionUUID->"11c7dc7f-3906-4c04-a95e-4c160f4a7e80"],
+Cell[68709, 1623, 4659, 137, 166, "Text",ExpressionUUID->"3ffe3345-d57b-4a3f-abe5-eb6a2cfae16a"]
 }, Open  ]]
 }
 ]
