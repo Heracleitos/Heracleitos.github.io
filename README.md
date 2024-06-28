@@ -18,7 +18,7 @@ For further information regarding our research initiatives and outputs, please v
 
 **Hellenic Complex System Laboratory Software Repository**
 
-Specifically, the source code of software developed by Hellenic Complex System Laboratory, available at this [repository](https://github.com/Heracleitos/Heracleitos.github.io/tree/main/Tools), is also accessible, along with additional resources, through the HCSL official website at https://www.hcsl.com/Tools/.
+Specifically, the source code of software developed by Hellenic Complex System Laboratory ia available at this [repository](https://github.com/Heracleitos/Heracleitos.github.io/tree/main/Tools). These resources, along with additional materials, are also accessible through the HCSL official website at https://www.hcsl.com/Tools/.
 
 **Intellectual Property Rights**
 
