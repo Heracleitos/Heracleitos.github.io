@@ -4,7 +4,7 @@
 
 **Overview**
 
-Welcome to the official GitHub repository for  Hellenic Complex System Laboratory (HCSL). This repository serves as a portal to the HCSL's digital presence, offering access to essential resources such as scientific publications and software developed by our team. These resources are available through the HCSL official website at https://www.hcsl.com. 
+Welcome to the official GitHub repository for  Hellenic Complex System Laboratory (HCSL). This repository serves as a portal to the HCSL's digital presence, offering access to essential resources such as scientific publications and the source code of software developed by our team. These resources are available through the HCSL official website at https://www.hcsl.com. 
 
 **About the Laboratory**
 
@@ -18,7 +18,7 @@ For further information regarding our research initiatives and outputs, please v
 
 **Hellenic Complex System Laboratory Software Repository**
 
-Specifically, the source code of the software developed by Hellenic Complex System Laboratory, available at this [repository](https://github.com/Heracleitos/Heracleitos.github.io/tree/main/Tools), is also accessible, along with additional resources, through the HCSL official website at https://www.hcsl.com/Tools/.
+Specifically, the source code of software developed by Hellenic Complex System Laboratory, available at this [repository](https://github.com/Heracleitos/Heracleitos.github.io/tree/main/Tools), is also accessible, along with additional resources, through the HCSL official website at https://www.hcsl.com/Tools/.
 
 **Intellectual Property Rights**
 
