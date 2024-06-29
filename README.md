@@ -16,10 +16,6 @@ The primary aim of this repository is to disseminate knowledge produced by Helle
 
 For further information regarding our research initiatives and outputs, please visit our [website](https://www.hcsl.com).
 
-**Hellenic Complex System Laboratory Software Repository**
-
-Specifically, the source code of software developed by Hellenic Complex System Laboratory ia available at this [repository](https://github.com/Heracleitos/Heracleitos.github.io/tree/main/Tools). These resources, along with additional materials, are also accessible through the HCSL official website at https://www.hcsl.com/Tools/.
-
 **Intellectual Property Rights**
 
 Except where otherwise noted, the material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, notebooks, and web content, is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
