@@ -14,13 +14,13 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 	Source: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 4. Chatzimichail T., Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 1.0.1.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
-5. A software tool for parametric estimation of Bayesian medical diagnostic measures and their uncertainty. Ver. 1.1.2. Drama: Hellenic Complex Systems Laboratory, 2024.
+5. Chatzimichail T., Hatjimihail AT. Bayesian Diagnostic Insights: A software tool for parametric estimation of Bayesian medical diagnostic measures and their uncertainty. Ver. 1.1.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
 6. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.0.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source: [Nutrition.nb](Nutrition/Nutrition.nb)
 7. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.2.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source: [Quality.nb](Quality/Quality.nb)
-8. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.3.3. Drama: Hellenic Complex Systems Laboratory, 2024.
+8. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.3.3. Drama: Hellenic Complex 		Systems Laboratory, 2024.
 	Source: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
 9.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.3.3. Drama: Hellenic Complex Systems Laboratory, 2024
 	Source: [QualityControl.nb](QualityControl/QualityControl.nb)
