@@ -10,11 +10,11 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 	Source: [Relation.nb](Relation/Relation.nb)
 2. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 1.1.1.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
-3. Chatzimichail T., Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6.3. Drama: Hellenic Complex Systems Laboratory, 2024.
+3. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
-4. Chatzimichail T., Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 1.0.1.3. Drama: Hellenic Complex Systems Laboratory, 2024.
+4. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 1.0.1.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
-5. Chatzimichail T., Hatjimihail AT. Bayesian Diagnostic Insights: A software tool for parametric estimation of Bayesian medical diagnostic measures and their uncertainty. Ver. 1.1.2. Drama: Hellenic Complex Systems Laboratory, 2024.
+5. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A software tool for parametric estimation of Bayesian medical diagnostic measures and their uncertainty. Ver. 1.1.2. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
 6. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.0.3. Drama: Hellenic Complex Systems Laboratory, 2024.
 	Source: [Nutrition.nb](Nutrition/Nutrition.nb)
