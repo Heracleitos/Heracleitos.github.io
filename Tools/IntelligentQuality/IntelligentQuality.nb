@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2888171,      56364]
-NotebookOptionsPosition[   2886067,      56320]
-NotebookOutlinePosition[   2886517,      56337]
-CellTagsIndexPosition[   2886474,      56334]
+NotebookDataLength[   2883300,      56309]
+NotebookOptionsPosition[   2881317,      56267]
+NotebookOutlinePosition[   2881767,      56284]
+CellTagsIndexPosition[   2881724,      56281]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -70,7 +70,7 @@ Cell[TextData[{
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{
   3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
-   3.780026882968507*^9, 3.780026977147427*^9}, 3.7804577481605663`*^9, {
+   3.780026882968507*^9, 3.780026977147427*^9}, 3.7804577481605673`*^9, {
    3.857954268390501*^9, 3.857954275782502*^9}, {3.857956704152818*^9, 
    3.85795670672882*^9}, {3.8582956642919564`*^9, 3.8582956869059477`*^9}, 
    3.864520197936945*^9},ExpressionUUID->"48efdfee-c390-4c7d-aeb4-\
@@ -89,9 +89,10 @@ Hellenic Complex Systems Laboratory, Kostis Palamas 21, 66131 Drama, Greece.\
 0f08bcc41750"]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[{
- RowBox[{
-  RowBox[{"Clear", "[", "\"\<`*\>\"", "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", "\"\<`*\>\"", "]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"Off", "[", 
    RowBox[{"General", "::", "stop"}], "]"}], ";"}], "\[IndentingNewLine]", 
@@ -26890,15 +26891,17 @@ FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[\\\",\\\",FontWeight->\\\"Normal\\\
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"1", ",", "1"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"1\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"1\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\")\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ";", 
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"2", ",", "1"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"1\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"1\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -26907,8 +26910,9 @@ StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"3", ",", "1"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"1\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"1\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -26920,8 +26924,9 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"4", ",", "1"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"1\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"1\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -26937,15 +26942,17 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"1", ",", "2"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"2\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"2\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\")\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ";", 
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"2", ",", "2"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"2\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"2\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -26954,8 +26961,9 @@ StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"3", ",", "2"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"2\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"2\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -26967,8 +26975,9 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"4", ",", "2"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"2\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"2\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -26984,15 +26993,17 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"1", ",", "3"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"3\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"3\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\")\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ";", 
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"2", ",", "3"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"3\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"3\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27001,8 +27012,9 @@ StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"3", ",", "3"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"3\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"3\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27014,8 +27026,9 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"4", ",", "3"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"3\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"3\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27031,15 +27044,17 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"1", ",", "4"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"4\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"4\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\")\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ";", 
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"2", ",", "4"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"4\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"4\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27048,8 +27063,9 @@ StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"3", ",", "4"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"4\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"4\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27061,8 +27077,9 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"4", ",", "4"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"4\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"4\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27078,15 +27095,17 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"1", ",", "6"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"6\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"6\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\")\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ";", 
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"2", ",", "6"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"6\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"6\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27095,8 +27114,9 @@ StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"3", ",", "6"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"6\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"6\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27108,8 +27128,9 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"4", ",", "6"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"6\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"6\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27125,15 +27146,17 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"1", ",", "8"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"8\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"8\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\")\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ";", 
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"2", ",", "8"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"8\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"8\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27142,8 +27165,9 @@ StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"3", ",", "8"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"8\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"8\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27155,8 +27179,9 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"4", ",", "8"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \"8\"]\)(\!\
-\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"8\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
 StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
@@ -27172,16 +27197,16 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"1", ",", "12"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
-\"12\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"12\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
 Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\")\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ";", 
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"2", ",", "12"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
-\"12\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"12\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
 Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
@@ -27191,8 +27216,8 @@ StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"3", ",", "12"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
-\"12\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"12\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
 Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
@@ -27205,8 +27230,8 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"4", ",", "12"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
-\"12\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"12\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
 Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
@@ -27223,8 +27248,8 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"1", ",", "16"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
-\"16\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"16\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
 Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\")\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ";", 
@@ -27242,8 +27267,8 @@ StyleBox[\\\"x\\\",FontSlant->\\\"Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"3", ",", "16"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
-\"16\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"16\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
 Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
@@ -27256,8 +27281,8 @@ Italic\\\"], \
   RowBox[{
    RowBox[{"strn", "[", 
     RowBox[{"4", ",", "16"}], "]"}], "=", 
-   "\"\<\!\(\*SubscriptBox[StyleBox[\"N\",FontSlant->\"Italic\"], \
-\"16\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
+   "\"\<\!\(\*SubscriptBox[StyleBox[\\\"N\\\",FontSlant->\\\"Italic\\\"], \
+\\\"16\\\"]\)(\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"x\\\",FontSlant->\\\"\
 Italic\\\"], \
 StyleBox[\\\"1\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\!\(\
 \*StyleBox[\\\",\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[SubscriptBox[\
@@ -27443,48 +27468,48 @@ Italic\\\"], \
   RowBox[{"Block", "[", 
    RowBox[{
     RowBox[{"{", "d", "}"}], ",", 
-    RowBox[{
-     RowBox[{"d", "=", 
+    RowBox[{"d", "=", 
+     RowBox[{
       RowBox[{"dl", "[", 
-       RowBox[{"p", ",", "n"}], "]"}]}], ";", 
-     RowBox[{"Switch", "[", 
-      RowBox[{"t", ",", "1", ",", 
-       RowBox[{"If", "[", 
-        RowBox[{
-         RowBox[{"k", "<", "n"}], ",", 
+       RowBox[{"p", ",", "n"}], "]"}], 
+      RowBox[{"Switch", "[", 
+       RowBox[{"t", ",", "1", ",", 
+        RowBox[{"If", "[", 
          RowBox[{
-          RowBox[{"ped", "[", 
-           RowBox[{"0", ",", "s", ",", "d", ",", "k"}], "]"}], "+", 
-          RowBox[{"ped", "[", 
-           RowBox[{"0", ",", "1", ",", "d", ",", 
-            RowBox[{"n", "-", "k"}]}], "]"}], "-", 
+          RowBox[{"k", "<", "n"}], ",", 
           RowBox[{
            RowBox[{"ped", "[", 
-            RowBox[{"0", ",", "s", ",", "d", ",", "k"}], "]"}], 
+            RowBox[{"0", ",", "s", ",", "d", ",", "k"}], "]"}], "+", 
            RowBox[{"ped", "[", 
             RowBox[{"0", ",", "1", ",", "d", ",", 
-             RowBox[{"n", "-", "k"}]}], "]"}]}]}], ",", 
-         RowBox[{"ped", "[", 
-          RowBox[{"0", ",", "s", ",", "d", ",", "n"}], "]"}]}], "]"}], ",", 
-       "2", ",", 
-       RowBox[{"If", "[", 
-        RowBox[{
-         RowBox[{"k", "<", "n"}], ",", 
+             RowBox[{"n", "-", "k"}]}], "]"}], "-", 
+           RowBox[{
+            RowBox[{"ped", "[", 
+             RowBox[{"0", ",", "s", ",", "d", ",", "k"}], "]"}], 
+            RowBox[{"ped", "[", 
+             RowBox[{"0", ",", "1", ",", "d", ",", 
+              RowBox[{"n", "-", "k"}]}], "]"}]}]}], ",", 
+          RowBox[{"ped", "[", 
+           RowBox[{"0", ",", "s", ",", "d", ",", "n"}], "]"}]}], "]"}], ",", 
+        "2", ",", 
+        RowBox[{"If", "[", 
          RowBox[{
-          RowBox[{"ped", "[", 
-           RowBox[{"m", ",", "1", ",", "d", ",", "k"}], "]"}], "+", 
-          RowBox[{"ped", "[", 
-           RowBox[{"0", ",", "1", ",", "d", ",", 
-            RowBox[{"n", "-", "k"}]}], "]"}], "-", 
+          RowBox[{"k", "<", "n"}], ",", 
           RowBox[{
            RowBox[{"ped", "[", 
-            RowBox[{"m", ",", "1", ",", "d", ",", "k"}], "]"}], 
+            RowBox[{"m", ",", "1", ",", "d", ",", "k"}], "]"}], "+", 
            RowBox[{"ped", "[", 
             RowBox[{"0", ",", "1", ",", "d", ",", 
-             RowBox[{"n", "-", "k"}]}], "]"}]}]}], ",", 
-         RowBox[{"ped", "[", 
-          RowBox[{"m", ",", "1", ",", "d", ",", "n"}], "]"}]}], "]"}]}], 
-      "]"}]}]}], "]"}]}], "\n", 
+             RowBox[{"n", "-", "k"}]}], "]"}], "-", 
+           RowBox[{
+            RowBox[{"ped", "[", 
+             RowBox[{"m", ",", "1", ",", "d", ",", "k"}], "]"}], 
+            RowBox[{"ped", "[", 
+             RowBox[{"0", ",", "1", ",", "d", ",", 
+              RowBox[{"n", "-", "k"}]}], "]"}]}]}], ",", 
+          RowBox[{"ped", "[", 
+           RowBox[{"m", ",", "1", ",", "d", ",", "n"}], "]"}]}], "]"}]}], 
+       "]"}]}]}]}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"sqcn", "[", 
    RowBox[{"t_", ",", "n_", ",", "k_", ",", "i_"}], "]"}], ":=", 
@@ -29920,66 +29945,7 @@ StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\) detection\>\"", ",",
        RowBox[{"{", 
         RowBox[{"Automatic", ",", "Automatic"}], "}"}]}]}], "]"}], ",", 
     RowBox[{"BaseStyle", "\[Rule]", 
-     RowBox[{"{", "Medium", "}"}]}]}], "]"}]}]}], "Input",
- Editable->False,
- Deployed->True,
- CellOpen->False,
- InitializationCell->True,
- CellChangeTimes->{
-  3.8398275195115633`*^9, {3.839861681824535*^9, 3.839861702592983*^9}, {
-   3.846997892508794*^9, 3.8469978945705*^9}, {3.847769270406137*^9, 
-   3.847769279391933*^9}, {3.8478613696310425`*^9, 3.847861379879113*^9}, 
-   3.858251702911587*^9, 3.8582519545775905`*^9, {3.85825213160659*^9, 
-   3.858252163340586*^9}, {3.85825219845659*^9, 3.858252216056587*^9}, 
-   3.858252322774596*^9, 3.858252364755588*^9, {3.858252517117589*^9, 
-   3.858252522387587*^9}, {3.858252716517339*^9, 3.8582527174033318`*^9}, {
-   3.858252921045334*^9, 3.8582529228113365`*^9}, {3.858253614648902*^9, 
-   3.858253745846899*^9}, {3.858295840966984*^9, 3.858295879745983*^9}, 
-   3.858296087797981*^9, {3.858296350806978*^9, 3.858296352339982*^9}, {
-   3.8582973239524117`*^9, 3.8582973254734163`*^9}, {3.858297371055416*^9, 
-   3.858297372579415*^9}, 3.8582974757354145`*^9, 3.858297805436416*^9, {
-   3.858298531605417*^9, 3.858298552294413*^9}, {3.8582986075044174`*^9, 
-   3.85829865387738*^9}, {3.8582987044004126`*^9, 3.858298705798413*^9}, {
-   3.858298742616412*^9, 3.85829874598242*^9}, {3.8582988122234144`*^9, 
-   3.858298841909414*^9}, {3.858303278334328*^9, 3.858303295797325*^9}, 
-   3.8583033418541517`*^9, 3.858303421453151*^9, {3.85830384678115*^9, 
-   3.8583039745421524`*^9}, {3.858304012972151*^9, 3.858304074081154*^9}, {
-   3.858304189961152*^9, 3.858304190617152*^9}, {3.858304265888699*^9, 
-   3.858304332688697*^9}, {3.8583045132527*^9, 3.858304555642698*^9}, {
-   3.858304668029695*^9, 3.858304871731696*^9}, {3.8583049048406954`*^9, 
-   3.8583049132517033`*^9}, {3.858304945986696*^9, 3.8583049489547005`*^9}, {
-   3.8583050855506973`*^9, 3.858305115669696*^9}, 3.8583052955477033`*^9, {
-   3.858305331563698*^9, 3.858305529922703*^9}, 3.858308996095528*^9, 
-   3.8583092971067*^9, {3.858310023662702*^9, 3.858310025243699*^9}, {
-   3.8583103942254534`*^9, 3.858310447560455*^9}, {3.858310481019453*^9, 
-   3.858310484658452*^9}, {3.858310526972455*^9, 3.858310555171452*^9}, 
-   3.8583143883257084`*^9, 3.86432651477971*^9, 3.864327327953734*^9, {
-   3.864348334755331*^9, 3.864348349555121*^9}, {3.8643483822580624`*^9, 
-   3.864348382729268*^9}, {3.864348512020685*^9, 3.864348513245549*^9}, {
-   3.864348660685354*^9, 3.864348661793112*^9}, {3.864349031167493*^9, 
-   3.8643490491422243`*^9}, 3.864468285862273*^9, {3.864513469997469*^9, 
-   3.864513510624077*^9}, 3.864513546584255*^9, 3.864517304578444*^9, 
-   3.864517744151547*^9, 3.864520098055075*^9, {3.864520670673518*^9, 
-   3.8645207149660916`*^9}, {3.86452076708111*^9, 3.864520838756196*^9}, {
-   3.864520868846649*^9, 3.864520889842775*^9}, {3.86581774654776*^9, 
-   3.865817786586348*^9}, {3.865817823207731*^9, 3.8658178636104317`*^9}, {
-   3.8658179814608974`*^9, 3.865817982104893*^9}, {3.86582038626365*^9, 
-   3.865820407072923*^9}, {3.8658204694112587`*^9, 3.865820503276741*^9}, {
-   3.86582054218734*^9, 3.865820587405557*^9}, {3.865820647562425*^9, 
-   3.8658208704776115`*^9}, {3.865820904706632*^9, 3.865820970357624*^9}, {
-   3.865821163150883*^9, 3.865821220296664*^9}, {3.865821278025129*^9, 
-   3.865821540735348*^9}, {3.865821589607895*^9, 3.865821687329956*^9}, {
-   3.865821720391579*^9, 3.8658221133842025`*^9}, {3.86582275827252*^9, 
-   3.865822758704599*^9}, {3.865822868327955*^9, 3.865822869307786*^9}, {
-   3.865822941043218*^9, 3.86582294146995*^9}, 3.865823051970671*^9, {
-   3.865823621717367*^9, 3.865824107196925*^9}, 3.86582929092256*^9, {
-   3.8751858563916993`*^9, 3.875185980933496*^9}, 3.875197228335163*^9, {
-   3.926339794115652*^9, 3.9263397953104477`*^9}},
- FontWeight->"Bold",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
+     RowBox[{"{", "Medium", "}"}]}]}], "]"}]}], "\n", 
  RowBox[{"TabView", "[", 
   RowBox[{
    RowBox[{"{", "\[IndentingNewLine]", 
@@ -30837,9 +30803,9 @@ FontSlant->\\\"Italic\\\"], \
                RowBox[{"{", 
                 RowBox[{
                 "mcr", ",", "3", ",", 
-                 "\"\<\!\(\*SubscriptBox[\"\[Mu]\", \
-StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "0", ",", "6", 
-               ",", "0.01", ",", 
+                 "\"\<\!\(\*SubscriptBox[\\\"\[Mu]\\\", \
+StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\)\>\""}], "}"}], ",", "0", ",",
+                "6", ",", "0.01", ",", 
                RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -30851,9 +30817,9 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "0", ",", "6",
                RowBox[{"{", 
                 RowBox[{
                 "scr", ",", "4", ",", 
-                 "\"\<\!\(\*SubscriptBox[\"\[Sigma]\", \
-StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7", 
-               ",", "0.01", ",", 
+                 "\"\<\!\(\*SubscriptBox[\\\"\[Sigma]\\\", \
+StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\)\>\""}], "}"}], ",", "1", ",",
+                "7", ",", "0.01", ",", 
                RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -30996,9 +30962,9 @@ FontSlant->\\\"Italic\\\"], \
                RowBox[{"{", 
                 RowBox[{
                 "mcr", ",", "3", ",", 
-                 "\"\<\!\(\*SubscriptBox[\"\[Mu]\", \
-StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "0", ",", "6", 
-               ",", "0.01", ",", 
+                 "\"\<\!\(\*SubscriptBox[\\\"\[Mu]\\\", \
+StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\)\>\""}], "}"}], ",", "0", ",",
+                "6", ",", "0.01", ",", 
                RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -31010,9 +30976,9 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "0", ",", "6",
                RowBox[{"{", 
                 RowBox[{
                 "scr", ",", "4", ",", 
-                 "\"\<\!\(\*SubscriptBox[\"\[Sigma]\", \
-StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7", 
-               ",", "0.01", ",", 
+                 "\"\<\!\(\*SubscriptBox[\\\"\[Sigma]\\\", \
+StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\)\>\""}], "}"}], ",", "1", ",",
+                "7", ",", "0.01", ",", 
                RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -31031,6 +30997,7 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
                 RowBox[{
                  RowBox[{
                  "1", "\[Rule]", 
+                  
                   "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"N\\\",\
 FontSlant->\\\"Italic\\\"], \
 \\\"1\\\"],FontWeight->\\\"Plain\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontWeight->\\\
@@ -31197,9 +31164,10 @@ FontSlant->\\\"Italic\\\"], \
                RowBox[{"{", 
                 RowBox[{
                 "mcr", ",", "3", ",", 
-                 "\"\<\!\(\*SubscriptBox[\"\[Mu]\", \
-StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "0", ",", "6", 
-               ",", "0.01", ",", 
+                 
+                 "\"\<\!\(\*SubscriptBox[\\\"\[Mu]\\\", \
+StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\)\>\""}], "}"}], ",", "0", ",",
+                "6", ",", "0.01", ",", 
                RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -31211,9 +31179,9 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "0", ",", "6",
                RowBox[{"{", 
                 RowBox[{
                 "scr", ",", "4", ",", 
-                 "\"\<\!\(\*SubscriptBox[\"\[Sigma]\", \
-StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7", 
-               ",", "0.01", ",", 
+                 "\"\<\!\(\*SubscriptBox[\\\"\[Sigma]\\\", \
+StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\)\>\""}], "}"}], ",", "1", ",",
+                "7", ",", "0.01", ",", 
                RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -31462,9 +31430,9 @@ FontSlant->\\\"Italic\\\"], \
                RowBox[{"{", 
                 RowBox[{
                 "mcr", ",", "3", ",", 
-                 "\"\<\!\(\*SubscriptBox[\"\[Mu]\", \
-StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "0", ",", "6", 
-               ",", "0.01", ",", 
+                 "\"\<\!\(\*SubscriptBox[\\\"\[Mu]\\\", \
+StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\)\>\""}], "}"}], ",", "0", ",",
+                "6", ",", "0.01", ",", 
                RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -31476,9 +31444,9 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "0", ",", "6",
                RowBox[{"{", 
                 RowBox[{
                 "scr", ",", "4", ",", 
-                 "\"\<\!\(\*SubscriptBox[\"\[Sigma]\", \
-StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7", 
-               ",", "0.01", ",", 
+                 "\"\<\!\(\*SubscriptBox[\\\"\[Sigma]\\\", \
+StyleBox[\\\"c\\\",FontSlant->\\\"Italic\\\"]]\)\>\""}], "}"}], ",", "1", ",",
+                "7", ",", "0.01", ",", 
                RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
                RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], 
              ",", "\[IndentingNewLine]", "Delimiter", ",", 
@@ -31574,83 +31542,62 @@ StyleBox[\"c\",FontSlant->\"Italic\"]]\)\>\""}], "}"}], ",", "1", ",", "7",
         RowBox[{"ImageSize", "\[Rule]", "All"}]}], "]"}]}]}], 
     "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", " ", 
    RowBox[{"ImageSize", "\[Rule]", "Automatic"}]}], "\[IndentingNewLine]", 
-  "]"}]], "Input",
+  "]"}]}], "Input",
  Editable->False,
- Deployed->True,
  CellOpen->False,
- CellChangeTimes->{{3.864347326588585*^9, 3.864347430987009*^9}, {
-   3.8643474742465515`*^9, 3.864347505266914*^9}, {3.864347548406168*^9, 
-   3.8643475700863876`*^9}, {3.8643476154648952`*^9, 
-   3.8643476162487173`*^9}, {3.864347691926837*^9, 3.864347692973485*^9}, {
-   3.864347792846565*^9, 3.864347847769353*^9}, {3.864347955536621*^9, 
-   3.8643479582088394`*^9}, {3.8643485489424233`*^9, 3.864348566103163*^9}, {
-   3.864349163624828*^9, 3.864349178840108*^9}, {3.86434979643538*^9, 
-   3.864349834671506*^9}, {3.86435065723055*^9, 3.864350706953483*^9}, {
-   3.864350791518473*^9, 3.8643508114241176`*^9}, {3.864350877279256*^9, 
-   3.864350887479091*^9}, {3.8643510244225245`*^9, 3.86435111376814*^9}, {
-   3.864351178214199*^9, 3.8643512855330286`*^9}, {3.8643513319105487`*^9, 
-   3.8643513488465533`*^9}, {3.864351379614418*^9, 3.864351381438238*^9}, {
-   3.864351417061762*^9, 3.864351436197959*^9}, {3.864351560175108*^9, 
-   3.8643515873987494`*^9}, {3.86435171123982*^9, 3.864351716952132*^9}, {
-   3.86435183702267*^9, 3.864351844821184*^9}, {3.864352004271576*^9, 
-   3.864352040425504*^9}, 3.8643521656570845`*^9, 3.864352247439347*^9, {
-   3.8643525266407976`*^9, 3.864352545072476*^9}, {3.864352811031593*^9, 
-   3.864352812966771*^9}, {3.864352853303624*^9, 3.864352859304127*^9}, {
-   3.864352980265074*^9, 3.8643529885275245`*^9}, {3.8643530332078943`*^9, 
-   3.8643530405425735`*^9}, 3.8643558763189955`*^9, {3.864355908913252*^9, 
-   3.864355913568839*^9}, {3.8643559448211365`*^9, 3.864355962070108*^9}, {
-   3.864356016256669*^9, 3.864356044982456*^9}, 3.864356468318394*^9, {
-   3.864356612614314*^9, 3.8643567016949396`*^9}, {3.864356767001571*^9, 
-   3.864356768157536*^9}, {3.8643568111421804`*^9, 3.864356827014502*^9}, {
-   3.8643568738554945`*^9, 3.864356884167635*^9}, {3.864356932278896*^9, 
-   3.864356985086363*^9}, {3.864357145192207*^9, 3.8643571552706194`*^9}, {
-   3.864359690159758*^9, 3.864359694341827*^9}, {3.86435974577233*^9, 
-   3.864359805323951*^9}, {3.864360150669469*^9, 3.864360195940799*^9}, {
-   3.8643602472227273`*^9, 3.864360275278417*^9}, {3.864360308838047*^9, 
-   3.8643603144378557`*^9}, {3.8643606373233585`*^9, 
-   3.8643606379446135`*^9}, {3.864360755092436*^9, 3.8643607618036017`*^9}, {
-   3.8643608101494255`*^9, 3.8643608166148033`*^9}, {3.864361034533219*^9, 
-   3.8643610352683287`*^9}, {3.864361234166912*^9, 3.8643612419410477`*^9}, {
-   3.864361290158519*^9, 3.864361322024349*^9}, {3.864361367132322*^9, 
-   3.8643613694380713`*^9}, 3.864361857115324*^9, {3.8643619005077486`*^9, 
-   3.864361918570523*^9}, {3.864361964619037*^9, 3.864361994848333*^9}, {
-   3.864362057873363*^9, 3.864362090754849*^9}, {3.8643621294473825`*^9, 
-   3.864362146788765*^9}, {3.864362181997248*^9, 3.8643621917403245`*^9}, {
-   3.8643622229006996`*^9, 3.864362266980479*^9}, {3.864365747583598*^9, 
-   3.864365789460649*^9}, {3.8643658252009974`*^9, 3.864365846150797*^9}, {
-   3.864366079212992*^9, 3.864366219564825*^9}, {3.864366590181232*^9, 
-   3.86436665209136*^9}, {3.864368048853439*^9, 3.8643681261474285`*^9}, {
-   3.864368252084057*^9, 3.8643682792508993`*^9}, {3.864368831452781*^9, 
-   3.864368833273237*^9}, {3.8643822960475287`*^9, 3.864382305337832*^9}, {
-   3.8644379157931113`*^9, 3.864437995321209*^9}, 3.864438063107921*^9, {
-   3.86443809396706*^9, 3.8644381068975677`*^9}, {3.864438139095137*^9, 
-   3.864438151590673*^9}, {3.86443821769994*^9, 3.864438233367805*^9}, {
-   3.864439779985488*^9, 3.864439786554217*^9}, {3.8644399535332427`*^9, 
-   3.864439964049356*^9}, {3.8644400189920425`*^9, 3.8644400597777653`*^9}, 
-   3.864440103896488*^9, {3.8644401976947446`*^9, 3.864440240641381*^9}, {
-   3.864440274443262*^9, 3.8644402960913157`*^9}, {3.864440363417488*^9, 
-   3.864440376930669*^9}, {3.864440442749021*^9, 3.864440452561648*^9}, {
-   3.864440632578367*^9, 3.8644406353705177`*^9}, {3.8644408095304184`*^9, 
-   3.864440824721318*^9}, 3.8644409031857367`*^9, 3.864440970754284*^9, 
-   3.864441008855311*^9, 3.864441054729308*^9, 3.864441103194223*^9, 
-   3.864441190562165*^9, {3.864441241935257*^9, 3.864441242125748*^9}, {
-   3.8644412788975344`*^9, 3.8644414064957304`*^9}, {3.864441476003344*^9, 
-   3.8644414958803*^9}, {3.864441538576414*^9, 3.864441653985778*^9}, {
-   3.8644416849075704`*^9, 3.864441692616482*^9}, 3.86444173302627*^9, {
-   3.8644417822880597`*^9, 3.86444183531236*^9}, {3.864441995338834*^9, 
-   3.864441996504408*^9}, {3.864442029953131*^9, 3.864442084088363*^9}, {
-   3.8644421420005903`*^9, 3.8644422024318185`*^9}, {3.864442308977177*^9, 
-   3.864442326206206*^9}, {3.8644659886050663`*^9, 3.8644659886403775`*^9}, {
-   3.8644661271876917`*^9, 3.8644661546211376`*^9}, {3.864516430998115*^9, 
-   3.864516434965548*^9}, {3.865823136176049*^9, 3.86582318130272*^9}, {
-   3.8658232407364655`*^9, 3.865823324247931*^9}, {3.865824496331652*^9, 
-   3.8658245042427607`*^9}, {3.865824558458846*^9, 3.865824558607876*^9}, {
-   3.865824643418391*^9, 3.8658246598193793`*^9}, {3.8670649707132993`*^9, 
-   3.867064970927777*^9}, {3.867065028014097*^9, 3.8670650281840997`*^9}, 
-   3.867065303312517*^9, {3.8670653484367285`*^9, 3.8670654216928577`*^9}, 
-   3.867066049070212*^9, {3.87042161306981*^9, 3.8704216132897644`*^9}},
- CellLabel->
-  "In[1771]:=",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73"],
+ InitializationCell->True,
+ CellChangeTimes->{
+  3.8398275195115633`*^9, {3.839861681824535*^9, 3.839861702592983*^9}, {
+   3.846997892508794*^9, 3.8469978945705*^9}, {3.847769270406137*^9, 
+   3.847769279391933*^9}, {3.8478613696310425`*^9, 3.847861379879113*^9}, 
+   3.858251702911587*^9, 3.8582519545775905`*^9, {3.85825213160659*^9, 
+   3.858252163340586*^9}, {3.85825219845659*^9, 3.858252216056587*^9}, 
+   3.858252322774596*^9, 3.858252364755588*^9, {3.858252517117589*^9, 
+   3.858252522387587*^9}, {3.858252716517339*^9, 3.8582527174033318`*^9}, {
+   3.858252921045334*^9, 3.8582529228113365`*^9}, {3.858253614648902*^9, 
+   3.858253745846899*^9}, {3.858295840966984*^9, 3.858295879745983*^9}, 
+   3.858296087797981*^9, {3.858296350806978*^9, 3.858296352339982*^9}, {
+   3.8582973239524117`*^9, 3.8582973254734163`*^9}, {3.858297371055416*^9, 
+   3.858297372579415*^9}, 3.8582974757354145`*^9, 3.858297805436416*^9, {
+   3.858298531605417*^9, 3.858298552294413*^9}, {3.8582986075044174`*^9, 
+   3.85829865387738*^9}, {3.8582987044004126`*^9, 3.858298705798413*^9}, {
+   3.858298742616412*^9, 3.85829874598242*^9}, {3.8582988122234144`*^9, 
+   3.858298841909414*^9}, {3.858303278334328*^9, 3.858303295797325*^9}, 
+   3.8583033418541517`*^9, 3.858303421453151*^9, {3.85830384678115*^9, 
+   3.8583039745421524`*^9}, {3.858304012972151*^9, 3.858304074081154*^9}, {
+   3.858304189961152*^9, 3.858304190617152*^9}, {3.858304265888699*^9, 
+   3.858304332688697*^9}, {3.8583045132527*^9, 3.858304555642698*^9}, {
+   3.858304668029695*^9, 3.858304871731696*^9}, {3.8583049048406954`*^9, 
+   3.8583049132517033`*^9}, {3.858304945986696*^9, 3.8583049489547005`*^9}, {
+   3.8583050855506973`*^9, 3.858305115669696*^9}, 3.8583052955477033`*^9, {
+   3.858305331563698*^9, 3.858305529922703*^9}, 3.858308996095528*^9, 
+   3.8583092971067*^9, {3.858310023662702*^9, 3.858310025243699*^9}, {
+   3.8583103942254534`*^9, 3.858310447560455*^9}, {3.858310481019453*^9, 
+   3.858310484658452*^9}, {3.858310526972455*^9, 3.858310555171452*^9}, 
+   3.8583143883257084`*^9, 3.86432651477971*^9, 3.864327327953734*^9, {
+   3.864348334755331*^9, 3.864348349555121*^9}, {3.8643483822580624`*^9, 
+   3.864348382729268*^9}, {3.864348512020685*^9, 3.864348513245549*^9}, {
+   3.864348660685354*^9, 3.864348661793112*^9}, {3.864349031167493*^9, 
+   3.8643490491422243`*^9}, 3.864468285862273*^9, {3.864513469997469*^9, 
+   3.864513510624077*^9}, 3.864513546584255*^9, 3.864517304578444*^9, 
+   3.864517744151547*^9, 3.864520098055075*^9, {3.864520670673518*^9, 
+   3.8645207149660916`*^9}, {3.86452076708111*^9, 3.864520838756196*^9}, {
+   3.864520868846649*^9, 3.864520889842775*^9}, {3.86581774654776*^9, 
+   3.865817786586348*^9}, {3.865817823207731*^9, 3.8658178636104317`*^9}, {
+   3.8658179814608974`*^9, 3.865817982104893*^9}, {3.86582038626365*^9, 
+   3.865820407072923*^9}, {3.8658204694112587`*^9, 3.865820503276741*^9}, {
+   3.86582054218734*^9, 3.865820587405557*^9}, {3.865820647562425*^9, 
+   3.8658208704776115`*^9}, {3.865820904706632*^9, 3.865820970357624*^9}, {
+   3.865821163150883*^9, 3.865821220296664*^9}, {3.865821278025129*^9, 
+   3.865821540735348*^9}, {3.865821589607895*^9, 3.865821687329956*^9}, {
+   3.865821720391579*^9, 3.8658221133842015`*^9}, {3.86582275827252*^9, 
+   3.865822758704599*^9}, {3.865822868327955*^9, 3.865822869307786*^9}, {
+   3.865822941043218*^9, 3.86582294146995*^9}, 3.865823051970671*^9, {
+   3.865823621717367*^9, 3.865824107196925*^9}, 3.86582929092256*^9, {
+   3.8751858563916993`*^9, 3.875185980933496*^9}, 3.875197228335163*^9, {
+   3.926339794115652*^9, 3.926339795310448*^9}, 3.930538571249117*^9, 
+   3.930538676196024*^9, 3.9305388301437187`*^9},
+ FontWeight->"Bold",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"QC plots\"\>"->
@@ -56283,7 +56230,7 @@ Cell[TextData[{
   FontSize->10],
  StyleBox["\n",
   FontSize->12],
- StyleBox["Intelligent Quality\nVersion Number 1.1.3.3\nHellenic Complex \
+ StyleBox["Intelligent Quality\nVersion Number 1.1.3.4\nHellenic Complex \
 Systems Laboratory 2024\nThe notebook is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
@@ -56313,8 +56260,8 @@ International Creative Commons License",
    3.867065100368475*^9, {3.867066504233463*^9, 3.867066506552652*^9}, 
    3.87042169155886*^9, {3.9263398548700695`*^9, 3.92633986193668*^9}, {
    3.92786805344313*^9, 3.9278680540326633`*^9}, {3.9279419942197037`*^9, 
-   3.927941994988945*^9}, {3.92850779877586*^9, 
-   3.92850781715275*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
+   3.927941994988945*^9}, {3.92850779877586*^9, 3.92850781715275*^9}, 
+   3.930538931112358*^9},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
@@ -56348,22 +56295,20 @@ Cell[2556, 61, 685, 15, 129, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-c
 Cell[3244, 78, 447, 10, 31, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
-Cell[3706, 91, 1313666, 29886, 19, "Input",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19",
+Cell[CellGroupData[{
+Cell[3728, 93, 1394912, 31506, 19, "Input",ExpressionUUID->"d5ff740b-4976-4cf1-9845-c2791265cf19",
  CellOpen->False,
  InitializationCell->True],
-Cell[CellGroupData[{
-Cell[1317397, 29981, 86015, 1671, 19, "Input",ExpressionUUID->"2963d90a-7cde-4200-9bed-89dd56e54c73",
- CellOpen->False],
-Cell[1403415, 31654, 1463426, 24138, 506, "Output",ExpressionUUID->"c31f98a2-74b8-4b7f-82cb-cc9d2aa77da4"]
+Cell[1398643, 31601, 1463426, 24138, 506, "Output",ExpressionUUID->"c31f98a2-74b8-4b7f-82cb-cc9d2aa77da4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2866878, 55797, 1206, 23, 81, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6",
+Cell[2862106, 55744, 1206, 23, 81, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2868087, 55822, 13696, 411, 126, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16",
+Cell[2863315, 55769, 13696, 411, 126, "Subsubsubsubsection",ExpressionUUID->"ff0377bd-0a72-4003-894e-1a3baab58b16",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2881786, 56235, 2527, 43, 53, "Subsubsubsubsection",ExpressionUUID->"c5ca3368-e110-8d47-9128-fc6e95c02127",
+Cell[2877014, 56182, 2527, 43, 53, "Subsubsubsubsection",ExpressionUUID->"c5ca3368-e110-8d47-9128-fc6e95c02127",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[2884316, 56280, 1735, 37, 81, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2",
+Cell[2879544, 56227, 1757, 37, 81, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]]
 }

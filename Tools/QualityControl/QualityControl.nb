@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    301952,       6647]
-NotebookOptionsPosition[    300341,       6613]
-NotebookOutlinePosition[    300791,       6630]
-CellTagsIndexPosition[    300748,       6627]
+NotebookDataLength[    296407,       6551]
+NotebookOptionsPosition[    294913,       6519]
+NotebookOutlinePosition[    295363,       6536]
+CellTagsIndexPosition[    295320,       6533]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -86,6 +86,8 @@ Hellenic Complex Systems Laboratory, Kostis Palamas 21, 66131 Drama, Greece.\
    3.7799400566027045`*^9, 3.7799400570186176`*^9}, 3.780026865496773*^9, 
    3.790605454904579*^9},ExpressionUUID->"5e07383d-ee3c-439e-8a63-\
 33928e6bac79"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{
@@ -2015,37 +2017,7 @@ Normal\\\"]\)\>\"", ",",
        RowBox[{"{", 
         RowBox[{"All", ",", "Automatic"}], "}"}]}]}], "]"}], ",", 
     RowBox[{"BaseStyle", "\[Rule]", 
-     RowBox[{"{", "Medium", "}"}]}]}], "]"}]}]}], "Input",
- Editable->False,
- Deployed->True,
- CellOpen->False,
- InitializationCell->True,
- CellChangeTimes->{{3.871552693494076*^9, 3.871552696997534*^9}, 
-   3.871552737219062*^9, {3.871552770487908*^9, 3.8715527793181243`*^9}, 
-   3.871554092202208*^9, {3.871554125440618*^9, 3.87155414947707*^9}, {
-   3.871554183320034*^9, 3.8715541964152403`*^9}, {3.871554268627543*^9, 
-   3.871554282645117*^9}, {3.871554389800965*^9, 3.871554390961358*^9}, {
-   3.871566246593613*^9, 3.871566248000805*^9}, {3.871566399555309*^9, 
-   3.871566435146208*^9}, {3.871618291848203*^9, 3.8716183143437734`*^9}, {
-   3.871618391261434*^9, 3.871618397051435*^9}, {3.87161904529419*^9, 
-   3.87161905338919*^9}, 3.8716191023973675`*^9, {3.8716192160861197`*^9, 
-   3.8716192224291167`*^9}, {3.871619315445321*^9, 3.871619327173319*^9}, 
-   3.8716194381119175`*^9, {3.871619508790169*^9, 3.87161954986975*^9}, 
-   3.871619596425328*^9, {3.8734170103654885`*^9, 3.8734170455966644`*^9}, {
-   3.873419112933377*^9, 3.8734191535223675`*^9}, {3.873420081723767*^9, 
-   3.873420082235505*^9}, {3.873420775309635*^9, 3.873420780925377*^9}, {
-   3.873421285276678*^9, 3.873421292692614*^9}, {3.8734246228503804`*^9, 
-   3.8734246440683804`*^9}, {3.873425364701107*^9, 3.873425365028095*^9}, {
-   3.8734648534899516`*^9, 3.8734648893829536`*^9}, {3.873465002982524*^9, 
-   3.8734650035495143`*^9}, 3.873465235924547*^9, {3.873631806518531*^9, 
-   3.873631866226533*^9}, {3.8751875951254225`*^9, 3.875187608567374*^9}, {
-   3.9263409419538*^9, 
-   3.9263409438724537`*^9}},ExpressionUUID->"3c5d51bb-1e11-47cc-8551-\
-1dad60c935a7"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
+     RowBox[{"{", "Medium", "}"}]}]}], "]"}]}], "\n", 
  RowBox[{"TabView", "[", 
   RowBox[{
    RowBox[{"{", "\[IndentingNewLine]", 
@@ -2393,9 +2365,9 @@ detection\>\"", ",",
                     RowBox[{"AxesLabel", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{
-                    "\"\<\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)\>\"", 
-                    ",", "\"\<\!\(\*StyleBox[\"p\",FontSlant->\"Italic\"]\)\>\
-\""}], "}"}]}], ",", 
+                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\"", ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
+                     "}"}]}], ",", 
                     RowBox[{
                     "PlotLabel", "\[Rule]", 
                     "\"\<probability density function (pdf)\>\""}], ",", 
@@ -2438,9 +2410,9 @@ detection\>\"", ",",
                     RowBox[{"AxesLabel", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{
-                    "\"\<\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)\>\"", 
-                    ",", "\"\<\!\(\*StyleBox[\"p\",FontSlant->\"Italic\"]\)\>\
-\""}], "}"}]}], ",", 
+                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\"", ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
+                     "}"}]}], ",", 
                     RowBox[{
                     "PlotLabel", "\[Rule]", 
                     "\"\<cumulative density function (cdf)\>\""}], ",", 
@@ -2485,9 +2457,10 @@ detection\>\"", ",",
                     RowBox[{"AxesLabel", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{
-                    "\"\<\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\>\"", 
-                    ",", "\"\<\!\(\*StyleBox[SubscriptBox[\"p\", \
-\"r\"],FontSlant->\"Italic\"]\)\>\""}], "}"}]}], ",", 
+                    "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\"", ",", 
+                    "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
+\\\"r\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], "}"}]}], ",", 
                     RowBox[{"AxesOrigin", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"s", ",", "0"}], "}"}]}], ",", 
@@ -2541,9 +2514,10 @@ detection\>\"", ",",
                     RowBox[{"AxesLabel", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{
-                    "\"\<\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)\>\"", 
-                    ",", "\"\<\!\(\*StyleBox[SubscriptBox[\"p\", \
-\"r\"],FontSlant->\"Italic\"]\)\>\""}], "}"}]}], ",", 
+                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\"", ",", 
+                    "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
+\\\"r\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], "}"}]}], ",", 
                     RowBox[{"AxesOrigin", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{
@@ -2656,15 +2630,16 @@ detection\>\"", ",",
             RowBox[{"2", "\[Rule]", "\"\< cdf\>\""}], ",", 
             RowBox[{
             "3", "\[Rule]", 
-             "\"\<\!\(\*StyleBox[SubscriptBox[\"p\", \
-\"r\"],FontSlant->\"Italic\"]\) vs \
-\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\>\""}], ",", " ", 
+             "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
+\\\"r\\\"],FontSlant->\\\"Italic\\\"]\) vs \
+\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ",", " ", 
             RowBox[{
             "4", "\[Rule]", 
-             "\"\<\!\(\*StyleBox[SubscriptBox[\"p\", \
-\"r\"],FontSlant->\"Italic\"]\) vs \
-\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)\>\""}]}], "}"}]}], "}"}], ",", 
-        "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
+             "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
+\\\"r\\\"],FontSlant->\\\"Italic\\\"]\) vs \
+\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\>\""}]}], "}"}]}], 
+         "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
+        "\[IndentingNewLine]", 
         RowBox[{"Style", "[", 
          RowBox[{
          "\"\<parameters of the control measurements (in measurement units) \
@@ -2675,10 +2650,10 @@ detection\>\"", ",",
           RowBox[{"{", 
            RowBox[{
            "em", ",", "100.0", ",", 
-            "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\"m\",FontSlant->\"\
-Italic\"], \
-StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}], 
-          ",", "0.01", ",", "1000.0", ",", 
+            "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"m\\\",FontSlant->\\\
+\"Italic\\\"], \
+StyleBox[\\\"0\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\>\"\
+"}], "}"}], ",", "0.01", ",", "1000.0", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
         "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
@@ -2688,8 +2663,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
           RowBox[{"{", 
            RowBox[{
            "m", ",", "99.0", ",", 
-            "\"\<\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)\>\""}], "}"}], 
-          ",", "0.01", ",", "1000.0", ",", 
+            "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
+            "}"}], ",", "0.01", ",", "1000.0", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
         "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
@@ -2699,8 +2674,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
           RowBox[{"{", 
            RowBox[{
            "s", ",", "1.5", ",", 
-            "\"\<\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\>\""}], "}"}], 
-          ",", "0.01", ",", "1000.0", ",", 
+            "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
+            "}"}], ",", "0.01", ",", "1000.0", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
         "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
@@ -2713,8 +2688,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
           RowBox[{"{", 
            RowBox[{
            "ptaae", ",", "10.0", ",", 
-            "\"\<\!\(\*StyleBox[\"t\",FontSlant->\"Italic\"]\)\>\""}], "}"}], 
-          ",", "0.01", ",", "200.0", ",", "1.0", ",", 
+            "\"\<\!\(\*StyleBox[\\\"t\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
+            "}"}], ",", "0.01", ",", "200.0", ",", "1.0", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
         "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
@@ -2724,9 +2699,9 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
           RowBox[{"{", 
            RowBox[{
            "a", ",", "0.1", ",", 
-            "\"\<\!\(\*StyleBox[SubscriptBox[\"f\", \
-\"max\"],FontSlant->\"Italic\"]\)\>\""}], "}"}], ",", "0.01", ",", "0.99", 
-          ",", ".01", ",", 
+            "\"\<\!\(\*StyleBox[SubscriptBox[\\\"f\\\", \
+\\\"max\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], "}"}], ",", "0.01", ",", 
+          "0.99", ",", ".01", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
         "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
@@ -2758,8 +2733,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
           RowBox[{"{", 
            RowBox[{
            "c", ",", "4", ",", 
-            "\"\<\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)\>\""}], "}"}], 
-          ",", "1", ",", "6", ",", "1", ",", 
+            "\"\<\!\(\*StyleBox[\\\"n\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
+            "}"}], ",", "1", ",", "6", ",", "1", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
         "\[IndentingNewLine]", 
@@ -2807,9 +2782,9 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
                    RowBox[{"{", 
                     RowBox[{
                     "p", ",", "0.01", ",", 
-                    "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant-\
->\"Italic\"], \"fr\"],FontSlant->\"Italic\"]\)\>\""}], "}"}], ",", "0.0001", 
-                   ",", "0.1", ",", "0.0001", ",", 
+                    "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"p\\\",\
+FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], 
+                    "}"}], ",", "0.0001", ",", "0.1", ",", "0.0001", ",", 
                    RowBox[{"Appearance", "->", "\"\<Labeled\>\""}], ",", " ", 
                    RowBox[{"ImageSize", "->", "\"\<Tiny\>\""}]}], "}"}], ",", 
                  "\[IndentingNewLine]", "Delimiter", ",", 
@@ -2822,20 +2797,20 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
                    RowBox[{"{", 
                     RowBox[{
                     "e", ",", "2", ",", 
-                    "\"\< \!\(\*StyleBox[SubscriptBox[\"p\", \
-\"r\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\" \
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"vs\",FontSlant->\"Italic\"]\)\>\"\
-"}], "}"}], ",", 
+                    "\"\< \!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
+\\\"r\\\"],FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[\\\" \\\",FontSlant->\\\
+\"Italic\\\"]\)\!\(\*StyleBox[\\\"vs\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], 
+                    "}"}], ",", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{
                     "1", "\[Rule]", 
-                    "\"\<\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\>\""}],
-                     ",", 
+                    "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\""}], ",", 
                     RowBox[{
                     "2", "\[Rule]", 
-                    "\"\<\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)\>\""}]}\
-], "}"}]}], "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
+                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\""}]}], "}"}]}], "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
                  RowBox[{"TrackedSymbols", "\[Rule]", "True"}], ",", 
@@ -2856,8 +2831,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
                    RowBox[{"{", 
                     RowBox[{
                     "n", ",", "2", ",", 
-                    "\"\<\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)\>\""}],
-                     "}"}], ",", "1", ",", "6", ",", "1", ",", 
+                    "\"\<\!\(\*StyleBox[\\\"n\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\""}], "}"}], ",", "1", ",", "6", ",", "1", ",", 
                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                   "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
@@ -2869,8 +2844,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
                    RowBox[{"{", 
                     RowBox[{
                     "l", ",", "2.5", ",", 
-                    "\"\<\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)\>\""}],
-                     "}"}], ",", "1", ",", "5", ",", "0.1", ",", 
+                    "\"\<\!\(\*StyleBox[\\\"l\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\""}], "}"}], ",", "1", ",", "5", ",", "0.1", ",", 
                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                   "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
@@ -2882,20 +2857,20 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
                    RowBox[{"{", 
                     RowBox[{
                     "e", ",", "2", ",", 
-                    "\"\< \!\(\*StyleBox[SubscriptBox[\"p\", \
-\"r\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\" \
-\",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"vs\",FontSlant->\"Italic\"]\)\>\"\
-"}], "}"}], ",", 
+                    "\"\< \!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
+\\\"r\\\"],FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[\\\" \\\",FontSlant->\\\
+\"Italic\\\"]\)\!\(\*StyleBox[\\\"vs\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], 
+                    "}"}], ",", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{
                     "1", "\[Rule]", 
-                    "\"\<\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)\>\""}],
-                     ",", 
+                    "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\""}], ",", 
                     RowBox[{
                     "2", "\[Rule]", 
-                    "\"\<\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)\>\""}]}\
-], "}"}]}], "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
+                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\""}]}], "}"}]}], "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
                  RowBox[{"TrackedSymbols", "\[Rule]", "True"}], ",", 
@@ -2936,9 +2911,9 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
                    RowBox[{"{", 
                     RowBox[{
                     "p", ",", "0.01", ",", 
-                    "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant-\
->\"Italic\"], \"fr\"],FontSlant->\"Italic\"]\)\>\""}], "}"}], ",", "0.0001", 
-                   ",", "0.1", ",", "0.0001", ",", 
+                    "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"p\\\",\
+FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], 
+                    "}"}], ",", "0.0001", ",", "0.1", ",", "0.0001", ",", 
                    RowBox[{"Appearance", "->", "\"\<Labeled\>\""}], ",", " ", 
                    RowBox[{"ImageSize", "->", "\"\<Tiny\>\""}]}], "}"}], ",", 
                  "\[IndentingNewLine]", "Delimiter", ",", 
@@ -2985,8 +2960,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
                    RowBox[{"{", 
                     RowBox[{
                     "n", ",", "2", ",", 
-                    "\"\<\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)\>\""}],
-                     "}"}], ",", "1", ",", "6", ",", "1", ",", 
+                    "\"\<\!\(\*StyleBox[\\\"n\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\""}], "}"}], ",", "1", ",", "6", ",", "1", ",", 
                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                   "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
@@ -2998,8 +2973,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)\>\""}], "}"}],
                    RowBox[{"{", 
                     RowBox[{
                     "l", ",", "2.5", ",", 
-                    "\"\<\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)\>\""}],
-                     "}"}], ",", "1", ",", "5", ",", "0.1", ",", 
+                    "\"\<\!\(\*StyleBox[\\\"l\\\",FontSlant->\\\"Italic\\\"]\)\
+\>\""}], "}"}], ",", "1", ",", "5", ",", "0.1", ",", 
                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                   "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
@@ -3102,71 +3077,31 @@ detection\>\""}], "}"}], ",", "0.10", ",", "0.99", ",", "0.01", ",",
        "]"}]}]}], "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", 
    " ", 
    RowBox[{"ImageSize", "\[Rule]", "Automatic"}]}], "\[IndentingNewLine]", 
-  "]"}]], "Input",
+  "]"}]}], "Input",
  Editable->False,
- Deployed->True,
  CellOpen->False,
- CellChangeTimes->{{3.871214226786524*^9, 3.871214235987526*^9}, {
-   3.871214324355524*^9, 3.8712143250715237`*^9}, 3.87121436011755*^9, 
-   3.871266523459032*^9, {3.8712665704620247`*^9, 3.871266718467057*^9}, {
-   3.871266838548054*^9, 3.871266907940059*^9}, {3.8712684003337803`*^9, 
-   3.87126851948678*^9}, {3.871268555631755*^9, 3.8712685703357806`*^9}, {
-   3.8712686428477783`*^9, 3.87126864808778*^9}, {3.8712687070227833`*^9, 
-   3.871268800183784*^9}, 3.8712690100547786`*^9, {3.871269425280607*^9, 
-   3.871269605889607*^9}, {3.871271029824019*^9, 3.871271031578987*^9}, {
-   3.871271416134012*^9, 3.871271418044025*^9}, {3.87127168815802*^9, 
-   3.8712716915179844`*^9}, 3.871296535923545*^9, {3.871357050089313*^9, 
-   3.871357091634088*^9}, {3.871357176163872*^9, 3.8713572027218657`*^9}, {
-   3.871357240763144*^9, 3.8713572624265018`*^9}, {3.871357408955282*^9, 
-   3.8713574446824236`*^9}, {3.8713575492362013`*^9, 3.8713575752022543`*^9}, 
-   3.871358127923952*^9, {3.871358177189093*^9, 3.871358216796949*^9}, {
-   3.8713582474435263`*^9, 3.871358321476457*^9}, {3.871358403837078*^9, 
-   3.8713584160032015`*^9}, {3.871358458027582*^9, 3.8713584855637856`*^9}, {
-   3.8713585513571315`*^9, 3.871358564372224*^9}, {3.871358719094215*^9, 
-   3.8713587226131077`*^9}, {3.871359165855105*^9, 3.8713591702935367`*^9}, {
-   3.871359259533854*^9, 3.871359280261754*^9}, {3.8713593843837004`*^9, 
-   3.871359474302667*^9}, {3.8713781723267517`*^9, 3.871378189476906*^9}, 
-   3.87137824954135*^9, {3.871380005406912*^9, 3.8713800338837204`*^9}, {
-   3.871381427044579*^9, 3.871381465831157*^9}, {3.87138189975132*^9, 
-   3.8713819290446806`*^9}, {3.871381974278221*^9, 3.871381974820877*^9}, {
-   3.871382043349972*^9, 3.871382219722946*^9}, {3.871382319195749*^9, 
-   3.871382369395904*^9}, {3.871382433053469*^9, 3.871382439197176*^9}, {
-   3.8713825035639744`*^9, 3.8713825362516904`*^9}, {3.8713827013082333`*^9, 
-   3.871382704252645*^9}, {3.8713857898924017`*^9, 3.871385797676959*^9}, {
-   3.871385877068413*^9, 3.871385924061109*^9}, {3.871386112140303*^9, 
-   3.871386160780987*^9}, {3.871386241907855*^9, 3.871386344852793*^9}, {
-   3.8713864078215113`*^9, 3.871386427925081*^9}, 3.871386526045308*^9, {
-   3.8713865907250857`*^9, 3.871386623011364*^9}, 3.8713866681653614`*^9, {
-   3.871386745308939*^9, 3.871386750262951*^9}, 3.871415257012448*^9, {
-   3.871415290855104*^9, 3.871415382966278*^9}, {3.871415426006182*^9, 
-   3.871415445902263*^9}, {3.8714154810224724`*^9, 3.871415497830194*^9}, {
-   3.8714155312226567`*^9, 3.87141554123889*^9}, {3.871417168464625*^9, 
-   3.871417174738157*^9}, {3.8714172118234987`*^9, 3.871417280831191*^9}, {
-   3.8714179123621497`*^9, 3.8714179362965927`*^9}, {3.8714183261446667`*^9, 
-   3.871418353144784*^9}, {3.871421636380281*^9, 3.8714216667465396`*^9}, {
-   3.871421819536893*^9, 3.8714218459374037`*^9}, {3.871549818540517*^9, 
-   3.8715498581001797`*^9}, {3.871550820238196*^9, 3.871550826468637*^9}, {
-   3.8716125124541206`*^9, 3.871612643851122*^9}, {3.871612782571124*^9, 
-   3.871612792563124*^9}, 3.871612976852125*^9, 3.871614013967122*^9, {
-   3.8716140540611224`*^9, 3.871614063738122*^9}, {3.8716141362981205`*^9, 
-   3.8716141403131223`*^9}, {3.871614184890131*^9, 3.871614286506133*^9}, {
-   3.871614386059221*^9, 3.871614411848217*^9}, {3.871614498795218*^9, 
-   3.8716145020972166`*^9}, {3.871614542571254*^9, 3.871614689290259*^9}, {
-   3.871614727922257*^9, 3.871614745401256*^9}, {3.8716147760182667`*^9, 
-   3.871614795728256*^9}, {3.871615089106256*^9, 3.871615183058256*^9}, {
-   3.8716152169382563`*^9, 3.871615297538003*^9}, 3.871615798683284*^9, {
-   3.871615931509529*^9, 3.871615964469122*^9}, 3.8716164938956785`*^9, 
-   3.871616558060299*^9, {3.8716165941324277`*^9, 3.871616601212478*^9}, 
-   3.8716171420936975`*^9, {3.871641126625881*^9, 3.8716411415769005`*^9}, 
-   3.871663812005497*^9, {3.871688914540475*^9, 3.8716889167643476`*^9}, {
-   3.8716908126096687`*^9, 3.871690837655058*^9}, {3.871690941846745*^9, 
-   3.871690951278515*^9}, {3.871719315967286*^9, 3.8717193972053185`*^9}, {
-   3.871719459021315*^9, 3.871719504013287*^9}, {3.8717195963522873`*^9, 
-   3.871719610110317*^9}, {3.87171967481432*^9, 3.871719679054293*^9}, 
-   3.871719748232316*^9, 3.8734644259025493`*^9, {3.8734644847535486`*^9, 
-   3.873464553334571*^9}, 3.8734646177535734`*^9},
- CellLabel->
-  "In[168]:=",ExpressionUUID->"97f3bdbf-7701-4e4d-bd86-f125126b4a7a"],
+ InitializationCell->True,
+ CellChangeTimes->{{3.871552693494076*^9, 3.871552696997534*^9}, 
+   3.871552737219062*^9, {3.871552770487908*^9, 3.871552779318124*^9}, 
+   3.871554092202208*^9, {3.871554125440618*^9, 3.87155414947707*^9}, {
+   3.871554183320034*^9, 3.87155419641524*^9}, {3.871554268627543*^9, 
+   3.871554282645117*^9}, {3.871554389800965*^9, 3.871554390961358*^9}, {
+   3.871566246593613*^9, 3.871566248000805*^9}, {3.871566399555309*^9, 
+   3.871566435146208*^9}, {3.871618291848203*^9, 3.8716183143437724`*^9}, {
+   3.871618391261434*^9, 3.871618397051435*^9}, {3.87161904529419*^9, 
+   3.87161905338919*^9}, 3.8716191023973675`*^9, {3.8716192160861197`*^9, 
+   3.8716192224291167`*^9}, {3.871619315445321*^9, 3.871619327173319*^9}, 
+   3.8716194381119175`*^9, {3.871619508790169*^9, 3.87161954986975*^9}, 
+   3.871619596425328*^9, {3.8734170103654885`*^9, 3.8734170455966644`*^9}, {
+   3.873419112933377*^9, 3.8734191535223675`*^9}, {3.873420081723767*^9, 
+   3.873420082235505*^9}, {3.873420775309635*^9, 3.873420780925377*^9}, {
+   3.873421285276678*^9, 3.873421292692614*^9}, {3.8734246228503804`*^9, 
+   3.8734246440683804`*^9}, {3.873425364701107*^9, 3.873425365028095*^9}, {
+   3.8734648534899516`*^9, 3.8734648893829536`*^9}, {3.873465002982524*^9, 
+   3.873465003549514*^9}, 3.873465235924547*^9, {3.873631806518531*^9, 
+   3.873631866226533*^9}, {3.8751875951254225`*^9, 3.875187608567374*^9}, {
+   3.9263409419538*^9, 3.926340943872454*^9}, 3.9305421171354065`*^9},
+ CellLabel->"In[59]:=",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"design\"\>"->
@@ -3185,48 +3120,58 @@ Cell[BoxData[
         "\!\(\*StyleBox[SubscriptBox[\"p\", \"r\"],FontSlant->\"Italic\"]\) \
 vs \!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)", 4 -> 
         "\!\(\*StyleBox[SubscriptBox[\"p\", \"r\"],FontSlant->\"Italic\"]\) \
-vs \!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}}, {
+vs \!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, ControlType -> 
+       SetterBar}, {
        Hold[
         Style[
         "parameters of the control measurements (in measurement units) ", 
-         Bold]], Manipulate`Dump`ThisIsNotAControl}, {
-       Hold["assigned mean"], Manipulate`Dump`ThisIsNotAControl}, {{
+         Bold]], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
+       Hold["assigned mean"], Manipulate`Dump`ThisIsNotAControl, ControlType -> 
+       None}, {{
         Hold[$CellContext`em$$], 100., 
         "\!\(\*StyleBox[SubscriptBox[StyleBox[\"m\",FontSlant->\"Italic\"], \
-StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)"}, 0.01, 
-       1000.}, {
-       Hold["observed mean"], Manipulate`Dump`ThisIsNotAControl}, {{
+StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)"}, 0.01, 1000.,
+        ControlType -> Manipulator}, {
+       Hold["observed mean"], Manipulate`Dump`ThisIsNotAControl, ControlType -> 
+       None}, {{
         Hold[$CellContext`m$$], 99., 
-        "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, 0.01, 1000.}, {
-       Hold["standard deviation"], Manipulate`Dump`ThisIsNotAControl}, {{
+        "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, 0.01, 1000., 
+       ControlType -> Manipulator}, {
+       Hold["standard deviation"], Manipulate`Dump`ThisIsNotAControl, 
+       ControlType -> None}, {{
         Hold[$CellContext`s$$], 1.5, 
-        "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)"}, 0.01, 1000.}, {
+        "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)"}, 0.01, 1000., 
+       ControlType -> Manipulator}, {
        Hold[
         Style["quality specifications", Bold]], 
-       Manipulate`Dump`ThisIsNotAControl}, {
+       Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
        Hold["total allowable analytical error (%)"], 
-       Manipulate`Dump`ThisIsNotAControl}, {{
+       Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
         Hold[$CellContext`ptaae$$], 10., 
-        "\!\(\*StyleBox[\"t\",FontSlant->\"Italic\"]\)"}, 0.01, 200., 1.}, {
+        "\!\(\*StyleBox[\"t\",FontSlant->\"Italic\"]\)"}, 0.01, 200., 1., 
+       ControlType -> Manipulator}, {
        Hold["maximum fraction nonconforming"], 
-       Manipulate`Dump`ThisIsNotAControl}, {{
+       Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
         Hold[$CellContext`a$$], 0.1, 
         "\!\(\*StyleBox[SubscriptBox[\"f\", \
-\"max\"],FontSlant->\"Italic\"]\)"}, 0.01, 0.99, 0.01}, {
+\"max\"],FontSlant->\"Italic\"]\)"}, 0.01, 0.99, 0.01, ControlType -> 
+       Manipulator}, {
        Hold["minimum probability for critical random  error detection"], 
-       Manipulate`Dump`ThisIsNotAControl}, {{
-        Hold[$CellContext`minpred$$], 0.9, ""}, 0.01, 0.99, 0.01}, {
+       Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+        Hold[$CellContext`minpred$$], 0.9, ""}, 0.01, 0.99, 0.01, ControlType -> 
+       Manipulator}, {
        Hold["minimum probability for critical systematic error detection"], 
-       Manipulate`Dump`ThisIsNotAControl}, {{
-        Hold[$CellContext`minpsed$$], 0.9, ""}, 0.01, 0.99, 0.01}, {
+       Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+        Hold[$CellContext`minpsed$$], 0.9, ""}, 0.01, 0.99, 0.01, ControlType -> 
+       Manipulator}, {
        Hold[
         Style["number of control measurements", Bold]], 
-       Manipulate`Dump`ThisIsNotAControl}, {{
+       Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
         Hold[$CellContext`c$$], 4, 
-        "\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)"}, 1, 6, 1}}, 
-     Typeset`size$$ = {450., {136.19168056672828`, 141.92361437072435`}}, 
-     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-     False}, 
+        "\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)"}, 1, 6, 1, 
+       ControlType -> Manipulator}}, Typeset`size$$ = {
+     450., {136.19168056672828`, 141.92361437072435`}}, Typeset`update$$ = 0, 
+     Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
      DynamicBox[Manipulate`ManipulateBoxes[
       1, StandardForm, 
        "Variables" :> {$CellContext`a$$ = 0.1, $CellContext`c$$ = 
@@ -3478,12 +3423,11 @@ $CellContext`c$$, $CellContext`k, $CellContext`d]}, Center]],
         ControlPlacement -> Left, SynchronousUpdating -> False, 
          TrackedSymbols -> True, AutorunSequencing -> {1}}, 
        "DefaultOptions" :> {}],
-      ImageSizeCache->{744., {203.13403309800196`, 208.86596690199804`}},
+      ImageSizeCache->{742., {201.13403309800196`, 206.86596690199804`}},
       SingleEvaluation->True],
      Deinitialization:>None,
      DynamicModuleValues:>{},
-     Initialization:>({$CellContext`taae = 0.1, $CellContext`fn = 
-        9.86699893850415*^-10, $CellContext`pce[
+     Initialization:>({$CellContext`pce[
           Pattern[$CellContext`em, 
            Blank[]], 
           Pattern[$CellContext`m, 
@@ -3496,14 +3440,8 @@ $CellContext`c$$, $CellContext`k, $CellContext`d]}, Center]],
              Sqrt[2] $CellContext`s)] + 
            Erfc[(-$CellContext`m + $CellContext`em (1 + $CellContext`taae))/(
              Sqrt[2] $CellContext`s)])/2, {100, 100}], $CellContext`minfn = 
-        1/
-         100000000000000000000000000000000000000000000000000000000000000000000\
-00000000000000000000000000000000, $CellContext`rc = 
-        5.996664371339215, $CellContext`sc = 
-        7.077672651683099, $CellContext`ssc = 
-        4.718448434455399, $CellContext`src = 
-        3.997776247559477, $CellContext`sm = 0, $CellContext`ss = 
-        1, $CellContext`d = 3.1028858815067295`, $CellContext`qcdl[
+        1/10000000000000000000000000000000000000000000000000000000000000000000\
+000000000000000000000000000000000, $CellContext`qcdl[
           Pattern[$CellContext`n, 
            Blank[]], 
           Pattern[$CellContext`m, 
@@ -3527,9 +3465,7 @@ $CellContext`pred, $CellContext`psed]; $CellContext`l =
            If[$CellContext`i == 0, 
              $CellContext`lpfrm[$CellContext`n, $CellContext`r], 
              $CellContext`lpfrv[$CellContext`n, $CellContext`i, \
-$CellContext`r]]; {$CellContext`i, $CellContext`l}], $CellContext`pred = 
-        0.8999999999999999, $CellContext`psed = 
-        0.8999999999999999, $CellContext`minpfr[
+$CellContext`r]]; {$CellContext`i, $CellContext`l}], $CellContext`minpfr[
           Pattern[$CellContext`n, 
            Blank[]], 
           Pattern[$CellContext`m, 
@@ -3568,7 +3504,7 @@ $CellContext`psed], {$CellContext`k, 1, $CellContext`n}], Part[#, 2]& ], 1,
            Blank[]]] := {$CellContext`k, 
           $CellContext`pcv[$CellContext`n, $CellContext`k, $CellContext`m, \
 $CellContext`s, $CellContext`mc, $CellContext`sc, $CellContext`pred, \
-$CellContext`psed]}, $CellContext`k = 1, $CellContext`pcv[
+$CellContext`psed]}, $CellContext`pcv[
           Pattern[$CellContext`n, 
            Blank[]], 
           Pattern[$CellContext`k, 
@@ -3732,7 +3668,7 @@ $CellContext`psed], {$CellContext`k, 1, $CellContext`n}], Part[#, 2]& ], 1,
            
            FindRoot[$CellContext`pv[$CellContext`n, $CellContext`k, 0, 
               1, $CellContext`u] == $CellContext`p, {$CellContext`u, 2, 0.01, 
-             5}]]], $CellContext`pfr = 0.007643732748753707, $CellContext`pcm[
+             5}]]], $CellContext`pcm[
           Pattern[$CellContext`n, 
            Blank[]], 
           Pattern[$CellContext`m, 
@@ -3784,9 +3720,9 @@ $CellContext`s, $CellContext`y] == $CellContext`p, {$CellContext`y, 2, 0.01,
            Blank[]], 
           Pattern[$CellContext`l, 
            Blank[]]] := Switch[$CellContext`e, 0, 
-          
-          Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"\
-Arial\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+          Text[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -3798,16 +3734,16 @@ FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
 StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 \"s\",FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\
 \(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> 
-              ToString[
-                Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
-\"]\)") <> ToString[
-              Style[
-               NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+           ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
            ")"], 1, 
-          
-          Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"\
-Arial\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+          Text[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -3819,15 +3755,15 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
 StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
-\"]\)") <> ToString[
-              Style[
-               NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
            ")"], 2, 
-          
-          Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"\
-Arial\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+          Text[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -3839,11 +3775,11 @@ FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
 StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 \"1\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
-\"]\)") <> ToString[
-              Style[
-               NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
            ")"]], $CellContext`strml[
           Pattern[$CellContext`m, 
            Blank[]], 
@@ -3853,9 +3789,8 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
            Blank[]], 
           Pattern[$CellContext`l, 
            Blank[]]] := 
-        Text[(((((((
-                 "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"\
-Arial\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+        Text["\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\"\
+,FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -3863,21 +3798,19 @@ FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
 FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
 >\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\" \
 \",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                   Style[
-                    NumberForm[$CellContext`m, {4, 2}], FontFamily -> 
-                    "Arial"]]) <> 
-                "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                 Style[
-                  NumberForm[$CellContext`s, {4, 2}], FontFamily -> 
-                  "Arial"]]) <> 
-              "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-               Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-            "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"\
-]\)") <> ToString[
-             Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+            Style[
+             NumberForm[$CellContext`m, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[
+             NumberForm[$CellContext`s, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[
+             NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
           ")"], $CellContext`strvl[
           Pattern[$CellContext`e, 
            Blank[]], 
@@ -3887,10 +3820,9 @@ Normal\"]\)") <> ToString[
            Blank[]], 
           Pattern[$CellContext`l, 
            Blank[]]] := Switch[$CellContext`e, 0, 
-          
-          Text[(((((
-                "\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
-FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+          Text[
+          "\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",FontWeight-\
+>\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"S\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
@@ -3901,20 +3833,19 @@ FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
 StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 \"s\",FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\
 \(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> 
-                ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
-\"]\)") <> ToString[
-              Style[
-               NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+           ToString[
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
            ")"], 1, 
-          
-          Text[(((((
-                "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"\
-Arial\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+          Text[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"S\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -3926,19 +3857,18 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"s\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
 StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
-\"]\)") <> ToString[
-              Style[
-               NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
            ")"], 2, 
-          
-          Text[(((((
-                "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"\
-Arial\",FontWeight->\"Plain\",FontSlant->\"Italic\"], \
+          Text[
+          "\!\(\*StyleBox[SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"S\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -3950,14 +3880,14 @@ FontFamily->\"Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"]\)\!\(\*\
 StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 \"1\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
-\"]\)") <> ToString[
-              Style[
-               NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+             Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+           "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+             Style[
+              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
            ")"]], $CellContext`strvl[
           Pattern[$CellContext`m, 
            Blank[]], 
@@ -3969,32 +3899,29 @@ Normal\"]\)") <> ToString[
            Blank[]], 
           Pattern[$CellContext`l, 
            Blank[]]] := 
-        Text[(((((((((
-                   "\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
+        Text["\!\(\*SubscriptBox[StyleBox[\"R\",FontFamily->\"Arial\",\
 FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"S\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"x\",FontFamily->\"Arial\",\
 FontWeight->\"Bold\",FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\";\",FontFamily-\
 >\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[
-                    NumberForm[$CellContext`m, {4, 2}], FontFamily -> 
-                    "Arial"]]) <> 
-                  "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                   Style[
-                    NumberForm[$CellContext`s, {4, 2}], FontFamily -> 
-                    "Arial"]]) <> 
-                "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                 Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-              "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-               Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-            "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"\
-]\)") <> ToString[
-             Style[
-              NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+            Style[
+             NumberForm[$CellContext`m, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[
+             NumberForm[$CellContext`s, {4, 2}], FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+          "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\
+\)" <> ToString[
+            Style[
+             NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
           ")"], $CellContext`mgpfrs[
           Pattern[$CellContext`m, 
            Blank[]], 
@@ -4044,24 +3971,27 @@ $CellContext`n, $CellContext`k, $CellContext`l]],
        "\"untitled\"", Typeset`specs$$ = {{
          Hold[
           Style["size of QC sample", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
-          Hold[$CellContext`n$$], 4, "control measurements"}, 1, 6, 1}, {
+         Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+          Hold[$CellContext`n$$], 4, "control measurements"}, 1, 6, 1, 
+         ControlType -> Manipulator}, {
          Hold[
           Style["probability for for false rejection", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
+         Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
           Hold[$CellContext`p$$], 0.01, 
           "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"Italic\"], \
-\"fr\"],FontSlant->\"Italic\"]\)"}, 0.0001, 0.1, 0.0001}, {
+\"fr\"],FontSlant->\"Italic\"]\)"}, 0.0001, 0.1, 0.0001, ControlType -> 
+         Manipulator}, {
          Hold[
-          Style["plot", Bold]], Manipulate`Dump`ThisIsNotAControl}, {{
+          Style["plot", Bold]], Manipulate`Dump`ThisIsNotAControl, 
+         ControlType -> None}, {{
           Hold[$CellContext`e$$], 2, 
           " \!\(\*StyleBox[SubscriptBox[\"p\", \
 \"r\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\" \
 \",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"vs\",FontSlant->\"Italic\"]\)"}, {
          1 -> "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)", 2 -> 
-          "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}}}, Typeset`size$$ =
-        Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
-       Typeset`skipInitDone$$ = False}, 
+          "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, ControlType -> 
+         SetterBar}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
+       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`e$$ = 2, $CellContext`n$$ = 
@@ -4106,16 +4036,7 @@ $CellContext`p$$], "Specifications" :> {
                 600}]}, {
                Pane[
                 $CellContext`vplp[2, $CellContext`n, $CellContext`p], {
-                600}]}}]], $CellContext`plotp[
-            Pattern[$CellContext`e, 
-             Blank[]], 
-            Pattern[$CellContext`n, 
-             Blank[]], 
-            Pattern[$CellContext`p, 
-             Blank[]]] := Quiet[
-            Pane[
-             $CellContext`vplp[$CellContext`e, $CellContext`n, \
-$CellContext`p], {600}]], $CellContext`vplp[
+                600}]}}]], $CellContext`vplp[
             Pattern[$CellContext`e, 
              Blank[]], 
             Pattern[$CellContext`n, 
@@ -4225,7 +4146,7 @@ $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])^$CellContext`k
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] - 
                 Erf[($CellContext`m - $CellContext`\[Mu] + $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])])/
-            2^$CellContext`n], $CellContext`k = 1, $CellContext`lpfrv[
+            2^$CellContext`n], $CellContext`lpfrv[
             Pattern[$CellContext`n, 
              Blank[]], 
             Pattern[$CellContext`k, 
@@ -4279,10 +4200,9 @@ $CellContext`p]], $CellContext`pstrvl[
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -4294,19 +4214,18 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -4318,19 +4237,18 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -4342,14 +4260,14 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"]], $CellContext`pstrmp[
             Pattern[$CellContext`e, 
              Blank[]], 
@@ -4365,8 +4283,8 @@ $CellContext`pstrml[
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[((("\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+            Text[
+            "\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
 FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -4379,15 +4297,15 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -4399,15 +4317,15 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -4419,11 +4337,11 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"]]}; Typeset`initDone$$ = True),
        SynchronousInitialization->True,
        UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -4442,24 +4360,27 @@ Normal\"]\)") <> ToString[
        "\"untitled\"", Typeset`specs$$ = {{
          Hold[
           Style["size of QC sample", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
+         Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
           Hold[$CellContext`n$$], 2, 
-          "\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)"}, 1, 6, 1}, {
+          "\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)"}, 1, 6, 1, 
+         ControlType -> Manipulator}, {
          Hold[
-          Style["decision limit", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
+          Style["decision limit", Bold]], Manipulate`Dump`ThisIsNotAControl, 
+         ControlType -> None}, {{
           Hold[$CellContext`l$$], 2.5, 
-          "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1, 5, 0.1}, {
+          "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1, 5, 0.1, 
+         ControlType -> Manipulator}, {
          Hold[
-          Style["plot", Bold]], Manipulate`Dump`ThisIsNotAControl}, {{
+          Style["plot", Bold]], Manipulate`Dump`ThisIsNotAControl, 
+         ControlType -> None}, {{
           Hold[$CellContext`e$$], 2, 
           " \!\(\*StyleBox[SubscriptBox[\"p\", \
 \"r\"],FontSlant->\"Italic\"]\)\!\(\*StyleBox[\" \
 \",FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"vs\",FontSlant->\"Italic\"]\)"}, {
          1 -> "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)", 2 -> 
-          "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}}}, Typeset`size$$ =
-        Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
-       Typeset`skipInitDone$$ = False}, 
+          "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, ControlType -> 
+         SetterBar}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
+       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`e$$ = 2, $CellContext`l$$ = 
@@ -4504,16 +4425,7 @@ $CellContext`l$$], "Specifications" :> {
                 600}]}, {
                Pane[
                 $CellContext`vpll[2, $CellContext`n, $CellContext`l], {
-                600}]}}]], $CellContext`plotl[
-            Pattern[$CellContext`e, 
-             Blank[]], 
-            Pattern[$CellContext`n, 
-             Blank[]], 
-            Pattern[$CellContext`l, 
-             Blank[]]] := Quiet[
-            Pane[
-             $CellContext`vpll[$CellContext`e, $CellContext`n, \
-$CellContext`l], {600}]], $CellContext`vpll[
+                600}]}}]], $CellContext`vpll[
             Pattern[$CellContext`e, 
              Blank[]], 
             Pattern[$CellContext`n, 
@@ -4620,7 +4532,7 @@ $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])^$CellContext`k
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] - 
                 Erf[($CellContext`m - $CellContext`\[Mu] + $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])])/
-            2^$CellContext`n], $CellContext`k = 1, $CellContext`pm[
+            2^$CellContext`n], $CellContext`pm[
             Pattern[$CellContext`n, 
              Blank[]], 
             Pattern[$CellContext`m, 
@@ -4642,10 +4554,9 @@ $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])])/
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -4657,19 +4568,18 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -4681,19 +4591,18 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -4705,14 +4614,14 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"]], $CellContext`pstrml[
             Pattern[$CellContext`e, 
              Blank[]], 
@@ -4720,8 +4629,8 @@ Normal\"]\)") <> ToString[
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[((("\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+            Text[
+            "\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
 FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -4734,15 +4643,15 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -4754,15 +4663,15 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -4774,11 +4683,11 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"]]}; Typeset`initDone$$ = True),
        SynchronousInitialization->True,
        UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -4798,22 +4707,25 @@ Normal\"]\)") <> ToString[
        "\"untitled\"", Typeset`specs$$ = {{
          Hold[
           Style["size of QC sample", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
-          Hold[$CellContext`n$$], 4, "control measurements"}, 1, 6, 1}, {
+         Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+          Hold[$CellContext`n$$], 4, "control measurements"}, 1, 6, 1, 
+         ControlType -> Manipulator}, {
          Hold[
           Style["probability for for false rejection", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
+         Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
           Hold[$CellContext`p$$], 0.01, 
           "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"Italic\"], \
-\"fr\"],FontSlant->\"Italic\"]\)"}, 0.0001, 0.1, 0.0001}, {
+\"fr\"],FontSlant->\"Italic\"]\)"}, 0.0001, 0.1, 0.0001, ControlType -> 
+         Manipulator}, {
          Hold[
-          Style["critical errors", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
+          Style["critical errors", Bold]], Manipulate`Dump`ThisIsNotAControl, 
+         ControlType -> None}, {{
           Hold[$CellContext`mc$$], 3., "critical systematic error"}, 0.5, 8., 
-         0.01}, {{
+         0.01, ControlType -> Manipulator}, {{
           Hold[$CellContext`sc$$], 4., "critical random error"}, 0.5, 8., 
-         0.01}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
-       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+         0.01, ControlType -> Manipulator}}, Typeset`size$$ = Automatic, 
+       Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+       False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`mc$$ = 3., $CellContext`n$$ = 
@@ -4916,7 +4828,7 @@ $CellContext`s, $CellContext`p],
              Blank[]]] := $CellContext`pstrvl[$CellContext`e, $CellContext`n, \
 $CellContext`k, 
             $CellContext`lpfrv[$CellContext`n, $CellContext`k, \
-$CellContext`p]], $CellContext`k = 1, $CellContext`pstrvl[
+$CellContext`p]], $CellContext`pstrvl[
             Pattern[$CellContext`e, 
              Blank[]], 
             Pattern[$CellContext`n, 
@@ -4925,10 +4837,9 @@ $CellContext`p]], $CellContext`k = 1, $CellContext`pstrvl[
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -4940,19 +4851,18 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -4964,19 +4874,18 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -4988,14 +4897,14 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"]], $CellContext`lpfrv[
             Pattern[$CellContext`n, 
              Blank[]], 
@@ -5058,6 +4967,7 @@ $CellContext`\[Sigma])/(
                 Sqrt[2] $CellContext`s)])^(-$CellContext`k + $CellContext`n) (
                1 + Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] + 
+               
                Erfc[($CellContext`m - $CellContext`\[Mu] + $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])^$CellContext`k 
              Gamma[1 + $CellContext`n] 
@@ -5082,8 +4992,8 @@ $CellContext`pstrml[
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[((("\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+            Text[
+            "\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
 FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -5096,15 +5006,15 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -5116,15 +5026,15 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -5136,11 +5046,11 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"]], $CellContext`lpfrm[
             Pattern[$CellContext`n, 
              Blank[]], 
@@ -5212,8 +5122,7 @@ $CellContext`p]]], {10, 6}], {$CellContext`k,
                 $CellContext`pv[$CellContext`n, $CellContext`k, \
 $CellContext`m, 1, 
                  $CellContext`lpfrv[$CellContext`n, $CellContext`k, \
-$CellContext`p]]], {10, 6}], {$CellContext`k, 
-               1, $CellContext`n}]]], $CellContext`sc$$ = 7.077672651683099}; 
+$CellContext`p]]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]}; 
         Typeset`initDone$$ = True),
        SynchronousInitialization->True,
        UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -5232,22 +5141,25 @@ $CellContext`p]]], {10, 6}], {$CellContext`k,
        "\"untitled\"", Typeset`specs$$ = {{
          Hold[
           Style["size of QC sample", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
+         Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
           Hold[$CellContext`n$$], 2, 
-          "\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)"}, 1, 6, 1}, {
+          "\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)"}, 1, 6, 1, 
+         ControlType -> Manipulator}, {
          Hold[
-          Style["decision limit", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
+          Style["decision limit", Bold]], Manipulate`Dump`ThisIsNotAControl, 
+         ControlType -> None}, {{
           Hold[$CellContext`l$$], 2.5, 
-          "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1, 5, 0.1}, {
+          "\!\(\*StyleBox[\"l\",FontSlant->\"Italic\"]\)"}, 1, 5, 0.1, 
+         ControlType -> Manipulator}, {
          Hold[
-          Style["critical errors", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
+          Style["critical errors", Bold]], Manipulate`Dump`ThisIsNotAControl, 
+         ControlType -> None}, {{
           Hold[$CellContext`mc$$], 3., "critical systematic error"}, 0.5, 8., 
-         0.01}, {{
+         0.01, ControlType -> Manipulator}, {{
           Hold[$CellContext`sc$$], 4., "critical random error"}, 0.5, 8., 
-         0.01}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
-       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+         0.01, ControlType -> Manipulator}}, Typeset`size$$ = Automatic, 
+       Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+       False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`l$$ = 2.5, $CellContext`mc$$ = 
@@ -5345,10 +5257,9 @@ $CellContext`s, $CellContext`l],
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -5360,19 +5271,18 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -5384,19 +5294,18 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -5408,23 +5317,23 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
-             ")"]], $CellContext`k = 1, $CellContext`pstrml[
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
+             ")"]], $CellContext`pstrml[
             Pattern[$CellContext`e, 
              Blank[]], 
             Pattern[$CellContext`n, 
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[((("\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+            Text[
+            "\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
 FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -5437,15 +5346,15 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -5457,15 +5366,15 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -5477,11 +5386,11 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"]], $CellContext`tlpfr[
             Pattern[$CellContext`n, 
              Blank[]], 
@@ -5548,7 +5457,6 @@ $CellContext`\[Sigma])/(
                 Sqrt[2] $CellContext`s)])^(-$CellContext`k + $CellContext`n) (
                1 + Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] + 
-               
                Erfc[($CellContext`m - $CellContext`\[Mu] + $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])^$CellContext`k 
              Gamma[1 + $CellContext`n] 
@@ -5602,8 +5510,7 @@ $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])])/
                N[
                 $CellContext`pv[$CellContext`n, $CellContext`k, \
 $CellContext`m, 1, $CellContext`l]], {10, 6}], {$CellContext`k, 
-               1, $CellContext`n}]]], $CellContext`sc$$ = 7.077672651683099}; 
-        Typeset`initDone$$ = True),
+               1, $CellContext`n}]]]}; Typeset`initDone$$ = True),
        SynchronousInitialization->True,
        UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
        UnsavedVariables:>{Typeset`initDone$$},
@@ -5622,22 +5529,24 @@ $CellContext`m, 1, $CellContext`l]], {10, 6}], {$CellContext`k,
        "\"untitled\"", Typeset`specs$$ = {{
          Hold[
           Style["size of QC sample", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
-          Hold[$CellContext`n$$], 4, "control measurements"}, 1, 6, 1}, {
+         Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+          Hold[$CellContext`n$$], 4, "control measurements"}, 1, 6, 1, 
+         ControlType -> Manipulator}, {
          Hold[
-          Style["critical errors", Bold]], 
-         Manipulate`Dump`ThisIsNotAControl}, {{
+          Style["critical errors", Bold]], Manipulate`Dump`ThisIsNotAControl, 
+         ControlType -> None}, {{
           Hold[$CellContext`m$$], 3., "critical systematic error"}, 0.5, 8., 
-         0.01}, {{
-          Hold[$CellContext`s$$], 4., "critical random error"}, 0.5, 8., 
-         0.01}, {{
+         0.01, ControlType -> Manipulator}, {{
+          Hold[$CellContext`s$$], 4., "critical random error"}, 0.5, 8., 0.01,
+          ControlType -> Manipulator}, {{
           Hold[$CellContext`pred$$], 0.9, 
-          "probability of critical random error detection"}, 0.1, 0.99, 
-         0.01}, {{
+          "probability of critical random error detection"}, 0.1, 0.99, 0.01, 
+         ControlType -> Manipulator}, {{
           Hold[$CellContext`psed$$], 0.9, 
           "probability of critical systematic error detection"}, 0.1, 0.99, 
-         0.01}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
-       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+         0.01, ControlType -> Manipulator}}, Typeset`size$$ = Automatic, 
+       Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+       False}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`m$$ = 3., $CellContext`n$$ = 
@@ -5717,9 +5626,7 @@ $CellContext`s, $CellContext`pred, $CellContext`psed],
                     1, $CellContext`m, $CellContext`s, $CellContext`pred, \
 $CellContext`psed]], {10, 6}]}}]], Frame -> All, FrameStyle -> 
              Blend[{Blue, Cyan}, 0.35], Spacings -> {1, 1}, ItemSize -> 
-             Automatic]], $CellContext`pred$$ = 
-          0.8999999999999999, $CellContext`psed$$ = 
-          0.8999999999999999, $CellContext`tcv[
+             Automatic]], $CellContext`tcv[
             Pattern[$CellContext`n, 
              Blank[]], 
             Pattern[$CellContext`m, 
@@ -5754,7 +5661,7 @@ $CellContext`s, $CellContext`pred, $CellContext`psed], {$CellContext`k,
 $CellContext`k, 
             $CellContext`lpedcv[$CellContext`n, $CellContext`k, \
 $CellContext`m, $CellContext`s, $CellContext`pred, $CellContext`psed]], \
-$CellContext`k = 1, $CellContext`pstrvl[
+$CellContext`pstrvl[
             Pattern[$CellContext`e, 
              Blank[]], 
             Pattern[$CellContext`n, 
@@ -5763,10 +5670,9 @@ $CellContext`k = 1, $CellContext`pstrvl[
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -5778,19 +5684,18 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -5802,19 +5707,18 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[(((((
-                  "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"S\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -5826,14 +5730,14 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                    Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-                 "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                  Style[$CellContext`k, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[$CellContext`k, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"]], $CellContext`lpedcv[
             Pattern[$CellContext`n, 
              Blank[]], 
@@ -5921,7 +5825,8 @@ $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])^$CellContext`k
              Gamma[1 + $CellContext`n] 
              Hypergeometric2F1[
               1, $CellContext`k - $CellContext`n, 1 + $CellContext`k, 1 + 
-               2/(Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
+               2/(
+                Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] - 
                 Erf[($CellContext`m - $CellContext`\[Mu] + $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])])/
@@ -5946,8 +5851,8 @@ $CellContext`s, $CellContext`pred, $CellContext`psed]], $CellContext`pstrml[
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Switch[$CellContext`e, 0, 
-            
-            Text[((("\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+            Text[
+            "\!\(\*SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
 FontWeight->\"Plain\",FontSlant->\"Italic\"], \
 StyleBox[\"M\",FontFamily->\"Arial\",FontSize->9,FontWeight->\"Plain\",\
 FontSlant->\"Italic\"]]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
@@ -5960,15 +5865,15 @@ StyleBox[\";\",FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 1, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"0\",FontFamily->\"Arial\",\
@@ -5980,15 +5885,15 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"], 2, 
-            
-            Text[((("\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"\
-Arial\",FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
+            Text[
+            "\!\(\*StyleBox[SubscriptBox[StyleBox[\"P\",FontFamily->\"Arial\",\
+FontWeight->\"Normal\",FontSlant->\"Oblique\"], \
 StyleBox[\"M\",FontSize->9]],FontFamily->\"Arial\",FontWeight->\"Normal\",\
 FontSlant->\"Oblique\"]\)\!\(\*StyleBox[\"(\",FontFamily->\"Arial\",\
 FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"m\",FontFamily->\"Arial\",\
@@ -6000,11 +5905,11 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\"1\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)\!\(\*StyleBox[\",\",\
 FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
-                  Style[$CellContext`n, FontFamily -> "Arial"]]) <> 
-               "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"\
-Normal\"]\)") <> ToString[
-                Style[
-                 NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]]) <> 
+               Style[$CellContext`n, FontFamily -> "Arial"]] <> 
+             "\!\(\*StyleBox[\",\",FontFamily->\"Arial\",FontWeight->\"Normal\
+\"]\)" <> ToString[
+               Style[
+                NumberForm[$CellContext`l, {3, 2}], FontFamily -> "Arial"]] <> 
              ")"]], $CellContext`lpedcm[
             Pattern[$CellContext`n, 
              Blank[]], 
@@ -6084,7 +5989,7 @@ $CellContext`psed]], {10, 6}], {$CellContext`k,
 $CellContext`m, $CellContext`s, 
             $CellContext`lpedcv[$CellContext`n, $CellContext`k, \
 $CellContext`mc, $CellContext`sc, $CellContext`pred, $CellContext`psed]], \
-$CellContext`sc = 7.077672651683099, $CellContext`pcm[
+$CellContext`pcm[
             Pattern[$CellContext`n, 
              Blank[]], 
             Pattern[$CellContext`m, 
@@ -6164,9 +6069,10 @@ $CellContext`psed]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
    3.873463936924502*^9, 3.873464697564953*^9, 3.8734648960009546`*^9, 
    3.873465014292545*^9, 3.873465252101547*^9, 3.873465538103036*^9, 
    3.873631776192536*^9, 3.8736318755305257`*^9, 3.875187619100815*^9, 
-   3.875201855105205*^9, 3.875201918407934*^9, 3.875202010796774*^9},
+   3.875201855105205*^9, 3.875201918407934*^9, 3.875202010796774*^9, {
+   3.930542134668148*^9, 3.9305421354390583`*^9}},
  CellLabel->
-  "Out[168]=",ExpressionUUID->"efb967af-1b95-4c09-9ca9-7901676eadbc"]
+  "Out[116]=",ExpressionUUID->"8d952ee7-79ad-7d44-a628-2d7c26ba5c1c"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -6563,7 +6469,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/QualityControl/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.3.3\n",
+ StyleBox["\nVersion Number 1.1.3.4\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory",
@@ -6606,8 +6512,8 @@ International Creative Commons License",
    3.873632234265279*^9}, {3.926341003158258*^9, 3.926341008275952*^9}, {
    3.92773408466639*^9, 3.927734103815949*^9}, {3.927868835454948*^9, 
    3.927868836035688*^9}, {3.927942220032595*^9, 3.927942220770687*^9}, {
-   3.928508175128807*^9, 
-   3.928508191289585*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
+   3.928508175128807*^9, 3.928508191289585*^9}, {3.930541905929037*^9, 
+   3.930541906654421*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
 da8b685956ea"]
 }, Open  ]]
 },
@@ -6636,18 +6542,16 @@ Cell[1646, 43, 1008, 17, 71, "Title",ExpressionUUID->"df09ce5c-3c35-4b13-b788-d0
  Evaluatable->False],
 Cell[2657, 62, 664, 15, 129, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
 Cell[3324, 79, 366, 8, 31, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
-Cell[3693, 89, 79267, 1954, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
+Cell[CellGroupData[{
+Cell[3715, 91, 129705, 3012, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
  CellOpen->False,
  InitializationCell->True],
-Cell[CellGroupData[{
-Cell[82985, 2047, 54675, 1121, 19, "Input",ExpressionUUID->"97f3bdbf-7701-4e4d-bd86-f125126b4a7a",
- CellOpen->False],
-Cell[137663, 3170, 146902, 2998, 479, "Output",ExpressionUUID->"efb967af-1b95-4c09-9ca9-7901676eadbc"]
+Cell[133423, 3105, 145668, 2969, 475, "Output",ExpressionUUID->"8d952ee7-79ad-7d44-a628-2d7c26ba5c1c"]
 }, Open  ]],
-Cell[284580, 6171, 1101, 21, 53, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
-Cell[285684, 6194, 9636, 313, 136, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
-Cell[295323, 6509, 2472, 42, 47, "Subsubsubsubsection",ExpressionUUID->"a1def6cc-45f5-3246-96aa-c8afd1bebe11"],
-Cell[297798, 6553, 2527, 57, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
+Cell[279106, 6077, 1101, 21, 53, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
+Cell[280210, 6100, 9636, 313, 136, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
+Cell[289849, 6415, 2472, 42, 47, "Subsubsubsubsection",ExpressionUUID->"a1def6cc-45f5-3246-96aa-c8afd1bebe11"],
+Cell[292324, 6459, 2573, 57, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
 }, Open  ]]
 }
 ]
