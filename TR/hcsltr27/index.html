@@ -15,8 +15,8 @@
     <link href="../../favicon.ico" rel="shortcut icon" title="HCSL shortcut" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes">
 	<meta charset="utf-8">
-    <meta name="keywords" content="Bayesian diagnosis; prior probability; posterior probability; likelihood; positive predictive value; negative predictive value; parametric distribution; combined uncertainty; measurement uncertainty; sampling uncertainty; probability density function; diabetes mellitus">
-    <meta name="description" content="HCSL Technical Report XXVII: A Software Tool for Parametric Bayesian Probabilistic Methods in Medical Diagnostics">
+    <meta name="keywords" content="Bayesian diagnosis; Bayes' theorem; prior probability; posterior probability; likelihood; positive predictive value; negative predictive value; parametric distribution; combined uncertainty; measurement uncertainty; sampling uncertainty; probability density function; diabetes mellitus">
+    <meta name="description" content="HCSL Technical Report XXVII: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics">
     <meta name="author" content="ath@hcsl.com">
     <link href="../../css/hcsl.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,7 +29,11 @@
 	<meta name="citation_technical_report_number" content="XXVII">
 	<meta name="citation_firstpage" content="1">
 	<meta name="citation_lastpage" content="30">
-	<meta name="citation_abstract" content="Background: In medical diagnostics, determining disease probabilities and understanding associated uncertainty and confidence intervals is essential for patient care. Objective: This study introduces a software tool developed in the Wolfram Language for the parametric estimation, visualization, and comparison of Bayesian diagnostic measures and their uncertainty. Methods: The tool employs Bayes' theorem to compute posterior probability for disease and absence of the disease, and diagnostic thresholds derived positive and negative predictive value. It also quantifies their standard sampling, measurement, and combined uncertainty using normal, lognormal, and gamma distributions and applying uncertainty propagation methods. Results: : The tool generates diagnostic measures, standard uncertainty, and confidence intervals estimates and provides plots that offer insights into their precision, thereby supporting clinical decision-making. A case study analyzing fasting plasma glucose data from the National Health and Nutrition Examination Survey in the U.S.A., demonstrates the tool's utility for diagnosing diabetes mellitus. The results underscore the influence of measurement uncertainty on the Bayesian diagnostic measures. Conclusion: : The tool generates diagnostic measures, standard uncertainty, and confidence intervals estimates and provides plots that offer insights into their precision, thereby supporting clinical decision-making. A case study analyzing fasting plasma glucose data from the National Health and Nutrition Examination Survey in the U.S.A., demonstrates the tool's utility for diagnosing diabetes mellitus. The results underscore the influence of measurement uncertainty on the Bayesian diagnostic measures.">
+	<meta name="citation_abstract" content="Background: In medical diagnostics, determining post-test or posterior probabilities for disease and understanding associated uncertainty and confidence intervals are essential for patient care. Objective: This study introduces a software tool developed in the Wolfram Language for the parametric estimation, visualization, and comparison of Bayesian diagnostic measures and their uncertainty.
+Methods: The tool employs Bayes' theorem to compute posterior probabilities for disease and absence of the disease, and diagnostic thresholds derived positive and negative predictive values. It also quantifies their sampling, measurement, and combined uncertainty using normal, lognormal, and gamma distributions, applying uncertainty propagation methods. 
+Results: The tool generates diagnostic measures, standard uncertainty, and confidence intervals estimates and provides their plots, supporting clinical decision-making. A case study using fasting plasma glucose data from the National Health and Nutrition Examination Survey in the USA showcases its application in diagnosing diabetes mellitus, highlighting the significant role of measurement uncertainty.
+Conclusion: The software enhances the estimation and facilitates the comparison of Bayesian diagnostic measures, which are critical for medical practice. It provides a framework for analyzing uncertainty and assists in understanding and applying Bayes' theorem in medical diagnostics.
+">
 	<meta name="citation_pdf_url" title="PDF Full-Text"  content="https://www.hcsl.com/TR/hcsltr27/hcsltr27.pdf">
 </head>
 <body>
@@ -45,14 +49,14 @@
     <div class="content">
         <h2>Technical Report XXVII</h2>
         <h1 id="TR27">
-           A Software Tool for Parametric Bayesian Probabilistic Methods in Medical Diagnostics 
+          A Software Tool for Applying Bayes' Theorem in Medical Diagnostics 
         </h1>
 		<h3>
             T Chatzimichail, AT Hatjimihail
         </h3>
         <h4>Abstract</h4>
         <p class="c1">
-			<span style="font-style: italic">Background:</span> In medical diagnostics, determining disease probabilities and understanding associated <a href="../../Glossary/index.html#Uncertainty" title="glossary: uncertainty">uncertainty</a> and confidence intervals is essential for patient care.
+			<span style="font-style: italic">Background:</span> In medical diagnostics, post-test or posterior probabilities for disease and understanding associated <a href="../../Glossary/index.html#Uncertainty" title="glossary: uncertainty">uncertainty</a> and confidence intervals is essential for patient care.
 		</p>
 		<p class="c1">
 			<span style="font-style: italic">Objective:</span> This study introduces a software tool developed in the Wolfram Language for the parametric estimation, visualization, and comparison of Bayesian diagnostic measures and their uncertainty.
@@ -61,10 +65,10 @@
 			<span style="font-style: italic">Methods:</span> The tool employs <a href="../../Glossary/index.html#Bayes'_Theorem" title="glossary: Bayes' inference">Bayes' theorem</a> to compute posterior probability for disease and absence of the disease, and diagnostic thresholds derived positive and negative predictive value. It also quantifies their standard sampling, measurement, and combined uncertainty using normal, lognormal, and gamma distributions and applying uncertainty propagation methods.
 		</p>
 		<p class="c1">		
-			<span style="font-style: italic">Results:</span> : The tool generates diagnostic measures, standard uncertainty, and confidence intervals estimates and provides plots that offer  insights into their precision, thereby supporting clinical decision-making. A case study analyzing fasting plasma glucose data from the National Health and Nutrition Examination Survey in the U.S.A., demonstrates the tool's utility for diagnosing diabetes mellitus. The results underscore the influence of measurement uncertainty on the Bayesian diagnostic measures.
+			<span style="font-style: italic">Results:</span> : The tool generates diagnostic measures, standard uncertainty, and confidence intervals estimates and provides their plots, supporting clinical decision-making. A case study using fasting plasma glucose data from the National Health and Nutrition Examination Survey in the USA showcases its application in diagnosing diabetes mellitus, highlighting the significant role of measurement uncertainty.
 		</p>
 		<p class="c1">
-			<span style="font-style: italic">Conclusion:</span> : The tool generates diagnostic measures, standard uncertainty, and confidence intervals estimates and provides plots that offer  insights into their precision, thereby supporting clinical decision-making. A case study analyzing fasting plasma glucose data from the National Health and Nutrition Examination Survey in the U.S.A., demonstrates the tool's utility for diagnosing diabetes mellitus. The results underscore the influence of measurement uncertainty on the Bayesian diagnostic measures.
+			<span style="font-style: italic">Conclusion:</span> : The software enhances the estimation and facilitates the comparison of Bayesian diagnostic measures, which are critical for medical practice. It provides a framework for analyzing uncertainty and assists in understanding and applying Bayes' theorem in medical diagnostics.
 		</p>
 		<h4>Published</h4>
 		 <p class="c1">
@@ -72,7 +76,7 @@
         </p>
 		<h4>Citation</h4>
 		<p class="c1">
-			Chatzimichail T, Hatjimihail AT. A Software Tool for Parametric Bayesian Probabilistic Methods in Medical Diagnostics. Technical Report XXVII. Drama: Hellenic Complex Systems Laboratory, 2024. Available at: <a href="https://www.hcsl.com/TR/hcsltr27/hcsltr27.pdf" title="Available at:" target="_blank">https://www.hcsl.com/TR/hcsltr27/hcsltr27.pdf</a>
+			Chatzimichail T, Hatjimihail AT. A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Technical Report XXVII. Drama: Hellenic Complex Systems Laboratory, 2024. Available at: <a href="https://www.hcsl.com/TR/hcsltr27/hcsltr27.pdf" title="Available at:" target="_blank">https://www.hcsl.com/TR/hcsltr27/hcsltr27.pdf</a>
         </p>
         <p class="c1"><br>
             <a href="hcsltr27.pdf" target="_blank">Full Text PDF</a>
