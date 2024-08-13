@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CRKTXRE2HD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CRKTXRE2HD');
+</script>
+    <link rel="canonical" href="https://www.hcsl.com/Diagnosis/index.html">
+    <title>A Note on Medical Diagnosis</title>
+    <link href="../favicon.ico" rel="shortcut icon" title="HCSL shortcut" type="image/x-icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes">
+	<meta charset="utf-8">
+    <meta name="keywords" content="medical diagnosis, diagnostic accuracy measures, Bayes' theorem, Bayesian inference">
+    <meta name="description" content="A Note on Medical Diagnosis">
+    <meta name="author" content="ath@hcsl.com">
+    <link href="../css/hcsl.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <p><img src="../Images/HCSLlogo.svg" alt="HCSL Logo" class="center" style="width:90px;height:96px"></p>
+        <p style="text-align:center"><span class="c6">Hellenic<br>Complex&nbsp;Systems<br>Laboratory</span></p>
+        <a href="../index.html" class="hidden">Home</a>
+		<a href="../Intro/index.html" class="hidden">An Introduction to QC Design and Optimization</a>
+        <a href="../Notes/index.html" class="hidden"> A Note on the Reliability and Risk Based QC</a>
+		<a href="index.html" class="hidden"><span style="font-weight:bold;">A Note on Medical Diagnosis</span></a>
+        <a href="../Publications/index.html" class="hidden">HCSL Publications</a>
+        <a href="../Publications/Fellows.html" class="hidden">Other Publications</a>
+        <a href="../CLSI/index.html" class="hidden">CLSI Documents</a>
+		<a href="../TR/index.html" class="hidden">HCSL Technical Reports</a>
+        <a href="../Tools/index.html" class="hidden">HCSL Software</a>
+        <a href="../Links/index.html" class="hidden">Links</a>
+        <a href="../Glossary/index.html" class="hidden">Glossary</a>
+        <a href="../Contact/index.html" class="hidden">Contact Information</a>
+		<a href="../About/index.html" class="hidden">About Us</a>
+    </div>
+    <div class="content">
+        <article>
+            <h1>
+                An Introduction to Medical Diagnosis
+            </h1>
+            <p class="c1">
+                Diagnosis in medicine involves identifying the unique characteristics of a disease through abduction, deduction, and induction . The term 'diagnosis,' derived from the Greek 'διάγνωσις' meaning 'discernment', highlights the critical process of distinguishing between healthy and diseased states in individuals. It can be defined as the stochastic mapping of symptoms, signs, and findings from laboratory and medical imaging onto a specific disease condition, using medical knowledge.
+            </p>
+			 <h2>
+                Threshold-Based Diagnosis
+            </h2>
+            <p class="c1">
+                In threshold-based diagnosis, diagnostic tests are used to classify individuals into either diseased or non-diseased populations. This method involves setting a diagnostic threshold or cut-off point to dichotomize results, even though the probability distributions of the test measurands in these populations overlap . Despite the inherent uncertainty introduced by these overlapping distributions, this approach significantly impacts medical decision-making by linking a continuum of evidence to binary clinical decisions, such as treatment choices .
+            </p>
+			 <h3>
+                Diagnostic Accuracy Measures
+            </h3>
+            <p class="c1">
+                For the patients’ safety it is imperative that their diagnostic accuracy, that is the correctness of this classification, is rigorously evaluated. From the large number of diagnostic accuracy measures appearing in literature a few are used for evaluating the diagnostic accuracy in clinical research and practice (see <a href="../Publications/Diagnostic.html">HCSL Publications on Diagnostic Accuracy</a>). These include:<br>
+				1.	Sensitivity (<span class="c7">Se</span>), specificity (<span class="c7">Sp</span>) diagnostic odds ratio, and likelihood ratio for positive or negative result, which are defined conditionally on the true disease status and are prevalence invariant.<br>
+				2.	Overall diagnostic accuracy, which is defined conditionally on the true disease status and is prevalence-dependent.<br>
+				3.	Positive predictive and negative predictive value, which are defined conditionally on the test outcome and are prevalence-dependent.<br>
+				Receiver operating characteristic (ROC) curves are also used for the evaluation of the diagnostic performance of a screening or diagnostic test. ROC curves are plots of <span class="c7">Se</span> against 1-<span class="c7">Sp</span>. 
+            </p>
+			 <h2>
+                Beyesian Diagnosis
+            </h2>
+            <p class="c1">
+				Bayesian diagnosis leverages Bayes' theorem to update the probability of a disease after obtaining test results . This theorem relates the posterior probability <span class="c7">P</span>(<span class="c7">H</span>|<span class="c7">E</span>) of a hypothesis <span class="c7">H</span> given evidence <span class="c7">E</span> to the likelihood <span class="c7">P</span>(<span class="c7">E</span>|<span class="c7">H</span>) of the evidence given the hypothesis.		
+			</p>
+			 <h3>
+                Beyesian Inference
+            </h3>
+            <p class="c1">
+				Bayesian inference begins with a prior distribution that reflects initial beliefs about the parameters of interest before observing the evidence. This prior is updated with the likelihood function (representing the new evidence) using Bayes' theorem to produce the posterior distribution, which combines prior knowledge with new data.	
+            </p>
+			 <h4>
+                Prior Distribution
+            </h4>
+            <p class="c1">
+                Priors represent researchers' beliefs about parameters before considering the evidence and can be informative, weakly informative, or diffuse, depending on the level of certainty they convey.
+            </p>
+			 <h4>
+                Likelihood Function
+            </h4>
+            <p class="c1">
+               The likelihood function indicates how probable the observed evidence is given different parameter values, playing a key role in updating the prior to form the posterior distribution.
+            </p>
+			<h4>
+                Posterior Distribution
+            </h4>
+            <p class="c1">
+                The posterior distribution results from combining the prior and likelihood functions, reflecting updated knowledge about the parameters after considering the observed evidence.
+            </p>
+			<h4>
+                Workflow
+            </h4>
+            <p class="c1">
+               A typical Bayesian workflow includes specifying the prior distribution, determining the likelihood function, and combining both using Bayes' theorem to obtain the posterior distribution. This process involves model checking, refinement, and sensitivity analysis to ensure robust Bayesian inferences.
+            </p>
+			 <h3>
+                Empirical Bayesian Methods
+            </h3>
+			 <p class="c1">
+              Empirical Bayesian methods simplify the Bayesian framework by using data to estimate the prior distribution, making it practical when prior information is scarce . This approach treats the prior as an unknown to be estimated from the data, facilitating real-time data integration in medical diagnostics (see <a href="../Publications/Bayesian.html">HCSL Publications on Bayesian Diagnosis</a>).
+            </p>
+			<h4>
+                Workflow
+            </h4>
+            <p class="c1">
+              The empirical Bayesian workflow typically involves:<br> 
+			  1.  Collecting a large dataset and conducting preliminary statistical analyses to understand the data's distributions and characteristics,<br> 
+			  2.  Estimating prior distributions using empirical data through methods such as maximum likelihood, and<br>
+			  3.  Applying Bayes' theorem with the estimated prior distributions to compute posterior probabilities, thereby integrating the observed data, such as diagnostic test results.
+            </p>
+			<p class="c1">
+                    Theodora Chatzimichail, M.R.C.S.,
+            </p>
+			<p class="c1">
+                <a href="mailto:tc@hcsl.com">tc@hcsl.com</a>
+            </p>
+            <p>
+                <a href="../About/index.html#Hellenic_Names" title="a note on the standardisation of the Hellenic names">
+                    Aristeidis T. Chatzimichail, M.D., Ph.D.
+                </a>,
+            </p>
+			<p class="c1">
+                <a href="mailto:ath@hcsl.com">ath@hcsl.com</a>
+            </p>
+        </article>
+    </div>
+</body>
+</html>
