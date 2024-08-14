@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CRKTXRE2HD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CRKTXRE2HD');
+</script>
+    <link rel="canonical" href="https://www.hcsl.com/Notes/Uncertainty.html">
+    <title>A Note on Uncertainty</title>
+    <link href="../favicon.ico" rel="shortcut icon" title="HCSL shortcut" type="image/x-icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes">
+	<meta charset="utf-8">
+    <meta name="keywords" content="uncertainty, measurement uncertainty, sampling uncertainty, combined uncertainty, uncertainty propagation">
+    <meta name="description" content="A Note on Uncertainty">
+    <meta name="author" content="ath@hcsl.com">
+    <link href="../css/hcsl.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <p><img src="../Images/HCSLlogo.svg" alt="HCSL Logo" class="center" style="width:90px;height:96px"></p>
+        <p style="text-align:center"><span class="c6">Hellenic<br>Complex&nbsp;Systems<br>Laboratory</span></p>
+        <a href="../index.html" class="hidden">Home</a>
+		<a href="index.html" class="hidden">HCSL Notes</a>
+        <a href="QC.html" class="hidden">A Note on QC Design and Optimization</a>
+        <a href="Risk.html" class="hidden"> A Note on Reliability and Risk Based QC</a>
+		<a href="Diagnosis.html" class="hidden">A Note on Medical Diagnosis</a>
+		<a href="Uncertainty.html" class="hidden"><span style="font-weight:bold;">A Note on Uncertainty of Diagnostic Measures</span></a>
+    </div>
+    <div class="content">
+        <article>
+			<h2>HCSL Notes</h2>
+            <h1>
+                A Note on Uncertainty of Diagnostic Measures
+            </h1>
+            <p class="c1">
+                Uncertainty represents imperfect or incomplete information. When quantifiable, we can express it with probability.
+            </p>
+			<h2 id="UDM1">
+                A. Measurement Uncertainty
+            </h2>
+            <p class="c1">
+                Given the intrinsic variability of measurements, measurement uncertainty is defined as a parameter associated with the result of a measurement, that characterizes the dispersion of the values that could reasonably be attributed to the measurand. This measurement uncertainty concept supplants the traditional notion of total analytical error.
+            </p>
+			<h2 id="UDM2">
+                B. Sampling Uncertainty
+            </h2>
+            <p class="c1">
+				Diagnostic measures are derived from screening or diagnostic tests applied to population samples. The variability within these samples contributes to their overall uncertainty. This intrinsic heterogeneity is present even when simple random sampling techniques are used.		
+			</p>
+			<h2 id="NMD3">
+                C. Uncertainty of Diagnostic Measures
+            </h2>
+            <p class="c1">
+               The standard combined uncertainty of diagnostic measures is computed via uncertainty propagation rules, employing a first-order Taylor series approximation. Estimating, evaluating, and mitigating this uncertainty is critical in medical diagnosis.<br>
+			   We have already explored the uncertainty of diagnostic accuracy measures and Bayes' theorem-derived posterior probability for disease, which can significantly impact their clinical usefulness<sup>1, 2</sup>. 
+            </p>
+			<p class="c1">
+                    Theodora Chatzimichail, M.R.C.S.,
+            </p>
+			<p class="c1">
+                <a href="mailto:tc@hcsl.com">tc@hcsl.com</a>
+            </p>
+			 <h2>References</h2>
+            <p class="c1">				
+				1. Chatzimichail T, Hatjimihail AT. A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. <span class="c7">Diagnostics</span> 2021; 11(3):406.<br>
+				2. Chatzimichail T, Hatjimihail AT. A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. <span class="c7">Diagnostics</span> 2024, 14(4), 402.
+            </p>
+        </article>
+    </div>
+</body>
+</html>

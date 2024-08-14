@@ -1,4 +1,4 @@
-# A Note on the Reliability and Risk Based Optimization of Statistical Quality Control
+# HCSL Notes
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/Notes/.
 
