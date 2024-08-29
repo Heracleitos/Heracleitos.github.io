@@ -1,6 +1,6 @@
 # Bayesian Diagnostic Insights
 
-A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 1.2.2. Hellenic Complex Systems Laboratory; 2024.
+A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 1.2.3. Hellenic Complex Systems Laboratory; 2024.
 
 Source Code: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights.nb)
 
