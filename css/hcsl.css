@@ -199,22 +199,20 @@ a {
 }
 
 a:link {
-	color: #000000;
+	color: #0000F0;
 	background-color: #FFFFFF;
-	text-decoration: underline;
-	text-decoration-color: #0000F0;
-	text-decoration-thickness: 1px;
+	text-decoration: none;
 }
 a:visited {
 	color: #000000;
 	background-color: #FFFFFF;
-	text-decoration: underline;
-	text-decoration-color: #000000;
-	text-decoration-thickness: 1px;
+	text-decoration: none;
 }
 a:hover {
-	color: #0000F0;
-	text-decoration: none;
+	color: #000000;
+	text-decoration: underline;
+	text-decoration-color: #0000F0;
+	text-decoration-thickness: 1px;
 }
 a:active {
 	color: #0000F0;
