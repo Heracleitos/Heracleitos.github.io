@@ -1,4 +1,6 @@
 # HCSL Technical Report XXVIII
+
+Chatzimichail T, Hatjimihail AT. A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Technical Report XXVIII. Hellenic Complex Systems Laboratory; 2024.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr28/.
 

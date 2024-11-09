@@ -1,4 +1,6 @@
 # HCSL Technical Report XXV
+
+Chatzimichail T, Hatjimihail AT. A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Technical Report XXV. Hellenic Complex Systems Laboratory; 2023.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr25/.
 
