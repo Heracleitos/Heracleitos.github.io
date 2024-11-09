@@ -1,4 +1,6 @@
 # HCSL Technical Report VIII
+
+Hatjimihail AT. Tool for Quality Control Design and Evaluation. Technical Report VIII. Hellenic Complex Systems Laboratory; 2010.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr08/.
 
