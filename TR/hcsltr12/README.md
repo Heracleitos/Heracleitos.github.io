@@ -1,4 +1,6 @@
 # HCSL Technical Report XII
+
+Chatzimichail T. Relation of Positive and Negative Predictive Values. Technical Report XII. Hellenic Complex Systems Laboratory; 2018.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr12/.
 

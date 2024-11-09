@@ -1,4 +1,6 @@
 # HCSL Technical Report XV
+
+Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Technical Report XV. Hellenic Complex Systems Laboratory; 2018.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr15/.
 

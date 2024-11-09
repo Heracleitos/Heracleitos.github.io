@@ -1,4 +1,6 @@
 # HCSL Technical Report XIV
+
+Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Technical Report XIV. Hellenic Complex Systems Laboratory; 2018.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr14/.
 

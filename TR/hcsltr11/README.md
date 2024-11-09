@@ -1,4 +1,6 @@
 # HCSL Technical Report XI
+
+Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Technical Report XI. Hellenic Complex Systems Laboratory; 2018.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr11/.
 
