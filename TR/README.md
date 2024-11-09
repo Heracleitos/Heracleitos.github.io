@@ -9,7 +9,7 @@
 7. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Technical Report VII. Hellenic Complex Systems Laboratory; 2009.
 8. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Technical Report VIII. Hellenic Complex Systems Laboratory; 2010.
 9. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Technical Report IX. Hellenic Complex Systems Laboratory; 2015.
-10. Chatzimichail T. Enteral Nutrition Design. Technical Report X. Hellenic Complex Systems Laboratory; 2017.
+10. Chatzimichail T. Enteral Nutritional Design. Technical Report X. Hellenic Complex Systems Laboratory; 2017.
 11. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Technical Report XI. Hellenic Complex Systems Laboratory; 2018.
 12. Chatzimichail T. Relation of Positive and Negative Predictive Values. Technical Report XII. Hellenic Complex Systems Laboratory; 2018.
 13. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Technical Report XIII. Hellenic Complex Systems Laboratory; 2018.
