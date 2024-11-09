@@ -1,4 +1,6 @@
 # HCSL Technical Report XVI
+
+Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Technical Report XVI. Hellenic Complex Systems Laboratory; 2018.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr16/.
 
