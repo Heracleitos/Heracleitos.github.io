@@ -1,4 +1,6 @@
 # HCSL Technical Report XXII
+
+Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Technical Report XXII. Hellenic Complex Systems Laboratory; 2022.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr22/.
 

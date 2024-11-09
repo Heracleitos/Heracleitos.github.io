@@ -1,4 +1,6 @@
 # HCSL Technical Report XXI
+
+Chatzimichail RA, Hatjimihail AT. Quality Control Using Convolutional Neural Networks Applied to Samples of Very Small Size. Technical Report XXI. Hellenic Complex Systems Laboratory; 2022.
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr21/.
 
