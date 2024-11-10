@@ -7,7 +7,7 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 <url>
   <loc>https://www.hcsl.com/</loc>
-  <lastmod>2024-11-09</lastmod>
+  <lastmod>2024-11-10</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -62,7 +62,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/About/index.html</loc>
-  <lastmod>2024-11-08</lastmod>
+  <lastmod>2024-11-10</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -257,27 +257,27 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr20/index.html</loc>
-  <lastmod>2024-11-09</lastmod>
+  <lastmod>2024-11-10</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr21/index.html</loc>
-  <lastmod>2024-11-09</lastmod>
+  <lastmod>2024-11-10</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr22/index.html</loc>
-  <lastmod>2024-11-09</lastmod>
+  <lastmod>2024-11-10</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr23/index.html</loc>
-  <lastmod>2024-11-09</lastmod>
+  <lastmod>2024-11-10</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr24/index.html</loc>
-  <lastmod>2024-11-09</lastmod>
+  <lastmod>2024-11-10</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -375,30 +375,31 @@
   <lastmod>2024-11-08</lastmod>
   <priority>0.64</priority>
 </url>
+
 <url>
   <loc>https://www.hcsl.com/Documents/EnteralNutritionDesignInterface.pdf</loc>
   <lastmod>2024-06-01</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr20/hcsltr20.pdf</loc>
-  <lastmod>2023-11-09</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.hcsl.com/TR/hcsltr01/hcsltr01.pdf</loc>
+  <lastmod>2024-11-09</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr22/hcsltr22.pdf</loc>
-  <lastmod>2023-11-09</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.hcsl.com/TR/hcsltr02/hcsltr02.pdf</loc>
+  <lastmod>2024-11-09</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr21/hcsltr21.pdf</loc>
-  <lastmod>2023-11-09</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.hcsl.com/TR/hcsltr03/hcsltr03.pdf</loc>
+  <lastmod>2024-11-09</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr23/hcsltr23.pdf</loc>
-  <lastmod>2023-11-09</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.hcsl.com/TR/hcsltr04/hcsltr04.pdf</loc>
+  <lastmod>2024-11-09</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr05/hcsltr05.pdf</loc>
@@ -431,22 +432,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr15/hcsltr15.pdf</loc>
-  <lastmod>2024-11-09</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr12/hcsltr12.pdf</loc>
-  <lastmod>2024-11-09</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://www.hcsl.com/TR/hcsltr11/hcsltr11.pdf</loc>
-  <lastmod>2024-11-09</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr14/hcsltr14.pdf</loc>
   <lastmod>2024-11-09</lastmod>
   <priority>0.64</priority>
 </url>
@@ -456,12 +442,17 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr17/hcsltr17.pdf</loc>
+  <loc>https://www.hcsl.com/TR/hcsltr14/hcsltr14.pdf</loc>
   <lastmod>2024-11-09</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr19/hcsltr19.pdf</loc>
+  <loc>https://www.hcsl.com/TR/hcsltr15/hcsltr15.pdf</loc>
+  <lastmod>2024-11-09</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr17/hcsltr17.pdf</loc>
   <lastmod>2024-11-09</lastmod>
   <priority>0.64</priority>
 </url>
@@ -476,28 +467,33 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr01/hcsltr01.pdf</loc>
+  <loc>https://www.hcsl.com/TR/hcsltr19/hcsltr19.pdf</loc>
   <lastmod>2024-11-09</lastmod>
-  <priority>0.51</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr02/hcsltr02.pdf</loc>
-  <lastmod>2024-11-09</lastmod>
-  <priority>0.51</priority>
+  <loc>https://www.hcsl.com/TR/hcsltr20/hcsltr20.pdf</loc>
+  <lastmod>2023-11-10</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr03/hcsltr03.pdf</loc>
-  <lastmod>2024-11-09</lastmod>
-  <priority>0.51</priority>
+  <loc>https://www.hcsl.com/TR/hcsltr21/hcsltr21.pdf</loc>
+  <lastmod>2023-11-10</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.hcsl.com/TR/hcsltr04/hcsltr04.pdf</loc>
-  <lastmod>2024-11-09</lastmod>
-  <priority>0.51</priority>
+  <loc>https://www.hcsl.com/TR/hcsltr22/hcsltr22.pdf</loc>
+  <lastmod>2023-11-10</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr23/hcsltr23.pdf</loc>
+  <lastmod>2023-11-10</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr24/hcsltr24.pdf</loc>
-  <lastmod>2024-11-09</lastmod>
+  <lastmod>2024-11-10</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
