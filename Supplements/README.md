@@ -1,4 +1,4 @@
-#Supplements of HCSL Publications, Software, and Technical Reports 
+# Supplements of HCSL Publications, Software and Technical Reports 
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/.
 
