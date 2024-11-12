@@ -31,7 +31,9 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 27. Chatzimichail T, Hatjimihail AT. A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Technical Report XXVII. Hellenic Complex Systems Laboratory; 2024.
 28. Chatzimichail T, Hatjimihail AT. A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Technical Report XXVIII. Hellenic Complex Systems Laboratory; 2024.
 
-Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/.
+**HCSL Technical Reports Publication Dates Policy**
+
+The publication dates indicated for each HCSL Technical Report correspond to the original release dates rather than the latest revision. While revised versions may exist, they retain the original publication date to maintain consistency across references. Revised copies with their latest revision dates may be available on other websites.
 
 **Intellectual Property Rights**
 
