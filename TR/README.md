@@ -33,7 +33,7 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 
 **HCSL Technical Reports Publication Dates Policy**
 
-The publication dates indicated for each HCSL Technical Report correspond to the original release dates rather than the latest revision. While revised versions may exist, they retain the original publication date to maintain consistency across references. Revised copies with their latest revision dates may be available on other websites.
+The publication dates indicated for each Hellenic Complex Systems Laboratory Technical Report correspond to the original release dates rather than the latest revision. While revised versions may exist, they retain the original publication date to maintain consistency across references. Revised copies with their latest revision dates may be available on other websites.
 
 **Intellectual Property Rights**
 
