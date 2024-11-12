@@ -1,5 +1,7 @@
 # HCSL Technical Reports
 
+Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/.
+
 1. Hatjimihail AT. Entropy and genetic algorithms: Definition and some graphs. Technical Report I. Hellenic Complex Systems Laboratory; 1993.
 2. Hatjimihail AT, Hatjimihail TT. Design of statistical quality control procedures using genetic algorithms. Technical Report II. Hellenic Complex Systems Laboratory; 1993.
 3. Hatjimihail AT. A nonlinear component of the analytical error. Technical Report III. Hellenic Complex Systems Laboratory; 2001.
