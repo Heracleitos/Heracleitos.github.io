@@ -1,4 +1,4 @@
-# HCSL Related Images
+# Images of HCSL Publications and Technical Reports
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/.
 
