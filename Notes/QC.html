@@ -71,14 +71,28 @@
                     simulation</a><sup>1</sup> (see <a href="../Publications/Fellows.html">Other Publications by HCSL Fellows</a>) or calculated using <a href="../Glossary/index.html#Numerical_Methods" title="glossary: numerical methods">numerical methods</a><sup>2</sup> (see <a href="../Publications/QC.html">HCSL Publications on Statistical QC Design</a>).
             </p>
             <p class="c1">
-                Generally, algebraic methods are unsuitable for optimizing statistical QC procedures. Enumerative methods can be cumbersome, especially with multi-rule procedures, due to the exponential increase in the parameter space. <a href="../Glossary/index.html#Genetic_Algorithms" title="glossary: genetic algorithms" >Genetic algorithms</a> (GAs) provide an attractive alternative, as they are robust search algorithms that can efficiently search through large spaces without requiring knowledge of the objective function. GAs have been inspired by the molecular biology processes of the gene and the evolution of life. Their operators, cross-over, mutation, and reproduction, are isomorphic with synonymous biological processes. GAs have been employed to address a wide range of complex <a href="../Glossary/index.html#Optimization" title="glossary: optimization">optimization</a> problems. Furthermore, the design process for novel QC procedures is inherently more complex than optimizing predefined ones. Classifier systems and the genetic programming paradigm have demonstrated that GAs can be applied to tasks as intricate as program induction.
-            </p>
-            <p class="c1">
-                Since 1993, we have successfully used the GAs to optimize and design novel statistical QC procedures<sup>3</sup>.
-            </p>
+                Generally, algebraic methods are unsuitable for optimizing statistical QC procedures. Enumerative methods can be cumbersome, especially with multi-rule procedures, due to the exponential increase in the parameter space. 
+			</p>
+			<p class="c1">
+				<a href="../Glossary/index.html#Genetic_Algorithms" title="glossary: genetic algorithms" >Genetic algorithms</a> (GAs) provide an attractive alternative, as they are robust search algorithms that can efficiently search through large spaces without requiring knowledge of the objective function. GAs have been inspired by the molecular biology processes of the gene and the evolution of life. Their operators, cross-over, mutation, and reproduction, are isomorphic with synonymous biological processes. GAs have been employed to address a wide range of complex <a href="../Glossary/index.html#Optimization" title="glossary: optimization">optimization</a> problems. Furthermore, the design process for novel QC procedures is inherently more complex than optimizing predefined ones. Classifier systems and the genetic programming paradigm have demonstrated that GAs can be applied to tasks as intricate as program induction. Since 1993, we have successfully used the GAs to optimize and design novel statistical QC procedures<sup>3</sup>.
+			</p>
+			<p class="c1">
+				Artificial <a href="../Glossary/index.html#Neural_Networks" title="glossary: neural networks">neural networks</a> (NNs) are another class of adaptive computational algorithms, inspired by the structure and function of the brain. These algorithms excel in statistical data modeling and high-precision classification tasks. NNs consist of interconnected input, processing, and output nodes, where information flows from input to output through weighted, directed connections. Each node computes an output during forward propagation by applying an activation function to the sum of weighted inputs and a bias term, which is then propagated through the network. Backpropagation adjusts the weights and biases of nodes iteratively to minimize an output-dependent loss function. Through repeated cycles of forward and backward propagation, NNs can be trained using appropriate datasets.
+			</p>
+			<p class="c1">
+				NNs have been extensively investigated for their utility in QC, yet their practical application requires at least five QC measurements, increasing associated costs. To address this limitation, we have explored using NNs with very small samples of QC measurements. Since 2022, we have successfully employed one-dimensional convolutional neural networks (1D-CNNs) on samples of just two to four QC measurements to effectively enhance the detection of process nonconformity with quality specifications.
+				</p>
+				<p class="c1">
+				Both GAs and NNs offer transformative potential for QC by reducing measurement costs and improving the efficiency of the QC process. 
+			</p>
+			
             <p class="c1">
                 <a href="../About/index.html#Hellenic_Names" title="a note on the standardisation of the Hellenic names"> Aristides T. Hatjimihail, M.D., Ph.D.</a>,<br>
                 <a href="mailto:ath@hcsl.com">ath@hcsl.com</a>
+            </p>
+			<p class="c1">
+                Rallou Chatzimichail, M.Eng., M.Sc., Ph.D.,<br>
+                <a href="mailto:rc@hcsl.com">rc@hcsl.com</a>
             </p>
             <h2>Related Publications</h2>
             <p class="c1">
@@ -87,7 +101,9 @@
                 2. Hatjimihail AT. Tool for Quality Control Design and Evaluation. <span style="font-style: italic">Wolfram Demonstrations Project.</span> Wolfram Research; 2010.<br>
 				<a href="../Publications/QC.html#QC1">Abstract</a><br>
                 3. Hatjimihail AT. Genetic algorithms based design and optimization of statistical quality control procedures. <span class="c7">Clin Chem.</span> 1993;39:1972-1978.<br>
-				<a href="../Publications/GAsQC.html#GAsQC1">Abstract</a>
+				<a href="../Publications/GAsQC.html#GAsQC1">Abstract</a><br>
+				4. Chatzimichail RA, Hatjimihail AT. Quality control using convolutional neural networks applied to samples of very small size. <span style="font-style: italic">Stochastics and Quality Control.</span> 2023;38(2):63-78.<br>
+				<a href="../Publications/NNQC.html#NNQC2">Abstract</a><br>
 			</p>
         </article>
 		<h4><a id="Terms_of_Use"></a>Terms of Use</h4>
