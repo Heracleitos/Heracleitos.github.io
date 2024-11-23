@@ -316,7 +316,7 @@ img
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
-	margin-left: calc(250px + (100% - 1210px) / 4);
+	margin-left: calc(250px + (100% - 1210px) / 6);
 	padding: 2% 4% 2% 4%;
 	height: auto;
 	max-width: 660px;
