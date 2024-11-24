@@ -7,7 +7,7 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 <url>
   <loc>https://www.hcsl.com/</loc>
-  <lastmod>2024-11-23</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -17,7 +17,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Notes/index.html</loc>
-  <lastmod>2024-11-20</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -27,22 +27,22 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/Fellows.html</loc>
-  <lastmod>2024-11-18</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/CLSI/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -52,7 +52,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Glossary/index.html</loc>
-  <lastmod>2024-11-21</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -62,12 +62,12 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/About/index.html</loc>
-  <lastmod>2024-11-23</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Notes/QC.html</loc>
-  <lastmod>2024-11-23</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -77,7 +77,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Notes/Diagnosis.html</loc>
-  <lastmod>2024-11-23</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -92,12 +92,12 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/NNQC.html</loc>
-  <lastmod>2024-11-17</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/Bayesian.html</loc>
-  <lastmod>2024-11-18</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -107,12 +107,12 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/GAsQC.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/Risk.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -132,12 +132,12 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/Statistics.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/Entropy.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -162,192 +162,187 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr01/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr02/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr03/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr06/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr05/index.html</loc>
-  <lastmod>2024-11-12</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr06/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr07/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr08/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr09/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr10/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr11/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr12/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr13/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr14/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr15/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr16/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr17/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr18/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr19/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr20/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr21/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr22/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr23/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr24/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr25/index.html</loc>
-  <lastmod>2024-11-18</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr26/index.html</loc>
-  <lastmod>2024-11-18</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr27/index.html</loc>
-  <lastmod>2024-11-18</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/TR/hcsltr28/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
   <lastmod>2024-11-23</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://www.hcsl.com/TR/hcsltr02/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr03/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr05/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr06/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr07/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr08/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr09/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr10/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr11/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr12/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr13/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr14/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr15/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr16/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr17/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr18/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr19/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr20/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr21/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr22/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr23/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr24/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr25/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr26/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr27/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/TR/hcsltr28/index.html</loc>
+  <lastmod>2024-11-23</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
+  <lastmod>2024-11-24</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://www.hcsl.com/Tools/Uncertainty/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/BayesianDiagnosis/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/BayesianDiagnosticInsights/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/Nutrition/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/Quality/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/QualityControl/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/IntelligentQuality/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/IntelligentQualityControl/index.html</loc>
-  <lastmod>2024-11-14</lastmod>
+  <lastmod>2024-11-24</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
