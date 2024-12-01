@@ -46,40 +46,40 @@
                 The statistical QC procedure to be designed or optimized can be represented as:
             </p>
             <p class="c1">
-                <span class="c7">Q</span><span class="c8">1</span>(<span class="c7">n</span><span class="c8">1</span><span class="c7">,</span><span class="c11"> X</span><span class="c12">1</span>) <span class="c7"># Q</span><span class="c8">2</span>(<span class="c7">n</span><span class="c8">2</span><span class="c7">,</span><span class="c11"> X</span><span class="c12">2</span>) <span class="c7"># ... # Q</span><span class="c8">q</span>(<span class="c7">n</span><span class="c8">q</span><span class="c7">,</span><span class="c11"> X</span><span class="c12">q</span>) (1)
+                <span class="c7">Q </span>=<span class="c7"> Q</span><span class="c8">1</span>(<span class="c7">n</span><span class="c8">1</span><span class="c7">,</span><span class="c11"> X</span><span class="c12">1</span>) <span class="c7"># Q</span><span class="c8">2</span>(<span class="c7">n</span><span class="c8">2</span><span class="c7">,</span><span class="c11"> X</span><span class="c12">2</span>) <span class="c7"># ... # Q</span><span class="c8">q</span>(<span class="c7">n</span><span class="c8">q</span><span class="c7">,</span><span class="c11"> X</span><span class="c12">q</span>)
             </p>
             <p class="c1">
                 Here, <span class="c7">Q</span><span class="c8">i</span>(<span class="c7">n</span><span class="c8">i</span><span class="c7">,</span><span class="c11"> X</span><span class="c12">i</span>)  denotes a statistical decision rule, <span class="c7">n</span><span class="c8">i</span>
 				refers to the size of the sample <span class="c7">S</span><span class="c8">i</span> the rule is applied to, and
                 <span class="c11">X</span><span class="c12">i</span> denotes the vector of rule-specific parameters, including the decision limits. The symbol<span class="c7"> # </span>
-				represents either the Boolean operator</span><span class="c7"> AND </span>or the operator<span class="c7"> OR</span>. For<span class="c7"> # </span>denoting<span class="c7"> AND</span><span class="c1">, and for </span><span class="c7">n</span><span class="c8">1</span><span class="c7">
+				represents either the Boolean operator<span class="c7"> AND </span>or the operator<span class="c7"> OR</span>. For<span class="c7"> # </span>denoting<span class="c7"> AND</span><span class="c1">, and for </span><span class="c7">n</span><span class="c8">1</span><span class="c7">
                     &lt; n</span><span class="c8">2</span><span class="c7">
                     &lt; ... &lt; n</span><span class="c8">q</span>, that is for
                 <span class="c7">S</span><span class="c8">1</span><span class="c7">
                     &sub;</span>
-                <span class="c7">S</span><span class="c8">2</span><span class="c7"> &sub; ... &sub; S</span><span class="c8">q</span>, the procedure (1) denotes a <span class="c7">q</span>&#8209;sampling statistical QC procedure.
+                <span class="c7">S</span><span class="c8">2</span><span class="c7"> &sub; ... &sub; S</span><span class="c8">q</span>, the procedure <span class="c7">Q</span> denotes a <span class="c7">q</span>&#8209;sampling statistical QC procedure.
             </p>
             <p class="c1">
                 Various statistics, such as a single value, range, mean, standard deviation, cumulative sum, smoothed mean and smoothed standard deviation, are used to evaluate each statistical decision rule by calculating the respective statistic of the measured quality characteristic of the sample. The decision rule is considered true if the statistic falls outside the interval between the decision limits. The statistical QC procedure is then evaluated as a Boolean proposition, and if true, the null hypothesis is considered false, the process is deemed out of control, and the run is rejected.
             </p>
             <p class="c1">
-                An optimum statistical QC procedure minimizes (or maximizes) a context-specific objective function, which depends on the probabilities of detecting nonconformity and false rejection. These probabilities rely on the parameters of the procedure (1) and the probability density function of the measured quality characteristic of the process.
+                An optimum statistical QC procedure minimizes (or maximizes) a context-specific objective function, which depends on the probabilities of detecting nonconformity and false rejection. These probabilities rely on the parameters of the procedure <span class="c7">Q</span> and the probability density function of the measured quality characteristic of the process.
             </p>
             <p class="c1">
                The probabilities of detecting nonconformity and false rejection can be estimated using <a href="../Glossary/index.html#Simulation" title="glossary: simulation">
-                    simulation</a><sup>1</sup> (see <a href="../Publications/Fellows.html">Other Publications by HCSL Fellows</a>) or calculated using <a href="../Glossary/index.html#Numerical_Methods" title="glossary: numerical methods">numerical methods</a><sup>2</sup> (see <a href="../Publications/QC.html">HCSL Publications on Statistical QC Design</a>).
+                    simulation</a> [<cite><a href="#Q1">1</a></cite>] or calculated using <a href="../Glossary/index.html#Numerical_Methods" title="glossary: numerical methods">numerical methods</a> [<cite><a href="#Q2">2</a></cite>].
             </p>
             <p class="c1">
                 Generally, algebraic methods are unsuitable for optimizing statistical QC procedures. Enumerative methods can be cumbersome, especially with multi-rule procedures, due to the exponential increase in the parameter space. 
 			</p>
 			<p class="c1">
-				<a href="../Glossary/index.html#Genetic_Algorithms" title="glossary: genetic algorithms" >Genetic algorithms</a> (GAs) provide an attractive alternative, as they are robust search algorithms that can efficiently search through large spaces without requiring knowledge of the objective function. GAs have been inspired by the molecular biology processes of the gene and the evolution of life. Their operators, cross-over, mutation, and reproduction, are isomorphic with synonymous biological processes. GAs have been employed to address a wide range of complex <a href="../Glossary/index.html#Optimization" title="glossary: optimization">optimization</a> problems. Furthermore, the design process for novel QC procedures is inherently more complex than optimizing predefined ones. Classifier systems and the genetic programming paradigm have demonstrated that GAs can be applied to tasks as intricate as program induction. Since 1993, we have successfully used the GAs to optimize and design novel statistical QC procedures<sup>3</sup>.
+				<a href="../Glossary/index.html#Genetic_Algorithms" title="glossary: genetic algorithms" >Genetic algorithms</a> (GAs) provide an attractive alternative, as they are robust search algorithms that can efficiently search through large spaces without requiring knowledge of the objective function. GAs have been inspired by the molecular biology processes of the gene and the evolution of life. Their operators, cross-over, mutation, and reproduction, are isomorphic with synonymous biological processes. GAs have been employed to address a wide range of complex <a href="../Glossary/index.html#Optimization" title="glossary: optimization">optimization</a> problems. Furthermore, the design process for novel QC procedures is inherently more complex than optimizing predefined ones. Classifier systems and the genetic programming paradigm have demonstrated that GAs can be applied to tasks as intricate as program induction. Since 1993, we have successfully used the GAs to optimize and design novel statistical QC procedures [<cite><a href="#Q3">3</a></cite>].
 			</p>
 			<p class="c1">
 				Artificial <a href="../Glossary/index.html#Neural_Networks" title="glossary: neural networks">neural networks</a> (NNs) are another class of adaptive computational algorithms, inspired by the structure and function of the brain. These algorithms excel in statistical data modeling and high-precision classification tasks. NNs consist of interconnected input, processing, and output nodes, where information flows from input to output through weighted, directed connections. Each node computes an output during forward propagation by applying an activation function to the sum of weighted inputs and a bias term, which is then propagated through the network. Backpropagation adjusts the weights and biases of nodes iteratively to minimize an output-dependent loss function. Through repeated cycles of forward and backward propagation, NNs can be trained using appropriate datasets.
 			</p>
 			<p class="c1">
-				NNs have been extensively investigated for their utility in QC, yet their practical application requires at least five QC measurements, increasing associated costs. To address this limitation, we have explored using NNs with very small samples of QC measurements. Since 2022, we have successfully employed one-dimensional convolutional neural networks (1D-CNNs) on samples of two to four QC measurements to effectively enhance the detection of process nonconformity with quality specifications<sup>4</sup>.
+				NNs have been extensively investigated for their utility in QC, yet their practical application requires at least five QC measurements, increasing associated costs. To address this limitation, we have explored using NNs with very small samples of QC measurements. Since 2022, we have successfully employed one-dimensional convolutional neural networks (1D-CNNs) on samples of two to four QC measurements to effectively enhance the detection of process nonconformity with quality specifications [<cite><a href="#Q4">4</a></cite>].
 				</p>
 				<p class="c1">
 				Both GAs and NNs offer transformative potential for QC by reducing measurement costs and improving the efficiency of the QC process. 
@@ -95,16 +95,16 @@
             </p>
             <h2>Related Publications</h2>
             <p class="c1">
-                1. Hatjimihail AT. A tool for the design and evaluation of alternative quality control procedures. <span class="c7">Clin Chem.</span> 1992;38:204-210.<br>
+                <span id="Q1">1. Hatjimihail AT. A tool for the design and evaluation of alternative quality control procedures. <span class="c7">Clin Chem.</span> 1992;38:204-210.c</span><br>
 				<a href="../Publications/Fellows.html#OP2" >Abstract</a><br>
 				<a href="https://academic.oup.com/clinchem/article-abstract/38/2/204/5649802" target="_blank">Full Text in <span style="font-style: italic">Clinical Chemistry</span></a><br>				
-                2. Hatjimihail AT. Tool for Quality Control Design and Evaluation. <span style="font-style: italic">Wolfram Demonstrations Project.</span> Wolfram Research; 2010.<br>
+                <span id="Q2">2. Hatjimihail AT. Tool for Quality Control Design and Evaluation. <span style="font-style: italic">Wolfram Demonstrations Project.</span> Wolfram Research; 2010.</span><br>
 				<a href="../Publications/QC.html#QC1" >Abstract</a><br>
 				<a href="https://demonstrations.wolfram.com/ToolForQualityControlDesignAndEvaluation/" target="_blank">Demonstration at <span style="font-style: italic">Wolfram Demonstrations Project</span></a><br>
-                3. Hatjimihail AT. Genetic algorithms based design and optimization of statistical quality control procedures. <span class="c7">Clin Chem.</span> 1993;39:1972-1978.<br>
+                <span id="Q3">3. Hatjimihail AT. Genetic algorithms based design and optimization of statistical quality control procedures. <span class="c7">Clin Chem.</span> 1993;39:1972-1978.</span><br>
 				<a href="../Publications/GAsQC.html#GAsQC1" >Abstract</a><br>
 				<a href="https://academic.oup.com/clinchem/article-abstract/39/9/1972/5647272" target="_blank">Full Text in <span style="font-style: italic">Clinical Chemistry</span></a><br>
-				4. Chatzimichail RA, Hatjimihail AT. Quality control using convolutional neural networks applied to samples of very small size. <span style="font-style: italic">Stochastics and Quality Control.</span> 2023;38(2):63-78.<br>
+				<span id="Q4">4. Chatzimichail RA, Hatjimihail AT. Quality control using convolutional neural networks applied to samples of very small size. <span style="font-style: italic">Stochastics and Quality Control.</span> 2023;38(2):63-78.</span><br>
 				<a href="../Publications/NNQC.html#NNQC2" >Abstract</a><br>
 				<a href="https://www.degruyter.com/document/doi/10.1515/eqc-2023-0001/html" target="_blank">Full Text in <span style="font-style: italic">Stochastics and Quality Control</span></a>
 			</p>
