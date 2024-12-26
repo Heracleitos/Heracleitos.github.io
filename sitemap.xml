@@ -141,6 +141,56 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
+  <lastmod>2024-11-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/Uncertainty/index.html</loc>
+  <lastmod>2024-11-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/BayesianDiagnosis/index.html</loc>
+  <lastmod>2024-11-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/index.html</loc>
+  <lastmod>2024-11-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/BayesianDiagnosticInsights/index.html</loc>
+  <lastmod>2024-12-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/Nutrition/index.html</loc>
+  <lastmod>2024-11-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/Quality/index.html</loc>
+  <lastmod>2024-11-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/QualityControl/index.html</loc>
+  <lastmod>2024-11-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/IntelligentQuality/index.html</loc>
+  <lastmod>2024-11-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hcsl.com/Tools/IntelligentQualityControl/index.html</loc>
+  <lastmod>2024-11-26</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://www.hcsl.com/Documents/letter.pdf</loc>
   <lastmod>2023-11-05</lastmod>
   <priority>0.64</priority>
@@ -293,56 +343,6 @@
 <url>
   <loc>https://www.hcsl.com/TR/hcsltr28/index.html</loc>
   <lastmod>2024-12-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/Uncertainty/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/BayesianDiagnosis/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/BayesianDiagnosticInsights/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/Nutrition/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/Quality/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/QualityControl/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/IntelligentQuality/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.hcsl.com/Tools/IntelligentQualityControl/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
