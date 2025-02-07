@@ -73,13 +73,13 @@
                 Generally, algebraic methods are unsuitable for optimizing statistical QC procedures. Enumerative methods can be cumbersome, especially with multi-rule procedures, due to the exponential increase in the parameter space. 
 			</p>
 			<p class="c1">
-				<a href="../Glossary/index.html#Genetic_Algorithms" title="glossary: genetic algorithms" >Genetic algorithms</a> (GAs) provide an attractive alternative, as they are robust search algorithms that can efficiently search through large spaces without requiring knowledge of the objective function. GAs have been inspired by the molecular biology processes of the gene and the evolution of life. Their operators, cross-over, mutation, and reproduction, are isomorphic with synonymous biological processes. GAs have been employed to address a wide range of complex <a href="../Glossary/index.html#Optimization" title="glossary: optimization">optimization</a> problems. Furthermore, the design process for novel QC procedures is inherently more complex than optimizing predefined ones. Classifier systems and the genetic programming paradigm have demonstrated that GAs can be applied to tasks as intricate as program induction. Since 1993, we have successfully used the GAs to optimize and design novel statistical QC procedures [<cite><a href="#Q3">3</a></cite>].
+				<a href="../Glossary/index.html#Genetic_Algorithms" title="glossary: genetic algorithms" >Genetic algorithms</a> [<cite><a href="#Q3">3</a></cite>] (GAs) provide an attractive alternative, as they are robust search algorithms that can efficiently search through large spaces without requiring knowledge of the objective function. GAs have been inspired by the molecular biology processes of the gene and the evolution of life. Their operators, cross-over, mutation, and reproduction, are isomorphic with synonymous biological processes. GAs have been employed to address a wide range of complex <a href="../Glossary/index.html#Optimization" title="glossary: optimization">optimization</a> problems. Furthermore, the design process for novel QC procedures is inherently more complex than optimizing predefined ones. Classifier systems and the genetic programming paradigm have demonstrated that GAs can be applied to tasks as intricate as program induction. Since 1993, we have successfully used the GAs to optimize and design novel statistical QC procedures [<cite><a href="#Q4">4</a></cite>].
 			</p>
 			<p class="c1">
 				Artificial <a href="../Glossary/index.html#Neural_Networks" title="glossary: neural networks">neural networks</a> (NNs) are another class of adaptive computational algorithms, inspired by the structure and function of the brain. These algorithms excel in statistical data modeling and high-precision classification tasks. NNs consist of interconnected input, processing, and output nodes, where information flows from input to output through weighted, directed connections. Each node computes an output during forward propagation by applying an activation function to the sum of weighted inputs and a bias term, which is then propagated through the network. Backpropagation adjusts the weights and biases of nodes iteratively to minimize an output-dependent loss function. Through repeated cycles of forward and backward propagation, NNs can be trained using appropriate datasets.
 			</p>
 			<p class="c1">
-				NNs have been extensively investigated for their utility in QC, yet their practical application requires at least five QC measurements, increasing associated costs. To address this limitation, we have explored using NNs with very small samples of QC measurements. Since 2022, we have successfully employed one-dimensional convolutional neural networks (1D-CNNs) on samples of two to four QC measurements to effectively enhance the detection of process nonconformity with quality specifications [<cite><a href="#Q4">4</a></cite>].
+				NNs have been extensively investigated for their utility in QC, yet their practical application requires at least five QC measurements, increasing associated costs. To address this limitation, we have explored using NNs with very small samples of QC measurements. Since 2022, we have successfully employed one-dimensional convolutional neural networks (1D-CNNs) on samples of two to four QC measurements to effectively enhance the detection of process nonconformity with quality specifications [<cite><a href="#Q5">5</a></cite>].
 				</p>
 				<p class="c1">
 				Both GAs and NNs offer transformative potential for QC by reducing measurement costs and improving the efficiency of the QC process. 
@@ -108,14 +108,17 @@
 				<a href="https://demonstrations.wolfram.com/ToolForQualityControlDesignAndEvaluation/" target="_blank">Demonstration at <span style="font-style: italic">Wolfram Demonstrations Project</span></a>
 			</p>
 			<p class="c1">
-                <span id="Q3">3. Hatjimihail AT. Genetic algorithms based design and optimization of statistical quality control procedures. <span class="c7">Clin Chem.</span> 1993;39:1972-1978.</span>
+                <span id="Q3">3. Goldberg DE. <span class="c7">Genetic Algorithms in Search, Optimization, and Machine Learning.</span> Addison-Wesley;1989:1-412.</span>
+			</p>
+			<p class="c1">
+                <span id="Q4">4. Hatjimihail AT. Genetic algorithms based design and optimization of statistical quality control procedures. <span class="c7">Clin Chem.</span> 1993;39:1972-1978.</span>
 			</p>
 			<p class="c1">
 				<a href="../Publications/GAsQC.html#GAsQC1" >Abstract</a><br>
 				<a href="https://academic.oup.com/clinchem/article-abstract/39/9/1972/5647272" target="_blank">Full Text in <span style="font-style: italic">Clinical Chemistry</span></a>
 			</p>
 			<p class="c1">
-				<span id="Q4">4. Chatzimichail RA, Hatjimihail AT. Quality control using convolutional neural networks applied to samples of very small size. <span style="font-style: italic">Stoch Qual Control.</span> 2023;38(2):63-78.</span>
+				<span id="Q5">5. Chatzimichail RA, Hatjimihail AT. Quality control using convolutional neural networks applied to samples of very small size. <span style="font-style: italic">Stoch Qual Control.</span> 2023;38(2):63-78.</span>
 			</p>
 			<p class="c1">
 				<a href="../Publications/NNQC.html#NNQC2" >Abstract</a><br>
