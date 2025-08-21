@@ -8,7 +8,7 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 1. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.4.4. Hellenic Complex Systems Laboratory; 2024.
 	Source: [Relation.nb](Relation/Relation.nb)
-2. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 2.0.0.1. Hellenic Complex Systems Laboratory; 2024.
+2. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.0. Hellenic Complex Systems Laboratory; 2025.
 	Source: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
 3. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6.4. Hellenic Complex Systems Laboratory; 2024.
 	Source: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
