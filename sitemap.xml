@@ -7,7 +7,7 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 <url>
   <loc>https://www.hcsl.com/</loc>
-  <lastmod>2025-07-11</lastmod>
+  <lastmod>2025-08-21</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -42,7 +42,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/index.html</loc>
-  <lastmod>2024-12-26</lastmod>
+  <lastmod>2025-08-21</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -147,7 +147,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/Uncertainty/index.html</loc>
-  <lastmod>2024-11-26</lastmod>
+  <lastmod>2025-08-21</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -357,7 +357,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Documents/DiagnosticUncertaintyInterface.pdf</loc>
-  <lastmod>2024-11-08</lastmod>
+  <lastmod>2025-08-21</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -523,7 +523,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/Uncertainty/Uncertainty.nb</loc>
-  <lastmod>2024-11-06</lastmod>
+  <lastmod>2025-08-21</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -567,3 +567,4 @@
   <priority>0.64</priority>
 </url>
  </urlset>
+
