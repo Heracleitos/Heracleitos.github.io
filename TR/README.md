@@ -30,6 +30,7 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 26. Chatzimichail T, Hatjimihail AT. A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. Technical Report XXVI. Hellenic Complex Systems Laboratory; 2024.
 27. Chatzimichail T, Hatjimihail AT. A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Technical Report XXVII. Hellenic Complex Systems Laboratory; 2024.
 28. Chatzimichail T, Hatjimihail AT. A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Technical Report XXVIII. Hellenic Complex Systems Laboratory; 2024.
+29. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. 
 
 **HCSL Technical Reports Publication Dates Policy**
 
