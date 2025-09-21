@@ -2,7 +2,7 @@
 
 A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.3.4. Hellenic Complex Systems Laboratory; 2024.
 
-Source Code: [QualityControl.nb](QualityControl.nb)
+Source: [QualityControl.nb](QualityControl.nb)
 
 Additional resources are available through the Hellenic Complex Systems Laboratory official website at https://www.hcsl.com/Tools/QualityControl/.
 

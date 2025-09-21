@@ -2,7 +2,7 @@
 
 A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. Ver. 2.0.0. Hellenic Complex Systems Laboratory; 2024.
 
-Source Code: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty.nb)
+Source: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty.nb)
 
 Additional resources are available through the Hellenic Complex Systems Laboratory official website at https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/.
 

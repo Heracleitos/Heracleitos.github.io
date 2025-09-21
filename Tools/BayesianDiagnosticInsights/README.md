@@ -2,7 +2,7 @@
 
 A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.1.1. Hellenic Complex Systems Laboratory; 2025.
 
-Source Code: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights.nb)
+Source: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights.nb)
 
 Additional resources are available through the Hellenic Complex Systems Laboratory official website at https://www.hcsl.com/Tools/BayesianDiagnosticInsights/.
 

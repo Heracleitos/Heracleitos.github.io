@@ -2,7 +2,7 @@
 
 A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.4.4. Hellenic Complex Systems Laboratory; 2024.
 
-Source Code: [Relation.nb](Relation.nb)
+Source: [Relation.nb](Relation.nb)
 
 Additional resources are available through the Hellenic Complex Systems Laboratory official website at https://www.hcsl.com/Tools/Relation/.
 

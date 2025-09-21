@@ -2,7 +2,7 @@
 
 A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.0. Hellenic Complex Systems Laboratory; 2025.
 
-Source Code: [Uncertainty.nb](Uncertainty.nb)
+Source: [Uncertainty.nb](Uncertainty.nb)
 
 Additional resources are available through the Hellenic Complex Systems Laboratory official website at https://www.hcsl.com/Tools/Uncertainty/.
 
