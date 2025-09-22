@@ -95,7 +95,7 @@ Source: [RelationOfDiagnosticAccuracyMeasures.nb](Tools/RelationOfDiagnosticAccu
 
 Source: [CalculatorForDiagnosticAccuracyMeasures.nb](Tools/CalculatorForDiagnosticAccuracyMeasures.nb)
 
-S12. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
+12. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
 Source: [CalculationOfDiagnosticAccuracyMeasures.nb](Tools/CalculationOfDiagnosticAccuracyMeasures.nb)
 
