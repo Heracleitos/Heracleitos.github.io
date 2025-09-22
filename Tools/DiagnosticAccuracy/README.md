@@ -2,7 +2,7 @@
 
  Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A Software Program for the Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2025.
 
-Source (compressed): [DiagAccU.zip](DiagnosticAccuracy.zip)
+Source: [DiagAccU.zip](DiagnosticAccuracy.zip)
 
 Additional resources are available through the Hellenic Complex Systems Laboratory official website at https://www.hcsl.com/Tools/DiagnosticAccuracy/.
 
