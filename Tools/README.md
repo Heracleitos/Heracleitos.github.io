@@ -71,6 +71,7 @@ Source: [ToolForQualityControlDesignAndEvaluation.nb](Tools/ToolForQualityContro
 5. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. The Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2015.
 
 Source: [AnalysisOfDiagnosticAccuracyMeasures.nb](Tools/AnalysisOfDiagnosticAccuracyMeasures.nb)
+
 6. Chatzimichail T. Enteral Nutritional Design. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2017.
 
 Source: [EnteralNutritionalDesign.nb](Tools/EnteralNutritionalDesign.nb)
