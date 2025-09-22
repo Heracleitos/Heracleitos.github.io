@@ -16,7 +16,7 @@ Source: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
 
 3. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A Software Program for the Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2025.
 
-Source (compressed): [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
+Source: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
 4. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6.4. Hellenic Complex Systems Laboratory; 2024.
 
