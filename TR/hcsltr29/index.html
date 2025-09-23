@@ -15,21 +15,21 @@
     <link href="../../favicon.ico" rel="shortcut icon" title="HCSL logotype" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes">
 	<meta charset="utf-8">
-    <meta name="keywords" content="diagnostic accuracy measures; uncertainty; measurement uncertainty; sampling uncertainty; diagnostic tests; screening tests">
+    <meta name="keywords" content="diagnostic accuracy measures; measurement uncertainty; sampling uncertainty; threshold-based tests; normal distribution; lognormal distribution; gamma distribution; heteroscedasticity; Gum; clinical decision-making">
     <meta name="description" content="HCSL Technical Report XXIX: Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions">
     <meta name="author" content="ath@hcsl.com">
     <link href="../../css/hcsl.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 	<meta name="citation_title" content="Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions">
-	<meta name="citation_author" content="Chatzimichail, Theodora">
 	<meta name="citation_author" content="Chatzimichail, Rallou A.">
+	<meta name="citation_author" content="Chatzimichail, Theodora">
 	<meta name="citation_author" content="Hatjimihail, Aristides T.">
 	<meta name="citation_publication_date" content="2025/9/21">
 	<meta name="citation_technical_report_institution" content="Hellenic Complex Systems Laboratory">
 	<meta name="citation_technical_report_number" content="XXIX">
 	<meta name="citation_firstpage" content="1">
-	<meta name="citation_lastpage" content="45">
+	<meta name="citation_lastpage" content="43">
 	<meta name="citation_abstract" content="Background: Accurate evaluation of diagnostic accuracy measures (DAMs) is essential for ensuring the safety and effectiveness of threshold-based screening or diagnostic tests. Conventional approaches often assume normally distributed measurands and homoscedastic measurement uncertainty, which may not reflect the true behavior of many clinical measurands. Skewed distributions, such as lognormal and gamma, and heteroscedastic measurement processes can substantially influence both DAM estimates and their associated uncertainties.
 	Methods: We developed a computational framework to estimate the measurement, sampling, and combined uncertainty of DAMs for threshold-based screening or diagnostic tests under three measurand distributional models: normal, lognormal, and gamma. Measurement uncertainty was modelled with linear and nonlinear heteroscedastic functions. Uncertainty was propagated using a first-order Taylor-series expansion, and effective degrees of freedom and expanded uncertainty were estimated via the Welch–Satterthwaite formula. Optimality conditions were derived analytically where applicable.  The framework has been implemented in the program DiagAccU, in Wolfram Language, allowing parameter specification, DAM estimation, uncertainty decomposition, and graphical visualization.
 	Results: Distributional assumptions had a substantial effect on DAM values and uncertainties. Measurement uncertainty predominated for specificity-related DAMs, while sampling uncertainty was more influential for sensitivity-related measures in small samples. Non-linear heteroscedasticity amplified uncertainty at extreme measurand values, shifting the diagnostic threshold that minimized combined uncertainty. Sample size increases reduced sampling uncertainty, with convergence rates varying by distribution.
