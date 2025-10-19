@@ -22,7 +22,7 @@ Source: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
 Source: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 
-5. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.0.0. Hellenic Complex Systems Laboratory; 2024.
+5. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.0.1. Hellenic Complex Systems Laboratory; 2025.
 
 Source: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 
@@ -42,7 +42,7 @@ Source: [Quality.nb](Quality/Quality.nb)
 
 Source: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
 
-10.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.3.4. Hellenic Complex Systems Laboratory; 2024
+10.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.4. Hellenic Complex Systems Laboratory; 2025
 
 Source: [QualityControl.nb](QualityControl/QualityControl.nb)
 

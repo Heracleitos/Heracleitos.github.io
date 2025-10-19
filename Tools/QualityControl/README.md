@@ -1,6 +1,6 @@
 # Quality Control
 
-A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.3.4. Hellenic Complex Systems Laboratory; 2024.
+A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.4. Hellenic Complex Systems Laboratory; 2025.
 
 Source: [QualityControl.nb](QualityControl.nb)
 

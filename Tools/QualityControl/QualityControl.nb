@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    296407,       6551]
-NotebookOptionsPosition[    294913,       6519]
-NotebookOutlinePosition[    295363,       6536]
-CellTagsIndexPosition[    295320,       6533]
+NotebookDataLength[    297069,       6517]
+NotebookOptionsPosition[    295580,       6485]
+NotebookOutlinePosition[    296025,       6502]
+CellTagsIndexPosition[    295982,       6499]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -262,8 +262,7 @@ Cell[BoxData[{
            RowBox[{"m", "-", "\[Mu]", "+", 
             RowBox[{"l", " ", "\[Sigma]"}]}], 
            RowBox[{
-            SqrtBox["2"], " ", "s"}]], "]"}]}]]}]}], "]"}]}], 
-   "]"}]}], "\[IndentingNewLine]", 
+            SqrtBox["2"], " ", "s"}]], "]"}]}]]}]}], "]"}]}], "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"pm", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "l_"}], "]"}], ":=", 
@@ -363,8 +362,7 @@ Cell[BoxData[{
     RowBox[{"lpedm", "[", 
      RowBox[{"n", ",", "0", ",", "s", ",", "pred"}], "]"}], ",", 
     RowBox[{"lpedm", "[", 
-     RowBox[{"n", ",", "m", ",", "1", ",", "psed"}], "]"}]}], 
-   "]"}]}], "\[IndentingNewLine]", 
+     RowBox[{"n", ",", "m", ",", "1", ",", "psed"}], "]"}]}], "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"pcv", "[", 
    RowBox[{
@@ -394,8 +392,8 @@ Cell[BoxData[{
    RowBox[{"k", ",", 
     RowBox[{"pcv", "[", 
      RowBox[{
-     "n", ",", "k", ",", "m", ",", "s", ",", "mc", ",", "sc", ",", "pred", 
-      ",", "psed"}], "]"}]}], "}"}]}], "\[IndentingNewLine]", 
+     "n", ",", "k", ",", "m", ",", "s", ",", "mc", ",", "sc", ",", "pred", ",",
+       "psed"}], "]"}]}], "}"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"ipcm", "[", 
    RowBox[{
@@ -517,33 +515,32 @@ Cell[BoxData[{
    RowBox[{"e", ",", "0", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
-\"S\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
-FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
-\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
-FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\
-\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\
-\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",\
-FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
+StyleBox[\\\"S\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\
+\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily-\
+>\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\
+\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"\
+1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
+\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -551,37 +548,36 @@ FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
-\"S\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
-FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
-\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"\
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
+StyleBox[\\\"S\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\
+\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"\
+s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
+Oblique\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"\
 Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\
-\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\
-\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\
-\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
-\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\>\"", ",", 
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -589,37 +585,36 @@ StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
-\"S\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
-FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
-\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\
-\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\
-\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
-\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
-Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
+StyleBox[\\\"S\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\
+\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -627,8 +622,8 @@ Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"pstrml", "[", 
    RowBox[{"e_", ",", "n_", ",", "l_"}], "]"}], ":=", 
@@ -636,9 +631,8 @@ Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
    RowBox[{"e", ",", "0", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"Arial\\\",\
-FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+      RowBox[{"\"\<\!\(\*SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
 StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
 Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\
 \"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\
@@ -654,9 +648,9 @@ FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -664,31 +658,30 @@ FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",",
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
-\"M\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
-FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
-\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"\
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
+StyleBox[\\\"M\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\
+\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"\
+s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
+Oblique\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"\
 Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
-\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"s\\\",FontFamily->\
-\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\
-\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\
-\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
-\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\>\"", ",", 
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -696,31 +689,30 @@ StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], StyleBox[\\\
-\"M\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",\
-FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"Arial\\\
-\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
-StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
-\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\
-\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\
-\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\
-\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
-Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"P\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"], \
+StyleBox[\\\"M\\\",FontSize->9]],FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"m\\\",\
+FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\
+\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
+\"Normal\\\"]\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"0\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"1\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -728,8 +720,8 @@ Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\[IndentingNewLine]", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"strvl", "[", 
    RowBox[{"e_", ",", "n_", ",", "k_", ",", "l_"}], "]"}], ":=", 
@@ -737,9 +729,8 @@ Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
    RowBox[{"e", ",", "0", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"Arial\\\",\
-FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+      RowBox[{"\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
 StyleBox[\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
 Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\
 \"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\
@@ -755,15 +746,15 @@ FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -771,20 +762,19 @@ FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
-Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
-FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
-\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\" \
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\
+\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"Plain\\\",\
+FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\" \
 \\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
 \"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\
 \\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*\
@@ -794,15 +784,15 @@ FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -810,20 +800,19 @@ FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
-Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
-FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
-\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\" \
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\
+\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"Plain\\\",\
+FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\" \
 \\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
 \"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
 Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
@@ -833,15 +822,15 @@ FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -849,8 +838,8 @@ FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"strml", "[", 
    RowBox[{"e_", ",", "n_", ",", "l_"}], "]"}], ":=", 
@@ -858,16 +847,15 @@ FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
    RowBox[{"e", ",", "0", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
-Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
-FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
-\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\" \
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\
+\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"Plain\\\",\
+FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\" \
 \\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
 \"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
 Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
@@ -877,9 +865,9 @@ FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -887,20 +875,19 @@ FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}], ",", "1", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
-Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
-FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
-\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\" \
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\
+\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"Plain\\\",\
+FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\" \
 \\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
 \"0\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\
 \\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*\
@@ -910,9 +897,9 @@ FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -920,20 +907,19 @@ FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}], ",", "2", ",", 
     RowBox[{"Text", "@", 
      RowBox[{"StringJoin", "[", 
-      RowBox[{
-      "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"\
-Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
-Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
-FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
-\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\" \
+      RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\
+\\\"Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\
+\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"Plain\\\",\
+FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\" \
 \\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\
 \"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\",FontSlant->\\\"\
 Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
@@ -943,9 +929,9 @@ FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\"]\)\>\"", ",", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{
@@ -953,16 +939,15 @@ FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\
            RowBox[{"l", ",", 
             RowBox[{"{", 
              RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-       "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\[IndentingNewLine]", 
+          RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+       ",", "\"\<)\>\""}], "]"}]}]}], "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"strvl", "[", 
    RowBox[{"m_", ",", "s_", ",", "n_", ",", "k_", ",", "l_"}], "]"}], ":=", 
   RowBox[{"Text", "@", 
    RowBox[{"StringJoin", "[", 
-    RowBox[{
-    "\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"Arial\\\",\
-FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
+    RowBox[{"\"\<\!\(\*SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"Arial\\\
+\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
 StyleBox[\\\"S\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
 Plain\\\",FontSlant->\\\"Italic\\\"]]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\
 \"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\
@@ -976,9 +961,9 @@ StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"\
          RowBox[{"m", ",", 
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
-Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+     ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -986,21 +971,21 @@ Normal\\\"]\)\>\"", ",",
          RowBox[{"s", ",", 
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
-Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+     ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{"n", ",", 
-        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
-Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+     ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{"k", ",", 
-        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
-Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+     ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -1008,23 +993,22 @@ Normal\\\"]\)\>\"", ",",
          RowBox[{"l", ",", 
           RowBox[{"{", 
            RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-     "\"\<)\>\""}], "]"}]}]}], "\n", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+     ",", "\"\<)\>\""}], "]"}]}]}], "\n", 
  RowBox[{
   RowBox[{"strml", "[", 
    RowBox[{"m_", ",", "s_", ",", "n_", ",", "l_"}], "]"}], ":=", 
   RowBox[{"Text", "@", 
    RowBox[{"StringJoin", "[", 
-    RowBox[{
-    "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\"Arial\
-\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], \
-StyleBox[\\\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"\
-Plain\\\",FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily-\
->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",\
-FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
-\)\!\(\*StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
-\"]\)\!\(\*StyleBox[\\\" \
+    RowBox[{"\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"R\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Plain\\\",FontSlant->\\\"Italic\\\"], StyleBox[\\\
+\"M\\\",FontFamily->\\\"Arial\\\",FontSize->9,FontWeight->\\\"Plain\\\",\
+FontSlant->\\\"Italic\\\"]],FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\
+\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\"(\\\",FontFamily->\\\"\
+Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\*StyleBox[\\\"x\\\",FontFamily->\\\
+\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*\
+StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\!\(\
+\*StyleBox[\\\" \
 \\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
@@ -1033,9 +1017,9 @@ FontFamily->\\\"Arial\\\",FontWeight->\\\"Bold\\\",FontSlant->\\\"Oblique\\\"]\
          RowBox[{"m", ",", 
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
-Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+     ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -1043,15 +1027,15 @@ Normal\\\"]\)\>\"", ",",
          RowBox[{"s", ",", 
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
-Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+     ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{"n", ",", 
-        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-     "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
-Normal\\\"]\)\>\"", ",", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+     ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
+\\\"Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
@@ -1059,8 +1043,8 @@ Normal\\\"]\)\>\"", ",",
          RowBox[{"l", ",", 
           RowBox[{"{", 
            RowBox[{"3", ",", "2"}], "}"}]}], "]"}], ",", 
-        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], ",", 
-     "\"\<)\>\""}], "]"}]}]}], "\[IndentingNewLine]", 
+        RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
+     ",", "\"\<)\>\""}], "]"}]}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"pstrvp", "[", 
    RowBox[{"e_", ",", "n_", ",", "k_", ",", "p_"}], "]"}], ":=", 
@@ -1165,13 +1149,11 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"1", ",", "0"}], "}"}]}], ",", 
       RowBox[{"AxesLabel", "\[Rule]", 
        RowBox[{"{", 
-        RowBox[{
-        "\"\<\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
-         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",FontWeight->\
-\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
-      RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}], 
-      ",", 
+        RowBox[{"\"\<\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", 
+         ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
+      RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}], ",", 
       RowBox[{"PlotLegends", "->", 
        RowBox[{"Append", "[", 
         RowBox[{
@@ -1215,11 +1197,10 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"0", ",", "0"}], "}"}]}], ",", 
       RowBox[{"AxesLabel", "\[Rule]", 
        RowBox[{"{", 
-        RowBox[{
-        "\"\<\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
-         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",FontWeight->\
-\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
+        RowBox[{"\"\<\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", 
+         ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
       RowBox[{"PlotLegends", "->", 
        RowBox[{"Append", "[", 
         RowBox[{
@@ -1234,24 +1215,20 @@ Normal\\\"]\)\>\"", ",",
    "]"}]}], "\n", 
  RowBox[{
   RowBox[{"plotp", "[", 
-   RowBox[{"n_", ",", "p_"}], "]"}], ":=", "\[IndentingNewLine]", 
+   RowBox[{"e_", ",", "n_", ",", "p_"}], "]"}], ":=", "\[IndentingNewLine]", 
   RowBox[{"Quiet", "[", 
-   RowBox[{"Grid", "[", "\[IndentingNewLine]", 
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"Pane", "[", 
-        RowBox[{
-         RowBox[{"vplp", "[", 
-          RowBox[{"1", ",", "n", ",", "p"}], "]"}], ",", 
-         RowBox[{"{", "600", "}"}]}], "]"}], "}"}], ",", 
-      RowBox[{"{", 
-       RowBox[{"Pane", "[", 
-        RowBox[{
-         RowBox[{"vplp", "[", 
-          RowBox[{"2", ",", "n", ",", "p"}], "]"}], ",", 
-         RowBox[{"{", "600", "}"}]}], "]"}], "}"}]}], "}"}], "]"}], 
-   "]"}]}], "\n", 
+   RowBox[{"Switch", "[", 
+    RowBox[{"e", ",", "1", ",", "\[IndentingNewLine]", 
+     RowBox[{"Pane", "[", 
+      RowBox[{
+       RowBox[{"vplp", "[", 
+        RowBox[{"1", ",", "n", ",", "p"}], "]"}], ",", 
+       RowBox[{"{", "600", "}"}]}], "]"}], ",", "2", ",", 
+     RowBox[{"Pane", "[", 
+      RowBox[{
+       RowBox[{"vplp", "[", 
+        RowBox[{"2", ",", "n", ",", "p"}], "]"}], ",", 
+       RowBox[{"{", "600", "}"}]}], "]"}]}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"vpll", "[", 
    RowBox[{"e_", ",", "n_", ",", "l_"}], "]"}], ":=", 
@@ -1284,13 +1261,11 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"1", ",", "0"}], "}"}]}], ",", 
       RowBox[{"AxesLabel", "\[Rule]", 
        RowBox[{"{", 
-        RowBox[{
-        "\"\<\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
-         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",FontWeight->\
-\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
-      RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}], 
-      ",", 
+        RowBox[{"\"\<\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", 
+         ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
+      RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}], ",", 
       RowBox[{"PlotLegends", "->", 
        RowBox[{"Append", "[", 
         RowBox[{
@@ -1330,11 +1305,10 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"0", ",", "0"}], "}"}]}], ",", 
       RowBox[{"AxesLabel", "\[Rule]", 
        RowBox[{"{", 
-        RowBox[{
-        "\"\<\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
-         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",FontWeight->\
-\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
+        RowBox[{"\"\<\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", 
+         ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
       RowBox[{"PlotLegends", "->", 
        RowBox[{"Append", "[", 
         RowBox[{
@@ -1349,24 +1323,20 @@ Normal\\\"]\)\>\"", ",",
    "]"}]}], "\n", 
  RowBox[{
   RowBox[{"plotl", "[", 
-   RowBox[{"n_", ",", "l_"}], "]"}], ":=", "\[IndentingNewLine]", 
+   RowBox[{"e_", ",", "n_", ",", "l_"}], "]"}], ":=", "\[IndentingNewLine]", 
   RowBox[{"Quiet", "[", 
-   RowBox[{"Grid", "[", "\[IndentingNewLine]", 
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"Pane", "[", 
-        RowBox[{
-         RowBox[{"vpll", "[", 
-          RowBox[{"1", ",", "n", ",", "l"}], "]"}], ",", 
-         RowBox[{"{", "600", "}"}]}], "]"}], "}"}], ",", 
-      RowBox[{"{", 
-       RowBox[{"Pane", "[", 
-        RowBox[{
-         RowBox[{"vpll", "[", 
-          RowBox[{"2", ",", "n", ",", "l"}], "]"}], ",", 
-         RowBox[{"{", "600", "}"}]}], "]"}], "}"}]}], "}"}], "]"}], 
-   "]"}]}], "\n", 
+   RowBox[{"Switch", "[", 
+    RowBox[{"e", ",", "1", ",", "\[IndentingNewLine]", 
+     RowBox[{"Pane", "[", 
+      RowBox[{
+       RowBox[{"vpll", "[", 
+        RowBox[{"1", ",", "n", ",", "l"}], "]"}], ",", 
+       RowBox[{"{", "600", "}"}]}], "]"}], ",", "2", ",", 
+     RowBox[{"Pane", "[", 
+      RowBox[{
+       RowBox[{"vpll", "[", 
+        RowBox[{"2", ",", "n", ",", "l"}], "]"}], ",", 
+       RowBox[{"{", "600", "}"}]}], "]"}]}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"vplc", "[", 
    RowBox[{
@@ -1405,13 +1375,11 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"1", ",", "0"}], "}"}]}], ",", 
       RowBox[{"AxesLabel", "\[Rule]", 
        RowBox[{"{", 
-        RowBox[{
-        "\"\<\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
-         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",FontWeight->\
-\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
-      RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}], 
-      ",", 
+        RowBox[{"\"\<\!\(\*StyleBox[\\\"s\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", 
+         ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
+      RowBox[{"PlotLabel", "\[Rule]", "\"\<probability for rejection\>\""}], ",", 
       RowBox[{"PlotLegends", "->", 
        RowBox[{"Append", "[", 
         RowBox[{
@@ -1458,11 +1426,10 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"0", ",", "0"}], "}"}]}], ",", 
       RowBox[{"AxesLabel", "\[Rule]", 
        RowBox[{"{", 
-        RowBox[{
-        "\"\<\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\
-\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", ",", 
-         "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",FontWeight->\
-\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
+        RowBox[{"\"\<\!\(\*StyleBox[\\\"m\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\"", 
+         ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontFamily->\\\"Arial\\\",\
+FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\>\""}], "}"}]}], ",", 
       RowBox[{"PlotLegends", "->", 
        RowBox[{"Append", "[", 
         RowBox[{
@@ -1501,8 +1468,7 @@ Normal\\\"]\)\>\"", ",",
           RowBox[{
           "2", ",", "n", ",", "mc", ",", "sc", ",", "pred", ",", "psed"}], 
           "]"}], ",", 
-         RowBox[{"{", "600", "}"}]}], "]"}], "}"}]}], "}"}], "]"}], 
-   "]"}]}], "\n", 
+         RowBox[{"{", "600", "}"}]}], "]"}], "}"}]}], "}"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tpv", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "p_"}], "]"}], ":=", 
@@ -1513,8 +1479,7 @@ Normal\\\"]\)\>\"", ",",
       RowBox[{"pstrvp", "[", 
        RowBox[{"0", ",", "n", ",", "k", ",", "p"}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tppfr", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "p_"}], "]"}], ":=", 
@@ -1532,8 +1497,7 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"{", 
          RowBox[{"10", ",", "6"}], "}"}]}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tppred", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "p_"}], "]"}], ":=", 
@@ -1551,8 +1515,7 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"{", 
          RowBox[{"10", ",", "6"}], "}"}]}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tppsed", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "p_"}], "]"}], ":=", 
@@ -1570,8 +1533,7 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"{", 
          RowBox[{"10", ",", "6"}], "}"}]}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tlv", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "l_"}], "]"}], ":=", 
@@ -1582,8 +1544,7 @@ Normal\\\"]\)\>\"", ",",
       RowBox[{"pstrvl", "[", 
        RowBox[{"0", ",", "n", ",", "k", ",", "l"}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tlpfr", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "l_"}], "]"}], ":=", 
@@ -1599,8 +1560,7 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"{", 
          RowBox[{"10", ",", "6"}], "}"}]}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tlpred", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "l_"}], "]"}], ":=", 
@@ -1616,8 +1576,7 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"{", 
          RowBox[{"10", ",", "6"}], "}"}]}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tlpsed", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "l_"}], "]"}], ":=", 
@@ -1633,8 +1592,7 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"{", 
          RowBox[{"10", ",", "6"}], "}"}]}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tcv", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "pred_", ",", "psed_"}], "]"}], ":=", 
@@ -1647,8 +1605,7 @@ Normal\\\"]\)\>\"", ",",
        "0", ",", "n", ",", "k", ",", "m", ",", "s", ",", "pred", ",", 
         "psed"}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tcpfr", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "pred_", ",", "psed_"}], "]"}], ":=", 
@@ -1666,8 +1623,7 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"{", 
          RowBox[{"10", ",", "6"}], "}"}]}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tcpred", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "pred_", ",", "psed_"}], "]"}], ":=", 
@@ -1685,8 +1641,7 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"{", 
          RowBox[{"10", ",", "6"}], "}"}]}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tcpsed", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "pred_", ",", "psed_"}], "]"}], ":=", 
@@ -1704,8 +1659,7 @@ Normal\\\"]\)\>\"", ",",
         RowBox[{"{", 
          RowBox[{"10", ",", "6"}], "}"}]}], "]"}], ",", 
       RowBox[{"{", 
-       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], 
-   "]"}]}], "\n", 
+       RowBox[{"k", ",", "1", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}]}], "\n", 
  RowBox[{
   RowBox[{"tp", "[", 
    RowBox[{"n_", ",", "m_", ",", "s_", ",", "p_"}], "]"}], ":=", 
@@ -1723,8 +1677,7 @@ Normal\\\"]\)\>\"", ",",
             RowBox[{"\"\<probabilities for rejection\>\"", ",", "Bold"}], 
             "]"}], ",", 
            RowBox[{"Style", "[", 
-            RowBox[{"\"\<probability functions\>\"", ",", "Bold"}], "]"}], 
-           ",", 
+            RowBox[{"\"\<probability functions\>\"", ",", "Bold"}], "]"}], ",", 
            RowBox[{"tpv", "[", 
             RowBox[{"n", ",", "m", ",", "s", ",", "p"}], "]"}], ",", 
            RowBox[{"pstrmp", "[", 
@@ -1733,8 +1686,8 @@ Normal\\\"]\)\>\"", ",",
          RowBox[{"{", 
           RowBox[{"SpanFromLeft", ",", "\[IndentingNewLine]", 
            RowBox[{"Style", "[", 
-            RowBox[{"\"\<pfr\>\"", ",", "Bold", ",", " ", "Italic"}], "]"}], 
-           ",", "\[IndentingNewLine]", 
+            RowBox[{"\"\<pfr\>\"", ",", "Bold", ",", " ", "Italic"}], "]"}], ",",
+            "\[IndentingNewLine]", 
            RowBox[{"tppfr", "[", 
             RowBox[{"n", ",", "m", ",", "s", ",", "p"}], "]"}], ",", 
            RowBox[{"NumberForm", "[", 
@@ -1808,8 +1761,7 @@ Normal\\\"]\)\>\"", ",",
             RowBox[{"\"\<probabilities for rejection\>\"", ",", "Bold"}], 
             "]"}], ",", 
            RowBox[{"Style", "[", 
-            RowBox[{"\"\<probability functions\>\"", ",", "Bold"}], "]"}], 
-           ",", 
+            RowBox[{"\"\<probability functions\>\"", ",", "Bold"}], "]"}], ",", 
            RowBox[{"tlv", "[", 
             RowBox[{"n", ",", "m", ",", "s", ",", "l"}], "]"}], ",", 
            RowBox[{"pstrml", "[", 
@@ -1818,8 +1770,8 @@ Normal\\\"]\)\>\"", ",",
          RowBox[{"{", 
           RowBox[{"SpanFromLeft", ",", "\[IndentingNewLine]", 
            RowBox[{"Style", "[", 
-            RowBox[{"\"\<pfr\>\"", ",", "Bold", ",", " ", "Italic"}], "]"}], 
-           ",", "\[IndentingNewLine]", 
+            RowBox[{"\"\<pfr\>\"", ",", "Bold", ",", " ", "Italic"}], "]"}], ",",
+            "\[IndentingNewLine]", 
            RowBox[{"tlpfr", "[", 
             RowBox[{"n", ",", "m", ",", "s", ",", "l"}], "]"}], ",", 
            RowBox[{"NumberForm", "[", 
@@ -1887,8 +1839,7 @@ Normal\\\"]\)\>\"", ",",
             RowBox[{"\"\<probabilities for rejection\>\"", ",", "Bold"}], 
             "]"}], ",", 
            RowBox[{"Style", "[", 
-            RowBox[{"\"\<probability functions\>\"", ",", "Bold"}], "]"}], 
-           ",", 
+            RowBox[{"\"\<probability functions\>\"", ",", "Bold"}], "]"}], ",", 
            RowBox[{"tcv", "[", 
             RowBox[{"n", ",", "m", ",", "s", ",", "pred", ",", "psed"}], 
             "]"}], ",", 
@@ -1899,8 +1850,8 @@ Normal\\\"]\)\>\"", ",",
          RowBox[{"{", 
           RowBox[{"SpanFromLeft", ",", "\[IndentingNewLine]", 
            RowBox[{"Style", "[", 
-            RowBox[{"\"\<pfr\>\"", ",", "Bold", ",", " ", "Italic"}], "]"}], 
-           ",", "\[IndentingNewLine]", 
+            RowBox[{"\"\<pfr\>\"", ",", "Bold", ",", " ", "Italic"}], "]"}], ",",
+            "\[IndentingNewLine]", 
            RowBox[{"tcpfr", "[", 
             RowBox[{"n", ",", "m", ",", "s", ",", "pred", ",", "psed"}], 
             "]"}], ",", 
@@ -1971,9 +1922,9 @@ Normal\\\"]\)\>\"", ",",
        RowBox[{"{", 
         RowBox[{
          RowBox[{"{", 
-          RowBox[{
-          "\"\<QC rule\>\"", ",", "\"\<decision limit\>\"", ",", 
-           "\"\<probability for false rejection\>\""}], "}"}], ",", 
+          
+          RowBox[{"\"\<QC rule\>\"", ",", "\"\<decision limit\>\"", 
+           ",", "\"\<probability for false rejection\>\""}], "}"}], ",", 
          RowBox[{"{", 
           RowBox[{
            RowBox[{"If", "[", 
@@ -2041,8 +1992,8 @@ Normal\\\"]\)\>\"", ",",
           RowBox[{"If", "[", 
            RowBox[{
             RowBox[{
-            "minfn", "\[LessSlantEqual]", "fn", "\[LessSlantEqual]", "a"}], 
-            ",", "\[IndentingNewLine]", 
+            "minfn", "\[LessSlantEqual]", "fn", "\[LessSlantEqual]", "a"}], ",",
+             "\[IndentingNewLine]", 
             RowBox[{"Which", "[", "\[IndentingNewLine]", 
              RowBox[{
               RowBox[{"type", "\[Equal]", "0"}], ",", "\[IndentingNewLine]", 
@@ -2068,8 +2019,7 @@ Normal\\\"]\)\>\"", ",",
                     RowBox[{"1", "-", "taae"}], ")"}]}]}], ")"}], "/", 
                     RowBox[{"(", 
                     RowBox[{
-                    RowBox[{"\[Sqrt]", "2"}], " ", "sd"}], ")"}]}], "]"}], 
-                    "+", 
+                    RowBox[{"\[Sqrt]", "2"}], " ", "sd"}], ")"}]}], "]"}], "+", 
                     RowBox[{"Erfc", "[", 
                     RowBox[{
                     RowBox[{"(", 
@@ -2238,9 +2188,9 @@ Normal\\\"]\)\>\"", ",",
                     RowBox[{
                     RowBox[{"{", 
                     RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<measurement process parameters\>\"", ",", "Bold", 
-                    ",", " ", "Larger"}], "]"}], "}"}], ",", 
+                    
+                    RowBox[{"\"\<measurement process parameters\>\"", ",", 
+                    "Bold", ",", " ", "Larger"}], "]"}], "}"}], ",", 
                     RowBox[{"{", 
                     RowBox[{"\"\<fraction nonconforming \>\"", ",", 
                     RowBox[{"NumberForm", "[", 
@@ -2264,15 +2214,15 @@ Normal\\\"]\)\>\"", ",",
                     RowBox[{"6", ",", "2"}], "}"}]}], "]"}]}], "}"}], ",", 
                     RowBox[{"{", 
                     RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<\\nquality control parameters\>\"", ",", "Bold", ",",
-                     " ", "Larger"}], "]"}], "}"}], ",", 
+                    
+                    RowBox[{"\"\<\\nquality control parameters\>\"", ",", 
+                    "Bold", ",", " ", "Larger"}], "]"}], "}"}], ",", 
                     RowBox[{"{", 
                     RowBox[{
                     RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<quality control rule \>\"", ",", "Bold", ",", 
-                    "Blue"}], "]"}], ",", 
+                    
+                    RowBox[{"\"\<quality control rule \>\"", ",", "Bold", ",",
+                     "Blue"}], "]"}], ",", 
                     RowBox[{"Style", "[", 
                     RowBox[{
                     RowBox[{"If", "[", 
@@ -2287,9 +2237,9 @@ Normal\\\"]\)\>\"", ",",
                     RowBox[{"{", 
                     RowBox[{
                     RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<lower quality control decision limit \>\"", ",", 
-                    "Bold", ",", "Red"}], "]"}], ",", 
+                    
+                    RowBox[{"\"\<lower quality control decision limit \>\"", ",",
+                     "Bold", ",", "Red"}], "]"}], ",", 
                     RowBox[{"Style", "[", 
                     RowBox[{
                     RowBox[{"NumberForm", "[", 
@@ -2302,9 +2252,9 @@ Normal\\\"]\)\>\"", ",",
                     RowBox[{"{", 
                     RowBox[{
                     RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<upper quality control decision limit \>\"", ",", 
-                    "Bold", ",", "Red"}], "]"}], ",", 
+                    
+                    RowBox[{"\"\<upper quality control decision limit \>\"", ",",
+                     "Bold", ",", "Red"}], "]"}], ",", 
                     RowBox[{"Style", "[", 
                     RowBox[{
                     RowBox[{"NumberForm", "[", 
@@ -2315,16 +2265,16 @@ Normal\\\"]\)\>\"", ",",
                     RowBox[{"6", ",", "3"}], "}"}]}], "]"}], ",", "Bold", ",",
                      "Red"}], "]"}]}], "}"}], ",", 
                     RowBox[{"{", 
-                    RowBox[{
-                    "\"\<probability for critical random error detection \
-\>\"", ",", 
+                    
+                    RowBox[{"\"\<probability for critical random error \
+detection \>\"", ",", 
                     RowBox[{"NumberForm", "[", 
                     RowBox[{"pred", ",", 
                     RowBox[{"{", 
                     RowBox[{"6", ",", "3"}], "}"}]}], "]"}]}], "}"}], ",", 
                     RowBox[{"{", 
-                    RowBox[{
-                    "\"\<probability for critical systematic error \
+                    
+                    RowBox[{"\"\<probability for critical systematic error \
 detection\>\"", ",", 
                     RowBox[{"NumberForm", "[", 
                     RowBox[{"psed", ",", 
@@ -2364,13 +2314,15 @@ detection\>\"", ",",
                     RowBox[{"6", " ", "s"}]}]}], "}"}], ",", 
                     RowBox[{"AxesLabel", "\[Rule]", 
                     RowBox[{"{", 
+                    
+                    RowBox[{"\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"\
+Italic\\\"]\)\>\"", 
+                    ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontSlant->\\\"Italic\\\
+\"]\)\>\""}], "}"}]}], ",", 
                     RowBox[{
-                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\"", ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
-                     "}"}]}], ",", 
-                    RowBox[{
-                    "PlotLabel", "\[Rule]", 
-                    "\"\<probability density function (pdf)\>\""}], ",", 
+                    "PlotLabel", 
+                    "\[Rule]", "\"\<probability density function (pdf)\>\""}],
+                     ",", 
                     RowBox[{"PlotStyle", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{
@@ -2384,8 +2336,7 @@ detection\>\"", ",",
                     RowBox[{"ImageSize", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"450", ",", 
-                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], 
-                  ",", 
+                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], ",", 
                   RowBox[{"mgpfrs", "[", 
                    RowBox[{"m", ",", "s", ",", "c", ",", "k", ",", "d"}], 
                    "]"}]}], "}"}], ",", "Center"}], "]"}], ",", 
@@ -2409,13 +2360,15 @@ detection\>\"", ",",
                     RowBox[{"6", " ", "s"}]}]}], "}"}], ",", 
                     RowBox[{"AxesLabel", "\[Rule]", 
                     RowBox[{"{", 
+                    
+                    RowBox[{"\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"\
+Italic\\\"]\)\>\"", 
+                    ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontSlant->\\\"Italic\\\
+\"]\)\>\""}], "}"}]}], ",", 
                     RowBox[{
-                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\"", ",", "\"\<\!\(\*StyleBox[\\\"p\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
-                     "}"}]}], ",", 
-                    RowBox[{
-                    "PlotLabel", "\[Rule]", 
-                    "\"\<cumulative density function (cdf)\>\""}], ",", 
+                    "PlotLabel", 
+                    "\[Rule]", "\"\<cumulative density function (cdf)\>\""}], 
+                    ",", 
                     RowBox[{"PlotStyle", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{
@@ -2429,8 +2382,7 @@ detection\>\"", ",",
                     RowBox[{"ImageSize", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"450", ",", 
-                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], 
-                  ",", 
+                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], ",", 
                   RowBox[{"mgpfrs", "[", 
                    RowBox[{"m", ",", "s", ",", "c", ",", "k", ",", "d"}], 
                    "]"}]}], "}"}], ",", "Center"}], "]"}], ",", 
@@ -2456,17 +2408,17 @@ detection\>\"", ",",
                     RowBox[{"6", " ", "s"}]}], "}"}], ",", 
                     RowBox[{"AxesLabel", "\[Rule]", 
                     RowBox[{"{", 
-                    RowBox[{
-                    "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\"", ",", 
-                    "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
+                    
+                    RowBox[{"\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"\
+Italic\\\"]\)\>\"", 
+                    ",", "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
 \\\"r\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], "}"}]}], ",", 
                     RowBox[{"AxesOrigin", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"s", ",", "0"}], "}"}]}], ",", 
                     RowBox[{
-                    "PlotLabel", "\[Rule]", 
-                    "\"\<probability for rejection\>\""}], ",", 
+                    "PlotLabel", 
+                    "\[Rule]", "\"\<probability for rejection\>\""}], ",", 
                     RowBox[{"PlotStyle", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"ColorData", "[", 
@@ -2477,8 +2429,7 @@ detection\>\"", ",",
                     RowBox[{"ImageSize", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"450", ",", 
-                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], 
-                  ",", 
+                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], ",", 
                   RowBox[{"mgpfrs", "[", 
                    RowBox[{"m", ",", "s", ",", "c", ",", "k", ",", "d"}], 
                    "]"}]}], "}"}], ",", "Center"}], "]"}], ",", 
@@ -2513,10 +2464,10 @@ detection\>\"", ",",
                     RowBox[{"6", "s"}]}]}], "}"}], ",", 
                     RowBox[{"AxesLabel", "\[Rule]", 
                     RowBox[{"{", 
-                    RowBox[{
-                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\"", ",", 
-                    "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
+                    
+                    RowBox[{"\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"\
+Italic\\\"]\)\>\"", 
+                    ",", "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
 \\\"r\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], "}"}]}], ",", 
                     RowBox[{"AxesOrigin", "\[Rule]", 
                     RowBox[{"{", 
@@ -2524,8 +2475,8 @@ detection\>\"", ",",
                     RowBox[{"m", "-", 
                     RowBox[{"6", "s"}]}], ",", "0"}], "}"}]}], ",", 
                     RowBox[{
-                    "PlotLabel", "\[Rule]", 
-                    "\"\<probability for rejection\>\""}], ",", 
+                    "PlotLabel", 
+                    "\[Rule]", "\"\<probability for rejection\>\""}], ",", 
                     RowBox[{"PlotStyle", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"ColorData", "[", 
@@ -2536,8 +2487,7 @@ detection\>\"", ",",
                     RowBox[{"ImageSize", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"450", ",", 
-                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], 
-                  ",", 
+                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], ",", 
                   RowBox[{"mgpfrs", "[", 
                    RowBox[{"m", ",", "s", ",", "c", ",", "k", ",", "d"}], 
                    "]"}]}], "}"}], ",", "Center"}], "]"}]}], "]"}], ",", 
@@ -2557,18 +2507,16 @@ detection\>\"", ",",
                     RowBox[{"ToString", "[", "fn", "]"}]}], "}"}], ",", 
                     RowBox[{"{", 
                     RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<the fraction nonconforming is not acceptable\>\"", 
-                    ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}], 
-                    "}"}]}], "}"}], ",", 
+                    
+                    RowBox[{"\"\<the fraction nonconforming is not acceptable\
+\>\"", ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}], "}"}]}], "}"}], ",", 
                    RowBox[{"Alignment", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"Left", ",", "Left"}], "}"}]}]}], "]"}]}], ",", 
                 RowBox[{"ImageSize", "\[Rule]", 
                  RowBox[{"{", 
                   RowBox[{"450", ",", 
-                   RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], 
-              ",", 
+                   RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], ",", 
               RowBox[{"If", " ", "[", 
                RowBox[{
                 RowBox[{"fn", ">=", "0"}], ",", " ", 
@@ -2584,18 +2532,18 @@ detection\>\"", ",",
 \!\(\*SuperscriptBox[\(10\), \(-100\)]\)\>\"", "}"}], ",", 
                     RowBox[{"{", 
                     RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<the fraction nonconforming is too small\>\"", ",", 
-                    "Bold", ",", "Red", ",", " ", "Larger"}], "]"}], "}"}]}], 
-                    "}"}], ",", 
+                    
+                    RowBox[{"\"\<the fraction nonconforming is too small\>\"",
+                     ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}], 
+                    "}"}]}], "}"}], ",", 
                     RowBox[{"Alignment", "\[Rule]", 
                     RowBox[{"{", 
                     RowBox[{"Left", ",", "Left"}], "}"}]}]}], "]"}]}], ",", 
                   RowBox[{"ImageSize", "\[Rule]", 
                    RowBox[{"{", 
                     RowBox[{"450", ",", 
-                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], 
-                ",", " ", 
+                    RowBox[{"450", "/", "GoldenRatio"}]}], "}"}]}]}], "]"}], ",",
+                 " ", 
                 RowBox[{"Pane", "[", 
                  RowBox[{
                   RowBox[{"Text", "@", 
@@ -2607,9 +2555,9 @@ detection\>\"", ",",
                      ",", 
                     RowBox[{"{", 
                     RowBox[{"Style", "[", 
-                    RowBox[{
-                    "\"\<the fraction nonconforming is not acceptable.\>\"", 
-                    ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}], 
+                    
+                    RowBox[{"\"\<the fraction nonconforming is not \
+acceptable.\>\"", ",", "Bold", ",", "Red", ",", " ", "Larger"}], "]"}], 
                     "}"}]}], "}"}], ",", 
                     RowBox[{"Alignment", "\[Rule]", 
                     RowBox[{"{", 
@@ -2629,53 +2577,53 @@ detection\>\"", ",",
             RowBox[{"1", "\[Rule]", "\"\< pdf\>\""}], ",", 
             RowBox[{"2", "\[Rule]", "\"\< cdf\>\""}], ",", 
             RowBox[{
-            "3", "\[Rule]", 
-             "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
-\\\"r\\\"],FontSlant->\\\"Italic\\\"]\) vs \
+            "3", "\[Rule]", "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \\\"r\
+\\\"],FontSlant->\\\"Italic\\\"]\) vs \
 \!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], ",", " ", 
             RowBox[{
-            "4", "\[Rule]", 
-             "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
-\\\"r\\\"],FontSlant->\\\"Italic\\\"]\) vs \
+            "4", "\[Rule]", "\"\<\!\(\*StyleBox[SubscriptBox[\\\"p\\\", \\\"r\
+\\\"],FontSlant->\\\"Italic\\\"]\) vs \
 \!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\>\""}]}], "}"}]}], 
          "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
         "\[IndentingNewLine]", 
         RowBox[{"Style", "[", 
-         RowBox[{
-         "\"\<parameters of the control measurements (in measurement units) \
-\>\"", ",", "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
-        "\"\<assigned mean\>\"", ",", "\[IndentingNewLine]", 
+         RowBox[{"\"\<parameters of the control measurements (in measurement \
+units) \>\"", ",", "Bold"}], "]"}], ",", 
+        "\[IndentingNewLine]", "\"\<assigned mean\>\"", ",", 
+        "\[IndentingNewLine]", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"{", 
            RowBox[{
-           "em", ",", "100.0", ",", 
-            "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"m\\\",FontSlant->\\\
-\"Italic\\\"], \
+           "em", ",", "100.0", 
+            ",", "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"m\\\",\
+FontSlant->\\\"Italic\\\"], \
 StyleBox[\\\"0\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\>\"\
 "}], "}"}], ",", "0.01", ",", "1000.0", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
-        "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
-        "\"\<observed mean\>\"", ",", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "Delimiter", ",", 
+        "\[IndentingNewLine]", "\"\<observed mean\>\"", ",", 
+        "\[IndentingNewLine]", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"{", 
            RowBox[{
-           "m", ",", "99.0", ",", 
-            "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
-            "}"}], ",", "0.01", ",", "1000.0", ",", 
+           "m", ",", "99.0", 
+            ",", "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\>\
+\""}], "}"}], ",", "0.01", ",", "1000.0", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
-        "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
-        "\"\<standard deviation\>\"", ",", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "Delimiter", ",", 
+        "\[IndentingNewLine]", "\"\<standard deviation\>\"", ",", 
+        "\[IndentingNewLine]", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"{", 
            RowBox[{
-           "s", ",", "1.5", ",", 
-            "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
-            "}"}], ",", "0.01", ",", "1000.0", ",", 
+           "s", ",", "1.5", 
+            ",", "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\>\
+\""}], "}"}], ",", "0.01", ",", "1000.0", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
         "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
@@ -2687,26 +2635,27 @@ StyleBox[\\\"0\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\>\"\
          RowBox[{
           RowBox[{"{", 
            RowBox[{
-           "ptaae", ",", "10.0", ",", 
-            "\"\<\!\(\*StyleBox[\\\"t\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
-            "}"}], ",", "0.01", ",", "200.0", ",", "1.0", ",", 
+           "ptaae", ",", "10.0", 
+            ",", "\"\<\!\(\*StyleBox[\\\"t\\\",FontSlant->\\\"Italic\\\"]\)\>\
+\""}], "}"}], ",", "0.01", ",", "200.0", ",", "1.0", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
-        "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
-        "\"\<maximum fraction nonconforming\>\"", ",", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "Delimiter", ",", 
+        "\[IndentingNewLine]", "\"\<maximum fraction nonconforming\>\"", ",", 
+        "\[IndentingNewLine]", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"{", 
            RowBox[{
-           "a", ",", "0.1", ",", 
-            "\"\<\!\(\*StyleBox[SubscriptBox[\\\"f\\\", \
+           "a", ",", "0.1", 
+            ",", "\"\<\!\(\*StyleBox[SubscriptBox[\\\"f\\\", \
 \\\"max\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], "}"}], ",", "0.01", ",", 
           "0.99", ",", ".01", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
-        "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
-        "\"\<minimum probability for critical random  error detection\>\"", 
-        ",", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "Delimiter", ",", 
+        "\[IndentingNewLine]", "\"\<minimum probability for critical random  \
+error detection\>\"", ",", "\[IndentingNewLine]", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"{", 
@@ -2714,9 +2663,9 @@ StyleBox[\\\"0\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\>\"\
           "0.01", ",", "0.99", ",", ".01", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
-        "\[IndentingNewLine]", "Delimiter", ",", "\[IndentingNewLine]", 
-        "\"\<minimum probability for critical systematic error detection\>\"",
-         ",", "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "Delimiter", ",", 
+        "\[IndentingNewLine]", "\"\<minimum probability for critical \
+systematic error detection\>\"", ",", "\[IndentingNewLine]", 
         RowBox[{"{", 
          RowBox[{
           RowBox[{"{", 
@@ -2732,9 +2681,9 @@ StyleBox[\\\"0\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\>\"\
          RowBox[{
           RowBox[{"{", 
            RowBox[{
-           "c", ",", "4", ",", 
-            "\"\<\!\(\*StyleBox[\\\"n\\\",FontSlant->\\\"Italic\\\"]\)\>\""}],
-            "}"}], ",", "1", ",", "6", ",", "1", ",", 
+           "c", ",", "4", 
+            ",", "\"\<\!\(\*StyleBox[\\\"n\\\",FontSlant->\\\"Italic\\\"]\)\>\
+\""}], "}"}], ",", "1", ",", "6", ",", "1", ",", 
           RowBox[{"ImageSize", "\[Rule]", "Tiny"}], ",", 
           RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
         "\[IndentingNewLine]", 
@@ -2761,8 +2710,8 @@ StyleBox[\\\"0\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\>\"\
                   RowBox[{"e", ",", "n", ",", "p"}], "]"}], ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], 
-                 ",", "\[IndentingNewLine]", 
+                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], ",",
+                  "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
@@ -2774,15 +2723,15 @@ StyleBox[\\\"0\\\",FontSlant->\\\"Plain\\\"]],FontSlant->\\\"Italic\\\"]\)\>\"\
                  "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{
-                  "\"\<probability for for false rejection\>\"", ",", 
+                  
+                  RowBox[{"\"\<probability for for false rejection\>\"", ",", 
                    "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "p", ",", "0.01", ",", 
-                    "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"p\\\",\
+                    "p", ",", "0.01", 
+                    ",", "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"p\\\",\
 FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], 
                     "}"}], ",", "0.0001", ",", "0.1", ",", "0.0001", ",", 
                    RowBox[{"Appearance", "->", "\"\<Labeled\>\""}], ",", " ", 
@@ -2796,43 +2745,42 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "e", ",", "2", ",", 
-                    "\"\< \!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
-\\\"r\\\"],FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[\\\" \\\",FontSlant->\\\
-\"Italic\\\"]\)\!\(\*StyleBox[\\\"vs\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], 
-                    "}"}], ",", 
+                    "e", ",", "2", 
+                    ",", "\"\< \!\(\*StyleBox[SubscriptBox[\\\"p\\\", \\\"r\\\
+\"],FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[\\\"vs\\\",FontSlant->\\\"\
+Italic\\\"]\)\>\""}], "}"}], ",", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{
-                    "1", "\[Rule]", 
-                    "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\""}], ",", 
+                    "1", "\[Rule]", "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\
+\\\"Italic\\\"]\)\>\""}], ",", 
                     RowBox[{
-                    "2", "\[Rule]", 
-                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\""}]}], "}"}]}], "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
-                 "\[IndentingNewLine]", 
+                    "2", "\[Rule]", "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\
+\\\"Italic\\\"]\)\>\""}]}], "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+                 "Delimiter", ",", "\[IndentingNewLine]", 
                  RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
                  RowBox[{"TrackedSymbols", "\[Rule]", "True"}], ",", 
                  RowBox[{"ControlPlacement", "->", "Top"}]}], "]"}]}], ",", 
               "\[IndentingNewLine]", 
-              RowBox[{
-              "\"\<defining decision limits\>\"", "->", "\[IndentingNewLine]", 
+              
+              RowBox[{"\"\<defining decision limits\>\"", "->", 
+               "\[IndentingNewLine]", 
                RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
                 RowBox[{
                  RowBox[{"plotl", "[", 
                   RowBox[{"e", ",", "n", ",", "l"}], "]"}], ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], 
-                 ",", "\[IndentingNewLine]", 
+                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], ",",
+                  "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "n", ",", "2", ",", 
-                    "\"\<\!\(\*StyleBox[\\\"n\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\""}], "}"}], ",", "1", ",", "6", ",", "1", ",", 
+                    "n", ",", "2", 
+                    ",", "\"\<\!\(\*StyleBox[\\\"n\\\",FontSlant->\\\"Italic\\\
+\"]\)\>\""}], "}"}], ",", "1", ",", "6", ",", "1", ",", 
                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                   "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
@@ -2843,9 +2791,9 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "l", ",", "2.5", ",", 
-                    "\"\<\!\(\*StyleBox[\\\"l\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\""}], "}"}], ",", "1", ",", "5", ",", "0.1", ",", 
+                    "l", ",", "2.5", 
+                    ",", "\"\<\!\(\*StyleBox[\\\"l\\\",FontSlant->\\\"Italic\\\
+\"]\)\>\""}], "}"}], ",", "1", ",", "5", ",", "0.1", ",", 
                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                   "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
@@ -2856,22 +2804,20 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "e", ",", "2", ",", 
-                    "\"\< \!\(\*StyleBox[SubscriptBox[\\\"p\\\", \
-\\\"r\\\"],FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[\\\" \\\",FontSlant->\\\
-\"Italic\\\"]\)\!\(\*StyleBox[\\\"vs\\\",FontSlant->\\\"Italic\\\"]\)\>\""}], 
-                    "}"}], ",", 
+                    "e", ",", "2", 
+                    ",", "\"\< \!\(\*StyleBox[SubscriptBox[\\\"p\\\", \\\"r\\\
+\"],FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[\\\" \
+\\\",FontSlant->\\\"Italic\\\"]\)\!\(\*StyleBox[\\\"vs\\\",FontSlant->\\\"\
+Italic\\\"]\)\>\""}], "}"}], ",", 
                    RowBox[{"{", 
                     RowBox[{
                     RowBox[{
-                    "1", "\[Rule]", 
-                    "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\""}], ",", 
+                    "1", "\[Rule]", "\"\<\!\(\*StyleBox[\\\"s\\\",FontSlant->\
+\\\"Italic\\\"]\)\>\""}], ",", 
                     RowBox[{
-                    "2", "\[Rule]", 
-                    "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\""}]}], "}"}]}], "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
-                 "\[IndentingNewLine]", 
+                    "2", "\[Rule]", "\"\<\!\(\*StyleBox[\\\"m\\\",FontSlant->\
+\\\"Italic\\\"]\)\>\""}]}], "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+                 "Delimiter", ",", "\[IndentingNewLine]", 
                  RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", 
                  RowBox[{"TrackedSymbols", "\[Rule]", "True"}], ",", 
                  RowBox[{"ControlPlacement", "->", "Top"}]}], "]"}]}]}], 
@@ -2890,8 +2836,8 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                   RowBox[{"n", ",", "mc", ",", "sc", ",", "p"}], "]"}], ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], 
-                 ",", "\[IndentingNewLine]", 
+                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], ",",
+                  "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
@@ -2903,15 +2849,15 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                  "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{
-                  "\"\<probability for for false rejection\>\"", ",", 
+                  
+                  RowBox[{"\"\<probability for for false rejection\>\"", ",", 
                    "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "p", ",", "0.01", ",", 
-                    "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"p\\\",\
+                    "p", ",", "0.01", 
+                    ",", "\"\<\!\(\*StyleBox[SubscriptBox[StyleBox[\\\"p\\\",\
 FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}], 
                     "}"}], ",", "0.0001", ",", "0.1", ",", "0.0001", ",", 
                    RowBox[{"Appearance", "->", "\"\<Labeled\>\""}], ",", " ", 
@@ -2919,15 +2865,15 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                  "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{"\"\<critical errors\>\"", ",", "Bold"}], "]"}], 
-                 ",", "\[IndentingNewLine]", 
+                  RowBox[{"\"\<critical errors\>\"", ",", "Bold"}], "]"}], ",",
+                  "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "mc", ",", "3.0", ",", 
-                    "\"\<critical systematic error\>\""}], "}"}], ",", "0.5", 
-                   ",", "8.0", ",", "0.01", ",", 
+                    "mc", ",", "3.0", 
+                    ",", "\"\<critical systematic error\>\""}], "}"}], ",", 
+                   "0.5", ",", "8.0", ",", "0.01", ",", 
                    RowBox[{"Appearance", "->", "\"\<Labeled\>\""}], ",", " ", 
                    RowBox[{"ImageSize", "->", "\"\<Tiny\>\""}]}], "}"}], ",", 
                  "\[IndentingNewLine]", 
@@ -2945,23 +2891,24 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                  RowBox[{"TrackedSymbols", "\[Rule]", "True"}], ",", 
                  RowBox[{"ControlPlacement", "->", "Top"}]}], "]"}]}], ",", 
               "\[IndentingNewLine]", 
-              RowBox[{
-              "\"\<defining decision limit\>\"", "->", "\[IndentingNewLine]", 
+              
+              RowBox[{"\"\<defining decision limit\>\"", "->", 
+               "\[IndentingNewLine]", 
                RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
                 RowBox[{
                  RowBox[{"tl", "[", 
                   RowBox[{"n", ",", "mc", ",", "sc", ",", "l"}], "]"}], ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], 
-                 ",", "\[IndentingNewLine]", 
+                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], ",",
+                  "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "n", ",", "2", ",", 
-                    "\"\<\!\(\*StyleBox[\\\"n\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\""}], "}"}], ",", "1", ",", "6", ",", "1", ",", 
+                    "n", ",", "2", 
+                    ",", "\"\<\!\(\*StyleBox[\\\"n\\\",FontSlant->\\\"Italic\\\
+\"]\)\>\""}], "}"}], ",", "1", ",", "6", ",", "1", ",", 
                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                   "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
@@ -2972,22 +2919,22 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "l", ",", "2.5", ",", 
-                    "\"\<\!\(\*StyleBox[\\\"l\\\",FontSlant->\\\"Italic\\\"]\)\
-\>\""}], "}"}], ",", "1", ",", "5", ",", "0.1", ",", 
+                    "l", ",", "2.5", 
+                    ",", "\"\<\!\(\*StyleBox[\\\"l\\\",FontSlant->\\\"Italic\\\
+\"]\)\>\""}], "}"}], ",", "1", ",", "5", ",", "0.1", ",", 
                    RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], 
                   "}"}], ",", "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{"\"\<critical errors\>\"", ",", "Bold"}], "]"}], 
-                 ",", "\[IndentingNewLine]", 
+                  RowBox[{"\"\<critical errors\>\"", ",", "Bold"}], "]"}], ",",
+                  "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "mc", ",", "3.0", ",", 
-                    "\"\<critical systematic error\>\""}], "}"}], ",", "0.5", 
-                   ",", "8.0", ",", "0.01", ",", 
+                    "mc", ",", "3.0", 
+                    ",", "\"\<critical systematic error\>\""}], "}"}], ",", 
+                   "0.5", ",", "8.0", ",", "0.01", ",", 
                    RowBox[{"Appearance", "->", "\"\<Labeled\>\""}], ",", " ", 
                    RowBox[{"ImageSize", "->", "\"\<Tiny\>\""}]}], "}"}], ",", 
                  "\[IndentingNewLine]", 
@@ -3005,8 +2952,8 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                  RowBox[{"TrackedSymbols", "\[Rule]", "True"}], ",", 
                  RowBox[{"ControlPlacement", "->", "Top"}]}], "]"}]}], ",", 
               "\[IndentingNewLine]", 
-              RowBox[{
-              "\"\<definining critical errors\>\"", "->", 
+              
+              RowBox[{"\"\<definining critical errors\>\"", "->", 
                "\[IndentingNewLine]", 
                RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
                 RowBox[{
@@ -3014,8 +2961,8 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                   RowBox[{"n", ",", "m", ",", "s", ",", "pred", ",", "psed"}],
                    "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], 
-                 ",", "\[IndentingNewLine]", 
+                  RowBox[{"\"\<size of QC sample\>\"", ",", "Bold"}], "]"}], ",",
+                  "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
@@ -3027,15 +2974,15 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                  "\[IndentingNewLine]", "Delimiter", ",", 
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
-                  RowBox[{"\"\<critical errors\>\"", ",", "Bold"}], "]"}], 
-                 ",", "\[IndentingNewLine]", 
+                  RowBox[{"\"\<critical errors\>\"", ",", "Bold"}], "]"}], ",",
+                  "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "m", ",", "3.0", ",", 
-                    "\"\<critical systematic error\>\""}], "}"}], ",", "0.5", 
-                   ",", "8.0", ",", "0.01", ",", 
+                    "m", ",", "3.0", 
+                    ",", "\"\<critical systematic error\>\""}], "}"}], ",", 
+                   "0.5", ",", "8.0", ",", "0.01", ",", 
                    RowBox[{"Appearance", "->", "\"\<Labeled\>\""}], ",", " ", 
                    RowBox[{"ImageSize", "->", "\"\<Tiny\>\""}]}], "}"}], ",", 
                  "\[IndentingNewLine]", 
@@ -3052,8 +2999,8 @@ FontSlant->\\\"Italic\\\"], \\\"fr\\\"],FontSlant->\\\"Italic\\\"]\)\>\""}],
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "pred", ",", "0.9", ",", 
-                    "\"\<probability of critical random error \
+                    "pred", ",", "0.9", 
+                    ",", "\"\<probability of critical random error \
 detection\>\""}], "}"}], ",", "0.10", ",", "0.99", ",", "0.01", ",", 
                    RowBox[{"Appearance", "->", "\"\<Labeled\>\""}], ",", " ", 
                    RowBox[{"ImageSize", "->", "\"\<Tiny\>\""}]}], "}"}], ",", 
@@ -3062,9 +3009,9 @@ detection\>\""}], "}"}], ",", "0.10", ",", "0.99", ",", "0.01", ",",
                   RowBox[{
                    RowBox[{"{", 
                     RowBox[{
-                    "psed", ",", "0.9", ",", 
-                    "\"\<probability of critical systematic error detection\>\
-\""}], "}"}], ",", "0.10", ",", "0.99", ",", "0.01", ",", 
+                    "psed", ",", "0.9", 
+                    ",", "\"\<probability of critical systematic error \
+detection\>\""}], "}"}], ",", "0.10", ",", "0.99", ",", "0.01", ",", 
                    RowBox[{"Appearance", "->", "\"\<Labeled\>\""}], ",", " ", 
                    RowBox[{"ImageSize", "->", "\"\<Tiny\>\""}]}], "}"}], ",", 
                  "\[IndentingNewLine]", "Delimiter", ",", 
@@ -3100,8 +3047,12 @@ detection\>\""}], "}"}], ",", "0.10", ",", "0.99", ",", "0.01", ",",
    3.8734648534899516`*^9, 3.8734648893829536`*^9}, {3.873465002982524*^9, 
    3.873465003549514*^9}, 3.873465235924547*^9, {3.873631806518531*^9, 
    3.873631866226533*^9}, {3.8751875951254225`*^9, 3.875187608567374*^9}, {
-   3.9263409419538*^9, 3.926340943872454*^9}, 3.9305421171354065`*^9},
- CellLabel->"In[59]:=",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7"],
+   3.9263409419538*^9, 3.926340943872454*^9}, 3.9305421171354065`*^9, {
+   3.9698728178079624`*^9, 3.9698728193127975`*^9}, {3.9698728541647816`*^9, 
+   3.9698729131096535`*^9}, {3.969872954201004*^9, 3.969872990811756*^9}, {
+   3.9698731513806973`*^9, 3.9698732183330307`*^9}},
+ CellLabel->
+  "In[581]:=",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"design\"\>"->
@@ -3171,7 +3122,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)"}, 0.01, 1000.,
         "\!\(\*StyleBox[\"n\",FontSlant->\"Italic\"]\)"}, 1, 6, 1, 
        ControlType -> Manipulator}}, Typeset`size$$ = {
      450., {136.19168056672828`, 141.92361437072435`}}, Typeset`update$$ = 0, 
-     Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+     Typeset`initDone$$, Typeset`skipInitDone$$ = False, 
+     Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
      DynamicBox[Manipulate`ManipulateBoxes[
       1, StandardForm, 
        "Variables" :> {$CellContext`a$$ = 0.1, $CellContext`c$$ = 
@@ -3183,7 +3135,8 @@ StyleBox[\"0\",FontSlant->\"Plain\"]],FontSlant->\"Italic\"]\)"}, 0.01, 1000.,
         Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
          Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
          Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
-         Typeset`initDone$$, Typeset`skipInitDone$$}, "Body" :> 
+         Typeset`initDone$$, Typeset`skipInitDone$$, 
+         Typeset`keyframeActionsQ$$, Typeset`keyframeList$$}, "Body" :> 
        Quiet[$CellContext`taae = $CellContext`ptaae$$/
            100; $CellContext`fn = $CellContext`pce[$CellContext`em$$, \
 $CellContext`m$$, $CellContext`s$$, $CellContext`taae]; 
@@ -3423,7 +3376,8 @@ $CellContext`c$$, $CellContext`k, $CellContext`d]}, Center]],
         ControlPlacement -> Left, SynchronousUpdating -> False, 
          TrackedSymbols -> True, AutorunSequencing -> {1}}, 
        "DefaultOptions" :> {}],
-      ImageSizeCache->{742., {201.13403309800196`, 206.86596690199804`}},
+      ImageSizeCache->{
+       770.2318557071685, {256.28481434800204`, 262.0167481519981}},
       SingleEvaluation->True],
      Deinitialization:>None,
      DynamicModuleValues:>{},
@@ -3991,7 +3945,8 @@ $CellContext`n, $CellContext`k, $CellContext`l]],
          1 -> "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)", 2 -> 
           "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, ControlType -> 
          SetterBar}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
-       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+       Typeset`initDone$$, Typeset`skipInitDone$$ = False, 
+       Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`e$$ = 2, $CellContext`n$$ = 
@@ -4000,7 +3955,8 @@ $CellContext`n, $CellContext`k, $CellContext`l]],
           Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
            Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
            Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
-           Typeset`initDone$$, Typeset`skipInitDone$$}, 
+           Typeset`initDone$$, Typeset`skipInitDone$$, 
+           Typeset`keyframeActionsQ$$, Typeset`keyframeList$$}, 
          "Body" :> $CellContext`plotp[$CellContext`e$$, $CellContext`n$$, \
 $CellContext`p$$], "Specifications" :> {
            Style[
@@ -4026,17 +3982,18 @@ $CellContext`p$$], "Specifications" :> {
        Deinitialization:>None,
        DynamicModuleValues:>{},
        Initialization:>({$CellContext`plotp[
+            Pattern[$CellContext`e, 
+             Blank[]], 
             Pattern[$CellContext`n, 
              Blank[]], 
             Pattern[$CellContext`p, 
              Blank[]]] := Quiet[
-            Grid[{{
-               Pane[
-                $CellContext`vplp[1, $CellContext`n, $CellContext`p], {
-                600}]}, {
-               Pane[
-                $CellContext`vplp[2, $CellContext`n, $CellContext`p], {
-                600}]}}]], $CellContext`vplp[
+            Switch[$CellContext`e, 1, 
+             Pane[
+              $CellContext`vplp[1, $CellContext`n, $CellContext`p], {600}], 2, 
+             Pane[
+              $CellContext`vplp[2, $CellContext`n, $CellContext`p], {
+              600}]]], $CellContext`vplp[
             Pattern[$CellContext`e, 
              Blank[]], 
             Pattern[$CellContext`n, 
@@ -4380,7 +4337,8 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
          1 -> "\!\(\*StyleBox[\"s\",FontSlant->\"Italic\"]\)", 2 -> 
           "\!\(\*StyleBox[\"m\",FontSlant->\"Italic\"]\)"}, ControlType -> 
          SetterBar}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
-       Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+       Typeset`initDone$$, Typeset`skipInitDone$$ = False, 
+       Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`e$$ = 2, $CellContext`l$$ = 
@@ -4389,7 +4347,8 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
           Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
            Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
            Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
-           Typeset`initDone$$, Typeset`skipInitDone$$}, 
+           Typeset`initDone$$, Typeset`skipInitDone$$, 
+           Typeset`keyframeActionsQ$$, Typeset`keyframeList$$}, 
          "Body" :> $CellContext`plotl[$CellContext`e$$, $CellContext`n$$, \
 $CellContext`l$$], "Specifications" :> {
            Style[
@@ -4415,17 +4374,18 @@ $CellContext`l$$], "Specifications" :> {
        Deinitialization:>None,
        DynamicModuleValues:>{},
        Initialization:>({$CellContext`plotl[
+            Pattern[$CellContext`e, 
+             Blank[]], 
             Pattern[$CellContext`n, 
              Blank[]], 
             Pattern[$CellContext`l, 
              Blank[]]] := Quiet[
-            Grid[{{
-               Pane[
-                $CellContext`vpll[1, $CellContext`n, $CellContext`l], {
-                600}]}, {
-               Pane[
-                $CellContext`vpll[2, $CellContext`n, $CellContext`l], {
-                600}]}}]], $CellContext`vpll[
+            Switch[$CellContext`e, 1, 
+             Pane[
+              $CellContext`vpll[1, $CellContext`n, $CellContext`l], {600}], 2, 
+             Pane[
+              $CellContext`vpll[2, $CellContext`n, $CellContext`l], {
+              600}]]], $CellContext`vpll[
             Pattern[$CellContext`e, 
              Blank[]], 
             Pattern[$CellContext`n, 
@@ -4725,7 +4685,8 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
           Hold[$CellContext`sc$$], 4., "critical random error"}, 0.5, 8., 
          0.01, ControlType -> Manipulator}}, Typeset`size$$ = Automatic, 
        Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-       False}, 
+       False, Typeset`keyframeActionsQ$$ = False, 
+       Typeset`keyframeList$$ = {}}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`mc$$ = 3., $CellContext`n$$ = 
@@ -4735,7 +4696,8 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
           Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
            Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
            Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
-           Typeset`initDone$$, Typeset`skipInitDone$$}, 
+           Typeset`initDone$$, Typeset`skipInitDone$$, 
+           Typeset`keyframeActionsQ$$, Typeset`keyframeList$$}, 
          "Body" :> $CellContext`tp[$CellContext`n$$, $CellContext`mc$$, \
 $CellContext`sc$$, $CellContext`p$$], "Specifications" :> {
            Style[
@@ -4967,7 +4929,6 @@ $CellContext`\[Sigma])/(
                 Sqrt[2] $CellContext`s)])^(-$CellContext`k + $CellContext`n) (
                1 + Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] + 
-               
                Erfc[($CellContext`m - $CellContext`\[Mu] + $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])^$CellContext`k 
              Gamma[1 + $CellContext`n] 
@@ -5159,7 +5120,8 @@ $CellContext`p]]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
           Hold[$CellContext`sc$$], 4., "critical random error"}, 0.5, 8., 
          0.01, ControlType -> Manipulator}}, Typeset`size$$ = Automatic, 
        Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-       False}, 
+       False, Typeset`keyframeActionsQ$$ = False, 
+       Typeset`keyframeList$$ = {}}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`l$$ = 2.5, $CellContext`mc$$ = 
@@ -5169,7 +5131,8 @@ $CellContext`p]]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
           Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
            Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
            Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
-           Typeset`initDone$$, Typeset`skipInitDone$$}, 
+           Typeset`initDone$$, Typeset`skipInitDone$$, 
+           Typeset`keyframeActionsQ$$, Typeset`keyframeList$$}, 
          "Body" :> $CellContext`tl[$CellContext`n$$, $CellContext`mc$$, \
 $CellContext`sc$$, $CellContext`l$$], "Specifications" :> {
            Style[
@@ -5455,7 +5418,8 @@ $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] -
                Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
 $CellContext`\[Sigma])/(
                 Sqrt[2] $CellContext`s)])^(-$CellContext`k + $CellContext`n) (
-               1 + Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
+               1 + 
+               Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] + 
                Erfc[($CellContext`m - $CellContext`\[Mu] + $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])^$CellContext`k 
@@ -5546,7 +5510,8 @@ $CellContext`m, 1, $CellContext`l]], {10, 6}], {$CellContext`k,
           "probability of critical systematic error detection"}, 0.1, 0.99, 
          0.01, ControlType -> Manipulator}}, Typeset`size$$ = Automatic, 
        Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-       False}, 
+       False, Typeset`keyframeActionsQ$$ = False, 
+       Typeset`keyframeList$$ = {}}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`m$$ = 3., $CellContext`n$$ = 
@@ -5556,7 +5521,8 @@ $CellContext`m, 1, $CellContext`l]], {10, 6}], {$CellContext`k,
           Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
            Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
            Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
-           Typeset`initDone$$, Typeset`skipInitDone$$}, 
+           Typeset`initDone$$, Typeset`skipInitDone$$, 
+           Typeset`keyframeActionsQ$$, Typeset`keyframeList$$}, 
          "Body" :> $CellContext`tc[$CellContext`n$$, $CellContext`m$$, \
 $CellContext`s$$, $CellContext`pred$$, $CellContext`psed$$], "Specifications" :> {
            Style[
@@ -5825,8 +5791,7 @@ $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])^$CellContext`k
              Gamma[1 + $CellContext`n] 
              Hypergeometric2F1[
               1, $CellContext`k - $CellContext`n, 1 + $CellContext`k, 1 + 
-               2/(
-                Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
+               2/(Erf[($CellContext`m - $CellContext`\[Mu] - $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)] - 
                 Erf[($CellContext`m - $CellContext`\[Mu] + $CellContext`l \
 $CellContext`\[Sigma])/(Sqrt[2] $CellContext`s)])])/
@@ -6054,8 +6019,6 @@ $CellContext`psed]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
      Manipulate`InterpretManipulate[1]]}}, 1,
     ImageSize->All]}}, 1]}}, 1,
   ImageSize->Automatic]], "Output",
- Editable->False,
- Deployed->True,
  CellChangeTimes->{
   3.871422704334204*^9, 3.871442500387403*^9, 3.871550677289975*^9, 
    3.871550875986168*^9, 3.871551022615239*^9, 3.87155127480582*^9, 
@@ -6070,9 +6033,11 @@ $CellContext`psed]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
    3.873465014292545*^9, 3.873465252101547*^9, 3.873465538103036*^9, 
    3.873631776192536*^9, 3.8736318755305257`*^9, 3.875187619100815*^9, 
    3.875201855105205*^9, 3.875201918407934*^9, 3.875202010796774*^9, {
-   3.930542134668148*^9, 3.9305421354390583`*^9}},
+   3.930542134668148*^9, 3.9305421354390583`*^9}, {3.9698723722921543`*^9, 
+   3.969872400090908*^9}, 3.9698724683949623`*^9, 3.969873097176218*^9, 
+   3.9698732254402122`*^9, 3.9698733326143494`*^9, 3.9698751803573856`*^9},
  CellLabel->
-  "Out[116]=",ExpressionUUID->"8d952ee7-79ad-7d44-a628-2d7c26ba5c1c"]
+  "Out[638]=",ExpressionUUID->"56ded920-9933-3c49-8e6f-2b4ecb942b50"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -6469,7 +6434,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/QualityControl/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.3.4\n",
+ StyleBox["\nVersion Number 1.1.4\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory",
@@ -6513,14 +6478,15 @@ International Creative Commons License",
    3.92773408466639*^9, 3.927734103815949*^9}, {3.927868835454948*^9, 
    3.927868836035688*^9}, {3.927942220032595*^9, 3.927942220770687*^9}, {
    3.928508175128807*^9, 3.928508191289585*^9}, {3.930541905929037*^9, 
-   3.930541906654421*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
+   3.930541906654421*^9}, {3.9698732814323864`*^9, 
+   3.969873283647875*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
 da8b685956ea"]
 }, Open  ]]
 },
 WindowSize->{1429.875, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"TryRealOnly" -> False|>,
-FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
+FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"75500afe-c81d-414d-9266-095ab36230fd"
 ]
@@ -6536,22 +6502,22 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 1063, 19, 86, "Title",ExpressionUUID->"29168691-58a1-4939-9745-ba2bc9524479",
+Cell[580, 22, 1063, 19, 85, "Title",ExpressionUUID->"29168691-58a1-4939-9745-ba2bc9524479",
  Evaluatable->False],
-Cell[1646, 43, 1008, 17, 71, "Title",ExpressionUUID->"df09ce5c-3c35-4b13-b788-d004dc50aa9a",
+Cell[1646, 43, 1008, 17, 70, "Title",ExpressionUUID->"df09ce5c-3c35-4b13-b788-d004dc50aa9a",
  Evaluatable->False],
-Cell[2657, 62, 664, 15, 129, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
-Cell[3324, 79, 366, 8, 31, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
+Cell[2657, 62, 664, 15, 125, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
+Cell[3324, 79, 366, 8, 30, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
 Cell[CellGroupData[{
-Cell[3715, 91, 129705, 3012, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
+Cell[3715, 91, 129259, 2963, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
  CellOpen->False,
  InitializationCell->True],
-Cell[133423, 3105, 145668, 2969, 475, "Output",ExpressionUUID->"8d952ee7-79ad-7d44-a628-2d7c26ba5c1c"]
+Cell[132977, 3056, 146731, 2983, 584, "Output",ExpressionUUID->"56ded920-9933-3c49-8e6f-2b4ecb942b50"]
 }, Open  ]],
-Cell[279106, 6077, 1101, 21, 53, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
-Cell[280210, 6100, 9636, 313, 136, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
-Cell[289849, 6415, 2472, 42, 47, "Subsubsubsubsection",ExpressionUUID->"a1def6cc-45f5-3246-96aa-c8afd1bebe11"],
-Cell[292324, 6459, 2573, 57, 75, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
+Cell[279723, 6042, 1101, 21, 51, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
+Cell[280827, 6065, 9636, 313, 127, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
+Cell[290466, 6380, 2472, 42, 45, "Subsubsubsubsection",ExpressionUUID->"a1def6cc-45f5-3246-96aa-c8afd1bebe11"],
+Cell[292941, 6424, 2623, 58, 72, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
 }, Open  ]]
 }
 ]
