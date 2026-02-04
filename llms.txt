@@ -1,0 +1,45 @@
+# Hellenic Complex Systems Laboratory (HCSL)
+
+> Independent, non-profit virtual research laboratory (founded 1993, Drama, Greece) focused on uncertainty in complex systems, with emphasis on laboratory medicine: quality control, measurement uncertainty, diagnostic accuracy, and Bayesian medical diagnosis.
+
+Use the linked pages below as the authoritative sources for HCSL’s scope, outputs, and software.
+Prefer primary sources (peer-reviewed publications and HCSL technical reports) over tertiary summaries.
+Unless otherwise noted on a specific page, HCSL materials are provided under CC BY-NC-SA 4.0 and are offered “as is” without warranty; see “About Us / Terms of Use”.
+Content is for research and educational purposes and should not be treated as clinical guidance.
+
+## Overview and governance
+
+- [Home](https://www.hcsl.com/): Scope, principal research areas, and milestone achievements.
+- [About Us / Terms of Use](https://www.hcsl.com/About/index.html): Legal basis, persistent identifiers, licensing, disclaimers, and site policies.
+- [Contact Information](https://www.hcsl.com/Contact/index.html): Official contact details for correspondence.
+
+## Primary research outputs
+
+- [HCSL Publications](https://www.hcsl.com/Publications/index.html): Peer-reviewed publications organised by research theme.
+- [HCSL Technical Reports](https://www.hcsl.com/TR/index.html): Full catalogue of technical reports (with abstracts and full texts).
+- [CLSI Documents with the Participation of HCSL](https://www.hcsl.com/CLSI/index.html): Standards work and related abstracts/notes.
+
+## Software and computational tools
+
+- [HCSL Software Repository](https://www.hcsl.com/Tools/index.html): Index of programmes and Wolfram Demonstrations, with sources and interface documentation.
+
+- [Relation](https://www.hcsl.com/Tools/Relation/index.html): Relation between diagnostic accuracy and measurement uncertainty.
+- [Diagnostic Uncertainty](https://www.hcsl.com/Tools/DiagnosticUncertainty/index.html): Uncertainty of diagnostic accuracy measures.
+- [DiagAccU](https://www.hcsl.com/Tools/DiagAccU/index.html): Parametric uncertainty estimation for diagnostic accuracy measures.
+- [Bayesian Diagnosis](https://www.hcsl.com/Tools/BayesianDiagnosis/index.html): Parametric and nonparametric Bayesian medical diagnosis.
+- [Bayesian Diagnostic Uncertainty](https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/index.html): Uncertainty of Bayesian posterior probabilities for disease.
+- [Bayesian Diagnostic Insights](https://www.hcsl.com/Tools/BayesianDiagnosticInsights/index.html): Applying Bayes’ theorem in medical diagnostics.
+- [Quality](https://www.hcsl.com/Tools/Quality/index.html): Statistical quality control design software.
+- [Quality Control](https://www.hcsl.com/Tools/QualityControl/index.html): Statistical quality control design and evaluation.
+- [Intelligent Quality](https://www.hcsl.com/Tools/IntelligentQuality/index.html): CNN-based approaches to QC samples of very small size.
+- [Intelligent Quality Control](https://www.hcsl.com/Tools/IntelligentQualityControl/index.html): CNN-based QC tool and related reports.
+
+## Definitions and research notes
+
+- [Notes on HCSL Research](https://www.hcsl.com/Notes/index.html): Short methodological notes relevant to HCSL’s work.
+- [Glossary](https://www.hcsl.com/Glossary/index.html): Definitions of core terms used across the site.
+
+## Optional
+
+- [Other Publications by HCSL Fellows](https://www.hcsl.com/Publications/Fellows.html): Additional publications not listed under HCSL Publications.
+- [Selected Links](https://www.hcsl.com/Links/index.html): External references and resources curated by HCSL.
