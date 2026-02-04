@@ -1,4 +1,2 @@
 User-agent: *
 Disallow: /Supplements/
-
-Sitemap: https://www.hcsl.com/sitemap.xml
