@@ -1,4 +1,3 @@
 - name: Save to Software Heritage
   uses: sdruskat/swh-save-action@8c762a62f97631c8093e6a50e7f8ffe0d231478d # v1.0.1
-
-          
+  
