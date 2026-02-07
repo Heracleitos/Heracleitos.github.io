@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty"
+abstract: "Relation is a freely available interactive program, developed for calculating, optimizing, plotting and comparing various diagnostic accuracy measures and the corresponding risk of diagnostic or screening tests measuring a normally distributed measurand, applied at a single point in time in non-diseased and diseased populations. This is done for differing prevalence of the disease, mean and standard deviation of the measurand, diagnostic threshold, standard measurement uncertainty of the tests and expected loss."
+authors:
+  - family-names: "Chatzimichail"
+    given-names: "Theodora"
+    orcid: "https://orcid.org/0000-0001-6765-8454"
+- family-names: "Hatjimihail"
+    given-names: "Aristeidis T."
+    orcid: "https://orcid.org/0000-0002-0502-7996"
+version: 1.0.4.4
+date-released: "2024-07-21"
+identifiers:
+  - description: "This is the archived snapshot of version 1.0.4.4 of Relation"
+    type: doi
+    value: "10.5281/zenodo.12789917"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://www.hcsl.com/Tools/Relation/index.html"
