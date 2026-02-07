@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis"
+abstract: "This software tool employs Bayesian rule to calculate the posterior probability of a disease diagnosis. It comprises three distinct modules, each designed to allow users to define and compare parametric and nonparametric distributions. The tool analyzes datasets generated from two separate diagnostic tests, each performed on both diseased and nondiseased populations.
+The provided datasets, d1 (Fasting Plasma Glucose (mg/dl) in diabetics 20-40 years old), d2 (Glycated Hemoglobin A1c (%) in diabetics 20-40 years old), nd1 (Fasting Plasma Glucose (mg/dl) in nondiabetics 20-40 years old), and nd2 (Glycated Hemoglobin A1c (%) in nondiabetics 20-40 years old), were obtained from the database of the National Health and Nutrition Examination Survey (NHANES), Centers for Disease Control and Prevention, USA. They can be replaced by other datasets of two measurands in diseased and nondiseased populations."
+authors:
+  - family-names: "Chatzimichail"
+    given-names: "Theodora"
+    orcid: "https://orcid.org/0000-0001-6765-8454"
+- family-names: "Hatjimihail"
+    given-names: "Aristeidis T."
+    orcid: "https://orcid.org/0000-0002-0502-7996"
+version: 1.0.6.4
+date-released: "2024-07-21"
+identifiers:
+  - description: "This is the archived snapshot of version 1.0.4.4 of Bayesian Diagnosis"
+    type: doi
+    value: "10.5281/zenodo.12789902"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://www.hcsl.com/Tools/BayesianDiagnosis/index.html"
