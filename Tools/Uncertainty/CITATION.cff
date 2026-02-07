@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures"
+abstract: "The program provides six modules with nine submodules for calculating and plotting the standard and expanded measurement, sampling and combined uncertainty and the resultant confidence intervals of various diagnostic accuracy measures of screening or diagnostic tests, which measure a normally distributed measurand, applied at a single point in time in samples of nondiseased and diseased populations. This is done for differing sample sizes, mean and standard deviation of the measurand, diagnostic threshold and standard measurement uncertainty of the test."
+authors:
+  - family-names: "Chatzimichail"
+    given-names: "Theodora"
+    orcid: "https://orcid.org/0000-0001-6765-8454"
+- family-names: "Hatjimihail"
+    given-names: "Aristeidis T."
+    orcid: "https://orcid.org/0000-0002-0502-7996"
+version: 3.0.0
+date-released: "2025-08-21"
+identifiers:
+  - description: "This is the archived snapshot of version 3.0.0 of Diagnostic Uncertainty"
+    type: doi
+    value: "10.5281/zenodo.16921313"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://www.hcsl.com/Tools/Uncertainty/index.html"
