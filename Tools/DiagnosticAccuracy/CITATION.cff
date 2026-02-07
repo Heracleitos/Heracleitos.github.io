@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "DiagAccU: A Software Program for the Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions"
+abstract: "DiagAccU implements a threshold-based computational framework to quantify measurement, sampling, and combined uncertainty for sixteen diagnostic accuracy in screening and diagnostic testing. Measurement uncertainty is modelled with linear and nonlinear heteroscedastic functions. Uncertainty is propagated using first-order Taylor-series expansion, and effective degrees of freedom and expanded uncertainty is estimated via the Welch–Satterthwaite formula. Optimality conditions are derived numerically where where interior optima exist. The program supports selection of clinically meaningful thresholds (confirmation vs exclusion), transparent uncertainty reporting, and sensitivity analyses under alternative distributional assumptions. It provides parameter entry, batch computation, and publication-grade plots for reporting and study design."
+authors:
+  - family-names: "Chatzimichail"
+    given-names: "Rallou"
+    orcid: "https://orcid.org/0000-0002-2534-5852"
+  - family-names: "Chatzimichail"
+    given-names: "Theodora"
+    orcid: "https://orcid.org/0000-0001-6765-8454"
+  - family-names: "Hatjimihail"
+    given-names: "Aristeidis T."
+    orcid: "https://orcid.org/0000-0002-0502-7996"
+version: 1.0.0
+date-released: "2025-09-21"
+identifiers:
+  - description: "This is the archived snapshot of version 1.0.0 of DiagAccU"
+    type: doi
+    value: "10.5281/zenodo.18520450"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://www.hcsl.com/Tools/DiagnosticAccuracy/index.html"
