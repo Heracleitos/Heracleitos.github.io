@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics"
+abstract: "This software tool is a specialized program developed in Wolfram Language for the parametric estimation, visualization, and comparison of Bayesian diagnostic measures and their uncertainty. The program utilizes Bayes' theorem to compute the posterior probabilities for disease and absence of the disease, as well as the diagnostic threshold-derived positive and negative predictive values. It uses advanced uncertainty propagation methods to quantify their standard sampling, measurement, and combined uncertainty using normal, lognormal, and gamma distributions. The tool enhances the estimation process and facilitates the comparison of these Bayesian diagnostic measures, which are critical for medical practice. Furthermore, it provides a robust framework for analyzing uncertainty, thereby aiding in the understanding and applying of probabilistic methods in medical diagnostics."
+authors:
+  - family-names: Chatzimichail
+    given-names: Theodora
+    orcid: "https://orcid.org/0000-0001-6765-8454"
+- family-names: Hatjimihail
+    given-names: Aristeidis T.
+    orcid: "https://orcid.org/0000-0002-0502-7996"
+version: 2.1.0
+date-released: "2025-08-30"
+identifiers:
+  - description: "This is the archived snapshot of version 2.1.0 of Bayesian Diagnostic Insights
+    type: doi
+    value: "10.5281/zenodo.18519350"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://www.hcsl.com/Tools/BayesianDiagnosticInsights/index.html"
