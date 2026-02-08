@@ -7,8 +7,30 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-CRKTXRE2HD');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "@id": "https://www.hcsl.com/#org",
+  "name": "Hellenic Complex Systems Laboratory",
+  "alternateName": "HCSL",
+  "url": "https://www.hcsl.com/",
+  "description": "Virtual research laboratory founded in 1993, focusing on uncertainty evaluation and reduction in complex systems, with emphasis on laboratory medicine, quality control, measurement uncertainty, diagnostic accuracy, Bayesian diagnosis, and related computational methods.",
+  "foundingDate": "1993",
+  "logo": "https://www.hcsl.com/Images/HCSLlogo.png",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q117031658",
+    "https://ror.org/00zp1hf53",
+    "https://isni.org/isni/000000051264197X",
+    "https://github.com/Heracleitos"
+  ],
+  "identifier": [
+    { "@type": "PropertyValue", "propertyID": "ROR", "value": "00zp1hf53" },
+    { "@type": "PropertyValue", "propertyID": "ISNI", "value": "000000051264197X" }
+  ]
+}
 </script>
     <link rel="canonical" href="https://www.hcsl.com/Tools/Nutrition/index.html">
     <title>HCSL Software Repository: Nutritional Design</title>
@@ -46,6 +68,9 @@
         <h3 id="END">
             Chatzimichail T. <span style="font-style: italic">Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design.</span> Ver. 1.0.0.1. Hellenic Complex Systems Laboratory; 2024.
         </h3>
+		<p class="c1">
+			DOI: <a href="https://doi.org/10.5281/zenodo.18521365" target="_blank">10.5281/zenodo.18521365</a>
+		</p>
         <h4 id="ENDD">Software Synopsis</h4>
         <p class="c1">
             This is a software tool, developed to assist in nutrition design. It includes data of 2371 foods from the 2021 version of the Composition of Foods Integrated Dataset (<a href="https://www.gov.uk/government/publications/composition-of-foods-integrated-dataset-cofid" title="Composition of foods integrated dataset">CoFID</a>), published by Public Health England (<a href="https://www.gov.uk/government/organisations/public-health-england" title="Public Health England">PHE</a>). It can be used to design patient-specific enteral nutritional formulae of blended foods. The foods are selected with seven pairs of nested menus. The quantities of the selected foods are calculated to comply with user-defined specifications: total required calories (10-5000), fraction of protein calories (0.15-0.40), fraction of carbohydrate calories (0.15-0.40), maximum total water (1-3000 ml), sodium (1-3000 mg), potassium (1-6000 mg), calcium (1-4000 mg), magnesium (1-600 mg) and phosphorus (1-5000 mg) content of the foods. If the system of the linear equations derived from the user-defined specifications and the composition of the selected foods is solvable, then a nutritional formula is designed, and a table of the quantities of the foods and their total proteins, fats, saturated fatty acids, carbohydrates, sugars, water, sodium, potassium, calcium, magnesium, and phosphorus is generated.

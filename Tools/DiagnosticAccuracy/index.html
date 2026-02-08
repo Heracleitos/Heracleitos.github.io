@@ -7,8 +7,30 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-CRKTXRE2HD');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "@id": "https://www.hcsl.com/#org",
+  "name": "Hellenic Complex Systems Laboratory",
+  "alternateName": "HCSL",
+  "url": "https://www.hcsl.com/",
+  "description": "Virtual research laboratory founded in 1993, focusing on uncertainty evaluation and reduction in complex systems, with emphasis on laboratory medicine, quality control, measurement uncertainty, diagnostic accuracy, Bayesian diagnosis, and related computational methods.",
+  "foundingDate": "1993",
+  "logo": "https://www.hcsl.com/Images/HCSLlogo.png",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q117031658",
+    "https://ror.org/00zp1hf53",
+    "https://isni.org/isni/000000051264197X",
+    "https://github.com/Heracleitos"
+  ],
+  "identifier": [
+    { "@type": "PropertyValue", "propertyID": "ROR", "value": "00zp1hf53" },
+    { "@type": "PropertyValue", "propertyID": "ISNI", "value": "000000051264197X" }
+  ]
+}
 </script>
     <link rel="canonical" href="https://www.hcsl.com/Tools/DiagnosticAccuracy/index.html">
     <title>HCSL Software Repository: DiagAccU</title>
@@ -46,9 +68,11 @@
         <h3 id="DAU">
             Chatzimichail RA, Chatzimichail T, Hatjimihail AT. <span style="font-style: italic">DiagAccU: A Software Program for the Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions.</span> Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2025.
         </h3>
+		<p class="c1">
+			DOI: <a href="https://doi.org/10.5281/zenodo.18520450" target="_blank">10.5281/zenodo.18520450</a>
+		</p>
         <h4 id="DAUD">Software Synopsis</h4>
         <p class="c1">           
-			
 			<span style="font-style: italic">DiagAccU</span> implements a threshold-based computational framework to quantify measurement, sampling, and combined <a href="../../Glossary/index.html#Uncertainty" title="glossary: uncertainty">uncertainty</a> for sixteen <a href="../../Glossary/index.html#Diagnostic_Accuracy" title="glossary: diagnostic accuracy">diagnostic accuracy</a> in screening and diagnostic testing. <a href="../../Glossary/index.html#Measurement_Uncertainty" title="glossary: measurement uncertainty">Measurement uncertainty</a> is modelled with linear and nonlinear heteroscedastic functions. Uncertainty is propagated using first-order Taylor-series expansion, and effective degrees of freedom and expanded uncertainty is estimated via the Welch–Satterthwaite formula. Optimality conditions are derived numerically where where interior optima exist. The program supports selection of clinically meaningful thresholds (confirmation vs exclusion), transparent uncertainty reporting, and sensitivity analyses under alternative distributional assumptions. It provides parameter entry, batch computation, and publication-grade plots for reporting and study design.
 		</p>
 		<p class="c2">
