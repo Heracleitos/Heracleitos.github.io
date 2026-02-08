@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "Quality: A Software Tool for Statistical Quality Control Design"
+abstract: "This software tool can design and compare statistical single-value quality control rules to be applied to a measurement process to meet the user defined quality specifications."
+authors:
+  - family-names: "Chatzimichail"
+    given-names: "Rallou"
+    orcid: "https://orcid.org/0000-0002-2534-5852"
+  - family-names: "Hatjimihail"
+    given-names: "Aristeidis T."
+    orcid: "https://orcid.org/0000-0002-0502-7996"
+version: 1.0.2.4
+date-released: "2024-07-21"
+identifiers:
+  - description: "This is the archived snapshot of version 1.0.2.4 of Quality"
+    type: doi
+    value: "10.5281/zenodo.18521332"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://www.hcsl.com/Tools/Quality/index.html"
