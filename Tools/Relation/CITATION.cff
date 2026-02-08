@@ -6,7 +6,7 @@ authors:
   - family-names: "Chatzimichail"
     given-names: "Theodora"
     orcid: "https://orcid.org/0000-0001-6765-8454"
-- family-names: "Hatjimihail"
+  - family-names: "Hatjimihail"
     given-names: "Aristeidis T."
     orcid: "https://orcid.org/0000-0002-0502-7996"
 version: 1.0.4.4
