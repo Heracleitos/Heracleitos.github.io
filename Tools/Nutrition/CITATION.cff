@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design"
+abstract: "This is a software tool, developed to assist in nutrition design. It includes data of 2371 foods from the 2021 version of the Composition of Foods Integrated Dataset (CoFID), published by Public Health England (PHE). It can be used to design patient-specific enteral nutritional formulae of blended foods. The foods are selected with seven pairs of nested menus. The quantities of the selected foods are calculated to comply with user-defined specifications: total required calories (10-5000), fraction of protein calories (0.15-0.40), fraction of carbohydrate calories (0.15-0.40), maximum total water (1-3000 ml), sodium (1-3000 mg), potassium (1-6000 mg), calcium (1-4000 mg), magnesium (1-600 mg) and phosphorus (1-5000 mg) content of the foods. If the system of the linear equations derived from the user-defined specifications and the composition of the selected foods is solvable, then a nutritional formula is designed, and a table of the quantities of the foods and their total proteins, fats, saturated fatty acids, carbohydrates, sugars, water, sodium, potassium, calcium, magnesium, and phosphorus is generated."
+authors:
+  authors:
+  - family-names: "Chatzimichail"
+    given-names: "Theodora"
+    orcid: "https://orcid.org/0000-0001-6765-8454"
+version: 1.0.0.1
+date-released: "2024-07-21"
+identifiers:
+  - description: "This is the archived snapshot of version 1.0.0.1 of Enteral Nutrition Design"
+    type: doi
+    value: "10.5281/zenodo.18521365"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://www.hcsl.com/Tools/Nutrition/index.html"
