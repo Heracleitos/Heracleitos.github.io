@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://www.hcsl.com/</loc>
-  <lastmod>2026-02-09</lastmod>
+  <lastmod>2026-02-15</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -21,7 +21,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/index.html</loc>
-  <lastmod>2026-02-14</lastmod>
+  <lastmod>2026-02-15</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -136,7 +136,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Publications/Entropy.html</loc>
-  <lastmod>2026-02-14</lastmod>
+  <lastmod>2026-02-15</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
