@@ -1,6 +1,6 @@
 # HCSL Technical Report XXVIII
 
-Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. 
+Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. https://doi.org/10.5281/zenodo.18605171
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr29/.
 
