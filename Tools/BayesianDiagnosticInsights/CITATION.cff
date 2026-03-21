@@ -9,11 +9,11 @@ authors:
 - family-names: "Hatjimihail"
     given-names: "Aristeidis T."
     orcid: "https://orcid.org/0000-0002-0502-7996"
-version: 2.1.0
-date-released: "2025-08-30"
+version: 2.1.2
+date-released: "2026-03-21"
 identifiers:
-  - description: "This is the archived snapshot of version 2.1.0 of Bayesian Diagnostic Insights"
+  - description: "This is the archived snapshot of version 2.1.2 of Bayesian Diagnostic Insights"
     type: doi
-    value: "10.5281/zenodo.18519350"
+    value: "10.5281/zenodo.19152733"
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://www.hcsl.com/Tools/BayesianDiagnosticInsights/index.html"
