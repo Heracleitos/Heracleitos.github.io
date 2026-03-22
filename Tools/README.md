@@ -22,7 +22,7 @@ Source: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
 Source: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 
-5. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.0.1. Hellenic Complex Systems Laboratory; 2025.
+5. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.0.2. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 
