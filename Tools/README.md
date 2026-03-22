@@ -46,7 +46,7 @@ Source: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
 
 Source: [QualityControl.nb](QualityControl/QualityControl.nb)
 
-11. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.5.4. Hellenic Complex Systems Laboratory; 2024.
+11. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [IntelligentQualityControl.nb](IntelligentQualityControl/IntelligentQualityControl.nb)
 

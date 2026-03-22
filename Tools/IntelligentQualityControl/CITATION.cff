@@ -9,11 +9,11 @@ authors:
   - family-names: "Hatjimihail"
     given-names: "Aristeidis T."
     orcid: "https://orcid.org/0000-0002-0502-7996"
-version: 1.0.5.4
-date-released: "2024-07-21"
+version: 1.0.6
+date-released: "2026-03-22"
 identifiers:
   - description: "This is the archived snapshot of version 1.0.5.4 of Intelligent Quality Control"
     type: doi
-    value: "10.5281/zenodo.18521243"
+    value: "10.5281/zenodo.19163806"
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://www.hcsl.com/Tools/IntelligentQualityControl/index.html"
