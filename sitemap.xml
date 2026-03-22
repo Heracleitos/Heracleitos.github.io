@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://www.hcsl.com/</loc>
-  <lastmod>2026-03-21</lastmod>
+  <lastmod>2026-03-22</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -466,7 +466,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Tools/BayesianDiagnosis/index.html</loc>
-  <lastmod>2026-02-09</lastmod>
+  <lastmod>2026-03-22</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -521,7 +521,7 @@
 </url>
 <url>
   <loc>https://www.hcsl.com/Documents/BayesianDiagnosisInterface.pdf</loc>
-  <lastmod>2026-02-09</lastmod>
+  <lastmod>2026-03-22</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
