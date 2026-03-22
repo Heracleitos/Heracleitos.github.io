@@ -1,6 +1,6 @@
 # Enteral Nutrition Design 
 
-A Software Tool for Enteral Nutrition Design. Ver. 1.0.0.4. Hellenic Complex Systems Laboratory; 2024.
+A Software Tool for Enteral Nutrition Design. Ver. 1.0.1. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [Nutrition.nb](Nutrition.nb)
 

@@ -7,11 +7,11 @@ authors:
   - family-names: "Chatzimichail"
     given-names: "Theodora"
     orcid: "https://orcid.org/0000-0001-6765-8454"
-version: 1.0.0.1
-date-released: "2024-07-21"
+version: 1.0.1
+date-released: "2026-03-22"
 identifiers:
-  - description: "This is the archived snapshot of version 1.0.0.1 of Enteral Nutrition Design"
+  - description: "This is the archived snapshot of version 1.0.1 of Enteral Nutrition Design"
     type: doi
-    value: "10.5281/zenodo.18521365"
+    value: "10.5281/zenodo.19164679"
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://www.hcsl.com/Tools/Nutrition/index.html"
