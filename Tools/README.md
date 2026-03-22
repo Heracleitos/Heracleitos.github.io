@@ -14,7 +14,7 @@ Source: [Relation.nb](Relation/Relation.nb)
 
 Source: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
 
-3. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A Software Program for the Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2025.
+3. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A Software Program for the Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Ver. 1.0.1. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
@@ -38,7 +38,7 @@ Source: [Nutrition.nb](Nutrition/Nutrition.nb)
 
 Source: [Quality.nb](Quality/Quality.nb)
 
-9. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.3.4. Drama: Hellenic Complex Systems Laboratory, 2024.
+9. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.4. Drama: Hellenic Complex Systems Laboratory, 2026.
 
 Source: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
 

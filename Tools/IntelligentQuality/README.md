@@ -1,6 +1,6 @@
 # Intelligent Quality
  
-A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.3.4. Hellenic Complex Systems Laboratory; 2024.
+A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.4. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [IntelligentQuality.nb](IntelligentQuality.nb)
 
