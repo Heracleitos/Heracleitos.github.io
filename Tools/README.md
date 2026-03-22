@@ -18,7 +18,7 @@ Source: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
 
 Source: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
-4. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.6.4. Hellenic Complex Systems Laboratory; 2024.
+4. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.7. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 

@@ -10,11 +10,11 @@ authors:
 - family-names: "Hatjimihail"
     given-names: "Aristeidis T."
     orcid: "https://orcid.org/0000-0002-0502-7996"
-version: 1.0.6.4
-date-released: "2024-07-21"
+version: 1.0.7
+date-released: "2026-03-22"
 identifiers:
-  - description: "This is the archived snapshot of version 1.0.4.4 of Bayesian Diagnosis"
+  - description: "This is the archived snapshot of version 1.0.7 of Bayesian Diagnosis"
     type: doi
-    value: "10.5281/zenodo.12789902"
+    value: "10.5281/zenodo.19158651"
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://www.hcsl.com/Tools/BayesianDiagnosis/index.html"
