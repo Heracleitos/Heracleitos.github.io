@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1226973,      26929]
-NotebookOptionsPosition[   1225615,      26898]
-NotebookOutlinePosition[   1226037,      26915]
-CellTagsIndexPosition[   1225994,      26912]
+NotebookDataLength[   1228412,      26961]
+NotebookOptionsPosition[   1226715,      26924]
+NotebookOutlinePosition[   1227476,      26947]
+CellTagsIndexPosition[   1227433,      26944]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -50,7 +50,7 @@ diagnostic accuracy measures ", "Subtitle",
 451d95b87268"],
 
 Cell[TextData[{
- "Theodora Chatzimichail, MD  \n",
+ "Theodora Chatzimichail, MD\n",
  StyleBox["tc@hcsl.com", "Affiliation"],
  "\nAristides T. Hatjimihail, MD, PhD\n",
  StyleBox[" ath@hcsl.com\n ", "Affiliation"]
@@ -59,8 +59,9 @@ Cell[TextData[{
  Deployed->True,
  CellChangeTimes->{
   3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
-   3.780026882968507*^9, 3.780026977147427*^9}, 
-   3.7804577481605663`*^9},ExpressionUUID->"1cc76b04-6cbc-4aef-a873-\
+   3.780026882968507*^9, 3.780026977147427*^9}, 3.7804577481605663`*^9, {
+   3.98324629668001*^9, 
+   3.983246297143112*^9}},ExpressionUUID->"1cc76b04-6cbc-4aef-a873-\
 b937edcba28a"],
 
 Cell["\<\
@@ -81,6 +82,20 @@ Cell[BoxData[{
   RowBox[{"Off", "[", 
    RowBox[{"General", "::", "stop"}], "]"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{"Needs", "[", "\"\<HypothesisTesting`\>\"", "]"}], "\n", 
+ RowBox[{
+  RowBox[{"SetOptions", "[", 
+   RowBox[{
+    RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+    RowBox[{"TaggingRules", "->", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{"\"\<DOI\>\"", 
+        "->", "\"\<https://doi.org/10.5281/zenodo.19182193\>\""}], ",", 
+       RowBox[{"\"\<PreferredCitation\>\"", 
+        "->", "\"\<Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A \
+Software Tool for Calculating the Uncertainty of Diagnostic Accuracy \
+Measures. Ver. 3.0.1. Hellenic Complex Systems Laboratory; 2026. \
+https://doi.org/10.5281/zenodo.19182193\>\""}]}], "|>"}]}]}], "]"}], ";"}], "\n", 
  RowBox[{
   RowBox[{"mcsns", "[", 
    RowBox[{
@@ -8794,7 +8809,6 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
                     
                     RowBox[{"\"\<dor\>\"", 
                     "\[Rule]", "\"\<diagnostic odds ratio (DOR)\>\""}], ",", 
-                    
                     RowBox[{"\"\<plr\>\"", 
                     "\[Rule]", "\"\<likelihood ratio for a positive result \
 (LR+)\>\""}], ",", 
@@ -8808,6 +8822,7 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
                     
                     RowBox[{"\"\<ed\>\"", 
                     "\[Rule]", "\"\<Euclidean distance (ED)\>\""}], ",", 
+                    
                     RowBox[{"\"\<cz\>\"", 
                     "\[Rule]", "\"\<concordance probability (CZ)\>\""}]}], 
                    "}"}], ",", 
@@ -9613,7 +9628,6 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
                     
                     RowBox[{"\"\<npv\>\"", 
                     "\[Rule]", "\"\<negative predictive value (NPV)\>\""}], ",", 
-                    
                     RowBox[{"\"\<dor\>\"", 
                     "\[Rule]", "\"\<diagnostic odds ratio (DOR)\>\""}], ",", 
                     
@@ -9804,6 +9818,7 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
                     
                     RowBox[{"\"\<dor\>\"", 
                     "\[Rule]", "\"\<diagnostic odds ratio (DOR)\>\""}], ",", 
+                    
                     RowBox[{"\"\<plr\>\"", 
                     "\[Rule]", "\"\<likelihood ratio for a positive result \
 (LR+)\>\""}], ",", 
@@ -9855,7 +9870,7 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
                 "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
                  
-                 RowBox[{"\"\<prevalence rate of disease condition\>\"", ",", 
+                 RowBox[{"\"\<prevalence of disease condition\>\"", ",", 
                   "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                 RowBox[{"{", 
                  RowBox[{
@@ -9980,6 +9995,7 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
 (LR+)\>\""}], ",", 
                     
                     RowBox[{"\"\<nlr\>\"", "\[Rule]", 
+                    
                     " ", "\"\<likelihood ratio for a negative result \
 (LR-)\>\""}], ",", 
                     
@@ -10026,7 +10042,7 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
                 "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
                  
-                 RowBox[{"\"\<prevalence rate of disease condition\>\"", ",", 
+                 RowBox[{"\"\<prevalence of disease condition\>\"", ",", 
                   "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                 RowBox[{"{", 
                  RowBox[{
@@ -10207,7 +10223,7 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
                 "\[IndentingNewLine]", 
                 RowBox[{"Style", "[", 
                  
-                 RowBox[{"\"\<prevalence rate of disease condition\>\"", ",", 
+                 RowBox[{"\"\<prevalence of disease condition\>\"", ",", 
                   "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                 RowBox[{"{", 
                  RowBox[{
@@ -10421,6 +10437,7 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
             "\[IndentingNewLine]", "\"\<\>\"", ",", "\[IndentingNewLine]", 
             "Delimiter", ",", "\[IndentingNewLine]", 
             RowBox[{"Style", "[", 
+             
              RowBox[{"\"\<number of decimal digits of results\>\"", ",", 
               "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
             RowBox[{"{", 
@@ -10750,9 +10767,9 @@ uncertainties\>\"", ",", "Bold"}], "]"}], ",",
    3.9647490714452324`*^9, {3.9647639509254*^9, 3.964763960998371*^9}, {
    3.964778170011486*^9, 3.9647781704604855`*^9}, 3.9647788340694714`*^9, {
    3.964779857537012*^9, 3.964779883374201*^9}, 3.96477992566926*^9, {
-   3.9647799572025566`*^9, 3.964780004528288*^9}, 3.964780202850357*^9},
- CellLabel->
-  "In[194]:=",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca"],
+   3.9647799572025566`*^9, 3.964780004528288*^9}, 3.964780202850357*^9, {
+   3.983245941687441*^9, 3.9832459547885227`*^9}},
+ CellLabel->"In[64]:=",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"Plots\"\>"->
@@ -12400,7 +12417,7 @@ $CellContext`nH + $CellContext`nD
     TagBox[
      StyleBox[
       DynamicModuleBox[{$CellContext`mD$$ = 2.99, $CellContext`mf$$ = 
-       "cz", $CellContext`mH$$ = 0, $CellContext`nD$$ = 
+       "npv", $CellContext`mH$$ = 0, $CellContext`nD$$ = 
        179, $CellContext`nH$$ = 2488, $CellContext`nU$$ = 
        80, $CellContext`p$$ = 0.95, $CellContext`pr$$ = 
        False, $CellContext`sD$$ = 0.75, $CellContext`sH$$ = 
@@ -12454,9 +12471,10 @@ $CellContext`nH + $CellContext`nD
          Dynamic[$CellContext`sH$$], 0.01, ControlType -> Manipulator}, {{
           Hold[$CellContext`nU$$], 80, "sample size"}, 20, 1000, 1, 
          ControlType -> Manipulator}}, Typeset`size$$ = {
-       360., {200.86505433070477`, 212.27770202940792`}}, Typeset`update$$ = 
-       0, Typeset`initDone$$, Typeset`skipInitDone$$ = False, 
-       Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
+       366.81837835907936`, {199.61021384327267`, 211.02286154197594`}}, 
+       Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+       False, Typeset`keyframeActionsQ$$ = False, 
+       Typeset`keyframeList$$ = {}}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
          "Variables" :> {$CellContext`mD$$ = 2.99, $CellContext`mf$$ = 
@@ -12535,7 +12553,7 @@ $CellContext`pr$$]]), "Specifications" :> {
           ContinuousAction -> False, TrackedSymbols -> True, ControlPlacement -> 
            Left, Alignment -> Top}, "DefaultOptions" :> {}],
         ImageSizeCache->{
-         764.2625164318084, {230.66625112180833`, 236.3981849258044}},
+         771.0808947908878, {229.4114106343763, 235.14334443837237`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -12689,7 +12707,6 @@ $CellContext`u, $CellContext`nD, $CellContext`nH}],
 $CellContext`mD, $CellContext`mH, $CellContext`sD, $CellContext`sH, \
 $CellContext`u, $CellContext`nD, $CellContext`nH, $CellContext`nU}], \
 $CellContext`p], 1], -1], 1], 
-              
               Or[$CellContext`mf == "sns", $CellContext`mf == 
                "spc", $CellContext`mf == "oda", $CellContext`mf == 
                "ppv", $CellContext`mf == "npv", $CellContext`mf == "cz"], 
@@ -12994,7 +13011,6 @@ $CellContext`nH + $CellContext`nD
              Blank[]], 
             Pattern[$CellContext`nH, 
              Blank[]]] := Min[
-            
             Max[(1/2) 
              Sqrt[(1 + Erf[($CellContext`mH - $CellContext`t)/(
                    Sqrt[2] $CellContext`sH)])^2 + 
@@ -18501,7 +18517,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ControlType -> 
          Manipulator}, {
          Hold[
-          Style["prevalence rate of disease condition", Bold]], 
+          Style["prevalence of disease condition", Bold]], 
          Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
           Hold[$CellContext`r$$], 0.067, "r"}, 0.001, 0.999, 0.001, 
          ControlType -> Manipulator}, {
@@ -18573,7 +18589,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize -> 
             Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
-           "prevalence rate of disease condition", 
+           "prevalence of disease condition", 
             Bold], {{$CellContext`r$$, 0.067, "r"}, 0.001, 0.999, 0.001, 
             ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
@@ -19233,7 +19249,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ControlType -> 
          Manipulator}, {
          Hold[
-          Style["prevalence rate of disease condition", Bold]], 
+          Style["prevalence of disease condition", Bold]], 
          Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
           Hold[$CellContext`r$$], 0.067, "r"}, 0.001, 0.999, 0.001, 
          ControlType -> Manipulator}, {
@@ -19305,7 +19321,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize -> 
             Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
-           "prevalence rate of disease condition", 
+           "prevalence of disease condition", 
             Bold], {{$CellContext`r$$, 0.067, "r"}, 0.001, 0.999, 0.001, 
             ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
@@ -20209,7 +20225,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ControlType -> 
          Manipulator}, {
          Hold[
-          Style["prevalence rate of disease condition", Bold]], 
+          Style["prevalence of disease condition", Bold]], 
          Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
           Hold[$CellContext`r$$], 0.067, "r"}, 0.001, 0.999, 0.001, 
          ControlType -> Manipulator}, {
@@ -20289,7 +20305,7 @@ $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]],
 $CellContext`mH$$, $CellContext`sD$$, $CellContext`sH$$]], 0.01, ImageSize -> 
             Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
-           "prevalence rate of disease condition", 
+           "prevalence of disease condition", 
             Bold], {{$CellContext`r$$, 0.067, "r"}, 0.001, 0.999, 0.001, 
             ImageSize -> Tiny, Appearance -> "Labeled"}, Delimiter, 
            Style[
@@ -26771,9 +26787,10 @@ $CellContext`d, ConfidenceLevel -> $CellContext`p], {
    3.9647510951179905`*^9}, {3.964757378088276*^9, 3.9647573886849937`*^9}, 
    3.964764011813223*^9, {3.964775465810549*^9, 3.9647754773866634`*^9}, 
    3.9647758657155857`*^9, 3.964778856209734*^9, {3.9647795327918167`*^9, 
-   3.9647795422127037`*^9}, 3.964780222723524*^9, 3.964780338887682*^9},
+   3.9647795422127037`*^9}, 3.964780222723524*^9, 3.964780338887682*^9, {
+   3.9832463555685844`*^9, 3.983246360863632*^9}},
  CellLabel->
-  "Out[255]=",ExpressionUUID->"4906e4e2-6f9f-0544-b87b-7314321d942d"]
+  "Out[126]=",ExpressionUUID->"08fd31ad-423c-eb40-985f-01eeec45bb61"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -26847,7 +26864,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/Uncertainty/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 3.0.0\n",
+ StyleBox["\nVersion 3.0.1\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory",
@@ -26857,7 +26874,17 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox[" 2025\nThe notebook is distributed under  an ",
+ StyleBox[" 2026\nDOI: ",
+  FontSize->10,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["10.5281/zenodo.19182193",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://doi.org/10.5281/zenodo.19182193"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.19182193"],
+  FontSize->10,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nThe notebook is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Attribution - NonCommercial - ShareAlike 4.0 \
@@ -26872,8 +26899,6 @@ International Creative Commons License",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]]
 }], "Subsubsubsubsection",
- Editable->False,
- Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
@@ -26891,13 +26916,20 @@ International Creative Commons License",
    3.9305437783267593`*^9}, {3.9398670982570515`*^9, 3.939867100947729*^9}, {
    3.9399505534150696`*^9, 3.939950554039837*^9}, {3.939951061836092*^9, 
    3.9399510627904835`*^9}, 3.9647468678496704`*^9, {3.9647754954441795`*^9, 
-   3.964775496572304*^9}, {3.964775808372095*^9, 
-   3.9647758090770683`*^9}},ExpressionUUID->"fb4fc060-c052-422d-a842-\
+   3.964775496572304*^9}, {3.964775808372095*^9, 3.9647758090770683`*^9}, {
+   3.9832459768554535`*^9, 
+   3.9832460408391266`*^9}},ExpressionUUID->"fb4fc060-c052-422d-a842-\
 5a583aa7bc50"]
 }, Open  ]]
 },
-WindowSize->{1430.25, 737.625},
+WindowSize->{1430.25, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
+TaggingRules-><|
+ "DOI" -> "https://doi.org/10.5281/zenodo.19182193", "PreferredCitation" -> 
+  "Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool \
+for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.1. \
+Hellenic Complex Systems Laboratory; 2026. \
+https://doi.org/10.5281/zenodo.19182193"|>,
 Magnification->1.,
 FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
@@ -26919,17 +26951,17 @@ Cell[580, 22, 651, 12, 85, "Title",ExpressionUUID->"4f897285-8c8a-4ddd-bf21-1c9d
  Evaluatable->False],
 Cell[1234, 36, 723, 13, 70, "Title",ExpressionUUID->"82ae1769-2870-4f89-845c-451d95b87268",
  Evaluatable->False],
-Cell[1960, 51, 457, 12, 125, "Author",ExpressionUUID->"1cc76b04-6cbc-4aef-a873-b937edcba28a"],
-Cell[2420, 65, 366, 8, 30, "Affiliation",ExpressionUUID->"e486d917-8f69-429f-a367-b2ac69fd62eb"],
+Cell[1960, 51, 504, 13, 125, "Author",ExpressionUUID->"1cc76b04-6cbc-4aef-a873-b937edcba28a"],
+Cell[2467, 66, 366, 8, 30, "Affiliation",ExpressionUUID->"e486d917-8f69-429f-a367-b2ac69fd62eb"],
 Cell[CellGroupData[{
-Cell[2811, 77, 437759, 10677, 19, "Input",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca",
+Cell[2858, 78, 438451, 10693, 19, "Input",ExpressionUUID->"08a8b9b6-4bcd-45cf-815d-06f75692abca",
  CellOpen->False,
  InitializationCell->True],
-Cell[440573, 10756, 779360, 16019, 674, "Output",ExpressionUUID->"4906e4e2-6f9f-0544-b87b-7314321d942d"]
+Cell[441312, 10773, 779378, 16019, 674, "Output",ExpressionUUID->"08fd31ad-423c-eb40-985f-01eeec45bb61"]
 }, Open  ]],
-Cell[1219948, 26778, 536, 13, 51, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
-Cell[1220487, 26793, 2472, 42, 45, "Subsubsubsubsection",ExpressionUUID->"3090e97d-b929-9343-8d6f-a2c149aade61"],
-Cell[1222962, 26837, 2637, 58, 72, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
+Cell[1220705, 26795, 536, 13, 51, "Subsubsubsubsection",ExpressionUUID->"77e7e27b-af69-4ef8-9133-e3a4e015335b"],
+Cell[1221244, 26810, 2472, 42, 45, "Subsubsubsubsection",ExpressionUUID->"3090e97d-b929-9343-8d6f-a2c149aade61"],
+Cell[1223719, 26854, 2980, 67, 86, "Subsubsubsubsection",ExpressionUUID->"fb4fc060-c052-422d-a842-5a583aa7bc50"]
 }, Open  ]]
 }
 ]

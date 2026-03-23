@@ -6,11 +6,11 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 **Programs**
 
-1. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.4.4. Hellenic Complex Systems Laboratory; 2024.
+1. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.5. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [Relation.nb](Relation/Relation.nb)
 
-2. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.0. Hellenic Complex Systems Laboratory; 2025.
+2. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.1. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
 
@@ -42,7 +42,7 @@ Source: [Quality.nb](Quality/Quality.nb)
 
 Source: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
 
-10.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.4. Hellenic Complex Systems Laboratory; 2025
+10.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.5. Hellenic Complex Systems Laboratory; 2026
 
 Source: [QualityControl.nb](QualityControl/QualityControl.nb)
 

@@ -1,6 +1,6 @@
 # Diagnostic Uncertainty
 
-A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.0. Hellenic Complex Systems Laboratory; 2025.
+A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.1. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [Uncertainty.nb](Uncertainty.nb)
 

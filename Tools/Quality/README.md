@@ -1,6 +1,6 @@
 # Quality
 
-A Software Tool for Statistical Quality Control Design. Ver. 1.0.2.4. Hellenic Complex Systems Laboratory; 2024.
+A Software Tool for Statistical Quality Control Design. Ver. 1.0.4. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [Quality.nb](Quality.nb)
 

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    297172,       6519]
-NotebookOptionsPosition[    295683,       6487]
-NotebookOutlinePosition[    296128,       6504]
-CellTagsIndexPosition[    296085,       6501]
+NotebookDataLength[    298698,       6553]
+NotebookOptionsPosition[    296929,       6517]
+NotebookOutlinePosition[    297654,       6538]
+CellTagsIndexPosition[    297611,       6535]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -61,7 +61,7 @@ design and evaluation", "Subtitle",
 d004dc50aa9a"],
 
 Cell[TextData[{
- "Rallou A. Chatzimichail, PhD \n",
+ "Rallou A. Chatzimichail, PhD\n",
  StyleBox["rallou@hcsl.com", "Affiliation"],
  "\nAristides T. Hatjimihail, MD, PhD\n",
  StyleBox[" ath@hcsl.com\n ", "Affiliation"]
@@ -73,8 +73,8 @@ Cell[TextData[{
    3.780026882968507*^9, 3.7800269771474257`*^9}, 3.7804577481605644`*^9, {
    3.857954268390501*^9, 3.857954275782502*^9}, {3.857956704152818*^9, 
    3.85795670672882*^9}, {3.8582956642919564`*^9, 3.8582956869059477`*^9}, {
-   3.86020592071698*^9, 
-   3.8602059217103243`*^9}},ExpressionUUID->"1fecc034-e33b-435c-bd5f-\
+   3.86020592071698*^9, 3.8602059217103243`*^9}, 
+   3.9832383858458366`*^9},ExpressionUUID->"1fecc034-e33b-435c-bd5f-\
 cef2fcedb170"],
 
 Cell["\<\
@@ -95,6 +95,20 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"Off", "[", 
    RowBox[{"General", "::", "stop"}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"SetOptions", "[", 
+   RowBox[{
+    RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+    RowBox[{"TaggingRules", "->", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{"\"\<DOI\>\"", 
+        "->", "\"\<https://doi.org/10.5281/zenodo.19178969\>\""}], ",", 
+       RowBox[{"\"\<PreferredCitation\>\"", 
+        "->", "\"\<Chatzimichail RA, Hatjimihail AT. Quality Control: A \
+Software Tool for Statistical Quality Control Design and Evaluation. Ver. \
+1.1.5. Hellenic Complex Systems Laboratory; 2026. \
+https://doi.org/10.5281/zenodo.19178969\>\""}]}], "|>"}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"minfn", "=", 
    SuperscriptBox["10", 
@@ -747,8 +761,9 @@ FontWeight->\\\"Normal\\\",FontSlant->\\\"Oblique\\\"]\)\!\(\*StyleBox[\\\",\\\
         RowBox[{"Style", "[", 
          RowBox[{"n", ",", 
           RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
-       ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",\
-FontWeight->\\\"Normal\\\"]\)\>\"", ",", 
+       ",", \
+"\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
        RowBox[{"ToString", "[", 
         RowBox[{"Style", "[", 
          RowBox[{"k", ",", 
@@ -972,8 +987,9 @@ StyleBox[\\\";\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"Normal\\\"]\)\>\"\
           RowBox[{"{", 
            RowBox[{"4", ",", "2"}], "}"}]}], "]"}], ",", 
         RowBox[{"FontFamily", "->", "\"\<Arial\>\""}]}], "]"}], "]"}], 
-     ",", "\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\
-\\\"Normal\\\"]\)\>\"", ",", 
+     ",", \
+"\"\<\!\(\*StyleBox[\\\",\\\",FontFamily->\\\"Arial\\\",FontWeight->\\\"\
+Normal\\\"]\)\>\"", ",", 
      RowBox[{"ToString", "[", 
       RowBox[{"Style", "[", 
        RowBox[{"n", ",", 
@@ -2724,7 +2740,7 @@ systematic error detection\>\"", ",", "\[IndentingNewLine]",
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   
-                  RowBox[{"\"\<probability for for false rejection\>\"", ",", 
+                  RowBox[{"\"\<probabilityfor false rejection\>\"", ",", 
                    "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -2850,7 +2866,7 @@ Italic\\\"]\)\>\""}], "}"}], ",",
                  "\[IndentingNewLine]", 
                  RowBox[{"Style", "[", 
                   
-                  RowBox[{"\"\<probability for for false rejection\>\"", ",", 
+                  RowBox[{"\"\<probabilityfor false rejection\>\"", ",", 
                    "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
                  RowBox[{"{", 
                   RowBox[{
@@ -3050,9 +3066,10 @@ detection\>\""}], "}"}], ",", "0.10", ",", "0.99", ",", "0.01", ",",
    3.9263409419538*^9, 3.926340943872454*^9}, 3.9305421171354065`*^9, {
    3.9698728178079624`*^9, 3.9698728193127975`*^9}, {3.9698728541647816`*^9, 
    3.9698729131096535`*^9}, {3.969872954201004*^9, 3.969872990811756*^9}, {
-   3.9698731513806973`*^9, 3.9698732183330307`*^9}},
+   3.9698731513806973`*^9, 3.9698732183330307`*^9}, {3.983237088178259*^9, 
+   3.9832370888436375`*^9}},
  CellLabel->
-  "In[1544]:=",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7"],
+  "In[257]:=",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"design\"\>"->
@@ -3929,7 +3946,7 @@ $CellContext`n, $CellContext`k, $CellContext`l]],
           Hold[$CellContext`n$$], 4, "control measurements"}, 1, 6, 1, 
          ControlType -> Manipulator}, {
          Hold[
-          Style["probability for for false rejection", Bold]], 
+          Style["probabilityfor false rejection", Bold]], 
          Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
           Hold[$CellContext`p$$], 0.01, 
           "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"Italic\"], \
@@ -3964,7 +3981,7 @@ $CellContext`p$$], "Specifications" :> {
             Bold], {{$CellContext`n$$, 4, "control measurements"}, 1, 6, 1, 
             Appearance -> "Labeled", ImageSize -> "Tiny"}, Delimiter, 
            Style[
-           "probability for for false rejection", 
+           "probabilityfor false rejection", 
             Bold], {{$CellContext`p$$, 0.01, 
              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"Italic\"\
 ], \"fr\"],FontSlant->\"Italic\"]\)"}, 0.0001, 0.1, 0.0001, Appearance -> 
@@ -4671,7 +4688,7 @@ FontFamily->\"Arial\",FontWeight->\"Normal\"]\)" <> ToString[
           Hold[$CellContext`n$$], 4, "control measurements"}, 1, 6, 1, 
          ControlType -> Manipulator}, {
          Hold[
-          Style["probability for for false rejection", Bold]], 
+          Style["probabilityfor false rejection", Bold]], 
          Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
           Hold[$CellContext`p$$], 0.01, 
           "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"Italic\"], \
@@ -4705,7 +4722,7 @@ $CellContext`sc$$, $CellContext`p$$], "Specifications" :> {
             Bold], {{$CellContext`n$$, 4, "control measurements"}, 1, 6, 1, 
             Appearance -> "Labeled", ImageSize -> "Tiny"}, Delimiter, 
            Style[
-           "probability for for false rejection", 
+           "probabilityfor false rejection", 
             Bold], {{$CellContext`p$$, 0.01, 
              "\!\(\*StyleBox[SubscriptBox[StyleBox[\"p\",FontSlant->\"Italic\"\
 ], \"fr\"],FontSlant->\"Italic\"]\)"}, 0.0001, 0.1, 0.0001, Appearance -> 
@@ -6036,9 +6053,10 @@ $CellContext`psed]], {10, 6}], {$CellContext`k, 1, $CellContext`n}]]]};
    3.930542134668148*^9, 3.9305421354390583`*^9}, {3.9698723722921543`*^9, 
    3.969872400090908*^9}, 3.9698724683949623`*^9, 3.969873097176218*^9, 
    3.9698732254402122`*^9, 3.9698733326143494`*^9, 3.9698751803573856`*^9, {
-   3.969887870050083*^9, 3.9698878704621506`*^9}},
+   3.969887870050083*^9, 3.9698878704621506`*^9}, {3.9832380412303524`*^9, 
+   3.9832380418816967`*^9}, 3.9832384069226627`*^9},
  CellLabel->
-  "Out[1601]=",ExpressionUUID->"b78cd6ae-bf99-c542-aef0-0acedb78778b"]
+  "Out[315]=",ExpressionUUID->"b67e4426-4efd-cb4a-b494-51bda0db0f6a"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -6435,7 +6453,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/QualityControl/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.4\n",
+ StyleBox["\nVersion 1.1.5\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory",
@@ -6445,7 +6463,17 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox[" 2025\nThe notebook is distributed under  an ",
+ StyleBox[" 2026\[LineSeparator]DOI: ",
+  FontSize->10,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["10.5281/zenodo.19178969",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://doi.org/10.5281/zenodo.19178969"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.19178969"],
+  FontSize->10,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nThe notebook is distributed under  an ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Attribution - NonCommercial - ShareAlike 4.0 \
@@ -6480,14 +6508,20 @@ International Creative Commons License",
    3.927868836035688*^9}, {3.927942220032595*^9, 3.927942220770687*^9}, {
    3.928508175128807*^9, 3.928508191289585*^9}, {3.930541905929037*^9, 
    3.930541906654421*^9}, {3.9698732814323864`*^9, 3.969873283647875*^9}, {
-   3.969887671227453*^9, 
-   3.96988767201116*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
+   3.969887671227453*^9, 3.96988767201116*^9}, {3.9832371299814167`*^9, 
+   3.9832371743106136`*^9}, {3.9832372131538754`*^9, 
+   3.9832372131548824`*^9}, {3.9832379651415176`*^9, 
+   3.9832379662785816`*^9}},ExpressionUUID->"71f72317-5649-4980-8240-\
 da8b685956ea"]
 }, Open  ]]
 },
 WindowSize->{1429.875, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-TaggingRules-><|"TryRealOnly" -> False|>,
+TaggingRules-><|
+ "DOI" -> "https://doi.org/10.5281/zenodo.19178969", "PreferredCitation" -> 
+  "Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for \
+Statistical Quality Control Design and Evaluation. Ver. 1.1.5. Hellenic \
+Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19178969"|>,
 FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"75500afe-c81d-414d-9266-095ab36230fd"
@@ -6508,18 +6542,18 @@ Cell[580, 22, 1063, 19, 85, "Title",ExpressionUUID->"29168691-58a1-4939-9745-ba2
  Evaluatable->False],
 Cell[1646, 43, 1008, 17, 70, "Title",ExpressionUUID->"df09ce5c-3c35-4b13-b788-d004dc50aa9a",
  Evaluatable->False],
-Cell[2657, 62, 664, 15, 125, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
-Cell[3324, 79, 366, 8, 30, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
+Cell[2657, 62, 687, 15, 125, "Author",ExpressionUUID->"1fecc034-e33b-435c-bd5f-cef2fcedb170"],
+Cell[3347, 79, 366, 8, 30, "Affiliation",ExpressionUUID->"5e07383d-ee3c-439e-8a63-33928e6bac79"],
 Cell[CellGroupData[{
-Cell[3715, 91, 129260, 2963, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
+Cell[3738, 91, 129930, 2980, 19, "Input",ExpressionUUID->"3c5d51bb-1e11-47cc-8551-1dad60c935a7",
  CellOpen->False,
  InitializationCell->True],
-Cell[132978, 3056, 146784, 2984, 617, "Output",ExpressionUUID->"b78cd6ae-bf99-c542-aef0-0acedb78778b"]
+Cell[133671, 3073, 146841, 2985, 584, "Output",ExpressionUUID->"b67e4426-4efd-cb4a-b494-51bda0db0f6a"]
 }, Open  ]],
-Cell[279777, 6043, 1101, 21, 51, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
-Cell[280881, 6066, 9636, 313, 127, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
-Cell[290520, 6381, 2472, 42, 45, "Subsubsubsubsection",ExpressionUUID->"a1def6cc-45f5-3246-96aa-c8afd1bebe11"],
-Cell[292995, 6425, 2672, 59, 72, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
+Cell[280527, 6061, 1101, 21, 51, "Subsubsubsubsection",ExpressionUUID->"58fa8ba7-af12-44df-8521-5beb24c4d0f7"],
+Cell[281631, 6084, 9636, 313, 127, "Subsubsubsubsection",ExpressionUUID->"c7c7d611-d762-4dab-80ed-2d8f6715beb4"],
+Cell[291270, 6399, 2472, 42, 45, "Subsubsubsubsection",ExpressionUUID->"a1def6cc-45f5-3246-96aa-c8afd1bebe11"],
+Cell[293745, 6443, 3168, 71, 86, "Subsubsubsubsection",ExpressionUUID->"71f72317-5649-4980-8240-da8b685956ea"]
 }, Open  ]]
 }
 ]

@@ -12,8 +12,8 @@ authors:
 version: 1.1.4
 date-released: "2025-10-19"
 identifiers:
-  - description: "This is the archived snapshot of version 1.1.4 of Quality Control"
+  - description: "This is the archived snapshot of version 1.1.5 of Quality Control"
     type: doi
-    value: "10.5281/zenodo.18521292"
+    value: "10.5281/zenodo.19178969"
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://www.hcsl.com/Tools/QualityControl/index.html"
