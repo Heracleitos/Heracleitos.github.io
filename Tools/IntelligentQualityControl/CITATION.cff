@@ -12,7 +12,7 @@ authors:
 version: 1.0.6
 date-released: "2026-03-22"
 identifiers:
-  - description: "This is the archived snapshot of version 1.0.5.4 of Intelligent Quality Control"
+  - description: "This is the archived snapshot of version 1.0.6 of Intelligent Quality Control"
     type: doi
     value: "10.5281/zenodo.19163806"
 license: "CC-BY-NC-SA-4.0"
