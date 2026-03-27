@@ -14,7 +14,7 @@ Source: [Relation.nb](Relation/Relation.nb)
 
 Source: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
 
-3. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A Software Program for the Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Ver. 1.0.1. Hellenic Complex Systems Laboratory; 2026.
+3. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A Software Program for the Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Ver. 1.0.1.1. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
