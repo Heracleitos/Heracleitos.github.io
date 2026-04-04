@@ -26,7 +26,7 @@ Source: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 
 Source: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 
-6. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.1.2. Hellenic Complex Systems Laboratory; 2026.
+6. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.0. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
 
