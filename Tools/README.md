@@ -14,7 +14,7 @@ Source: [Relation.nb](Relation/Relation.nb)
 
 Source: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
 
-3. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU:A unified framework for uncertainty estimation of diagnostic accuracy measures. Ver. 1.0.2. Hellenic Complex Systems Laboratory; 2026.
+3. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A unified framework for uncertainty estimation of diagnostic accuracy measures. Ver. 1.0.3. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
