@@ -1,4 +1,4 @@
-# About Us
+# About HCSL
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/About/.
 

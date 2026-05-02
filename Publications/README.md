@@ -1,4 +1,4 @@
-# HCSL Publications
+# Publications
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/Publications/.
 
