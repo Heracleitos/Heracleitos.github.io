@@ -1,4 +1,4 @@
-# DemonstrationsSource:
+# Demonstrations Source:
 
 1. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Wolfram Demonstrations Project, ChampaignSource: Wolfram Research, Inc., 2007.
 Source: [ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb](ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb)
