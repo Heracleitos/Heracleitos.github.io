@@ -1,0 +1,4 @@
+Contact: mailto:gk@hcsl.com
+Expires: 2029-12-31T23:59:59Z
+Preferred-Languages: en, el
+Canonical: https://hcsl.com/.well-known/security.txt
