@@ -54,63 +54,63 @@ Source: [IntelligentQualityControl.nb](IntelligentQualityControl/IntelligentQual
 
 1. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2007.
 
-Source: [ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb](Tools/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb)
+Source: [ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb](Demonstrations/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb)
 
 2. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2009.
 
-Source: [UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb](Tools/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb)
+Source: [UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb](Demonstrations/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb)
 
 3. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2009.
 
-Source: [UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb](Tools/UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb)
+Source: [UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb](Demonstrations/UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb)
 
 4. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2010.
 
-Source: [ToolForQualityControlDesignAndEvaluation.nb](Tools/ToolForQualityControlDesignAndEvaluation.nb)
+Source: [ToolForQualityControlDesignAndEvaluation.nb](Demonstrations/ToolForQualityControlDesignAndEvaluation.nb)
 
 5. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. The Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2015.
 
-Source: [AnalysisOfDiagnosticAccuracyMeasures.nb](Tools/AnalysisOfDiagnosticAccuracyMeasures.nb)
+Source: [AnalysisOfDiagnosticAccuracyMeasures.nb](Demonstrations/AnalysisOfDiagnosticAccuracyMeasures.nb)
 
 6. Chatzimichail T. Enteral Nutritional Design. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2017.
 
-Source: [EnteralNutritionalDesign.nb](Tools/EnteralNutritionalDesign.nb)
+Source: [EnteralNutritionalDesign.nb](Demonstrations/EnteralNutritionalDesign.nb)
 
 7. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
-Source: [NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb](Tools/NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb)
+Source: [NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb](Demonstrations/NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb)
 
 8. Chatzimichail T. Correlation of Positive and Negative Predictive Values. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
-Source: [CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](Tools/CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb)
+Source: [CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](Demonstrations/CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb)
 
 9. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
-Source: [AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb](Tools/AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb)
+Source: [AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb](Demonstrations/AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb)
 
 10. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
-Source: [RelationOfDiagnosticAccuracyMeasures.nb](Tools/RelationOfDiagnosticAccuracyMeasures.nb)
+Source: [RelationOfDiagnosticAccuracyMeasures.nb](Demonstrations/RelationOfDiagnosticAccuracyMeasures.nb)
 
 11. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
-Source: [CalculatorForDiagnosticAccuracyMeasures.nb](Tools/CalculatorForDiagnosticAccuracyMeasures.nb)
+Source: [CalculatorForDiagnosticAccuracyMeasures.nb](Demonstrations/CalculatorForDiagnosticAccuracyMeasures.nb)
 
 12. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
-Source: [CalculationOfDiagnosticAccuracyMeasures.nb](Tools/CalculationOfDiagnosticAccuracyMeasures.nb)
+Source: [CalculationOfDiagnosticAccuracyMeasures.nb](Demonstrations/CalculationOfDiagnosticAccuracyMeasures.nb)
 
 13. Hatjimihail AT. The Area Over a Receiver Operating Characteristic (Tools/ROC) Curve as an Index of Diagnostic Inaccuracy. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
-Source: [TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb](Tools/TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb)
+Source: [TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb](Demonstrations/TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb)
 
 14. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
-Source: [ExactConfidenceIntervalsForASingleProportion.nb](Tools/ExactConfidenceIntervalsForASingleProportion.nb)
+Source: [ExactConfidenceIntervalsForASingleProportion.nb](Demonstrations/ExactConfidenceIntervalsForASingleProportion.nb)
 
 15. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Wolfram Demonstrations Project, Champaign: Wolfram Research, Inc., 2018.
 
-Source: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](Tools/InferencesAboutTheDifferenceBetweenTwoProportions.nb)
+Source: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](Demonstrations/InferencesAboutTheDifferenceBetweenTwoProportions.nb)
 
 **Intellectual Property Rights**
 

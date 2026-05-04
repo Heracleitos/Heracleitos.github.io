@@ -31,11 +31,11 @@ Source: [ExactConfidenceIntervalsForASingleProportion.nb](ExactConfidenceInterva
 15. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Wolfram Demonstrations Project, ChampaignSource: Wolfram Research, Inc., 2018.
 Source: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](InferencesAboutTheDifferenceBetweenTwoProportions.nb)
 
-Additional resources are available through the Hellenic Complex Systems Laboratory official website at httpsSource://www.hcsl.com/Tools/Demonstrations/.
+Additional resources are available through the Hellenic Complex Systems Laboratory official website at https://www.hcsl.com/Tools/Demonstrations/.
 
 **Intellectual Property Rights**
 
-Hellenic Complex Systems Laboratory computational notebooks are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](httpsSource://creativecommons.org/licenses/by-nc-sa/4.0/)
+Hellenic Complex Systems Laboratory computational notebooks are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **Disclaimer of Warranties**
 
