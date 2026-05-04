@@ -1,4 +1,4 @@
-# CLSI Documents with the Participation of the HCSL
+# CLSI Documents with the Participation HCSL Fellows
  
 List available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/CLSI/.
 
