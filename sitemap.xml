@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.hcsl.com/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/About/index.html</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
@@ -157,17 +157,12 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Cat.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/CatP.html</loc>
-    <lastmod>2026-05-06</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Tools/Demonstrations/Cat.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -177,7 +172,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/DiagnosticAccuracy/index.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -217,7 +212,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/Cat.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -362,7 +357,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr29/index.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -382,7 +377,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Documents/DiagAccUInterface.pdf</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -431,35 +426,7 @@
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.hcsl.com/Supplements/SBDI/BayesianDiagnosticInsightsFigures.pdf</loc>
-    <lastmod>2025-08-30</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SBDI/BayesianDiagnosticInsightsInterface.pdf</loc>
-    <lastmod>2026-04-05</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SBDU/BayesianDiagnosticUncertaintyInterface.pdf</loc>
-    <lastmod>2026-03-24</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SDAMU/DiagAccUInterface.pdf</loc>
-    <lastmod>2026-04-24</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SIDAMU/DiagAccUInterface.pdf</loc>
-    <lastmod>2026-04-24</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SUDAM/DiagnosticUncertaintyInterface.pdf</loc>
-    <lastmod>2026-03-24</lastmod>
-    <priority>0.64</priority>
-  </url>
+  
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr01/hcsltr01.pdf</loc>
     <lastmod>2024-12-05</lastmod>
@@ -602,47 +569,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr29/hcsltr29.pdf</loc>
-    <lastmod>2026-04-24</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SBDI/BayesianDiagnosticInsights.nb</loc>
-    <lastmod>2026-05-04</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SBDI/BayesianDiagnosticInsightsCalculations.nb</loc>
-    <lastmod>2026-05-04</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SBDU/BayesianDiagnosticUncertainty.nb</loc>
-    <lastmod>2026-05-04</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SBDU/BayesianDiagnosticUncertaintyCalculations.nb</loc>
-    <lastmod>2026-05-04</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SDAMU/DiagAccUCalculations.nb</loc>
-    <lastmod>2026-05-04</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SIDAMU/DiagAccUCalculations.nb</loc>
-    <lastmod>2026-05-04</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SUDAM/DiagnosticUncertaintyCalculations.nb</loc>
-    <lastmod>2026-05-04</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://www.hcsl.com/Supplements/SUDAM/Uncertainty.nb</loc>
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -737,6 +664,11 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb</loc>
+    <lastmod>2026-05-04</lastmod>
+    <priority>0.64</priority>
+  </url>
+   <url>
+    <loc>https://www.hcsl.com/Tools/DiagnosticAccuracy/DiagAccU.zip</loc>
     <lastmod>2026-05-04</lastmod>
     <priority>0.64</priority>
   </url>
