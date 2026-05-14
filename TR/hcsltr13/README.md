@@ -1,6 +1,6 @@
 # HCSL Technical Report XIII
 
-Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Technical Report XIII. Hellenic Complex Systems Laboratory; 2018.
+Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Technical Report XIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.18602384
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr13/.
 

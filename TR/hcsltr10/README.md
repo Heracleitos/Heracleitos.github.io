@@ -1,6 +1,6 @@
 # HCSL Technical Report X
 
-Chatzimichail T. Enteral Nutritional Design. Technical Report X. Hellenic Complex Systems Laboratory; 2017.
+Chatzimichail T. Enteral Nutritional Design. Technical Report X. Hellenic Complex Systems Laboratory; 2017. https://doi.org/10.5281/zenodo.18599738
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr10/.
 
