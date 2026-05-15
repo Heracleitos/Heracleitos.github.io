@@ -1,6 +1,6 @@
 # HCSL Technical Report XXVI
 
-Chatzimichail T, Hatjimihail AT. A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. Technical Report XXVI. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.18604847
+Chatzimichail T, Hatjimihail AT. A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. Technical Report XXVI. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20196521
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr26/.
 
