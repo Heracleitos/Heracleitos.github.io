@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    659356,      15133]
-NotebookOptionsPosition[    657569,      15096]
-NotebookOutlinePosition[    658314,      15118]
-CellTagsIndexPosition[    658271,      15115]
+NotebookDataLength[    659814,      15140]
+NotebookOptionsPosition[    658020,      15103]
+NotebookOutlinePosition[    658771,      15125]
+CellTagsIndexPosition[    658728,      15122]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -87,12 +87,12 @@ Cell[BoxData[{
      RowBox[{"<|", 
       RowBox[{
        RowBox[{"\"\<DOI\>\"", 
-        "->", "\"\<https://doi.org/10.5281/zenodo.19180116\>\""}], ",", 
+        "->", "\"\<https://doi.org/10.5281/zenodo.20209103\>\""}], ",", 
        RowBox[{"\"\<PreferredCitation\>\"", 
         "->", "\"\<Chatzimichail T, Hatjimihail AT. Relation: A Software Tool \
 for Exploring the Relation between Diagnostic Accuracy and Measurement \
-Uncertainty. Ver. 1.0.5. Hellenic Complex Systems Laboratory; 2026. \
-https://doi.org/10.5281/zenodo.19180116\>\""}]}], "|>"}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+Uncertainty. Ver. 1.0.c. Hellenic Complex Systems Laboratory; 2026. \
+https://doi.org/10.5281/zenodo.20209103\>\""}]}], "|>"}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"tsens", "[", 
    RowBox[{
@@ -6284,16 +6284,16 @@ result (LR+)\>\""}], ",",
    3.786493502136415*^9, 3.786493516548094*^9}, {3.926341321241438*^9, 
    3.9263413231758537`*^9}, {3.9305431041817474`*^9, 3.930543174296732*^9}, 
    3.930543225834362*^9, 3.93054329948172*^9, {3.98324282039209*^9, 
-   3.9832428333765545`*^9}, {3.983243952662834*^9, 3.983243954153921*^9}},
- CellLabel->
-  "In[159]:=",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2"],
+   3.9832428333765545`*^9}, {3.983243952662834*^9, 3.983243954153921*^9}, {
+   3.987845346863949*^9, 3.987845362511038*^9}},
+ CellLabel->"In[79]:=",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"ROC curves\"\>"->
   TagBox[
    StyleBox[
-    DynamicModuleBox[{$CellContext`f$$ = $CellContext`rf, $CellContext`pd$$ = 
-     0.067, $CellContext`pr$$ = True, $CellContext`u1$$ = 
+    DynamicModuleBox[{$CellContext`f$$ = $CellContext`prf, $CellContext`pd$$ =
+      0.067, $CellContext`pr$$ = True, $CellContext`u1$$ = 
      0.023, $CellContext`u2$$ = 0.23, $CellContext`\[Mu]D$$ = 
      2.99, $CellContext`\[Mu]H$$ = 0, $CellContext`\[Sigma]D$$ = 
      0.75, $CellContext`\[Sigma]H$$ = 1, Typeset`show$$ = True, 
@@ -6332,7 +6332,7 @@ Cell[BoxData[
        ControlType -> Manipulator}, {{
         Hold[$CellContext`u2$$], 0.23, "second test"}, 0, 6, 0.01, 
        ControlType -> Manipulator}}, Typeset`size$$ = {
-     400., {261.71003493027524`, 267.4419687342713}}, Typeset`update$$ = 0, 
+     400., {196.6420897205826, 250.7029790074797}}, Typeset`update$$ = 0, 
      Typeset`initDone$$, Typeset`skipInitDone$$ = False, 
      Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
      DynamicBox[Manipulate`ManipulateBoxes[
@@ -6424,7 +6424,7 @@ $CellContext`\[Sigma]H$$, $CellContext`pd$$, $CellContext`u2$$}]}}, \
        "Options" :> {TrackedSymbols -> True, ControlPlacement -> Left}, 
        "DefaultOptions" :> {}],
       ImageSizeCache->{
-       642.80060546875, {288.67087477402526`, 294.40280857802134`}},
+       642.80060546875, {247.76740730578314`, 253.4993411097792}},
       SingleEvaluation->True],
      Deinitialization:>None,
      DynamicModuleValues:>{},
@@ -14946,41 +14946,47 @@ $CellContext`tnlr[
    Manipulate`InterpretManipulate[1]]}}, 1,
   ImageSize->Automatic]], "Output",
  CellChangeTimes->{{3.9832439052012615`*^9, 3.983243907960636*^9}, 
-   3.983243971875927*^9},
+   3.983243971875927*^9, {3.987845409327057*^9, 3.987845410868038*^9}},
  CellLabel->
-  "Out[236]=",ExpressionUUID->"0c003d1b-9d69-ba41-bbc1-12aa690d5ddf"]
+  "Out[156]=",ExpressionUUID->"83b92b22-5234-804b-86b6-f3ed69edf8cf"]
 }, Open  ]],
 
 Cell[TextData[{
  StyleBox["Abbreviations\n",
   FontSize->10],
- StyleBox["ROC: Receiver Operating Characteristic \nDAM: Diagnostic Accuracy \
-Measure", "SubsubitemParagraph",
+ StyleBox["ROC: Receiver Operating Characteristic \nPROC: Predictive Receiver \
+Operating Characteristic\nDAM: Diagnostic Accuracy Measure", 
+  "SubsubitemParagraph",
   FontSize->10]
 }], "Subsubsubsubsection",
  Editable->False,
+ Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
-  3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
-  3.8066347247297487`*^9}, {3.806634802358505*^9, 
-  3.8066348105295067`*^9}},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.9878456067309456`*^9, 3.987845622891344*^9}, {3.987845657795912*^9, 
+   3.987845661610855*^9}, 
+   3.987845715907093*^9},ExpressionUUID->"fbda40a9-40bf-4947-92cc-\
 ff8cde674aa6"],
 
 Cell[TextData[{
  StyleBox["Note\n",
   FontSize->10],
- StyleBox["It is assumed that if a test measurement is above the diagnostic \
-threshold, the patient is classified as test-positive, otherwise as \
-test-negative.", "SubsubitemParagraph",
+ StyleBox["It is assumed that if a test measurement is below the diagnostic \
+threshold, the patient is classified as test-negative, otherwise as \
+test-positive.", "SubsubitemParagraph",
   FontSize->10]
 }], "Subsubsubsubsection",
  Editable->False,
+ Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
   3.8946810592083073`*^9, 3.8946810613518553`*^9}, {3.8946813173615294`*^9, 
   3.8946813569756613`*^9}, {3.8946821088444633`*^9, 3.8946821325590963`*^9}, {
   3.894682238254764*^9, 3.89468224855633*^9}, {3.8947120225049753`*^9, 
-  3.894712037039548*^9}},ExpressionUUID->"ac2f104c-a0cf-4cd6-9214-\
+  3.894712037039548*^9}, {3.9878460260036316`*^9, 
+  3.987846064475315*^9}},ExpressionUUID->"ac2f104c-a0cf-4cd6-9214-\
 8a0d53debfd2"],
 
 Cell[TextData[{
@@ -15039,7 +15045,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/Relation/"], "link",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion 1.0.5\n",
+ StyleBox["\nVersion 1.0.6\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory",
@@ -15049,14 +15055,14 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox[" 2026\nDOI: ",
+ StyleBox[" 2026\nDOI:",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox[ButtonBox["10.5281/zenodo.19178969",
+ StyleBox[ButtonBox[" 10.5281/zenodo.20209103",
   BaseStyle->"Hyperlink",
   ButtonData->{
-    URL["https://doi.org/10.5281/zenodo.19178969"], None},
-  ButtonNote->"https://doi.org/10.5281/zenodo.19178969"],
+    URL["https://doi.org/10.5281/zenodo.20209103"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.20209103"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox["\nThe notebook is distributed under  an ",
@@ -15089,19 +15095,20 @@ International Creative Commons License",
    3.9285082461558266`*^9, 3.9285082636484222`*^9}, {3.9305434057359447`*^9, 
    3.9305434062888393`*^9}, {3.983242287547163*^9, 3.9832422999467583`*^9}, {
    3.983242862666916*^9, 3.983242874547392*^9}, {3.983242926307863*^9, 
-   3.9832429392669067`*^9}, {3.9832429823529415`*^9, 
-   3.983242982357933*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
+   3.9832429392669067`*^9}, {3.9832429823529415`*^9, 3.983242982357933*^9}, {
+   3.9878447066347237`*^9, 3.987844709898634*^9}, {3.98784528236788*^9, 
+   3.9878453107892*^9}},ExpressionUUID->"de371ce7-e914-4864-910f-\
 f5d0251a90b2"]
 }, Open  ]]
 },
-WindowSize->{1428., 732.75},
-WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+WindowSize->{718.5, 736.875},
+WindowMargins->{{-4.125, Automatic}, {Automatic, 0}},
 TaggingRules-><|
- "DOI" -> "https://doi.org/10.5281/zenodo.19180116", "PreferredCitation" -> 
+ "DOI" -> "https://doi.org/10.5281/zenodo.20209103", "PreferredCitation" -> 
   "Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring \
 the Relation between Diagnostic Accuracy and Measurement Uncertainty. Ver. \
-1.0.5. Hellenic Complex Systems Laboratory; 2026. \
-https://doi.org/10.5281/zenodo.19180116"|>,
+1.0.c. Hellenic Complex Systems Laboratory; 2026. \
+https://doi.org/10.5281/zenodo.20209103"|>,
 FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"077b01eb-55ef-7c40-89d5-9f92c77d5147"
@@ -15120,20 +15127,20 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 574, 11, 85, "Title",ExpressionUUID->"8eafe9ec-dfb3-4ae4-9d7f-6b83082cf940",
  Evaluatable->False],
-Cell[1157, 35, 722, 12, 70, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
+Cell[1157, 35, 722, 12, 104, "Title",ExpressionUUID->"771d281b-3709-4a85-8858-f4a7c81c5ee6",
  Evaluatable->False],
 Cell[1882, 49, 505, 13, 125, "Author",ExpressionUUID->"48efdfee-c390-4c7d-aeb4-cdbc08fe34f9"],
-Cell[2390, 64, 349, 7, 30, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750"],
+Cell[2390, 64, 349, 7, 53, "Affiliation",ExpressionUUID->"a7902d72-4370-4f53-90c8-0f08bcc41750"],
 Cell[CellGroupData[{
-Cell[2764, 75, 259968, 6213, 19, "Input",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2",
+Cell[2764, 75, 260014, 6213, 19, "Input",ExpressionUUID->"47190465-b063-4f9a-8c53-10879fe2a4e2",
  CellOpen->False,
  InitializationCell->True],
-Cell[262735, 6290, 388331, 8660, 648, "Output",ExpressionUUID->"0c003d1b-9d69-ba41-bbc1-12aa690d5ddf"]
+Cell[262781, 6290, 388374, 8660, 567, "Output",ExpressionUUID->"83b92b22-5234-804b-86b6-f3ed69edf8cf"]
 }, Open  ]],
-Cell[651081, 14953, 509, 12, 51, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
-Cell[651593, 14967, 828, 16, 32, "Subsubsubsubsection",ExpressionUUID->"ac2f104c-a0cf-4cd6-9214-8a0d53debfd2"],
-Cell[652424, 14985, 2472, 42, 45, "Subsubsubsubsection",ExpressionUUID->"6b92ee0a-0667-6340-8705-dc652fdb84b9"],
-Cell[654899, 15029, 2654, 64, 86, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
+Cell[651170, 14953, 708, 16, 65, "Subsubsubsubsection",ExpressionUUID->"fbda40a9-40bf-4947-92cc-ff8cde674aa6"],
+Cell[651881, 14971, 896, 18, 32, "Subsubsubsubsection",ExpressionUUID->"ac2f104c-a0cf-4cd6-9214-8a0d53debfd2"],
+Cell[652780, 14991, 2472, 42, 72, "Subsubsubsubsection",ExpressionUUID->"6b92ee0a-0667-6340-8705-dc652fdb84b9"],
+Cell[655255, 15035, 2749, 65, 86, "Subsubsubsubsection",ExpressionUUID->"de371ce7-e914-4864-910f-f5d0251a90b2"]
 }, Open  ]]
 }
 ]
