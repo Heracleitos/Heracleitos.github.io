@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1060,         20]
-NotebookDataLength[     90713,       2074]
-NotebookOptionsPosition[     86411,       1976]
-NotebookOutlinePosition[     87336,       2006]
-CellTagsIndexPosition[     87204,       1999]
+NotebookDataLength[     89958,       2057]
+NotebookOptionsPosition[     85839,       1960]
+NotebookOutlinePosition[     86762,       1990]
+CellTagsIndexPosition[     86630,       1983]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -146,7 +146,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.7412348874891577`*^9, 3.7412349093379*^9}, {
    3.741234967063222*^9, 3.741235073753976*^9}, 3.741235180570717*^9, {
    3.741238934995244*^9, 3.74123904878091*^9}, 3.8243576871386185`*^9},
- CellLabel->"In[114]:=",
+ CellLabel->"In[48]:=",
  CellID->566202269,ExpressionUUID->"ac1172ff-ba3d-a74f-8f41-bb2b53f75ac6"],
 
 Cell[BoxData[
@@ -214,7 +214,7 @@ Cell[BoxData[
    3.7412376070077558`*^9, 3.741237634247436*^9}, 3.741237675607955*^9, {
    3.741239064021736*^9, 3.7412390794325485`*^9}, {3.741239488245751*^9, 
    3.741239523476338*^9}, 3.8243576871386185`*^9},
- CellLabel->"In[115]:=",
+ CellLabel->"In[49]:=",
  CellID->98278070,ExpressionUUID->"19abb199-3cc3-c044-bb2f-6124254cbd3b"],
 
 Cell[BoxData[
@@ -232,7 +232,7 @@ Cell[BoxData[
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellChangeTimes->{3.741456193465354*^9, 3.824357687139618*^9},
- CellLabel->"In[116]:=",
+ CellLabel->"In[50]:=",
  CellID->72877831,ExpressionUUID->"79799e33-6031-bf40-b13a-85d427d3059d"],
 
 Cell[BoxData[
@@ -250,7 +250,7 @@ Cell[BoxData[
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellChangeTimes->{3.741456193465354*^9, 3.824357687139618*^9},
- CellLabel->"In[117]:=",
+ CellLabel->"In[51]:=",
  CellID->351066660,ExpressionUUID->"4ddd7432-fd86-ea41-b030-ac2d66c8826f"],
 
 Cell[BoxData[
@@ -268,7 +268,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.74123317855622*^9, 3.74123321981873*^9}, 
    3.74123461757233*^9, {3.741235278365569*^9, 3.741235346476775*^9}, 
    3.824357687139618*^9},
- CellLabel->"In[118]:=",
+ CellLabel->"In[52]:=",
  CellID->315993518,ExpressionUUID->"7e5ac9b2-d503-384f-a77f-06f674c2201c"],
 
 Cell[BoxData[
@@ -283,7 +283,7 @@ Cell[BoxData[
        RowBox[{
         RowBox[{"{", 
          RowBox[{"\"\<first proportion\>\"", ",", "\"\<second proportion\>\"",
-           ",", "\"\<difference (point estimation)\>\"", 
+           ",", "\"\<difference (point estimate)\>\"", 
           ",", "\"\<statistical significance of the difference\>\""}], "}"}], 
         ",", 
         RowBox[{"{", 
@@ -353,8 +353,9 @@ Cell[BoxData[
    3.7412361967767954`*^9}, {3.741236238802297*^9, 3.7412362516801457`*^9}, {
    3.741236404115361*^9, 3.741236428244078*^9}, {3.741236543038725*^9, 
    3.741236557191559*^9}, {3.7413175818966074`*^9, 3.741317603310355*^9}, {
-   3.741317656751728*^9, 3.7413176780064793`*^9}, 3.824357687139618*^9},
- CellLabel->"In[119]:=",
+   3.741317656751728*^9, 3.7413176780064793`*^9}, 3.824357687139618*^9, {
+   3.9881947203332005`*^9, 3.9881947396212215`*^9}},
+ CellLabel->"In[53]:=",
  CellID->387120033,ExpressionUUID->"e80fe4dc-dc7b-dd44-a5a5-0a918b10ab57"],
 
 Cell[BoxData[
@@ -426,7 +427,7 @@ Cell[BoxData[
    3.741456220832252*^9, 3.741456221727047*^9}, {3.741456313952313*^9, 
    3.741456317432395*^9}, 3.742083315925166*^9, 3.824357687139618*^9, {
    3.9699270805485325`*^9, 3.969927083292528*^9}},
- CellLabel->"In[120]:=",
+ CellLabel->"In[54]:=",
  CellID->245713618,ExpressionUUID->"988fdfe5-3e53-f949-958b-8ef9834fc574"],
 
 Cell[BoxData[
@@ -484,7 +485,7 @@ Cell[BoxData[
               RowBox[{"{", 
                
                RowBox[{"\"\<lower confidence limit\>\"", ",", 
-                " ", "\"\<point estimation\>\"", 
+                " ", "\"\<point estimate\>\"", 
                 ",", "\"\<upper confidence limit\>\""}], "}"}], ",", 
               "Above"}], "]"}]}], ",", 
            RowBox[{"AxesLabel", "\[Rule]", 
@@ -575,8 +576,8 @@ Cell[BoxData[
    3.7418654863653393`*^9}, {3.7418655177136707`*^9, 3.741865530225051*^9}, {
    3.741865576969718*^9, 3.741865645706531*^9}, {3.74208337706033*^9, 
    3.74208338117033*^9}, 3.8243659153753023`*^9, {3.969927062637327*^9, 
-   3.969927067732479*^9}},
- CellLabel->"In[121]:=",
+   3.969927067732479*^9}, {3.988194865229244*^9, 3.988194868309128*^9}},
+ CellLabel->"In[55]:=",
  CellID->643348147,ExpressionUUID->"ad977ae1-2d45-ef4f-838f-df5a25159d58"],
 
 Cell[BoxData[
@@ -654,7 +655,7 @@ $CellContext`y1$$, $CellContext`y2$$, $CellContext`pr],
 $CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 2]}, {$CellContext`pr, 
              $CellContext`pl[$CellContext`cl$$], 
              $CellContext`pu[$CellContext`cl$$]}, PlotLegends -> 
-            Placed[{"lower confidence limit", "point estimation", 
+            Placed[{"lower confidence limit", "point estimate", 
                "upper confidence limit"}, Above], AxesLabel -> {
               Style["p", Italic], "difference"}, AspectRatio -> 0.55], 
            Alignment -> Center]}}], 
@@ -693,7 +694,7 @@ $CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 2]}, {$CellContext`pr,
           
           Transpose[{{
             "first proportion", "second proportion", 
-             "difference (point estimation)", 
+             "difference (point estimate)", 
              "statistical significance of the difference"}, {
              ToString[
               NumberForm[
@@ -850,12 +851,14 @@ $CellContext`x1/($CellContext`x1 + $CellContext`y1), $CellContext`dif[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
+ Editable->False,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{{3.969927012139971*^9, 3.9699270124854984`*^9}, 
    3.9699271062516155`*^9, 3.9699271460121765`*^9, {3.9699296527315903`*^9, 
-   3.96992965299728*^9}, 3.969929765248089*^9, 3.9699304391796474`*^9},
- CellLabel->
-  "Out[121]=",ExpressionUUID->"8dcfb9ef-20d1-e843-93c3-1bf147e4323d"],
+   3.96992965299728*^9}, 3.969929765248089*^9, 3.9699304391796474`*^9, {
+   3.9881947907327785`*^9, 3.9881947910839806`*^9}, 3.988194890101078*^9, 
+   3.9881953347742424`*^9, 3.988195955633518*^9},
+ CellLabel->"Out[55]=",ExpressionUUID->"562af709-164c-3c45-a223-f2f7c70a9cc0"],
 
 Cell["Description", "Section",
  Editable->False,
@@ -864,21 +867,15 @@ Cell["Description", "Section",
    3.8243577448377557`*^9},ExpressionUUID->"5f8f22cc-633a-5e4b-891d-\
 0ee496d60b7a"],
 
-Cell[TextData[{
- "This Demonstration explores statistical inferences regarding the difference \
-between two proportions of populations obeying a condition (or trait). It \
-calculates the statistical significance and the confidence intervals for the \
-difference and plots the confidence intervals versus ",
- Cell[BoxData[
-  FormBox["p", TraditionalForm]], "InlineMath",ExpressionUUID->
-  "a6ecafd7-1fdd-f34a-acbe-6bbe4bc24cb6"],
- "-value. This is done for differing populations obeying a condition or \
-without the condition and for differing ",
- Cell[BoxData[
-  FormBox["p", TraditionalForm]], "InlineMath",ExpressionUUID->
-  "e6283d26-594a-7b42-bbfe-bef1dd7829c0"],
- "-values for the estimation of the confidence intervals."
-}], "Text",
+Cell["\<\
+This Demonstration explores statistical inferences regarding the difference \
+between two proportions of populations with a condition (or trait). It \
+calculates the statistical significance and confidence intervals for the \
+difference between two proportions and plots the confidence limits as \
+functions of the selected confidence level. This is done for different \
+population counts with and without the condition, and for different \
+confidence levels used in the estimation of the confidence intervals.\
+\>", "Text",
  Editable->False,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{{3.741236847337154*^9, 3.741237082853395*^9}, {
@@ -893,7 +890,8 @@ without the condition and for differing ",
    3.741456776715065*^9, {3.741865352727837*^9, 3.741865362655696*^9}, {
    3.741865692808048*^9, 3.741865700563579*^9}, {3.741865747828834*^9, 
    3.741865841041467*^9}, {3.7418658791545563`*^9, 3.741865880006569*^9}, {
-   3.742083413617859*^9, 3.7420834878538923`*^9}, 3.8243577448377557`*^9},
+   3.742083413617859*^9, 3.7420834878538923`*^9}, 3.8243577448377557`*^9, 
+   3.9881961872022686`*^9},
  CellID->44699273,ExpressionUUID->"4648581d-a2ff-7f43-99b8-6ffcf3d3cf86"]
 }, Open  ]],
 
@@ -905,287 +903,10 @@ Cell["Snapshots", "Section",
    3.824357773924328*^9},
  CellTags->"Snapshots",ExpressionUUID->"0beffa26-fb12-d64d-bf45-939f9061d0ed"],
 
-Cell[BoxData[
+Cell[BoxData[{
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`cl$$ = 0.95, $CellContext`x1$$ = 
-    90, $CellContext`x2$$ = 8, $CellContext`y1$$ = 10, $CellContext`y2$$ = 11,
-     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
-    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
-      Hold["first population"], Manipulate`Dump`ThisIsNotAControl, 
-      ControlType -> None}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
-      Hold["population obeying the condition"], 
-      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
-       Hold[$CellContext`x1$$], 90, ""}, 1, 100000, 1, ControlType -> 
-      Manipulator}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
-      Hold["population without the condition"], 
-      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
-       Hold[$CellContext`y1$$], 10, ""}, 1, 100000, 1, ControlType -> 
-      Manipulator}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
-      Hold["second population"], Manipulate`Dump`ThisIsNotAControl, 
-      ControlType -> None}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
-      Hold["population obeying the condition"], 
-      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
-       Hold[$CellContext`x2$$], 850, ""}, 1, 100000, 1, ControlType -> 
-      Manipulator}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
-      Hold["population without the condition"], 
-      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
-       Hold[$CellContext`y2$$], 150, ""}, 1, 100000, 1, ControlType -> 
-      Manipulator}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
-      Hold[
-       Row[{
-         Style["p", Italic], "\[Hyphen]value"}]], 
-      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
-       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 0.001, ControlType -> 
-      Manipulator}, {
-      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}}, 
-    Typeset`size$$ = {437.5, {241.64997891474528`, 247.38191271874135`}}, 
-    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = False, 
-    Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
-    DynamicBox[Manipulate`ManipulateBoxes[
-     1, StandardForm, 
-      "Variables" :> {$CellContext`cl$$ = 0.95, $CellContext`x1$$ = 
-        90, $CellContext`x2$$ = 850, $CellContext`y1$$ = 
-        10, $CellContext`y2$$ = 150}, "ControllerVariables" :> {}, 
-      "OtherVariables" :> {
-       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
-        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
-        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
-         Typeset`skipInitDone$$, Typeset`keyframeActionsQ$$, 
-        Typeset`keyframeList$$}, "Body" :> Grid[{{
-          Pane[
-           $CellContext`fodif[$CellContext`x1$$, $CellContext`x2$$, \
-$CellContext`y1$$, $CellContext`y2$$], 1.25 {350, 100}, Alignment -> 
-           Center]}, {
-          Pane[
-           $CellContext`foci[$CellContext`x1$$, $CellContext`x2$$, \
-$CellContext`y1$$, $CellContext`y2$$, $CellContext`cl$$], 1.25 {350, 80}, 
-           Alignment -> Center]}, {
-          Pane[
-           Plot[{
-             Part[
-              $CellContext`cidp[$CellContext`x1$$, $CellContext`x2$$, \
-$CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 1], 
-             $CellContext`dif[$CellContext`x1$$, $CellContext`x2$$, \
-$CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 
-             Part[
-              $CellContext`cidp[$CellContext`x1$$, $CellContext`x2$$, \
-$CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 2]}, {$CellContext`pr, 
-             $CellContext`pl[$CellContext`cl$$], 
-             $CellContext`pu[$CellContext`cl$$]}, PlotLegends -> 
-            Placed[{"lower confidence limit", "point estimation", 
-               "upper confidence limit"}, Above], AxesLabel -> {
-              Style["p", Italic], "difference"}, AspectRatio -> 0.55], 
-           Alignment -> Center]}}], 
-      "Specifications" :> {
-       "first population", "", 
-        "population obeying the condition", {{$CellContext`x1$$, 90, ""}, 1, 
-         100000, 1, Appearance -> "Labeled", ImageSize -> Tiny}, "", 
-        "population without the condition", {{$CellContext`y1$$, 10, ""}, 1, 
-         100000, 1, Appearance -> "Labeled", ImageSize -> Tiny}, "", 
-        Delimiter, "second population", "", 
-        "population obeying the condition", {{$CellContext`x2$$, 850, ""}, 1, 
-         100000, 1, Appearance -> "Labeled", ImageSize -> Tiny}, "", 
-        "population without the condition", {{$CellContext`y2$$, 150, ""}, 1, 
-         100000, 1, Appearance -> "Labeled", ImageSize -> Tiny}, "", 
-        Delimiter, 
-        Row[{
-          Style["p", Italic], "\[Hyphen]value"}], {{$CellContext`cl$$, 0.95, 
-          ""}, 0.001, 0.999, 0.001, Appearance -> "Labeled", ImageSize -> 
-         Tiny}, ""}, 
-      "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
-      "DefaultOptions" :> {}],
-     ImageSizeCache->{
-      616.17765625, {268.61081875849527`, 274.34275256249134`}},
-     SingleEvaluation->True],
-    Deinitialization:>None,
-    DynamicModuleValues:>{},
-    Initialization:>({$CellContext`fodif[
-         Pattern[$CellContext`x1, 
-          Blank[]], 
-         Pattern[$CellContext`x2, 
-          Blank[]], 
-         Pattern[$CellContext`y1, 
-          Blank[]], 
-         Pattern[$CellContext`y2, 
-          Blank[]]] := Text[
-         Grid[
-          
-          Transpose[{{
-            "first proportion", "second proportion", 
-             "difference (point estimation)", 
-             "statistical significance of the difference"}, {
-             ToString[
-              NumberForm[
-               N[$CellContext`x1/($CellContext`x1 + $CellContext`y1)], {6, 
-               3}]], 
-             ToString[
-              NumberForm[
-               N[$CellContext`x2/($CellContext`x2 + $CellContext`y2)], {6, 
-               3}]], 
-             ToString[
-              NumberForm[
-               
-               N[$CellContext`x2/($CellContext`x2 + $CellContext`y2) - \
-$CellContext`x1/($CellContext`x1 + $CellContext`y1)], {6, 3}]], 
-             ToString[
-              NumberForm[
-               N[
-                $CellContext`pdp[$CellContext`x1, $CellContext`x2, \
-$CellContext`y1, $CellContext`y2]], {6, 3}]]}}], Frame -> All, FrameStyle -> 
-          Blend[{Blue, Cyan}, 0.35], Spacings -> {1, 1}, 
-          ItemSize -> {{24, 8}, Automatic}]], $CellContext`pdp[
-         Pattern[$CellContext`x1, 
-          Blank[]], 
-         Pattern[$CellContext`x2, 
-          Blank[]], 
-         Pattern[$CellContext`y1, 
-          Blank[]], 
-         Pattern[$CellContext`y2, 
-          Blank[]]] := 
-       Block[{$CellContext`p1 = $CellContext`x1/($CellContext`x1 + \
-$CellContext`y1), $CellContext`n1 = $CellContext`x1 + $CellContext`y1, \
-$CellContext`p2 = $CellContext`x2/($CellContext`x2 + $CellContext`y2), \
-$CellContext`n2 = $CellContext`x2 + $CellContext`y2}, 
-         CDF[
-          NormalDistribution[
-          0, 1], (Abs[$CellContext`p2 - $CellContext`p1] - (1/2) (
-            1/$CellContext`n1 + 1/$CellContext`n2))/Sqrt[
-           
-           Abs[(($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
-$CellContext`n2)) (
-             1 - ($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
-$CellContext`n2)) (1/$CellContext`n1 + 
-             1/$CellContext`n2)]]]], $CellContext`foci[
-         Pattern[$CellContext`x1, 
-          Blank[]], 
-         Pattern[$CellContext`x2, 
-          Blank[]], 
-         Pattern[$CellContext`y1, 
-          Blank[]], 
-         Pattern[$CellContext`y2, 
-          Blank[]], 
-         Pattern[$CellContext`cl, 
-          Blank[]]] := Text[
-         Grid[
-          
-          Transpose[{{
-            ToString[100 $CellContext`cl] <> 
-             "% confidence interval for the difference", 
-             "lower confidence limit", "upper confidence limit"}, {
-            SpanFromLeft, 
-             ToString[
-              NumberForm[
-               N[
-                Part[
-                 $CellContext`cidp[$CellContext`x1, $CellContext`x2, \
-$CellContext`y1, $CellContext`y2, $CellContext`cl], 1]], {6, 3}]], 
-             ToString[
-              NumberForm[
-               N[
-                Part[
-                 $CellContext`cidp[$CellContext`x1, $CellContext`x2, \
-$CellContext`y1, $CellContext`y2, $CellContext`cl], 2]], {6, 3}]]}}], Frame -> 
-          All, FrameStyle -> Orange, Spacings -> {1, 1}, 
-          ItemSize -> {{24, 8}, Automatic}]], $CellContext`cidp[
-         Pattern[$CellContext`x1, 
-          Blank[]], 
-         Pattern[$CellContext`x2, 
-          Blank[]], 
-         Pattern[$CellContext`y1, 
-          Blank[]], 
-         Pattern[$CellContext`y2, 
-          Blank[]], 
-         Pattern[$CellContext`cl, 
-          Blank[]]] := Block[{$CellContext`z = InverseCDF[
-            NormalDistribution[0, 1], (1 + $CellContext`cl)/
-            2], $CellContext`p1 = $CellContext`x1/($CellContext`x1 + \
-$CellContext`y1), $CellContext`n1 = $CellContext`x1 + $CellContext`y1, \
-$CellContext`p2 = $CellContext`x2/($CellContext`x2 + $CellContext`y2), \
-$CellContext`n2 = $CellContext`x2 + $CellContext`y2, $CellContext`q1 = 
-          1 - $CellContext`p1, $CellContext`q2 = 
-          1 - $CellContext`p2}, {$CellContext`p2 - $CellContext`p1 - \
-$CellContext`z Sqrt[
-            
-            Abs[($CellContext`p1 $CellContext`q1)/$CellContext`n1 - \
-($CellContext`p2 $CellContext`q2)/$CellContext`n2]] - (1/2) (
-           1/$CellContext`n1 + 
-           1/$CellContext`n2), $CellContext`p2 - $CellContext`p1 + \
-$CellContext`z Sqrt[
-             
-             Abs[($CellContext`p1 $CellContext`q1)/$CellContext`n1 - \
-($CellContext`p2 $CellContext`q2)/$CellContext`n2]] + (1/2) (
-            1/$CellContext`n1 + 1/$CellContext`n2)}], $CellContext`pr[
-         Pattern[$CellContext`tn, 
-          Blank[]], 
-         Pattern[$CellContext`fp, 
-          Blank[]], 
-         Pattern[$CellContext`fn, 
-          Blank[]], 
-         Pattern[$CellContext`tp, 
-          
-          Blank[]]] := ($CellContext`fn + $CellContext`tp)/($CellContext`tn + \
-$CellContext`fp + $CellContext`fn + $CellContext`tp), $CellContext`dif[
-         Pattern[$CellContext`x1, 
-          Blank[]], 
-         Pattern[$CellContext`x2, 
-          Blank[]], 
-         Pattern[$CellContext`y1, 
-          Blank[]], 
-         Pattern[$CellContext`y2, 
-          Blank[]], 
-         Pattern[$CellContext`cl, 
-          
-          Blank[]]] := $CellContext`x2/($CellContext`x2 + $CellContext`y2) - \
-$CellContext`x1/($CellContext`x1 + $CellContext`y1), $CellContext`dif[
-         Pattern[$CellContext`p1, 
-          Blank[]], 
-         Pattern[$CellContext`p2, 
-          Blank[]], 
-         0.95] := $CellContext`p2 - $CellContext`p1, $CellContext`dif[
-         Pattern[$CellContext`p1, 
-          Blank[]], 
-         Pattern[$CellContext`p2, 
-          Blank[]], 
-         0.99] := $CellContext`p2 - $CellContext`p1, $CellContext`dif[
-         Pattern[$CellContext`p1, 
-          Blank[]], 
-         Pattern[$CellContext`p2, 
-          Blank[]], 
-         Pattern[$CellContext`cl, 
-          Blank[]]] := $CellContext`p2 - $CellContext`p1, $CellContext`pl[
-         Pattern[$CellContext`p, 
-          Blank[]]] := If[$CellContext`p < 0.051, 0.001, 
-         If[
-         0.999 - $CellContext`p > 0.05, $CellContext`p - 0.05, 
-          0.899]], $CellContext`pu[
-         Pattern[$CellContext`p, 
-          Blank[]]] := If[0.999 - $CellContext`p < 0.05, 0.999, 
-         If[$CellContext`p < 0.051, 0.101, $CellContext`p + 0.05]]}; 
-     Typeset`initDone$$ = True),
-    SynchronousInitialization->True,
-    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
-    UnsavedVariables:>{Typeset`initDone$$},
-    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
-   Deployed->True,
-   StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- Editable->False,
- CellChangeTimes->{{3.969927012139971*^9, 3.9699270124854984`*^9}, 
-   3.9699271062516155`*^9, 3.9699271460121765`*^9},
- CellLabel->"Out[85]=",ExpressionUUID->"a8ebcf25-0ec8-6b46-9e86-54f00072de17"],
-
-Cell[BoxData[
- TagBox[
-  StyleBox[
-   DynamicModuleBox[{$CellContext`cl$$ = 0.99, $CellContext`x1$$ = 
     95, $CellContext`x2$$ = 88, $CellContext`y1$$ = 15, $CellContext`y2$$ = 
     27, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
@@ -1257,7 +978,7 @@ $CellContext`y1$$, $CellContext`y2$$, $CellContext`pr],
 $CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 2]}, {$CellContext`pr, 
              $CellContext`pl[$CellContext`cl$$], 
              $CellContext`pu[$CellContext`cl$$]}, PlotLegends -> 
-            Placed[{"lower confidence limit", "point estimation", 
+            Placed[{"lower confidence limit", "point estimate", 
                "upper confidence limit"}, Above], AxesLabel -> {
               Style["p", Italic], "difference"}, AspectRatio -> 0.55], 
            Alignment -> Center]}}], 
@@ -1296,7 +1017,7 @@ $CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 2]}, {$CellContext`pr,
           
           Transpose[{{
             "first proportion", "second proportion", 
-             "difference (point estimation)", 
+             "difference (point estimate)", 
              "statistical significance of the difference"}, {
              ToString[
               NumberForm[
@@ -1335,10 +1056,10 @@ $CellContext`n2 = $CellContext`x2 + $CellContext`y2},
           0, 1], (Abs[$CellContext`p2 - $CellContext`p1] - (1/2) (
             1/$CellContext`n1 + 1/$CellContext`n2))/Sqrt[
            
-           Abs[((($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
+           Abs[(($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
 $CellContext`n2)) (
-              1 - ($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
-$CellContext`n2))) (1/$CellContext`n1 + 
+             1 - ($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
+$CellContext`n2)) (1/$CellContext`n1 + 
              1/$CellContext`n2)]]]], $CellContext`foci[
          Pattern[$CellContext`x1, 
           Blank[]], 
@@ -1452,15 +1173,278 @@ $CellContext`x1/($CellContext`x1 + $CellContext`y1), $CellContext`dif[
     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
    Deployed->True,
    StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
- Editable->False,
- CellChangeTimes->{{3.969927012139971*^9, 3.9699270124854984`*^9}, 
-   3.9699271062516155`*^9, 3.9699271460121765`*^9, {3.9699296527315903`*^9, 
-   3.96992965299728*^9}, 3.969929765248089*^9},
- CellLabel->
-  "Out[113]=",ExpressionUUID->"414edf7b-6fc8-ea4c-898a-0023db70dd53"],
-
-Cell[BoxData[
+  Manipulate`InterpretManipulate[1]], "\n", 
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`cl$$ = 0.99, $CellContext`x1$$ = 
+    90, $CellContext`x2$$ = 8, $CellContext`y1$$ = 10, $CellContext`y2$$ = 11,
+     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold["first population"], Manipulate`Dump`ThisIsNotAControl, 
+      ControlType -> None}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
+      Hold["population obeying the condition"], 
+      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+       Hold[$CellContext`x1$$], 90, ""}, 1, 100000, 1, ControlType -> 
+      Manipulator}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
+      Hold["population without the condition"], 
+      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+       Hold[$CellContext`y1$$], 10, ""}, 1, 100000, 1, ControlType -> 
+      Manipulator}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
+      Hold["second population"], Manipulate`Dump`ThisIsNotAControl, 
+      ControlType -> None}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
+      Hold["population obeying the condition"], 
+      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+       Hold[$CellContext`x2$$], 850, ""}, 1, 100000, 1, ControlType -> 
+      Manipulator}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
+      Hold["population without the condition"], 
+      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+       Hold[$CellContext`y2$$], 150, ""}, 1, 100000, 1, ControlType -> 
+      Manipulator}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {
+      Hold[
+       Row[{
+         Style["p", Italic], "\[Hyphen]value"}]], 
+      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+       Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 0.001, ControlType -> 
+      Manipulator}, {
+      Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}}, 
+    Typeset`size$$ = {437.5, {241.64997891474528`, 247.38191271874135`}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = False, 
+    Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`cl$$ = 0.95, $CellContext`x1$$ = 
+        90, $CellContext`x2$$ = 850, $CellContext`y1$$ = 
+        10, $CellContext`y2$$ = 150}, "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$, Typeset`keyframeActionsQ$$, 
+        Typeset`keyframeList$$}, "Body" :> Grid[{{
+          Pane[
+           $CellContext`fodif[$CellContext`x1$$, $CellContext`x2$$, \
+$CellContext`y1$$, $CellContext`y2$$], 1.25 {350, 100}, Alignment -> 
+           Center]}, {
+          Pane[
+           $CellContext`foci[$CellContext`x1$$, $CellContext`x2$$, \
+$CellContext`y1$$, $CellContext`y2$$, $CellContext`cl$$], 1.25 {350, 80}, 
+           Alignment -> Center]}, {
+          Pane[
+           Plot[{
+             Part[
+              $CellContext`cidp[$CellContext`x1$$, $CellContext`x2$$, \
+$CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 1], 
+             $CellContext`dif[$CellContext`x1$$, $CellContext`x2$$, \
+$CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 
+             Part[
+              $CellContext`cidp[$CellContext`x1$$, $CellContext`x2$$, \
+$CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 2]}, {$CellContext`pr, 
+             $CellContext`pl[$CellContext`cl$$], 
+             $CellContext`pu[$CellContext`cl$$]}, PlotLegends -> 
+            Placed[{"lower confidence limit", "point estimate", 
+               "upper confidence limit"}, Above], AxesLabel -> {
+              Style["p", Italic], "difference"}, AspectRatio -> 0.55], 
+           Alignment -> Center]}}], 
+      "Specifications" :> {
+       "first population", "", 
+        "population obeying the condition", {{$CellContext`x1$$, 90, ""}, 1, 
+         100000, 1, Appearance -> "Labeled", ImageSize -> Tiny}, "", 
+        "population without the condition", {{$CellContext`y1$$, 10, ""}, 1, 
+         100000, 1, Appearance -> "Labeled", ImageSize -> Tiny}, "", 
+        Delimiter, "second population", "", 
+        "population obeying the condition", {{$CellContext`x2$$, 850, ""}, 1, 
+         100000, 1, Appearance -> "Labeled", ImageSize -> Tiny}, "", 
+        "population without the condition", {{$CellContext`y2$$, 150, ""}, 1, 
+         100000, 1, Appearance -> "Labeled", ImageSize -> Tiny}, "", 
+        Delimiter, 
+        Row[{
+          Style["p", Italic], "\[Hyphen]value"}], {{$CellContext`cl$$, 0.95, 
+          ""}, 0.001, 0.999, 0.001, Appearance -> "Labeled", ImageSize -> 
+         Tiny}, ""}, 
+      "Options" :> {ControlPlacement -> Left, ContinuousAction -> False}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{
+      616.17765625, {268.61081875849527`, 274.34275256249134`}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`fodif[
+         Pattern[$CellContext`x1, 
+          Blank[]], 
+         Pattern[$CellContext`x2, 
+          Blank[]], 
+         Pattern[$CellContext`y1, 
+          Blank[]], 
+         Pattern[$CellContext`y2, 
+          Blank[]]] := Text[
+         Grid[
+          
+          Transpose[{{
+            "first proportion", "second proportion", 
+             "difference (point estimate)", 
+             "statistical significance of the difference"}, {
+             ToString[
+              NumberForm[
+               N[$CellContext`x1/($CellContext`x1 + $CellContext`y1)], {6, 
+               3}]], 
+             ToString[
+              NumberForm[
+               N[$CellContext`x2/($CellContext`x2 + $CellContext`y2)], {6, 
+               3}]], 
+             ToString[
+              NumberForm[
+               
+               N[$CellContext`x2/($CellContext`x2 + $CellContext`y2) - \
+$CellContext`x1/($CellContext`x1 + $CellContext`y1)], {6, 3}]], 
+             ToString[
+              NumberForm[
+               N[
+                $CellContext`pdp[$CellContext`x1, $CellContext`x2, \
+$CellContext`y1, $CellContext`y2]], {6, 3}]]}}], Frame -> All, FrameStyle -> 
+          Blend[{Blue, Cyan}, 0.35], Spacings -> {1, 1}, 
+          ItemSize -> {{24, 8}, Automatic}]], $CellContext`pdp[
+         Pattern[$CellContext`x1, 
+          Blank[]], 
+         Pattern[$CellContext`x2, 
+          Blank[]], 
+         Pattern[$CellContext`y1, 
+          Blank[]], 
+         Pattern[$CellContext`y2, 
+          Blank[]]] := 
+       Block[{$CellContext`p1 = $CellContext`x1/($CellContext`x1 + \
+$CellContext`y1), $CellContext`n1 = $CellContext`x1 + $CellContext`y1, \
+$CellContext`p2 = $CellContext`x2/($CellContext`x2 + $CellContext`y2), \
+$CellContext`n2 = $CellContext`x2 + $CellContext`y2}, 
+         CDF[
+          NormalDistribution[
+          0, 1], (Abs[$CellContext`p2 - $CellContext`p1] - (1/2) (
+            1/$CellContext`n1 + 1/$CellContext`n2))/Sqrt[
+           
+           Abs[(($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
+$CellContext`n2)) (
+             1 - ($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
+$CellContext`n2)) (1/$CellContext`n1 + 
+             1/$CellContext`n2)]]]], $CellContext`foci[
+         Pattern[$CellContext`x1, 
+          Blank[]], 
+         Pattern[$CellContext`x2, 
+          Blank[]], 
+         Pattern[$CellContext`y1, 
+          Blank[]], 
+         Pattern[$CellContext`y2, 
+          Blank[]], 
+         Pattern[$CellContext`cl, 
+          Blank[]]] := Text[
+         Grid[
+          
+          Transpose[{{
+            ToString[100 $CellContext`cl] <> 
+             "% confidence interval for the difference", 
+             "lower confidence limit", "upper confidence limit"}, {
+            SpanFromLeft, 
+             ToString[
+              NumberForm[
+               N[
+                Part[
+                 $CellContext`cidp[$CellContext`x1, $CellContext`x2, \
+$CellContext`y1, $CellContext`y2, $CellContext`cl], 1]], {6, 3}]], 
+             ToString[
+              NumberForm[
+               N[
+                Part[
+                 $CellContext`cidp[$CellContext`x1, $CellContext`x2, \
+$CellContext`y1, $CellContext`y2, $CellContext`cl], 2]], {6, 3}]]}}], Frame -> 
+          All, FrameStyle -> Orange, Spacings -> {1, 1}, 
+          ItemSize -> {{24, 8}, Automatic}]], $CellContext`cidp[
+         Pattern[$CellContext`x1, 
+          Blank[]], 
+         Pattern[$CellContext`x2, 
+          Blank[]], 
+         Pattern[$CellContext`y1, 
+          Blank[]], 
+         Pattern[$CellContext`y2, 
+          Blank[]], 
+         Pattern[$CellContext`cl, 
+          Blank[]]] := Block[{$CellContext`z = InverseCDF[
+            NormalDistribution[0, 1], (1 + $CellContext`cl)/
+            2], $CellContext`p1 = $CellContext`x1/($CellContext`x1 + \
+$CellContext`y1), $CellContext`n1 = $CellContext`x1 + $CellContext`y1, \
+$CellContext`p2 = $CellContext`x2/($CellContext`x2 + $CellContext`y2), \
+$CellContext`n2 = $CellContext`x2 + $CellContext`y2, $CellContext`q1 = 
+          1 - $CellContext`p1, $CellContext`q2 = 
+          1 - $CellContext`p2}, {$CellContext`p2 - $CellContext`p1 - \
+$CellContext`z Sqrt[
+            
+            Abs[($CellContext`p1 $CellContext`q1)/$CellContext`n1 - \
+($CellContext`p2 $CellContext`q2)/$CellContext`n2]] - (1/2) (
+           1/$CellContext`n1 + 
+           1/$CellContext`n2), $CellContext`p2 - $CellContext`p1 + \
+$CellContext`z Sqrt[
+             
+             Abs[($CellContext`p1 $CellContext`q1)/$CellContext`n1 - \
+($CellContext`p2 $CellContext`q2)/$CellContext`n2]] + (1/2) (
+            1/$CellContext`n1 + 1/$CellContext`n2)}], $CellContext`pr[
+         Pattern[$CellContext`tn, 
+          Blank[]], 
+         Pattern[$CellContext`fp, 
+          Blank[]], 
+         Pattern[$CellContext`fn, 
+          Blank[]], 
+         Pattern[$CellContext`tp, 
+          
+          Blank[]]] := ($CellContext`fn + $CellContext`tp)/($CellContext`tn + \
+$CellContext`fp + $CellContext`fn + $CellContext`tp), $CellContext`dif[
+         Pattern[$CellContext`x1, 
+          Blank[]], 
+         Pattern[$CellContext`x2, 
+          Blank[]], 
+         Pattern[$CellContext`y1, 
+          Blank[]], 
+         Pattern[$CellContext`y2, 
+          Blank[]], 
+         Pattern[$CellContext`cl, 
+          
+          Blank[]]] := $CellContext`x2/($CellContext`x2 + $CellContext`y2) - \
+$CellContext`x1/($CellContext`x1 + $CellContext`y1), $CellContext`dif[
+         Pattern[$CellContext`p1, 
+          Blank[]], 
+         Pattern[$CellContext`p2, 
+          Blank[]], 
+         0.95] := $CellContext`p2 - $CellContext`p1, $CellContext`dif[
+         Pattern[$CellContext`p1, 
+          Blank[]], 
+         Pattern[$CellContext`p2, 
+          Blank[]], 
+         0.99] := $CellContext`p2 - $CellContext`p1, $CellContext`dif[
+         Pattern[$CellContext`p1, 
+          Blank[]], 
+         Pattern[$CellContext`p2, 
+          Blank[]], 
+         Pattern[$CellContext`cl, 
+          Blank[]]] := $CellContext`p2 - $CellContext`p1, $CellContext`pl[
+         Pattern[$CellContext`p, 
+          Blank[]]] := If[$CellContext`p < 0.051, 0.001, 
+         If[
+         0.999 - $CellContext`p > 0.05, $CellContext`p - 0.05, 
+          0.899]], $CellContext`pu[
+         Pattern[$CellContext`p, 
+          Blank[]]] := If[0.999 - $CellContext`p < 0.05, 0.999, 
+         If[$CellContext`p < 0.051, 0.101, $CellContext`p + 0.05]]}; 
+     Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]], "\n", 
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`cl$$ = 0.95, $CellContext`x1$$ = 
@@ -1535,7 +1519,7 @@ $CellContext`y1$$, $CellContext`y2$$, $CellContext`pr],
 $CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 2]}, {$CellContext`pr, 
              $CellContext`pl[$CellContext`cl$$], 
              $CellContext`pu[$CellContext`cl$$]}, PlotLegends -> 
-            Placed[{"lower confidence limit", "point estimation", 
+            Placed[{"lower confidence limit", "point estimate", 
                "upper confidence limit"}, Above], AxesLabel -> {
               Style["p", Italic], "difference"}, AspectRatio -> 0.55], 
            Alignment -> Center]}}], 
@@ -1574,7 +1558,7 @@ $CellContext`y1$$, $CellContext`y2$$, $CellContext`pr], 2]}, {$CellContext`pr,
           
           Transpose[{{
             "first proportion", "second proportion", 
-             "difference (point estimation)", 
+             "difference (point estimate)", 
              "statistical significance of the difference"}, {
              ToString[
               NumberForm[
@@ -1613,10 +1597,10 @@ $CellContext`n2 = $CellContext`x2 + $CellContext`y2},
           0, 1], (Abs[$CellContext`p2 - $CellContext`p1] - (1/2) (
             1/$CellContext`n1 + 1/$CellContext`n2))/Sqrt[
            
-           Abs[((($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
+           Abs[(($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
 $CellContext`n2)) (
-              1 - ($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
-$CellContext`n2))) (1/$CellContext`n1 + 
+             1 - ($CellContext`x1 + $CellContext`x2)/($CellContext`n1 + \
+$CellContext`n2)) (1/$CellContext`n1 + 
              1/$CellContext`n2)]]]], $CellContext`foci[
          Pattern[$CellContext`x1, 
           Blank[]], 
@@ -1730,13 +1714,12 @@ $CellContext`x1/($CellContext`x1 + $CellContext`y1), $CellContext`dif[
     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
    Deployed->True,
    StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Output",
+  Manipulate`InterpretManipulate[1]]}], "Input",
  Editable->False,
- CellChangeTimes->{{3.969927012139971*^9, 3.9699270124854984`*^9}, 
-   3.9699271062516155`*^9, 3.9699271460121765`*^9, {3.9699296527315903`*^9, 
-   3.96992965299728*^9}, 3.969929765248089*^9},
- CellLabel->
-  "Out[113]=",ExpressionUUID->"5769f610-5d19-1841-979b-0c3795997e1b"]
+ Evaluatable->False,
+ CellChangeTimes->{{3.9881950365814743`*^9, 3.9881950366315002`*^9}, 
+   3.988195935165104*^9},ExpressionUUID->"a8ebcf25-0ec8-6b46-9e86-\
+54f00072de17"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1903,7 +1886,7 @@ Cell[TextData[{
  StyleBox["Inferences about the Difference between Two Proportions",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.1\n",
+ StyleBox["\nVersion Number 1.1.2\n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -1915,7 +1898,7 @@ Cell[TextData[{
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["2025\nFirst published at Wolfram Demonstrations Project at: ",
+ StyleBox["2026\nFirst published at Wolfram Demonstrations Project at: ",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -1968,14 +1951,15 @@ International Creative Commons License",
    3.8242910218861465`*^9, {3.824291151069277*^9, 3.8242911545732164`*^9}, {
    3.824357902062423*^9, 3.8243579161026993`*^9}, 3.8243580214127736`*^9, 
    3.8243659420658293`*^9, 3.927735528059952*^9, {3.928502215268406*^9, 
-   3.928502223033621*^9}, {3.969927204355736*^9, 
-   3.969927208292139*^9}},ExpressionUUID->"74ff0cf1-48de-6840-812f-\
+   3.928502223033621*^9}, {3.969927204355736*^9, 3.969927208292139*^9}, {
+   3.988194919500242*^9, 
+   3.988194925612932*^9}},ExpressionUUID->"74ff0cf1-48de-6840-812f-\
 88f4b85bc2a3"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1440, 742.5},
-WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
+WindowSize->{1430.25, 737.625},
+WindowMargins->{{0, Automatic}, {Automatic, 2.25}},
 FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"06d401dd-6f5f-4f4d-aa7d-065febedf6a5"
@@ -1985,22 +1969,22 @@ ExpressionUUID->"06d401dd-6f5f-4f4d-aa7d-065febedf6a5"
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
+ "Snapshots"->{
+  Cell[38137, 899, 219, 4, 66, "Section",ExpressionUUID->"0beffa26-fb12-d64d-bf45-939f9061d0ed",
+   CellTags->"Snapshots"]},
  "Details"->{
-  Cell[75710, 1743, 188, 3, 66, "Section",ExpressionUUID->"abe4f0ac-25c9-b84b-8cb8-f3b40461a96d",
+  Cell[75088, 1726, 188, 3, 66, "Section",ExpressionUUID->"abe4f0ac-25c9-b84b-8cb8-f3b40461a96d",
    CellTags->"Details"]},
  "Search Terms"->{
-  Cell[78314, 1804, 245, 7, 66, "Section",ExpressionUUID->"05278f0f-18f9-3b47-a771-1516fa2132c5",
-   CellTags->"Search Terms"]},
- "Snapshots"->{
-  Cell[38089, 901, 219, 4, 66, "Section",ExpressionUUID->"0beffa26-fb12-d64d-bf45-939f9061d0ed",
-   CellTags->"Snapshots"]}
+  Cell[77692, 1787, 245, 7, 66, "Section",ExpressionUUID->"05278f0f-18f9-3b47-a771-1516fa2132c5",
+   CellTags->"Search Terms"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Details", 86768, 1987},
- {"Search Terms", 86911, 1990},
- {"Snapshots", 87056, 1993}
+ {"Snapshots", 86196, 1971},
+ {"Details", 86335, 1974},
+ {"Search Terms", 86478, 1977}
  }
 *)
 (*NotebookFileOutline
@@ -2013,80 +1997,79 @@ Cell[2673, 63, 349, 7, 30, "Affiliation",ExpressionUUID->"4b023de5-61e6-574d-b82
 Cell[CellGroupData[{
 Cell[3047, 74, 237, 5, 66, "Section",ExpressionUUID->"b34c3c6f-75a8-0849-94e1-ca4a3f91437a",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[3287, 81, 2330, 68, 108, "Input",ExpressionUUID->"ac1172ff-ba3d-a74f-8f41-bb2b53f75ac6",
+Cell[3287, 81, 2329, 68, 108, "Input",ExpressionUUID->"ac1172ff-ba3d-a74f-8f41-bb2b53f75ac6",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->566202269],
-Cell[5620, 151, 2659, 66, 111, "Input",ExpressionUUID->"19abb199-3cc3-c044-bb2f-6124254cbd3b",
+Cell[5619, 151, 2658, 66, 111, "Input",ExpressionUUID->"19abb199-3cc3-c044-bb2f-6124254cbd3b",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->98278070],
-Cell[8282, 219, 607, 16, 44, "Input",ExpressionUUID->"79799e33-6031-bf40-b13a-85d427d3059d",
+Cell[8280, 219, 606, 16, 44, "Input",ExpressionUUID->"79799e33-6031-bf40-b13a-85d427d3059d",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->72877831],
-Cell[8892, 237, 611, 16, 44, "Input",ExpressionUUID->"4ddd7432-fd86-ea41-b030-ac2d66c8826f",
+Cell[8889, 237, 610, 16, 44, "Input",ExpressionUUID->"4ddd7432-fd86-ea41-b030-ac2d66c8826f",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->351066660],
-Cell[9506, 255, 628, 16, 61, "Input",ExpressionUUID->"7e5ac9b2-d503-384f-a77f-06f674c2201c",
+Cell[9502, 255, 627, 16, 61, "Input",ExpressionUUID->"7e5ac9b2-d503-384f-a77f-06f674c2201c",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->315993518],
-Cell[10137, 273, 3581, 84, 158, "Input",ExpressionUUID->"e80fe4dc-dc7b-dd44-a5a5-0a918b10ab57",
+Cell[10132, 273, 3632, 85, 158, "Input",ExpressionUUID->"e80fe4dc-dc7b-dd44-a5a5-0a918b10ab57",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->387120033],
-Cell[13721, 359, 3039, 70, 120, "Input",ExpressionUUID->"988fdfe5-3e53-f949-958b-8ef9834fc574",
+Cell[13767, 360, 3038, 70, 120, "Input",ExpressionUUID->"988fdfe5-3e53-f949-958b-8ef9834fc574",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->245713618],
-Cell[16763, 431, 6654, 148, 367, "Input",ExpressionUUID->"ad977ae1-2d45-ef4f-838f-df5a25159d58",
+Cell[16808, 432, 6697, 148, 367, "Input",ExpressionUUID->"ad977ae1-2d45-ef4f-838f-df5a25159d58",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->643348147],
-Cell[23420, 581, 12535, 276, 556, "Output",ExpressionUUID->"8dcfb9ef-20d1-e843-93c3-1bf147e4323d",
+Cell[23508, 582, 12671, 278, 556, "Output",ExpressionUUID->"562af709-164c-3c45-a223-f2f7c70a9cc0",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[35958, 859, 256, 5, 66, "Section",ExpressionUUID->"5f8f22cc-633a-5e4b-891d-0ee496d60b7a",
+Cell[36182, 862, 256, 5, 66, "Section",ExpressionUUID->"5f8f22cc-633a-5e4b-891d-0ee496d60b7a",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[36217, 866, 1835, 30, 77, "Text",ExpressionUUID->"4648581d-a2ff-7f43-99b8-6ffcf3d3cf86",
+Cell[36441, 869, 1659, 25, 77, "Text",ExpressionUUID->"4648581d-a2ff-7f43-99b8-6ffcf3d3cf86",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->44699273]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[38089, 901, 219, 4, 66, "Section",ExpressionUUID->"0beffa26-fb12-d64d-bf45-939f9061d0ed",
+Cell[38137, 899, 219, 4, 66, "Section",ExpressionUUID->"0beffa26-fb12-d64d-bf45-939f9061d0ed",
  CellTags->"Snapshots"],
-Cell[38311, 907, 12404, 275, 559, "Output",ExpressionUUID->"a8ebcf25-0ec8-6b46-9e86-54f00072de17"],
-Cell[50718, 1184, 12475, 276, 556, "Output",ExpressionUUID->"414edf7b-6fc8-ea4c-898a-0023db70dd53"],
-Cell[63196, 1462, 12477, 276, 556, "Output",ExpressionUUID->"5769f610-5d19-1841-979b-0c3795997e1b"]
+Cell[38359, 905, 36692, 816, 1696, "Input",ExpressionUUID->"a8ebcf25-0ec8-6b46-9e86-54f00072de17",
+ Evaluatable->False]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[75710, 1743, 188, 3, 66, "Section",ExpressionUUID->"abe4f0ac-25c9-b84b-8cb8-f3b40461a96d",
+Cell[75088, 1726, 188, 3, 66, "Section",ExpressionUUID->"abe4f0ac-25c9-b84b-8cb8-f3b40461a96d",
  CellTags->"Details"],
-Cell[75901, 1748, 881, 16, 55, "Text",ExpressionUUID->"bd753edc-dc8e-a041-b348-ac1e9f61bb11",
+Cell[75279, 1731, 881, 16, 55, "Text",ExpressionUUID->"bd753edc-dc8e-a041-b348-ac1e9f61bb11",
  CellID->358153795]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[76819, 1769, 188, 3, 66, "Section",ExpressionUUID->"51557ab0-d451-b54e-bee1-5712fdbc88d9",
+Cell[76197, 1752, 188, 3, 66, "Section",ExpressionUUID->"51557ab0-d451-b54e-bee1-5712fdbc88d9",
  CellID->1233418728],
-Cell[77010, 1774, 570, 11, 33, "Text",ExpressionUUID->"0435a4ea-eb2c-da44-8bb4-b68d0b8818ac",
+Cell[76388, 1757, 570, 11, 33, "Text",ExpressionUUID->"0435a4ea-eb2c-da44-8bb4-b68d0b8818ac",
  CellID->196903760],
-Cell[77583, 1787, 694, 12, 55, "Text",ExpressionUUID->"35715d23-dde4-8842-8f92-ba62939cf8b0",
+Cell[76961, 1770, 694, 12, 55, "Text",ExpressionUUID->"35715d23-dde4-8842-8f92-ba62939cf8b0",
  CellID->415417877]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[78314, 1804, 245, 7, 66, "Section",ExpressionUUID->"05278f0f-18f9-3b47-a771-1516fa2132c5",
+Cell[77692, 1787, 245, 7, 66, "Section",ExpressionUUID->"05278f0f-18f9-3b47-a771-1516fa2132c5",
  CellTags->"Search Terms"],
-Cell[78562, 1813, 485, 14, 164, "Text",ExpressionUUID->"733c6f92-9c63-c04b-b688-6103b59c2500",
+Cell[77940, 1796, 485, 14, 164, "Text",ExpressionUUID->"733c6f92-9c63-c04b-b688-6103b59c2500",
  CellID->1564626]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[79084, 1832, 1053, 16, 56, "Section",ExpressionUUID->"7a4f2e9a-e1dd-af45-8479-fa86ecf763e7"],
-Cell[80140, 1850, 1858, 28, 48, "Text",ExpressionUUID->"bef7bbe9-60b0-2c44-bd6f-08b38ea59a56"]
+Cell[78462, 1815, 1053, 16, 56, "Section",ExpressionUUID->"7a4f2e9a-e1dd-af45-8479-fa86ecf763e7"],
+Cell[79518, 1833, 1858, 28, 48, "Text",ExpressionUUID->"bef7bbe9-60b0-2c44-bd6f-08b38ea59a56"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[82035, 1883, 990, 16, 56, "Section",ExpressionUUID->"b6654892-106e-3a4d-99e0-ff70b7abc2c6"],
-Cell[83028, 1901, 3355, 71, 91, "Subsubsubsubsection",ExpressionUUID->"74ff0cf1-48de-6840-812f-88f4b85bc2a3"]
+Cell[81413, 1866, 990, 16, 56, "Section",ExpressionUUID->"b6654892-106e-3a4d-99e0-ff70b7abc2c6"],
+Cell[82406, 1884, 3405, 72, 91, "Subsubsubsubsection",ExpressionUUID->"74ff0cf1-48de-6840-812f-88f4b85bc2a3"]
 }, Open  ]]
 }, Open  ]]
 }

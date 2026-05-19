@@ -1,4 +1,4 @@
-# Demonstrations Source Notebooks:
+# Demonstrations:
 
 1. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Wolfram Demonstrations Project, ChampaignSource: Wolfram Research, Inc., 2018.
 Source: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](InferencesAboutTheDifferenceBetweenTwoProportions.nb)
