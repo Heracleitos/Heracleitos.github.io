@@ -34,7 +34,7 @@ Source Notebook: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 
 Source Notebook: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 
-8. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19164679
+8. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20279024
 
 Source Notebook: [Nutrition.nb](Nutrition/Nutrition.nb)
 
@@ -46,7 +46,7 @@ Source Notebook: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.n
 
 Source Notebook: [IntelligentQualityControl.nb](IntelligentQualityControl/IntelligentQualityControl.nb)
 
-11. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.2.4. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.18521332
+11. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.5. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20278408
 
 Source Notebook: [Quality.nb](Quality/Quality.nb)
 
