@@ -1,6 +1,6 @@
 # HCSL Technical Report XX
 
-Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Technical Report XX. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.18604269
+Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Technical Report XX. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278487
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr20/.
 
