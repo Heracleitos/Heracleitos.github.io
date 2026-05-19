@@ -23,7 +23,7 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 19. Chatzimichail T. Enteral Nutritional Design. Technical Report X. Hellenic Complex Systems Laboratory; 2017. https://doi.org/10.5281/zenodo.18599738
 20. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Technical Report IX. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.18599616
 21. Hatjimihail AT. Calculation of the confidence bounds for the fraction nonconforming of normal populations of measurements in clinical laboratory medicine. Technical Report IV. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.18593807
-22. Hatjimihail AT. The Area Over a Receiver Operating Characteristic (ROC) Curve as an Index of Diagnostic Inaccuracy. Technical Report XIX. Hellenic Complex Systems Laboratory; 2011. https://doi.org/10.5281/zenodo.18604218
+22. Hatjimihail AT. The Area Over a Receiver Operating Characteristic (ROC) Curve as an Index of Diagnostic Inaccuracy. Technical Report XIX. Hellenic Complex Systems Laboratory; 2011. https://doi.org/10.5281/zenodo.20288914
 23. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Technical Report VIII. Hellenic Complex Systems Laboratory; 2010. https://doi.org/10.5281/zenodo.18599206
 24. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Technical Report VII. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.18596227
 25. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Technical Report VI. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.18596157
