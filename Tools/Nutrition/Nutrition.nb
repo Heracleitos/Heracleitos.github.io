@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1137474,      19859]
-NotebookOptionsPosition[   1132786,      19756]
-NotebookOutlinePosition[   1134281,      19796]
-CellTagsIndexPosition[   1134135,      19789]
+NotebookDataLength[   1137924,      19869]
+NotebookOptionsPosition[   1133230,      19766]
+NotebookOutlinePosition[   1134731,      19806]
+CellTagsIndexPosition[   1134585,      19799]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -46,15 +46,15 @@ Cell[TextData[StyleBox["A software tool for for enteral nutrition design", \
 79dd99a8cf4e"],
 
 Cell[TextData[{
- "Theodora Chatzimichail, MD  \n",
+ "Theodora Chatzimichail, MRCS  \n",
  StyleBox["tc@hcsl.com\n", "Affiliation"]
 }], "Author",
- Editable->False,
  CellChangeTimes->{
   3.779939770766173*^9, {3.7799398045208244`*^9, 3.7799398637488203`*^9}, {
    3.780026882968507*^9, 3.7800269771474257`*^9}, 3.7804577481605644`*^9, 
    3.8243548430038724`*^9, 3.8321343892140923`*^9, {3.834746706343012*^9, 
-   3.834746708232136*^9}},ExpressionUUID->"5033b5ff-e6b0-4f98-9381-\
+   3.834746708232136*^9}, {3.9881421626773663`*^9, 
+   3.988142164142378*^9}},ExpressionUUID->"5033b5ff-e6b0-4f98-9381-\
 cc2202976bf7"],
 
 Cell["\<\
@@ -6816,13 +6816,13 @@ fat\>\"", ",", "\"\<MAE\>\"", ",", "1", ",", "47.9`", ",", "24.6`", ",",
        "28", ",", "240"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"\"\<18-173\>\"", 
-       ",", "\"\<Lamb shoulder half bladeside pot-roasted lean\>\"", 
+       ",", "\"\<Lamb shoulder half blade side pot-roasted lean\>\"", 
        ",", "\"\<MAE\>\"", ",", "1", ",", "58.3`", ",", "26.2`", ",", "14.3`",
         ",", "0", ",", "0", ",", "6.4`", ",", "68", ",", "280", ",", "12", ",",
         "21", ",", "190"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"\"\<18-174\>\"", 
-       ",", "\"\<Lamb shoulder half bladeside pot-roasted lean and fat\>\"", 
+       ",", "\"\<Lamb shoulder half blade side pot-roasted lean and fat\>\"", 
        ",", "\"\<MAE\>\"", ",", "1", ",", "50.1`", ",", "23.5`", ",", "25.6`",
         ",", "0", ",", "0", ",", "12", ",", "71", ",", "280", ",", "12", ",", 
        "21", ",", "180"}], "}"}], ",", 
@@ -13094,7 +13094,8 @@ fortified\>\"", ",", "\"\<BN\>\"", ",", "1", ",", "82.7`", ",", "3.3`", ",",
   3.836399738779093*^9, {3.836399847836839*^9, 3.836399856527094*^9}, 
    3.836399932928703*^9, {3.8400925559752493`*^9, 3.840092559713539*^9}, 
    3.930542392473219*^9},
- CellLabel->"In[21]:=",ExpressionUUID->"8b425c8a-5c94-4670-9675-eeafc9285fb7"]
+ CellLabel->
+  "In[111]:=",ExpressionUUID->"8b425c8a-5c94-4670-9675-eeafc9285fb7"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -13131,8 +13132,8 @@ Cell[BoxData[{
         "->", "\"\<https://doi.org/10.5281/zenodo.19164679\>\""}], ",", 
        RowBox[{"\"\<PreferredCitation\>\"", 
         "->", "\"\<Chatzimichail T. Enteral Nutrition Design: A Software Tool \
-for Enteral Nutrition Design. Ver. 1.0.1. Hellenic Complex Systems \
-Laboratory; 2026. https://doi.org/10.5281/zenodo.19164679\>\""}]}], 
+for Enteral Nutrition Design. Ver. 1.0.2. Hellenic Complex Systems \
+Laboratory; 2026. https://doi.org/10.5281/zenodo.20279024\>\""}]}], 
       "|>"}]}]}], "]"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"meatkw", "=", "\"\<MCA\>\""}], ";"}], "\[IndentingNewLine]", 
@@ -13255,7 +13256,7 @@ Laboratory; 2026. https://doi.org/10.5281/zenodo.19164679\>\""}]}],
           RowBox[{"Map", "[", 
            RowBox[{
             RowBox[{
-             RowBox[{"If", " ", "[", 
+             RowBox[{"If", "[", 
               RowBox[{
                RowBox[{"#", "\[NotEqual]", "\"\<\>\""}], ",", 
                RowBox[{"StringJoin", "[", 
@@ -13662,7 +13663,7 @@ Laboratory; 2026. https://doi.org/10.5281/zenodo.19164679\>\""}]}],
                    RowBox[{"\"\<MG\>\"", "->", "\"\<Offal\>\""}], ",", " ", 
                    
                    RowBox[{"\"\<MBG\>\"", 
-                    "->", "\"\<Burgers and grillsteaks\>\""}], ",", 
+                    "->", "\"\<Burgers and grill steaks\>\""}], ",", 
                    RowBox[{"\"\<MAA\>\"", "->", "\"\<Bacon\>\""}], ",", 
                    RowBox[{"\"\<MI\>\"", "->", "\"\<Meat products\>\""}], ",", 
                    RowBox[{"\"\<MR\>\"", "->", "\"\<Meat dishes\>\""}], ",", 
@@ -13994,6 +13995,7 @@ calories\>\"", ",", "\[IndentingNewLine]",
     RowBox[{"SaveDefinitions", "\[Rule]", "True"}], ",", " ", 
     RowBox[{"SynchronousInitialization", "\[Rule]", "False"}], ",", " ", 
     RowBox[{"Deployed", "->", "True"}]}], "]"}]}]}], "Input",
+ Editable->False,
  CellOpen->False,
  InitializationCell->True,
  CellChangeTimes->{
@@ -14048,8 +14050,10 @@ calories\>\"", ",", "\[IndentingNewLine]",
    3.840092003906811*^9, 3.8400920046277947`*^9}, {3.840340735366078*^9, 
    3.8403407404414606`*^9}, 3.930542392473219*^9, {3.9700586107642307`*^9, 
    3.9700586268847103`*^9}, 3.9700587413805294`*^9, 3.970058863405424*^9, {
-   3.9831919869209747`*^9, 3.983191989732668*^9}},
- CellLabel->"In[22]:=",ExpressionUUID->"1272761c-54bd-4dc0-926b-0ad813024171"],
+   3.9831919869209747`*^9, 3.983191989732668*^9}, 3.988140755592798*^9, 
+   3.988142490137512*^9, 3.9881487631545525`*^9, 3.9881494785081253`*^9},
+ CellLabel->
+  "In[112]:=",ExpressionUUID->"1272761c-54bd-4dc0-926b-0ad813024171"],
 
 Cell[BoxData[
  TagBox[
@@ -14138,8 +14142,8 @@ Cell[BoxData[
                 "MAC" -> "Beef", "MAE" -> "Lamb", "MAG" -> "Pork", "MAI" -> 
                  "Veal", "MCA" -> "Chicken", "MCC" -> "Duck", "MCE" -> 
                  "Goose", "MCG" -> "Grouse", "MCO" -> "Turkey", "ME" -> 
-                 "Game", "MG" -> "Offal", "MBG" -> "Burgers and grillsteaks", 
-                 "MAA" -> "Bacon", "MI" -> "Meat products", "MR" -> 
+                 "Game", "MG" -> "Offal", "MBG" -> "Burgers and grill steaks",
+                  "MAA" -> "Bacon", "MI" -> "Meat products", "MR" -> 
                  "Meat dishes", "JA" -> "White fish", "JC" -> "Fatty fish", 
                  "JK" -> "Crustacea", "JM" -> "Molluscs", "JR" -> 
                  "Fish products and dishes", "None" -> "None"}, ControlType -> 
@@ -16796,9 +16800,9 @@ and bone", "MAE", 0.59, 32.2, 18.5, 8.1, 0, 0, 3.7, 60, 240, 11, 18, 150}, {
            25.9, 19.8, 0, 0, 9.3, 74, 330, 9, 24, 200}, {
          "18-172", "Lamb shoulder diced kebabs grilled lean and fat", "MAE", 
           1, 52.1, 28.5, 19.3, 0, 0, 9, 87, 420, 14, 28, 240}, {
-         "18-173", "Lamb shoulder half bladeside pot-roasted lean", "MAE", 1, 
-          58.3, 26.2, 14.3, 0, 0, 6.4, 68, 280, 12, 21, 190}, {
-         "18-174", "Lamb shoulder half bladeside pot-roasted lean and fat", 
+         "18-173", "Lamb shoulder half blade side pot-roasted lean", "MAE", 1,
+           58.3, 26.2, 14.3, 0, 0, 6.4, 68, 280, 12, 21, 190}, {
+         "18-174", "Lamb shoulder half blade side pot-roasted lean and fat", 
           "MAE", 1, 50.1, 23.5, 25.6, 0, 0, 12, 71, 280, 12, 21, 180}, {
          "18-175", "Lamb shoulder half knuckle braised lean", "MAE", 1, 62.5, 
           25.1, 12.4, 0, 0, 5.4, 76, 290, 10, 21, 190}, {
@@ -19339,7 +19343,8 @@ $CellContext`sol]], $CellContext`fn]]; If[$CellContext`sol != {},
             Text[
              Pane[
               Style["No foood selected.", Red]]], FrameStyle -> 
-            LightGray]]], $CellContext`se[
+            LightGray]]], $CellContext`fn = 
+       9.866998938504152*^-10, $CellContext`se[
          Pattern[$CellContext`foo, 
           Blank[]], 
          Pattern[$CellContext`s, 
@@ -19358,8 +19363,10 @@ $CellContext`sol]], $CellContext`fn]]; If[$CellContext`sol != {},
    3.9305428476813965`*^9, {3.9698556311181526`*^9, 3.9698556315311813`*^9}, 
    3.9698557029183216`*^9, 3.969855845581911*^9, {3.970058430488203*^9, 
    3.9700584316576233`*^9}, 3.9700586395712185`*^9, {3.9831920132053223`*^9, 
-   3.98319201431736*^9}},
- CellLabel->"Out[40]=",ExpressionUUID->"a53d08f7-4d8e-2a41-bfc9-b6872af76645"]
+   3.98319201431736*^9}, {3.988141639487118*^9, 3.9881416405740776`*^9}, 
+   3.9881496137107334`*^9},
+ CellLabel->
+  "Out[130]=",ExpressionUUID->"00ae1752-3a2e-4d41-b62d-a6d789f24842"]
 }, Open  ]]
 }, Open  ]],
 
@@ -19479,7 +19486,7 @@ enteral nutrition formulae of blended foods [1].\
    3.840104891615452*^9}, {3.840104961293717*^9, 3.840104962029699*^9}, {
    3.8401053235313454`*^9, 3.84010532404333*^9}},
  CellID->350564258,ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -19560,7 +19567,7 @@ integrated_dataset_2021.pdf (accessed May 2021)",
    3.831605725791704*^9}, {3.83160580472585*^9, 3.8316058616850452`*^9}},
  FontSize->14,
  CellID->398036316,ExpressionUUID->"a233ae34-9a9a-458e-a21e-7b7c027a371e"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -19591,8 +19598,8 @@ medicine\
   3.8243563217691073`*^9, 3.8243657439739065`*^9, {3.831805705468223*^9, 
    3.831805706439058*^9}, {3.840457435574696*^9, 3.840457437627948*^9}},
  CellID->320223495,ExpressionUUID->"917b1c32-8846-4cb4-bc12-d0f470b12680"]
-}, Closed]]
-}, Closed]],
+}, Open  ]]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -19673,7 +19680,7 @@ Cell[TextData[{
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion 1.0.1\n",
+ StyleBox["\nVersion 1.0.2\n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -19689,11 +19696,11 @@ Cell[TextData[{
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox[ButtonBox["10.5281/zenodo.19164679",
+ StyleBox[ButtonBox["10.5281/zenodo.20279024",
   BaseStyle->"Hyperlink",
   ButtonData->{
-    URL["https://doi.org/10.5281/zenodo.19164679"], None},
-  ButtonNote->"https://doi.org/10.5281/zenodo.19164679"],
+    URL["https://doi.org/10.5281/zenodo.20279024"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.20279024"],
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -19719,6 +19726,8 @@ International Creative Commons License",
   FontSize->12,
   FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]]
 }], "Text",
+ Editable->False,
+ Deployed->True,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
@@ -19748,19 +19757,20 @@ International Creative Commons License",
    3.9279421322022*^9, {3.928508003930801*^9, 3.928508016806692*^9}, {
    3.9305422571120167`*^9, 3.9305422576960087`*^9}, {3.9831892191129856`*^9, 
    3.9831892319702797`*^9}, {3.9831918333939*^9, 3.983191879848097*^9}, {
-   3.983191919143055*^9, 
-   3.9831919191440544`*^9}},ExpressionUUID->"6b0a6cda-d651-4486-99b0-\
+   3.983191919143055*^9, 3.9831919191440544`*^9}, {3.988141944604622*^9, 
+   3.9881419468528175`*^9}, 3.988149489775791*^9, {3.988149541045536*^9, 
+   3.988149541045536*^9}},ExpressionUUID->"6b0a6cda-d651-4486-99b0-\
 725257a2db5e"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1430.25, 732.75},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{1440, 742.5},
+WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
 TaggingRules-><|
  "DOI" -> "https://doi.org/10.5281/zenodo.19164679", "PreferredCitation" -> 
   "Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral \
-Nutrition Design. Ver. 1.0.1. Hellenic Complex Systems Laboratory; 2026. \
-https://doi.org/10.5281/zenodo.19164679"|>,
+Nutrition Design. Ver. 1.0.2. Hellenic Complex Systems Laboratory; 2026. \
+https://doi.org/10.5281/zenodo.20279024"|>,
 Magnification->1.,
 FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
@@ -19772,25 +19782,25 @@ ExpressionUUID->"c4316845-c89e-4f9a-881b-ae76aa07d7e8"
 (*CellTagsOutline
 CellTagsIndex->{
  "Initialization Code"->{
-  Cell[2537, 68, 266, 7, 66, "Section",ExpressionUUID->"19667f9f-52b8-8149-8ad6-52e3c8aab62d",
+  Cell[2573, 68, 266, 7, 66, "Section",ExpressionUUID->"19667f9f-52b8-8149-8ad6-52e3c8aab62d",
    CellTags->"Initialization Code"]},
  "Caption"->{
-  Cell[1112625, 19367, 219, 4, 66, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
+  Cell[1112914, 19374, 219, 4, 66, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
    CellTags->"Caption"]},
  "Details"->{
-  Cell[1115677, 19417, 272, 5, 66, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
+  Cell[1115966, 19424, 272, 5, 66, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
    CellGroupingRules->{"GroupTogetherGrouping", 10002.},
    CellTags->"Details"],
-  Cell[1123555, 19566, 524, 8, 52, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
+  Cell[1123844, 19573, 524, 8, 66, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
    CellGroupingRules->{"GroupTogetherGrouping", 10001.},
    CellTags->"Details"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 1133457, 19773},
- {"Caption", 1133604, 19776},
- {"Details", 1133745, 19779}
+ {"Initialization Code", 1133907, 19783},
+ {"Caption", 1134054, 19786},
+ {"Details", 1134195, 19789}
  }
 *)
 (*NotebookFileOutline
@@ -19799,66 +19809,66 @@ Cell[CellGroupData[{
 Cell[580, 22, 291, 6, 96, "Title",ExpressionUUID->"716049c7-4e8f-43d6-90ae-0628b12bece9"],
 Cell[874, 30, 851, 15, 70, "Title",ExpressionUUID->"bbb3751b-5648-49da-8046-79dd99a8cf4e",
  Evaluatable->False],
-Cell[1728, 47, 454, 10, 76, "Author",ExpressionUUID->"5033b5ff-e6b0-4f98-9381-cc2202976bf7"],
-Cell[2185, 59, 349, 7, 30, "Affiliation",ExpressionUUID->"91159234-a84a-4370-8406-2061eb268101"],
-Cell[2537, 68, 266, 7, 66, "Section",ExpressionUUID->"19667f9f-52b8-8149-8ad6-52e3c8aab62d",
+Cell[1728, 47, 490, 10, 76, "Author",ExpressionUUID->"5033b5ff-e6b0-4f98-9381-cc2202976bf7"],
+Cell[2221, 59, 349, 7, 30, "Affiliation",ExpressionUUID->"91159234-a84a-4370-8406-2061eb268101"],
+Cell[2573, 68, 266, 7, 66, "Section",ExpressionUUID->"19667f9f-52b8-8149-8ad6-52e3c8aab62d",
  CellTags->"Initialization Code"],
 Cell[CellGroupData[{
-Cell[2828, 79, 1032, 16, 42, "Section",ExpressionUUID->"287b09e9-586b-234b-a8fe-2671fec7976b"],
-Cell[3863, 97, 729319, 12999, 19, "Input",ExpressionUUID->"8b425c8a-5c94-4670-9675-eeafc9285fb7",
+Cell[2864, 79, 1032, 16, 42, "Section",ExpressionUUID->"287b09e9-586b-234b-a8fe-2671fec7976b"],
+Cell[3899, 97, 729325, 13000, 19, "Input",ExpressionUUID->"8b425c8a-5c94-4670-9675-eeafc9285fb7",
  Evaluatable->True,
  CellOpen->False,
  InitializationCell->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[733219, 13101, 1035, 16, 56, "Section",ExpressionUUID->"a1c54bc1-0371-8442-9c19-3d371365bf73"],
+Cell[733261, 13102, 1035, 16, 56, "Section",ExpressionUUID->"a1c54bc1-0371-8442-9c19-3d371365bf73"],
 Cell[CellGroupData[{
-Cell[734279, 13121, 42681, 930, 19, "Input",ExpressionUUID->"1272761c-54bd-4dc0-926b-0ad813024171",
+Cell[734321, 13122, 42795, 933, 19, "Input",ExpressionUUID->"1272761c-54bd-4dc0-926b-0ad813024171",
  CellOpen->False,
  InitializationCell->True],
-Cell[776963, 14053, 335613, 5308, 774, "Output",ExpressionUUID->"a53d08f7-4d8e-2a41-bfc9-b6872af76645"]
+Cell[777119, 14057, 335746, 5311, 774, "Output",ExpressionUUID->"00ae1752-3a2e-4d41-b62d-a6d789f24842"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1112625, 19367, 219, 4, 66, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
+Cell[1112914, 19374, 219, 4, 66, "Section",ExpressionUUID->"f5b8cb73-1279-4b5f-809a-e5664028512f",
  CellTags->"Caption"],
-Cell[1112847, 19373, 2805, 40, 121, "Text",ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e",
+Cell[1113136, 19380, 2805, 40, 121, "Text",ExpressionUUID->"e2aa56f4-9568-4d85-8062-8274480aee7e",
  CellID->1514960032],
 Cell[CellGroupData[{
-Cell[1115677, 19417, 272, 5, 66, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
+Cell[1115966, 19424, 272, 5, 66, "Section",ExpressionUUID->"25f7c3d0-060e-422a-8992-51d2d39fc132",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellTags->"Details"],
-Cell[1115952, 19424, 3972, 56, 127, "Text",ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7",
+Cell[1116241, 19431, 3972, 56, 121, "Text",ExpressionUUID->"29f113f1-d0d2-4374-8359-5ffa685235a7",
  CellGroupingRules->{"GroupTogetherGrouping", 10002.},
  CellID->350564258]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[1119961, 19485, 300, 6, 52, "Section",ExpressionUUID->"528f32fd-ca58-48e1-bd77-be142369e5e6",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellID->177442523],
-Cell[1120264, 19493, 2010, 46, 60, "Text",ExpressionUUID->"dbd0cf33-6e4e-4078-a484-d785a628a6ae",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellID->193751],
-Cell[1122277, 19541, 1241, 20, 84, "Text",ExpressionUUID->"a233ae34-9a9a-458e-a21e-7b7c027a371e",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellID->398036316]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[1123555, 19566, 524, 8, 52, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
- CellTags->"Details"],
-Cell[1124082, 19576, 482, 16, 219, "Text",ExpressionUUID->"917b1c32-8846-4cb4-bc12-d0f470b12680",
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
- CellID->320223495]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[1124613, 19598, 1053, 16, 42, "Section",ExpressionUUID->"0c737859-83f0-fb43-bb3d-ac48b0cf1891"],
-Cell[1125669, 19616, 1812, 27, 48, "Text",ExpressionUUID->"dbc081ee-b20a-2448-8667-d7f69e549bc7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1127518, 19648, 986, 16, 56, "Section",ExpressionUUID->"5eda4602-8403-42aa-a086-3f7d462c6045"],
-Cell[1128507, 19666, 4251, 86, 102, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
+Cell[1120250, 19492, 300, 6, 66, "Section",ExpressionUUID->"528f32fd-ca58-48e1-bd77-be142369e5e6",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellID->177442523],
+Cell[1120553, 19500, 2010, 46, 58, "Text",ExpressionUUID->"dbd0cf33-6e4e-4078-a484-d785a628a6ae",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellID->193751],
+Cell[1122566, 19548, 1241, 20, 81, "Text",ExpressionUUID->"a233ae34-9a9a-458e-a21e-7b7c027a371e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellID->398036316]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1123844, 19573, 524, 8, 66, "Section",ExpressionUUID->"34de91f6-f291-45e7-9255-d3c305aa0bd1",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellTags->"Details"],
+Cell[1124371, 19583, 482, 16, 208, "Text",ExpressionUUID->"917b1c32-8846-4cb4-bc12-d0f470b12680",
+ CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+ CellID->320223495]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1124902, 19605, 1053, 16, 56, "Section",ExpressionUUID->"0c737859-83f0-fb43-bb3d-ac48b0cf1891"],
+Cell[1125958, 19623, 1812, 27, 48, "Text",ExpressionUUID->"dbc081ee-b20a-2448-8667-d7f69e549bc7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1127807, 19655, 986, 16, 56, "Section",ExpressionUUID->"5eda4602-8403-42aa-a086-3f7d462c6045"],
+Cell[1128796, 19673, 4406, 89, 102, "Text",ExpressionUUID->"6b0a6cda-d651-4486-99b0-725257a2db5e"]
 }, Open  ]]
 }, Open  ]]
 }

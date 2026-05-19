@@ -9,11 +9,11 @@ authors:
   - family-names: "Hatjimihail"
     given-names: "Aristeidis T."
     orcid: "https://orcid.org/0000-0002-0502-7996"
-version: 1.0.2.4
-date-released: "2026-03-23"
+version: 1.0.5
+date-released: "2026-05-29"
 identifiers:
-  - description: "This is the archived snapshot of version 1.0.4 of Quality"
+  - description: "This is the archived snapshot of version 1.0.5 of Quality"
     type: doi
-    value: "10.5281/zenodo.19177938"
+    value: "10.5281/zenodo.20278408"
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://www.hcsl.com/Tools/Quality/index.html"
