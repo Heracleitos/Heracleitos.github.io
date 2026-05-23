@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    141123,       2888]
-NotebookOptionsPosition[    133513,       2731]
-NotebookOutlinePosition[    135215,       2776]
-CellTagsIndexPosition[    135011,       2767]
+NotebookDataLength[    146680,       2999]
+NotebookOptionsPosition[    138837,       2838]
+NotebookOutlinePosition[    140542,       2883]
+CellTagsIndexPosition[    140338,       2874]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2726,11 +2726,118 @@ International Creative Commons License",
    3.9881930363879585`*^9, 
    3.9881930555882893`*^9}},ExpressionUUID->"bd2cbe4f-24f6-4694-9f11-\
 f7a37b1b4817"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["About",
+ FontSize->20]], "Section",
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.807076712859339*^9, 3.807076713036334*^9}, {3.824277477031402*^9, 
+   3.824277511380593*^9}, {3.824277548835521*^9, 3.824277559781518*^9}, {
+   3.824277599212511*^9, 3.824277630943819*^9}, {3.82428740993026*^9, 
+   3.824287440745445*^9}, 3.824287582450876*^9, {3.824288279895161*^9, 
+   3.824288292274851*^9}, 3.824288335615207*^9, {3.824288545290736*^9, 
+   3.824288562748387*^9}, {3.824288784545688*^9, 3.824288813125119*^9}, 
+   3.824288959149333*^9, {3.824289179714106*^9, 3.824289214280095*^9}, {
+   3.824289247927791*^9, 
+   3.824289271662448*^9}},ExpressionUUID->"77dd280b-fbc3-9546-af44-\
+6ffe683f89c7"],
+
+Cell[TextData[{
+ StyleBox["The Area Over a Receiver Operating Characteristic (ROC) Curve as \
+an Index of Diagnostic Inaccuracy",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nVersion Number 1.1.2\n",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["Hellenic Complex Systems Laboratory ",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.hcsl.com"], None},
+  ButtonNote->"https://www.hcsl.com"],
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["2026\nDOI:\nFirst published in 2011 as part of the Wolfram \
+Demonstrations Project: ",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["demonstrations.wolfram.com/\
+TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex/",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://demonstrations.wolfram.com/\
+TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex/"], None},
+  ButtonNote->
+   "https://demonstrations.wolfram.com/\
+TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex/"],
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nThe notebook is distributed under  a ",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["Creative Commons Attribution-NonCommercial-ShareAlike \
+4.0 International License",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://creativecommons.org/licenses/by-nc-sa/4.0/"], None},
+  ButtonNote->"https://creativecommons.org/licenses/by-nc-sa/4.0/"],
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[".",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]]
+}], "Text",
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.807076712859339*^9, 3.807076713036334*^9}, {3.824277477031402*^9, 
+   3.824277511380593*^9}, {3.824277548835521*^9, 3.824277559781518*^9}, {
+   3.824277599212511*^9, 3.824277630943819*^9}, {3.82428740993026*^9, 
+   3.824287440745445*^9}, 3.824287582450876*^9, {3.824288279895161*^9, 
+   3.824288292274851*^9}, 3.824288335615207*^9, {3.824288545290736*^9, 
+   3.824288562748387*^9}, {3.824288784545688*^9, 3.824288813125119*^9}, 
+   3.824288959149333*^9, {3.824289179714106*^9, 3.824289214280095*^9}, 
+   3.824364536962468*^9, {3.927734734481432*^9, 3.927734734482434*^9}, {
+   3.928499166249687*^9, 3.92849916948378*^9}, {3.9285000028744793`*^9, 
+   3.928500004305767*^9}, {3.9884594159475403`*^9, 3.988459422796669*^9}, {
+   3.988522004757393*^9, 3.9885220381174755`*^9}, {3.9885222276384754`*^9, 
+   3.988522257397011*^9}, 3.9885222933259735`*^9, {3.9885225734613247`*^9, 
+   3.988522614069685*^9}, {3.9885226476758766`*^9, 3.9885226476758766`*^9}, {
+   3.9885226883108807`*^9, 3.988522691173752*^9}, {3.9885227856617184`*^9, 
+   3.988522825853874*^9}, {3.988533330259609*^9, 3.988533334386362*^9}, 
+   3.988533687643015*^9, {3.9885337483756638`*^9, 3.988533748376663*^9}, {
+   3.988533939106291*^9, 3.988533964554552*^9}, {3.9885341120222073`*^9, 
+   3.988534140882164*^9}, {3.9885342206376667`*^9, 3.9885342206376667`*^9}, {
+   3.98853465749082*^9, 3.9885347579004116`*^9}, {3.9885349501069202`*^9, 
+   3.988534952859413*^9}, {3.988535131579033*^9, 3.988535151906601*^9}, {
+   3.988535200924183*^9, 3.9885352384025764`*^9}, 3.9885353945147896`*^9, {
+   3.9885354256271095`*^9, 3.988535426315134*^9}, {3.9885354601029644`*^9, 
+   3.988535460103964*^9}, 3.988535628099373*^9, {3.988535681042675*^9, 
+   3.9885357496739864`*^9}, {3.988535784211357*^9, 3.9885357842123566`*^9}, 
+   3.9885358398273144`*^9, {3.9885359732762604`*^9, 3.988536022035034*^9}, 
+   3.9885361435090504`*^9, {3.988536184826853*^9, 3.9885361896193104`*^9}, {
+   3.9885362210563736`*^9, 
+   3.988536238370981*^9}},ExpressionUUID->"cccafa39-1140-f942-8ab3-\
+b7c9f9cb2506"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1430.25, 737.625},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{718.5, 736.875},
+WindowMargins->{{-4.125, Automatic}, {Automatic, 0}},
 FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"c8c69a5f-92fa-4e6d-91e8-085b59228aec"
@@ -2749,7 +2856,7 @@ CellTagsIndex->{
    CellGroupingRules->{"GroupTogetherGrouping", 10000.},
    CellTags->"Caption"]},
  "Snapshots"->{
-  Cell[52225, 1136, 246, 4, 52, "Section",ExpressionUUID->"71424b22-7231-4dd5-bfc3-df3203b1c902",
+  Cell[52225, 1136, 246, 4, 66, "Section",ExpressionUUID->"71424b22-7231-4dd5-bfc3-df3203b1c902",
    CellGroupingRules->{"GroupTogetherGrouping", 10001.},
    CellTags->"Snapshots"]},
  "Details"->{
@@ -2766,11 +2873,11 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 133877, 2742},
- {"Caption", 134081, 2746},
- {"Snapshots", 134278, 2750},
- {"Details", 134475, 2754},
- {"Related Links", 134857, 2761}
+ {"Initialization Code", 139204, 2849},
+ {"Caption", 139408, 2853},
+ {"Snapshots", 139605, 2857},
+ {"Details", 139802, 2861},
+ {"Related Links", 140184, 2868}
  }
 *)
 (*NotebookFileOutline
@@ -2811,12 +2918,12 @@ Cell[36108, 820, 12919, 260, 312, "Output",ExpressionUUID->"137590ac-ddbb-c64d-a
 Cell[49030, 1082, 248, 4, 66, "Section",ExpressionUUID->"dfffced6-35cd-4eaa-b4d9-69a1cb096dcf",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellTags->"Caption"],
-Cell[49281, 1088, 2907, 43, 104, "Text",ExpressionUUID->"81ff0218-7bdc-413b-91ae-29ae281487b5",
+Cell[49281, 1088, 2907, 43, 186, "Text",ExpressionUUID->"81ff0218-7bdc-413b-91ae-29ae281487b5",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->435014217]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[52225, 1136, 246, 4, 52, "Section",ExpressionUUID->"71424b22-7231-4dd5-bfc3-df3203b1c902",
+Cell[52225, 1136, 246, 4, 66, "Section",ExpressionUUID->"71424b22-7231-4dd5-bfc3-df3203b1c902",
  CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellTags->"Snapshots"],
 Cell[52474, 1142, 12557, 255, 449, "Output",ExpressionUUID->"f48680e9-57de-4d1a-9078-82d748489456",
@@ -2883,11 +2990,15 @@ Cell[125103, 2563, 760, 15, 35, "Text",ExpressionUUID->"22e5f7c6-c96d-461c-92e5-
 }, Closed]],
 Cell[CellGroupData[{
 Cell[125900, 2583, 1053, 16, 42, "Section",ExpressionUUID->"efb5f700-0fe2-754d-b8cf-7bffccf86a32"],
-Cell[126956, 2601, 1858, 28, 48, "Text",ExpressionUUID->"beb369d5-b574-ae45-b8ea-b9cbdd76b824"]
+Cell[126956, 2601, 1858, 28, 84, "Text",ExpressionUUID->"beb369d5-b574-ae45-b8ea-b9cbdd76b824"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[128851, 2634, 990, 16, 56, "Section",ExpressionUUID->"cf443aa7-1ad7-4821-9433-6a0bfec50178"],
-Cell[129844, 2652, 3641, 75, 102, "Text",ExpressionUUID->"bd2cbe4f-24f6-4694-9f11-f7a37b1b4817"]
+Cell[129844, 2652, 3641, 75, 116, "Text",ExpressionUUID->"bd2cbe4f-24f6-4694-9f11-f7a37b1b4817"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[133522, 2732, 968, 15, 56, "Section",ExpressionUUID->"77dd280b-fbc3-9546-af44-6ffe683f89c7"],
+Cell[134493, 2749, 4316, 85, 138, "Text",ExpressionUUID->"cccafa39-1140-f942-8ab3-b7c9f9cb2506"]
 }, Open  ]]
 }, Open  ]]
 }

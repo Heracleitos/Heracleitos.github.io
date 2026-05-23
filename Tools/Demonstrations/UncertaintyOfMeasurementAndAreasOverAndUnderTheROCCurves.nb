@@ -10,16 +10,14 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     76070,       1538]
-NotebookOptionsPosition[     70209,       1412]
-NotebookOutlinePosition[     71961,       1458]
-CellTagsIndexPosition[     71762,       1449]
+NotebookDataLength[     73834,       1485]
+NotebookOptionsPosition[     69632,       1390]
+NotebookOutlinePosition[     70876,       1427]
+CellTagsIndexPosition[     70710,       1419]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
 Cell["\<\
 Uncertainty of Measurement and Areas Over and Under the ROC Curves\
 \>", "Title",
@@ -52,12 +50,14 @@ Cell[CellGroupData[{
 
 Cell["Initialization Code", "Section",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{
-  3.82435306679001*^9, {3.824353271200124*^9, 3.824353300207913*^9}},
+  3.82435306679001*^9, {3.824353271200124*^9, 3.824353300207913*^9}, 
+   3.988536908460314*^9},
  CellTags->
   "Initialization \
 Code",ExpressionUUID->"cdf06bae-7568-46ac-bf89-0c4150f8de7c"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
@@ -112,7 +112,8 @@ Cell[BoxData[
    3.4068224041942573`*^9, {3.406822449434258*^9, 3.406822507213258*^9}, {
    3.407118747574*^9, 3.407118755851*^9}, {3.4083375365210757`*^9, 
    3.408337630231076*^9}, {3.445009220294279*^9, 3.4450092228112793`*^9}, {
-   3.445009277050279*^9, 3.44500927888828*^9}, 3.824362371538714*^9},
+   3.445009277050279*^9, 3.44500927888828*^9}, 3.824362371538714*^9, 
+   3.988536908460314*^9},
  CellLabel->"In[111]:=",
  CellID->517742995,ExpressionUUID->"64e6faf2-b9b0-4921-b728-b1cdcd967767"],
 
@@ -165,8 +166,7 @@ Cell[BoxData[
                  RowBox[{"\"\<SymbolicProcessing\>\"", "\[Rule]", "0"}]}], 
                 "}"}]}], ",", 
               RowBox[{"AccuracyGoal", "\[Rule]", "2"}]}], "]"}]}], ")"}], 
-          ",", "\"\<ratio of the two areas under the curves\>\""}], "]"}], 
-        ",", 
+          ",", "\"\<ratio of the two areas under the curves\>\""}], "]"}], ",", 
         RowBox[{"Tooltip", "[", 
          RowBox[{
           RowBox[{
@@ -187,8 +187,7 @@ Cell[BoxData[
                    ",", 
                   RowBox[{"\"\<SymbolicProcessing\>\"", "\[Rule]", "0"}]}], 
                  "}"}]}], ",", 
-               RowBox[{"AccuracyGoal", "\[Rule]", "2"}]}], "]"}]}], ")"}], 
-           "/", 
+               RowBox[{"AccuracyGoal", "\[Rule]", "2"}]}], "]"}]}], ")"}], "/", 
            RowBox[{"(", 
             RowBox[{"1", "-", 
              RowBox[{"NIntegrate", "[", 
@@ -412,10 +411,10 @@ Cell[BoxData[
    3.449198970775118*^9, 3.449198987815821*^9}, {3.449243404124293*^9, 
    3.449243431069987*^9}, {3.7517028164464836`*^9, 3.751702823828487*^9}, {
    3.7517032921104836`*^9, 3.751703297307488*^9}, {3.751703335072483*^9, 
-   3.751703371931488*^9}, 3.8243624013952837`*^9},
+   3.751703371931488*^9}, 3.8243624013952837`*^9, 3.988536908462345*^9},
  CellLabel->"In[112]:=",
  CellID->4362360,ExpressionUUID->"35b972b9-28a9-4b3b-ab66-73c06551ae0e"]
-}, Closed]],
+}, Open  ]],
 
 Cell[BoxData[
  TagBox[
@@ -448,8 +447,8 @@ Cell[BoxData[
        Style["of the uncertainty of measurement", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u2$$], 0.9, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = {360., {178., 182.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    Typeset`size$$ = {360., {177.13403309800196`, 182.86596690199804`}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`u1$$ = 0.15, $CellContext`u2$$ = 
@@ -520,7 +519,7 @@ $CellContext`u1$$, $CellContext`u2$$}, PlotRange -> All, AspectRatio -> 1,
       "Options" :> {
        AutorunSequencing -> {1, 2, 5, 6}, SynchronousUpdating -> False, 
         TrackedSymbols -> True}, "DefaultOptions" :> {}],
-     ImageSizeCache->{591., {206.13403309800196`, 211.86596690199804`}},
+     ImageSizeCache->{601.8025, {204.094872941752, 209.82680674574806`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -558,34 +557,34 @@ $CellContext`u1$$, $CellContext`u2$$}, PlotRange -> All, AspectRatio -> 1,
  Editable->False,
  CellChangeTimes->{3.824362410190477*^9},
  CellLabel->
-  "Out[112]=",ExpressionUUID->"474820b9-d281-44d3-bdc2-64846903f5eb"],
+  "Out[112]=",ExpressionUUID->"474820b9-d281-44d3-bdc2-64846903f5eb"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Description", "Section",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellChangeTimes->{{3.824353340464686*^9, 3.8243533672832766`*^9}, 
-   3.824362639070823*^9},
+   3.824362639070823*^9, 3.988536908462345*^9},
  CellTags->"Caption",ExpressionUUID->"6f59ac02-4191-4e06-8db1-d804f3fa56ee"],
 
 Cell["\<\
 This Demonstration compares the ratios of the areas under the curve (AUC) and \
 the ratios of the areas over the curve (AOC) of the receiver operating \
-characteristic (ROC) plots of two diagnostic tests (ratio of the AUC of the \
-first test to the AUC of the second test: blue plot, ratio of the AOC of the \
-first test to the AOC of the second test: orange plot). The two tests measure \
-the same measurand, for normally distributed nondiseased and diseased \
-populations, for various values of the mean and standard deviation of the \
-populations, and of the uncertainty of measurement of the tests. A normal \
-distribution of the uncertainty is assumed. The uncertainty of the first test \
-is defined. It is assumed that the uncertainty of the second test is greater \
-than the uncertainty of the first test and varies up to a user defined upper \
-bound. The six parameters that you can vary using the sliders are measured in \
-arbitrary units.\
+characteristic (ROC) curves of two diagnostic tests (ratio of the first test \
+AUC to the second test AUC: blue plot, ratio of the AOC of the first test to \
+the AOC of the second test: orange plot). The two tests measure the same \
+measurand in normally distributed nondiseased and diseased populations, for \
+various values of the population means and standard deviations, and of the \
+uncertainty of measurement of the tests. A normal distribution of uncertainty \
+is assumed. The uncertainty of the first test is specified. It is assumed \
+that the uncertainty of the second test is greater than the uncertainty of \
+the first test and varies up to a user defined upper bound. The six \
+parameters that the user can vary using the sliders are measured in arbitrary \
+units.
+\
 \>", "Text",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellChangeTimes->{
   3.35696210375764*^9, {3.4077625855098767`*^9, 3.4077625905488763`*^9}, {
    3.408336262749076*^9, 3.4083362697790756`*^9}, {3.408337892906076*^9, 
@@ -600,17 +599,17 @@ arbitrary units.\
    3.448930664051374*^9}, {3.448930713931373*^9, 3.448930774486373*^9}, {
    3.448930819075373*^9, 3.448930920925373*^9}, 3.448931678923373*^9, {
    3.4491986965757008`*^9, 3.449198700735117*^9}, {3.751702760473488*^9, 
-   3.751702764319483*^9}, 3.824362639070823*^9},
+   3.751702764319483*^9}, 3.824362639070823*^9, 3.988363063547081*^9, 
+   3.988536908462345*^9},
  CellID->435014217,ExpressionUUID->"9efea558-4b91-4c53-b154-31598129db1a"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Snapshots", "Section",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{{3.824353379227399*^9, 3.824353398994195*^9}, 
-   3.824362465268504*^9},
+   3.824362465268504*^9, 3.988536908462345*^9},
  CellTags->"Snapshots",ExpressionUUID->"90778557-c2f1-4ddf-9ccc-f2656dbffe74"],
 
 Cell[BoxData[
@@ -644,8 +643,8 @@ Cell[BoxData[
        Style["of the uncertainty of measurement", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u2$$], 0.9, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = {360., {177., 183.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    Typeset`size$$ = {360., {177.13403309800196`, 182.86596690199804`}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`u1$$ = 0.15, $CellContext`u2$$ = 
@@ -717,7 +716,7 @@ $CellContext`u1$$, $CellContext`u2$$}, PlotRange -> All, AspectRatio -> 1,
        AutorunSequencing -> {1, 2, 5, 6}, SynchronousUpdating -> False, 
         TrackedSymbols -> True}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{591., {206.13403309800196`, 211.86596690199804`}},
+     ImageSizeCache->{601.8025, {204.094872941752, 209.82680674574806`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -749,8 +748,7 @@ $CellContext`u1$$, $CellContext`u2$$}, PlotRange -> All, AspectRatio -> 1,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellChangeTimes->{3.824362465268504*^9},
+ CellChangeTimes->{3.824362465268504*^9, 3.988536908462345*^9},
  CellID->50127806,ExpressionUUID->"1b469b4e-4b59-462d-9f42-bbe88106d497"],
 
 Cell[BoxData[
@@ -784,8 +782,8 @@ Cell[BoxData[
        Style["of the uncertainty of measurement", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u2$$], 0.9, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = {360., {177., 183.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    Typeset`size$$ = {360., {177.13403309800196`, 182.86596690199804`}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`u1$$ = 0.15, $CellContext`u2$$ = 
@@ -857,7 +855,7 @@ $CellContext`u1$$, $CellContext`u2$$}, PlotRange -> All, AspectRatio -> 1,
        AutorunSequencing -> {1, 2, 5, 6}, SynchronousUpdating -> False, 
         TrackedSymbols -> True}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{591., {206.13403309800196`, 211.86596690199804`}},
+     ImageSizeCache->{601.8025, {204.094872941752, 209.82680674574806`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -889,8 +887,7 @@ $CellContext`u1$$, $CellContext`u2$$}, PlotRange -> All, AspectRatio -> 1,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellChangeTimes->{3.824362465268504*^9},
+ CellChangeTimes->{3.824362465268504*^9, 3.988536908462345*^9},
  CellID->285462348,ExpressionUUID->"08017b08-61af-4c2f-9876-1f6dbb571f30"],
 
 Cell[BoxData[
@@ -924,8 +921,8 @@ Cell[BoxData[
        Style["of the uncertainty of measurement", Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
        Hold[$CellContext`u2$$], 0.9, "second test"}, 0, 6, 0.01}}, 
-    Typeset`size$$ = {360., {177., 183.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
+    Typeset`size$$ = {360., {177.13403309800196`, 182.86596690199804`}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = False}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`u1$$ = 0.15, $CellContext`u2$$ = 
@@ -997,7 +994,7 @@ $CellContext`u1$$, $CellContext`u2$$}, PlotRange -> All, AspectRatio -> 1,
        AutorunSequencing -> {1, 2, 5, 6}, SynchronousUpdating -> False, 
         TrackedSymbols -> True}, 
       "DefaultOptions" :> {ControllerLinking -> True}],
-     ImageSizeCache->{591., {206.13403309800196`, 211.86596690199804`}},
+     ImageSizeCache->{601.8025, {204.094872941752, 209.82680674574806`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1029,36 +1026,33 @@ $CellContext`u1$$, $CellContext`u2$$}, PlotRange -> All, AspectRatio -> 1,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellChangeTimes->{3.824362465268504*^9},
+ CellChangeTimes->{3.824362465268504*^9, 3.988536908462345*^9},
  CellID->35380226,ExpressionUUID->"84f25062-9544-432b-9ea0-c32db650d258"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Details", "Section",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellChangeTimes->{{3.8243534066574497`*^9, 3.824353415146681*^9}, 
-   3.82436266091124*^9},
+   3.82436266091124*^9, 3.988536908462345*^9},
  CellTags->"Details",ExpressionUUID->"589bb913-8695-4b34-b1e8-bbe414dfa29f"],
 
 Cell["\<\
 The ROC plots are used in the evaluation of the clinical accuracy of a \
-diagnostic test applied to a diseased and a non diseased population. They \
+diagnostic test applied to a diseased and a nondiseased population. They \
 display the sensitivity of the test versus 1-specificity. Sensitivity is the \
-fraction of the diseased population with a positive test, while specificity \
-is the fraction of the non diseased population with a negative test. \
-Therefore, the ROC plots display the true positive fraction versus the false \
-positive fraction. Furthermore, the area under a ROC curve is used as an \
-index of the diagnostic accuracy of the respective test. Consequently we can \
-consider the area over the ROC curve as an index of its diagnostic \
-inaccuracy. Actually the area over the ROC curve is equal to the definite \
-integral from 0 to 1 of the false negative fraction versus the false positive \
-fraction function.\
+fraction of the diseased population with a positive test result, while \
+specificity is the fraction of the nondiseased population with a negative \
+test result. Therefore, the ROC plots display the true positive fraction \
+versus the false positive fraction. Furthermore, the area under a ROC curve \
+is used as an index of the diagnostic accuracy of the respective test. \
+Consequently, we can consider the area over the ROC curve as an index of its \
+diagnostic inaccuracy. More precisely, the area over the ROC curve is equal \
+to the definite integral from 0 to 1 of the false negative fraction versus \
+the false positive fraction function.\
 \>", "Text",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellChangeTimes->{
   3.35696210375764*^9, {3.3899219850842*^9, 3.3899219857082*^9}, {
    3.3899229576038*^9, 3.3899231398898*^9}, {3.3899234822474008`*^9, 
@@ -1103,24 +1097,24 @@ fraction function.\
    3.448762211453411*^9, 3.4487622242861276`*^9}, {3.448843901788642*^9, 
    3.448843902281741*^9}, {3.4488924822031713`*^9, 3.4488925300175076`*^9}, {
    3.448892598847607*^9, 3.448892600285135*^9}, {3.4489317155933743`*^9, 
-   3.448931716523373*^9}, 3.82436266091124*^9},
+   3.448931716523373*^9}, 3.82436266091124*^9, {3.9883630878272247`*^9, 
+   3.988363089710455*^9}, 3.988536908462345*^9},
  CellID->107142632,ExpressionUUID->"b62fe5f9-8465-49d5-bb21-5796e46a6aea"],
 
 Cell["\<\
 This Demonstration could be useful in evaluating the maximum medically \
 permissible uncertainty of measurement of a diagnostic test. For example, in \
-the first snapshot the populations data describe a bimodal distribution of \
-serum glucose measurements with a non diabetic and a diabetic population (Lim \
-et al. 2002). The first test has a state of the art performance, while the \
-second test has a greater uncertainty that varies. The relative change of the \
-areas over the curves against the uncertainty of measurement is greater than \
-the absolute value of the relative change of the areas under the curves. \
-Therefore, although the uncertainty of measurement has little effect on the \
-diagnostic accuracy of the test, it has a considerably greater effect on its \
-diagnostic inaccuracy.\
+the first snapshot the population data describe a bimodal distribution of \
+serum glucose measurements in a nondiabetic and a diabetic population [1]. \
+The first test has state-of-the-art performance, while the second test has a \
+greater uncertainty that varies. Although measurement uncertainty is weakly \
+related to the ratio of the areas under the curves it is more strongly \
+related to the ratio of the areas over the ROC curves. Therefore, although \
+the uncertainty of measurement has little effect on the diagnostic accuracy \
+of the test, it has a considerably greater effect on its diagnostic inaccuracy.
+\
 \>", "Text",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellChangeTimes->{
   3.35696210375764*^9, {3.3899219850842*^9, 3.3899219857082*^9}, {
    3.3899229576038*^9, 3.3899231398898*^9}, {3.3899234822474008`*^9, 
@@ -1167,16 +1161,17 @@ diagnostic inaccuracy.\
    3.448892535767728*^9, 3.4488925584092226`*^9}, {3.448892600988273*^9, 
    3.448892601691412*^9}, 3.448931719268374*^9, {3.751702892886483*^9, 
    3.751702898342489*^9}, {3.7523817859185576`*^9, 3.752381791391556*^9}, 
-   3.82436266091124*^9},
+   3.82436266091124*^9, {3.988363100698122*^9, 3.9883631170944366`*^9}, 
+   3.988536908462345*^9},
  CellID->4072355,ExpressionUUID->"005ea5b0-b749-4407-8f3c-8acc5c98ea8a"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["References", "Section",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellChangeTimes->{{3.824362497840125*^9, 3.824362531013759*^9}},
+ CellChangeTimes->{{3.824362497840125*^9, 3.824362531013759*^9}, 
+   3.988536908462345*^9},
  CellID->24383986,ExpressionUUID->"9f1de494-0575-4cd2-8be9-cb29e87f57ef"],
 
 Cell[TextData[{
@@ -1190,21 +1185,19 @@ Glucose Distribution\[LongDash]Is It Universal?,\" ",
  "(12), 2002 pp. 2212-2217."
 }], "Text",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
- CellChangeTimes->{{3.824362503005224*^9, 
-  3.824362531013759*^9}},ExpressionUUID->"c8325047-94f9-4c4b-948a-\
+ CellChangeTimes->{{3.824362503005224*^9, 3.824362531013759*^9}, 
+   3.988536908462345*^9},ExpressionUUID->"c8325047-94f9-4c4b-948a-\
 2aea71679ece"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[TextData[StyleBox["Keywords", "Section"]], "Section",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellChangeTimes->{{3.8243534066574497`*^9, 3.824353415146681*^9}, {
    3.824353479555941*^9, 3.824353485732515*^9}, {3.824353534558292*^9, 
    3.8243535363089743`*^9}, {3.824354274018545*^9, 3.824354287234497*^9}, 
-   3.824362679599598*^9},
+   3.824362679599598*^9, 3.988536908462345*^9},
  CellTags->"Details",ExpressionUUID->"17c4c4e5-bfaf-4d63-8a81-e893953944ca"],
 
 Cell["\<\
@@ -1226,39 +1219,12 @@ AUC
 AOC\
 \>", "Text",
  Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
  CellChangeTimes->{
   3.35696210375764*^9, {3.4485125650887136`*^9, 3.448512583088713*^9}, {
    3.4487623104745083`*^9, 3.44876237194836*^9}, {3.448931101871373*^9, 
    3.448931125375373*^9}, {3.453121381347184*^9, 3.453121381372186*^9}, 
-   3.824362559486304*^9, 3.824362679599598*^9},
+   3.824362559486304*^9, 3.824362679599598*^9, 3.988536908462345*^9},
  CellID->439892608,ExpressionUUID->"c6172394-7ddb-4639-9887-048340b50be3"]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["Related Links", "Section",
- Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10002.},
- CellChangeTimes->{3.824362571661536*^9, 3.824362701551075*^9},
- CellTags->
-  "Related Links",ExpressionUUID->"e832685c-9a95-4b9a-9034-19cd5f63e28a"],
-
-Cell[TextData[ButtonBox["Receiver Operating Characteristic Curves and \
-Uncertainty of Measurement",
- BaseStyle->"Hyperlink",
- ButtonData->{
-   URL["http://demonstrations.wolfram.com/\
-ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure/"], None},
- ButtonNote->
-  "http://demonstrations.wolfram.com/\
-ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure/"]], "Text",
- Editable->False,
- CellGroupingRules->{"GroupTogetherGrouping", 10002.},
- CellChangeTimes->{
-  3.35696210375764*^9, {3.448512756479714*^9, 3.448512756480714*^9}, {
-   3.453121434434491*^9, 3.453121440975146*^9}, 3.824362701551075*^9},
- CellID->213482007,ExpressionUUID->"259666e3-ca55-449d-8d01-2fe85587ded8"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -1314,29 +1280,15 @@ or other dealings in the notebook.",
 
 Cell[CellGroupData[{
 
-Cell[TextData[StyleBox["About",
- FontSize->20]], "Section",
+Cell["About", "Subsection",
  Editable->False,
- CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
-   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
-   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
-   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
-   3.8070767128593383`*^9, 3.807076713036334*^9}, {3.824277477031402*^9, 
-   3.824277511380593*^9}, {3.8242775488355207`*^9, 3.824277559781518*^9}, {
-   3.824277599212511*^9, 3.824277630943819*^9}, {3.82428740993026*^9, 
-   3.824287440745445*^9}, 3.824287582450876*^9, {3.824288279895161*^9, 
-   3.824288292274851*^9}, 3.824288335615207*^9, {3.824288545290736*^9, 
-   3.824288562748387*^9}, {3.824288784545688*^9, 3.824288813125119*^9}, 
-   3.824288959149333*^9, {3.824289179714106*^9, 3.824289214280095*^9}, {
-   3.824289247927791*^9, 
-   3.824289271662448*^9}},ExpressionUUID->"05b68d48-38cc-4f4d-9070-\
-f4dadbfadfca"],
+ CellChangeTimes->{{3.833016117477112*^9, 3.833016119466317*^9}, 
+   3.83301679300926*^9},ExpressionUUID->"d0b0eea7-919b-4640-a0c3-\
+d02aac72f19c"],
 
 Cell[TextData[{
- StyleBox["Uncertainty of Measurement and Areas Over and Under the ROC Curves",
-  FontSize->12,
-  FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.0\n",
+ StyleBox["Uncertainty of Measurement and Areas Over and Under the ROC Curves\
+\nVersion Number 1.1.1\n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -1348,43 +1300,52 @@ Cell[TextData[{
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["2021\nFirst published at Wolfram Demonstrations Project at: ",
+ StyleBox["2026\nDOI: ",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- Cell[BoxData[
-  TemplateBox[{
-   "\"demonstrations.wolfram.com/\
-UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves/\"", 
-    "https://demonstrations.wolfram.com/\
-UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves/"},
-   "HyperlinkURL"]],
-  CellChangeTimes->{3.8243553175707464`*^9, 3.824356570008988*^9, 
-   3.824357314184272*^9, 3.8243580035354223`*^9, 3.8243585051316223`*^9, 
-   3.824359148413159*^9, 3.824359407030446*^9, 3.8243613809991393`*^9, 
-   3.8243621613197007`*^9, 3.824362787445687*^9},
-  FontSize->12,ExpressionUUID->"68f215fe-4c52-44bd-b3b1-05729ee175aa"],
- StyleBox["\nThe notebook is distributed under  an",
-  FontFamily->"Source Sans Pro ExtraLight",
-  FontSize->12,
-  FontColor->RGBColor[0., 0., 0.]],
- StyleBox[" ",
-  FontFamily->"Source Sans Pro ExtraLight",
-  FontSize->12,
-  FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]],
- StyleBox[ButtonBox["Attribution - NonCommercial - ShareAlike 4.0 \
-International Creative Commons License",
+ StyleBox[ButtonBox["10.5281/zenodo.20356939",
   BaseStyle->"Hyperlink",
   ButtonData->{
-    URL["http://creativecommons.org/licenses/by-nc-sa/4.0/"], None},
-  ButtonNote->"http://creativecommons.org/licenses/by-nc-sa/4.0/"],
+    URL["https://doi.org/10.5281/zenodo.20356939"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.20356939"],
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
-  FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]],
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nFirst published in 2009 as part of the Wolfram Demonstrations \
+Project: ",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["demonstrations.wolfram.com/\
+UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves/",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://demonstrations.wolfram.com/\
+ToolForQualityControlDesignAndEvaluation/"], None},
+  ButtonNote->
+   "https://demonstrations.wolfram.com/\
+ToolForQualityControlDesignAndEvaluation/"],
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nThe notebook is distributed under  a ",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["Creative Commons Attribution-NonCommercial-ShareAlike \
+4.0 International License",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://creativecommons.org/licenses/by-nc-sa/4.0/"], None},
+  ButtonNote->"https://creativecommons.org/licenses/by-nc-sa/4.0/"],
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
  StyleBox[".",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
-  FontColor->RGBColor[0., 0.25098039215686274`, 0.5019607843137255]]
+  FontColor->RGBColor[0., 0., 0.]]
 }], "Text",
  Editable->False,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
@@ -1397,22 +1358,40 @@ International Creative Commons License",
    3.824287440745445*^9}, 3.824287582450876*^9, {3.824288279895161*^9, 
    3.824288292274851*^9}, 3.824288335615207*^9, {3.824288545290736*^9, 
    3.824288562748387*^9}, {3.824288784545688*^9, 3.824288813125119*^9}, 
-   3.824288959149333*^9, {3.824289179714106*^9, 3.824289214280095*^9}, {
-   3.8242899243079195`*^9, 3.8242899601497383`*^9}, {3.824290040477727*^9, 
-   3.824290102292124*^9}, {3.8242901748076315`*^9, 3.824290174808632*^9}, 
-   3.8242910218861465`*^9, {3.824291151069277*^9, 3.8242911545732164`*^9}, 
-   3.8242925404292994`*^9, {3.824292628645375*^9, 3.824292661660508*^9}, {
-   3.8243536859842525`*^9, 3.824353692768849*^9}, 3.8243538389141397`*^9, {
-   3.824362726984505*^9, 3.8243627311925836`*^9}, 3.824362802405944*^9, 
-   3.927735907111643*^9, {3.928502757260538*^9, 
-   3.9285027630007286`*^9}},ExpressionUUID->"9fe04015-3915-4735-bd8e-\
-00107c0c97f3"]
-}, Open  ]]
+   3.824288959149333*^9, {3.824289179714106*^9, 3.824289214280095*^9}, 
+   3.824364536962468*^9, {3.927734734481432*^9, 3.927734734482434*^9}, {
+   3.928499166249687*^9, 3.92849916948378*^9}, {3.9285000028744793`*^9, 
+   3.928500004305767*^9}, {3.9884594159475403`*^9, 3.988459422796669*^9}, {
+   3.988522004757393*^9, 3.9885220381174755`*^9}, {3.9885222276384754`*^9, 
+   3.988522257397011*^9}, 3.9885222933259735`*^9, {3.9885225734613247`*^9, 
+   3.988522614069685*^9}, {3.9885226476758766`*^9, 3.9885226476758766`*^9}, {
+   3.9885226883108807`*^9, 3.988522691173752*^9}, {3.9885227856617184`*^9, 
+   3.988522825853874*^9}, {3.988533330259609*^9, 3.988533334386362*^9}, 
+   3.988533687643015*^9, {3.9885337483756638`*^9, 3.988533748376663*^9}, {
+   3.988533939106291*^9, 3.988533964554552*^9}, {3.9885341120222073`*^9, 
+   3.988534140882164*^9}, {3.9885342206376667`*^9, 3.9885342206376667`*^9}, {
+   3.98853465749082*^9, 3.9885347579004116`*^9}, {3.9885349501069202`*^9, 
+   3.988534952859413*^9}, {3.988535131579033*^9, 3.988535151906601*^9}, {
+   3.988535200924183*^9, 3.9885352384025764`*^9}, 3.9885353945147896`*^9, {
+   3.9885354256271095`*^9, 3.988535426315134*^9}, {3.9885354601029644`*^9, 
+   3.988535460103964*^9}, 3.988535628099373*^9, {3.988535681042675*^9, 
+   3.9885357496739864`*^9}, {3.988535784211357*^9, 3.9885357842123566`*^9}, 
+   3.9885358398273144`*^9, {3.9885359732762604`*^9, 3.988536022035034*^9}, 
+   3.9885361435090504`*^9, {3.988536184826853*^9, 3.9885361896193104`*^9}, {
+   3.9885362210563736`*^9, 3.988536238370981*^9}, 3.9885363150923233`*^9, {
+   3.988536360163286*^9, 3.9885363723632183`*^9}, {3.9885364113794136`*^9, 
+   3.988536417293413*^9}, {3.988536452788164*^9, 3.988536452788164*^9}, {
+   3.988536635019247*^9, 3.9885366419471054`*^9}, {3.9885367060839577`*^9, 
+   3.9885367220120296`*^9}, {3.988536775123888*^9, 3.9885367799813538`*^9}, {
+   3.9885396973645535`*^9, 3.9885396981164017`*^9}, {3.9885406083168106`*^9, 
+   3.9885406327288857`*^9}},ExpressionUUID->"a675605b-dbfc-2f4a-89a4-\
+7aef826e8ecf"]
 }, Open  ]]
 },
+CellGrouping->Manual,
 WindowSize->{718.5, 732.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
+FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"269eaab3-4e91-42fd-adfa-06648e4dd302"
 ]
@@ -1422,123 +1401,91 @@ ExpressionUUID->"269eaab3-4e91-42fd-adfa-06648e4dd302"
 (*CellTagsOutline
 CellTagsIndex->{
  "Initialization Code"->{
-  Cell[1557, 52, 295, 7, 67, "Section",ExpressionUUID->"cdf06bae-7568-46ac-bf89-0c4150f8de7c",
-   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+  Cell[1535, 50, 266, 7, 66, "Section",ExpressionUUID->"cdf06bae-7568-46ac-bf89-0c4150f8de7c",
    CellTags->"Initialization Code"]},
  "Caption"->{
-  Cell[27642, 564, 274, 5, 67, "Section",ExpressionUUID->"6f59ac02-4191-4e06-8db1-d804f3fa56ee",
-   CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+  Cell[27683, 564, 241, 4, 66, "Section",ExpressionUUID->"6f59ac02-4191-4e06-8db1-d804f3fa56ee",
    CellTags->"Caption"]},
  "Snapshots"->{
-  Cell[30105, 608, 272, 5, 53, "Section",ExpressionUUID->"90778557-c2f1-4ddf-9ccc-f2656dbffe74",
-   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+  Cell[30089, 608, 239, 4, 66, "Section",ExpressionUUID->"90778557-c2f1-4ddf-9ccc-f2656dbffe74",
    CellTags->"Snapshots"]},
  "Details"->{
-  Cell[50814, 1038, 269, 5, 53, "Section",ExpressionUUID->"589bb913-8695-4b34-b1e8-bbe414dfa29f",
-   CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+  Cell[50759, 1034, 236, 4, 66, "Section",ExpressionUUID->"589bb913-8695-4b34-b1e8-bbe414dfa29f",
    CellTags->"Details"],
-  Cell[60418, 1200, 450, 7, 53, "Section",ExpressionUUID->"17c4c4e5-bfaf-4d63-8a81-e893953944ca",
-   CellGroupingRules->{"GroupTogetherGrouping", 10001.},
-   CellTags->"Details"]},
- "Related Links"->{
-  Cell[61662, 1239, 255, 5, 53, "Section",ExpressionUUID->"e832685c-9a95-4b9a-9034-19cd5f63e28a",
-   CellGroupingRules->{"GroupTogetherGrouping", 10002.},
-   CellTags->"Related Links"]}
+  Cell[60298, 1194, 417, 6, 66, "Section",ExpressionUUID->"17c4c4e5-bfaf-4d63-8a81-e893953944ca",
+   CellTags->"Details"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 70575, 1423},
- {"Caption", 70779, 1427},
- {"Snapshots", 70975, 1431},
- {"Details", 71171, 1435},
- {"Related Links", 71552, 1442}
+ {"Initialization Code", 70015, 1402},
+ {"Caption", 70162, 1405},
+ {"Snapshots", 70301, 1408},
+ {"Details", 70440, 1411}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 211, 6, 217, "Title",ExpressionUUID->"491cc6f3-a682-47e3-bb04-7cae0fd52ad1"],
+Cell[772, 28, 386, 9, 76, "Author",ExpressionUUID->"37b03289-e116-49b2-8de9-7564802486dd"],
+Cell[1161, 39, 349, 7, 53, "Affiliation",ExpressionUUID->"d0aa2129-a2ae-48b7-a5d0-64dc56b33654"],
 Cell[CellGroupData[{
-Cell[580, 22, 211, 6, 222, "Title",ExpressionUUID->"491cc6f3-a682-47e3-bb04-7cae0fd52ad1"],
-Cell[794, 30, 386, 9, 79, "Author",ExpressionUUID->"37b03289-e116-49b2-8de9-7564802486dd"],
-Cell[1183, 41, 349, 7, 55, "Affiliation",ExpressionUUID->"d0aa2129-a2ae-48b7-a5d0-64dc56b33654"],
-Cell[CellGroupData[{
-Cell[1557, 52, 295, 7, 67, "Section",ExpressionUUID->"cdf06bae-7568-46ac-bf89-0c4150f8de7c",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+Cell[1535, 50, 266, 7, 66, "Section",ExpressionUUID->"cdf06bae-7568-46ac-bf89-0c4150f8de7c",
  CellTags->"Initialization Code"],
-Cell[1855, 61, 2920, 55, 121, "Input",ExpressionUUID->"64e6faf2-b9b0-4921-b728-b1cdcd967767",
+Cell[CellGroupData[{
+Cell[1826, 61, 2946, 56, 121, "Input",ExpressionUUID->"64e6faf2-b9b0-4921-b728-b1cdcd967767",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->517742995],
-Cell[4778, 118, 15898, 298, 718, "Input",ExpressionUUID->"35b972b9-28a9-4b3b-ab66-73c06551ae0e",
+Cell[4775, 119, 15899, 296, 710, "Input",ExpressionUUID->"35b972b9-28a9-4b3b-ab66-73c06551ae0e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->4362360]
-}, Closed]],
-Cell[20691, 419, 6926, 141, 436, "Output",ExpressionUUID->"474820b9-d281-44d3-bdc2-64846903f5eb"],
+}, Open  ]],
+Cell[20689, 418, 6957, 141, 430, "Output",ExpressionUUID->"474820b9-d281-44d3-bdc2-64846903f5eb"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[27642, 564, 274, 5, 67, "Section",ExpressionUUID->"6f59ac02-4191-4e06-8db1-d804f3fa56ee",
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+Cell[27683, 564, 241, 4, 66, "Section",ExpressionUUID->"6f59ac02-4191-4e06-8db1-d804f3fa56ee",
  CellTags->"Caption"],
-Cell[27919, 571, 2149, 32, 242, "Text",ExpressionUUID->"9efea558-4b91-4c53-b154-31598129db1a",
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+Cell[27927, 570, 2125, 33, 252, "Text",ExpressionUUID->"9efea558-4b91-4c53-b154-31598129db1a",
  CellID->435014217]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[30105, 608, 272, 5, 53, "Section",ExpressionUUID->"90778557-c2f1-4ddf-9ccc-f2656dbffe74",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+Cell[30089, 608, 239, 4, 66, "Section",ExpressionUUID->"90778557-c2f1-4ddf-9ccc-f2656dbffe74",
  CellTags->"Snapshots"],
-Cell[30380, 615, 6802, 138, 437, "Output",ExpressionUUID->"1b469b4e-4b59-462d-9f42-bbe88106d497",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+Cell[30331, 614, 6800, 137, 430, "Output",ExpressionUUID->"1b469b4e-4b59-462d-9f42-bbe88106d497",
  CellID->50127806],
-Cell[37185, 755, 6791, 138, 437, "Output",ExpressionUUID->"08017b08-61af-4c2f-9876-1f6dbb571f30",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+Cell[37134, 753, 6789, 137, 430, "Output",ExpressionUUID->"08017b08-61af-4c2f-9876-1f6dbb571f30",
  CellID->285462348],
-Cell[43979, 895, 6798, 138, 437, "Output",ExpressionUUID->"84f25062-9544-432b-9ea0-c32db650d258",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+Cell[43926, 892, 6796, 137, 430, "Output",ExpressionUUID->"84f25062-9544-432b-9ea0-c32db650d258",
  CellID->35380226]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[50814, 1038, 269, 5, 53, "Section",ExpressionUUID->"589bb913-8695-4b34-b1e8-bbe414dfa29f",
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+Cell[50759, 1034, 236, 4, 66, "Section",ExpressionUUID->"589bb913-8695-4b34-b1e8-bbe414dfa29f",
  CellTags->"Details"],
-Cell[51086, 1045, 4232, 61, 219, "Text",ExpressionUUID->"b62fe5f9-8465-49d5-bb21-5796e46a6aea",
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+Cell[50998, 1040, 4271, 61, 208, "Text",ExpressionUUID->"b62fe5f9-8465-49d5-bb21-5796e46a6aea",
  CellID->107142632],
-Cell[55321, 1108, 4298, 62, 219, "Text",ExpressionUUID->"005ea5b0-b749-4407-8f3c-8acc5c98ea8a",
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+Cell[55272, 1103, 4288, 62, 208, "Text",ExpressionUUID->"005ea5b0-b749-4407-8f3c-8acc5c98ea8a",
  CellID->4072355]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[59656, 1175, 242, 4, 53, "Section",ExpressionUUID->"9f1de494-0575-4cd2-8be9-cb29e87f57ef",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+Cell[59597, 1170, 213, 4, 66, "Section",ExpressionUUID->"9f1de494-0575-4cd2-8be9-cb29e87f57ef",
  CellID->24383986],
-Cell[59901, 1181, 480, 14, 58, "Text",ExpressionUUID->"c8325047-94f9-4c4b-948a-2aea71679ece",
- CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
-}, Closed]],
+Cell[59813, 1176, 448, 13, 55, "Text",ExpressionUUID->"c8325047-94f9-4c4b-948a-2aea71679ece"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[60418, 1200, 450, 7, 53, "Section",ExpressionUUID->"17c4c4e5-bfaf-4d63-8a81-e893953944ca",
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+Cell[60298, 1194, 417, 6, 66, "Section",ExpressionUUID->"17c4c4e5-bfaf-4d63-8a81-e893953944ca",
  CellTags->"Details"],
-Cell[60871, 1209, 754, 25, 380, "Text",ExpressionUUID->"c6172394-7ddb-4639-9887-048340b50be3",
- CellGroupingRules->{"GroupTogetherGrouping", 10001.},
+Cell[60718, 1202, 721, 24, 380, "Text",ExpressionUUID->"c6172394-7ddb-4639-9887-048340b50be3",
  CellID->439892608]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[61662, 1239, 255, 5, 53, "Section",ExpressionUUID->"e832685c-9a95-4b9a-9034-19cd5f63e28a",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.},
- CellTags->"Related Links"],
-Cell[61920, 1246, 693, 14, 35, "Text",ExpressionUUID->"259666e3-ca55-449d-8d01-2fe85587ded8",
- CellGroupingRules->{"GroupTogetherGrouping", 10002.},
- CellID->213482007]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[62650, 1265, 1053, 16, 43, "Section",ExpressionUUID->"873d7917-edc1-5e48-a340-53aeb563baae"],
-Cell[63706, 1283, 1858, 28, 88, "Text",ExpressionUUID->"b24a2218-1bc8-6542-9e44-657b476f7c58"]
+Cell[61476, 1231, 1053, 16, 42, "Section",ExpressionUUID->"873d7917-edc1-5e48-a340-53aeb563baae"],
+Cell[62532, 1249, 1858, 28, 84, "Text",ExpressionUUID->"b24a2218-1bc8-6542-9e44-657b476f7c58"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[65601, 1316, 990, 16, 57, "Section",ExpressionUUID->"05b68d48-38cc-4f4d-9070-f4dadbfadfca"],
-Cell[66594, 1334, 3587, 74, 125, "Text",ExpressionUUID->"9fe04015-3915-4735-bd8e-00107c0c97f3"]
-}, Open  ]]
+Cell[64427, 1282, 193, 4, 53, "Subsection",ExpressionUUID->"d0b0eea7-919b-4640-a0c3-d02aac72f19c"],
+Cell[64623, 1288, 4993, 99, 138, "Text",ExpressionUUID->"a675605b-dbfc-2f4a-89a4-7aef826e8ecf"]
 }, Open  ]]
 }
 ]
