@@ -1,6 +1,6 @@
 # HCSL Technical Report V
 
-Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Technical Report V. Hellenic Complex Systems Laboratory; 2007. https://doi.org/10.5281/zenodo.18594109
+Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Technical Report V. Hellenic Complex Systems Laboratory; 2007. https://doi.org/10.5281/zenodo.20356766
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr05/.
 
