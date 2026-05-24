@@ -21,7 +21,7 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 17. Chatzimichail T. Relation of Positive and Negative Predictive Values. Technical Report XII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.18602033
 18. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Technical Report XI. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.18600313
 19. Chatzimichail T. Enteral Nutritional Design. Technical Report X. Hellenic Complex Systems Laboratory; 2017. https://doi.org/10.5281/zenodo.20361351
-20. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Technical Report IX. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.20363737
+20. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Technical Report IX. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.20364069
 21. Hatjimihail AT. Calculation of the confidence bounds for the fraction nonconforming of normal populations of measurements in clinical laboratory medicine. Technical Report IV. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.18593807
 22. Hatjimihail AT. The Area Over a Receiver Operating Characteristic (ROC) Curve as an Index of Diagnostic Inaccuracy. Technical Report XIX. Hellenic Complex Systems Laboratory; 2011. https://doi.org/10.5281/zenodo.20288914
 23. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Technical Report VIII. Hellenic Complex Systems Laboratory; 2010. https://doi.org/10.5281/zenodo.20357632
