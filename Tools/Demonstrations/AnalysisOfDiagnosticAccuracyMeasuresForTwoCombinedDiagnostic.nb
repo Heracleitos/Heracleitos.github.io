@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    326132,       7027]
-NotebookOptionsPosition[    319313,       6883]
-NotebookOutlinePosition[    320259,       6914]
-CellTagsIndexPosition[    320124,       6907]
+NotebookDataLength[    326644,       7041]
+NotebookOptionsPosition[    319825,       6897]
+NotebookOutlinePosition[    320771,       6928]
+CellTagsIndexPosition[    320636,       6921]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -6678,9 +6678,8 @@ Cell["References", "Section",
 
 Cell["\<\
 [1] T. Chatzimichail. \"Analysis of Diagnostic Accuracy Measures\", Ver. \
-1.1.1, Hellenic Complex Systems Laboratory, 2026. Available at: \
-https://www.hcsl.com/Tools/Demonstrations/\
-AnalysisOfDiagnosticAccuracyMeasures.nb.\
+1.1.1, Hellenic Complex Systems Laboratory, 2026. \
+https://doi.org/10.5281/zenodo.20363839\
 \>", "Text",
  Editable->False,
  CellChangeTimes->{
@@ -6703,7 +6702,8 @@ AnalysisOfDiagnosticAccuracyMeasures.nb.\
    3.728733485525631*^9}, 3.730016055658909*^9, 3.730063441362169*^9, {
    3.730556912355131*^9, 3.7305570835239058`*^9}, 3.730557374998801*^9, {
    3.824289774251685*^9, 3.8242897815988097`*^9}, {3.9884963194241257`*^9, 
-   3.988496376909523*^9}, 3.988522341741644*^9},
+   3.988496376909523*^9}, 3.988522341741644*^9, {3.988622470066267*^9, 
+   3.988622475714691*^9}},
  CellID->1683065940,ExpressionUUID->"fcd109cd-6fa8-4c79-8026-ad41c3614098"]
 }, Open  ]],
 
@@ -6823,8 +6823,20 @@ Diagnostic Tests\nVersion Number 1.1.1\n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["2026\nDOI:\nFirst published in 2018 as part of the Wolfram \
-Demonstrations Project: ",
+ StyleBox["2026\nDOI:",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox[" 10.5281/zenodo.20367020",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://doi.org/10.5281/zenodo.20367020"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.20367020"],
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nFirst published in 2018 as part of the Wolfram Demonstrations \
+Project: ",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -6877,7 +6889,9 @@ AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic/"],
    3.988522257397011*^9}, 3.9885222933259735`*^9, {3.9885225734613247`*^9, 
    3.988522614069685*^9}, {3.9885226476758766`*^9, 3.9885226476758766`*^9}, {
    3.9885226883108807`*^9, 3.988522691173752*^9}, {3.9885227856617184`*^9, 
-   3.988522825853874*^9}},ExpressionUUID->"a1b4e1be-2836-8845-9186-\
+   3.988522825853874*^9}, {3.9886227519629097`*^9, 3.9886227525910645`*^9}, {
+   3.9886227957760735`*^9, 
+   3.9886227957760735`*^9}},ExpressionUUID->"a1b4e1be-2836-8845-9186-\
 c7c47ff1aacf"]
 }, Open  ]]
 },
@@ -6900,15 +6914,15 @@ CellTagsIndex->{
   Cell[298635, 6441, 188, 3, 66, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
    CellTags->"Details"]},
  "Search Terms"->{
-  Cell[311317, 6711, 245, 7, 66, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
+  Cell[311308, 6711, 245, 7, 66, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
    CellTags->"Search Terms"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Snapshots", 319686, 6895},
- {"Details", 319827, 6898},
- {"Search Terms", 319971, 6901}
+ {"Snapshots", 320198, 6909},
+ {"Details", 320339, 6912},
+ {"Search Terms", 320483, 6915}
  }
 *)
 (*NotebookFileOutline
@@ -7012,22 +7026,22 @@ Cell[306282, 6624, 1611, 25, 55, "Text",ExpressionUUID->"dcef1833-cf38-41e4-bf57
 Cell[CellGroupData[{
 Cell[307930, 6654, 1537, 22, 66, "Section",ExpressionUUID->"85e8dbef-426c-4f06-a59f-f82ffd6b73ba",
  CellID->235808888],
-Cell[309470, 6678, 1810, 28, 77, "Text",ExpressionUUID->"fcd109cd-6fa8-4c79-8026-ad41c3614098",
+Cell[309470, 6678, 1801, 28, 55, "Text",ExpressionUUID->"fcd109cd-6fa8-4c79-8026-ad41c3614098",
  CellID->1683065940]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[311317, 6711, 245, 7, 66, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
+Cell[311308, 6711, 245, 7, 66, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
  CellTags->"Search Terms"],
-Cell[311565, 6720, 484, 17, 265, "Text",ExpressionUUID->"cffb5720-3072-4198-bafa-f823b0ac2d8a",
+Cell[311556, 6720, 484, 17, 265, "Text",ExpressionUUID->"cffb5720-3072-4198-bafa-f823b0ac2d8a",
  CellID->569163635]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[312086, 6742, 1053, 16, 42, "Section",ExpressionUUID->"f8a26c6d-067c-614c-b206-b361ad57e5e4"],
-Cell[313142, 6760, 1860, 28, 84, "Text",ExpressionUUID->"bc548012-ca06-a64f-928d-eda5ba27cdca"]
+Cell[312077, 6742, 1053, 16, 42, "Section",ExpressionUUID->"f8a26c6d-067c-614c-b206-b361ad57e5e4"],
+Cell[313133, 6760, 1860, 28, 84, "Text",ExpressionUUID->"bc548012-ca06-a64f-928d-eda5ba27cdca"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[315039, 6793, 986, 16, 56, "Section",ExpressionUUID->"81db7136-e159-784e-8e1e-72a8d01d7086"],
-Cell[316028, 6811, 3269, 69, 138, "Text",ExpressionUUID->"a1b4e1be-2836-8845-9186-c7c47ff1aacf"]
+Cell[315030, 6793, 986, 16, 56, "Section",ExpressionUUID->"81db7136-e159-784e-8e1e-72a8d01d7086"],
+Cell[316019, 6811, 3790, 83, 138, "Text",ExpressionUUID->"a1b4e1be-2836-8845-9186-c7c47ff1aacf"]
 }, Open  ]]
 }
 ]
