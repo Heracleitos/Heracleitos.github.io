@@ -52,25 +52,25 @@ Source Notebook: [Quality.nb](Quality/Quality.nb)
 
 **Demonstrations**
 
-1. Hatjimihail AT. The Area Over a Receiver Operating Characteristic (ROC) Curve as an Index of Diagnostic Inaccuracy. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026.
-
-Source Notebook: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](Demonstrations/InferencesAboutTheDifferenceBetweenTwoProportions.nb)
-
-2. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026.
-
-Source Notebook: [ExactConfidenceIntervalsForASingleProportion.nb](Demonstrations/ExactConfidenceIntervalsForASingleProportion.nb)
-
-3. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026.
+1. Hatjimihail AT. The Area Over an ROC Curve as an Index of Diagnostic Inaccuracy. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026.
 
 Source Notebook: [TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb](Demonstrations/TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb)
 
-4. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026.
+2. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026.
+
+Source Notebook: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](Demonstrations/InferencesAboutTheDifferenceBetweenTwoProportions.nb)
+
+3. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026.
 
 Source Notebook: [CalculationOfDiagnosticAccuracyMeasures.nb](Demonstrations/CalculationOfDiagnosticAccuracyMeasures.nb)
 
+4. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026.
+
+Source Notebook: [ExactConfidenceIntervalsForASingleProportion.nb](Demonstrations/ExactConfidenceIntervalsForASingleProportion.nb)
+
 5. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Ver. 1.2.1. Hellenic Complex Systems Laboratory; 2026.
 
-Source Notebook: [CalculatorForDiagnosticAccuracyMeasures.nb](Demonstrations/CalculatorForDiagnosticAccuracyMeasures.nb)
+Source Notebook: [NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb](Demonstrations/NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb)
 
 6. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026.
 
@@ -78,11 +78,11 @@ Source Notebook: [RelationOfDiagnosticAccuracyMeasures.nb](Demonstrations/Relati
 
 7. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026.
 
-Source Notebook: [CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](Demonstrations/CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb)
+Source Notebook: [CalculatorForDiagnosticAccuracyMeasures.nb](Demonstrations/CalculatorForDiagnosticAccuracyMeasures.nb)
 
 8. Chatzimichail T. Relation of Positive and Negative Predictive Values. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026.
 
-Source Notebook: [NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb](Demonstrations/NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb)
+Source Notebook: [RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](Demonstrations/RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb)
 
 9. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026.
 
@@ -107,7 +107,7 @@ Source Notebook: [UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb](Demo
 
 Source Notebook: [UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb](Demonstrations/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb)
 
-15. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026.
+15. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026.
 
 Source Notebook: [ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb](Demonstrations/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb)
 
