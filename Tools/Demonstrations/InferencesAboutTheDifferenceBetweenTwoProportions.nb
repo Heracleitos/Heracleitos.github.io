@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1060,         20]
-NotebookDataLength[     96294,       2153]
-NotebookOptionsPosition[     92107,       2056]
-NotebookOutlinePosition[     93030,       2086]
-CellTagsIndexPosition[     92898,       2079]
+NotebookDataLength[     96680,       2165]
+NotebookOptionsPosition[     92498,       2068]
+NotebookOutlinePosition[     93415,       2098]
+CellTagsIndexPosition[     93283,       2091]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1280,7 +1280,7 @@ Cell[BoxData[
          Hold[$CellContext`cl$$], 0.95, ""}, 0.001, 0.999, 0.001, ControlType -> 
         Manipulator}, {
         Hold[""], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}}, 
-      Typeset`size$$ = {437.5, {236.79818241224712`, 242.5301162162432}}, 
+      Typeset`size$$ = {437.5, {236.7981824122471, 242.53011621624316`}}, 
       Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
       False, Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
       DynamicBox[Manipulate`ManipulateBoxes[
@@ -1956,6 +1956,7 @@ Cell[CellGroupData[{
 
 Cell[TextData[StyleBox["About",
  FontSize->20]], "Section",
+ Editable->False,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
@@ -1972,11 +1973,8 @@ Cell[TextData[StyleBox["About",
 1b49f9c0a714"],
 
 Cell[TextData[{
- StyleBox["Inferences about the Difference between Two Proportions",
-  FontFamily->"Source Sans Pro ExtraLight",
-  FontSize->12,
-  FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion Number 1.1.2\n",
+ StyleBox["Inferences about the Difference between Two Proportions\nVersion \
+Number 1.1.2\n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -1988,8 +1986,20 @@ Cell[TextData[{
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["2026\nDOI:\nFirst published in 2018 as part of the Wolfram \
-Demonstrations Project: ",
+ StyleBox["2026\nDOI: ",
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["10.5281/zenodo.20384503",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://doi.org/10.5281/zenodo.20384503"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.20384503"],
+  FontFamily->"Source Sans Pro ExtraLight",
+  FontSize->12,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nFirst published in 2018 as part of the Wolfram Demonstrations \
+Project: ",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -2023,6 +2033,7 @@ InferencesAboutTheDifferenceBetweenTwoProportions/"],
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]]
 }], "Text",
+ Editable->False,
  CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
    3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
    3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
@@ -2049,13 +2060,14 @@ InferencesAboutTheDifferenceBetweenTwoProportions/"],
    3.988534952859413*^9}, {3.988535131579033*^9, 3.988535151906601*^9}, {
    3.988535200924183*^9, 3.9885352384025764`*^9}, 3.9885353945147896`*^9, {
    3.9885354256271095`*^9, 3.988535426315134*^9}, {3.9885354601029644`*^9, 
-   3.988535460103964*^9}},ExpressionUUID->"519971a4-2ace-2748-bc02-\
+   3.988535460103964*^9}, {3.988723715943344*^9, 
+   3.988723734497015*^9}},ExpressionUUID->"519971a4-2ace-2748-bc02-\
 33aba7ff622a"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{718.5, 736.875},
-WindowMargins->{{-4.125, Automatic}, {Automatic, 0}},
+WindowSize->{718.5, 732.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"06d401dd-6f5f-4f4d-aa7d-065febedf6a5"
@@ -2065,22 +2077,22 @@ ExpressionUUID->"06d401dd-6f5f-4f4d-aa7d-065febedf6a5"
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Snapshots"->{
-  Cell[40367, 933, 219, 4, 66, "Section",ExpressionUUID->"0beffa26-fb12-d64d-bf45-939f9061d0ed",
-   CellTags->"Snapshots"]},
  "Details"->{
   Cell[80497, 1807, 188, 3, 66, "Section",ExpressionUUID->"abe4f0ac-25c9-b84b-8cb8-f3b40461a96d",
    CellTags->"Details"]},
  "Search Terms"->{
   Cell[83371, 1875, 245, 7, 66, "Section",ExpressionUUID->"05278f0f-18f9-3b47-a771-1516fa2132c5",
-   CellTags->"Search Terms"]}
+   CellTags->"Search Terms"]},
+ "Snapshots"->{
+  Cell[40367, 933, 219, 4, 66, "Section",ExpressionUUID->"0beffa26-fb12-d64d-bf45-939f9061d0ed",
+   CellTags->"Snapshots"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Snapshots", 92464, 2067},
- {"Details", 92603, 2070},
- {"Search Terms", 92746, 2073}
+ {"Details", 92847, 2079},
+ {"Search Terms", 92990, 2082},
+ {"Snapshots", 93135, 2085}
  }
 *)
 (*NotebookFileOutline
@@ -2113,15 +2125,15 @@ Cell[9506, 255, 628, 16, 61, "Input",ExpressionUUID->"7e5ac9b2-d503-384f-a77f-06
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->315993518],
-Cell[10137, 273, 4335, 96, 158, "Input",ExpressionUUID->"e80fe4dc-dc7b-dd44-a5a5-0a918b10ab57",
+Cell[10137, 273, 4335, 96, 352, "Input",ExpressionUUID->"e80fe4dc-dc7b-dd44-a5a5-0a918b10ab57",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->387120033],
-Cell[14475, 371, 3039, 70, 120, "Input",ExpressionUUID->"988fdfe5-3e53-f949-958b-8ef9834fc574",
+Cell[14475, 371, 3039, 70, 215, "Input",ExpressionUUID->"988fdfe5-3e53-f949-958b-8ef9834fc574",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->245713618],
-Cell[17517, 443, 7036, 150, 367, "Input",ExpressionUUID->"ad977ae1-2d45-ef4f-838f-df5a25159d58",
+Cell[17517, 443, 7036, 150, 481, "Input",ExpressionUUID->"ad977ae1-2d45-ef4f-838f-df5a25159d58",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  InitializationCell->True,
  CellID->643348147],
@@ -2129,7 +2141,7 @@ Cell[24556, 595, 13695, 297, 550, "Output",ExpressionUUID->"44e529f8-7ee9-9141-a
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
 Cell[38254, 894, 256, 5, 66, "Section",ExpressionUUID->"5f8f22cc-633a-5e4b-891d-0ee496d60b7a",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[38513, 901, 1817, 27, 77, "Text",ExpressionUUID->"4648581d-a2ff-7f43-99b8-6ffcf3d3cf86",
+Cell[38513, 901, 1817, 27, 143, "Text",ExpressionUUID->"4648581d-a2ff-7f43-99b8-6ffcf3d3cf86",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellID->44699273]
 }, Open  ]],
@@ -2164,8 +2176,8 @@ Cell[84254, 1905, 1053, 16, 56, "Section",ExpressionUUID->"7a4f2e9a-e1dd-af45-84
 Cell[85310, 1923, 1858, 28, 84, "Text",ExpressionUUID->"bef7bbe9-60b0-2c44-bd6f-08b38ea59a56"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[87205, 1956, 968, 15, 56, "Section",ExpressionUUID->"cea1c232-8b52-3143-b69a-1b49f9c0a714"],
-Cell[88176, 1973, 3903, 79, 138, "Text",ExpressionUUID->"519971a4-2ace-2748-bc02-33aba7ff622a"]
+Cell[87205, 1956, 986, 16, 56, "Section",ExpressionUUID->"cea1c232-8b52-3143-b69a-1b49f9c0a714"],
+Cell[88194, 1974, 4276, 90, 138, "Text",ExpressionUUID->"519971a4-2ace-2748-bc02-33aba7ff622a"]
 }, Open  ]]
 }, Open  ]]
 }
