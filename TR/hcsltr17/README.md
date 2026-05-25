@@ -1,6 +1,6 @@
 # HCSL Technical Report XVII
 
-Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Technical Report XVII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.18604104
+Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Technical Report XVII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20382157
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr17/.
 
