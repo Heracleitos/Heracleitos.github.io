@@ -1,4 +1,4 @@
-# Demonstrations:
+# Hellenic Complex Systems Laboratory Demonstrations Repository
 
 1. Hatjimihail AT. The Area Over an ROC Curve as an Index of Diagnostic Inaccuracy. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20385003 
 
