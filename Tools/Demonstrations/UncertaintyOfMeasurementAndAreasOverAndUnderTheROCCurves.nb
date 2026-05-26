@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     73834,       1485]
+NotebookDataLength[     73840,       1485]
 NotebookOptionsPosition[     69632,       1390]
-NotebookOutlinePosition[     70876,       1427]
-CellTagsIndexPosition[     70710,       1419]
+NotebookOutlinePosition[     70882,       1427]
+CellTagsIndexPosition[     70716,       1419]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1389,8 +1389,8 @@ ToolForQualityControlDesignAndEvaluation/"],
 }, Open  ]]
 },
 CellGrouping->Manual,
-WindowSize->{718.5, 732.75},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{718.5, 736.875},
+WindowMargins->{{Automatic, -4.125}, {Automatic, 0}},
 FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"269eaab3-4e91-42fd-adfa-06648e4dd302"
@@ -1418,10 +1418,10 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 70015, 1402},
- {"Caption", 70162, 1405},
- {"Snapshots", 70301, 1408},
- {"Details", 70440, 1411}
+ {"Initialization Code", 70021, 1402},
+ {"Caption", 70168, 1405},
+ {"Snapshots", 70307, 1408},
+ {"Details", 70446, 1411}
  }
 *)
 (*NotebookFileOutline
