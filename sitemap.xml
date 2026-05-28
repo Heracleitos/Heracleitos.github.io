@@ -121,6 +121,11 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://www.hcsl.com/Publications/Selected.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://www.hcsl.com/Publications/Statistics.html</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.64</priority>
@@ -257,7 +262,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr12/index.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -410,7 +415,6 @@
     <lastmod>2024-12-05</lastmod>
     <priority>0.64</priority>
   </url>
-  <url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr01/hcsltr01.pdf</loc>
     <lastmod>2024-12-05</lastmod>
@@ -587,17 +591,12 @@
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.hcsl.com/Tools/Demonstrations/CalculationOfExactConfidenceIntervalForASingleProportion.nb</loc>
-    <lastmod>2026-05-25</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/CalculatorForDiagnosticAccuracyMeasures.nb</loc>
     <lastmod>2026-05-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.hcsl.com/Tools/Demonstrations/CorrelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb</loc>
+    <loc>https://www.hcsl.com/Tools/Demonstrations/RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb</loc>
     <lastmod>2026-05-25</lastmod>
     <priority>0.64</priority>
   </url>
@@ -651,7 +650,7 @@
     <lastmod>2026-05-25</lastmod>
     <priority>0.64</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.hcsl.com/Tools/DiagnosticAccuracy/DiagAccU.zip</loc>
     <lastmod>2026-05-13</lastmod>
     <priority>0.64</priority>
