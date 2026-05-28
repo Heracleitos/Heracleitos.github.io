@@ -10,7 +10,7 @@ authors:
     given-names: "Aristeidis T."
     orcid: "https://orcid.org/0000-0002-0502-7996"
 version: 2.0.2
-date-released: "2026-03-22"
+date-released: "2026-05-06"
 identifiers:
   - description: "This is the archived snapshot of version 2.0.2 of Bayesian Diagnostic Uncertainty"
     type: doi

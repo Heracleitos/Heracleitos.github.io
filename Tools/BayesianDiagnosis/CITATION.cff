@@ -11,7 +11,7 @@ authors:
     given-names: "Aristeidis T."
     orcid: "https://orcid.org/0000-0002-0502-7996"
 version: 1.0.7
-date-released: "2026-03-22"
+date-released: "2026-05-06"
 identifiers:
   - description: "This is the archived snapshot of version 1.0.7 of Bayesian Diagnosis"
     type: doi
