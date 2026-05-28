@@ -42,4 +42,3 @@ Content is for research and educational purposes and should not be treated as cl
 ## Optional
 
 - [Other Publications by HCSL Fellows](https://www.hcsl.com/Publications/Fellows.html): Additional publications not listed under HCSL Publications.
-- [Selected Links](https://www.hcsl.com/Links/index.html): External references and resources curated by HCSL.
