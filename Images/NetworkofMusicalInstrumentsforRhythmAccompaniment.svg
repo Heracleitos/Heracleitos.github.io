@@ -162,7 +162,7 @@
 <clipPath id="clip1">
   <path d="M 778.078125 9.601563 L 788.160156 9.601563 L 788.160156 19.679688 L 778.078125 19.679688 Z M 778.078125 9.601563 "/>
 </clipPath>
-<image id="image135" width="10" height="10" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABmJLR0QA/wD/AP+gvaeTAAAAkklEQVQYlY2QwQnCUBBEZzY2YS2mhfAv3tRaQmoRC1j+LyFpRavIjgfzg0ggvtuyw2MY4gPd/WJmieQJACRNEeEppQcAEQBzzj3JHhtIGrquG+ju16Zp7vXRti0AYBzHNTzP883MLG2ZvjGzxFLKE8Cxmn5ZzC/bs1UOkiaS59ppq6OkySLC92wR4f/Ps9y7g78BcR5Pq1IhSXUAAAAASUVORK5CYII="/>
+<image id="image5" width="10" height="10" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABmJLR0QA/wD/AP+gvaeTAAAAkklEQVQYlY2QwQnCUBBEZzY2YS2mhfAv3tRaQmoRC1j+LyFpRavIjgfzg0ggvtuyw2MY4gPd/WJmieQJACRNEeEppQcAEQBzzj3JHhtIGrquG+ju16Zp7vXRti0AYBzHNTzP883MLG2ZvjGzxFLKE8Cxmn5ZzC/bs1UOkiaS59ppq6OkySLC92wR4f/Ps9y7g78BcR5Pq1IhSXUAAAAASUVORK5CYII="/>
 <clipPath id="clip2">
   <path d="M 392 21.121094 L 413 21.121094 L 413 47 L 392 47 Z M 392 21.121094 "/>
 </clipPath>
@@ -170,11 +170,11 @@
   <path d="M 135.359375 192 L 168 192 L 168 202 L 135.359375 202 Z M 135.359375 192 "/>
 </clipPath>
 </defs>
-<g id="surface131">
+<g id="surface1">
 <path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,99.99969%,100%);fill-opacity:1;" d="M 0 589.921875 L 795.121094 589.921875 L 795.121094 0 L 0 0 Z M 0 589.921875 "/>
 <path style="fill-rule:evenodd;fill:rgb(95.999084%,95.999084%,95.999084%);fill-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke:rgb(66.666667%,66.666667%,66.666667%);stroke-opacity:1;stroke-miterlimit:10;" d="M 1 588.847656 L 794.101563 588.847656 L 794.101563 1 L 1 1 Z M 1 588.847656 "/>
 <g clip-path="url(#clip1)" clip-rule="nonzero">
-<use xlink:href="#image135" transform="matrix(1,0,0,-1,778.1,19.61084)"/>
+<use xlink:href="#image5" transform="matrix(1,0,0,-1,778.1,19.61084)"/>
 </g>
 <path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,99.99969%,100%);fill-opacity:1;" d="M 8 581.847656 L 787.101563 581.847656 L 787.101563 54.046875 L 8 54.046875 Z M 8 581.847656 "/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
