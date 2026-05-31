@@ -6679,7 +6679,7 @@ Cell["References", "Section",
 Cell["\<\
 [1] T. Chatzimichail. \"Analysis of Diagnostic Accuracy Measures\", Ver. \
 1.1.1, Hellenic Complex Systems Laboratory, 2026. \
-https://doi.org/10.5281/zenodo.20471737\
+https://doi.org/10.5281/zenodo.20477135\
 \>", "Text",
  Editable->False,
  CellChangeTimes->{
