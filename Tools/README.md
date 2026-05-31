@@ -92,7 +92,7 @@ Source Notebook: [AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.n
 
 Source Notebook: [EnteralNutritionalDesign.nb](Demonstrations/EnteralNutritionalDesign.nb)
 
-11. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20471737
+11. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20477135
 
 Source Notebook: [AnalysisOfDiagnosticAccuracyMeasures.nb](Demonstrations/AnalysisOfDiagnosticAccuracyMeasures.nb)
 
