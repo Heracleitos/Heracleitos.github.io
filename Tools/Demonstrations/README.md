@@ -40,7 +40,7 @@ Source Notebook: [AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.n
 
 Source Notebook: [EnteralNutritionalDesign.nb](EnteralNutritionalDesign.nb)
 
-11. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20363839
+11. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20471737
 
 Source Notebook: [AnalysisOfDiagnosticAccuracyMeasures.nb](AnalysisOfDiagnosticAccuracyMeasures.nb)
 
@@ -66,4 +66,4 @@ Hellenic Complex Systems Laboratory computational notebooks are licensed under a
 
 **Disclaimer of Warranties**
 
- The material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, technical reports,  computational notebooks, and web content, is offered "as is", without any warranty of any kind, either express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or the Hellenic Complex Systems Laboratory or any of its members be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the material or the use or other dealings in the material.
+ The material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, technical reports, computational notebooks, and web content, is offered "as is", without any warranty of any kind, either express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or the Hellenic Complex Systems Laboratory or any of its members be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the material or the use or other dealings in the material.
