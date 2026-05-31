@@ -1,6 +1,6 @@
 # HCSL Technical Report IX
 
-Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Technical Report IX. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.20471989
+Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Technical Report IX. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.20477140
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr09/.
 
