@@ -84,7 +84,7 @@ Source Notebook: [CalculatorForDiagnosticAccuracyMeasures.nb](Demonstrations/Cal
 
 Source Notebook: [RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](Demonstrations/RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb)
 
-9. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20477408
+9. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20492719
 
 Source Notebook: [AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb](Demonstrations/AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb)
 
@@ -92,7 +92,7 @@ Source Notebook: [AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.n
 
 Source Notebook: [EnteralNutritionalDesign.nb](Demonstrations/EnteralNutritionalDesign.nb)
 
-11. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20477135
+11. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20491296
 
 Source Notebook: [AnalysisOfDiagnosticAccuracyMeasures.nb](Demonstrations/AnalysisOfDiagnosticAccuracyMeasures.nb)
 
