@@ -1502,7 +1502,7 @@ Glucose Distribution: Is It Universal?,\" ",
 Cell["\<\
 [2]  A. T. Hatjimihail, \[OpenCurlyDoubleQuote]Uncertainty of Measurement and \
 Diagnostic Accuracy Measures\[CloseCurlyDoubleQuote], Ver. 1.1.2, Hellenic \
-Complex Systems Laboratory, 2026.  https://doi.org/10.5281/zenodo.20357353\
+Complex Systems Laboratory, 2026.  https://doi.org/10.5281/zenodo.20484026\
 \>", "Text",
  Editable->False,
  CellGroupingRules->{"GroupTogetherGrouping", 10003.},
