@@ -108,7 +108,7 @@ Source Notebook: [UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb](Demo
 
 Source Notebook: [UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb](Demonstrations/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb)
 
-15. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20356631
+15. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20535253
 
 Source Notebook: [ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb](Demonstrations/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb)
 
