@@ -96,7 +96,7 @@ Source Notebook: [EnteralNutritionalDesign.nb](Demonstrations/EnteralNutritional
 
 Source Notebook: [AnalysisOfDiagnosticAccuracyMeasures.nb](Demonstrations/AnalysisOfDiagnosticAccuracyMeasures.nb)
 
-12. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Ver. 1.3.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20357589
+12. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Ver. 1.3.4. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20558330
 
 Source Notebook: [ToolForQualityControlDesignAndEvaluation.nb](Demonstrations/ToolForQualityControlDesignAndEvaluation.nb)
 
