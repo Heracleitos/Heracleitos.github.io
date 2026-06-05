@@ -104,7 +104,7 @@ Source Notebook: [ToolForQualityControlDesignAndEvaluation.nb](Demonstrations/To
 
 Source Notebook: [UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb](Demonstrations/UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb)
 
-14. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20356939
+14. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20550911
 
 Source Notebook: [UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb](Demonstrations/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb)
 
