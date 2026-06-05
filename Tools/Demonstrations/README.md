@@ -32,7 +32,7 @@ Source Notebook: [CalculatorForDiagnosticAccuracyMeasures.nb](CalculatorForDiagn
 
 Source Notebook: [RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb)
 
-9. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20492719
+9. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20561046
 
 Source Notebook: [AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb](AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb)
 
