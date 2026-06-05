@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    193152,       4185]
-NotebookOptionsPosition[    188755,       4090]
-NotebookOutlinePosition[    189848,       4124]
-CellTagsIndexPosition[    189713,       4117]
+NotebookDataLength[    222043,       4741]
+NotebookOptionsPosition[    217544,       4645]
+NotebookOutlinePosition[    218637,       4679]
+CellTagsIndexPosition[    218502,       4672]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1805,6 +1805,574 @@ Cell["Snapshots", "Section",
  Editable->False,
  CellChangeTimes->{{3.824276098697758*^9, 3.8242761048353376`*^9}},
  CellTags->"Snapshots",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`a$$ = 0.1, $CellContext`c$$ = 
+    4, $CellContext`em$$ = 100, $CellContext`m$$ = 
+    99, $CellContext`minpred$$ = 0.9, $CellContext`minpsed$$ = 
+    0.9, $CellContext`ptaae$$ = 10, $CellContext`s$$ = 
+    1.5, $CellContext`type$$ = 0, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`type$$], 0, "output"}, {
+      0 -> "qc parameters", 1 -> "pdf", 2 -> "cdf", 3 -> "pfg re", 4 -> 
+       "pfg se"}, ControlType -> SetterBar}, {
+      Hold[
+       Style[
+       "parameters of the control measurements (in measurement units) ", 
+        Bold]], Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+       Hold[$CellContext`em$$], 100, 
+       "assigned mean \!\(\*SubscriptBox[\(m\), \(a\)]\)"}, 0.01, 1000, 
+      ControlType -> Manipulator}, {{
+       Hold[$CellContext`m$$], 99, 
+       "observed mean \!\(\*SubscriptBox[\(m\), \(o\)]\)"}, 0.01, 1000, 
+      ControlType -> Manipulator}, {{
+       Hold[$CellContext`s$$], 1.5, "standard deviation \[Sigma]"}, 0.01, 
+      1000, ControlType -> Manipulator}, {
+      Hold[
+       Style["quality specifications", Bold]], 
+      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+       Hold[$CellContext`ptaae$$], 10, 
+       "total allowable analytical error p (%)"}, 0.01, 200, 1, ControlType -> 
+      Manipulator}, {{
+       Hold[$CellContext`a$$], 0.1, 
+       "maximum fraction nonconforming \!\(\*SubscriptBox[\(f\), \(max\)]\)"},
+       0.01, 1, 0.01, ControlType -> Manipulator}, {{
+       Hold[$CellContext`minpred$$], 0.9, 
+       "minimum probability for critical random error detection \
+\!\(\*SubscriptBox[\(r\), \(min\)]\)"}, 0.01, 0.999999, 0.01, ControlType -> 
+      Manipulator}, {{
+       Hold[$CellContext`minpsed$$], 0.9, 
+       "minimum probability for critical systematic error detection \
+\!\(\*SubscriptBox[\(s\), \(min\)]\)"}, 0.01, 0.999999, 0.01, ControlType -> 
+      Manipulator}, {
+      Hold[
+       Style["number of control measurements", Bold]], 
+      Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
+       Hold[$CellContext`c$$], 4, "control measurements"}, {1, 2, 3, 4, 5, 6},
+       ControlType -> PopupMenu}}, Typeset`size$$ = {
+    500., {122.13403309800196`, 127.86596690199804`}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = False, 
+    Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`a$$ = 0.1, $CellContext`c$$ = 
+        4, $CellContext`em$$ = 100, $CellContext`m$$ = 
+        99, $CellContext`minpred$$ = 0.9, $CellContext`minpsed$$ = 
+        0.9, $CellContext`ptaae$$ = 10, $CellContext`s$$ = 
+        1.5, $CellContext`type$$ = 0}, "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$, Typeset`keyframeActionsQ$$, 
+        Typeset`keyframeList$$}, "Body" :> 
+      Quiet[$CellContext`taae = $CellContext`ptaae$$/
+          100; $CellContext`fn = $CellContext`pce[$CellContext`em$$, \
+$CellContext`m$$, $CellContext`s$$, $CellContext`taae]; 
+        If[$CellContext`minfn <= $CellContext`fn <= $CellContext`a$$, 
+          
+          Which[$CellContext`type$$ == 
+           0, $CellContext`rc = ReplaceAll[$CellContext`sd, 
+              FindRoot[
+              N[2^(-1) (
+                  Erfc[($CellContext`m$$ - $CellContext`em$$ (
+                    1 - $CellContext`taae))/(Sqrt[2] $CellContext`sd)] + 
+                  Erfc[(-$CellContext`m$$ + $CellContext`em$$ (
+                    1 + $CellContext`taae))/(Sqrt[2] $CellContext`sd)]), {100,
+                  100}] == $CellContext`a$$, {$CellContext`sd, \
+$CellContext`s$$, 20 $CellContext`s$$, 0, 
+                30 $CellContext`s$$}]]; $CellContext`sc = 
+            ReplaceAll[$CellContext`bias, 
+              If[$CellContext`m$$ < $CellContext`em$$, 
+               FindRoot[
+               N[2^(-1) (1 + 
+                   
+                   Erf[($CellContext`bias - $CellContext`m$$ + \
+$CellContext`em$$ (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s$$)] + 
+                   Erfc[($CellContext`bias - $CellContext`m$$ + \
+$CellContext`em$$ (1 + $CellContext`taae))/(Sqrt[2] $CellContext`s$$)]), {100,
+                   100}] == $CellContext`a$$, {$CellContext`bias, 
+                 1 $CellContext`s$$, 20 $CellContext`s$$, 0, 
+                 30 $CellContext`s$$}, AccuracyGoal -> 100, PrecisionGoal -> 
+                100], 
+               FindRoot[
+               N[2^(-1) (1 + 
+                   Erfc[($CellContext`bias + $CellContext`m$$ - \
+$CellContext`em$$ (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s$$)] + 
+                   Erf[($CellContext`bias + $CellContext`m$$ - \
+$CellContext`em$$ (1 + $CellContext`taae))/(Sqrt[2] $CellContext`s$$)]), {100,
+                   100}] == $CellContext`a$$, {$CellContext`bias, 
+                 1 $CellContext`s$$, 20 $CellContext`s$$, 0, 
+                 30 $CellContext`s$$}, AccuracyGoal -> 100, PrecisionGoal -> 
+                100]]]; $CellContext`d = $CellContext`qc[$CellContext`em$$, \
+$CellContext`m$$, $CellContext`s$$, $CellContext`taae, $CellContext`a$$, \
+$CellContext`minpsed$$, $CellContext`minpred$$, $CellContext`c$$]; \
+$CellContext`pfr = $CellContext`ped[$CellContext`em$$, $CellContext`m$$, \
+$CellContext`s$$, $CellContext`d, 
+              0, $CellContext`s$$, $CellContext`c$$]; $CellContext`pred = \
+$CellContext`ped[$CellContext`em$$, $CellContext`m$$, $CellContext`s$$, \
+$CellContext`d, 
+              0, $CellContext`rc, $CellContext`c$$]; $CellContext`psed = \
+$CellContext`ped[$CellContext`em$$, $CellContext`m$$, $CellContext`s$$, \
+$CellContext`d, $CellContext`sc, $CellContext`s$$, $CellContext`c$$]; Pane[
+             Text[
+              Grid[{{
+                 Style["measurement process parameters", Bold, Larger]}, {
+                "fraction nonconforming ", 
+                 NumberForm[$CellContext`fn, {7, 6}]}, {
+                "critical random error ", 
+                 NumberForm[$CellContext`rc, {6, 2}]}, {
+                "critical systematic error ", 
+                 NumberForm[$CellContext`sc, {6, 2}]}, {
+                 Style["\nquality control parameters", Bold, Larger]}, {
+                 Style["quality control rule ", Bold, Blue], 
+                 
+                 Style[((("S(1, " <> ToString[$CellContext`c$$]) <> ", ") <> 
+                   ToString[
+                    NumberForm[$CellContext`d, {4, 2}]]) <> " \[Sigma])", 
+                  Bold, Blue]}, {
+                 Style["lower quality control decision limit ", Bold, Red], 
+                 Style[
+                  
+                  NumberForm[$CellContext`m$$ - $CellContext`d \
+$CellContext`s$$, {6, 2}], Bold, Red]}, {
+                 Style["upper quality control decision limit ", Bold, Red], 
+                 Style[
+                  
+                  NumberForm[$CellContext`m$$ + $CellContext`d \
+$CellContext`s$$, {6, 3}], Bold, Red]}, {
+                "probability for critical random error detection ", 
+                 NumberForm[$CellContext`pred, {6, 3}]}, {
+                "probability for critical systematic error detection", 
+                 NumberForm[$CellContext`psed, {6, 3}]}, {
+                "probability for false rejection ", 
+                 N[$CellContext`pfr, {7, 6}]}}, Alignment -> {Left}]], 
+             ImageSize -> {500, 250}], $CellContext`type$$ == 1, 
+           Plot[
+            Tooltip[
+             PDF[
+              
+              NormalDistribution[$CellContext`m$$, $CellContext`s$$], \
+$CellContext`x], 
+             "pdf of the control measurements"], {$CellContext`x, \
+$CellContext`m$$ - 6 $CellContext`s$$, $CellContext`m$$ + 6 $CellContext`s$$},
+             AspectRatio -> 1, PlotLabel -> 
+            "probability density function (pdf)", PlotStyle -> {
+              ColorData["HTML", "SlateBlue"], 
+              RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+            ImageSize -> {500, 250}], $CellContext`type$$ == 2, 
+           Plot[
+            Tooltip[
+             CDF[
+              
+              NormalDistribution[$CellContext`m$$, $CellContext`s$$], \
+$CellContext`x], 
+             "cdf of the control measurements"], {$CellContext`x, \
+$CellContext`m$$ - 6 $CellContext`s$$, $CellContext`m$$ + 6 $CellContext`s$$},
+             AspectRatio -> 1, PlotLabel -> 
+            "cumulative distribution function (cdf)", PlotStyle -> {
+              ColorData["HTML", "SlateBlue"], 
+              RGBColor[1, 0.47, 0]}, Filling -> Bottom, 
+            ImageSize -> {500, 250}], $CellContext`type$$ == 
+           3, $CellContext`rc = ReplaceAll[$CellContext`sd, 
+              FindRoot[
+              N[2^(-1) (
+                  Erfc[($CellContext`m$$ - $CellContext`em$$ (
+                    1 - $CellContext`taae))/(Sqrt[2] $CellContext`sd)] + 
+                  Erfc[(-$CellContext`m$$ + $CellContext`em$$ (
+                    1 + $CellContext`taae))/(Sqrt[2] $CellContext`sd)]), {100,
+                  100}] == $CellContext`a$$, {$CellContext`sd, \
+$CellContext`s$$, 20 $CellContext`s$$, 0, 
+                30 $CellContext`s$$}]]; $CellContext`d = \
+$CellContext`qc[$CellContext`em$$, $CellContext`m$$, $CellContext`s$$, \
+$CellContext`taae, $CellContext`a$$, $CellContext`minpsed$$, \
+$CellContext`minpred$$, $CellContext`c$$]; Plot[
+             Tooltip[
+              $CellContext`ped[$CellContext`em$$, $CellContext`m$$, \
+$CellContext`s$$, $CellContext`d, 0, $CellContext`x, $CellContext`c$$], 
+              "pfg for the random error"], {$CellContext`x, 
+              1, $CellContext`rc + 3 $CellContext`s$$}, 
+             AxesLabel -> {"re", "ped"}, AspectRatio -> 1, PlotLabel -> 
+             "power function graph (pfg)", PlotStyle -> {
+               ColorData["HTML", "Brown"]}, FillingStyle -> LightBrown, 
+             Filling -> Bottom, ImageSize -> {500, 250}], $CellContext`type$$ == 
+           4, $CellContext`sc = ReplaceAll[$CellContext`bias, 
+              If[$CellContext`m$$ < $CellContext`em$$, 
+               FindRoot[
+               N[2^(-1) (1 + 
+                   Erf[($CellContext`bias - $CellContext`m$$ + \
+$CellContext`em$$ (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s$$)] + 
+                   Erfc[($CellContext`bias - $CellContext`m$$ + \
+$CellContext`em$$ (1 + $CellContext`taae))/(Sqrt[2] $CellContext`s$$)]), {100,
+                   100}] == $CellContext`a$$, {$CellContext`bias, 
+                 1 $CellContext`s$$, 20 $CellContext`s$$, 0, 
+                 30 $CellContext`s$$}, AccuracyGoal -> 100, PrecisionGoal -> 
+                100], 
+               FindRoot[
+               N[2^(-1) (1 + 
+                   Erfc[($CellContext`bias + $CellContext`m$$ - \
+$CellContext`em$$ (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s$$)] + 
+                   Erf[($CellContext`bias + $CellContext`m$$ - \
+$CellContext`em$$ (1 + $CellContext`taae))/(Sqrt[2] $CellContext`s$$)]), {100,
+                   100}] == $CellContext`a$$, {$CellContext`bias, 
+                 1 $CellContext`s$$, 20 $CellContext`s$$, 0, 
+                 30 $CellContext`s$$}, AccuracyGoal -> 100, PrecisionGoal -> 
+                100]]]; $CellContext`d = $CellContext`qc[$CellContext`em$$, \
+$CellContext`m$$, $CellContext`s$$, $CellContext`taae, $CellContext`a$$, \
+$CellContext`minpsed$$, $CellContext`minpred$$, $CellContext`c$$]; Plot[
+             Tooltip[
+              $CellContext`ped[$CellContext`em$$, $CellContext`m$$, \
+$CellContext`s$$, $CellContext`d, $CellContext`x, $CellContext`s$$, \
+$CellContext`c$$], "pfg for the systematic error"], {$CellContext`x, 
+              0, $CellContext`sc + 3 $CellContext`s$$}, 
+             AxesLabel -> {"se", "ped"}, AspectRatio -> 1, PlotLabel -> 
+             "power function graph (pfg)", PlotStyle -> {
+               ColorData["HTML", "Brown"]}, Filling -> Bottom, FillingStyle -> 
+             LightBrown, ImageSize -> {500, 250}]], 
+          If[$CellContext`fn > $CellContext`a$$, 
+           Pane[
+            Text[
+             
+             Grid[{{"fraction nonconforming = " <> 
+                ToString[$CellContext`fn]}, {
+                Style[
+                "the fraction nonconforming is not acceptable", Bold, Red, 
+                 Larger]}}, Alignment -> {Left, Left}]], 
+            ImageSize -> {500, 250}], 
+           If[$CellContext`fn >= 0, 
+            Pane[
+             Text[
+              
+              Grid[{{"fraction nonconforming < \!\(\*SuperscriptBox[\(10\), \
+\(-100\)]\)"}, {
+                 Style[
+                 "the fraction nonconforming is too small for this \
+Demonstration.", Bold, Red, Larger]}}, Alignment -> {Left, Left}]], 
+             ImageSize -> {500, 250}], 
+            Pane[
+             Text[
+              Grid[{{"fraction nonconforming = 1."}, {
+                 Style[
+                 "the fraction nonconforming is not acceptable.", Bold, Red, 
+                  Larger]}}, Alignment -> {Left, Left}]], 
+             ImageSize -> {500, 250}]]]]], 
+      "Specifications" :> {{{$CellContext`type$$, 0, "output"}, {
+         0 -> "qc parameters", 1 -> "pdf", 2 -> "cdf", 3 -> "pfg re", 4 -> 
+          "pfg se"}}, 
+        Style[
+        "parameters of the control measurements (in measurement units) ", 
+         Bold], {{$CellContext`em$$, 100, 
+          "assigned mean \!\(\*SubscriptBox[\(m\), \(a\)]\)"}, 0.01, 1000, 
+         ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`m$$, 99, 
+          "observed mean \!\(\*SubscriptBox[\(m\), \(o\)]\)"}, 0.01, 1000, 
+         ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`s$$, 1.5, "standard deviation \[Sigma]"}, 
+         0.01, 1000, ImageSize -> Tiny, Appearance -> "Labeled"}, 
+        Style[
+        "quality specifications", 
+         Bold], {{$CellContext`ptaae$$, 10, 
+          "total allowable analytical error p (%)"}, 0.01, 200, 1, ImageSize -> 
+         Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`a$$, 0.1, 
+          "maximum fraction nonconforming \!\(\*SubscriptBox[\(f\), \
+\(max\)]\)"}, 0.01, 1, 0.01, ImageSize -> Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`minpred$$, 0.9, 
+          "minimum probability for critical random error detection \
+\!\(\*SubscriptBox[\(r\), \(min\)]\)"}, 0.01, 0.999999, 0.01, ImageSize -> 
+         Tiny, Appearance -> 
+         "Labeled"}, {{$CellContext`minpsed$$, 0.9, 
+          "minimum probability for critical systematic error detection \
+\!\(\*SubscriptBox[\(s\), \(min\)]\)"}, 0.01, 0.999999, 0.01, ImageSize -> 
+         Tiny, Appearance -> "Labeled"}, 
+        Style[
+        "number of control measurements", 
+         Bold], {{$CellContext`c$$, 4, "control measurements"}, {1, 2, 3, 4, 
+         5, 6}}}, 
+      "Options" :> {
+       ControlPlacement -> Top, SynchronousUpdating -> False, TrackedSymbols -> 
+        True, AutorunSequencing -> {1}}, "DefaultOptions" :> {}],
+     ImageSizeCache->{
+      542.5999999999999, {295.7968260667519, 301.528759870748}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`taae = 1/10, $CellContext`fn = 
+       9.866998938504152*^-10, $CellContext`pce[
+         Pattern[$CellContext`em, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`s, 
+          Blank[]], 
+         Pattern[$CellContext`taae, 
+          Blank[]]] := 
+       N[(Erfc[($CellContext`m - $CellContext`em (1 - $CellContext`taae))/(
+            Sqrt[2] $CellContext`s)] + 
+          Erfc[(-$CellContext`m + $CellContext`em (1 + $CellContext`taae))/(
+            Sqrt[2] $CellContext`s)])/2, {100, 100}], $CellContext`minfn = 
+       1/100000000000000000000000000000000000000000000000000000000000000000000\
+00000000000000000000000000000000, $CellContext`rc = 
+       5.996664371339213, $CellContext`sc = 7.077672651683099, $CellContext`d = 
+       3.1028858815067197`, $CellContext`qc[
+         Pattern[$CellContext`em, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`s, 
+          Blank[]], 
+         Pattern[$CellContext`taae, 
+          Blank[]], 
+         Pattern[$CellContext`a, 
+          Blank[]], 
+         Pattern[$CellContext`minpsed, 
+          Blank[]], 
+         Pattern[$CellContext`minpred, 
+          Blank[]], 
+         Pattern[$CellContext`c, 
+          Blank[]], 
+         Pattern[$CellContext`k, 
+          Blank[]]] := 
+       Module[{$CellContext`ra, $CellContext`dr, $CellContext`sa, \
+$CellContext`ds, $CellContext`sd, $CellContext`d, $CellContext`dd, \
+$CellContext`bias}, $CellContext`ra = ReplaceAll[$CellContext`sd, 
+            FindRoot[
+            1 - NIntegrate[
+              1/(E^((-$CellContext`m + $CellContext`x)^2/(
+                 2 $CellContext`sd^2)) (
+                Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, \
+$CellContext`em (1 - $CellContext`taae), $CellContext`em (
+                 1 + $CellContext`taae)}] == $CellContext`a, \
+{$CellContext`sd, $CellContext`s, 0, 30 $CellContext`s}, 
+             AccuracyGoal -> $CellContext`ag, 
+             PrecisionGoal -> $CellContext`pg]]; $CellContext`dr = 
+          ReplaceAll[$CellContext`d, 
+            
+            FindRoot[{(Binomial[$CellContext`c, $CellContext`k] 
+                NIntegrate[
+                  1/(E^((-$CellContext`m + $CellContext`x)^2/(
+                    2 $CellContext`ra^2)) (
+                    Sqrt[2 Pi] $CellContext`ra)), {$CellContext`x, \
+$CellContext`m - $CellContext`d $CellContext`s, $CellContext`m + \
+$CellContext`d $CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - 
+                 NIntegrate[
+                 1/(E^((-$CellContext`m + $CellContext`x)^2/(
+                    2 $CellContext`ra^2)) (
+                   Sqrt[2 Pi] $CellContext`ra)), {$CellContext`x, \
+$CellContext`m - $CellContext`d $CellContext`s, $CellContext`m + \
+$CellContext`d $CellContext`s}])^$CellContext`k == $CellContext`minpred}, \
+{$CellContext`d, 1, 0, 30}, AccuracyGoal -> $CellContext`ag, 
+             PrecisionGoal -> $CellContext`pg]]; $CellContext`sa = 
+          ReplaceAll[$CellContext`bias, 
+            If[$CellContext`m < $CellContext`em, 
+             
+             FindRoot[{
+              1 - NIntegrate[
+                1/(E^(($CellContext`bias - $CellContext`m + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`em (1 - $CellContext`taae), $CellContext`em (
+                   1 + $CellContext`taae)}] == $CellContext`a}, \
+{$CellContext`bias, 1 $CellContext`s, 0, 30 $CellContext`s}, 
+              AccuracyGoal -> $CellContext`ag, 
+              PrecisionGoal -> $CellContext`pg], 
+             
+             FindRoot[{
+              1 - NIntegrate[
+                1/(E^((-$CellContext`bias - $CellContext`m + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                  Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`em (1 - $CellContext`taae), $CellContext`em (
+                   1 + $CellContext`taae)}] == $CellContext`a}, \
+{$CellContext`bias, 1 $CellContext`s, 0, 30 $CellContext`s}, 
+              AccuracyGoal -> $CellContext`ag, 
+              PrecisionGoal -> $CellContext`pg]]]; $CellContext`ds = 
+          ReplaceAll[$CellContext`dd, 
+            If[$CellContext`m < $CellContext`em, 
+             
+             FindRoot[{(Binomial[$CellContext`c, $CellContext`k] 
+                 NIntegrate[
+                   1/(E^((-$CellContext`m + $CellContext`sa + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                    Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m - $CellContext`dd $CellContext`s, $CellContext`m + \
+$CellContext`dd $CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - 
+                  NIntegrate[
+                  1/(E^((-$CellContext`m + $CellContext`sa + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                    Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m - $CellContext`dd $CellContext`s, $CellContext`m + \
+$CellContext`dd $CellContext`s}])^$CellContext`k == $CellContext`minpsed}, \
+{$CellContext`dd, 1, 0, 30}, AccuracyGoal -> $CellContext`ag, 
+              PrecisionGoal -> $CellContext`pg], 
+             
+             FindRoot[{(Binomial[$CellContext`c, $CellContext`k] 
+                 NIntegrate[
+                   1/(E^((-$CellContext`m - $CellContext`sa + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                    Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m - $CellContext`dd $CellContext`s, $CellContext`m + \
+$CellContext`dd $CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - 
+                  NIntegrate[
+                  1/(E^((-$CellContext`m - $CellContext`sa + \
+$CellContext`x)^2/(2 $CellContext`s^2)) (
+                    Sqrt[2 Pi] $CellContext`s)), {$CellContext`x, \
+$CellContext`m - $CellContext`dd $CellContext`s, $CellContext`m + \
+$CellContext`dd $CellContext`s}])^$CellContext`k == $CellContext`minpsed}, \
+{$CellContext`dd, 1, 0, 30}, AccuracyGoal -> $CellContext`ag, 
+              PrecisionGoal -> $CellContext`pg]]]; 
+         Min[$CellContext`dr, $CellContext`ds]], $CellContext`qc[
+         Pattern[$CellContext`em, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`s, 
+          Blank[]], 
+         Pattern[$CellContext`taae, 
+          Blank[]], 
+         Pattern[$CellContext`a, 
+          Blank[]], 
+         Pattern[$CellContext`minpsed, 
+          Blank[]], 
+         Pattern[$CellContext`minpred, 
+          Blank[]], 
+         Pattern[$CellContext`c, 
+          Blank[]]] := 
+       Module[{$CellContext`ra, $CellContext`dr, $CellContext`sa, \
+$CellContext`ds, $CellContext`sd, $CellContext`d, $CellContext`dd, \
+$CellContext`bias}, $CellContext`ra = ReplaceAll[$CellContext`sd, 
+            FindRoot[
+            N[(Erfc[($CellContext`m - $CellContext`em (
+                    1 - $CellContext`taae))/(Sqrt[2] $CellContext`sd)] + 
+                Erfc[(-$CellContext`m + $CellContext`em (
+                    1 + $CellContext`taae))/(Sqrt[2] $CellContext`sd)])/2, {
+               100, 100}] == $CellContext`a, {$CellContext`sd, $CellContext`s,
+               20 $CellContext`s, 0, 30 $CellContext`s}, AccuracyGoal -> 100, 
+             PrecisionGoal -> 100]]; $CellContext`dr = 
+          N[(Sqrt[2] $CellContext`ra 
+             InverseErf[(1 - $CellContext`minpred)^(
+                1/$CellContext`c)])/$CellContext`s, {100, 
+            100}]; $CellContext`sa = ReplaceAll[$CellContext`bias, 
+            If[$CellContext`m < $CellContext`em, 
+             FindRoot[
+             N[(1 + Erf[($CellContext`bias - $CellContext`m + $CellContext`em \
+(1 - $CellContext`taae))/(Sqrt[2] $CellContext`s)] + 
+                 Erfc[($CellContext`bias - $CellContext`m + $CellContext`em (
+                    1 + $CellContext`taae))/(Sqrt[2] $CellContext`s)])/2, {
+                100, 100}] == $CellContext`a, {$CellContext`bias, 
+               1 $CellContext`s, 20 $CellContext`s, 0, 30 $CellContext`s}, 
+              AccuracyGoal -> 100, PrecisionGoal -> 100], 
+             FindRoot[
+             N[(1 + Erfc[($CellContext`bias + $CellContext`m - \
+$CellContext`em (1 - $CellContext`taae))/(Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`bias + $CellContext`m - $CellContext`em (
+                    1 + $CellContext`taae))/(Sqrt[2] $CellContext`s)])/2, {
+                100, 100}] == $CellContext`a, {$CellContext`bias, 
+               1 $CellContext`s, 20 $CellContext`s, 0, 30 $CellContext`s}, 
+              AccuracyGoal -> 100, PrecisionGoal -> 100]]]; $CellContext`ds = 
+          ReplaceAll[$CellContext`dd, 
+            FindRoot[
+            N[(Erf[($CellContext`dd $CellContext`s - $CellContext`sa)/(
+                   Sqrt[2] $CellContext`s)] + 
+                 Erf[($CellContext`dd $CellContext`s + $CellContext`sa)/(
+                   Sqrt[2] $CellContext`s)])^$CellContext`c/
+               2^$CellContext`c, {100, 100}] == 
+             1 - $CellContext`minpsed, {$CellContext`dd, 1, 20, 0, 30}, 
+             AccuracyGoal -> 100, PrecisionGoal -> 100]]; 
+         Min[$CellContext`dr, $CellContext`ds]], $CellContext`k = 
+       0, $CellContext`ds = 2.740174905641295, $CellContext`ag = 
+       1000, $CellContext`pg = 1000, $CellContext`pfr = 
+       0.007643732748754073, $CellContext`ped[
+         Pattern[$CellContext`em, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`s, 
+          Blank[]], 
+         Pattern[$CellContext`d, 
+          Blank[]], 
+         Pattern[$CellContext`dm, 
+          Blank[]], 
+         Pattern[$CellContext`sd, 
+          Blank[]], 
+         Pattern[$CellContext`c, 
+          Blank[]], 
+         Pattern[$CellContext`k, 
+          Blank[]]] := 
+       If[$CellContext`m < $CellContext`em, (
+          Binomial[$CellContext`c, $CellContext`k] 
+          NIntegrate[
+            1/(E^(($CellContext`dm - $CellContext`m + $CellContext`x)^2/(
+               2 $CellContext`sd^2)) (
+              Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m - \
+$CellContext`d $CellContext`s, $CellContext`m + $CellContext`d \
+$CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - NIntegrate[
+           1/(E^(($CellContext`dm - $CellContext`m + $CellContext`x)^2/(
+              2 $CellContext`sd^2)) (
+             Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m - \
+$CellContext`d $CellContext`s, $CellContext`m + $CellContext`d \
+$CellContext`s}])^$CellContext`k, (Binomial[$CellContext`c, $CellContext`k] 
+          NIntegrate[
+            1/(E^((-$CellContext`dm - $CellContext`m + $CellContext`x)^2/(
+               2 $CellContext`sd^2)) (
+              Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m - \
+$CellContext`d $CellContext`s, $CellContext`m + $CellContext`d \
+$CellContext`s}]^($CellContext`c - $CellContext`k)) (1 - NIntegrate[
+           1/(E^((-$CellContext`dm - $CellContext`m + $CellContext`x)^2/(
+              2 $CellContext`sd^2)) (
+             Sqrt[2 Pi] $CellContext`sd)), {$CellContext`x, $CellContext`m - \
+$CellContext`d $CellContext`s, $CellContext`m + $CellContext`d \
+$CellContext`s}])^$CellContext`k], $CellContext`ped[
+         Pattern[$CellContext`em, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`s, 
+          Blank[]], 
+         Pattern[$CellContext`d, 
+          Blank[]], 
+         Pattern[$CellContext`dm, 
+          Blank[]], 
+         Pattern[$CellContext`sd, 
+          Blank[]], 
+         Pattern[$CellContext`c, 
+          Blank[]]] := 
+       N[1 - (-Erf[($CellContext`dm - $CellContext`d $CellContext`s)/(
+              Sqrt[2] $CellContext`sd)] + 
+           Erf[($CellContext`dm + $CellContext`d $CellContext`s)/(
+             Sqrt[2] $CellContext`sd)])^$CellContext`c/2^$CellContext`c, {100,
+          100}], $CellContext`pred = 0.9000000000000001, $CellContext`psed = 
+       0.9999920531150429}; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ Editable->False,
+ CellChangeTimes->{
+  3.8242760540517936`*^9, 3.824276498782628*^9, 3.824277442189329*^9, {
+   3.8243664693941307`*^9, 3.824366469653136*^9}, {3.8265436591481323`*^9, 
+   3.826543659431134*^9}, {3.826595535105288*^9, 3.826595535479295*^9}, 
+   3.8265960805832567`*^9, {3.826597506769058*^9, 3.826597506962058*^9}, 
+   3.826597710965668*^9, {3.827041318719394*^9, 3.827041318927376*^9}, {
+   3.827066307198739*^9, 3.8270663074977417`*^9}, 3.8270671945914917`*^9, 
+   3.827069081558201*^9, 3.827069201830941*^9, {3.828324671480736*^9, 
+   3.8283246717347436`*^9}, 3.828324746455407*^9, {3.8283251687811484`*^9, 
+   3.828325169025161*^9}, 3.828325340914604*^9, {3.828325403384673*^9, 
+   3.8283254167083225`*^9}, 3.8283266136992207`*^9, {3.828326791403464*^9, 
+   3.828326791735479*^9}, 3.828326881057037*^9, {3.82867950515646*^9, 
+   3.8286795054434586`*^9}, 3.828679699130967*^9, {3.828679950309557*^9, 
+   3.828679969222348*^9}, 3.828682799203742*^9, {3.83975874815164*^9, 
+   3.8397587483776417`*^9}, 3.839758864011778*^9, {3.839759175920484*^9, 
+   3.839759176185485*^9}, {3.839767112334143*^9, 3.839767112710641*^9}, {
+   3.988431389595705*^9, 3.988431389857033*^9}, 3.9884317291344547`*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"a177c46f-58fc-704a-a973-48a5b861e22c"],
 
 Cell[BoxData[
  TagBox[
@@ -3927,7 +4495,7 @@ power function graph\
    3.489067862398471*^9, 3.489067862398471*^9}, {3.4890683467959805`*^9, 
    3.489068363004276*^9}, 3.8243664843294153`*^9},
  CellID->398932864,ExpressionUUID->"0b665046-bfff-404e-a11f-8ae45ad9e6e3"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -3990,7 +4558,7 @@ febf4b00db8a"],
 
 Cell[TextData[{
  StyleBox["Tool for Quality Control Design and Evaluation\nVersion Number \
-1.3.3\n",
+1.3.4\n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -4006,32 +4574,16 @@ Cell[TextData[{
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox[ButtonBox["10.5281/zenodo.20357589",
+ StyleBox[ButtonBox["10.5281/zenodo.20558330",
   BaseStyle->"Hyperlink",
   ButtonData->{
-    URL["https://doi.org/10.5281/zenodo.20357589"], None},
-  ButtonNote->"https://doi.org/10.5281/zenodo.20357589"],
+    URL["https://doi.org/10.5281/zenodo.20558330"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.20558330"],
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nFirst published in 2010 as part of the Wolfram Demonstrations \
-Project: ",
-  FontFamily->"Source Sans Pro ExtraLight",
-  FontSize->12,
-  FontColor->RGBColor[0., 0., 0.]],
- StyleBox[ButtonBox["demonstrations.wolfram.com/\
-ToolForQualityControlDesignAndEvaluation/",
-  BaseStyle->"Hyperlink",
-  ButtonData->{
-    URL["https://demonstrations.wolfram.com/\
-ToolForQualityControlDesignAndEvaluation/"], None},
-  ButtonNote->
-   "https://demonstrations.wolfram.com/\
-ToolForQualityControlDesignAndEvaluation/"],
-  FontFamily->"Source Sans Pro ExtraLight",
-  FontSize->12,
-  FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nThe notebook is distributed under  a ",
+ StyleBox["\nFirst published on 2010-08-17, as part of the Wolfram \
+Demonstrations Project.\nThe notebook is distributed under  a ",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -4084,7 +4636,10 @@ ToolForQualityControlDesignAndEvaluation/"],
    3.988536360163286*^9, 3.9885363723632183`*^9}, {3.9885364113794136`*^9, 
    3.988536417293413*^9}, {3.988536452788164*^9, 3.988536452788164*^9}, {
    3.988545637395338*^9, 3.988545638838873*^9}, {3.988545684239628*^9, 
-   3.9885456842406025`*^9}},ExpressionUUID->"4acaa2b9-9a0c-f34e-90e7-\
+   3.9885456842406025`*^9}, 3.9893830395404873`*^9, {3.989398612761345*^9, 
+   3.989398638113344*^9}, {3.989656838928705*^9, 3.9896568460735893`*^9}, {
+   3.989656885641573*^9, 3.989656892278515*^9}, {3.9896569537758026`*^9, 
+   3.989656966368767*^9}},ExpressionUUID->"4acaa2b9-9a0c-f34e-90e7-\
 937d621592bd"]
 }, Open  ]]
 },
@@ -4105,20 +4660,20 @@ CellTagsIndex->{
   Cell[80416, 1803, 193, 3, 66, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
    CellTags->"Snapshots"]},
  "Details"->{
-  Cell[154666, 3273, 188, 3, 66, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
+  Cell[183766, 3841, 188, 3, 66, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
    CellTags->"Details"]},
  "Search Terms"->{
-  Cell[174197, 3798, 296, 8, 66, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
+  Cell[203297, 4366, 296, 8, 66, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
    CellTags->"Search Terms"],
-  Cell[179842, 3898, 245, 7, 66, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
+  Cell[208942, 4466, 245, 7, 66, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
    CellTags->"Search Terms"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Snapshots", 189147, 4103},
- {"Details", 189287, 4106},
- {"Search Terms", 189431, 4109}
+ {"Snapshots", 217936, 4658},
+ {"Details", 218076, 4661},
+ {"Search Terms", 218220, 4664}
  }
 *)
 (*NotebookFileOutline
@@ -4152,40 +4707,41 @@ Cell[79400, 1773, 967, 24, 55, "Text",ExpressionUUID->"bd1be425-943e-432c-a40a-e
 Cell[CellGroupData[{
 Cell[80416, 1803, 193, 3, 66, "Section",ExpressionUUID->"610024c8-64c2-46d2-a85c-f00d5b3ca7b3",
  CellTags->"Snapshots"],
-Cell[80612, 1808, 29097, 566, 614, "Output",ExpressionUUID->"209dcdc6-b76d-814d-9c1d-b07adb4c9ca1"],
-Cell[109712, 2376, 22457, 445, 614, "Output",ExpressionUUID->"824fd204-5367-4dd1-a79d-324742ba2c68",
+Cell[80612, 1808, 29097, 566, 614, "Output",ExpressionUUID->"a177c46f-58fc-704a-a973-48a5b861e22c"],
+Cell[109712, 2376, 29097, 566, 614, "Output",ExpressionUUID->"209dcdc6-b76d-814d-9c1d-b07adb4c9ca1"],
+Cell[138812, 2944, 22457, 445, 614, "Output",ExpressionUUID->"824fd204-5367-4dd1-a79d-324742ba2c68",
  CellID->497874674],
-Cell[132172, 2823, 22457, 445, 614, "Output",ExpressionUUID->"dca0600e-bea4-499f-a5a4-22970b638dd4",
+Cell[161272, 3391, 22457, 445, 614, "Output",ExpressionUUID->"dca0600e-bea4-499f-a5a4-22970b638dd4",
  CellID->253439944]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[154666, 3273, 188, 3, 66, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
+Cell[183766, 3841, 188, 3, 66, "Section",ExpressionUUID->"339e691f-a713-426e-a140-a2551d96afcc",
  CellTags->"Details"],
-Cell[154857, 3278, 18401, 494, 539, "Text",ExpressionUUID->"e2c2bebf-522d-4a79-a588-c2b1b39e6815",
+Cell[183957, 3846, 18401, 494, 539, "Text",ExpressionUUID->"e2c2bebf-522d-4a79-a588-c2b1b39e6815",
  CellID->173520083],
-Cell[173261, 3774, 480, 9, 55, "Text",ExpressionUUID->"d1f23ea8-7c74-474b-b19c-55aac794d83e",
+Cell[202361, 4342, 480, 9, 55, "Text",ExpressionUUID->"d1f23ea8-7c74-474b-b19c-55aac794d83e",
  CellID->970192432],
-Cell[173744, 3785, 416, 8, 55, "Text",ExpressionUUID->"dd46353a-879a-4c01-8d49-5aedd35a0541",
+Cell[202844, 4353, 416, 8, 55, "Text",ExpressionUUID->"dd46353a-879a-4c01-8d49-5aedd35a0541",
  CellID->63735350]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[174197, 3798, 296, 8, 66, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
+Cell[203297, 4366, 296, 8, 66, "Section",ExpressionUUID->"d296f033-59ec-4987-8fe5-bf0b31ec8f6b",
  CellTags->"Search Terms"],
-Cell[174496, 3808, 5309, 85, 99, "Text",ExpressionUUID->"aa7477bb-35ec-4b82-a618-6420a0a36044"]
+Cell[203596, 4376, 5309, 85, 99, "Text",ExpressionUUID->"aa7477bb-35ec-4b82-a618-6420a0a36044"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[179842, 3898, 245, 7, 66, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
+Cell[208942, 4466, 245, 7, 66, "Section",ExpressionUUID->"396fcd4f-e492-4c75-80e7-34eaa38aa89e",
  CellTags->"Search Terms"],
-Cell[180090, 3907, 668, 21, 267, "Text",ExpressionUUID->"0b665046-bfff-404e-a11f-8ae45ad9e6e3",
+Cell[209190, 4475, 668, 21, 317, "Text",ExpressionUUID->"0b665046-bfff-404e-a11f-8ae45ad9e6e3",
  CellID->398932864]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[180795, 3933, 1053, 16, 42, "Section",ExpressionUUID->"bfcbeb46-0d70-3c43-b4f0-4557fa6d6220"],
-Cell[181851, 3951, 1858, 28, 84, "Text",ExpressionUUID->"2a2c66de-f241-254b-9640-b471b3a52efe"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[183746, 3984, 193, 4, 53, "Subsection",ExpressionUUID->"c3db21f6-75c3-944d-9a21-febf4b00db8a"],
-Cell[183942, 3990, 4797, 97, 138, "Text",ExpressionUUID->"4acaa2b9-9a0c-f34e-90e7-937d621592bd"]
+Cell[209895, 4501, 1053, 16, 56, "Section",ExpressionUUID->"bfcbeb46-0d70-3c43-b4f0-4557fa6d6220"],
+Cell[210951, 4519, 1858, 28, 84, "Text",ExpressionUUID->"2a2c66de-f241-254b-9640-b471b3a52efe"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[212846, 4552, 193, 4, 53, "Subsection",ExpressionUUID->"c3db21f6-75c3-944d-9a21-febf4b00db8a"],
+Cell[213042, 4558, 4486, 84, 120, "Text",ExpressionUUID->"4acaa2b9-9a0c-f34e-90e7-937d621592bd"]
 }, Open  ]]
 }
 ]
