@@ -48,7 +48,7 @@ Source Notebook: [AnalysisOfDiagnosticAccuracyMeasures.nb](AnalysisOfDiagnosticA
 
 Source Notebook: [ToolForQualityControlDesignAndEvaluation.nb](ToolForQualityControlDesignAndEvaluation.nb)
 
-13. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.3.. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20484026
+13. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.4. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20551676
 
 Source Notebook: [UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb](UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb)
 

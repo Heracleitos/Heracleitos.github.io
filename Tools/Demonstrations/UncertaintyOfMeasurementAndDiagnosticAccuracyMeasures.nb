@@ -10,17 +10,17 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    534394,      11398]
-NotebookOptionsPosition[    529116,      11288]
-NotebookOutlinePosition[    530525,      11327]
-CellTagsIndexPosition[    530351,      11319]
+NotebookDataLength[    534587,      11399]
+NotebookOptionsPosition[    529309,      11289]
+NotebookOutlinePosition[    530718,      11328]
+CellTagsIndexPosition[    530544,      11320]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.3.", "Title",
+Cell["Uncertainty of Measurement and Diagnostic Accuracy Measures", "Title",
  Editable->False,
  CellChangeTimes->{
   3.824025502986754*^9},ExpressionUUID->"cdcdcd2b-0fc4-4142-922c-\
@@ -11120,7 +11120,6 @@ uncertainty of measurement
 sensitivity
 specificity
 diagnostic test
-clinical accuracy
 diagnostic accuracy
 permissible uncertainty
 normal distribution
@@ -11133,7 +11132,7 @@ odds ratio\
  Editable->False,
  CellChangeTimes->{{3.5512683126107006`*^9, 3.551268314021702*^9}, 
    3.5512684091757*^9, {3.55940816323387*^9, 3.559408180771871*^9}, 
-   3.8243631094717827`*^9},
+   3.8243631094717827`*^9, {3.989625663986408*^9, 3.9896256644345036`*^9}},
  CellID->957468028,ExpressionUUID->"62d11376-5ea2-466d-bde0-a481896b6c27"]
 }, Open  ]],
 
@@ -11196,8 +11195,8 @@ Cell["About", "Subsection",
 31ba30616891"],
 
 Cell[TextData[{
- StyleBox["Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.3.\n\
-Version Number 1.1.3\n",
+ StyleBox["Uncertainty of Measurement and Diagnostic Accuracy Measures\n\
+Version Number 1.1.4\n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -11213,16 +11212,16 @@ Version Number 1.1.3\n",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox[ButtonBox["10.5281/zenodo.20484026",
+ StyleBox[ButtonBox["10.5281/zenodo.20551676",
   BaseStyle->"Hyperlink",
   ButtonData->{
-    URL["https://doi.org/10.5281/zenodo.20484026"], None},
-  ButtonNote->"https://doi.org/10.5281/zenodo.20484026"],
+    URL["https://doi.org/10.5281/zenodo.20551676"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.20551676"],
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nFirst published in 2009 as part of the Wolfram Demonstrations \
-Project.\nThe notebook is distributed under  a ",
+ StyleBox["\nFirst published on 2009-05-26, as part of the Wolfram \
+Demonstrations Project.\nThe notebook is distributed under  a ",
   FontFamily->"Source Sans Pro ExtraLight",
   FontSize->12,
   FontColor->RGBColor[0., 0., 0.]],
@@ -11279,8 +11278,10 @@ Project.\nThe notebook is distributed under  a ",
    3.9885370789476223`*^9, {3.9885371847156696`*^9, 3.9885372197593956`*^9}, {
    3.9885433380058136`*^9, 3.988543386372139*^9}, {3.9892808425160847`*^9, 
    3.989280843179695*^9}, {3.9892812384279957`*^9, 3.9892812421246567`*^9}, {
-   3.98928259718227*^9, 
-   3.9892826390836563`*^9}},ExpressionUUID->"62a39bc6-a33e-df44-b6eb-\
+   3.98928259718227*^9, 3.9892826390836563`*^9}, {3.9894016877343273`*^9, 
+   3.9894017125982056`*^9}, {3.9896257355065193`*^9, 
+   3.9896257362417984`*^9}, {3.9896259732026424`*^9, 
+   3.989626001156021*^9}},ExpressionUUID->"62a39bc6-a33e-df44-b6eb-\
 094f383f9dcc"]
 }, Open  ]]
 }, Open  ]]
@@ -11297,31 +11298,31 @@ ExpressionUUID->"16aa931f-f1f9-1445-873f-50865d6b2a24"
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Initialization Code"->{
-  Cell[1544, 50, 295, 7, 66, "Section",ExpressionUUID->"c603c973-7310-469a-bc5a-f6e47cfbe272",
-   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
-   CellTags->"Initialization Code"]},
  "Caption"->{
   Cell[195178, 4179, 276, 5, 66, "Section",ExpressionUUID->"49567c47-4382-4e8c-970a-8be0fbbb10c8",
    CellGroupingRules->{"GroupTogetherGrouping", 10001.},
    CellTags->"Caption"]},
- "Snapshots"->{
-  Cell[197261, 4217, 272, 5, 66, "Section",ExpressionUUID->"e0f60be4-2005-4953-8487-f2afea4fa162",
-   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
-   CellTags->"Snapshots"]},
  "Details"->{
   Cell[514658, 10938, 189, 3, 66, "Section",ExpressionUUID->"3f64f17e-6bf3-44be-8c5b-975ad3a3d8c9",
    CellTags->"Details"],
   Cell[520395, 11110, 367, 5, 66, "Section",ExpressionUUID->"58142037-b448-4cad-98f0-34d829abaad9",
-   CellTags->"Details"]}
+   CellTags->"Details"]},
+ "Initialization Code"->{
+  Cell[1544, 50, 295, 7, 66, "Section",ExpressionUUID->"c603c973-7310-469a-bc5a-f6e47cfbe272",
+   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+   CellTags->"Initialization Code"]},
+ "Snapshots"->{
+  Cell[197261, 4217, 272, 5, 66, "Section",ExpressionUUID->"e0f60be4-2005-4953-8487-f2afea4fa162",
+   CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+   CellTags->"Snapshots"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Initialization Code", 529477, 11299},
- {"Caption", 529681, 11303},
- {"Snapshots", 529879, 11307},
- {"Details", 530077, 11311}
+ {"Caption", 529658, 11300},
+ {"Details", 529854, 11304},
+ {"Initialization Code", 530131, 11309},
+ {"Snapshots", 530337, 11313}
  }
 *)
 (*NotebookFileOutline
@@ -11388,15 +11389,15 @@ Cell[519814, 11090, 544, 15, 55, "Text",ExpressionUUID->"87b53463-9a92-4128-813b
 Cell[CellGroupData[{
 Cell[520395, 11110, 367, 5, 66, "Section",ExpressionUUID->"58142037-b448-4cad-98f0-34d829abaad9",
  CellTags->"Details"],
-Cell[520765, 11117, 532, 19, 296, "Text",ExpressionUUID->"62d11376-5ea2-466d-bde0-a481896b6c27",
+Cell[520765, 11117, 562, 18, 274, "Text",ExpressionUUID->"62d11376-5ea2-466d-bde0-a481896b6c27",
  CellID->957468028]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[521334, 11141, 1053, 16, 56, "Section",ExpressionUUID->"9d8f43fa-a481-f848-985a-f22e233dbbf8"],
-Cell[522390, 11159, 1858, 28, 84, "Text",ExpressionUUID->"204aac67-b8b7-fe41-a270-8ba5c64b4104"],
+Cell[521364, 11140, 1053, 16, 56, "Section",ExpressionUUID->"9d8f43fa-a481-f848-985a-f22e233dbbf8"],
+Cell[522420, 11158, 1858, 28, 84, "Text",ExpressionUUID->"204aac67-b8b7-fe41-a270-8ba5c64b4104"],
 Cell[CellGroupData[{
-Cell[524273, 11191, 193, 4, 53, "Subsection",ExpressionUUID->"7e52584b-5aa8-e34c-8548-31ba30616891"],
-Cell[524469, 11197, 4607, 86, 120, "Text",ExpressionUUID->"62a39bc6-a33e-df44-b6eb-094f383f9dcc"]
+Cell[524303, 11190, 193, 4, 53, "Subsection",ExpressionUUID->"7e52584b-5aa8-e34c-8548-31ba30616891"],
+Cell[524499, 11196, 4770, 88, 120, "Text",ExpressionUUID->"62a39bc6-a33e-df44-b6eb-094f383f9dcc"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
