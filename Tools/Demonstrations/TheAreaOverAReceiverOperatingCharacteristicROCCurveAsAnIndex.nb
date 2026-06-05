@@ -2422,7 +2422,7 @@ Cell["References", "Section",
 Cell["\<\
 [1] A. T. Hatjimihail. \"Receiver Operating Characteristic Curves and \
 Uncertainty of Measurement\[CloseCurlyDoubleQuote], Ver 1.1.1, Hellenic \
-Complex Systems Laboratory, 2026. https://doi.org/10.5281/zenodo.20356631\
+Complex Systems Laboratory, 2026. https://doi.org/10.5281/zenodo.20535253\
 \>", "Text",
  Editable->False,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
@@ -2436,7 +2436,7 @@ Complex Systems Laboratory, 2026. https://doi.org/10.5281/zenodo.20356631\
 Cell["\<\
 [2] A. T. Hatjimihail. \"Uncertainty of Measurement and Areas Over and Under \
 the ROC Curves\[CloseCurlyDoubleQuote], Ver. 1.1.1. Hellenic Complex Systems \
-Laboratory; 2026. https://doi.org/10.5281/zenodo.20356939\
+Laboratory; 2026. https://doi.org/10.5281/zenodo.20550911\
 \>", "Text",
  Editable->False,
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
