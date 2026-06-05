@@ -1,6 +1,6 @@
 # HCSL Technical Report VII
 
-Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.3.. Technical Report VII. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20484072
+Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.4. Technical Report VII. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20484072
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr07/.
 
