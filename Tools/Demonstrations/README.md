@@ -20,7 +20,7 @@ Source Notebook: [ExactConfidenceIntervalsForASingleProportion.nb](ExactConfiden
 
 Source Notebook: [NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb](NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb)
 
-6. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20373181
+6. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20373181
 
 Source Notebook: [RelationOfDiagnosticAccuracyMeasures.nb](RelationOfDiagnosticAccuracyMeasures.nb)
 
@@ -28,7 +28,7 @@ Source Notebook: [RelationOfDiagnosticAccuracyMeasures.nb](RelationOfDiagnosticA
 
 Source Notebook: [CalculatorForDiagnosticAccuracyMeasures.nb](CalculatorForDiagnosticAccuracyMeasures.nb)
 
-8. Chatzimichail T. Relation of Positive and Negative Predictive Values. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20367402
+8. Chatzimichail T. Relation of Positive and Negative Predictive Values. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20565731
 
 Source Notebook: [RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb)
 
