@@ -80,7 +80,7 @@ Source Notebook: [RelationOfDiagnosticAccuracyMeasures.nb](Demonstrations/Relati
 
 Source Notebook: [CalculatorForDiagnosticAccuracyMeasures.nb](Demonstrations/CalculatorForDiagnosticAccuracyMeasures.nb)
 
-8. Chatzimichail T. Relation of Positive and Negative Predictive Values. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20367402
+8. Chatzimichail T. Relation of Positive and Negative Predictive Values. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20565731
 
 Source Notebook: [RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](Demonstrations/RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb)
 
