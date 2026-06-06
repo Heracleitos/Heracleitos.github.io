@@ -72,7 +72,7 @@ Source Notebook: [ExactConfidenceIntervalsForASingleProportion.nb](Demonstration
 
 Source Notebook: [NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb](Demonstrations/NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb)
 
-6. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20373181
+6. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20572509
 
 Source Notebook: [RelationOfDiagnosticAccuracyMeasures.nb](Demonstrations/RelationOfDiagnosticAccuracyMeasures.nb)
 
