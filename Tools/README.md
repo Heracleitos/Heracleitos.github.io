@@ -68,7 +68,7 @@ Source Notebook: [CalculationOfDiagnosticAccuracyMeasures.nb](Demonstrations/Cal
 
 Source Notebook: [ExactConfidenceIntervalsForASingleProportion.nb](Demonstrations/ExactConfidenceIntervalsForASingleProportion.nb)
 
-5. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Ver. 1.2.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20415355
+5. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Ver. 1.2.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20572904
 
 Source Notebook: [NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb](Demonstrations/NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb)
 
