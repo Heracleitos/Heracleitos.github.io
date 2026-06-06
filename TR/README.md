@@ -15,7 +15,7 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 11. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Technical Report XVIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20384469
 12. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Technical Report XVII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20382157
 13. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Technical Report XVI. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20381290
-14. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Technical Report XV. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20415370
+14. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Technical Report XV. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20572923
 15. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Technical Report XIV. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20572510
 16. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Technical Report XIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20571928
 17. Chatzimichail T. Relation of Positive and Negative Predictive Values. Technical Report XII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20565741
