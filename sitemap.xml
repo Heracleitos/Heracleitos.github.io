@@ -156,6 +156,11 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://www.hcsl.com/Tools/Demonstrations/Cat.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/index.html</loc>
     <lastmod>2026-06-06</lastmod>
     <priority>0.64</priority>
@@ -267,7 +272,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr13/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -477,7 +482,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr13/hcsltr13.pdf</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -592,7 +597,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/CalculatorForDiagnosticAccuracyMeasures.nb</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
