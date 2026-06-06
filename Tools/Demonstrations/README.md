@@ -24,7 +24,7 @@ Source Notebook: [NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb](NetworkO
 
 Source Notebook: [RelationOfDiagnosticAccuracyMeasures.nb](RelationOfDiagnosticAccuracyMeasures.nb)
 
-7. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20372749
+7. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20571927
 
 Source Notebook: [CalculatorForDiagnosticAccuracyMeasures.nb](CalculatorForDiagnosticAccuracyMeasures.nb)
 
