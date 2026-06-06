@@ -36,7 +36,7 @@ Source Notebook: [RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](
 
 Source Notebook: [AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb](AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb)
 
-10. Chatzimichail T. Enteral Nutritional Design. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20361301
+10. Chatzimichail T. Enteral Nutritional Design. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20564786
 
 Source Notebook: [EnteralNutritionalDesign.nb](EnteralNutritionalDesign.nb)
 
