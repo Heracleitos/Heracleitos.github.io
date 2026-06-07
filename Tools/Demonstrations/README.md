@@ -1,18 +1,18 @@
 # Hellenic Complex Systems Laboratory Demonstrations Repository
 
-1. Hatjimihail AT. The Area Over an ROC Curve as an Index of Diagnostic Inaccuracy. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20385003 
+1. Hatjimihail AT. The Area Over an ROC Curve as an Index of Diagnostic Inaccuracy. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20577147 
 
 Source Notebook: [TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb](TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb)
 
-2. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20384503
+2. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20577005
 
 Source Notebook: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](InferencesAboutTheDifferenceBetweenTwoProportions.nb)
 
-3. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20382187 
+3. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20576595 
 
 Source Notebook: [CalculationOfDiagnosticAccuracyMeasures.nb](CalculationOfDiagnosticAccuracyMeasures.nb)
 
-4. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20381322
+4. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20576446
 
 Source Notebook: [ExactConfidenceIntervalsForASingleProportion.nb](ExactConfidenceIntervalsForASingleProportion.nb)
 
