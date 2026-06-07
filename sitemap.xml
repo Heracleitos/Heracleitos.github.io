@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.hcsl.com/</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/About/index.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
@@ -147,7 +147,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Cat.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -157,12 +157,12 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/Cat.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/index.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -287,22 +287,22 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr16/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr17/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr18/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr19/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -497,22 +497,22 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr16/hcsltr16.pdf</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr17/hcsltr17.pdf</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr18/hcsltr18.pdf</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr19/hcsltr19.pdf</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -592,7 +592,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/CalculationOfDiagnosticAccuracyMeasures.nb</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -612,12 +612,12 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/ExactConfidenceIntervalsForASingleProportion.nb</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/InferencesAboutTheDifferenceBetweenTwoProportions.nb</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
