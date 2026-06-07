@@ -12,9 +12,9 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 8. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Technical Report XXII. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278801
 9. Chatzimichail RA, Hatjimihail AT. Quality Control Using Convolutional Neural Networks Applied to Samples of Very Small Size. Technical Report XXI. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278699
 10. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Technical Report XX. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278487
-11. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Technical Report XVIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20384469
-12. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Technical Report XVII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20382157
-13. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Technical Report XVI. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20381290
+11. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Technical Report XVIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20577008
+12. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Technical Report XVII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20576598
+13. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Technical Report XVI. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20576670
 14. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Technical Report XV. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20572923
 15. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Technical Report XIV. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20572510
 16. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Technical Report XIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20571928
@@ -23,7 +23,7 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 19. Chatzimichail T. Enteral Nutritional Design. Technical Report X. Hellenic Complex Systems Laboratory; 2017. https://doi.org/10.5281/zenodo.20564789
 20. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Technical Report IX. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.20560727
 21. Hatjimihail AT. Calculation of the confidence bounds for the fraction nonconforming of normal populations of measurements in clinical laboratory medicine. Technical Report IV. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.18593807
-22. Hatjimihail AT. The Area Over an ROC Curve as an Index of Diagnostic Inaccuracy. Technical Report XIX. Hellenic Complex Systems Laboratory; 2011. https://doi.org/10.5281/zenodo.20384985
+22. Hatjimihail AT. The Area Over an ROC Curve as an Index of Diagnostic Inaccuracy. Technical Report XIX. Hellenic Complex Systems Laboratory; 2011. https://doi.org/10.5281/zenodo.20577149
 23. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Technical Report VIII. Hellenic Complex Systems Laboratory; 2010. https://doi.org/10.5281/zenodo.20558445
 24. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.3.. Technical Report VII. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20484072
 25. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Technical Report VI. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20550912

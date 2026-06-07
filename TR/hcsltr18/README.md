@@ -1,6 +1,6 @@
 # HCSL Technical Report XVIII
 
-Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Technical Report XVIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20384469
+Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Technical Report XVIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20577008
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr18/.
 
@@ -10,4 +10,4 @@ Except where otherwise noted, Hellenic Complex Systems Laboratory Technical Repo
 
 **Disclaimer of Warranties**
 
-The material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, technical reports,  computational notebooks, and web content, is offered "as is", without any warranty of any kind, either express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or the Hellenic Complex Systems Laboratory or any of its members be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the material or the use or other dealings in the material.
+The material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, technical reports, computational notebooks, and web content, is offered "as is", without any warranty of any kind, either express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or the Hellenic Complex Systems Laboratory or any of its members be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the material or the use or other dealings in the material.
