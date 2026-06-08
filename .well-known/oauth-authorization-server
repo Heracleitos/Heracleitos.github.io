@@ -11,16 +11,21 @@
   "scopes_supported": [
     "public.read"
   ],
+  "bearer_methods_supported": [
+    "header"
+  ],
   "agent_auth": {
     "skill": "https://www.hcsl.com/auth.md",
     "register_uri": "https://www.hcsl.com/auth.md",
     "registration_required": false,
     "identity_types_supported": [
-      "none"
+      "anonymous"
     ],
-    "credential_types_supported": [
-      "none"
-    ],
+    "anonymous": {
+      "credential_types_supported": [
+        "none"
+      ]
+    },
     "claim_uri": "https://www.hcsl.com/auth.md#registration-status",
     "revocation_uri": "https://www.hcsl.com/auth.md#protected-api-notice",
     "events_supported": [],
