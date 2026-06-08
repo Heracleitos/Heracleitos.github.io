@@ -42,3 +42,11 @@ Content is for research and educational purposes and should not be treated as cl
 ## Optional
 
 - [Other Publications by HCSL Fellows](https://www.hcsl.com/Publications/Fellows.html): Additional publications not listed under HCSL Publications.
+
+## Agent discovery
+
+- [API catalog](https://www.hcsl.com/.well-known/api-catalog): RFC 9727 linkset for public discovery endpoints.
+- [OpenAPI description](https://www.hcsl.com/.well-known/openapi.json): Read-only public discovery endpoint description.
+- [Agent skills index](https://www.hcsl.com/.well-known/agent-skills/index.json): Agent Skills discovery index for HCSL.
+- [MCP server card](https://www.hcsl.com/.well-known/mcp/server-card.json): Browser WebMCP discovery metadata.
+- [Auth.md](https://www.hcsl.com/auth.md): Agent registration guidance. Public HCSL resources do not require OAuth credentials.
