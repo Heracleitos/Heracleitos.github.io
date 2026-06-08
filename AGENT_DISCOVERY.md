@@ -39,8 +39,8 @@ For a GitHub Pages origin behind Cloudflare, the direct fix is to deploy `cloudf
 4. Create or open a Worker.
 5. Paste the contents of `cloudflare-agent-worker.js`.
 6. Save and deploy.
-7. Add a Worker route for `www.hcsl.com/*` in the `hcsl.com` zone.
-8. Re-scan after Cloudflare has deployed the route.
+7. Add Worker routes for both `www.hcsl.com/*` and `hcsl.com/*` in the `hcsl.com` zone.
+8. Re-scan after Cloudflare has deployed the routes.
 
 This Worker addresses the two live edge failures by:
 
@@ -60,7 +60,7 @@ Then add the homepage `Link` header with a Response Header Transform Rule:
 3. Use this expression:
 
 ```text
-(http.host eq "www.hcsl.com" and http.request.uri.path in {"/" "/index.html"})
+(http.host in {"www.hcsl.com" "hcsl.com"} and http.request.uri.path in {"/" "/index.html"})
 ```
 
 4. Use **Set static** for header name `Link` with this value:
