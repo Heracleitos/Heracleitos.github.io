@@ -31,6 +31,47 @@ GitHub Pages does not honor `_headers` and cannot perform content negotiation by
 1. Deploy this repository with Cloudflare Pages. Cloudflare Pages will use `_headers`, and `_worker.js` will return `text/markdown` for homepage requests that send `Accept: text/markdown`.
 2. If `www.hcsl.com` remains on GitHub Pages behind Cloudflare, configure a Cloudflare Worker route for `https://www.hcsl.com/*` using the same logic as `_worker.js`, or configure Cloudflare Transform Rules for the `Link` header and enable Markdown for Agents in Cloudflare.
 
+For a GitHub Pages origin behind Cloudflare, the direct fix is to deploy `cloudflare-agent-worker.js` as a zone Worker:
+
+1. In Cloudflare, open the `hcsl.com` zone.
+2. Confirm the `www` DNS record is proxied through Cloudflare.
+3. Go to **Workers & Pages**.
+4. Create or open a Worker.
+5. Paste the contents of `cloudflare-agent-worker.js`.
+6. Save and deploy.
+7. Add a Worker route for `www.hcsl.com/*` in the `hcsl.com` zone.
+8. Re-scan after Cloudflare has deployed the route.
+
+This Worker addresses the two live edge failures by:
+
+- adding the homepage `Link` response header; and
+- returning `Content-Type: text/markdown; charset=utf-8` with `x-markdown-tokens` when agents request `/` or `/index.html` with `Accept: text/markdown`.
+
+If the site is on a Pro or Business plan, Cloudflare's native Markdown for Agents can be enabled instead:
+
+1. In Cloudflare, open the `hcsl.com` zone.
+2. Go to **AI Crawl Control**.
+3. Enable **Markdown for Agents**.
+
+Then add the homepage `Link` header with a Response Header Transform Rule:
+
+1. Go to **Rules** > **Overview**.
+2. Select **Create rule** > **Response Header Transform Rule**.
+3. Use this expression:
+
+```text
+(http.host eq "www.hcsl.com" and http.request.uri.path in {"/" "/index.html"})
+```
+
+4. Use **Set static** for header name `Link` with this value:
+
+```http
+</.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", </llms.txt>; rel="service-doc"; type="text/plain", </.well-known/agent-skills/index.json>; rel="describedby"; type="application/json", </.well-known/mcp/server-card.json>; rel="describedby"; type="application/json"
+```
+
+5. Add another static response header named `Vary` with value `Accept`.
+6. Deploy the rule.
+
 Expected homepage `Link` header:
 
 ```http
