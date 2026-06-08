@@ -9,9 +9,28 @@ Agents may access public HCSL resources without OAuth credentials.
 ## Registration Status
 
 - Agent registration required: no
-- Supported registration flows: none
+- Supported registration flows: anonymous public-read discovery
 - Credentials issued to agents: none
 - Public read scope: `public.read`
+
+## Agent Auth Metadata
+
+```json
+{
+  "agent_auth": {
+    "skill": "https://www.hcsl.com/auth.md",
+    "register_uri": "https://www.hcsl.com/auth.md",
+    "registration_required": false,
+    "identity_types_supported": ["anonymous"],
+    "anonymous": {
+      "credential_types_supported": ["none"]
+    },
+    "claim_uri": "https://www.hcsl.com/auth.md#registration-status",
+    "revocation_uri": "https://www.hcsl.com/auth.md#protected-api-notice",
+    "events_supported": []
+  }
+}
+```
 
 ## Public Discovery Resources
 
