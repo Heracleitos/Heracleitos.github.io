@@ -1,4 +1,6 @@
-# HCSL Agent Authentication
+# Auth.md
+
+## HCSL Agent Authentication
 
 Hellenic Complex Systems Laboratory (HCSL) does not currently operate protected public APIs, user accounts, or agent-specific registration flows for the public website.
 
