@@ -1,5 +1,9 @@
 {
   "issuer": "https://www.hcsl.com",
+  "resource": "https://www.hcsl.com/",
+  "authorization_servers": [
+    "https://www.hcsl.com"
+  ],
   "service_documentation": "https://www.hcsl.com/auth.md",
   "protected_resources": [
     "https://www.hcsl.com/"
@@ -8,6 +12,7 @@
     "public.read"
   ],
   "agent_auth": {
+    "skill": "https://www.hcsl.com/auth.md",
     "register_uri": "https://www.hcsl.com/auth.md",
     "registration_required": false,
     "identity_types_supported": [
@@ -16,6 +21,9 @@
     "credential_types_supported": [
       "none"
     ],
+    "claim_uri": "https://www.hcsl.com/auth.md#registration-status",
+    "revocation_uri": "https://www.hcsl.com/auth.md#protected-api-notice",
+    "events_supported": [],
     "description": "HCSL public web resources do not require OAuth credentials or agent registration."
   }
 }
