@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "discover-hcsl",
+      "type": "skill-md",
+      "description": "Discover and use Hellenic Complex Systems Laboratory public web resources, including research notes, publications, technical reports, software, and agent discovery endpoints.",
+      "url": "/.well-known/agent-skills/discover-hcsl/SKILL.md",
+      "digest": "sha256:2fcc3a1288176f3c9d5061b7077b670688dfe2145dc53b941b6889b84c9dff68"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "service": "HCSL public discovery endpoints",
+  "homepage": "https://www.hcsl.com/",
+  "updated": "2026-06-08",
+  "endpoints": {
+    "api_catalog": "https://www.hcsl.com/.well-known/api-catalog",
+    "openapi": "https://www.hcsl.com/.well-known/openapi.json",
+    "agent_skills": "https://www.hcsl.com/.well-known/agent-skills/index.json",
+    "mcp_server_card": "https://www.hcsl.com/.well-known/mcp/server-card.json",
+    "auth": "https://www.hcsl.com/auth.md",
+    "llms": "https://www.hcsl.com/llms.txt"
+  }
+}

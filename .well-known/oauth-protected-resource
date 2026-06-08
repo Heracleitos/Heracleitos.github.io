@@ -1,0 +1,15 @@
+{
+  "resource": "https://www.hcsl.com/",
+  "resource_name": "HCSL public web resources",
+  "resource_documentation": "https://www.hcsl.com/auth.md",
+  "authorization_required": false,
+  "authorization_servers": [
+    "https://www.hcsl.com"
+  ],
+  "scopes_supported": [
+    "public.read"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ]
+}

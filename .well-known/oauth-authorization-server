@@ -1,0 +1,21 @@
+{
+  "issuer": "https://www.hcsl.com",
+  "service_documentation": "https://www.hcsl.com/auth.md",
+  "protected_resources": [
+    "https://www.hcsl.com/"
+  ],
+  "scopes_supported": [
+    "public.read"
+  ],
+  "agent_auth": {
+    "register_uri": "https://www.hcsl.com/auth.md",
+    "registration_required": false,
+    "identity_types_supported": [
+      "none"
+    ],
+    "credential_types_supported": [
+      "none"
+    ],
+    "description": "HCSL public web resources do not require OAuth credentials or agent registration."
+  }
+}

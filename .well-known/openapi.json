@@ -1,0 +1,123 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "HCSL Public Discovery API",
+    "version": "1.0.0",
+    "description": "Read-only discovery endpoints for Hellenic Complex Systems Laboratory public web resources."
+  },
+  "servers": [
+    {
+      "url": "https://www.hcsl.com"
+    }
+  ],
+  "paths": {
+    "/llms.txt": {
+      "get": {
+        "summary": "Retrieve LLM guidance for HCSL public resources.",
+        "operationId": "getLlmsText",
+        "responses": {
+          "200": {
+            "description": "LLM guidance text.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/api-catalog": {
+      "get": {
+        "summary": "Retrieve the RFC 9727 API catalog linkset.",
+        "operationId": "getApiCatalog",
+        "responses": {
+          "200": {
+            "description": "API catalog linkset.",
+            "content": {
+              "application/linkset+json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/agent-skills/index.json": {
+      "get": {
+        "summary": "Retrieve the agent skills discovery index.",
+        "operationId": "getAgentSkillsIndex",
+        "responses": {
+          "200": {
+            "description": "Agent skills discovery index.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/mcp/server-card.json": {
+      "get": {
+        "summary": "Retrieve the MCP server card for HCSL browser-exposed tools.",
+        "operationId": "getMcpServerCard",
+        "responses": {
+          "200": {
+            "description": "MCP server card.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/oauth-protected-resource": {
+      "get": {
+        "summary": "Retrieve OAuth protected resource metadata for HCSL public resources.",
+        "operationId": "getOAuthProtectedResource",
+        "responses": {
+          "200": {
+            "description": "OAuth protected resource metadata.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/status.json": {
+      "get": {
+        "summary": "Retrieve discovery endpoint status.",
+        "operationId": "getDiscoveryStatus",
+        "responses": {
+          "200": {
+            "description": "Discovery status.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
+  "serverInfo": {
+    "name": "hcsl-public-web",
+    "title": "HCSL Public Web Discovery",
+    "version": "1.0.0"
+  },
+  "description": "Discovery metadata for Hellenic Complex Systems Laboratory public web resources and browser-exposed WebMCP tools.",
+  "websiteUrl": "https://www.hcsl.com/",
+  "transport": {
+    "type": "webmcp",
+    "endpoint": "https://www.hcsl.com/",
+    "description": "The homepage registers browser WebMCP tools when the user agent supports document.modelContext.registerTool or navigator.modelContext.provideContext."
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "hcsl.search",
+        "description": "Search the main public HCSL resource categories by keyword and return matching links."
+      },
+      {
+        "name": "hcsl.list_resources",
+        "description": "Return public HCSL resource links, optionally filtered by category."
+      },
+      {
+        "name": "hcsl.site_summary",
+        "description": "Return a concise summary of HCSL scope, status, and agent discovery endpoints."
+      },
+      {
+        "name": "hcsl.open_section",
+        "description": "Navigate the browser to a selected public HCSL section."
+      }
+    ],
+    "resources": [
+      {
+        "uri": "https://www.hcsl.com/llms.txt",
+        "name": "HCSL LLM guidance"
+      },
+      {
+        "uri": "https://www.hcsl.com/.well-known/api-catalog",
+        "name": "HCSL API catalog"
+      },
+      {
+        "uri": "https://www.hcsl.com/.well-known/agent-skills/index.json",
+        "name": "HCSL agent skills index"
+      }
+    ]
+  },
+  "authentication": {
+    "required": false
+  }
+}

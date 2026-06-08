@@ -1,0 +1,29 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.hcsl.com/",
+      "service-desc": [
+        {
+          "href": "https://www.hcsl.com/.well-known/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.hcsl.com/.well-known/api-docs.md",
+          "type": "text/markdown"
+        },
+        {
+          "href": "https://www.hcsl.com/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://www.hcsl.com/.well-known/status.json",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}
