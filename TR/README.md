@@ -1,121 +1,44 @@
-# Hellenic Complex Systems Laboratory Software Repository
+# HCSL Technical Reports
 
-**Overview**
+Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/.
 
-Welcome to the official GitHub software repository for the Hellenic Complex System Laboratory (HCSL). This repository serves as a portal to the HCSL's digital presence, offering access to software developed by our team. The software, with additional material, is also accessible through the HCSL official website at https://www.hcsl.com/Tools/.
+1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. https://doi.org/10.5281/zenodo.20703959
+2. Chatzimichail T, Hatjimihail AT. A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Technical Report XXVIII. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20177791
+3. Chatzimichail T, Hatjimihail AT. A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Technical Report XXVII. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20185624
+4. Chatzimichail T, Hatjimihail AT. A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. Technical Report XXVI. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20393878
+5. Chatzimichail T, Hatjimihail AT. A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Technical Report XXV. Hellenic Complex Systems Laboratory; 2023. https://doi.org/10.5281/zenodo.20393633
+6. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Technical Report XXIV. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278899
+7. Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design. Technical Report XXIII. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20313886
+8. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Technical Report XXII. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278801
+9. Chatzimichail RA, Hatjimihail AT. Quality Control Using Convolutional Neural Networks Applied to Samples of Very Small Size. Technical Report XXI. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278699
+10. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Technical Report XX. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278487
+11. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Technical Report XVIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20577008
+12. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Technical Report XVII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20576598
+13. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Technical Report XVI. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20576670
+14. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Technical Report XV. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20572923
+15. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Technical Report XIV. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20572510
+16. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Technical Report XIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20571928
+17. Chatzimichail T. Relation of Positive and Negative Predictive Values. Technical Report XII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20565741
+18. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Technical Report XI. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20561047
+19. Chatzimichail T. Enteral Nutritional Design. Technical Report X. Hellenic Complex Systems Laboratory; 2017. https://doi.org/10.5281/zenodo.20564789
+20. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Technical Report IX. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.20560727
+21. Hatjimihail AT. Calculation of the confidence bounds for the fraction nonconforming of normal populations of measurements in clinical laboratory medicine. Technical Report IV. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.18593807
+22. Hatjimihail AT. The Area Over an ROC Curve as an Index of Diagnostic Inaccuracy. Technical Report XIX. Hellenic Complex Systems Laboratory; 2011. https://doi.org/10.5281/zenodo.20577149
+23. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Technical Report VIII. Hellenic Complex Systems Laboratory; 2010. https://doi.org/10.5281/zenodo.20558445
+24. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.3.. Technical Report VII. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20484072
+25. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Technical Report VI. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20550912
+26. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Technical Report V. Hellenic Complex Systems Laboratory; 2007. https://doi.org/10.5281/zenodo.20535267
+27. Hatjimihail AT. A nonlinear component of the analytical error. Technical Report III. Hellenic Complex Systems Laboratory; 2001. https://doi.org/10.5281/zenodo.18593455
+28. Hatjimihail AT, Hatjimihail TT. Design of statistical quality control procedures using genetic algorithms. Technical Report II. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18591306
+29. Hatjimihail AT. Entropy and genetic algorithms: Definition and some graphs. Technical Report I. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18589934
+**HCSL Technical Reports Publication Dates Policy**
 
-**Programs**
-
-1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A unified framework for uncertainty estimation of diagnostic accuracy measures. Ver. 1.3.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20151075
-
-Source Notebook: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
-
-2. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19425681
-
-Source Notebook: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
-
-3. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20209103 
-
-Source Notebook: [Relation.nb](Relation/Relation.nb)
-
-4. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19182193
-
-Source Notebook: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
-
-5.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.5. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19178969 
-
-Source Notebook: [QualityControl.nb](QualityControl/QualityControl.nb)
-
-6. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.7. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19158651
-
-Source Notebook: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
-
-7. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.0.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19159203
-
-Source Notebook: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
-
-8. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20279024
-
-Source Notebook: [Nutrition.nb](Nutrition/Nutrition.nb)
-
-9. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.4. Drama: Hellenic Complex Systems Laboratory, 2026. https://doi.org/10.5281/zenodo.19163485
-
-Source Notebook: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
-
-10. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19163806
-
-Source Notebook: [IntelligentQualityControl.nb](IntelligentQualityControl/IntelligentQualityControl.nb)
-
-11. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.5. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20278408
-
-Source Notebook: [Quality.nb](Quality/Quality.nb)
-
-**Demonstrations**
-
-1. Hatjimihail AT. The Area Over an ROC Curve as an Index of Diagnostic Inaccuracy. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20577147 
-
-Source Notebook: [TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb](Demonstrations/TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb)
-
-2. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20577005
-
-Source Notebook: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](Demonstrations/InferencesAboutTheDifferenceBetweenTwoProportions.nb)
-
-3. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20576595 
-
-Source Notebook: [CalculationOfDiagnosticAccuracyMeasures.nb](Demonstrations/CalculationOfDiagnosticAccuracyMeasures.nb)
-
-4. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20576446
-
-Source Notebook: [ExactConfidenceIntervalsForASingleProportion.nb](Demonstrations/ExactConfidenceIntervalsForASingleProportion.nb)
-
-5. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Ver. 1.2.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20572904
-
-Source Notebook: [NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb](Demonstrations/NetworkOfMusicalInstrumentsForRhythmAccompaniment.nb)
-
-6. Chatzimichail T, Hatjimihail AT. Relation of Diagnostic Accuracy Measures. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20572509
-
-Source Notebook: [RelationOfDiagnosticAccuracyMeasures.nb](Demonstrations/RelationOfDiagnosticAccuracyMeasures.nb)
-
-7. Chatzimichail T. Calculator for Diagnostic Accuracy Measures. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20571927
-
-Source Notebook: [CalculatorForDiagnosticAccuracyMeasures.nb](Demonstrations/CalculatorForDiagnosticAccuracyMeasures.nb)
-
-8. Chatzimichail T. Relation of Positive and Negative Predictive Values. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20565731
-
-Source Notebook: [RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb](Demonstrations/RelationOfPositiveAndNegativePredictiveValuesOfDiagnostic.nb)
-
-9. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20561046
-
-Source Notebook: [AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb](Demonstrations/AnalysisOfDiagnosticAccuracyMeasuresForTwoCombinedDiagnostic.nb)
-
-10. Chatzimichail T. Enteral Nutritional Design. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20564786
-
-Source Notebook: [EnteralNutritionalDesign.nb](Demonstrations/EnteralNutritionalDesign.nb)
-
-11. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20560724
-
-Source Notebook: [AnalysisOfDiagnosticAccuracyMeasures.nb](Demonstrations/AnalysisOfDiagnosticAccuracyMeasures.nb)
-
-12. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Ver. 1.3.4. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20558330
-
-Source Notebook: [ToolForQualityControlDesignAndEvaluation.nb](Demonstrations/ToolForQualityControlDesignAndEvaluation.nb)
-
-13. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.4. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20551676
-
-Source Notebook: [UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb](Demonstrations/UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb)
-
-14. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20550911
-
-Source Notebook: [UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb](Demonstrations/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb)
-
-15. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20535253
-
-Source Notebook: [ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb](Demonstrations/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb)
+The publication dates indicated for each Hellenic Complex Systems Laboratory Technical Report correspond to the original release dates rather than the latest revision. While revised versions may exist, they retain the original publication date to maintain consistency across references. Revised copies with their latest revision dates may be available on other websites.
 
 **Intellectual Property Rights**
 
-Hellenic Complex Systems Laboratory computational notebooks are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Except where otherwise noted, Hellenic Complex Systems Laboratory Technical Reports are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **Disclaimer of Warranties**
 
- The material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, technical reports, computational notebooks, and web content, is offered "as is", without any warranty of any kind, either express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or the Hellenic Complex Systems Laboratory or any of its members be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the material or the use or other dealings in the material.
+The material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, technical reports, computational notebooks, and web content, is offered "as is", without any warranty of any kind, either express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or the Hellenic Complex Systems Laboratory or any of its members be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the material or the use or other dealings in the material.
