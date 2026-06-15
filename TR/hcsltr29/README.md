@@ -1,6 +1,6 @@
 # HCSL Technical Report XXIX
 
-Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. https://doi.org/10.5281/zenodo.20151541
+Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. https://doi.org/10.5281/zenodo.20703959
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr29/.
 
@@ -10,4 +10,4 @@ Except where otherwise noted, Hellenic Complex Systems Laboratory Technical Repo
 
 **Disclaimer of Warranties**
 
-The material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, technical reports,  computational notebooks, and web content, is offered "as is", without any warranty of any kind, either express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or the Hellenic Complex Systems Laboratory or any of its members be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the material or the use or other dealings in the material.
+The material provided by the Hellenic Complex Systems Laboratory, including but not limited to publications, technical reports, computational notebooks, and web content, is offered "as is", without any warranty of any kind, either express or implied. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or the Hellenic Complex Systems Laboratory or any of its members be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the material or the use or other dealings in the material.
