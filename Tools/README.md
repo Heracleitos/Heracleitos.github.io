@@ -6,7 +6,7 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 **Programs**
 
-1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A unified framework for uncertainty estimation of diagnostic accuracy measures. Ver. 1.3.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20151075
+1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A unified framework for uncertainty estimation of diagnostic accuracy measures. Ver. 1.3.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20703906
 
 Source Notebook: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
@@ -108,7 +108,7 @@ Source Notebook: [UncertaintyOfMeasurementAndDiagnosticAccuracyMeasures.nb](Demo
 
 Source Notebook: [UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb](Demonstrations/UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb)
 
-15. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Ver. 1.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20535253
+15. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20535253
 
 Source Notebook: [ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb](Demonstrations/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb)
 
