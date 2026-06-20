@@ -51,13 +51,13 @@
 	<meta name="citation_technical_report_institution" content="Hellenic Complex Systems Laboratory">
 	<meta name="citation_technical_report_number" content="XXIX">
 	<meta name="citation_firstpage" content="1">
-	<meta name="citation_lastpage" content="28">
-	<meta name="citation_abstract" content="Background: Diagnostic accuracy measures (DAMs) are widely used in evaluating medical diagnostic tests, yet their uncertainty is often underreported or inconsistently quantified, which can bias threshold-based decisions in clinical practice.
-Methods: We developed a computational framework to estimate measurement, sampling, and combined uncertainty of sixteen DAMs for threshold-based screening or diagnostic tests under three measurement distributional models: normal, lognormal, and gamma. Measurement uncertainty is modelled with linear and nonlinear heteroscedastic functions. Uncertainty is propagated using a first-order Taylor-series expansion. Optimality conditions are derived numerically where applicable. The framework has been implemented in the freely available program DiagAccU, in Wolfram Language, allowing parameter specification and estimation and plotting of the DAMs and their uncertainties and confidence intervals (CIs).
-Results: We used fasting plasma glucose for diabetes diagnosis as an illustrative case study. At extreme thresholds, ratio-type measures showed widened CIs. Agreement, association, and concordance based indices exhibited comparatively stable behavior and typically attained interior optima. Confirmatory objectives favored higher thresholds emphasizing specificity, whereas exclusionary objectives favored lower thresholds emphasizing sensitivity. These findings support reporting threshold-wise CIs and aligning cut-off point selection with the intended clinical objective.
-Conclusions: This framework offers a novel integrated, diagnostic threshold dependent approach for estimating uncertainty across a broad spectrum of DAMs, promoting reproducibility and uptake in laboratory medicine and diagnostic research, and directly supporting clinical decision-making for confirmatory diagnosis and diagnosis for exclusion. ">
+	<meta name="citation_lastpage" content="29">
+	<meta name="citation_abstract" content="Background: Diagnostic accuracy measures (DAMs) are widely used to evaluate medical diagnostic tests, but their uncertainty is often underreported or inconsistently quantified, which may affect threshold-based interpretation in clinical practice.
+Methods: We developed a computational framework to estimate sampling uncertainty, analytical measurement uncertainty, and combined uncertainty for sixteen threshold-dependent DAMs under normal, lognormal, and gamma class-conditional measurement distributions. Analytical measurement uncertainty was represented using homoscedastic or heteroscedastic imprecision models, and uncertainty was propagated using a first-order Taylor-series approximation. The Wolfram Language program DiagAccU implements threshold-dependent estimation, uncertainty decomposition, confidence-interval calculation, and measure-specific threshold optimization.
+Results: Fasting plasma glucose for diabetes diagnosis was used as an illustrative case study. Ratio-type measures showed marked instability near boundary thresholds, with widened confidence intervals, whereas bounded agreement, association, and concordance-based indices were comparatively more stable in interior threshold regions. Confirmatory objectives favoured higher thresholds emphasizing specificity, whereas exclusionary objectives favoured lower thresholds emphasizing sensitivity.
+Conclusions: The framework provides a unified threshold-dependent approach for estimating uncertainty across multiple DAMs. It supports reproducible diagnostic-threshold evaluation, explicit uncertainty reporting, and clinically aligned interpretation for confirmatory diagnosis and diagnosis for exclusion.">
 	<meta name="citation_pdf_url" title="PDF Full-Text"  content="https://www.hcsl.com/TR/hcsltr29/hcsltr29.pdf">
-	<meta name="citation_doi" content="10.5281/zenodo.20703959">
+	<meta name="citation_doi" content="10.5281/zenodo.20775515">
 </head>
 <body>
         <div class="sidebar">
@@ -80,17 +80,16 @@ Conclusions: This framework offers a novel integrated, diagnostic threshold depe
         </h3>
         <h4>Abstract</h4>
         <p class="c1">
-			<span style="font-style: italic">Background:</span> <a href="../../Glossary/index.html#Diagnostic_Accuracy" title="glossary: diagnostic accuracy">Diagnostic accuracy</a> measures (DAMs) are widely used in evaluating medical diagnostic tests, yet their <a href="../../Glossary/index.html#Uncertainty" title="glossary: uncertainty">uncertainty</a> is often underreported or inconsistently quantified, which can bias threshold-based decisions in clinical practice. 
+			<span style="font-style: italic">Background:</span> <a href="../../Glossary/index.html#Diagnostic_Accuracy" title="glossary: diagnostic accuracy">Diagnostic accuracy</a> measures (DAMs) are widely used to evaluate medical diagnostic tests, but their <a href="../../Glossary/index.html#Uncertainty" title="glossary: uncertainty">uncertainty</a> may affect threshold-based interpretation in clinical practice. 
 		</p>
 		 <p class="c1">
-			<span style="font-style: italic">Methods:</span> We developed a computational framework to estimate the measurement, sampling, and combined uncertainty of sixteen DAMs for threshold-based screening or diagnostic tests under three measurements distributional models: normal, lognormal, and gamma. Measurement uncertainty is modelled with linear and nonlinear heteroscedastic functions. Uncertainty is propagated using a first-order Taylor-series expansion. Optimality conditions are derived numerically where applicable. The framework has been implemented in the freely available program <span style="font-style: italic">DiagAccU</span>, in Wolfram Language, allowing parameter specification and estimation and plotting of the DAMs and their uncertainties and confidence intervals (CIs).
+			<span style="font-style: italic">Methods:</span> We developed a computational framework to estimate sampling uncertainty, analytical measurement uncertainty, and combined uncertainty for sixteen threshold-dependent DAMs under normal, lognormal, and gamma class-conditional measurement distributions. Analytical measurement uncertainty was represented using homoscedastic or heteroscedastic imprecision models, and uncertainty was propagated using a first-order Taylor-series approximation. The Wolfram Language program <span style="font-style: italic">DiagAccU</span> implements threshold-dependent estimation, uncertainty decomposition, confidence-interval calculation, and measure-specific threshold optimization.
 		</p>
 		<p class="c1">
-			<span style="font-style: italic">Results:</span> We used fasting plasma glucose for diabetes diagnosis as an illustrative case study. At extreme thresholds, ratio-type measures showed widened CIs. Agreement, association, and concordance based indices exhibited comparatively stable behavior and typically attained interior optima. Confirmatory objectives favored higher thresholds emphasizing specificity, whereas exclusionary objectives favored lower thresholds emphasizing sensitivity. These findings support reporting threshold-wise CIs and aligning cut-off point selection with the intended clinical objective.
- 
-		 <p class="c1">
-			<span style="font-style: italic">Conclusions:</span> This framework offers a novel integrated, diagnostic threshold dependent approach for estimating uncertainty across a broad spectrum of DAMs, promoting reproducibility and uptake in laboratory medicine and diagnostic research, and directly supporting clinical decision-making for confirmatory diagnosis and diagnosis for exclusion. 
-
+			<span style="font-style: italic">Results:</span> Fasting plasma glucose for diabetes diagnosis was used as an illustrative case study. Ratio-type measures showed marked instability near boundary thresholds, with widened confidence intervals, whereas bounded agreement, association, and concordance-based indices were comparatively more stable in interior threshold regions. Confirmatory objectives favoured higher thresholds emphasizing specificity, whereas exclusionary objectives favoured lower thresholds emphasizing sensitivity.
+		</p>
+		<p class="c1">
+			<span style="font-style: italic">Conclusions:</span> The framework provides a unified threshold-dependent approach for estimating uncertainty across multiple DAMs. It supports reproducible diagnostic-threshold evaluation, explicit uncertainty reporting, and clinically aligned interpretation for confirmatory diagnosis and diagnosis for exclusion. 
         </p>
 		<h4>First Published</h4>
 		<p class="c1">
@@ -98,22 +97,22 @@ Conclusions: This framework offers a novel integrated, diagnostic threshold depe
         </p>
 		<h4>Revised</h4>
 		<p class="c1">
-			2026-06-15
+			2026-06-20
         </p>
 		<h4>DOI</h4>
 		<p class="c1">
-			<a href="https://doi.org/10.5281/zenodo.20703959" target="_blank">10.5281/zenodo.20703959</a>
+			<a href="https://doi.org/10.5281/zenodo.20775515" target="_blank">10.5281/zenodo.20775515</a>
 		</p>
 		<h4>Citation</h4>
 		<p class="c1c">
-			Chatzimichail RA, Chatzimichail T, Hatjimihail AT. <span style="font-style: italic">Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions.</span> Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. <a href="https://doi.org/10.5281/zenodo.20703959" target="_blank">https://doi.org/10.5281/zenodo.20703959</a>.
+			Chatzimichail RA, Chatzimichail T, Hatjimihail AT. <span style="font-style: italic">Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions.</span> Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. <a href="https://doi.org/10.5281/zenodo.20775515" target="_blank">https://doi.org/10.5281/zenodo.20775515</a>.
         </p>
         <p class="c1">
             <a href="hcsltr29.pdf" target="_blank">Full Text</a>
 		</p>
 		<p class="c1">
             <a href="../../Tools/DiagnosticAccuracy/DiagAccU.zip"
-               target="_blank">Source Notebook</a> (Revised on 2026-06-15)
+               target="_blank">Source Notebook</a> (Revised on 2026-06-20)
         </p>
 		<h4><a id="Terms_of_Use"></a>Terms of Use</h4>
 		<p class="c1">
