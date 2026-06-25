@@ -1,6 +1,6 @@
 # HCSL Technical Report I
 
-Hatjimihail AT. Entropy and genetic algorithms: Definition and some graphs. Technical Report I. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18589934
+Hatjimihail AT. Entropy and Genetic Algorithms: Definition and Some Graphs. Technical Report I. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18589934
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr01/.
 
