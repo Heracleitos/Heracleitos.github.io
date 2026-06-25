@@ -6,7 +6,7 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 **Programs**
 
-1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A unified framework for uncertainty estimation of diagnostic accuracy measures. Ver. 1.3.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20775436
+1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: 1. Chatzimichail Ra, Chatzimichail T, Hatjimihail At. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 1.3.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20775436
 
 Source Notebook: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
@@ -56,7 +56,7 @@ Source Notebook: [Quality.nb](Quality/Quality.nb)
 
 Source Notebook: [TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb](Demonstrations/TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb)
 
-2. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20577005
+2. Chatzimichail T, Hatjimihail AT. Inferences About the Difference Between Two Proportions. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20577005
 
 Source Notebook: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](Demonstrations/InferencesAboutTheDifferenceBetweenTwoProportions.nb)
 
