@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.hcsl.com/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/About/index.html</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
@@ -37,7 +37,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
@@ -47,27 +47,27 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Notes/Diagnosis.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Notes/QC.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Notes/Risk.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Notes/Uncertainty.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -77,7 +77,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/Cat.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -87,22 +87,22 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/Diagnostic.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/Entropy.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/Fellows.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/GAsQC.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
@@ -117,17 +117,17 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/Risk.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/Selected.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/Statistics.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -147,22 +147,22 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Cat.html</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/CatP.html</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/Cat.html</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Demonstrations/index.html</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -197,7 +197,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Relation/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -207,27 +207,27 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/Cat.html</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr01/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr02/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr03/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr04/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -297,7 +297,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr18/index.html</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -352,7 +352,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr29/index.html</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
