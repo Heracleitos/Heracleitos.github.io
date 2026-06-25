@@ -4,7 +4,7 @@
 
 Source Notebook: [TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb](TheAreaOverAReceiverOperatingCharacteristicROCCurveAsAnIndex.nb)
 
-2. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20577005
+2. Chatzimichail T, Hatjimihail AT. Inferences About the Difference Between Two Proportions. Ver. 1.1.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20577005
 
 Source Notebook: [InferencesAboutTheDifferenceBetweenTwoProportions.nb](InferencesAboutTheDifferenceBetweenTwoProportions.nb)
 
