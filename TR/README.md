@@ -2,7 +2,7 @@
 
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/.
 
-1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. https://doi.org/10.5281/zenodo.20775515
+1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. https://doi.org/10.5281/zenodo.20775515
 2. Chatzimichail T, Hatjimihail AT. A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Technical Report XXVIII. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20177791
 3. Chatzimichail T, Hatjimihail AT. A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Technical Report XXVII. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20185624
 4. Chatzimichail T, Hatjimihail AT. A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. Technical Report XXVI. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20393878
@@ -12,7 +12,7 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 8. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Technical Report XXII. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278801
 9. Chatzimichail RA, Hatjimihail AT. Quality Control Using Convolutional Neural Networks Applied to Samples of Very Small Size. Technical Report XXI. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278699
 10. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Technical Report XX. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278487
-11. Chatzimichail T, Hatjimihail AT. Inferences about the Difference between Two Proportions. Technical Report XVIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20577008
+11. Chatzimichail T, Hatjimihail AT. Inferences About the Difference Between Two Proportions. Technical Report XVIII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20577008
 12. Chatzimichail T, Hatjimihail AT. Calculation of Diagnostic Accuracy Measures. Technical Report XVII. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20576598
 13. Chatzimichail T, Hatjimihail AT. Exact Confidence Intervals for a Single Proportion. Technical Report XVI. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20576670
 14. Chatzimichail C, Hatjimihail AT. Network of Musical Instruments for Rhythm Accompaniment. Technical Report XV. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20572923
@@ -28,9 +28,9 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 24. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.3.. Technical Report VII. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20484072
 25. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Technical Report VI. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20550912
 26. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Technical Report V. Hellenic Complex Systems Laboratory; 2007. https://doi.org/10.5281/zenodo.20535267
-27. Hatjimihail AT. A nonlinear component of the analytical error. Technical Report III. Hellenic Complex Systems Laboratory; 2001. https://doi.org/10.5281/zenodo.18593455
-28. Hatjimihail AT, Hatjimihail TT. Design of statistical quality control procedures using genetic algorithms. Technical Report II. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18591306
-29. Hatjimihail AT. Entropy and genetic algorithms: Definition and some graphs. Technical Report I. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18589934
+27. Hatjimihail AT. A Nonlinear Component of the Analytical Error. Technical Report III. Hellenic Complex Systems Laboratory; 2001. https://doi.org/10.5281/zenodo.18593455
+28. Hatjimihail AT, Hatjimihail TT. Design of Statistical Quality Control Procedures using Genetic Algorithms. Technical Report II. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18591306
+29. Hatjimihail AT. Entropy and genetic algorithms: Definition and Some Graphs. Technical Report I. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18589934
 **HCSL Technical Reports Publication Dates Policy**
 
 The publication dates indicated for each Hellenic Complex Systems Laboratory Technical Report correspond to the original release dates rather than the latest revision. While revised versions may exist, they retain the original publication date to maintain consistency across references. Revised copies with their latest revision dates may be available on other websites.
