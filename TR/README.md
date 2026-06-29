@@ -22,14 +22,14 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 18. Chatzimichail T, Hatjimihail AT. Analysis of Diagnostic Accuracy Measures for Two Combined Diagnostic Tests. Technical Report XI. Hellenic Complex Systems Laboratory; 2018. https://doi.org/10.5281/zenodo.20561047
 19. Chatzimichail T. Enteral Nutritional Design. Technical Report X. Hellenic Complex Systems Laboratory; 2017. https://doi.org/10.5281/zenodo.20564789
 20. Chatzimichail T. Analysis of Diagnostic Accuracy Measures. Technical Report IX. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.20560727
-21. Hatjimihail AT. Calculation of the confidence bounds for the fraction nonconforming of normal populations of measurements in clinical laboratory medicine. Technical Report IV. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.18593807
+21. Hatjimihail AT. Calculation of the Confidence Bounds for the Fraction Nonconforming of Normal Populations of Measurements in Clinical Laboratory Medicine. Technical Report IV. Hellenic Complex Systems Laboratory; 2015. https://doi.org/10.5281/zenodo.18593807
 22. Hatjimihail AT. The Area Over an ROC Curve as an Index of Diagnostic Inaccuracy. Technical Report XIX. Hellenic Complex Systems Laboratory; 2011. https://doi.org/10.5281/zenodo.20577149
 23. Hatjimihail AT. Tool for Quality Control Design and Evaluation. Technical Report VIII. Hellenic Complex Systems Laboratory; 2010. https://doi.org/10.5281/zenodo.20558445
 24. Hatjimihail AT. Uncertainty of Measurement and Diagnostic Accuracy Measures. Ver. 1.1.3.. Technical Report VII. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20484072
 25. Hatjimihail AT. Uncertainty of Measurement and Areas Over and Under the ROC Curves. Technical Report VI. Hellenic Complex Systems Laboratory; 2009. https://doi.org/10.5281/zenodo.20550912
 26. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Technical Report V. Hellenic Complex Systems Laboratory; 2007. https://doi.org/10.5281/zenodo.20535267
 27. Hatjimihail AT. A Nonlinear Component of the Analytical Error. Technical Report III. Hellenic Complex Systems Laboratory; 2001. https://doi.org/10.5281/zenodo.18593455
-28. Hatjimihail AT, Hatjimihail TT. Design of Statistical Quality Control Procedures using Genetic Algorithms. Technical Report II. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18591306
+28. Hatjimihail AT, Hatjimihail TT. Design of Statistical Quality Control Procedures using Genetic Algorithms. Technical Report II. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.21038688
 29. Hatjimihail AT. Entropy and genetic algorithms: Definition and Some Graphs. Technical Report I. Hellenic Complex Systems Laboratory; 1993. https://doi.org/10.5281/zenodo.18589934
 **HCSL Technical Reports Publication Dates Policy**
 
