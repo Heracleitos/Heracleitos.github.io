@@ -4,7 +4,7 @@ Available through the Hellenic Complex Systems Laboratory (HCSL) official websit
 
 1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. https://doi.org/10.5281/zenodo.20775515
 2. Chatzimichail T, Hatjimihail AT. A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Technical Report XXVIII. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20177791
-3. Chatzimichail T, Hatjimihail AT. A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Technical Report XXVII. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20185624
+3. Chatzimichail T, Hatjimihail AT. A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Technical Report XXVII. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.21416372
 4. Chatzimichail T, Hatjimihail AT. A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. Technical Report XXVI. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20393878
 5. Chatzimichail T, Hatjimihail AT. A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Technical Report XXV. Hellenic Complex Systems Laboratory; 2023. https://doi.org/10.5281/zenodo.20393633
 6. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Technical Report XXIV. Hellenic Complex Systems Laboratory; 2022. https://doi.org/10.5281/zenodo.20278899
