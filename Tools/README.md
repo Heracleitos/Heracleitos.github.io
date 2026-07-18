@@ -10,7 +10,7 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 Source Notebook: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
-2. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19425681
+2. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21415862
 
 Source Notebook: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
 
