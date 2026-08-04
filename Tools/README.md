@@ -30,7 +30,7 @@ Source Notebook: [QualityControl.nb](QualityControl/QualityControl.nb)
 
 Source Notebook: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 
-7. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.0.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19159203
+7. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.1.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21787867
 
 Source Notebook: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 

@@ -1,6 +1,6 @@
 # Bayesian Diagnostic Uncertainty
 
-A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. Ver. 2.0.2. Hellenic Complex Systems Laboratory; 2026.
+A Software Tool for Estimating Uncertainty of Bayesian Posterior Probability for Disease. Ver. 2.1.0. Hellenic Complex Systems Laboratory; 2026.
 
 Source: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty.nb)
 
