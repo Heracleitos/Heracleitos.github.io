@@ -656,8 +656,13 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://www.hcsl.com/Tools/DiagnosticAccuracy/DiagAccU.nb</loc>
+    <lastmod>2026-08-12</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
     <loc>https://www.hcsl.com/Tools/DiagnosticAccuracy/DiagAccU.zip</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
