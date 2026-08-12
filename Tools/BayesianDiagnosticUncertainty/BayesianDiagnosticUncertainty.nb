@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[   2281623,      44981]
-NotebookOptionsPosition[   2279672,      44941]
-NotebookOutlinePosition[   2280559,      44965]
-CellTagsIndexPosition[   2280516,      44962]
+NotebookDataLength[   2281844,      44983]
+NotebookOptionsPosition[   2279891,      44943]
+NotebookOutlinePosition[   2280781,      44967]
+CellTagsIndexPosition[   2280738,      44964]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -91,12 +91,12 @@ Cell[BoxData[{
      RowBox[{"<|", 
       RowBox[{
        RowBox[{"\"\<DOI\>\"", 
-        "->", "\"\<https://doi.org/10.5281/zenodo.21787867\>\""}], ",", 
+        "->", "\"\<https://doi.org/10.5281/zenodo.21891843\>\""}], ",", 
        RowBox[{"\"\<PreferredCitation\>\"", 
-        "->", "\"\< hatzimichail T, Hatjimihail AT. Bayesian Diagnostic \
+        "->", "\"\< Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic \
 Uncertainty: A Software Tool for Estimating Uncertainty of Bayesian Posterior \
-Probability for Disease. Ver. 2.1.0. Hellenic Complex Systems Laboratory; \
-2026. https://doi.org/10.5281/zenodo.21787867\>\""}]}], "|>"}]}]}], "]"}], 
+Probability for Disease. Ver. 2.1.1. Hellenic Complex Systems Laboratory; \
+2026. https://doi.org/10.5281/zenodo.21891843\>\""}]}], "|>"}]}]}], "]"}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"logNormalDistribution", "[", 
@@ -9892,13 +9892,13 @@ probability of disease\>\"", ",", "Bold"}], "]"}],
    3.994716795223398*^9, 3.9947170186144886`*^9}, 3.9947189310223103`*^9, {
    3.994718977409321*^9, 3.994719000414522*^9}, {3.9948046271001377`*^9, 
    3.9948046300648975`*^9}, {3.994804734514393*^9, 3.9948047432401333`*^9}, {
-   3.994823354432081*^9, 3.994823359634369*^9}},
+   3.994823354432081*^9, 3.994823359634369*^9}, 3.9954539022354393`*^9, 
+   3.9954545891421146`*^9, {3.995454649969631*^9, 3.9954546622081375`*^9}},
  CodeAssistOptions->{
  "CodeToolsOptions"-><|
-  "CodeInspect" -> <|
-    "Tags" -> <|
-      "InternalError" -> \
-<||>|>|>|>},ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e"],
+  "CodeInspect" -> <|"Tags" -> <|"InternalError" -> <||>|>|>|>},
+ CellLabel->
+  "In[114]:=",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e"],
 
 Cell[CellGroupData[{
 
@@ -12751,7 +12751,7 @@ Cell[BoxData[
  "CodeToolsOptions"-><|
   "CodeInspect" -> <|"Tags" -> <|"InternalError" -> <||>|>|>|>},
  CellLabel->
-  "In[283]:=",ExpressionUUID->"3b6ffc95-9478-bd49-883a-82a2c599ad21"],
+  "In[170]:=",ExpressionUUID->"3b6ffc95-9478-bd49-883a-82a2c599ad21"],
 
 Cell[BoxData[
  TabViewBox[{{1,"\<\"plots\"\>"->
@@ -44714,9 +44714,10 @@ CellContext`\[Sigma]H^2) ($CellContext`nD
    3.9698877628660603`*^9, 3.969887787357218*^9}, 3.9831561858853035`*^9, {
    3.9831563961755943`*^9, 3.9831564653846073`*^9}, 3.9947137753614407`*^9, 
    3.9947138740522766`*^9, 3.994717038464443*^9, 3.994797253885338*^9, 
-   3.99479799974914*^9, 3.994799411080555*^9},
+   3.99479799974914*^9, 3.994799411080555*^9, 3.9954547945598164`*^9, 
+   3.9954549072167625`*^9},
  CellLabel->
-  "Out[283]=",ExpressionUUID->"95b3c3e4-02a1-184b-8e27-42e95a040d33"]
+  "Out[170]=",ExpressionUUID->"55ae551d-3de4-1d47-9c7b-f6e9f282964f"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -44878,7 +44879,7 @@ Cell[TextData[{
   ButtonNote->"https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion 2.1.0\n",
+ StyleBox["\nVersion 2.1.1\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory",
@@ -44891,11 +44892,11 @@ Cell[TextData[{
  StyleBox[" 2026\nDOI: ",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox[ButtonBox["10.5281/zenodo.21787867",
+ StyleBox[ButtonBox["10.5281/zenodo.21891843",
   BaseStyle->"Hyperlink",
   ButtonData->{
-    URL["https://doi.org/10.5281/zenodo.21787867"], None},
-  ButtonNote->"https://doi.org/10.5281/zenodo.21787867"],
+    URL["https://doi.org/10.5281/zenodo.21891843"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.21891843"],
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox["\nThis notebook is distributed under  an ",
@@ -44935,18 +44936,19 @@ International Creative Commons License",
    3.9831556409728317`*^9}, {3.983155675483919*^9, 3.9831556799310474`*^9}, {
    3.9831560680295887`*^9, 3.9831560963862743`*^9}, {3.994804641877672*^9, 
    3.9948047071937466`*^9}, 3.9948234020414104`*^9, {3.9948234321273575`*^9, 
-   3.9948234321273575`*^9}},ExpressionUUID->"d0a6109d-1bce-426d-a7de-\
+   3.9948234321273575`*^9}, {3.9954546945060787`*^9, 
+   3.995454731841381*^9}},ExpressionUUID->"d0a6109d-1bce-426d-a7de-\
 40faeacf026f"]
 }, Open  ]]
 },
-WindowSize->{718.5, 736.875},
-WindowMargins->{{-4.125, Automatic}, {Automatic, 0}},
+WindowSize->{1440, 742.5},
+WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
 TaggingRules-><|
- "DOI" -> "https://doi.org/10.5281/zenodo.21787867", "PreferredCitation" -> 
-  " hatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: A \
+ "DOI" -> "https://doi.org/10.5281/zenodo.21891843", "PreferredCitation" -> 
+  " Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: A \
 Software Tool for Estimating Uncertainty of Bayesian Posterior Probability \
-for Disease. Ver. 2.0.2. Hellenic Complex Systems Laboratory; 2026. \
-https://doi.org/10.5281/zenodo.21787867"|>,
+for Disease. Ver. 2.1.1. Hellenic Complex Systems Laboratory; 2026. \
+https://doi.org/10.5281/zenodo.21891843"|>,
 CodeAssistOptions->{"CodeToolsOptions"-><|
  "CodeInspect" -> <|"Tags" -> <|"InternalError" -> <|Enabled -> False|>|>|>|>},
 FrontEndVersion->"15.0 for Microsoft Windows (64-bit) (May 19, 2026)",
@@ -44967,21 +44969,21 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[576, 22, 710, 13, 85, "Title",ExpressionUUID->"817f87f6-21b7-49de-8497-30d29c0d3d14",
  Evaluatable->False],
-Cell[1289, 37, 905, 16, 104, "Title",ExpressionUUID->"80df67f0-b041-44f0-9766-16c92651d12a",
+Cell[1289, 37, 905, 16, 70, "Title",ExpressionUUID->"80df67f0-b041-44f0-9766-16c92651d12a",
  Evaluatable->False],
 Cell[2197, 55, 553, 13, 125, "Author",ExpressionUUID->"1e376c36-f318-4c3d-b975-ee2079afbd71"],
-Cell[2753, 70, 366, 8, 53, "Affiliation",ExpressionUUID->"b90c6a00-0e7e-4b84-8ec8-73d76b92af39"],
-Cell[3122, 80, 422310, 9820, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
+Cell[2753, 70, 366, 8, 30, "Affiliation",ExpressionUUID->"b90c6a00-0e7e-4b84-8ec8-73d76b92af39"],
+Cell[3122, 80, 422425, 9820, 19, "Input",ExpressionUUID->"edd4d759-1b98-4508-8ef1-657a2effc05e",
  CellOpen->False,
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[425457, 9904, 148718, 2849, 19, "Input",ExpressionUUID->"3b6ffc95-9478-bd49-883a-82a2c599ad21",
+Cell[425572, 9904, 148718, 2849, 19, "Input",ExpressionUUID->"3b6ffc95-9478-bd49-883a-82a2c599ad21",
  CellOpen->False],
-Cell[574178, 12755, 1694620, 31963, 771, "Output",ExpressionUUID->"95b3c3e4-02a1-184b-8e27-42e95a040d33"]
+Cell[574293, 12755, 1694672, 31964, 771, "Output",ExpressionUUID->"55ae551d-3de4-1d47-9c7b-f6e9f282964f"]
 }, Open  ]],
-Cell[2268813, 44721, 5178, 101, 141, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
-Cell[2273994, 44824, 2472, 42, 72, "Subsubsubsubsection",ExpressionUUID->"0592d96e-aca8-784b-8c8e-0b8013b9aaaf"],
-Cell[2276469, 44868, 3187, 70, 86, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
+Cell[2268980, 44722, 5178, 101, 141, "Subsubsubsubsection",ExpressionUUID->"54c70681-198b-4775-9989-331e330265b0"],
+Cell[2274161, 44825, 2472, 42, 45, "Subsubsubsubsection",ExpressionUUID->"0592d96e-aca8-784b-8c8e-0b8013b9aaaf"],
+Cell[2276636, 44869, 3239, 71, 86, "Subsubsubsubsection",ExpressionUUID->"d0a6109d-1bce-426d-a7de-40faeacf026f"]
 }, Open  ]]
 }
 ]

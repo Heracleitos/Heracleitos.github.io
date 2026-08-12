@@ -9,11 +9,11 @@ authors:
 - family-names: "Hatjimihail"
     given-names: "Aristeidis T."
     orcid: "https://orcid.org/0000-0002-0502-7996"
-version: 2.1.0
+version: 2.1.1
 date-released: "2026-08-04"
 identifiers:
-  - description: "This is the archived snapshot of version 2.1.0 of Bayesian Diagnostic Uncertainty"
+  - description: "This is the archived snapshot of version 2.1.1 of Bayesian Diagnostic Uncertainty"
     type: doi
-    value: "10.5281/zenodo.21787867"
+    value: "10.5281/zenodo.21891843"
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/index.html"

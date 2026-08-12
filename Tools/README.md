@@ -6,7 +6,7 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 **Programs**
 
-1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: 1. Chatzimichail Ra, Chatzimichail T, Hatjimihail At. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 1.3.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20775436
+1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: 1. Chatzimichail Ra, Chatzimichail T, Hatjimihail AT. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 1.3.4. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21901487
 
 Source Notebook: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
 
@@ -30,7 +30,7 @@ Source Notebook: [QualityControl.nb](QualityControl/QualityControl.nb)
 
 Source Notebook: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 
-7. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.1.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21787867
+7. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21891843
 
 Source Notebook: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 
