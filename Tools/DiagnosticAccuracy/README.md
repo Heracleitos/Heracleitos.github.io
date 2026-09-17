@@ -1,8 +1,8 @@
 # Diagnostic Accuracy Measures
 
- Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU:A unified framework for uncertainty estimation of diagnostic accuracy measures. Ver. 1.3.4 Hellenic Complex Systems Laboratory; 2026.
+ Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU:A unified framework for uncertainty estimation of diagnostic accuracy measures. Ver. 2.0.0 Hellenic Complex Systems Laboratory; 2026.
 
-Source: [DiagAccU.zip](DiagAccU.zip)
+Source: [DiagAccU.nb](DiagAccU.nb)
 
 Additional resources are available through the Hellenic Complex Systems Laboratory official website at https://www.hcsl.com/Tools/DiagnosticAccuracy/.
 

@@ -6,9 +6,9 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 **Programs**
 
-1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: 1. Chatzimichail Ra, Chatzimichail T, Hatjimihail AT. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 1.3.4. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21901487
+1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: 1. Chatzimichail Ra, Chatzimichail T, Hatjimihail AT. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 2.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.22817814
 
-Source Notebook: [DiagAccU.zip](DiagnosticAccuracy/DiagAccU.zip)
+Source Notebook: [DiagAccU.nb](DiagnosticAccuracy/DiagAccU.nb)
 
 2. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21740593
 
