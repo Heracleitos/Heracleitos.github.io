@@ -51,13 +51,13 @@
 	<meta name="citation_technical_report_institution" content="Hellenic Complex Systems Laboratory">
 	<meta name="citation_technical_report_number" content="XXIX">
 	<meta name="citation_firstpage" content="1">
-	<meta name="citation_lastpage" content="28">
-	<meta name="citation_abstract" content="Background: Diagnostic accuracy measures (DAMs) are widely used to evaluate medical diagnostic tests, but their uncertainty is often underreported or inconsistently quantified, which may affect threshold-based interpretation in clinical practice.
-Methods: We developed a computational framework to estimate sampling uncertainty, analytical measurement uncertainty, and combined uncertainty for sixteen threshold-dependent DAMs under normal, lognormal, and gamma class-conditional measurement distributions. Analytical measurement uncertainty was represented using homoscedastic or heteroscedastic imprecision models, and uncertainty was propagated using a first-order Taylor-series approximation. The Wolfram Language program DiagAccU implements threshold-dependent estimation, uncertainty decomposition, confidence-interval calculation, and measure-specific threshold optimization.
-Results: Fasting plasma glucose for diabetes diagnosis was used as an illustrative case study. Ratio-type measures showed marked instability near boundary thresholds, with widened confidence intervals, whereas bounded agreement, association, and concordance-based indices were comparatively more stable in interior threshold regions. Confirmatory objectives favoured higher thresholds emphasizing specificity, whereas exclusionary objectives favoured lower thresholds emphasizing sensitivity.
-Conclusions: The framework provides a unified threshold-dependent approach for estimating uncertainty across multiple DAMs. It supports reproducible diagnostic-threshold evaluation, explicit uncertainty reporting, and clinically aligned interpretation for confirmatory diagnosis and diagnosis for exclusion.">
+	<meta name="citation_lastpage" content="37">
+	<meta name="citation_abstract" content="Background: Diagnostic tests are evaluated by their ability to discriminate between diseased and nondiseased individuals; however, estimates of diagnostic accuracy alone do not quantify their associated uncertainty. Uncertainty assessment is therefore essential for interpreting accuracy estimates and comparing diagnostic thresholds. 
+Methods: We develop a parametric framework for propagating uncertainty to diagnostic accuracy measures formulated as functions of sensitivity, specificity, and prevalence. Normal, lognormal, or gamma models are specified separately for the diseased and nondiseased populations. At a fixed threshold, first-order uncertainty propagation retains covariance between estimated population means and standard deviations, incorporates prevalence sampling uncertainty when applicable, and represents calibration uncertainty through a shared diagnostic threshold. The Wolfram Language implementation provides uncertainty components by source, joint output covariance, and approximate expanded-uncertainty intervals calculated using effective degrees of freedom derived from the source-specific variance contributions. At optimized thresholds, shared-threshold uncertainty is propagated through the nonlinear measurement model by Gauss–Hermite quadrature, conditional on the estimated optimal threshold.
+Results: Illustrative analyses indicate that the contribution of each uncertainty source varies with the diagnostic accuracy measure, distributional assumptions, and threshold. Dependence induced by the shared threshold can partially cancel its contribution to the uncertainty of a derived measure. In the cases examined, joint propagation reproduces the corresponding marginal variances and enables evaluation of uncertainty across diagnostic thresholds.
+Conclusions: The framework provides a reproducible basis for assessing diagnostic accuracy and uncertainty while preserving relevant input and output dependencies. Decomposition by source helps identify the assumptions and uncertainty components underlying each estimate. The intervals remain local approximations; nominal coverage and additional uncertainty from threshold selection require separate assessment.">
 	<meta name="citation_pdf_url" title="PDF Full-Text"  content="https://www.hcsl.com/TR/hcsltr29/hcsltr29.pdf">
-	<meta name="citation_doi" content="10.5281/zenodo.21921929">
+	<meta name="citation_doi" content="10.5281/zenodo.22818641">
 </head>
 <body>
         <div class="sidebar">
@@ -80,16 +80,16 @@ Conclusions: The framework provides a unified threshold-dependent approach for e
         </h3>
         <h4>Abstract</h4>
         <p class="c1">
-			<span style="font-style: italic">Background:</span> <a href="../../Glossary/index.html#Diagnostic_Accuracy" title="glossary: diagnostic accuracy">Diagnostic accuracy</a> measures (DAMs) are widely used to evaluate medical diagnostic tests, but their <a href="../../Glossary/index.html#Uncertainty" title="glossary: uncertainty">uncertainty</a> may affect threshold-based interpretation in clinical practice. 
+			<span style="font-style: italic">Background:</span>Diagnostic tests are evaluated by their ability to discriminate between diseased and nondiseased individuals; however, estimates of <a href="../../Glossary/index.html#Diagnostic_Accuracy" title="glossary: diagnostic accuracy">diagnostic accuracy</a> alone do not quantify their associated <a href="../../Glossary/index.html#Uncertainty" title="glossary: uncertainty">uncertainty</a>. Uncertainty assessment is therefore essential for interpreting accuracy estimates and comparing diagnostic thresholds.			
 		</p>
 		 <p class="c1">
-			<span style="font-style: italic">Methods:</span> We developed a computational framework to estimate sampling uncertainty, analytical measurement uncertainty, and combined uncertainty for sixteen threshold-dependent DAMs under normal, lognormal, and gamma class-conditional measurement distributions. Analytical measurement uncertainty was represented using homoscedastic or heteroscedastic imprecision models, and uncertainty was propagated using a first-order Taylor-series approximation. The Wolfram Language program <span style="font-style: italic">DiagAccU</span> implements threshold-dependent estimation, uncertainty decomposition, confidence-interval calculation, and measure-specific threshold optimization.
+			<span style="font-style: italic">Methods:</span> We develop a parametric framework for propagating uncertainty to diagnostic accuracy measures formulated as functions of sensitivity, specificity, and prevalence. Normal, lognormal, or gamma models are specified separately for the diseased and nondiseased populations. At a fixed threshold, first-order uncertainty propagation retains covariance between estimated population means and standard deviations, incorporates prevalence sampling uncertainty when applicable, and represents calibration uncertainty through a shared diagnostic threshold. The Wolfram Language implementation provides uncertainty components by source, joint output covariance, and approximate expanded-uncertainty intervals calculated using effective degrees of freedom derived from the source-specific variance contributions. At optimized thresholds, shared-threshold uncertainty is propagated through the nonlinear measurement model by Gauss–Hermite quadrature, conditional on the estimated optimal threshold.
 		</p>
 		<p class="c1">
-			<span style="font-style: italic">Results:</span> Fasting plasma glucose for diabetes diagnosis was used as an illustrative case study. Ratio-type measures showed marked instability near boundary thresholds, with widened confidence intervals, whereas bounded agreement, association, and concordance-based indices were comparatively more stable in interior threshold regions. Confirmatory objectives favoured higher thresholds emphasizing specificity, whereas exclusionary objectives favoured lower thresholds emphasizing sensitivity.
+			<span style="font-style: italic">Results:</span> Illustrative analyses indicate that the contribution of each uncertainty source varies with the diagnostic accuracy measure, distributional assumptions, and threshold. Dependence induced by the shared threshold can partially cancel its contribution to the uncertainty of a derived measure. In the cases examined, joint propagation reproduces the corresponding marginal variances and enables evaluation of uncertainty across diagnostic thresholds.
 		</p>
 		<p class="c1">
-			<span style="font-style: italic">Conclusions:</span> The framework provides a unified threshold-dependent approach for estimating uncertainty across multiple DAMs. It supports reproducible diagnostic-threshold evaluation, explicit uncertainty reporting, and clinically aligned interpretation for confirmatory diagnosis and diagnosis for exclusion. 
+			<span style="font-style: italic">Conclusions:</span> The framework provides a reproducible basis for assessing diagnostic accuracy and uncertainty while preserving relevant input and output dependencies. Decomposition by source helps identify the assumptions and uncertainty components underlying each estimate. The intervals remain local approximations; nominal coverage and additional uncertainty from threshold selection require separate assessment. 
         </p>
 		<h4>First Published</h4>
 		<p class="c1">
@@ -97,23 +97,22 @@ Conclusions: The framework provides a unified threshold-dependent approach for e
         </p>
 		<h4>Revised</h4>
 		<p class="c1">
-			2026-08-13
+			2026-09-17
         </p>
 		<h4>DOI</h4>
 		<p class="c1">
-			<a href="https://doi.org/10.5281/zenodo.21921929" target="_blank">10.5281/zenodo.21921929</a>
+			<a href="https://doi.org/10.5281/zenodo.22818641" target="_blank">10.5281/zenodo.22818641</a>
 		</p>
 		<h4>Citation</h4>
 		<p class="c1c">
-			Chatzimichail RA, Chatzimichail T, Hatjimihail AT. <span style="font-style: italic">Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions.</span> Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. <a href="https://doi.org/10.5281/zenodo.21921929" target="_blank">https://doi.org/10.5281/zenodo.21921929</a>.
+			Chatzimichail RA, Chatzimichail T, Hatjimihail AT. <span style="font-style: italic">Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions.</span> Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. <a href="https://doi.org/10.5281/zenodo.22818641" target="_blank">https://doi.org/10.5281/zenodo.22818641</a>.
         </p>
         <p class="c1">
             <a href="hcsltr29.pdf" target="_blank">Full Text</a>
 		</p>
 		<p class="c1">
             <a href="../../Tools/DiagnosticAccuracy/DiagAccU.nb"
-               target="_blank">Source Notebook</a> (Revised on 2026-08-13)
-        </p>
+               target="_blank">Source Notebook</a> (Revised on 2026-09-17)
 		<h4><a id="Terms_of_Use"></a>Terms of Use</h4>
 		<p class="c1">
 			The material made freely available by Hellenic Complex Systems Laboratory is subject to its <a href="../../About/index.html#Terms_of_Use" target="_blank">Terms of Use</a>.
