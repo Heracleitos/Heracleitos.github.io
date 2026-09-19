@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[   1752853,      35461]
-NotebookOptionsPosition[   1748522,      35362]
-NotebookOutlinePosition[   1751590,      35439]
-CellTagsIndexPosition[   1751380,      35431]
+NotebookDataLength[   1753056,      35443]
+NotebookOptionsPosition[   1748738,      35345]
+NotebookOutlinePosition[   1751791,      35421]
+CellTagsIndexPosition[   1751581,      35413]
 WindowTitle->Interactive Diagnostic Accuracy Uncertainty and Confidence \
 Intervals
 WindowFrame->Normal*)
@@ -117,12 +117,12 @@ Cell[BoxData[
      RowBox[{"Association", "[", 
       RowBox[{
        RowBox[{"\"\<DOI\>\"", 
-        "\[Rule]", "\"\<https://doi.org/10.5281/zenodo.21887451\>\""}], ",", 
+        "\[Rule]", "\"\<https://doi.org/10.5281/zenodo.22843673\>\""}], ",", 
        RowBox[{"\"\<PreferredCitation\>\"", 
         "\[Rule]", "\"\<Chatzimichail RA, Chatzimichail T, Hatjimihail AT. \
 DiagAccU: A unified framework for uncertainty estimation of diagnostic \
-accuracy measures. Ver. 2.0.0. Hellenic Complex Systems Laboratory; 2026. \
-https://doi.org/10.5281/zenodo.21887451\>\""}]}], "]"}]}]}], "]"}], ";", 
+accuracy measures. Ver. 2.0.1. Hellenic Complex Systems Laboratory; 2026. \
+https://doi.org/10.5281/zenodo.22843673\>\""}]}], "]"}]}]}], "]"}], ";", 
   RowBox[{"ClearAll", "[", 
    RowBox[{
    "dauCanonicalModel", ",", "dauCanonicalMeasure", ",", "dauUpperTail", ",", 
@@ -693,7 +693,7 @@ whenever \>\"", "<>", "\"\<either model has positive support.\>\""}]}], ";",
          "prevalenceSymbol"}], "]"}]}], ";", 
       RowBox[{"Association", "[", 
        RowBox[{
-        RowBox[{"\"\<Measure\>\"", "\[Rule]", "measure"}], ",", 
+        RowBox[{"\"\<measure\>\"", "\[Rule]", "measure"}], ",", 
         RowBox[{"\"\<DiseasedModel\>\"", "\[Rule]", "modelD"}], ",", 
         RowBox[{"\"\<NondiseasedModel\>\"", "\[Rule]", "modelH"}], ",", 
         RowBox[{"\"\<Expression\>\"", "\[Rule]", "expression"}], ",", 
@@ -919,8 +919,8 @@ whenever \>\"", "<>", "\"\<either model has positive support.\>\""}]}], ";",
 1.\>\""}], ";", 
   RowBox[{
    RowBox[{"dauCoverageFactor", "::", "distribution"}], 
-   "=", "\"\<ConfidenceIntervalDistribution must be StudentT or \
-Normal.\>\""}], ";", 
+   "=", "\"\<ConfidenceIntervalDistribution must be Student \
+\!\(\*StyleBox[\"t\",FontSlant->\"Italic\"]\) or Normal.\>\""}], ";", 
   RowBox[{
    RowBox[{"dauCoverageFactor", "[", 
     RowBox[{"level_", ",", "distribution_", ",", "degreesOfFreedom_"}], "]"}],
@@ -1173,8 +1173,8 @@ Automatic.\>\""}], ";",
           SuperscriptBox["totalVariance", "2"], "denominator"]}], "]"}]}], ";", 
       RowBox[{"Association", "[", 
        RowBox[{
-        RowBox[{"\"\<Measure\>\"", "\[Rule]", 
-         RowBox[{"data", "[", "\"\<Measure\>\"", "]"}]}], ",", 
+        RowBox[{"\"\<measure\>\"", "\[Rule]", 
+         RowBox[{"data", "[", "\"\<measure\>\"", "]"}]}], ",", 
         RowBox[{"\"\<Value\>\"", "\[Rule]", 
          RowBox[{"N", "[", 
           RowBox[{
@@ -1421,8 +1421,8 @@ Automatic.\>\""}], ";",
        RowBox[{"dauAroundValue", "[", "totalResult", "]"}]}], ";", 
       RowBox[{"Association", "[", 
        RowBox[{
-        RowBox[{"\"\<Measure\>\"", "\[Rule]", 
-         RowBox[{"data", "[", "\"\<Measure\>\"", "]"}]}], ",", 
+        RowBox[{"\"\<measure\>\"", "\[Rule]", 
+         RowBox[{"data", "[", "\"\<measure\>\"", "]"}]}], ",", 
         RowBox[{"\"\<DiseasedModel\>\"", "\[Rule]", 
          RowBox[{"data", "[", "\"\<DiseasedModel\>\"", "]"}]}], ",", 
         RowBox[{"\"\<NondiseasedModel\>\"", "\[Rule]", 
@@ -1655,7 +1655,7 @@ Automatic.\>\""}], ";",
          RowBox[{"value", "+", "expandedUncertainty"}]}], "}"}]}], ";", 
       RowBox[{"measureRange", "=", 
        RowBox[{"dauMeasureRange", "[", 
-        RowBox[{"degreesData", "[", "\"\<Measure\>\"", "]"}], "]"}]}], ";", 
+        RowBox[{"degreesData", "[", "\"\<measure\>\"", "]"}], "]"}]}], ";", 
       RowBox[{"constrain", "=", 
        RowBox[{"TrueQ", "[", 
         RowBox[{"OptionValue", "[", "ConstrainConfidenceInterval", "]"}], 
@@ -3648,8 +3648,8 @@ score\>\""}], ",",
          RowBox[{"legends", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Estimate\>\"", ",", "\"\<Lower limit\>\"", 
-            ",", "\"\<Upper limit\>\""}], "}"}]}], ";", 
+           RowBox[{"\"\<point estimate\>\"", ",", "\"\<LCL\>\"", 
+            ",", "\"\<UCL\>\""}], "}"}]}], ";", 
          RowBox[{"yLabel", "=", "\"\<Estimate and confidence limits\>\""}], ";", 
          RowBox[{"yRange", "=", "All"}]}], ",", "_", ",", 
         RowBox[{"Return", "[", 
@@ -3837,7 +3837,7 @@ score\>\""}], ",",
           RowBox[{"(", 
            RowBox[{
             RowBox[{"daiPairLabel", "@@", "#1"}], "&"}], ")"}], "/@", 
-          "pairs"}], ",", "\"\<Measure\>\""}], "]"}]}], ";", 
+          "pairs"}], ",", "\"\<measure\>\""}], "]"}]}], ";", 
       RowBox[{"rows", "=", 
        RowBox[{"Table", "[", 
         RowBox[{
@@ -3915,12 +3915,12 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Models\>\"", ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Parameter sampling standard uncertainty\>\"", 
-            ",", "\"\<Prevalence sampling standard uncertainty\>\"", 
-            ",", "\"\<Total sampling standard uncertainty\>\"", 
+           RowBox[{"\"\<distributions\>\"", ",", "\"\<point estimate\>\"", 
+            ",", "\"\<parameter sampling standard uncertainty\>\"", 
+            ",", "\"\<prevalence sampling standard uncertainty\>\"", 
+            ",", "\"\<total sampling standard uncertainty\>\"", 
             ",", "\"\<measurement standard uncertainty\>\"", 
-            ",", "\"\<Combined standard uncertainty\>\""}], "}"}]}], ";", 
+            ",", "\"\<combined standard uncertainty\>\""}], "}"}]}], ";", 
          RowBox[{"rows", "=", 
           RowBox[{"MapThread", "[", 
            RowBox[{
@@ -3936,12 +3936,12 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Models\>\"", ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Parameter relative standard uncertainty\>\"", 
-            ",", "\"\<Prevalence relative standard uncertainty\>\"", 
-            ",", "\"\<Sampling relative standard uncertainty\>\"", 
-            ",", "\"\<Measurement relative standard uncertainty\>\"", 
-            ",", "\"\<Combined relative standard uncertainty\>\""}], "}"}]}], 
+           RowBox[{"\"\<distributions\>\"", ",", "\"\<point estimate\>\"", 
+            ",", "\"\<parameter sampling relative standard uncertainty\>\"", 
+            ",", "\"\<prevalence sampling relative standard uncertainty\>\"", 
+            ",", "\"\<total sampling relative standard uncertainty\>\"", 
+            ",", "\"\<measurement relative standard uncertainty\>\"", 
+            ",", "\"\<combined relative standard uncertainty\>\""}], "}"}]}], 
          ";", 
          RowBox[{"rows", "=", 
           RowBox[{"MapThread", "[", 
@@ -3958,11 +3958,12 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Models\>\"", ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Combined standard uncertainty\>\"", 
-            ",", "\"\<Effective degrees of freedom\>\"", 
-            ",", "\"\<Coverage factor\>\"", ",", "\"\<Lower limit\>\"", 
-            ",", "\"\<Upper limit\>\""}], "}"}]}], ";", 
+           RowBox[{"\"\<distributions\>\"", ",", "\"\<point estimate\>\"", 
+            ",", "\"\<combined standard uncertainty\>\"", 
+            ",", "\"\<effective degrees of freedom\>\"", 
+            ",", "\"\<coverage factor\>\"", 
+            ",", "\"\<lower confidence limit\>\"", 
+            ",", "\"\<upper confidence limit\>\""}], "}"}]}], ";", 
          RowBox[{"rows", "=", 
           RowBox[{"MapThread", "[", 
            RowBox[{
@@ -4030,12 +4031,12 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Measure\>\"", ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Parameter sampling standard uncertainty\>\"", 
-            ",", "\"\<Prevalence sampling standard uncertainty\>\"", 
-            ",", "\"\<Total sampling standard uncertainty\>\"", 
+           RowBox[{"\"\<measure\>\"", ",", "\"\<point estimate\>\"", 
+            ",", "\"\<parameter sampling standard uncertainty\>\"", 
+            ",", "\"\<prevalence sampling standard uncertainty\>\"", 
+            ",", "\"\<total sampling standard uncertainty\>\"", 
             ",", "\"\<measurement standard uncertainty\>\"", 
-            ",", "\"\<Combined standard uncertainty\>\""}], "}"}]}], ";", 
+            ",", "\"\<combined standard uncertainty\>\""}], "}"}]}], ";", 
          RowBox[{"rows", "=", 
           RowBox[{
            RowBox[{"(", 
@@ -4050,12 +4051,12 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Measure\>\"", ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Parameter relative standard uncertainty\>\"", 
-            ",", "\"\<Prevalence relative standard uncertainty\>\"", 
-            ",", "\"\<Sampling relative standard uncertainty\>\"", 
-            ",", "\"\<Measurement relative standard uncertainty\>\"", 
-            ",", "\"\<Combined relative standard uncertainty\>\""}], "}"}]}], 
+           RowBox[{"\"\<measure\>\"", ",", "\"\<point estimate\>\"", 
+            ",", "\"\<parameter sampling relative standard uncertainty\>\"", 
+            ",", "\"\<prevalence sampling relative standard uncertainty\>\"", 
+            ",", "\"\<total sampling relative standard uncertainty\>\"", 
+            ",", "\"\<measurement relative standard uncertainty\>\"", 
+            ",", "\"\<combined relative standard uncertainty\>\""}], "}"}]}], 
          ";", 
          RowBox[{"rows", "=", 
           RowBox[{
@@ -4071,11 +4072,12 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Measure\>\"", ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Combined standard uncertainty\>\"", 
-            ",", "\"\<Effective degrees of freedom\>\"", 
-            ",", "\"\<Coverage factor\>\"", ",", "\"\<Lower limit\>\"", 
-            ",", "\"\<Upper limit\>\""}], "}"}]}], ";", 
+           RowBox[{"\"\<measure\>\"", ",", "\"\<point estimate\>\"", 
+            ",", "\"\<combined standard uncertainty\>\"", 
+            ",", "\"\<effective degrees of freedom\>\"", 
+            ",", "\"\<coverage factor\>\"", 
+            ",", "\"\<lower confidence limit\>\"", 
+            ",", "\"\<upper confidence limit\>\""}], "}"}]}], ";", 
          RowBox[{"rows", "=", 
           RowBox[{
            RowBox[{"(", 
@@ -4251,11 +4253,11 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Models\>\"", ",", "\"\<Optimal threshold\>\"", 
-            ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Total sampling standard uncertainty\>\"", 
+           RowBox[{"\"\<distributions\>\"", ",", "\"\<optimal threshold\>\"", 
+            ",", "\"\<point estimate\>\"", 
+            ",", "\"\<sampling standard uncertainty\>\"", 
             ",", "\"\<measurement standard uncertainty\>\"", 
-            ",", "\"\<Combined standard uncertainty\>\""}], "}"}]}], ";", 
+            ",", "\"\<combined standard uncertainty\>\""}], "}"}]}], ";", 
          RowBox[{"rows", "=", 
           RowBox[{"MapThread", "[", 
            RowBox[{
@@ -4292,8 +4294,8 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Models\>\"", ",", "\"\<Optimal threshold\>\"", 
-            ",", "\"\<Estimate\>\"", 
+           RowBox[{"\"\<distributions\>\"", ",", "\"\<optimal threshold\>\"", 
+            ",", "\"\<point estimate\>\"", 
             ",", "\"\<Combined relative standard uncertainty\>\""}], "}"}]}], 
          ";", 
          RowBox[{"rows", "=", 
@@ -4326,11 +4328,11 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Models\>\"", ",", "\"\<Optimal threshold\>\"", 
-            ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Combined standard uncertainty\>\"", 
-            ",", "\"\<Lower limit\>\"", ",", "\"\<Upper limit\>\""}], "}"}]}],
-          ";", 
+           RowBox[{"\"\<distributions\>\"", ",", "\"\<optimal threshold\>\"", 
+            ",", "\"\<point estimate\>\"", 
+            ",", "\"\<combined standard uncertainty\>\"", 
+            ",", "\"\<lower confidence limit\>\"", 
+            ",", "\"\<upper confidence limit\>\""}], "}"}]}], ";", 
          RowBox[{"rows", "=", 
           RowBox[{"MapThread", "[", 
            RowBox[{
@@ -4412,11 +4414,11 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Measure\>\"", ",", "\"\<Optimal threshold\>\"", 
-            ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Total sampling standard uncertainty\>\"", 
+           RowBox[{"\"\<measure\>\"", ",", "\"\<optimal threshold\>\"", 
+            ",", "\"\<point estimate\>\"", 
+            ",", "\"\<sampling standard uncertainty\>\"", 
             ",", "\"\<measurement standard uncertainty\>\"", 
-            ",", "\"\<Combined standard uncertainty\>\""}], "}"}]}], ";", 
+            ",", "\"\<combined standard uncertainty\>\""}], "}"}]}], ";", 
          RowBox[{"rows", "=", 
           RowBox[{"Table", "[", 
            RowBox[{
@@ -4458,9 +4460,9 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Measure\>\"", ",", "\"\<Optimal threshold\>\"", 
-            ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Combined relative standard uncertainty\>\""}], "}"}]}], 
+           RowBox[{"\"\<measure\>\"", ",", "\"\<optimal threshold\>\"", 
+            ",", "\"\<point estimate\>\"", 
+            ",", "\"\<combined relative standard uncertainty\>\""}], "}"}]}], 
          ";", 
          RowBox[{"rows", "=", 
           RowBox[{"Table", "[", 
@@ -4496,11 +4498,11 @@ score\>\""}], ",",
          RowBox[{"header", "=", 
           RowBox[{"{", 
            
-           RowBox[{"\"\<Measure\>\"", ",", "\"\<Optimal threshold\>\"", 
-            ",", "\"\<Estimate\>\"", 
-            ",", "\"\<Combined standard uncertainty\>\"", 
-            ",", "\"\<Lower limit\>\"", ",", "\"\<Upper limit\>\""}], "}"}]}],
-          ";", 
+           RowBox[{"\"\<measure\>\"", ",", "\"\<optimal threshold\>\"", 
+            ",", "\"\<point estimate\>\"", 
+            ",", "\"\<combined standard uncertainty\>\"", 
+            ",", "\"\<lower confidence limit\>\"", 
+            ",", "\"\<upper confidence limit\>\""}], "}"}]}], ";", 
          RowBox[{"rows", "=", 
           RowBox[{"Table", "[", 
            RowBox[{
@@ -5387,6 +5389,7 @@ score\>\""}], ",",
           
           RowBox[{"\"\<MeasurementStandardUncertainty\>\"", "\[Rule]", 
            "measurementStandardUncertainty"}], ",", 
+          
           RowBox[{"\"\<TotalStandardUncertainty\>\"", "\[Rule]", 
            "totalStandardUncertainty"}], ",", 
           RowBox[{"\"\<RelativeStandardUncertainty\>\"", "\[Rule]", 
@@ -5639,7 +5642,7 @@ threshold\>\""}]}], "]"}]}], "]"}]}]}], "]"}]}], ";",
       RowBox[{"measureRange", "=", 
        RowBox[{"dauMeasureRange", "[", 
         RowBox[{"Lookup", "[", 
-         RowBox[{"result", ",", "\"\<Measure\>\"", ",", "measure"}], "]"}], 
+         RowBox[{"result", ",", "\"\<measure\>\"", ",", "measure"}], "]"}], 
         "]"}]}], ";", 
       RowBox[{"confidenceInterval", "=", 
        RowBox[{"dauConstrainInterval", "[", 
@@ -6284,84 +6287,85 @@ StyleBox[\\\"MCC\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\""}],
    RowBox[{"Switch", "[", 
     RowBox[{
     "dm", ",", "\"\<sns\>\"", 
-     ",", "\"\<combined standard uncertainty of sensitivity \
+     ",", "\"\<standard uncertainty of sensitivity \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"Se\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", 
      ",", "\"\<spc\>\"", 
-     ",", "\"\<combined standard uncertainty of specificity \
+     ",", "\"\<standard uncertainty of specificity \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"Sp\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", 
      ",", "\"\<oda\>\"", 
-     ",", "\"\<combined standard uncertainty of overall diagnostic accuracy \
+     ",", "\"\<standard uncertainty of overall diagnostic accuracy \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"ACC\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", 
      ",", "\"\<ppv\>\"", 
-     ",", "\"\<combined standard uncertainty of positive predictive value \\!\
-\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\"Italic\\\"], \
-StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"PPV\
-\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", ",", "\"\<npv\>\"", 
-     ",", "\"\<combined standard uncertainty of negative predictive value \\!\
-\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\"Italic\\\"], \
-StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"NPV\
-\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", ",", "\"\<dor\>\"", 
-     ",", "\"\<combined standard uncertainty of diagnostic odds ratio \
+     ",", "\"\<standard uncertainty of positive predictive value \
+\\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
+StyleBox[\\\"PPV\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", 
+     ",", "\"\<npv\>\"", 
+     ",", "\"\<standard uncertainty of negative predictive value \
+\\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
+StyleBox[\\\"NPV\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", 
+     ",", "\"\<dor\>\"", 
+     ",", "\"\<standard uncertainty of diagnostic odds ratio \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"DOR\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", 
      ",", "\"\<plr\>\"", 
-     ",", "\"\<combined standard uncertainty of positive likelihood ratio \\!\
-\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\"Italic\\\"], \
-StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
+     ",", "\"\<standard uncertainty of positive likelihood ratio \
+\\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 SuperscriptBox[StyleBox[\\\"LR\\\", FontSlant -> \\\"Plain\\\"], \\\"+\\\"], \
 \\\")\\\"}]\\)\>\"", ",", "\"\<nlr\>\"", 
-     ",", "\"\<combined standard uncertainty of negative likelihood ratio \\!\
-\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\"Italic\\\"], \
-StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
+     ",", "\"\<standard uncertainty of negative likelihood ratio \
+\\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 SuperscriptBox[StyleBox[\\\"LR\\\", FontSlant -> \\\"Plain\\\"], \\\"\[Minus]\
 \\\"], \\\")\\\"}]\\)\>\"", ",", "\"\<js\>\"", 
-     ",", "\"\<combined standard uncertainty of Youden\[CloseCurlyQuote]s \
-index \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
-\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
-StyleBox[\\\"J\\\", FontSlant -> \\\"Italic\\\"], \\\")\\\"}]\\)\>\"", 
-     ",", "\"\<ba\>\"", 
-     ",", "\"\<combined standard uncertainty of balanced accuracy \
+     ",", "\"\<standard uncertainty of Youden\[CloseCurlyQuote]s index \\!\\(\
+\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\"Italic\\\"], \
+StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"J\\\
+\", FontSlant -> \\\"Italic\\\"], \\\")\\\"}]\\)\>\"", ",", "\"\<ba\>\"", 
+     ",", "\"\<standard uncertainty of balanced accuracy \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"BA\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", 
      ",", "\"\<cz\>\"", 
-     ",", "\"\<combined standard uncertainty of concordance probability \
+     ",", "\"\<standard uncertainty of concordance probability \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"CZ\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", 
      ",", "\"\<fmi\>\"", 
-     ",", "\"\<combined standard uncertainty of Fowlkes\[Dash]Mallows index \
+     ",", "\"\<standard uncertainty of Fowlkes\[Dash]Mallows index \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"FMI\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", 
      ",", "\"\<ck\>\"", 
-     ",", "\"\<combined standard uncertainty of Cohen\[CloseCurlyQuote]s \
-kappa \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+     ",", "\"\<standard uncertainty of Cohen\[CloseCurlyQuote]s kappa \
+\\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"\[Kappa]\\\", FontSlant -> \\\"Italic\\\"], \\\")\\\"}]\\)\>\"", 
      ",", "\"\<pabak\>\"", 
-     ",", "\"\<combined standard uncertainty of prevalence\[Hyphen] and bias\
-\[Hyphen]adjusted kappa \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \
+     ",", "\"\<standard uncertainty of prevalence\[Hyphen] and \
+bias\[Hyphen]adjusted kappa \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \
 FontSlant -> \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \
 \\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"PABAK\\\", FontSlant -> \
 \\\"Plain\\\"], \\\")\\\"}]\\)\>\"", ",", "\"\<f1s\>\"", 
-     ",", "\"\<combined standard uncertainty of \
-\\!\\(\\*SubscriptBox[StyleBox[\\\"F\\\", FontSlant -> \\\"Italic\\\"], \
-StyleBox[\\\"1\\\", FontSlant -> \\\"Plain\\\"]]\\) score \
+     ",", "\"\<standard uncertainty of \\!\\(\\*SubscriptBox[StyleBox[\\\"F\\\
+\", FontSlant -> \\\"Italic\\\"], StyleBox[\\\"1\\\", FontSlant -> \
+\\\"Plain\\\"]]\\) score \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \
+FontSlant -> \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \
+\\\"Plain\\\"]], \\\"(\\\", SubscriptBox[StyleBox[\\\"F\\\", FontSlant -> \
+\\\"Italic\\\"], StyleBox[\\\"1\\\", FontSlant -> \\\"Plain\\\"]], \
+\\\")\\\"}]\\)\>\"", ",", "\"\<mcc\>\"", 
+     ",", "\"\<standard uncertainty of Matthews correlation coefficient \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
-SubscriptBox[StyleBox[\\\"F\\\", FontSlant -> \\\"Italic\\\"], StyleBox[\\\"1\
-\\\", FontSlant -> \\\"Plain\\\"]], \\\")\\\"}]\\)\>\"", ",", "\"\<mcc\>\"", 
-     ",", "\"\<combined standard uncertainty of Matthews correlation \
-coefficient \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\
-\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"MCC\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\""}], 
     "]"}]}], ";", 
   RowBox[{
@@ -6369,131 +6373,127 @@ StyleBox[\\\"MCC\\\", FontSlant -> \\\"Plain\\\"], \\\")\\\"}]\\)\>\""}],
    RowBox[{"Switch", "[", 
     RowBox[{
     "dm", ",", "\"\<sns\>\"", 
-     ",", "\"\<combined standard uncertainty of sensitivity\>\"", 
-     ",", "\"\<spc\>\"", 
-     ",", "\"\<combined standard uncertainty of specificity\>\"", 
-     ",", "\"\<oda\>\"", 
-     ",", "\"\<combined standard uncertainty of overall diagnostic accuracy\>\
-\"", ",", "\"\<ppv\>\"", 
-     ",", "\"\<combined standard uncertainty of positive predictive value\>\"",
-      ",", "\"\<npv\>\"", 
-     ",", "\"\<combined standard uncertainty of negative predictive value\>\"",
-      ",", "\"\<dor\>\"", 
-     ",", "\"\<combined standard uncertainty of diagnostic odds ratio\>\"", 
+     ",", "\"\<standard uncertainty of sensitivity\>\"", ",", "\"\<spc\>\"", 
+     ",", "\"\<standard uncertainty of specificity\>\"", ",", "\"\<oda\>\"", 
+     ",", "\"\<standard uncertainty of overall diagnostic accuracy\>\"", 
+     ",", "\"\<ppv\>\"", 
+     ",", "\"\<standard uncertainty of positive predictive value\>\"", 
+     ",", "\"\<npv\>\"", 
+     ",", "\"\<standard uncertainty of negative predictive value\>\"", 
+     ",", "\"\<dor\>\"", 
+     ",", "\"\<standard uncertainty of diagnostic odds ratio\>\"", 
      ",", "\"\<plr\>\"", 
-     ",", "\"\<combined standard uncertainty of positive likelihood ratio\>\"",
-      ",", "\"\<nlr\>\"", 
-     ",", "\"\<combined standard uncertainty of negative likelihood ratio\>\"",
-      ",", "\"\<js\>\"", 
-     ",", "\"\<combined standard uncertainty of Youden\[CloseCurlyQuote]s \
-index\>\"", ",", "\"\<ba\>\"", 
-     ",", "\"\<combined standard uncertainty of balanced accuracy\>\"", 
+     ",", "\"\<standard uncertainty of positive likelihood ratio\>\"", 
+     ",", "\"\<nlr\>\"", 
+     ",", "\"\<standard uncertainty of negative likelihood ratio\>\"", 
+     ",", "\"\<js\>\"", 
+     ",", "\"\<standard uncertainty of Youden\[CloseCurlyQuote]s index\>\"", 
+     ",", "\"\<ba\>\"", 
+     ",", "\"\<standard uncertainty of balanced accuracy\>\"", 
      ",", "\"\<cz\>\"", 
-     ",", "\"\<combined standard uncertainty of concordance probability\>\"", 
+     ",", "\"\<standard uncertainty of concordance probability\>\"", 
      ",", "\"\<fmi\>\"", 
-     ",", "\"\<combined standard uncertainty of Fowlkes\[Dash]Mallows index\>\
-\"", ",", "\"\<ck\>\"", 
-     ",", "\"\<combined standard uncertainty of Cohen\[CloseCurlyQuote]s \
-kappa\>\"", ",", "\"\<pabak\>\"", 
-     ",", "\"\<combined standard uncertainty of prevalence\[Hyphen] and bias\
-\[Hyphen]adjusted kappa\>\"", ",", "\"\<f1s\>\"", 
-     ",", "\"\<combined standard uncertainty of \
-\\!\\(\\*SubscriptBox[StyleBox[\\\"F\\\", FontSlant -> \\\"Italic\\\"], \
-StyleBox[\\\"1\\\", FontSlant -> \\\"Plain\\\"]]\\) score\>\"", 
-     ",", "\"\<mcc\>\"", 
-     ",", "\"\<combined standard uncertainty of Matthews correlation \
+     ",", "\"\<standard uncertainty of Fowlkes\[Dash]Mallows index\>\"", 
+     ",", "\"\<ck\>\"", 
+     ",", "\"\<standard uncertainty of Cohen\[CloseCurlyQuote]s kappa\>\"", 
+     ",", "\"\<pabak\>\"", 
+     ",", "\"\<standard uncertainty of prevalence\[Hyphen] and \
+bias\[Hyphen]adjusted kappa\>\"", ",", "\"\<f1s\>\"", 
+     ",", "\"\<standard uncertainty of \\!\\(\\*SubscriptBox[StyleBox[\\\"F\\\
+\", FontSlant -> \\\"Italic\\\"], StyleBox[\\\"1\\\", FontSlant -> \
+\\\"Plain\\\"]]\\) score\>\"", ",", "\"\<mcc\>\"", 
+     ",", "\"\<standard uncertainty of Matthews correlation \
 coefficient\>\""}], "]"}]}], ";", 
   RowBox[{
    RowBox[{"lrutxt", "[", "dm_", "]"}], ":=", 
    RowBox[{"Switch", "[", 
     RowBox[{
     "dm", ",", "\"\<sns\>\"", 
-     ",", "\"\<relative combined standard uncertainty of sensitivity \
+     ",", "\"\<relative standard uncertainty of sensitivity \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"Se\\\", FontSlant -> \\\"Plain\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"Se\\\", FontSlant -> \\\"Plain\\\"]\\)|\
 \>\"", ",", "\"\<spc\>\"", 
-     ",", "\"\<relative combined standard uncertainty of specificity \
+     ",", "\"\<relative standard uncertainty of specificity \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"Sp\\\", FontSlant -> \\\"Plain\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"Sp\\\", FontSlant -> \\\"Plain\\\"]\\)|\
 \>\"", ",", "\"\<oda\>\"", 
-     ",", "\"\<relative combined standard uncertainty of overall diagnostic \
-accuracy \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+     ",", "\"\<relative standard uncertainty of overall diagnostic accuracy \
+\\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"ACC\\\", FontSlant -> \\\"Plain\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"ACC\\\", FontSlant -> \
 \\\"Plain\\\"]\\)|\>\"", ",", "\"\<ppv\>\"", 
-     ",", "\"\<relative combined standard uncertainty of positive predictive \
-value \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
-\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
-StyleBox[\\\"PPV\\\", FontSlant -> \\\"Plain\\\"], \
+     ",", "\"\<relative standard uncertainty of positive predictive value \\!\
+\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\"Italic\\\"], \
+StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"PPV\
+\\\", FontSlant -> \\\"Plain\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"PPV\\\", FontSlant -> \
 \\\"Plain\\\"]\\)|\>\"", ",", "\"\<npv\>\"", 
-     ",", "\"\<relative combined standard uncertainty of negative predictive \
-value \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
-\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
-StyleBox[\\\"NPV\\\", FontSlant -> \\\"Plain\\\"], \
+     ",", "\"\<relative standard uncertainty of negative predictive value \\!\
+\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\"Italic\\\"], \
+StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"NPV\
+\\\", FontSlant -> \\\"Plain\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"NPV\\\", FontSlant -> \
 \\\"Plain\\\"]\\)|\>\"", ",", "\"\<dor\>\"", 
-     ",", "\"\<relative combined standard uncertainty of diagnostic odds \
-ratio \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+     ",", "\"\<relative standard uncertainty of diagnostic odds ratio \
+\\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"DOR\\\", FontSlant -> \\\"Plain\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"DOR\\\", FontSlant -> \
 \\\"Plain\\\"]\\)|\>\"", ",", "\"\<plr\>\"", 
-     ",", "\"\<relative combined standard uncertainty of positive likelihood \
-ratio \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
-\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
+     ",", "\"\<relative standard uncertainty of positive likelihood ratio \\!\
+\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\"Italic\\\"], \
+StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 SuperscriptBox[StyleBox[\\\"LR\\\", FontSlant -> \\\"Plain\\\"], \\\"+\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*SuperscriptBox[StyleBox[\\\"LR\\\", FontSlant -> \
 \\\"Plain\\\"], \\\"+\\\"]\\)|\>\"", ",", "\"\<nlr\>\"", 
-     ",", "\"\<relative combined standard uncertainty of negative likelihood \
-ratio \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
-\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
+     ",", "\"\<relative standard uncertainty of negative likelihood ratio \\!\
+\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\"Italic\\\"], \
+StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 SuperscriptBox[StyleBox[\\\"LR\\\", FontSlant -> \\\"Plain\\\"], \\\"\[Minus]\
 \\\"], \\\")\\\"}]\\)/|\\!\\(\\*SuperscriptBox[StyleBox[\\\"LR\\\", FontSlant \
 -> \\\"Plain\\\"], \\\"\[Minus]\\\"]\\)|\>\"", ",", "\"\<js\>\"", 
-     ",", "\"\<relative combined standard uncertainty of Youden\
-\[CloseCurlyQuote]s index \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \
-FontSlant -> \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \
-\\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"J\\\", FontSlant -> \\\"Italic\\\"], \
+     ",", "\"\<relative standard uncertainty of Youden\[CloseCurlyQuote]s \
+index \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
+StyleBox[\\\"J\\\", FontSlant -> \\\"Italic\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"J\\\", FontSlant -> \\\"Italic\\\"]\\)|\
 \>\"", ",", "\"\<ba\>\"", 
-     ",", "\"\<relative combined standard uncertainty of balanced accuracy \
+     ",", "\"\<relative standard uncertainty of balanced accuracy \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"BA\\\", FontSlant -> \\\"Plain\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"BA\\\", FontSlant -> \\\"Plain\\\"]\\)|\
 \>\"", ",", "\"\<cz\>\"", 
-     ",", "\"\<relative combined standard uncertainty of concordance \
-probability \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\
-\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
+     ",", "\"\<relative standard uncertainty of concordance probability \
+\\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"CZ\\\", FontSlant -> \\\"Plain\\\"], \
 \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"CZ\\\", FontSlant -> \\\"Plain\\\"]\\)|\
 \>\"", ",", "\"\<fmi\>\"", 
-     ",", "\"\<relative combined standard uncertainty of \
-Fowlkes\[Dash]Mallows index \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \
-FontSlant -> \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \
-\\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"FMI\\\", FontSlant -> \
-\\\"Plain\\\"], \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"FMI\\\", FontSlant -> \
-\\\"Plain\\\"]\\)|\>\"", ",", "\"\<ck\>\"", 
-     ",", "\"\<relative combined standard uncertainty of Cohen\
-\[CloseCurlyQuote]s kappa \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \
-FontSlant -> \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \
-\\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"\[Kappa]\\\", FontSlant -> \
-\\\"Italic\\\"], \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"\[Kappa]\\\", \
-FontSlant -> \\\"Italic\\\"]\\)|\>\"", ",", "\"\<pabak\>\"", 
-     ",", "\"\<relative combined standard uncertainty of prevalence\[Hyphen] \
-and bias\[Hyphen]adjusted kappa \
+     ",", "\"\<relative standard uncertainty of Fowlkes\[Dash]Mallows index \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
-StyleBox[\\\"PABAK\\\", FontSlant -> \\\"Plain\\\"], \
-\\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"PABAK\\\", FontSlant -> \
+StyleBox[\\\"FMI\\\", FontSlant -> \\\"Plain\\\"], \
+\\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"FMI\\\", FontSlant -> \
+\\\"Plain\\\"]\\)|\>\"", ",", "\"\<ck\>\"", 
+     ",", "\"\<relative standard uncertainty of Cohen\[CloseCurlyQuote]s \
+kappa \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
+\\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
+StyleBox[\\\"\[Kappa]\\\", FontSlant -> \\\"Italic\\\"], \
+\\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"\[Kappa]\\\", FontSlant -> \\\"Italic\\\
+\"]\\)|\>\"", ",", "\"\<pabak\>\"", 
+     ",", "\"\<relative standard uncertainty of prevalence\[Hyphen] and bias\
+\[Hyphen]adjusted kappa \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \
+FontSlant -> \\\"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \
+\\\"Plain\\\"]], \\\"(\\\", StyleBox[\\\"PABAK\\\", FontSlant -> \
+\\\"Plain\\\"], \\\")\\\"}]\\)/|\\!\\(\\*StyleBox[\\\"PABAK\\\", FontSlant -> \
 \\\"Plain\\\"]\\)|\>\"", ",", "\"\<f1s\>\"", 
-     ",", "\"\<relative combined standard uncertainty of \
+     ",", "\"\<relative standard uncertainty of \
 \\!\\(\\*SubscriptBox[StyleBox[\\\"F\\\", FontSlant -> \\\"Italic\\\"], \
 StyleBox[\\\"1\\\", FontSlant -> \\\"Plain\\\"]]\\) score \
 \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \
@@ -6503,7 +6503,7 @@ SubscriptBox[StyleBox[\\\"F\\\", FontSlant -> \\\"Italic\\\"], StyleBox[\\\"1\
 \\\")\\\"}]\\)/|\\!\\(\\*SubscriptBox[StyleBox[\\\"F\\\", FontSlant -> \
 \\\"Italic\\\"], StyleBox[\\\"1\\\", FontSlant -> \\\"Plain\\\"]]\\)|\>\"", 
      ",", "\"\<mcc\>\"", 
-     ",", "\"\<relative combined standard uncertainty of Matthews correlation \
+     ",", "\"\<relative standard uncertainty of Matthews correlation \
 coefficient \\!\\(\\*RowBox[{SubscriptBox[StyleBox[\\\"u\\\", FontSlant -> \\\
 \"Italic\\\"], StyleBox[\\\"c\\\", FontSlant -> \\\"Plain\\\"]], \\\"(\\\", \
 StyleBox[\\\"MCC\\\", FontSlant -> \\\"Plain\\\"], \
@@ -6514,39 +6514,39 @@ StyleBox[\\\"MCC\\\", FontSlant -> \\\"Plain\\\"], \
    RowBox[{"Switch", "[", 
     RowBox[{
     "dm", ",", "\"\<sns\>\"", 
-     ",", "\"\<relative combined standard uncertainty of sensitivity\>\"", 
+     ",", "\"\<relative standard uncertainty of sensitivity\>\"", 
      ",", "\"\<spc\>\"", 
-     ",", "\"\<relative combined standard uncertainty of specificity\>\"", 
+     ",", "\"\<relative standard uncertainty of specificity\>\"", 
      ",", "\"\<oda\>\"", 
-     ",", "\"\<relative combined standard uncertainty of overall diagnostic \
-accuracy\>\"", ",", "\"\<ppv\>\"", 
-     ",", "\"\<relative combined standard uncertainty of positive predictive \
-value\>\"", ",", "\"\<npv\>\"", 
-     ",", "\"\<relative combined standard uncertainty of negative predictive \
-value\>\"", ",", "\"\<dor\>\"", 
-     ",", "\"\<relative combined standard uncertainty of diagnostic odds \
-ratio\>\"", ",", "\"\<plr\>\"", 
-     ",", "\"\<relative combined standard uncertainty of positive likelihood \
-ratio\>\"", ",", "\"\<nlr\>\"", 
-     ",", "\"\<relative combined standard uncertainty of negative likelihood \
-ratio\>\"", ",", "\"\<js\>\"", 
-     ",", "\"\<relative combined standard uncertainty of Youden\
-\[CloseCurlyQuote]s index\>\"", ",", "\"\<ba\>\"", 
-     ",", "\"\<relative combined standard uncertainty of balanced \
-accuracy\>\"", ",", "\"\<cz\>\"", 
-     ",", "\"\<relative combined standard uncertainty of concordance \
-probability\>\"", ",", "\"\<fmi\>\"", 
-     ",", "\"\<relative combined standard uncertainty of \
-Fowlkes\[Dash]Mallows index\>\"", ",", "\"\<ck\>\"", 
-     ",", "\"\<relative combined standard uncertainty of Cohen\
-\[CloseCurlyQuote]s kappa\>\"", ",", "\"\<pabak\>\"", 
-     ",", "\"\<relative combined standard uncertainty of prevalence\[Hyphen] \
-and bias\[Hyphen]adjusted kappa\>\"", ",", "\"\<f1s\>\"", 
-     ",", "\"\<relative combined standard uncertainty of \
+     ",", "\"\<relative standard uncertainty of overall diagnostic accuracy\>\
+\"", ",", "\"\<ppv\>\"", 
+     ",", "\"\<relative standard uncertainty of positive predictive value\>\"",
+      ",", "\"\<npv\>\"", 
+     ",", "\"\<relative standard uncertainty of negative predictive value\>\"",
+      ",", "\"\<dor\>\"", 
+     ",", "\"\<relative standard uncertainty of diagnostic odds ratio\>\"", 
+     ",", "\"\<plr\>\"", 
+     ",", "\"\<relative standard uncertainty of positive likelihood ratio\>\"",
+      ",", "\"\<nlr\>\"", 
+     ",", "\"\<relative standard uncertainty of negative likelihood ratio\>\"",
+      ",", "\"\<js\>\"", 
+     ",", "\"\<relative standard uncertainty of Youden\[CloseCurlyQuote]s \
+index\>\"", ",", "\"\<ba\>\"", 
+     ",", "\"\<relative standard uncertainty of balanced accuracy\>\"", 
+     ",", "\"\<cz\>\"", 
+     ",", "\"\<relative standard uncertainty of concordance probability\>\"", 
+     ",", "\"\<fmi\>\"", 
+     ",", "\"\<relative standard uncertainty of Fowlkes\[Dash]Mallows index\>\
+\"", ",", "\"\<ck\>\"", 
+     ",", "\"\<relative standard uncertainty of Cohen\[CloseCurlyQuote]s \
+kappa\>\"", ",", "\"\<pabak\>\"", 
+     ",", "\"\<relative standard uncertainty of prevalence\[Hyphen] and bias\
+\[Hyphen]adjusted kappa\>\"", ",", "\"\<f1s\>\"", 
+     ",", "\"\<relative standard uncertainty of \
 \\!\\(\\*SubscriptBox[StyleBox[\\\"F\\\", FontSlant -> \\\"Italic\\\"], \
 StyleBox[\\\"1\\\", FontSlant -> \\\"Plain\\\"]]\\) score\>\"", 
      ",", "\"\<mcc\>\"", 
-     ",", "\"\<relative combined standard uncertainty of Matthews correlation \
+     ",", "\"\<relative standard uncertainty of Matthews correlation \
 coefficient\>\""}], "]"}]}], ";", 
   RowBox[{
    RowBox[{"dtxt", "[", "dm_", "]"}], ":=", 
@@ -17449,9 +17449,9 @@ constant \\!\\(\\*SubscriptBox[StyleBox[\\\"b\\\",FontSlant->\\\"Italic\\\"], \
                     RowBox[{
                     "tpabak", ",", " ", "p", ",", " ", "nD", ",", " ", "nH", ",",
                      " ", "\[Mu]D", ",", " ", "\[Mu]H", ",", " ", "\[Sigma]D",
-                     ",", " ", "\[Sigma]H", ",", " ", "nU", ",", " ", "b0", ",", \
-" ", "b1", ",", " ", "nl", ",", " ", "\"\<pabak\>\"", ",", " ", "dD", ",", 
-                    " ", "dH"}], "]"}], "[", 
+                     ",", " ", "\[Sigma]H", ",", " ", "nU", ",", " ", "b0", ",",
+                     " ", "b1", ",", " ", "nl", ",", " ", "\"\<pabak\>\"", ",",
+                     " ", "dD", ",", " ", "dH"}], "]"}], "[", 
                    RowBox[{"[", "2", "]"}], "]"}], "]"}], ",", " ", 
                  RowBox[{"{", 
                   RowBox[{
@@ -18864,7 +18864,7 @@ constant \\!\\(\\*SubscriptBox[StyleBox[\\\"b\\\",FontSlant->\\\"Italic\\\"], \
              RowBox[{"{", 
               RowBox[{
               "SpanFromLeft", ",", " ", "SpanFromLeft", ",", 
-               " ", "\"\<standard uncertainty\>\"", ",", 
+               " ", "\"\<relative standard uncertainty\>\"", ",", 
                " ", "\"\<combined\>\"", ",", " ", 
                RowBox[{"NumberForm", "[", 
                 RowBox[{
@@ -19971,7 +19971,22 @@ constant \\!\\(\\*SubscriptBox[StyleBox[\\\"b\\\",FontSlant->\\\"Italic\\\"], \
    3.997268500756235*^9, 3.997268661882166*^9}, {3.9972687040559673`*^9, 
    3.9972687145775967`*^9}, {3.9972687520246468`*^9, 
    3.9972687803494377`*^9}, {3.997268810384329*^9, 3.9972688861377563`*^9}, 
-   3.998516607554289*^9, {3.9986562304261208`*^9, 3.9986562419953938`*^9}},
+   3.998516607554289*^9, {3.9986562304261208`*^9, 3.9986562419953938`*^9}, 
+   3.9986958684491863`*^9, {3.9986959241132565`*^9, 3.9986959394813232`*^9}, {
+   3.998696071961941*^9, 3.998696092467533*^9}, {3.998704360972782*^9, 
+   3.998704383444441*^9}, {3.9987044497481384`*^9, 3.998704479360012*^9}, 
+   3.9987045423303566`*^9, {3.998704581719364*^9, 3.9987045983166695`*^9}, {
+   3.9987046504997196`*^9, 3.998704689559366*^9}, {3.9987062370348454`*^9, 
+   3.9987062664788647`*^9}, 3.998706302146021*^9, 3.9987063325343094`*^9, 
+   3.998706369972973*^9, {3.9987064169931736`*^9, 3.9987064432820168`*^9}, {
+   3.9987064820799217`*^9, 3.998706524330475*^9}, {3.9987065995953083`*^9, 
+   3.9987066159006233`*^9}, {3.998706653242836*^9, 3.9987067733976955`*^9}, {
+   3.998706845069826*^9, 3.9987068576792336`*^9}, {3.9987068877109547`*^9, 
+   3.9987069623983593`*^9}, {3.9987070133137836`*^9, 3.998707016360203*^9}, {
+   3.998707224680708*^9, 3.99870723095298*^9}, 3.9987077656389217`*^9, {
+   3.9987339022826195`*^9, 3.9987339256591396`*^9}, 3.9987339636308327`*^9, 
+   3.998733999557659*^9, 3.998801484437336*^9, {3.9988022696843147`*^9, 
+   3.9988022765931454`*^9}},
  CellTags->{"EmbeddedDefinitions", "InteractiveDefinitions"},
  CellLabel->"In[3]:=",ExpressionUUID->"105f1896-c870-0348-868d-3733541d06dc"],
 
@@ -26576,7 +26591,7 @@ SuperscriptBox[StyleBox[\\\"t\\\",FontSlant->\\\"Italic\\\"], \\\"2\\\"]}]}]]\
              RowBox[{"ImageSize", "\[Rule]", "Automatic"}]}], "]"}]}], ",", 
           "\[IndentingNewLine]", 
           
-          RowBox[{"\"\<optimal threshold\>\"", "\[Rule]", 
+          RowBox[{"\"\<optimal thresholds\>\"", "\[Rule]", 
            "\[IndentingNewLine]", 
            RowBox[{"TabView", "[", 
             RowBox[{
@@ -27758,7 +27773,8 @@ SuperscriptBox[StyleBox[\\\"t\\\",FontSlant->\\\"Italic\\\"], \\\"2\\\"]}]}]]\
  Editable->False,
  Evaluatable->True,
  CellOpen->False,
- CellChangeTimes->{{3.9986477594010105`*^9, 3.9986477674295464`*^9}},
+ CellChangeTimes->{{3.9986477594010105`*^9, 3.9986477674295464`*^9}, 
+   3.998696469130724*^9},
  CellTags->{"InteractiveExplorer", "ThirtyOneViews"},
  CellLabel->"In[4]:=",ExpressionUUID->"28853048-7b85-f14d-a573-7f618c39c940"],
 
@@ -27845,8 +27861,8 @@ FontSlant -> \"Plain\"]\))"}, ControlType -> PopupMenu}, {
           Hold[$CellContext`dH$$], "lognormal", "measurement distribution"}, {
          "normal" -> "normal", "lognormal" -> "lognormal", "gamma" -> 
           "gamma"}, ControlType -> SetterBar}}, Typeset`size$$ = {
-       450., {141.07622742181428`, 157.00567078118928`}}, Typeset`update$$ = 
-       0, Typeset`initDone$$, Typeset`skipInitDone$$ = True, 
+       600., {187.8469925238458, 209.08625058268063`}}, Typeset`update$$ = 0, 
+       Typeset`initDone$$, Typeset`skipInitDone$$ = True, 
        Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
        DynamicBox[Manipulate`ManipulateBoxes[
         1, StandardForm, 
@@ -27939,7 +27955,7 @@ FontSlant -> \"Plain\"]\))"}, ControlPlacement -> Left}, Delimiter,
            AutorunSequencing -> All, ControlPlacement -> Left, Alignment -> 
            Center}, "DefaultOptions" :> {}],
         ImageSizeCache->{
-         750.3781640625, {167.29960388665802`, 171.59855408197052`}},
+         988.254214696884, {222.5614944950152, 228.29342829901128`}},
         SingleEvaluation->True],
        Deinitialization:>None,
        DynamicModuleValues:>{},
@@ -33792,7 +33808,7 @@ RowBox[{SubsuperscriptBox[StyleBox[\"b\",FontSlant->\"Italic\"], \"1\", \
        StripOnInput->False],
       Manipulate`InterpretManipulate[1]]}}, 1,
      ImageSize->Automatic]}}, 1,
-    ImageSize->Automatic]}, {3,"\<\"optimal threshold\"\>"->
+    ImageSize->Automatic]}, {3,"\<\"optimal thresholds\"\>"->
    TabViewBox[{{1,"\<\"all distributions\"\>"->
     TabViewBox[{{1,"\<\"standard uncertainty\"\>"->
      TagBox[
@@ -34874,9 +34890,12 @@ RowBox[{SubsuperscriptBox[StyleBox[\"b\",FontSlant->\"Italic\"], \"1\", \
  CellChangeTimes->{3.9955139982476597`*^9, 3.9955166503039074`*^9, 
   3.995534504584633*^9, 3.9972186086142597`*^9, 3.9973040714236794`*^9, 
   3.99799504534198*^9, 3.9980403309097137`*^9, 3.9985166809642925`*^9, 
-  3.9986542367481537`*^9, 3.9986565871367702`*^9},
+  3.9986542367481537`*^9, 3.9986565871367702`*^9, 3.998695798438711*^9, 
+  3.9986961996306763`*^9, 3.9986964947786293`*^9, 3.9987047056406536`*^9, 
+  3.9987070614309464`*^9, 3.998707444325878*^9, 3.998707794767376*^9, 
+  3.998734056654644*^9, 3.9988018268077393`*^9, 3.9988025189185257`*^9},
  CellTags->{"InteractiveExplorer", "ThirtyOneViews"},
- CellLabel->"Out[4]=",ExpressionUUID->"01dde072-3e8e-934b-9a5a-826953cc99f0"]
+ CellLabel->"Out[4]=",ExpressionUUID->"62d6e73d-7d8e-b24d-8c23-840792e75e3d"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -35015,59 +35034,33 @@ Cell[TextData[{
   FontSize->10],
  Cell[BoxData[
   FormBox[
-   RowBox[{
-    SubscriptBox[
-     StyleBox["u",
-      FontSlant->"Italic"], 
-     StyleBox["c",
-      FontSlant->"Plain"]], "(", 
-    StyleBox["Se",
-     FontSlant->"Plain"], ")"}], TraditionalForm]],
+   SubscriptBox[
+    StyleBox["u",
+     FontSlant->"Italic"], 
+    StyleBox["c",
+     FontSlant->"Plain"]], TraditionalForm]],
   FontSize->10,ExpressionUUID->"a964e50e-0e43-8247-9941-02426a9f0657"],
  StyleBox[": combined standard uncertainty\n",
   FontSize->10],
  Cell[BoxData[
   FormBox[
-   RowBox[{
-    SubscriptBox[
-     StyleBox["u",
-      FontSlant->"Italic"], 
-     StyleBox["s",
-      FontSlant->"Plain"]], "(", 
-    StyleBox["Se",
-     FontSlant->"Plain"], ")"}], TraditionalForm]],
+   SubscriptBox[
+    StyleBox["u",
+     FontSlant->"Italic"], 
+    StyleBox["s",
+     FontSlant->"Plain"]], TraditionalForm]],
   FontSize->10,ExpressionUUID->"c897151d-c874-6f4e-83cd-11c1e413280c"],
  StyleBox[": total sampling standard uncertainty\n",
   FontSize->10],
  Cell[BoxData[
   FormBox[
-   RowBox[{
-    SubscriptBox[
-     StyleBox["u",
-      FontSlant->"Italic"], 
-     StyleBox["m",
-      FontSlant->"Plain"]], "(", 
-    StyleBox["Se",
-     FontSlant->"Plain"], ")"}], TraditionalForm]],
+   SubscriptBox[
+    StyleBox["u",
+     FontSlant->"Italic"], 
+    StyleBox["m",
+     FontSlant->"Plain"]], TraditionalForm]],
   FontSize->10,ExpressionUUID->"780f2e59-8851-744f-89e2-8fbc0bedfccb"],
  StyleBox[": measurement standard uncertainty\n",
-  FontSize->10],
- Cell[BoxData[
-  FormBox[
-   RowBox[{
-    RowBox[{
-     SubscriptBox[
-      StyleBox["u",
-       FontSlant->"Italic"], 
-      StyleBox["c",
-       FontSlant->"Plain"]], "(", 
-     StyleBox["Se",
-      FontSlant->"Plain"], ")"}], "/", "|", 
-    StyleBox["Se",
-     FontSlant->"Plain"], "|"}], TraditionalForm]],
-  FontSize->10,ExpressionUUID->"92bb8cd2-3bc8-c14e-a442-9c3fd7bc646c"],
- StyleBox[": combined relative standard uncertainty\nThe uncertainty notation \
-uses the displayed measure symbol as its argument.\n",
   FontSize->10],
  Cell[BoxData[
   FormBox[
@@ -35109,19 +35102,6 @@ uses the displayed measure symbol as its argument.\n",
      FontSlant->"Plain"]], TraditionalForm]],
   FontSize->10,ExpressionUUID->"ceca88dc-3e7d-3b4e-b874-e9bac3f71282"],
  StyleBox[": measurement uncertainty proportionality constant\n",
-  FontSize->10],
- Cell[BoxData[
-  FormBox[
-   RowBox[{
-    SubscriptBox[
-     StyleBox["u",
-      FontSlant->"Italic"], 
-     StyleBox["m",
-      FontSlant->"Plain"]], "(", 
-    StyleBox["t",
-     FontSlant->"Italic"], ")"}], TraditionalForm]],
-  FontSize->10,ExpressionUUID->"000fccbc-f9ec-c24e-9902-7b8b4f05b428"],
- StyleBox[": measurement standard uncertainty of the diagnostic threshold\n",
   FontSize->10],
  Cell[BoxData[
   FormBox[
@@ -35198,8 +35178,9 @@ uses the displayed measure symbol as its argument.\n",
    3.9855145667603855`*^9, 3.9855145928163147`*^9}, {3.9859235339198856`*^9, 
    3.985923558462982*^9}, {3.998611294373993*^9, 3.9986113861867504`*^9}, {
    3.9986114279680424`*^9, 3.998611487046158*^9}, {3.9986115194219475`*^9, 
-   3.9986115545804043`*^9}, 
-   3.998656559197773*^9},ExpressionUUID->"a14a4090-aebc-444d-bcf6-\
+   3.9986115545804043`*^9}, 3.998656559197773*^9, {3.9987342463168907`*^9, 
+   3.99873431661866*^9}, {3.998801600331909*^9, 
+   3.998801600331909*^9}},ExpressionUUID->"a14a4090-aebc-444d-bcf6-\
 2c89a82ecc6d"],
 
 Cell[CellGroupData[{
@@ -35270,7 +35251,7 @@ Cell[TextData[{
 accuracy measures", "Subtitle",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nVersion 2.0.0\n",
+ StyleBox["\nVersion 2.0.1\n",
   FontSize->10,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Hellenic Complex Systems Laboratory ",
@@ -35289,12 +35270,12 @@ accuracy measures", "Subtitle",
     URL["https://doi.org/10.5281/zenodo.21901487"], None},
   ButtonNote->"https://doi.org/10.5281/zenodo.21901487"],
   FontSize->10,
-  FontColor->RGBColor[0., 0., 0.]],
- StyleBox[ButtonBox["10.5281/zenodo.21887451",
+  FontColor->GrayLevel[0]],
+ StyleBox[ButtonBox["10.5281/zenodo.22843673",
   BaseStyle->"Hyperlink",
   ButtonData->{
-    URL["https://doi.org/10.5281/zenodo.21887451"], None},
-  ButtonNote->"https://doi.org/10.5281/zenodo.21887451"],
+    URL["https://doi.org/10.5281/zenodo.22843673"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.22843673"],
   FontSize->10,
   FontColor->GrayLevel[0]],
  StyleBox["\nThis notebook is distributed under  an ",
@@ -35354,8 +35335,10 @@ International Creative Commons License",
    3.98763548021089*^9, 3.9876354808992405`*^9}, {3.995516396314438*^9, 
    3.995516434337799*^9}, {3.9973042151888084`*^9, 3.997304223684967*^9}, {
    3.998654278734997*^9, 3.9986542937253723`*^9}, {3.9986562900264225`*^9, 
-   3.9986563205105247`*^9}, {3.998656377059145*^9, 
-   3.998656377059145*^9}},ExpressionUUID->"29df282b-4941-7b4a-ae70-\
+   3.9986563205105247`*^9}, {3.998656377059145*^9, 3.998656377059145*^9}, {
+   3.9988015920563717`*^9, 3.998801592685463*^9}, 3.9988023328095303`*^9, {
+   3.998802377267618*^9, 
+   3.998802377268957*^9}},ExpressionUUID->"29df282b-4941-7b4a-ae70-\
 7bebcd873ed3"]
 }, Open  ]]
 }, Open  ]]
@@ -35363,8 +35346,8 @@ International Creative Commons License",
 Saveable->True,
 PrintingStyleEnvironment->"Printout",
 InitializationCellEvaluation->True,
-WindowSize->{1430.25, 732.75},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{1440, 742.5},
+WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
 WindowTitle->"Interactive Diagnostic Accuracy Uncertainty and Confidence \
 Intervals",
 PageHeaders->{{None, None, None}, {None, None, None}},
@@ -35382,17 +35365,16 @@ PrintingOptions->{"FacingPages"->False,
 "PrintingMargins"->{{72, 72}, {72, 72}}},
 ShowCellBracket->True,
 TaggingRules-><|
- "DOI" -> "https://doi.org/10.5281/zenodo.21887451", "PreferredCitation" -> 
+ "DOI" -> "https://doi.org/10.5281/zenodo.22843673", "PreferredCitation" -> 
   "Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: A unified \
 framework for uncertainty estimation of diagnostic accuracy measures. Ver. \
-2.0.0. Hellenic Complex Systems Laboratory; 2026. \
-https://doi.org/10.5281/zenodo.21887451"|>,
+2.0.1. Hellenic Complex Systems Laboratory; 2026. \
+https://doi.org/10.5281/zenodo.22843673"|>,
 CellContext->Notebook,
 SpellingDictionaries->{"CorrectWords"->{
  "iseased", "nondiseased", "Inxerrupxed", "Fowlkes", "noninfringement", 
   "Palamas", "Kostis", "zenodo", "Ver", "Chatzimichail", "Hatjimihail", 
   "nondiabetic", "Anonymised", "Youden\[CloseCurlyQuote]s"}},
-Magnification->0.75,
 FrontEndVersion->"15.0 for Microsoft Windows (64-bit) (July 2, 2026)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"dcfb2206-9f1a-584d-9e88-9dec4936c1f7"
@@ -35403,64 +35385,64 @@ ExpressionUUID->"dcfb2206-9f1a-584d-9e88-9dec4936c1f7"
 (*CellTagsOutline
 CellTagsIndex->{
  "EmbeddedDefinitions"->{
-  Cell[4894, 110, 940570, 19865, 14, "Input",ExpressionUUID->"105f1896-c870-0348-868d-3733541d06dc",
+  Cell[4894, 110, 941459, 19880, 19, "Input",ExpressionUUID->"105f1896-c870-0348-868d-3733541d06dc",
    CellOpen->False,
    InitializationCell->True,
    CellTags->{"EmbeddedDefinitions", "InteractiveDefinitions"}]},
  "InteractiveDefinitions"->{
-  Cell[4894, 110, 940570, 19865, 14, "Input",ExpressionUUID->"105f1896-c870-0348-868d-3733541d06dc",
+  Cell[4894, 110, 941459, 19880, 19, "Input",ExpressionUUID->"105f1896-c870-0348-868d-3733541d06dc",
    CellOpen->False,
    InitializationCell->True,
    CellTags->{"EmbeddedDefinitions", "InteractiveDefinitions"}]},
  "InteractiveExplorer"->{
-  Cell[945489, 19979, 399565, 7783, 14, "Input",ExpressionUUID->"28853048-7b85-f14d-a573-7f618c39c940",
+  Cell[946378, 19994, 399592, 7784, 19, "Input",ExpressionUUID->"28853048-7b85-f14d-a573-7f618c39c940",
    Evaluatable->True,
    CellOpen->False,
    CellTags->{"InteractiveExplorer", "ThirtyOneViews"}],
-  Cell[1345057, 27764, 383881, 7114, 480, "Output",ExpressionUUID->"01dde072-3e8e-934b-9a5a-826953cc99f0",
+  Cell[1345973, 27780, 384121, 7117, 614, "Output",ExpressionUUID->"62d6e73d-7d8e-b24d-8c23-840792e75e3d",
    CellTags->{"InteractiveExplorer", "ThirtyOneViews"}]},
  "ThirtyOneViews"->{
-  Cell[945489, 19979, 399565, 7783, 14, "Input",ExpressionUUID->"28853048-7b85-f14d-a573-7f618c39c940",
+  Cell[946378, 19994, 399592, 7784, 19, "Input",ExpressionUUID->"28853048-7b85-f14d-a573-7f618c39c940",
    Evaluatable->True,
    CellOpen->False,
    CellTags->{"InteractiveExplorer", "ThirtyOneViews"}],
-  Cell[1345057, 27764, 383881, 7114, 480, "Output",ExpressionUUID->"01dde072-3e8e-934b-9a5a-826953cc99f0",
+  Cell[1345973, 27780, 384121, 7117, 614, "Output",ExpressionUUID->"62d6e73d-7d8e-b24d-8c23-840792e75e3d",
    CellTags->{"InteractiveExplorer", "ThirtyOneViews"}]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"EmbeddedDefinitions", 1750113, 35404},
- {"InteractiveDefinitions", 1750358, 35409},
- {"InteractiveExplorer", 1750600, 35414},
- {"ThirtyOneViews", 1750989, 35421}
+ {"EmbeddedDefinitions", 1750314, 35386},
+ {"InteractiveDefinitions", 1750559, 35391},
+ {"InteractiveExplorer", 1750801, 35396},
+ {"ThirtyOneViews", 1751190, 35403}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[660, 24, 1386, 23, 63, "Title",ExpressionUUID->"971f4cdb-30bb-1b4c-9bf6-3207f6ab6be0",
+Cell[660, 24, 1386, 23, 111, "Title",ExpressionUUID->"971f4cdb-30bb-1b4c-9bf6-3207f6ab6be0",
  Evaluatable->False],
-Cell[2049, 49, 1534, 24, 52, "Title",ExpressionUUID->"0908c6f0-6c34-784b-a770-f405ed467bea",
+Cell[2049, 49, 1534, 24, 70, "Title",ExpressionUUID->"0908c6f0-6c34-784b-a770-f405ed467bea",
  Evaluatable->False],
-Cell[3586, 75, 936, 23, 130, "Author",ExpressionUUID->"ebd817d5-853b-d749-9ba6-c1b1987c29f4"],
-Cell[4525, 100, 366, 8, 22, "Affiliation",ExpressionUUID->"a98df4c9-171d-7c49-83e7-3fa4a1e38d20"],
-Cell[4894, 110, 940570, 19865, 14, "Input",ExpressionUUID->"105f1896-c870-0348-868d-3733541d06dc",
+Cell[3586, 75, 936, 23, 174, "Author",ExpressionUUID->"ebd817d5-853b-d749-9ba6-c1b1987c29f4"],
+Cell[4525, 100, 366, 8, 30, "Affiliation",ExpressionUUID->"a98df4c9-171d-7c49-83e7-3fa4a1e38d20"],
+Cell[4894, 110, 941459, 19880, 19, "Input",ExpressionUUID->"105f1896-c870-0348-868d-3733541d06dc",
  CellOpen->False,
  InitializationCell->True,
  CellTags->{"EmbeddedDefinitions", "InteractiveDefinitions"}],
 Cell[CellGroupData[{
-Cell[945489, 19979, 399565, 7783, 14, "Input",ExpressionUUID->"28853048-7b85-f14d-a573-7f618c39c940",
+Cell[946378, 19994, 399592, 7784, 19, "Input",ExpressionUUID->"28853048-7b85-f14d-a573-7f618c39c940",
  Evaluatable->True,
  CellOpen->False,
  CellTags->{"InteractiveExplorer", "ThirtyOneViews"}],
-Cell[1345057, 27764, 383881, 7114, 480, "Output",ExpressionUUID->"01dde072-3e8e-934b-9a5a-826953cc99f0",
+Cell[1345973, 27780, 384121, 7117, 614, "Output",ExpressionUUID->"62d6e73d-7d8e-b24d-8c23-840792e75e3d",
  CellTags->{"InteractiveExplorer", "ThirtyOneViews"}]
 }, Open  ]],
-Cell[1728953, 34881, 11656, 321, 382, "Text",ExpressionUUID->"a14a4090-aebc-444d-bcf6-2c89a82ecc6d"],
+Cell[1730109, 34900, 10598, 283, 463, "Text",ExpressionUUID->"a14a4090-aebc-444d-bcf6-2c89a82ecc6d"],
 Cell[CellGroupData[{
-Cell[1740634, 35206, 2642, 44, 38, "Subsubsubsubsection",ExpressionUUID->"94d093a6-ff1b-174e-a7f9-2b4a02d7dfde"],
-Cell[1743279, 35252, 5215, 106, 90, "Text",ExpressionUUID->"29df282b-4941-7b4a-ae70-7bebcd873ed3"]
+Cell[1740732, 35187, 2642, 44, 78, "Subsubsubsubsection",ExpressionUUID->"94d093a6-ff1b-174e-a7f9-2b4a02d7dfde"],
+Cell[1743377, 35233, 5333, 108, 120, "Text",ExpressionUUID->"29df282b-4941-7b4a-ae70-7bebcd873ed3"]
 }, Open  ]]
 }, Open  ]]
 }

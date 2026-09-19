@@ -6,7 +6,7 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 **Programs**
 
-1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: 1. Chatzimichail Ra, Chatzimichail T, Hatjimihail AT. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 2.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.22817814
+1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: 1. Chatzimichail Ra, Chatzimichail T, Hatjimihail AT. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 2.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.22843673
 
 Source Notebook: [DiagAccU.nb](DiagnosticAccuracy/DiagAccU.nb)
 

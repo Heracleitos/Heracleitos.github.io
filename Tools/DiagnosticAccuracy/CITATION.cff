@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: If you use this software, please cite it using these metadata.
 title: "DiagAccU: A unified framework for uncertainty estimation of diagnostic accuracy measures"
-abstract: "DiagAccU implements a threshold-based computational framework for quantifying measurement, sampling, and combined uncertainty in sixteen diagnostic accuracy measures used in screening and diagnostic testing. Measurement uncertainty is represented using linear and nonlinear heteroscedastic functions. Uncertainty is propagated by first-order Taylor-series expansion, with effective degrees of freedom and expanded uncertainty estimated using the Welch–Satterthwaite formula. Where interior optima exist, optimality conditions are derived numerically. The program supports the selection of clinically meaningful thresholds, including confirmatory and exclusionary decision thresholds; transparent uncertainty reporting; and sensitivity analyses under alternative distributional assumptions. It also provides parameter entry, batch computation, and publication-quality plots for reporting and study-design applications."
+abstract: "DiagAccU implements a computational framework for quantifying the sampling, measurement, and combined standard uncertainty of sixteen diagnostic accuracy and provides approximate pointwise expanded-uncertainty intervals. Normal, lognormal, or gamma distributions are specified separately for the diseased and nondiseased populations, allowing nine distributional combinations. Sampling uncertainty incorporates the covariance between the estimated mean and standard deviation within each population and, when enabled, prevalence uncertainty estimated under a binomial cohort-sampling model. Measurement uncertainty is represented through a single uncertain decision threshold shared by both populations. Its standard uncertainty is specified by a linear or root-sum-of-squares model with constant and proportional coefficients, preserving the induced covariance between sensitivity and specificity. At specified thresholds, uncertainty is propagated using a first-order Taylor approximation. By default, expanded-uncertainty intervals use Student’s t coverage factors with approximate Welch–Satterthwaite effective degrees of freedom calculated from source-specific variance contributions. Optimal thresholds for nine measures are estimated by numerical maximization over thresholds greater than the estimated nondiseased mean. At these estimated optimal thresholds, first-order propagation of sampling uncertainty is combined with nonlinear propagation of measurement uncertainty by nine-point Gauss–Hermite quadrature under a normal model for the shared threshold. The resulting uncertainties and intervals are conditional on the estimated optimal thresholds and exclude uncertainty associated with threshold estimation and selection. The program provides interactive plots, comprehensive tables, and joint covariance outputs to support the evaluation of diagnostic thresholds, including candidate confirmatory and exclusionary thresholds; transparent uncertainty reporting; sensitivity analyses across distributional and measurement assumptions; and study-design exploration."
 authors:
   - family-names: "Chatzimichail"
     given-names: "Rallou"
@@ -12,11 +12,11 @@ authors:
   - family-names: "Hatjimihail"
     given-names: "Aristeidis T."
     orcid: "https://orcid.org/0000-0002-0502-7996"
-version: 2.0.0
-date-released: "2026-09-17"
+version: 2.0.1
+date-released: "2026-09-19"
 identifiers:
-  - description: "This is the archived snapshot of version 2.0.0 of DiagAccU"
+  - description: "This is the archived snapshot of version 2.0.1 of DiagAccU"
     type: doi
-    value: "10.5281/zenodo.22817814"
+    value: "10.5281/zenodo.22843673"
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://www.hcsl.com/Tools/DiagnosticAccuracy/index.html"
