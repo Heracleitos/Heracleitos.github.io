@@ -1,6 +1,6 @@
 # HCSL Technical Report XXIX
 
-Chatzimichail C, Hatjimihail AT. Accompaniment Instruments Frequencies, Networks and Configurations. Technical Report XXX. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.23063739
+Chatzimichail C, Hatjimihail AT. Accompaniment Instruments Frequencies, Networks and Configurations. Technical Report XXX. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.23067849
  
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/hcsltr29/.
 

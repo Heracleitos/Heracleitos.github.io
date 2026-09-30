@@ -2,7 +2,7 @@
 
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/.
 
-1. Chatzimichail C, Hatjimihail AT. Accompaniment Instruments Frequencies, Networks and Configurations. Technical Report XXX. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.23063739  
+1. Chatzimichail C, Hatjimihail AT. Accompaniment Instruments Frequencies, Networks and Configurations. Technical Report XXX. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.23067849
 2. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. https://doi.org/10.5281/zenodo.22963267
 3. Chatzimichail T, Hatjimihail AT. A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Technical Report XXVIII. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20177791
 4. Chatzimichail T, Hatjimihail AT. A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Technical Report XXVII. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.21755397
