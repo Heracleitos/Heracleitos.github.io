@@ -6,47 +6,51 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 **Programs**
 
-1. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. DiagAccU: 1. Chatzimichail Ra, Chatzimichail T, Hatjimihail AT. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 2.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.22843673
+1. Chatzimichail C, Hatjimihail AT. AccompaNet: Accompaniment Instruments Frequencies, Networks and Configurations. Version 1.0.0. Hellenic Complex Systems Laboratory; 2026. DOI: https://doi.org/10.5281/zenodo.23063739
+
+Source Notebook: [AccompaNet.nb] (MusicalNetworks/AccompaNet.nb)
+
+2. Chatzimichail Ra, Chatzimichail T, Hatjimihail AT. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 2.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.22843673
 
 Source Notebook: [DiagAccU.nb](DiagnosticAccuracy/DiagAccU.nb)
 
-2. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21740593
+3. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21740593
 
 Source Notebook: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
 
-3. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20209103 
+4. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20209103 
 
 Source Notebook: [Relation.nb](Relation/Relation.nb)
 
-4. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19182193
+5. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19182193
 
 Source Notebook: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
 
-5.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.5. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19178969 
+6.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.5. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19178969 
 
 Source Notebook: [QualityControl.nb](QualityControl/QualityControl.nb)
 
-6. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.7. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19158651
+7. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.7. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19158651
 
 Source Notebook: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 
-7. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21891843
+8. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21891843
 
 Source Notebook: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 
-8. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20279024
+9. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20279024
 
 Source Notebook: [Nutrition.nb](Nutrition/Nutrition.nb)
 
-9. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.4. Drama: Hellenic Complex Systems Laboratory, 2026. https://doi.org/10.5281/zenodo.19163485
+10. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.4. Drama: Hellenic Complex Systems Laboratory, 2026. https://doi.org/10.5281/zenodo.19163485
 
 Source Notebook: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
 
-10. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19163806
+11. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19163806
 
 Source Notebook: [IntelligentQualityControl.nb](IntelligentQualityControl/IntelligentQualityControl.nb)
 
-11. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.5. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20278408
+12. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.5. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20278408
 
 Source Notebook: [Quality.nb](Quality/Quality.nb)
 

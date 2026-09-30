@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: "Accompanet: A Software Tool for Exploring Accompaniment Instruments Frequencies, Networks and Configurations"
+abstract: "AccompaNet is an interactive Wolfram Language notebook for analysing musical accompaniment through category frequencies, weighted co-occurrence networks and complete accompaniment configurations. It accepts user-defined configuration lists and recording frequencies, preserving instrument multiplicities. Seventeen descriptive measures summarize prevalence, connectivity and network structure through interactive graphs, plots and ranked tables. Configuration queries distinguish observed combinations from those suggested only by pairwise links. Fractional weighting accounts for configuration size, while sensitivity analyses examine how analytical choices affect the results. AccompaNet supports reproducible descriptive analysis and musicological hypothesis generation. Its findings remain bounded by the source coding: frequent co-occurrence does not establish preference, and an unobserved combination does not establish incompatibility or deliberate avoidance. "
+authors:
+  - family-names: "Chatzimichail"
+    given-names: "Chrysavgi"
+    orcid: "https://orcid.org/0000-0003-0321-7099"
+  - family-names: "Hatjimihail"
+    given-names: "Aristeidis T."
+    orcid: "https://orcid.org/0000-0002-0502-7996"
+version: 1.0.0
+date-released: "2026-09-30"
+identifiers:
+  - description: "This is the archived snapshot of version 1.0.0 of AccompaNet"
+    type: doi
+    value: "10.5281/zenodo.23063739"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://www.hcsl.com/Tools/MusicalNetworks/index.html"
