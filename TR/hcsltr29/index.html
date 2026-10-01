@@ -33,27 +33,31 @@
   ]
 }
 </script>
-    <link rel="canonical" href="https://www.hcsl.com/TR/hcsltr30/index.html">
-    <title>HCSL Technical Reports: Accompaniment instruments frequencies, networks and configurations</title>
+    <link rel="canonical" href="https://www.hcsl.com/TR/hcsltr29/index.html">
+    <title>HCSL Technical Reports: Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions</title>
     <link href="../../favicon.ico" rel="shortcut icon" title="HCSL logotype" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes">
-    <meta name="keywords" content="AccompaNet; Smyrnaic song; rhythm accompaniment; musical instruments; co-occurrence networks; accompaniment configurations">
-    <meta name="description" content="HCSL Technical Report XXX: Accompaniment Instruments Frequencies, Networks and Configurations">
+    <meta name="keywords" content="diagnostic accuracy measures; measurement uncertainty; sampling uncertainty; threshold-based tests; normal distribution; lognormal distribution; gamma distribution; heteroscedasticity; Gum; clinical decision-making">
+    <meta name="description" content="HCSL Technical Report XXIX: Uncertainty Estimation of Diagnostic Accuracy Measures under Parametric Distributions">
     <meta name="author" content="ath@hcsl.com">
     <link href="../../css/hcsl.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-	<meta name="citation_title" content="Accompaniment Instruments Frequencies, Networks and Configurations">
-	<meta name="citation_author" content="Chatzimichail, Chrysavgi">
+	<meta name="citation_title" content="Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions">
+	<meta name="citation_author" content="Chatzimichail, Rallou A.">
+	<meta name="citation_author" content="Chatzimichail, Theodora">
 	<meta name="citation_author" content="Hatjimihail, Aristides T.">
-	<meta name="citation_publication_date" content="2026/9/30">
+	<meta name="citation_publication_date" content="2025/9/21">
 	<meta name="citation_technical_report_institution" content="Hellenic Complex Systems Laboratory">
-	<meta name="citation_technical_report_number" content="XXX">
+	<meta name="citation_technical_report_number" content="XXIX">
 	<meta name="citation_firstpage" content="1">
-	<meta name="citation_lastpage" content="19">
-	<meta name="citation_abstract" content="We introduce AccompaNet, a Wolfram Language application linking instrument frequencies, co-occurrence networks and complete accompaniment configurations. Applied to a listening-based corpus of 100 recordings of 21 Smyrnaic songs, it distinguishes instrument recurrence from partnership diversity. Guitar is the most prevalent and broadly connected resource, while cimbalom and tambourine exhibit contrasting patterns of recurrence and connectivity. Groups of instruments linked pairwise need not occur together, demonstrating the importance of retaining complete configurations. AccompaNet provides a reproducible framework for describing accompaniment composition and identifying comparisons for closer study of rhythmic articulation, instrumental texture and musical roles.">
-	<meta name="citation_pdf_url" title="PDF Full-Text"  content="https://www.hcsl.com/TR/hcsltr30/hcsltr30.pdf">
-	<meta name="citation_doi" content="10.5281/zenodo.23063739">
+	<meta name="citation_lastpage" content="38">
+	<meta name="citation_abstract" content="Background: Diagnostic tests are evaluated by their ability to discriminate between diseased and nondiseased individuals; however, estimates of diagnostic accuracy alone do not quantify their associated uncertainty. Uncertainty assessment is therefore essential for interpreting accuracy estimates and comparing diagnostic thresholds. 
+	Methods: We develop a parametric framework for propagating uncertainty to diagnostic accuracy measures formulated as functions of sensitivity, specificity, and prevalence. Normal, lognormal, or gamma models are specified separately for the diseased and nondiseased populations. At a diagnostic threshold, first-order uncertainty propagation retains covariance between estimated population means and standard deviations, incorporates prevalence sampling uncertainty when applicable, and adds the propagated measurement variance to the sampling variance while retaining measurement covariance between sensitivity and specificity. The Wolfram Language implementation provides uncertainty components by source, joint output covariance, and approximate expanded-uncertainty intervals calculated using effective degrees of freedom derived from the source-specific variance contributions. At estimated optimal thresholds, measurement variance is evaluated by Gauss–Hermite quadrature, conditional on the selected threshold; optimal threshold uncertainty is excluded.
+	Results: Illustrative analyses indicate that the contribution of each uncertainty source varies with the diagnostic accuracy measure, distributional assumptions, and threshold. Retaining measurement covariance can reduce the propagated measurement variance of a derived measure. In the cases examined, joint propagation reproduces the corresponding marginal variances and enables evaluation of uncertainty across diagnostic thresholds.
+	Conclusions: The framework provides a reproducible basis for assessing diagnostic accuracy and uncertainty while preserving relevant input and output dependencies. Decomposition by source helps identify the assumptions and uncertainty components underlying each estimate. The intervals remain local approximations; nominal coverage and optimal threshold uncertainty require separate assessment.">
+	<meta name="citation_pdf_url" title="PDF Full-Text"  content="https://www.hcsl.com/TR/hcsltr29/hcsltr29.pdf">
+	<meta name="citation_doi" content="10.5281/zenodo.23085657">
 </head>
 <body>
         <div class="sidebar">
@@ -67,35 +71,48 @@
         <a href="../../Contact/index.html" class="hidden">Contact</a>
     </div>
     <div class="content">
-        <h2>Technical Report XXX</h2>
-        <h1 id="TR30">
-         Accompaniment Instruments Frequencies, Networks and Configurations
+        <h2>Technical Report XXIX</h2>
+        <h1 id="TR29">
+         Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions
         </h1>
 		<h3>
-            C Chatzimichail, AT Hatjimihail
+            RA Chatzimichail, T Chatzimichail, AT Hatjimihail
         </h3>
         <h4>Abstract</h4>
         <p class="c1">
-			We introduce <span style="font-style: italic">AccompaNet</span>, a Wolfram Language application linking instrument frequencies, co-occurrence <a href="../../Glossary/index.html#Network" title="glossary: network">networks</a> and complete accompaniment configurations. Applied to a listening-based corpus of 100 recordings of 21 Smyrnaic songs, it distinguishes instrument recurrence from partnership diversity. Guitar is the most prevalent and broadly connected resource, while cimbalom and tambourine exhibit contrasting patterns of recurrence and connectivity. Groups of instruments linked pairwise need not occur together, demonstrating the importance of retaining complete configurations. <span style="font-style: italic">AccompaNet</span> provides a reproducible framework for describing accompaniment composition and identifying comparisons for closer study of rhythmic articulation, instrumental texture and musical roles.
+			<span style="font-style: italic">Background:</span> Diagnostic tests are evaluated by their ability to discriminate between diseased and nondiseased individuals; however, estimates of <a href="../../Glossary/index.html#Diagnostic_Accuracy" title="glossary: diagnostic accuracy">diagnostic accuracy</a> alone do not quantify their associated <a href="../../Glossary/index.html#Uncertainty" title="glossary: uncertainty">uncertainty</a>. Uncertainty assessment is therefore essential for interpreting accuracy estimates and comparing diagnostic thresholds.			
+		</p>
+		 <p class="c1">
+			<span style="font-style: italic">Methods:</span> We develop a parametric framework for propagating uncertainty to diagnostic accuracy measures formulated as functions of sensitivity, specificity, and prevalence. Normal, lognormal, or gamma models are specified separately for the diseased and nondiseased populations. At a diagnostic threshold, first-order uncertainty propagation retains covariance between estimated population means and standard deviations, incorporates prevalence sampling uncertainty when applicable, and adds the propagated measurement variance to the sampling variance while retaining measurement covariance between sensitivity and specificity. The Wolfram Language implementation provides uncertainty components by source, joint output covariance, and approximate expanded-uncertainty intervals calculated using effective degrees of freedom derived from the source-specific variance contributions. At estimated optimal thresholds, measurement variance is evaluated by Gauss–Hermite quadrature, conditional on the selected threshold; optimal threshold uncertainty is excluded.
+		</p>
+		<p class="c1">
+			<span style="font-style: italic">Results:</span> Illustrative analyses indicate that the contribution of each uncertainty source varies with the diagnostic accuracy measure, distributional assumptions, and threshold. Retaining measurement covariance can reduce the propagated measurement variance of a derived measure. In the cases examined, joint propagation reproduces the corresponding marginal variances and enables evaluation of uncertainty across diagnostic thresholds.
+		</p>
+		<p class="c1">
+			<span style="font-style: italic">Conclusions:</span> The framework provides a reproducible basis for assessing diagnostic accuracy and uncertainty while preserving relevant input and output dependencies. Decomposition by source helps identify the assumptions and uncertainty components underlying each estimate. The intervals remain local approximations; nominal coverage and optimal threshold uncertainty require separate assessment. 
         </p>
 		<h4>First Published</h4>
 		<p class="c1">
-			2026-09-30
-        </p>		
+			2025-09-21
+        </p>
+		<h4>Revised</h4>
+		<p class="c1">
+			2026-10-01
+        </p>
 		<h4>DOI</h4>
 		<p class="c1">
-			<a href="https://doi.org/10.5281/zenodo.23067849" target="_blank">10.5281/zenodo.23067849</a>
+			<a href="https://doi.org/10.5281/zenodo.23085657" target="_blank">10.5281/zenodo.23085657</a>
 		</p>
 		<h4>Citation</h4>
 		<p class="c1c">
-			Chatzimichail C, Hatjimihail AT. <span style="font-style: italic">Accompaniment Instruments Frequencies, Networks and Configurations.</span> Technical Report XXX. Hellenic Complex Systems Laboratory; 2026. <a href="https://doi.org/10.5281/zenodo.23067849" target="_blank">https://doi.org/10.5281/zenodo.23067849</a>.
+			Chatzimichail RA, Chatzimichail T, Hatjimihail AT. <span style="font-style: italic">Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions.</span> Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. <a href="https://doi.org/10.5281/zenodo.23085657" target="_blank">https://doi.org/10.5281/zenodo.23085657</a>.
         </p>
         <p class="c1">
             <a href="hcsltr29.pdf" target="_blank">Full Text</a>
 		</p>
 		<p class="c1">
-            <a href="../../Tools/MusicalNetworks/AccompaNet.nb"
-               target="_blank">Source Notebook</a>
+            <a href="../../Tools/DiagnosticAccuracy/DiagAccU.nb"
+               target="_blank">Source Notebook</a> (Revised on 2026-09-19)
 		<h4><a id="Terms_of_Use"></a>Terms of Use</h4>
 		<p class="c1">
 			The material made freely available by Hellenic Complex Systems Laboratory is subject to its <a href="../../About/index.html#Terms_of_Use" target="_blank">Terms of Use</a>.
