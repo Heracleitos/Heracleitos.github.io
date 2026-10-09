@@ -14,7 +14,7 @@ Source Notebook: [AccompaNet.nb] (MusicalNetworks/AccompaNet.nb)
 
 Source Notebook: [DiagAccU.nb](DiagnosticAccuracy/DiagAccU.nb)
 
-3. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.3. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21740593
+3. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.4. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.23252954
 
 Source Notebook: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
 
