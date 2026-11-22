@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CRKTXRE2HD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CRKTXRE2HD');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "@id": "https://www.hcsl.com/#org",
+  "name": "Hellenic Complex Systems Laboratory",
+  "alternateName": "HCSL",
+  "url": "https://www.hcsl.com/",
+  "description": "Virtual research laboratory founded in 1993, focusing on uncertainty evaluation and reduction in complex systems, with emphasis on laboratory medicine, quality control, measurement uncertainty, diagnostic accuracy, Bayesian diagnosis, and related computational methods.",
+  "foundingDate": "1993",
+  "logo": "https://www.hcsl.com/Images/HCSLlogo.svg",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q117031658",
+    "https://ror.org/00zp1hf53",
+    "https://isni.org/isni/000000051264197X",
+    "https://github.com/Heracleitos"
+  ],
+  "identifier": [
+    { "@type": "PropertyValue", "propertyID": "ROR", "value": "00zp1hf53" },
+    { "@type": "PropertyValue", "propertyID": "ISNI", "value": "000000051264197X" }
+  ]
+}
+</script>
+    <link rel="canonical" href="https://www.hcsl.com/TR/hcsltr32/index.html">
+    <title>HCSL Technical Reports: Latent class probabilities and uncertainty estimation without a gold standard</title>
+    <link href="../../favicon.ico" rel="shortcut icon" title="HCSL logotype" type="image/x-icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes">
+    <meta name="keywords" content="Bayesian latent class, no gold standard, diagnostic probability, analytical uncertainty, credible interval, NHANES.">
+    <meta name="description" content="HCSL Technical Report XXXII: BDPU-LatentClass: Latent class probabilities and uncertainty estimation without a gold standard">
+    <meta name="author" content="ath@hcsl.com">
+    <link href="../../css/hcsl.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<meta name="citation_title" content="BDPU-LatentClass: Latent class probabilities and uncertainty estimation without a gold standard">
+	<meta name="citation_author" content="Chatzimichail, Theodora">
+	<meta name="citation_author" content="Chatzimichail, Rallou A.">
+	<meta name="citation_author" content="Hatjimihail, Aristides T.">
+	<meta name="citation_publication_date" content="2026/11/22">
+	<meta name="citation_technical_report_institution" content="Hellenic Complex Systems Laboratory">
+	<meta name="citation_technical_report_number" content="XXXII">
+	<meta name="citation_abstract" content="Background:  When neither of two assays supplies a gold standard, an individual probability requires an explicit target. We developed the BDPU-LatentClass software, estimating membership in the latent class with higher mean log concentration of assay 1. It separates uncertainty due to estimated model parameters from uncertainty due to analytical error in a new measurement. Methods:  We fitted a two-class Gaussian mixture to paired log fasting plasma glucose (FPG) and oral glucose tolerance test (OGTT) measurements from 1,361 NHANES participants. Class-specific covariance accommodates assay dependence. Prediction conditions on a new observed FPG value by weighting posterior draws by their predictive densities. Results.  At FPG 126 mg/dL, the probability of class 1 was 0.441 (95% parameter credible interval 0.204–0.684). The parameter, measurement and total standard uncertainties were 0.122, 0.082 and 0.147 in probability units. Replacing full class-specific covariance with an exploratory diagonal model raised the estimate to 0.666. Conclusions:  A Wolfram notebook connects an observation to both class probabilities, credible intervals and an uncertainty decomposition. Covariance assumptions materially affected the result. Interpreting the higher-FPG class as disease would require independent clinical evidence.">
+	<meta name="citation_pdf_url" title="PDF Full-Text"  content="https://www.hcsl.com/TR/hcsltr32/hcsltr32.pdf">
+	<meta name="citation_doi" content="10.5281/zenodo.24447301">
+</head>
+<body>
+        <div class="sidebar">
+        <p><img src="../../Images/HCSLlogo.svg" alt="HCSL Logo" class="center" style="width:90px;height:96px"></p>
+        <p style="text-align:center"><span class="c6">Hellenic<br>Complex&nbsp;Systems<br>Laboratory</span></p>
+        <a href="../../index.html" class="hidden">Home</a>
+        <a href="../../Notes/index.html" class="hidden">Research</a>
+        <a href="../../Publications/index.html" class="hidden"><span style="font-weight:bold;">Publications</span></a>
+        <a href="../../Tools/index.html" class="hidden">Software</a>
+        <a href="../../About/index.html" class="hidden">About</a>
+        <a href="../../Contact/index.html" class="hidden">Contact</a>
+    </div>
+    <div class="content">
+        <h2>Technical Report XXXII</h2>
+        <h1 id="TR32">
+         Latent class probabilities and uncertainty estimation without a gold standard
+        </h1>
+		<h3>
+            T Chatzimichail, RA Chatzimichail, AT Hatjimihail
+        </h3>
+        <h4>Abstract</h4>
+        <p class="c1">
+			Background:  When neither of two assays supplies a gold standard, an individual probability requires an explicit target. We developed the <span style="font-style: italic">BDPU-LatentClass</span> software estimating membership in the latent class with higher mean log concentration of assay 1. It separates uncertainty due to estimated model parameters from uncertainty due to analytical error in a new measurement.</p>
+        <p class="c1">
+			Methods:  We fitted a two-class Gaussian mixture to paired log fasting plasma glucose (FPG) and oral glucose tolerance test (OGTT) measurements from 1,361 NHANES participants. Class-specific covariance accommodates assay dependence. Prediction conditions on a new observed FPG value by weighting posterior draws by their predictive densities.</p>
+        <p class="c1">
+			Results:  At FPG 126 mg/dL, the probability of class 1 was 0.441 (95% parameter credible interval 0.204–0.684). The parameter, measurement and total standard uncertainties were 0.122, 0.082 and 0.147 in probability units. Replacing full class-specific covariance with an exploratory diagonal model raised the estimate to 0.666.</p>
+        <p class="c1">
+			Conclusions:  A Wolfram notebook connects an observation to both class probabilities, credible intervals and an uncertainty decomposition. Covariance assumptions materially affected the result. Interpreting the higher-FPG class as disease would require independent clinical evidence.
+        </p>
+		<h4>First Published</h4>
+		<p class="c1">
+			2026-11-22
+        </p>		
+		<h4>DOI</h4>
+		<p class="c1">
+			<a href="https://doi.org/10.5281/zenodo.24447301" target="_blank">10.5281/zenodo.24447301</a>
+		</p>
+		<h4>Citation</h4>
+		<p class="c1c">
+			Chatzimichail T, Chatzimichail RA, Hatjimihail AT. <span style="font-style: italic">BDPU-LatentClass: Latent class probabilities and uncertainty estimation without a gold standard.</span> Technical Report XXXII. Hellenic Complex Systems Laboratory; 2026. <a href="https://doi.org/10.5281/zenodo.24447301" target="_blank">https://doi.org/10.5281/zenodo.24447301</a>.
+        </p>
+        <p class="c1">
+            <a href="hcsltr32.pdf" target="_blank">Full Text (PDF)</a>
+		</p>
+		<p class="c1">
+            <a href="../../Tools/BayesianDiagnosticUncertaintyLatentClass/BDPU-LatentClass.nb"
+               target="_blank">Source Notebook</a>
+		</p>
+		<p class="c1">
+            <a href="../../Supplements/SBDPU-LC.zip" target="_blank">Supplementary Notebooks (ZIP)</a>
+		</p>
+		<h4><a id="Terms_of_Use"></a>Terms of Use</h4>
+		<p class="c1">
+			The material made freely available by Hellenic Complex Systems Laboratory is subject to its <a href="../../About/index.html#Terms_of_Use" target="_blank">Terms of Use</a>.
+		</p>
+        <footer class="site-footer">
+            <p>Hellenic Complex Systems Laboratory. Drama, Greece. Established 1993.</p>
+            <p><a href="../../index.html">Home</a> | <a href="../../Notes/index.html">Research</a> | <a href="../../Publications/index.html">Publications</a> | <a href="../../Tools/index.html">Software</a> | <a href="../../About/index.html">About</a> | <a href="../../Contact/index.html">Contact</a></p>
+            <p><a href="../../About/index.html#Terms_of_Use">Terms</a> | <a href="../../About/index.html#Privacy_notice">Privacy</a> | <a href="../../Glossary/index.html">Glossary</a></p>
+        </footer>
+    </div>
+</body>
+</html>

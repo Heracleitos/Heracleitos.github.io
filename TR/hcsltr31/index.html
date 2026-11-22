@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CRKTXRE2HD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CRKTXRE2HD');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "@id": "https://www.hcsl.com/#org",
+  "name": "Hellenic Complex Systems Laboratory",
+  "alternateName": "HCSL",
+  "url": "https://www.hcsl.com/",
+  "description": "Virtual research laboratory founded in 1993, focusing on uncertainty evaluation and reduction in complex systems, with emphasis on laboratory medicine, quality control, measurement uncertainty, diagnostic accuracy, Bayesian diagnosis, and related computational methods.",
+  "foundingDate": "1993",
+  "logo": "https://www.hcsl.com/Images/HCSLlogo.svg",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q117031658",
+    "https://ror.org/00zp1hf53",
+    "https://isni.org/isni/000000051264197X",
+    "https://github.com/Heracleitos"
+  ],
+  "identifier": [
+    { "@type": "PropertyValue", "propertyID": "ROR", "value": "00zp1hf53" },
+    { "@type": "PropertyValue", "propertyID": "ISNI", "value": "000000051264197X" }
+  ]
+}
+</script>
+    <link rel="canonical" href="https://www.hcsl.com/TR/hcsltr31/index.html">
+    <title>HCSL Technical Reports: BDPU-Threshold: Probability and uncertainty estimation for a reference concentration threshold</title>
+    <link href="../../favicon.ico" rel="shortcut icon" title="HCSL logotype" type="image/x-icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes">
+    <meta name="keywords" content="Bayesian inference; medical diagnosis; measurement uncertainty; posterior predictive probability; NHANES; fasting plasma glucose; oral glucose tolerance test; Wolfram Language; age conditioning; parametric bootstrap; software reproducibility">
+    <meta name="description" content="HCSL Technical Report XXXI: Probability and uncertainty estimation for a reference concentration threshold">
+    <meta name="author" content="ath@hcsl.com">
+    <link href="../../css/hcsl.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<meta name="citation_title" content="Probability and uncertainty estimation for a reference concentration threshold">
+	<meta name="citation_author" content="Chatzimichail, Theodora">
+	<meta name="citation_author" content="Chatzimichail, Rallou A.">
+	<meta name="citation_author" content="Hatjimihail, Aristides T.">
+	<meta name="citation_publication_date" content="2026/11/22">
+	<meta name="citation_technical_report_institution" content="Hellenic Complex Systems Laboratory">
+	<meta name="citation_technical_report_number" content="XXXI">
+	<meta name="citation_abstract" content="Background: Quantitative diagnostic probabilities depend on uncertain population distributions and imperfect measurements. We developed BDPU-Threshold in the Wolfram Language to estimate these probabilities from paired test and reference measurements. A separate simulation uses the parametric bootstrap to estimate sampling uncertainty. The notebooks include reference data, worked examples and optional analyses by age.
+	Results: NHANES 2013–2014 yielded 1,702 eligible adults aged 20–79 without a previous diabetes diagnosis, of whom 68 met the measured reference threshold. We fitted separate two- and three-dimensional mixtures to the same 1,361 participants and retained 6,000 posterior draws for each model. At an observed fasting plasma glucose of 126 mg/dL, the model without age gave a probability of 0.2228 that analytical-error-free two-hour plasma glucose at the same visit was at least 200 mg/dL. The parameter, new-result analytical measurement and total standard uncertainties were 0.0306, 0.0336 and 0.0455, with a 95% parameter credible interval of 0.1680–0.2860. At age 50 years, the age-conditioned probability was 0.1366 and total standard uncertainty 0.0395. Among 341 held-out participants, 14 met the measured reference threshold. Brier scores for this observed outcome were 0.03044 without age and 0.03088 with age; the paired difference was 0.00044 (95% confidence interval −0.00198 to 0.00361). Mean predicted probabilities were 0.0295 and 0.0255, respectively, compared with an observed frequency of 4.11%; calibration intercepts were 0.42 and 0.59 and slopes 1.25 and 1.43. Age conditioning did not demonstrate improved calibration in this exploratory internal comparison.
+	Conclusions: BDPU-Threshold uses the saved posterior draws to estimate reference-positive probability and quantify uncertainty from model parameters and analytical error in the new test result. The model with age underpredicted measured reference positivity more than the model without age. With only 14 positive outcomes, this comparison gives limited evidence about calibration. Population-wide calibration, clinical benefit and validity for the latent reference endpoint require further evaluation.
+">
+	<meta name="citation_pdf_url" title="PDF Full-Text"  content="https://www.hcsl.com/TR/hcsltr31/hcsltr31.pdf">
+	<meta name="citation_doi" content="10.5281/zenodo.24445993">
+</head>
+<body>
+        <div class="sidebar">
+        <p><img src="../../Images/HCSLlogo.svg" alt="HCSL Logo" class="center" style="width:90px;height:96px"></p>
+        <p style="text-align:center"><span class="c6">Hellenic<br>Complex&nbsp;Systems<br>Laboratory</span></p>
+        <a href="../../index.html" class="hidden">Home</a>
+        <a href="../../Notes/index.html" class="hidden">Research</a>
+        <a href="../../Publications/index.html" class="hidden"><span style="font-weight:bold;">Publications</span></a>
+        <a href="../../Tools/index.html" class="hidden">Software</a>
+        <a href="../../About/index.html" class="hidden">About</a>
+        <a href="../../Contact/index.html" class="hidden">Contact</a>
+    </div>
+    <div class="content">
+        <h2>Technical Report XXXI</h2>
+        <h1 id="TR31">
+         Probability and uncertainty estimation for a reference concentration threshold
+        </h1>
+		<h3>
+            T Chatzimichail, RA Chatzimichail, AT Hatjimihail
+        </h3>
+        <h4>Abstract</h4>
+        <p class="c1">
+			Background: Background: Quantitative diagnostic probabilities depend on uncertain population distributions and imperfect measurements. We developed BDPU-Threshold in the Wolfram Language to estimate these probabilities from paired test and reference measurements. A separate simulation uses the parametric bootstrap to estimate sampling uncertainty. The notebooks include reference data, worked examples and optional analyses by age.</p>
+        <p class="c1">
+			Results: NHANES 2013–2014 yielded 1,702 eligible adults aged 20–79 without a previous diabetes diagnosis, including 68 measured reference positives. Separate two- and three-dimensional mixtures were trained on the same 1,361 participants; each retained 6,000 posterior draws. At fasting plasma glucose 126 mg/dL, the age-free probability of analytical-error-free, same-visit reference positivity was 0.2228; parameter, new-result analytical measurement and total standard uncertainties were 0.0306, 0.0336 and 0.0455, with a 95% parameter credible interval of 0.1680–0.2860. At age 50 years, the age-conditioned probability was 0.1366 and total standard uncertainty 0.0395. On the same 341 holdout participants (14 positives), measured-reference Brier scores were 0.03044 without age and 0.03088 with age; the paired difference was 0.00044 (95% confidence interval −0.00198 to 0.00361). Mean predicted probabilities were 0.0295 and 0.0255, respectively, compared with an observed frequency of 4.11%; calibration intercepts were 0.42 and 0.59 and slopes 1.25 and 1.43. Age conditioning did not demonstrate improved calibration in this exploratory internal comparison.</p>
+        <p class="c1">
+			Conclusions: BDPU-Threshold provides a Wolfram implementation of the defined probability and uncertainty calculations, with embedded reference posteriors and explicit computational contracts. The archived age-conditioned model showed greater underprediction in the observed holdout, with limited precision from 14 positives. The findings support a reproducible inferential workflow; they do not establish population-wide calibration, clinical benefit or validity of the latent reference endpoint.
+        </p>
+		<h4>First Published</h4>
+		<p class="c1">
+			2026-11-08
+        </p>		
+		<h4>DOI</h4>
+		<p class="c1">
+			<a href="https://doi.org/10.5281/zenodo.24445993" target="_blank">10.5281/zenodo.24445993</a>
+		</p>
+		<h4>Citation</h4>
+		<p class="c1c">
+			Chatzimichail T, Chatzimichail RA, Hatjimihail AT. <span style="font-style: italic">Probability and uncertainty estimation for a reference concentration threshold.</span> Technical Report XXXI. Hellenic Complex Systems Laboratory; 2026. <a href="https://doi.org/10.5281/zenodo.24445993" target="_blank">https://doi.org/10.5281/zenodo.24445993</a>.
+        </p>
+        <p class="c1">
+            <a href="hcsltr31.pdf" target="_blank">Full Text (PDF)</a>
+		</p>
+		<p class="c1">
+            <a href="../../Tools/BayesianDiagnosticUncertaintyThreshold/BDPU-Threshold.nb"
+               target="_blank">Source Notebook</a>
+		</p>
+		<p class="c1">
+            <a href="../../Supplements/SBDPU-T.zip" target="_blank">Supplementary Notebooks (ZIP)</a>
+		</p>
+		<h4><a id="Terms_of_Use"></a>Terms of Use</h4>
+		<p class="c1">
+			The material made freely available by Hellenic Complex Systems Laboratory is subject to its <a href="../../About/index.html#Terms_of_Use" target="_blank">Terms of Use</a>.
+		</p>
+        <footer class="site-footer">
+            <p>Hellenic Complex Systems Laboratory. Drama, Greece. Established 1993.</p>
+            <p><a href="../../index.html">Home</a> | <a href="../../Notes/index.html">Research</a> | <a href="../../Publications/index.html">Publications</a> | <a href="../../Tools/index.html">Software</a> | <a href="../../About/index.html">About</a> | <a href="../../Contact/index.html">Contact</a></p>
+            <p><a href="../../About/index.html#Terms_of_Use">Terms</a> | <a href="../../About/index.html#Privacy_notice">Privacy</a> | <a href="../../Glossary/index.html">Glossary</a></p>
+        </footer>
+    </div>
+</body>
+</html>
