@@ -6,51 +6,63 @@ Welcome to the official GitHub software repository for the Hellenic Complex Syst
 
 **Programs**
 
-1. Chatzimichail C, Hatjimihail AT. AccompaNet: Accompaniment Instruments Frequencies, Networks and Configurations. Version 1.0.0. Hellenic Complex Systems Laboratory; 2026. DOI: https://doi.org/10.5281/zenodo.23063739
+1. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-Threshold: Estimating Conditional Disease Probability, Decomposing Uncertainty, and Simulating Test Results. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.24443936
+
+Source Notebook: [BDPU-Threshold.nb](BayesianDiagnosticUncertaintyThreshold/BDPU-Threshold.nb)
+
+Supplement: [SBDPU-T.zip](../Supplements/SBDPU-T.zip)
+
+2. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: Latent-Class Probabilities and Uncertainty from Paired Quantitative Assays. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.92955750
+
+Source Notebook: [BDPU-LatentClass.nb](BayesianDiagnosticUncertaintyLatentClass/BDPU-LatentClass.nb)
+
+Supplement: [SBDPU-LC.zip](../Supplements/SBDPU-LC.zip)
+
+3. Chatzimichail C, Hatjimihail AT. AccompaNet: Accompaniment Instruments Frequencies, Networks and Configurations. Version 1.0.0. Hellenic Complex Systems Laboratory; 2026. DOI: https://doi.org/10.5281/zenodo.23063739
 
 Source Notebook: [AccompaNet.nb] (MusicalNetworks/AccompaNet.nb)
 
-2. Chatzimichail Ra, Chatzimichail T, Hatjimihail AT. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 2.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.22843673
+4. Chatzimichail Ra, Chatzimichail T, Hatjimihail AT. Diagaccu: A Unified Framework for Uncertainty Estimation of Diagnostic Accuracy Measures. Ver. 2.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.22843673
 
 Source Notebook: [DiagAccU.nb](DiagnosticAccuracy/DiagAccU.nb)
 
-3. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.4. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.23252954
+5. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Insights: A Software Tool for Applying Bayes' Theorem in Medical Diagnostics. Ver. 2.2.4. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.23252954
 
 Source Notebook: [BayesianDiagnosticInsights.nb](BayesianDiagnosticInsights/BayesianDiagnosticInsights.nb)
 
-4. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20209103 
+6. Chatzimichail T, Hatjimihail AT. Relation: A Software Tool for Exploring the Relation between Diagnostic Accuracy and Measurement Uncertainty.  Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20209103 
 
 Source Notebook: [Relation.nb](Relation/Relation.nb)
 
-5. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19182193
+7. Chatzimichail T, Hatjimihail AT. Diagnostic Uncertainty: A Software Tool for Calculating the Uncertainty of Diagnostic Accuracy Measures. Ver. 3.0.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19182193
 
 Source Notebook: [Uncertainty.nb](Uncertainty/Uncertainty.nb)
 
-6.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.5. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19178969 
+8.  Chatzimichail RA, Hatjimihail AT. Quality Control: A Software Tool for Statistical Quality Control Design and Evaluation. Ver. 1.1.5. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19178969 
 
 Source Notebook: [QualityControl.nb](QualityControl/QualityControl.nb)
 
-7. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.7. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19158651
+9. Chatzimichail T, Hatjimihail AT. Bayesian Diagnosis: A Bayesian Inference Based Computational Tool for Parametric and Nonparametric Medical Diagnosis. Ver. 1.0.7. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19158651
 
 Source Notebook: [BayesianDiagnosis.nb](BayesianDiagnosis/BayesianDiagnosis.nb)
 
-8. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21891843
+10. Chatzimichail T, Hatjimihail AT. Bayesian Diagnostic Uncertainty: An Analytical Software for Assessing Uncertainty in Bayesian Parametric Diagnosis in Medicine. Ver. 2.1.1. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.21891843
 
 Source Notebook: [BayesianDiagnosticUncertainty.nb](BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb)
 
-9. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20279024
+11. Chatzimichail T. Enteral Nutrition Design: A Software Tool for Enteral Nutrition Design. Ver. 1.0.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20279024
 
 Source Notebook: [Nutrition.nb](Nutrition/Nutrition.nb)
 
-10. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.4. Drama: Hellenic Complex Systems Laboratory, 2026. https://doi.org/10.5281/zenodo.19163485
+12. Chatzimichail RA, Hatjimihail AT. Intelligent Quality: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.1.4. Drama: Hellenic Complex Systems Laboratory, 2026. https://doi.org/10.5281/zenodo.19163485
 
 Source Notebook: [IntelligentQuality.nb](IntelligentQuality/IntelligentQuality.nb)
 
-11. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19163806
+13. Chatzimichail RA, Hatjimihail AT. Intelligent Quality Control: A Software Tool for Exploring the Application of Convolutional Neural Networks to Quality Control Samples of Very Small Size. Ver. 1.0.6. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.19163806
 
 Source Notebook: [IntelligentQualityControl.nb](IntelligentQualityControl/IntelligentQualityControl.nb)
 
-12. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.5. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20278408
+14. Chatzimichail RA, Hatjimihail AT. Quality: A Software Tool for Statistical Quality Control Design. Ver. 1.0.5. Hellenic Complex Systems Laboratory; 2024. https://doi.org/10.5281/zenodo.20278408
 
 Source Notebook: [Quality.nb](Quality/Quality.nb)
 
@@ -115,6 +127,16 @@ Source Notebook: [UncertaintyOfMeasurementAndAreasOverAndUnderTheROCCurves.nb](D
 15. Hatjimihail AT. Receiver Operating Characteristic Curves and Uncertainty of Measurement. Ver. 1.1.2. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.20535253
 
 Source Notebook: [ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb](Demonstrations/ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.nb)
+
+**Helpers**
+
+1. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-Threshold: Methods and User Guide. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.24445041
+
+Source Notebook: [BDPU-ThresholdHelper.nb](Helpers/BDPU-ThresholdHelper.nb)
+
+2. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: Methods and User Guide. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.24447295
+
+Source Notebook: [BDPU-LatentClassHelper.nb](Helpers/BDPU-LatentClassHelper.nb)
 
 **Intellectual Property Rights**
 

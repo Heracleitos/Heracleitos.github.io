@@ -1,0 +1,2217 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 15.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     99122,       2207]
+NotebookOptionsPosition[     83509,       1908]
+NotebookOutlinePosition[     88657,       2024]
+CellTagsIndexPosition[     88143,       2005]
+WindowTitle->BDPU-LatentClass Methods and User Guide
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["BPDU-LatentClass",
+ FontSize->36,
+ FontWeight->"Plain",
+ FontTracking->"Plain",
+ FontColor->RGBColor[
+  0.8002899214160373, 0.04512092774853132, 0.00827038986800946]]], "Title",
+ Evaluatable->False,
+ CellChangeTimes->{{3.779939682019757*^9, 3.779939763802432*^9}, {
+   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.787143897093936*^9, 
+   3.787143940647352*^9}, {3.8023000419716*^9, 3.802300064165675*^9}, {
+   3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
+   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.806637954488239*^9, 
+   3.806637999223695*^9}, 3.8066380980786543`*^9, {3.816740234302414*^9, 
+   3.816740244318205*^9}, {3.907239741144424*^9, 3.907239743495754*^9}, 
+   3.9137259674807673`*^9, {3.913810412180473*^9, 3.91381042681289*^9}, {
+   3.9138104604696007`*^9, 3.913810464061796*^9}, {3.9138106839900103`*^9, 
+   3.913810686564855*^9}, {3.9138107287889495`*^9, 3.91381072930856*^9}, {
+   3.91844408124086*^9, 3.918444082392267*^9}, {3.918445527655807*^9, 
+   3.918445530528227*^9}, {3.918531972392365*^9, 3.918531982314951*^9}, {
+   3.9205557440384483`*^9, 3.920555753701229*^9}, {3.925080880932034*^9, 
+   3.92508088424465*^9}, {3.9627546378027687`*^9, 3.96275465549111*^9}, {
+   3.963089216157789*^9, 3.96308922485277*^9}, {3.967372409317007*^9, 
+   3.9673724138374996`*^9}, 4.0036356235458355`*^9, {4.003663120644018*^9, 
+   4.0036631329560375`*^9}, 4.00379816709338*^9, {4.004102110202013*^9, 
+   4.00410211939468*^9}, {4.0042373447879467`*^9, 4.0042373529720287`*^9}},
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"5a7560a2-5181-6d43-82a4-\
+c2218366b036"],
+
+Cell[TextData[StyleBox["Methods and User Guide", "Subtitle",
+ FontSize->24,
+ FontWeight->"Plain",
+ FontTracking->"Plain",
+ FontColor->GrayLevel[0.5]]], "Title",
+ Evaluatable->False,
+ CellChangeTimes->{{3.779939682019757*^9, 3.779939763802432*^9}, {
+   3.7865363228492603`*^9, 3.786536325564995*^9}, {3.787143897093936*^9, 
+   3.787143940647352*^9}, {3.8023000419716*^9, 3.802300064165675*^9}, {
+   3.8043387957771072`*^9, 3.804338807636772*^9}, 3.806637846631281*^9, {
+   3.806637885132716*^9, 3.8066379181196594`*^9}, {3.806637954488239*^9, 
+   3.806637999223695*^9}, 3.8066381021359987`*^9, {3.816740202548535*^9, 
+   3.816740206625699*^9}, {3.907239757015845*^9, 3.907239784712085*^9}, {
+   3.913725980633249*^9, 3.9137259825216074`*^9}, {3.913801331902559*^9, 
+   3.91380140537482*^9}, {3.913809756821827*^9, 3.91380975942914*^9}, {
+   3.918445574121757*^9, 3.918445654560941*^9}, {3.9185320065964546`*^9, 
+   3.918532019676977*^9}, {3.920555730235065*^9, 3.9205557326012745`*^9}, {
+   3.925080912212269*^9, 3.92508095040484*^9}, {3.926422725281414*^9, 
+   3.92642272950086*^9}, {3.931778733119692*^9, 3.931778736686823*^9}, 
+   3.931778797626745*^9, {3.962754666250902*^9, 3.962754699034319*^9}, {
+   3.9627547458260765`*^9, 3.962754765907158*^9}, {3.96308923326947*^9, 
+   3.963089267652216*^9}, {3.9643265610333595`*^9, 3.9643265679124355`*^9}, {
+   3.967372397760084*^9, 3.9673724007013206`*^9}, {3.9840554725114994`*^9, 
+   3.9840554931174183`*^9}, {4.0036357016062393`*^9, 4.003635731563774*^9}, {
+   4.003635987281595*^9, 4.0036360022772408`*^9}, 4.003663140749054*^9, {
+   4.0037978882690907`*^9, 4.0037978927012806`*^9}, {4.004103056339264*^9, 
+   4.004103057578253*^9}, {4.0042373592053013`*^9, 
+   4.004237364643984*^9}},ExpressionUUID->"751af710-be5d-8a4d-9f5e-\
+a8e227267256"],
+
+Cell[TextData[{
+ StyleBox["Theodora Chatzimichail, MRCS\n",
+  FontSize->18,
+  FontWeight->"Normal"],
+ StyleBox["tc@hcsl . com",
+  FontSize->16,
+  FontWeight->"Normal",
+  FontColor->GrayLevel[0.5]],
+ StyleBox["\nRallou A . Chatzimichail, MEng, MSc, PhD",
+  FontSize->18,
+  FontWeight->"Normal"],
+ "\n",
+ StyleBox["rc@hcsl . com",
+  FontSize->16,
+  FontWeight->"Normal",
+  FontColor->GrayLevel[0.5]],
+ "\n",
+ StyleBox["Aristides T . Hatjimihail, MD, PhD",
+  FontSize->18,
+  FontWeight->"Normal"],
+ "\n",
+ StyleBox["ath@hcsl . com\n",
+  FontSize->16,
+  FontColor->GrayLevel[0.5]]
+}], "Author",
+ CellChangeTimes->{{4.003797532643551*^9, 4.003797561081251*^9}, {
+   4.0043192429017525`*^9, 4.0043192684133663`*^9}, 
+   4.004319330109606*^9},ExpressionUUID->"5161bb9b-1a25-e84f-9dbd-\
+3ba6328a0794"],
+
+Cell["\<\
+Hellenic Complex Systems Laboratory, Kostis Palamas 21, 66131 Drama, Greece.\
+\>", "Affiliation",
+ CellChangeTimes->{{3.779939871863575*^9, 3.77994000946682*^9}, {
+   3.7799400566027045`*^9, 3.7799400570186176`*^9}, 3.780026865496773*^9, 
+   3.790605454904579*^9, 4.004268297247961*^9, 
+   4.004319343621401*^9},ExpressionUUID->"ce61b293-ed82-e94a-8257-\
+c1a60f4d5cba"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Synopsis",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Section",
+ CellChangeTimes->{{4.0042408721766415`*^9, 4.0042408766082687`*^9}},
+ FontSize->24,ExpressionUUID->"7cdeadb8-e1fa-514c-ae46-e05785037388"],
+
+Cell["A guide to \
+latent-class probability, uncertainty decomposition, and fitting paired assay \
+data without a gold standard. The calculator estimates membership in the \
+class with higher mean log assay-1 concentration.", "Text", 
+         ExpressionUUID -> "d548dafe-312a-b14d-903c-b317b9d9a555"],
+
+Cell[TextData[{
+ StyleBox[ButtonBox["Start",
+  BaseStyle->"Hyperlink",
+  ButtonData->"Start"],
+  FontSize->16],
+ StyleBox["     ",
+  FontSize->16],
+ StyleBox[ButtonBox["Model",
+  BaseStyle->"Hyperlink",
+  ButtonData->"Model"],
+  FontSize->16],
+ StyleBox["     ",
+  FontSize->16],
+ StyleBox[ButtonBox["Uncertainty",
+  BaseStyle->"Hyperlink",
+  ButtonData->"Uncertainty"],
+  FontSize->16],
+ StyleBox["     ",
+  FontSize->16],
+ StyleBox[ButtonBox["Reference example",
+  BaseStyle->"Hyperlink",
+  ButtonData->"Reference"],
+  FontSize->16],
+ StyleBox["     ",
+  FontSize->16],
+ StyleBox[ButtonBox["Custom data",
+  BaseStyle->"Hyperlink",
+  ButtonData->"Custom"],
+  FontSize->16],
+ StyleBox["     ",
+  FontSize->16],
+ StyleBox[ButtonBox["Sources",
+  BaseStyle->"Hyperlink",
+  ButtonData->"Sources"],
+  FontSize->16],
+ StyleBox["     ",
+  FontSize->16],
+ StyleBox[ButtonBox["Notation",
+  BaseStyle->"Hyperlink",
+  ButtonData->"Notation"],
+  FontSize->16],
+ "     ",
+ StyleBox[ButtonBox["Examples",
+  BaseStyle->"Hyperlink",
+  ButtonData->"Examples"],
+  FontSize->16]
+}], "Text",ExpressionUUID->"5ac63f52-586b-e346-82d1-30d10d8c0a43"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Use the calculator",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Section",
+ FontSize->24,
+ FontColor->RGBColor[
+  0.11999694819562066`, 0.2899977111467155, 0.39000534065766385`],
+ CellTags->"Start",ExpressionUUID->"15540a3d-f868-2445-9c18-e69fb7022847"],
+
+Cell["\<\
+The reference model was fitted to paired fasting plasma glucose (FPG) and \
+two-hour oral glucose tolerance test glucose (OGTT). A new prediction needs \
+only the observed FPG. Class 1 is the latent class with the higher mean log \
+FPG.\
+\>", "Text",ExpressionUUID->"76b00626-5dce-0e4f-ba03-f3e92b44e842"],
+
+Cell[BoxData[
+ DynamicModuleBox[{message$$, busy$$, companion$$}, 
+  TagBox[GridBox[{
+     {
+      TemplateBox[{
+        ButtonBox[
+        "\"Open calculator\"", ButtonFunction :> With[{path$ = FileNameJoin[{
+               NotebookDirectory[
+                EvaluationNotebook[]], 
+               "BayesianDiagnosticProbabilityAndUncertainty.nb"}]}, 
+           If[
+            TrueQ[
+             companion$$[path$, False]], 
+            NotebookOpen[path$], message$$ = 
+            "Place the matching BDPU-LC calculator notebook in the same \
+folder as this helper."]], Method -> "Queued", Appearance -> Automatic, 
+         Evaluator -> Automatic], 
+        TemplateBox[{12}, "Spacer1"], 
+        ButtonBox["\"Load functions for examples\"", ButtonFunction :> If[
+           Not[
+            TrueQ[busy$$]], busy$$ = True; 
+           message$$ = "Loading functions and the reference fit..."; 
+           message$$ = If[
+              TrueQ[
+               CheckAbort[
+                companion$$[
+                 FileNameJoin[{
+                   NotebookDirectory[
+                    EvaluationNotebook[]], 
+                   "BayesianDiagnosticProbabilityAndUncertainty.nb"}], True], 
+                False]], 
+              "Functions are ready. Select an example input cell and press \
+Shift+Enter.", 
+              "Loading failed. Keep both updated notebooks together and try \
+again."]; busy$$ = False], Enabled -> Dynamic[
+           Not[
+            TrueQ[busy$$]]], Method -> "Queued", Appearance -> Automatic, 
+         Evaluator -> Automatic]},
+       "RowDefault"]},
+     {
+      DynamicBox[ToBoxes[
+        If[
+         And[
+          StringQ[message$$], message$$ =!= ""], message$$, 
+         Spacer[{0, 0}]], StandardForm],
+       ImageSizeCache->{0., {0., 0.}},
+       TrackedSymbols:>{message$$}]}
+    },
+    DefaultBaseStyle->"Column",
+    GridBoxAlignment->{"Columns" -> {{Left}}},
+    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+    GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{0.4}}}],
+   "Column"],
+  DynamicModuleValues:>{},
+  Initialization:>(companion$$ = Function[{file, initialize}, 
+     Module[{book, engine}, If[
+        Not[
+         FileExistsQ[file]], 
+        Return[False, Module]]; book = Quiet[
+         Check[
+          Get[file], $Failed]]; If[Head[book] =!= Notebook, 
+        Return[False, Module]]; engine = Cases[
+         First[book], Condition[
+           Cell[
+            BoxData[
+             Pattern[boxes, 
+              Blank[]]], "Input", 
+            Pattern[opts, 
+             BlankNullSequence[]]], 
+           MemberQ[{opts}, CellTags -> "BDPUlCStandaloneInitialization"]] :> 
+         boxes, Infinity]; If[Length[engine] =!= 1, 
+        Return[False, Module]]; If[
+        Not[
+         TrueQ[initialize]], 
+        Return[True, Module]]; And[
+        Block[{$Context = "Global`", $ContextPath = {"System`", "Global`"}}, 
+         Quiet[
+          Check[ToExpression[
+             First[engine], StandardForm]; True, False]]], 
+        And[
+        DownValues[lCProbability] =!= {}, 
+         DownValues[lCPriorProbability] =!= {}, DownValues[lCFit] =!= {}, 
+         AssociationQ[ngsDefaultFit], 
+         AssociationQ[ngsDefaultRecord], 
+         AssociationQ[ngsDefaultCurves], 
+         TrueQ[ngsDefaultFit["model"] == "BDPU-LC-0.1"]]]]]),
+  SynchronousInitialization->True,
+  UnsavedVariables:>{message$$, busy$$, companion$$}]], "Output",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ FontWeight->"Plain",
+ CellTags->
+  "lCHelperStart",ExpressionUUID->"2208f7dd-c54f-5649-bf53-d0d8bb2185de"],
+
+Cell["\<\
+Keep the two notebooks in the same folder. Open calculator opens the main \
+notebook. To run the examples here in a fresh kernel, choose Load functions \
+for examples. This loads the functions and embedded reference fit from the \
+companion calculator.\
+\>", "Text",ExpressionUUID->"1dcfe286-5d9f-df49-9b16-499480803cf0"],
+
+Cell[CellGroupData[{
+
+Cell["Calculate a probability", "Subsection",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"c372cb41-b61d-b64e-be1f-\
+3656428e772f"],
+
+Cell["\<\
+In the calculator, choose Start analysis. Review the active dataset, enter an \
+observed first-assay result in the displayed units and choose an interval \
+level. Select Calculate probabilities to apply the inputs. For the reference \
+model, use FPG 126 mg/dL and a 95% credible interval.\
+\>", "Text",ExpressionUUID->"398d64e2-9f7e-a940-a62b-3871ebdca807"],
+
+Cell["\<\
+The headline gives the class-1 probability before and after the observation, \
+both as decimals on the 0 to 1 scale. The fitted pretest probability is the \
+mean class-1 mixture weight across posterior draws. Tables gives both \
+classes, the parameter and total-Q intervals, and the uncertainty components. \
+Class 0 has probability 1 minus the class-1 probability and reflected \
+interval limits.\
+\>", "Text",ExpressionUUID->"9329bfe6-cfc5-f945-9c96-30782ca503a2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Explore curves and save a result", "Subsection",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"5c541f2f-823f-1a43-ab6a-\
+f39c64f0a1fa"],
+
+Cell["\<\
+In Plots, set positive lower and upper assay limits, select 3 to 201 regular \
+grid nodes and choose Generate curves. When the applied observation lies \
+inside the range, the plot includes its exact value. The table remains \
+available for observations outside the displayed range.\
+\>", "Text",ExpressionUUID->"4585f075-fff7-eb45-9654-9c3db8470230"],
+
+Cell["\<\
+Export result writes the applied record to JSON. Restore reference returns to \
+the embedded NHANES analysis. A newly opened calculator starts with the \
+reference fit.\
+\>", "Text",ExpressionUUID->"b442cd7c-bd57-c54c-9f75-343a51a16da1"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Model and posterior conditioning",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Section",
+ FontSize->24,
+ FontColor->RGBColor[0.12, 0.29, 0.39],
+ CellTags->"Model",ExpressionUUID->"40184b46-1f9c-f74f-9470-b81e48dab176"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Latent classes and assay error",
+ FontSize->20,
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Subsection",
+ FontSize->16,
+ FontColor->RGBColor[
+  0.21, 0.34, 0.42],ExpressionUUID->"7f473582-e2ce-6846-b725-804bee107222"],
+
+Cell["Let D denote \
+an unobserved binary class, Z the latent pair of log concentrations and Y the \
+observed log pair. Conditional on class d, Z is bivariate normal with mean \
+vector \[Mu]d and covariance \[CapitalSigma]d. Independent analytical error \
+adds a diagonal variance matrix R on the log scale. Each diagonal element is \
+log(1 + CV squared) for the corresponding assay.", "Text", ExpressionUUID -> 
+                "8fad82b2-be03-9143-bd51-0be7d0f3b222"],
+
+Cell[BoxData[
+                FormBox[RowBox[{RowBox[{RowBox[{SubscriptBox["Y", "i"], " ", 
+                       "|", " ", RowBox[{RowBox[{SubscriptBox["D", "i"], " ", 
+                          RowBox[{"=", " ", "d"}]}], "\[Tilde]", " ", 
+                         RowBox[{RowBox[{"\[ScriptCapitalN]", "("}], 
+                          SubscriptBox["\[Mu]", "d"]}]}]}], ",", " ", 
+                     RowBox[{SubscriptBox["\[CapitalSigma]", "d"], " ", 
+                       RowBox[{"+", " ", "R"}]}]}], ")"}], TraditionalForm]], 
+               "DisplayFormula", ExpressionUUID -> 
+                "0e0f55ce-11f7-f14a-a13e-2025a96a89db"],
+
+Cell["The full \
+covariance model allows assay dependence within each class. Class 1 has the \
+higher mean log concentration on the first assay. Neither assay supplies an \
+error-free reference label. The observed second assay contributes to fitting \
+through the joint likelihood.", "Text", ExpressionUUID -> 
+                "51ddfb04-a7f7-2c49-8259-8a5f9ce291e3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Posterior weighting for one new result",
+ FontSize->20,
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Subsection",
+ FontSize->16,
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"f407bf78-9e91-f941-a907-\
+aada407385ac"],
+
+Cell["For a positive \
+observed concentration x, let y = log x. For posterior draw s, let \[Pi]ds be \
+the class proportion and fds(y) the marginal observed log-assay density for \
+class d. The predictive density hs is the sum of the two class-weighted \
+densities. The class-1 probability across equally weighted posterior draws \
+is", "Text", ExpressionUUID -> "edfc38d6-1252-444c-83aa-6583765e388a"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"p", "(", "x", ")"}], " ", "=", " ", 
+    FractionBox[
+     RowBox[{
+      UnderscriptBox["\[Sum]", "s"], 
+      SubscriptBox["\[Pi]", 
+       RowBox[{"1", "s"}]], 
+      SubscriptBox["f", 
+       RowBox[{"1", "s"}]], 
+      RowBox[{"(", "y", ")"}]}], 
+     RowBox[{
+      UnderscriptBox["\[Sum]", "s"], 
+      SubscriptBox["h", "s"]}]]}], ",", "     ", 
+   RowBox[{
+    SubscriptBox["h", "s"], " ", "=", " ", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["\[Pi]", 
+       RowBox[{"0", "s"}]], 
+      SubscriptBox["f", 
+       RowBox[{"0", "s"}]], 
+      RowBox[{"(", "y", ")"}]}], " ", "+", " ", 
+     RowBox[{
+      SubscriptBox["\[Pi]", 
+       RowBox[{"1", "s"}]], 
+      SubscriptBox["f", 
+       RowBox[{"1", "s"}]], 
+      RowBox[{"(", "y", ")"}]}]}]}]}], TraditionalForm]], "DisplayFormula",Exp\
+ressionUUID->"1523890f-55ff-224b-96cc-8f9d80a90f83"],
+
+Cell["Thus a \
+parameter draw receives more weight when it predicts the observed assay value \
+more readily. The parameter interval uses quantiles of the per-draw class \
+probability under these weights. Here and below, all predictions also \
+condition on the training data.", "Text", ExpressionUUID -> 
+                "30ead304-9e3e-fd47-a342-bef1b02ad519"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Interpret probability and uncertainty",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Section",
+ FontSize->24,
+ FontColor->RGBColor[0.12, 0.29, 0.39],
+ CellTags->
+  "Uncertainty",ExpressionUUID->"e7264fea-5c13-4b43-8d6b-5ca501823ea8"],
+
+Cell["Define Q as the \
+class-1 probability conditional on the latent first-assay value and the model \
+parameters \[Theta]. Its posterior variance at the new observation has two \
+components.", "Text", ExpressionUUID -> 
+             "af04e5b9-16ce-2946-affc-b0c8b6535f6a"],
+
+Cell[BoxData[FormBox[RowBox[{SuperscriptBox[SubscriptBox["u", 
+                  "Q"], "2"], " ", "=", " ", RowBox[{SuperscriptBox[
+                   SubscriptBox["u", "parameter"], "2"], " ", "+", " ", 
+                  SuperscriptBox[SubscriptBox["u", "measurement"], "2"]}]}], 
+              TraditionalForm]], "DisplayFormula", ExpressionUUID -> 
+             "d31916f5-0b7d-4641-94e6-dbb8b2ff8d5e"],
+
+Cell["Parameter \
+variance is the posterior variance of E[Q | y, \[Theta]] across draws \
+conditioned on y. New-result measurement variance is the posterior mean of \
+Var(Q | y, \[Theta]). The square root of each variance gives the \
+corresponding standard uncertainty in probability units. For nonzero total \
+variance, the calculator also reports the percentage attributable to each \
+component. A zero first-assay analytical CV makes the new-result measurement \
+variance zero.", "Text", ExpressionUUID -> 
+             "d91cc53e-5b3d-9248-812f-3c01252f9db0"],
+
+Cell["The total-Q \
+interval uses posterior simulated values of Q and includes both \
+contributions. The calculator draws the latent first-assay values in seeded \
+order and evaluates the two class densities for the sampled values together. \
+It excludes future Bernoulli outcome variation, uncertainty about clinical \
+class meaning, structural model uncertainty and uncertainty in the fixed CVs. \
+Changing the interval level changes the quantiles. It does not change the \
+mean probability or its standard uncertainties.", "Text", ExpressionUUID -> 
+             "7a6bfe17-728c-0a43-bbd2-7ed977aed3b7"],
+
+Cell["Curves connect \
+calculated nodes. The limits at each node are pointwise credible limits. They \
+do not provide simultaneous coverage of the entire curve. An ordered pair of \
+class means does not impose monotonicity of the posterior class probability \
+across observed values.", "Text", ExpressionUUID -> 
+             "4361642e-1cd9-f441-9ca2-a3bc32f6507e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["NHANES reference example", "Section",
+ FontSize->24,
+ FontColor->RGBColor[0.8, 0.043137254901960784`, 0.00784313725490196],
+ CellTags->"Reference",ExpressionUUID->"62fbe35c-34ec-3345-99a3-9486040776d0"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Cohort and fit",
+ FontSize->20,
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Subsection",
+ FontSize->16,
+ FontColor->RGBColor[
+  0.21, 0.34, 0.42],ExpressionUUID->"0365d67f-1083-6c46-89b6-3be54c234665"],
+
+Cell["The selected NHANES 2013\[Dash]2014 cohort had 1,702 \
+paired FPG and OGTT observations. A split stratified on measured OGTT status \
+produced 1,361 training pairs and 341 held-out pairs. The original split \
+indicator was OGTT at least 200 mg/dL. Only the measurements enter the fitted \
+likelihood. No survey weights enter this analysis.", "Text", 
+               ExpressionUUID -> "92ccbb8d-6e35-9e47-8abe-a51fe85c8494"],
+
+Cell["The bundled fit uses four chains with seeds 72101 through \
+72104. Each chain ran for 6,500 iterations with 2,000 discarded and every \
+third subsequent draw retained, giving 6,000 draws in total. Fixed analytical \
+CVs are 0.01332098 for FPG and 0.01023046 for OGTT. The second CV is an \
+assumed proxy.", "Text", ExpressionUUID -> 
+                "8506a3f1-476c-ad45-b146-6593cd5ba504"],
+
+Cell["The reference \
+Dirichlet prior on the class weights has concentration parameters (1, 1). The \
+location centers before log transformation are (90, 95) and (130, 180) mg/dL. \
+The normal-inverse-Wishart parameters are \[Kappa] = 0.1, \[Nu] = 4 and \
+diagonal scale entries (0.04, 0.25). Proposals must preserve the class \
+ordering and positive-definite latent covariance after subtraction of the \
+analytical-error covariance.", "Text", ExpressionUUID -> 
+                "a73117cf-d1f5-8a4b-815f-72b48e9f4f75"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Read the saved result",
+ FontSize->20]], "Subsection",
+ FontSize->16,
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"52b642c2-496b-964d-81f9-\
+aca571aece50"],
+
+Cell["The fitted class-1 probability before observing FPG is \
+0.0654. At FPG 126 mg/dL the posterior probability is 0.4411. The 95% \
+parameter interval is 0.2041 to 0.6843. Parameter, new-result measurement and \
+total-Q standard uncertainties are 0.1218, 0.0815 and 0.1466. The ratio \
+estimate has Monte Carlo standard error of about 0.0042.", "Text", 
+               ExpressionUUID -> "c6ca479d-a3fc-7940-b744-5e6926c52f95"],
+
+Cell["The saved reference realization gives a 95% total-Q \
+interval of 0.1794 to 0.7371. It uses 24,000 draws and seed 8271. Calculate \
+probabilities uses the Wolfram random-number stream with the same draw count \
+and seed. With this posterior at 126 mg/dL, the Wolfram 15.0.1 calculation \
+gives 0.1752 to 0.7396. The three default curves retain saved records at 103 \
+nodes from 67 to 333 mg/dL, including 110 and 126 mg/dL. Each level uses the \
+same grid.", "Text", ExpressionUUID -> 
+                "c016b8f1-30df-3f41-9eec-8f471888eec7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Check assumptions",
+ FontSize->20]], "Subsection",
+ FontSize->16,
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"80bf8029-4ad1-2f4f-b39a-\
+083475bb2202"],
+
+Cell["An exploratory diagonal-covariance fit changed the \
+class-1 probability at 126 mg/dL from 0.4411 to 0.6659. The held-out joint \
+log score of \[Minus]8.6080 per participant measures prediction of the paired \
+observed concentrations. The selected cohort and the class definition limit \
+clinical and population interpretation.", "Text", ExpressionUUID -> 
+                "3193b909-6a19-2643-b0b8-fe42aab1c363"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Fit custom data", "Section",
+ FontSize->24,
+ FontColor->RGBColor[0.8, 0.043137254901960784`, 0.00784313725490196],
+ CellTags->"Custom",ExpressionUUID->"39a6685a-73b0-904e-a32a-53bed0eaf3d9"],
+
+Cell["\<\
+In Data and model, prepare a headerless CSV with at least 20 complete rows \
+and exactly two positive numeric columns in assay-1, assay-2 order. Enter the \
+assay names and units, analytical CVs as fractions, and the prior settings. \
+The prior centers use the units of their respective assay columns.\
+\>", "Text",ExpressionUUID->"34614867-88a7-d54b-ae0b-f4c773ea9678"],
+
+Cell["\<\
+Select the covariance structure, iterations, burn-in, thinning and seed. \
+Choose Import CSV and fit one exploratory chain. After a successful fit, \
+enter a first-assay value and select Calculate probabilities. A failed import \
+or fit leaves the previous fit active. Changes to the paired data, analytical \
+CVs, dependence structure or prior settings require a new fit. Assess \
+convergence across several independent chains and examine sensitivity to the \
+model assumptions.\
+\>", "Text",ExpressionUUID->"3a3729bc-457b-754e-9593-843c2db8a5c6"],
+
+Cell["\<\
+For imported data the record identifies the CSV by the SHA-256 hash of its \
+source bytes. The fit fingerprint uses a key-sorted Wolfram RawJSON \
+serialization. Both the result and its provenance are retained by Export \
+result.\
+\>", "Text",ExpressionUUID->"758aeabd-c190-f246-87e4-1aeb8cca5cbf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Callable functions and examples", "Section",
+ FontSize->24,
+ CellTags->"Examples",ExpressionUUID->"b6f2abf4-8156-2e4c-b71d-1092660b295a"],
+
+Cell["\<\
+Select Load functions for examples above, then select an input cell and press \
+Shift+Enter. Each example runs independently. The functions accept credible \
+levels as fractions, for example 0.95. They return numeric probabilities and \
+limits on the 0 to 1 scale.\
+\>", "Text",ExpressionUUID->"f0daf43d-4837-2242-ab30-0b19e2a61edf"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Pretest and posterior probabilities",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Subsection",ExpressionU\
+UID->"b3ac8742-0faa-4344-a43b-469cc305dac8"],
+
+Cell["\<\
+lCPriorProbability[fit] returns the fitted probability of class 1 before a \
+new result. lCProbability[fit, value] conditions on a positive observed \
+first-assay concentration. The Level option sets the interval mass. The \
+example uses the full saved posterior.\
+\>", "Text",
+ CellChangeTimes->{{4.0043190643678513`*^9, 
+  4.0043190660666103`*^9}},ExpressionUUID->"bb2801e6-19be-834a-9cb7-\
+d5ae36a1fe18"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "Apply", " ", "the", " ", "new", " ", "FPG", " ", "to", " ", "the", " ", 
+     "saved", " ", "fit", " ", "once"}], ",", " ", 
+    RowBox[{"then", " ", "select", " ", "the", " ", "result", " ", 
+     RowBox[{"fields", "."}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"With", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"r", "=", 
+      RowBox[{"lCProbability", "[", 
+       RowBox[{"lcDefaultFit", ",", "126.`", ",", 
+        RowBox[{"\"\<Level\>\"", "\[Rule]", "0.95`"}]}], "]"}]}], "}"}], ",", 
+    RowBox[{"Join", "[", 
+     RowBox[{
+      RowBox[{"Association", "[", 
+       RowBox[{"\"\<pretest_probability\>\"", "\[Rule]", 
+        RowBox[{"lCPriorProbability", "[", "lcDefaultFit", "]"}]}], "]"}], ",", 
+      RowBox[{"KeyTake", "[", 
+       RowBox[{"r", ",", 
+        RowBox[{"{", 
+         RowBox[{"\"\<probability\>\"", ",", "\"\<complement_probability\>\"",
+           ",", "\"\<parameter_interval\>\"", 
+          ",", "\"\<total_q_interval\>\""}], "}"}]}], "]"}]}], "]"}]}], 
+   "]"}]}]], "Input",
+ Evaluatable->True,
+ CellChangeTimes->{{4.004319068150423*^9, 4.0043190694023952`*^9}, {
+  4.0043191568401833`*^9, 4.004319158256502*^9}},
+ CellTags->"lCExampleProbability",
+ CellLabel->
+  "In[274]:=",ExpressionUUID->"6c43cdc3-5d61-d544-887a-4076078f7c2b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "KeyTake", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{\\\"lCProbability\\\", \\\"[\\\", \
+RowBox[{\\\"lcDefaultFit\\\", \\\",\\\", \\\"126.`\\\", \\\",\\\", RowBox[{\\\
+\"\\\\\\\"Level\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"0.95`\\\"}]}], \
+\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 274, 5, 
+   24686132622956226923, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{4.0043642639550343`*^9},
+ CellTags->"lCExampleProbability",
+ CellLabel->
+  "During evaluation of \
+In[274]:=",ExpressionUUID->"01fe005d-f2e6-2c4a-b344-b903d9b5ca12"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Join", "incpt", 
+   "\"Incompatible elements in \\!\\(\\*RowBox[{\\\"Join\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"\[LeftAssociation]\\\", \
+RowBox[{\\\"\\\\\\\"pretest_probability\\\\\\\"\\\", \\\"\[Rule]\\\", \
+InterpretationBox[RowBox[{TagBox[\\\"Failure\\\", \\\"SummaryHead\\\"], \\\"[\
+\\\", DynamicModuleBox[{Typeset`open$$ = False, Set[Typeset`embedState$$, \
+\\\"Ready\\\"]}, TemplateBox[List[PaneSelectorBox[List[Rule[False, \
+GridBox[List[List[FrameBox[StyleBox[\\\"\\\\\\\"\\\\[WarningSign]\\\\\\\"\\\",\
+ Directive[\\\"Message\\\", 35], Rule[StripOnInput, False]], \
+Rule[ContentPadding, False], Rule[FrameStyle, None], Rule[FrameMargins, \
+List[List[0, 0], List[0, 0]]], Rule[StripOnInput, False]], \
+GridBox[List[List[TagBox[GridBox[List[List[TagBox[\\\"\\\\\\\"Message: \\\\\\\
+\"\\\", \\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\
+\\\"\\\\\\\"Supply a fitted two-class latent-class posterior.\\\\\\\"\\\", \\\
+\"SummaryItem\\\"]]], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[6.5`, All, Automatic]]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\
+\", List[List[Left]]]]], Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", \
+List[List[0]]]]]], \\\"SummaryItem\\\"]], \
+List[TagBox[GridBox[List[List[TagBox[\\\"\\\\\\\"Tag: \\\\\\\"\\\", \
+\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
+\\\"Input\\\\\\\"\\\", \\\"SummaryItem\\\"]]], Rule[GridBoxItemSize, \
+List[Rule[\\\"Columns\\\", List[6.5`, All, Automatic]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[0]]]]]], \
+\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
+List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
+List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
+Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
+Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
+Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
+1]]]], Rule[True, \
+GridBox[List[List[FrameBox[StyleBox[\\\"\\\\\\\"\\\\[WarningSign]\\\\\\\"\\\",\
+ Directive[\\\"Message\\\", 35], Rule[StripOnInput, False]], \
+Rule[ContentPadding, False], Rule[FrameStyle, None], Rule[FrameMargins, \
+List[List[0, 0], List[0, 0]]], Rule[StripOnInput, False]], \
+GridBox[List[List[TagBox[GridBox[List[List[TagBox[\\\"\\\\\\\"Message: \\\\\\\
+\"\\\", \\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\
+\\\"\\\\\\\"Supply a fitted two-class latent-class posterior.\\\\\\\"\\\", \\\
+\"SummaryItem\\\"]]], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[6.5`, All, Automatic]]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\
+\", List[List[Left]]]]], Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", \
+List[List[0]]]]]], \\\"SummaryItem\\\"]], \
+List[TagBox[GridBox[List[List[TagBox[\\\"\\\\\\\"Tag: \\\\\\\"\\\", \
+\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
+\\\"Input\\\\\\\"\\\", \\\"SummaryItem\\\"]]], Rule[GridBoxItemSize, \
+List[Rule[\\\"Columns\\\", List[6.5`, All, Automatic]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[0]]]]]], \
+\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
+List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
+List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
+Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
+Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
+Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
+1]]]]], Dynamic[Typeset`open$$], Rule[ImageSize, Automatic]]], \
+\\\"SummaryPanel\\\"], RuleDelayed[DynamicModuleValues, List[]]], \
+\\\"]\\\"}], Failure[\\\"Input\\\", Association[Rule[\\\"MessageTemplate\\\", \
+\\\"Supply a fitted two-class latent-class posterior.\\\"]]], \
+Rule[Selectable, False], Rule[Editable, False], Rule[SelectWithContents, \
+True]]}], \\\"\[RightAssociation]\\\"}], \\\",\\\", RowBox[{\\\"KeyTake\\\", \
+\\\"[\\\", RowBox[{RowBox[{\\\"lCProbability\\\", \\\"[\\\", \
+RowBox[{\\\"lcDefaultFit\\\", \\\",\\\", \\\"126.`\\\", \\\",\\\", RowBox[{\\\
+\"\\\\\\\"Level\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"0.95`\\\"}]}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"probability\\\\\\\"\\\", \\\
+\",\\\", \\\"\\\\\\\"complement_probability\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"parameter_interval\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"total_q_interval\\\\\\\"\\\"}], \\\"}\\\"}]}], \\\"]\\\"}]}], \
+\\\"]\\\"}]\\) cannot be joined.\"", 2, 274, 6, 24686132622956226923, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{4.004364263977028*^9},
+ CellTags->"lCExampleProbability",
+ CellLabel->
+  "During evaluation of \
+In[274]:=",ExpressionUUID->"b068f962-8547-ba4e-a6c7-664d40426520"],
+
+Cell[BoxData[
+ RowBox[{"Join", "[", 
+  RowBox[{
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{"\<\"pretest_probability\"\>", "\[Rule]", 
+     InterpretationBox[
+      RowBox[{
+       TagBox["Failure",
+        "SummaryHead"], "[", 
+       DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
+        "Ready"}, 
+        TemplateBox[{
+          PaneSelectorBox[{False -> GridBox[{{
+                FrameBox[
+                 StyleBox["\"\[WarningSign]\"", 
+                  Directive["Message", 35], StripOnInput -> False], 
+                 ContentPadding -> False, FrameStyle -> None, 
+                 FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                GridBox[{{
+                   TagBox[
+                    GridBox[{{
+                    TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Supply a fitted two-class latent-class posterior.\"", 
+                    "SummaryItem"]}}, 
+                    GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0}}}], 
+                    "SummaryItem"]}, {
+                   TagBox[
+                    GridBox[{{
+                    TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Input\"", "SummaryItem"]}}, 
+                    GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0}}}], 
+                    "SummaryItem"]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+                 False, GridBoxItemSize -> {
+                  "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                 GridBoxSpacings -> {
+                  "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                 BaseStyle -> {
+                  ShowStringCharacters -> False, NumberMarks -> False, 
+                   PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+              GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+              AutoDelete -> False, 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+              BaselinePosition -> {1, 1}], True -> GridBox[{{
+                FrameBox[
+                 StyleBox["\"\[WarningSign]\"", 
+                  Directive["Message", 35], StripOnInput -> False], 
+                 ContentPadding -> False, FrameStyle -> None, 
+                 FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+                GridBox[{{
+                   TagBox[
+                    GridBox[{{
+                    TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Supply a fitted two-class latent-class posterior.\"", 
+                    "SummaryItem"]}}, 
+                    GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0}}}], 
+                    "SummaryItem"]}, {
+                   TagBox[
+                    GridBox[{{
+                    TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Input\"", "SummaryItem"]}}, 
+                    GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0}}}], 
+                    "SummaryItem"]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+                 False, GridBoxItemSize -> {
+                  "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                 GridBoxSpacings -> {
+                  "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                 BaseStyle -> {
+                  ShowStringCharacters -> False, NumberMarks -> False, 
+                   PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+              GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+              AutoDelete -> False, 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+              BaselinePosition -> {1, 1}]}, 
+           Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+         "SummaryPanel"],
+        DynamicModuleValues:>{}], "]"}],
+      Failure[
+      "Input", <|
+       "MessageTemplate" -> 
+        "Supply a fitted two-class latent-class posterior."|>],
+      Editable->False,
+      SelectWithContents->True,
+      Selectable->False]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"KeyTake", "[", 
+    RowBox[{
+     RowBox[{"lCProbability", "[", 
+      RowBox[{"lcDefaultFit", ",", "126.`", ",", 
+       RowBox[{"\<\"Level\"\>", "\[Rule]", "0.95`"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"probability\"\>", ",", "\<\"complement_probability\"\>", 
+       ",", "\<\"parameter_interval\"\>", ",", "\<\"total_q_interval\"\>"}], 
+      "}"}]}], "]"}]}], "]"}]], "Output",
+ CellChangeTimes->{4.0043642640236053`*^9},
+ CellTags->"lCExampleProbability",
+ CellLabel->
+  "Out[274]=",ExpressionUUID->"8cec21ab-8d4c-2e49-9fd0-92bf4a9282ee"]
+}, Open  ]],
+
+Cell["\<\
+To four decimal places the reference gives 0.0654 before the observation and \
+0.4411 afterwards. The class-0 posterior probability is 0.5589.\
+\>", "Text",ExpressionUUID->"ae113357-7824-0f4f-8014-1625726a1e7d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Uncertainty and interval levels", "Subsection",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"d9a76efe-b789-a648-b85b-\
+ac8bac10568c"],
+
+Cell["\<\
+The standard uncertainties are on the probability scale. Changing Level \
+changes the interval endpoints. With Measurement set to False, lCProbability \
+returns the probability and parameter uncertainty and skips calculation of \
+new-result measurement uncertainty. With Measurement set to True (the \
+default), Seed and TotalQDraws control the total-Q interval. Their defaults \
+are 8271 and 24000 draws.\
+\>", "Text",
+ CellChangeTimes->{{4.004319072462919*^9, 
+  4.004319072462919*^9}},ExpressionUUID->"6df25a29-6bdd-2e40-98ca-\
+29ca065119c6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"With", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"r", "=", 
+     RowBox[{"lCProbability", "[", 
+      RowBox[{"lcDefaultFit", ",", "126.`", ",", 
+       RowBox[{"\"\<Level\>\"", "\[Rule]", "0.9`"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"KeyTake", "[", 
+    RowBox[{"r", ",", 
+     RowBox[{"{", 
+      RowBox[{"\"\<level\>\"", ",", "\"\<probability\>\"", 
+       ",", "\"\<parameter_sd\>\"", ",", "\"\<measurement_sd\>\"", 
+       ",", "\"\<total_sd\>\"", ",", "\"\<parameter_interval\>\"", 
+       ",", "\"\<total_q_interval\>\""}], "}"}]}], "]"}]}], "]"}]], "Input",
+ Evaluatable->True,
+ CellChangeTimes->{4.004319074031372*^9, 4.0043191597044983`*^9},
+ CellTags->"lCExampleUncertainty",
+ CellLabel->
+  "In[275]:=",ExpressionUUID->"e962857c-17fe-444c-ba3c-ad14b2340613"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "KeyTake", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{\\\"lCProbability\\\", \\\"[\\\", \
+RowBox[{\\\"lcDefaultFit\\\", \\\",\\\", \\\"126.`\\\", \\\",\\\", RowBox[{\\\
+\"\\\\\\\"Level\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"0.9`\\\"}]}], \
+\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 275, 7, 
+   24686132622956226923, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{4.0043642640684853`*^9},
+ CellTags->"lCExampleUncertainty",
+ CellLabel->
+  "During evaluation of \
+In[275]:=",ExpressionUUID->"7efff858-f1c6-0449-b26d-ac5eb1cf9b33"],
+
+Cell[BoxData[
+ RowBox[{"KeyTake", "[", 
+  RowBox[{
+   RowBox[{"lCProbability", "[", 
+    RowBox[{"lcDefaultFit", ",", "126.`", ",", 
+     RowBox[{"\<\"Level\"\>", "\[Rule]", "0.9`"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"level\"\>", ",", "\<\"probability\"\>", 
+     ",", "\<\"parameter_sd\"\>", ",", "\<\"measurement_sd\"\>", 
+     ",", "\<\"total_sd\"\>", ",", "\<\"parameter_interval\"\>", 
+     ",", "\<\"total_q_interval\"\>"}], "}"}]}], "]"}]], "Output",
+ CellChangeTimes->{4.0043642640755444`*^9},
+ CellTags->"lCExampleUncertainty",
+ CellLabel->
+  "Out[275]=",ExpressionUUID->"6a386b69-7565-b249-acc9-d79f0aab23ff"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Accuracy at an assay threshold", "Subsection",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"c93d4912-9719-1f4f-9b86-\
+d2d844446e68"],
+
+Cell["\<\
+lCAccuracy[fit, threshold, level] returns model-implied sensitivity and \
+specificity for an observed first-assay threshold. For each posterior draw, \
+the calculation evaluates the observed-assay normal upper tail for class 1 \
+and the lower tail for class 0. It averages each tail across draws and \
+reports its interval.\
+\>", "Text",
+ CellChangeTimes->{{4.0043190754415283`*^9, 
+  4.0043190754415283`*^9}},ExpressionUUID->"9c435f09-0767-8743-a0a3-\
+7393a1808692"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"lCAccuracy", "[", 
+  RowBox[{"lcDefaultFit", ",", "126.`", ",", "0.95`"}], "]"}]], "Input",
+ Evaluatable->True,
+ CellChangeTimes->{4.004319076850666*^9, 4.0043191609789696`*^9},
+ CellTags->"lCExampleAccuracy",
+ CellLabel->
+  "In[276]:=",ExpressionUUID->"5c7e5261-a6d0-a343-9365-8f2b1a3f3b6b"],
+
+Cell[BoxData[
+ RowBox[{"lCAccuracy", "[", 
+  RowBox[{"lcDefaultFit", ",", "126.`", ",", "0.95`"}], "]"}]], "Output",
+ CellChangeTimes->{4.004364264093546*^9},
+ CellTags->"lCExampleAccuracy",
+ CellLabel->
+  "Out[276]=",ExpressionUUID->"b1fda473-c703-2d45-aa38-3ed724d047fa"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Read a saved curve", "Subsection",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"df6791a3-2a8a-4341-b7c3-\
+d5a150d368be"],
+
+Cell["\<\
+lCDefaultCurve[lcDefaultCurves, level] returns the saved curve for 0.90, 0.95 \
+or 0.99. Its grid and points are paired. The following cell reads the \
+archived point at 126 mg/dL. lCCurveValidQ[curve] checks the stored \
+probabilities, complementary bounds and variance decomposition.\
+\>", "Text",
+ CellChangeTimes->{{4.004319078478422*^9, 4.004319080002449*^9}, {
+  4.0043191632089634`*^9, 
+  4.0043191632099705`*^9}},ExpressionUUID->"4483077b-590d-ed4c-be51-\
+770c2627406d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"Read", " ", "the", " ", "archived", " ", "point"}], ";", " ", 
+    RowBox[{
+     RowBox[{"a", " ", "fresh", " ", "total"}], "-", 
+     RowBox[{"Q", " ", "draw", " ", "can", " ", "have", " ", "different", " ", 
+      RowBox[{"endpoints", "."}]}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"With", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"c", "=", 
+      RowBox[{"lCDefaultCurve", "[", 
+       RowBox[{"lcDefaultCurves", ",", "0.95`"}], "]"}]}], "}"}], ",", 
+    RowBox[{"KeyTake", "[", 
+     RowBox[{
+      RowBox[{"SelectFirst", "[", 
+       RowBox[{
+        RowBox[{"c", "[", "\"\<points\>\"", "]"}], ",", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"#1", "[", "\"\<value\>\"", "]"}], "\[Equal]", "126.`"}], 
+         "&"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<value\>\"", ",", "\"\<probability\>\"", 
+        ",", "\"\<parameter_interval\>\"", ",", "\"\<total_q_interval\>\""}], 
+       "}"}]}], "]"}]}], "]"}]}]], "Input",
+ Evaluatable->True,
+ CellChangeTimes->{4.0043190816648407`*^9, 4.0043191645344696`*^9},
+ CellTags->"lCExampleCurve",
+ CellLabel->
+  "In[277]:=",ExpressionUUID->"1356781f-a733-ba4f-b1c5-dbdeff55ca78"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "KeyTake", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{\\\"Missing\\\", \\\"[\\\", \
+\\\"\\\\\\\"NotFound\\\\\\\"\\\", \\\"]\\\"}]\\) is not a valid Association \
+or a list of rules.\"", 2, 277, 8, 24686132622956226923, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{4.0043642641388836`*^9},
+ CellTags->"lCExampleCurve",
+ CellLabel->
+  "During evaluation of \
+In[277]:=",ExpressionUUID->"2c0d673e-5b06-5a4e-9ce5-cf1e20387242"],
+
+Cell[BoxData[
+ RowBox[{"KeyTake", "[", 
+  RowBox[{
+   RowBox[{"Missing", "[", "\<\"NotFound\"\>", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"value\"\>", ",", "\<\"probability\"\>", 
+     ",", "\<\"parameter_interval\"\>", ",", "\<\"total_q_interval\"\>"}], 
+    "}"}]}], "]"}]], "Output",
+ CellChangeTimes->{4.004364264144884*^9},
+ CellTags->"lCExampleCurve",
+ CellLabel->
+  "Out[277]=",ExpressionUUID->"5acdcf6c-8216-494f-a45f-eae20867cb52"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Fit a paired dataset", "Subsection",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"69fc58b2-c0c7-9941-81cb-\
+9fa5014c4ba2"],
+
+Cell["\<\
+lCFit[pairs, options] takes an n by 2 numeric matrix of paired assay \
+concentrations. Its default priors and analytical CVs are those of the \
+reference analysis. AnalyticalCV supplies a two-element list of fractions, \
+PriorMeans supplies two pairs of centers in original assay units and \
+Dependence selects full or diagonal covariance. Options[lCFit] lists all \
+settings.\
+\>", "Text",
+ CellChangeTimes->{{4.0043190829854393`*^9, 
+  4.00431908576182*^9}},ExpressionUUID->"b024408d-21ad-8449-a2b3-\
+5d1358831048"],
+
+Cell["\<\
+This short example uses the first 60 embedded pairs and a single seeded chain \
+to demonstrate the call. It returns the row count and the number of retained \
+draws. Use suitable priors and compare longer independent chains for \
+inference.\
+\>", "Text",ExpressionUUID->"1b33b5c1-60f5-5f4b-9e3b-f1aa01ac9017"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"With", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"f", "=", 
+     RowBox[{"lCFit", "[", 
+      RowBox[{
+       RowBox[{"Take", "[", 
+        RowBox[{"lcTrainingData", ",", "60"}], "]"}], ",", 
+       RowBox[{"\"\<Iterations\>\"", "\[Rule]", "150"}], ",", 
+       RowBox[{"\"\<BurnIn\>\"", "\[Rule]", "50"}], ",", 
+       RowBox[{"\"\<Thin\>\"", "\[Rule]", "2"}], ",", 
+       RowBox[{"\"\<Seed\>\"", "\[Rule]", "72101"}]}], "]"}]}], "}"}], ",", 
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{"FailureQ", "[", "f", "]"}], ",", "f", ",", 
+     RowBox[{"Association", "[", 
+      RowBox[{
+       RowBox[{"\"\<training_rows\>\"", "\[Rule]", 
+        RowBox[{"f", "[", "\"\<n\>\"", "]"}]}], ",", 
+       RowBox[{"\"\<retained_draws\>\"", "\[Rule]", 
+        RowBox[{"Length", "[", 
+         RowBox[{"f", "[", "\"\<draws\>\"", "]"}], "]"}]}]}], "]"}]}], 
+    "]"}]}], "]"}]], "Input",
+ Evaluatable->True,
+ CellChangeTimes->{4.0043190877624435`*^9, 4.00431917345269*^9},
+ CellTags->"lCExampleFit",
+ CellLabel->
+  "In[278]:=",ExpressionUUID->"6d1c45a1-d72a-5646-8a6f-3764b910165d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Take", "take", 
+   "\"Cannot take positions \\!\\(\\*RowBox[{\\\"1\\\"}]\\) through \
+\\!\\(\\*RowBox[{\\\"60\\\"}]\\) in \\!\\(\\*RowBox[{\\\"lcTrainingData\\\"}]\
+\\).\"", 2, 278, 9, 24686132622956226923, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{4.004364264191551*^9},
+ CellTags->"lCExampleFit",
+ CellLabel->
+  "During evaluation of \
+In[278]:=",ExpressionUUID->"5195167f-392f-e14d-9d48-df061f7ecccd"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Failure",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"Supply at least 20 complete positive paired \
+quantitative measurements, with no labels.\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"Data\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"Supply at least 20 complete positive paired \
+quantitative measurements, with no labels.\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"Data\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Failure[
+  "Data", <|"MessageTemplate" -> 
+    "Supply at least 20 complete positive paired quantitative measurements, \
+with no labels."|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{4.0043642642110767`*^9},
+ CellTags->"lCExampleFit",
+ CellLabel->
+  "Out[278]=",ExpressionUUID->"ec7c1da8-d10f-6c46-908a-abfa07cef5e2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Export a calculated record", "Subsection",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 
+   0.00784313725490196],ExpressionUUID->"e24389ab-d8af-6a44-9f4a-\
+aec9dc144342"],
+
+Cell["\<\
+lCRecord[fit, metadata, value, level] packages the calculated point with its \
+applied settings, fit fingerprint and dataset information. \
+lCExportRecord[path, record] writes this association to JSON. This example \
+creates a new temporary folder and returns the full path.\
+\>", "Text",
+ CellChangeTimes->{{4.0043190891731052`*^9, 
+  4.0043190905685062`*^9}},ExpressionUUID->"6ab36ccc-3d26-8f43-a997-\
+4bc2c78df4f9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"With", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"r", "=", 
+     RowBox[{"lCRecord", "[", 
+      RowBox[{"lcDefaultFit", ",", 
+       RowBox[{"lcDefaultRecord", "[", "\"\<dataset\>\"", "]"}], ",", "126.`",
+        ",", "0.95`"}], "]"}]}], "}"}], ",", 
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{"FailureQ", "[", "r", "]"}], ",", "r", ",", 
+     RowBox[{"lCExportRecord", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"CreateDirectory", "[", "]"}], 
+          ",", "\"\<BDPUlC-result.json\>\""}], "}"}], "]"}], ",", "r"}], 
+      "]"}]}], "]"}]}], "]"}]], "Input",
+ Evaluatable->True,
+ CellChangeTimes->{{4.0043190228515625`*^9, 4.00431903297682*^9}, {
+  4.0043191803674564`*^9, 4.004319181447489*^9}},
+ CellTags->"lCExampleExport",
+ CellLabel->
+  "In[279]:=",ExpressionUUID->"bf7050a3-bf3a-e140-86ac-92631b66ae7b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Failure",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"Unsupported JSON result value.\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"JSONValue\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"Unsupported JSON result value.\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"JSONValue\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Failure[
+  "JSONValue", <|"MessageTemplate" -> "Unsupported JSON result value."|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{4.0043642642430744`*^9},
+ CellTags->"lCExampleExport",
+ CellLabel->
+  "Out[279]=",ExpressionUUID->"008ba513-94b5-d74d-8df2-35687eda3357"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Sources and scope", "Section",
+ FontSize->24,
+ FontColor->RGBColor[0.8, 0.043137254901960784`, 0.00784313725490196],
+ CellTags->"Sources",ExpressionUUID->"c8a914ca-54ef-ce4a-b204-fc3dca32a881"],
+
+Cell[TextData[{
+ "Chatzimichail T, Chatzimichail RA, Hatjimihail AT. ",
+ StyleBox["Latent class probabilities and uncertainty estimation without a \
+gold standard",
+  FontSlant->"Italic"],
+ ". Technical Report XXXII. Hellenic Complex Systems Laboratory; 2026. ",
+ ButtonBox["https://www.doi.org/10.5281/zenodo.24447301",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.doi.org/10.5281/zenodo.24447301"], None},
+  ButtonNote->"https://www.doi.org/10.5281/zenodo.24447301"],
+ "\n\tSee the accompanying technical report for the complete case study and \
+its research scope."
+}], "Text",
+ CellChangeTimes->{{4.0042484303612976`*^9, 4.0042484797675896`*^9}, 
+   4.004249838305977*^9, 4.004249871145035*^9, {4.004251715826769*^9, 
+   4.0042517405552692`*^9}, {4.0043639367303886`*^9, 4.004363994337452*^9}, {
+   4.0043641150741863`*^9, 
+   4.0043641325236073`*^9}},ExpressionUUID->"1b84de38-9b2c-374f-97ae-\
+e5f5a06e3997"],
+
+Cell[TextData[{
+ "National Center for Health Statistics. ",
+ ButtonBox["NHANES 2013\[Dash]2014 examination and laboratory data",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?\
+BeginYear=2013"], None}],
+ ". \n\tThe case study uses paired fasting and two-hour glucose measurements."
+}], "Text",
+ CellChangeTimes->{{4.004251746938156*^9, 
+  4.0042517474661713`*^9}},ExpressionUUID->"228ee0a2-438c-6645-bb43-\
+fd9294ae9e42"],
+
+Cell[TextData[{
+ "Hui SL, Walter SD (1980). ",
+ ButtonBox["Estimating the error rates of diagnostic tests",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://pubmed.ncbi.nlm.nih.gov/7370371/"], None}],
+ ". Biometrics 36, 167\[Dash]171. \n\tFoundational work on diagnostic-test \
+estimation with latent class membership."
+}], "Text",
+ CellChangeTimes->{{4.004251757002159*^9, 
+  4.00425175824218*^9}},ExpressionUUID->"0add8c86-d801-4a49-8ab7-\
+1df526ffa616"],
+
+Cell["The paired-assay \
+latent-class endpoint differs from a measured reference-threshold endpoint. \
+Results from reference-threshold, age-adjusted and simulation analyses \
+address different questions. The present calculator estimates the two-class \
+quantitative model described above.", "Text", ExpressionUUID -> 
+             "49878377-255c-ee43-bfcf-0831d192eb3d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Notation",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Section",
+ FontSize->24,
+ FontColor->RGBColor[
+  0.7914854657816434, 0.31950865949492635`, 0.09958037689784084],
+ CellTags->"Notation",ExpressionUUID->"8681dea1-7e77-454b-8add-17020fb0328b"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "bb80a4c9-b661-c34f-aea7-c8bf55263496"],
+ " : Observed assay-1 result\n",
+ Cell[BoxData[
+  FormBox["D", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "f82dc7a1-cc0a-1642-8a37-9904ba68d581"],
+ " : Latent class\n",
+ Cell[BoxData[
+  FormBox["d", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "4222f24a-3e0e-c54a-86be-dfcbdd864624"],
+ " : Class index (0 or 1)\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"p", "(", "x", ")"}], TraditionalForm]], "InlineFormula",
+  ExpressionUUID->"e2e6d877-64b9-7c43-a78f-5a0ff41933c8"],
+ " : Posterior probability of latent class 1\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "-", "p", "(", "x", ")"}], TraditionalForm]], "InlineFormula",
+  ExpressionUUID->"0bfe6866-efb6-c34b-8c5e-69efc8084347"],
+ " : Posterior probability of latent class 0\n",
+ Cell[BoxData[
+  FormBox["Q", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "6bf736f9-27bb-3940-8ba4-97f0d35307da"],
+ " : Class-1 probability conditional on the latent new-test value and model \
+parameters\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["u", 
+    StyleBox["parameter",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "1d21c711-d5c7-ef43-893a-44cf953bcdb2"],
+ " : Parameter standard uncertainty\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["u", 
+    StyleBox["measurement",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "222847cc-892e-4e43-beaf-ac8a76f8c1bb"],
+ " : New-result measurement standard uncertainty\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["u", 
+    StyleBox["Q",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "21369e56-4384-e84b-9cca-96b40235d787"],
+ " : Total standard uncertainty\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["CV", 
+    StyleBox["j",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "0a981cc6-40a6-634e-8637-3635716e35bd"],
+ " : Fixed analytical coefficient of variation for assay j, expressed as a \
+fraction\n",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "11a6b5a6-5e6f-8540-b84e-e12a7f863ac1"],
+ " : Analytical-error covariance matrix\n",
+ Cell[BoxData[
+  FormBox["\[Theta]", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "dcd9ca3a-a9ef-fa44-914b-b345e60395ad"],
+ " : Model parameters\n",
+ Cell[BoxData[
+  FormBox["n", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "ab021476-9a13-5949-a635-40c4100c2e3d"],
+ " : Number of training observations\n",
+ Cell[BoxData[
+  FormBox["S", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "4020bfa2-ec71-1c4d-a937-8e5c155c0357"],
+ " : Number of retained posterior draws\nMCMC settings : Iterations, burn-in, \
+thinning, and seed\nImportance ESS : Effective sample size after \
+predictive-likelihood weighting\nCredible level : Posterior probability mass \
+of the credible interval\nParameter interval : Credible interval for \
+probability averaged over latent new-test uncertainty\nTotal-Q interval : \
+Credible interval for conditional probability across posterior parameter and \
+latent new-test draws\n",
+ Cell[BoxData[
+  FormBox["y", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "ebdbeb91-d3db-044d-9f73-53ff6b25482e"],
+ " : Observed log assay-1 result, log x\n",
+ Cell[BoxData[
+  FormBox["Y", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "536f94a9-a60d-1d49-ab02-495097e7d5d8"],
+ " : Observed log-measurement vector\n",
+ Cell[BoxData[
+  FormBox["Z", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "b8b4c311-4116-d743-a51a-7ac3784b8700"],
+ " : Latent log-measurement vector\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[CapitalSigma]", 
+    StyleBox["d",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "823e5a29-553b-7c4e-9ccf-8b3f69df0cbe"],
+ " : Latent class covariance matrix\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["T", 
+    StyleBox["d",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "defe3f8e-338e-164a-b06b-ada5db467938"],
+ " : Observed class covariance matrix\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Mu]", 
+    StyleBox["d",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "d8baca25-c68e-1b43-b332-f9fe611daf48"],
+ " : Class mean vector\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Pi]", 
+    StyleBox["d",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "7daf9d48-0a8b-7940-bb4d-8e24e9ec4db8"],
+ " : Class proportion\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", 
+    StyleBox["jj",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "644c8566-c492-294e-9b54-d32ece5cdb47"],
+ " : Analytical log-error variance for assay j\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["f", 
+    StyleBox["ds",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "aed2eb7b-3cf3-e64d-9e28-a4a86ab75f63"],
+ " : Marginal density of log assay 1 for class d at draw s\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["h", 
+    StyleBox["s",
+     FontSlant->"Plain"]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "1b418828-24c1-5d42-b52b-6bf04e94d947"],
+ " : Class-weighted predictive density of log assay 1 at draw s\nfit : Prefix \
+of the fitted model's SHA-256 fingerprint\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Pi]", 
+    RowBox[{"d", "s"}]], TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "953b79a5-2458-f946-a4d4-ffab8e6d6e9a"],
+ " : Proportion of class d at posterior draw s\n",
+ Cell[BoxData[
+  FormBox["s", TraditionalForm]], "InlineFormula",ExpressionUUID->
+  "9412f8b9-3c09-564d-8a07-080257a6b972"],
+ " : Posterior draw index"
+}], "Text",
+ CellChangeTimes->{{4.0041022658404617`*^9, 4.0041022660390778`*^9}, {
+  4.004102303792843*^9, 4.0041023370269184`*^9}},
+ LineSpacing->{1.2, 0},
+ FontFamily->"Source Sans Pro",
+ FontSize->12,
+ FontWeight->"Normal",
+ FontColor->GrayLevel[
+  0],ExpressionUUID->"e499f039-1230-0e4c-9617-e8ba4a6afc8e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Disclaimer of Warranties",
+ FontWeight->"Normal",
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Section",
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.807076712859339*^9, 3.807076713036334*^9}, {3.857308171862177*^9, 
+   3.857308171863175*^9}, {3.88935530034098*^9, 3.889355325663695*^9}, {
+   3.894501479648944*^9, 3.894501480656904*^9}, {3.894502404394955*^9, 
+   3.894502404400076*^9}, 3.894502523405162*^9, {3.894512932432593*^9, 
+   3.8945129577291107`*^9}, {3.8945543659519515`*^9, 
+   3.8945543691153607`*^9}, {3.9025314313414316`*^9, 
+   3.9025314351601505`*^9}, {3.902531468543082*^9, 3.902531471420502*^9}, {
+   3.902531804785098*^9, 3.902531839353*^9}, {3.902716376988284*^9, 
+   3.902716409105589*^9}, 3.902716518799938*^9, {3.90271678137931*^9, 
+   3.902716783745605*^9}, {3.903043595550623*^9, 3.903043595938733*^9}, 
+   3.904127753237666*^9, {3.904264027437067*^9, 3.9042640609555044`*^9}, {
+   3.904821572209103*^9, 3.9048215729071016`*^9}, {3.905079746472635*^9, 
+   3.905079747109184*^9}, 3.905578448377225*^9, {3.908541449262427*^9, 
+   3.908541450005062*^9}, {3.925964631512097*^9, 3.925964653775696*^9}, {
+   3.925964983015711*^9, 3.925965007477089*^9}, {3.927722504886324*^9, 
+   3.927722516644697*^9}, {3.927723268882079*^9, 3.927723286469499*^9}, {
+   3.927723332582638*^9, 3.927723356294976*^9}, {3.9279405252322197`*^9, 
+   3.9279405355143833`*^9}, {3.9284985843864956`*^9, 3.928498591413629*^9}, {
+   3.928498695086847*^9, 3.9284987074139404`*^9}, 3.965513463704893*^9, {
+   3.9670068744938545`*^9, 3.967006926908039*^9}, 3.9670072602464104`*^9, 
+   4.0040148568906326`*^9},
+ FontSize->24,
+ FontColor->RGBColor[
+  0.7914854657816434, 0.31950865949492635`, 
+   0.09958037689784084],ExpressionUUID->"d81d0919-bfcd-264c-966a-\
+ce45c5993b5a"],
+
+Cell[TextData[StyleBox["The notebook is provided \[OpenCurlyDoubleQuote]as is\
+\[CloseCurlyDoubleQuote], without warranty of any kind, express or implied, \
+including but not limited to the warranties of merchantability, fitness for a \
+particular purpose and noninfringement. In no event shall the authors or \
+Hellenic Complex Systems Laboratory or any of its members be liable for any \
+claim, damages or other liability, whether in an action of contract, tort or \
+otherwise, arising from, out of or in connection with the notebook or the use \
+or other dealings in the notebook.", "Text",
+ FontSize->13,
+ FontColor->RGBColor[0., 0., 0.]]], "Subsubsection",
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.807076712859339*^9, 3.807076713036334*^9}, {3.857308171862177*^9, 
+   3.857308171863175*^9}, {3.88935530034098*^9, 3.889355325663695*^9}, {
+   3.894501479648944*^9, 3.894501480656904*^9}, {3.894502404394955*^9, 
+   3.894502404400076*^9}, 3.894502523405162*^9, {3.894512932432593*^9, 
+   3.8945129577291107`*^9}, {3.8945543659519515`*^9, 
+   3.8945543691153607`*^9}, {3.9025314313414316`*^9, 
+   3.9025314351601505`*^9}, {3.902531468543082*^9, 3.902531471420502*^9}, {
+   3.902531804785098*^9, 3.902531839353*^9}, {3.902716376988284*^9, 
+   3.902716409105589*^9}, 3.902716518799938*^9, {3.90271678137931*^9, 
+   3.902716783745605*^9}, {3.903043595550623*^9, 3.903043595938733*^9}, 
+   3.904127753237666*^9, {3.904264027437067*^9, 3.9042640609555044`*^9}, {
+   3.904821572209103*^9, 3.9048215729071016`*^9}, {3.905079746472635*^9, 
+   3.905079747109184*^9}, 3.905578448377225*^9, {3.908541449262427*^9, 
+   3.908541450005062*^9}, {3.925964631512097*^9, 3.925964653775696*^9}, {
+   3.925964983015711*^9, 3.925965007477089*^9}, {3.927722504886324*^9, 
+   3.927722516644697*^9}, {3.927723268882079*^9, 3.927723286469499*^9}, {
+   3.927723332582638*^9, 3.927723356294976*^9}, {3.9279405252322197`*^9, 
+   3.9279405355143833`*^9}, {3.9284985843864956`*^9, 3.928498591413629*^9}, {
+   3.928498695086847*^9, 3.9284987074139404`*^9}, 3.965513463704893*^9, {
+   3.9670068744938545`*^9, 3.967006926908039*^9}, 
+   3.9670072602464104`*^9},ExpressionUUID->"24f79e9d-eef6-b242-8a5b-\
+3002b3e27360"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["About", "Subsubsection",
+ FontSize->24,
+ FontColor->RGBColor[
+  0.8, 0.043137254901960784`, 0.00784313725490196]]], "Section",
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.807076712859339*^9, 3.807076713036334*^9}, {3.816740359114893*^9, 
+   3.816740377553263*^9}, {3.817099552636976*^9, 3.817099553175012*^9}, {
+   3.819948045195035*^9, 3.819948065902923*^9}, {3.8221852591351533`*^9, 
+   3.822185259412125*^9}, {3.8233254695842333`*^9, 3.8233254702972383`*^9}, {
+   3.857308399852775*^9, 3.857308399852775*^9}, 3.906827753313318*^9, {
+   3.906871618032697*^9, 3.906871618667078*^9}, {3.907240336103186*^9, 
+   3.907240371335797*^9}, 3.911796778564459*^9, 3.913801448198976*^9, {
+   3.918468973222936*^9, 3.918469006849031*^9}, {3.918532040276354*^9, 
+   3.918532047515755*^9}, {3.921033464788587*^9, 3.9210334978939247`*^9}, {
+   3.9250809788698063`*^9, 3.925080981189981*^9}, {3.925522251785504*^9, 
+   3.925522251789381*^9}, {3.9277293134957848`*^9, 3.927729350900528*^9}, {
+   3.928498851106419*^9, 3.9284988576137543`*^9}, 3.929319007619768*^9, {
+   3.9295092805420346`*^9, 3.9295092816155853`*^9}, {3.930199010277949*^9, 
+   3.930199011163381*^9}, {3.9305898944055233`*^9, 3.930589895161936*^9}, {
+   3.931778538932579*^9, 3.9317785432834606`*^9}, {3.932165553296713*^9, 
+   3.932165565607422*^9}, {3.932170861149441*^9, 3.9321708618347664`*^9}, {
+   3.93363496667041*^9, 3.933634967264139*^9}, 3.9338935903804855`*^9, 
+   3.936018968731291*^9, 3.936445030637203*^9, {3.936938141578333*^9, 
+   3.936938146319166*^9}, {3.93702285945833*^9, 3.937022861971895*^9}, 
+   3.9396481299331303`*^9, {3.9396961860733624`*^9, 3.9396961895583076`*^9}, {
+   3.9630893103016415`*^9, 3.9630893442609825`*^9}, {3.9630894003882484`*^9, 
+   3.963089409725132*^9}, {3.9673724276217976`*^9, 3.9673724300374184`*^9}, {
+   3.9831704726810303`*^9, 3.9831705053206444`*^9}, {3.983170551289892*^9, 
+   3.9831705524646435`*^9}, {3.983599381069002*^9, 3.9835993817413597`*^9}, {
+   3.983601691199339*^9, 3.98360169664835*^9}, {3.9836017694723816`*^9, 
+   3.9836017905295696`*^9}, 3.9836020200162716`*^9, {3.984055748124901*^9, 
+   3.9840557488143177`*^9}, {3.984132289364929*^9, 3.9841322940982647`*^9}, {
+   3.984178743298731*^9, 3.98417874596002*^9}, {3.9841787875511208`*^9, 
+   3.9841787875521164`*^9}, {3.985514511032812*^9, 3.985514559512089*^9}, {
+   3.98592348130422*^9, 3.9859234843993435`*^9}, {3.985993871199505*^9, 
+   3.9859939018070908`*^9}, {3.985993944412649*^9, 3.985993944413645*^9}, {
+   3.987547594272459*^9, 3.987547595312458*^9}, {3.9875519347033367`*^9, 
+   3.987551958079294*^9}, {3.987551991399311*^9, 3.987551991435171*^9}, {
+   3.98763548021089*^9, 3.9876354808992405`*^9}, {3.995516396314438*^9, 
+   3.995516434337799*^9}, {3.9973042151888084`*^9, 3.997304223684967*^9}, {
+   3.998654278734997*^9, 3.9986542937253723`*^9}, {3.9986562900264225`*^9, 
+   3.9986563205105247`*^9}, {3.998656377059145*^9, 3.998656377059145*^9}, {
+   3.9988015920563717`*^9, 3.998801592685463*^9}, 3.9988023328095303`*^9, {
+   3.998802377267618*^9, 3.998802377268957*^9}, {4.003635759012535*^9, 
+   4.0036357912528667`*^9}, {4.0036360348382664`*^9, 4.0036360572362633`*^9}, 
+   4.004014886204733*^9},
+ FontSize->24,
+ FontColor->RGBColor[
+  0.7914854657816434, 0.31950865949492635`, 
+   0.09958037689784084],ExpressionUUID->"3f1cb34c-39e5-084f-b635-\
+77ba93b433a2"],
+
+Cell[TextData[{
+ StyleBox[ButtonBox["BPDU-LatentClass",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyLatentClass/\
+index.html"], None},
+  ButtonNote->
+   "https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyLatentClass/index.\
+html"],
+  FontSize->13,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nMethods and User Guide\nVersion 1.0.0\n",
+  FontSize->13,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["Hellenic Complex Systems Laboratory ",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.hcsl.com"], None},
+  ButtonNote->"https://www.hcsl.com"],
+  FontSize->13,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["2026\nDOI: ",
+  FontSize->13,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["10.5281/zenodo.24447295",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://doi.org/10.5281/zenodo.24447295"], None},
+  ButtonNote->"https://doi.org/10.5281/zenodo.24447295"],
+  FontSize->13,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox["\nThis notebook is distributed under  an ",
+  FontSize->13,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[ButtonBox["Attribution - NonCommercial - ShareAlike 4.0 \
+International Creative Commons License",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://creativecommons.org/licenses/by-nc-sa/4.0/"], None},
+  ButtonNote->"https://creativecommons.org/licenses/by-nc-sa/4.0/"],
+  FontSize->13,
+  FontColor->RGBColor[0., 0., 0.]],
+ StyleBox[".",
+  FontSize->13,
+  FontColor->RGBColor[0., 0., 0.]]
+}], "Text",
+ CellChangeTimes->{{3.805073314339836*^9, 3.80507333536786*^9}, {
+   3.805073439614975*^9, 3.8050734602420187`*^9}, {3.806634655849447*^9, 
+   3.8066347247297487`*^9}, {3.806634802358505*^9, 3.8066348105295067`*^9}, {
+   3.806666486290943*^9, 3.806666502895442*^9}, 3.8070765097138033`*^9, {
+   3.807076712859339*^9, 3.807076713036334*^9}, {3.816740359114893*^9, 
+   3.816740377553263*^9}, {3.817099552636976*^9, 3.817099553175012*^9}, {
+   3.819948045195035*^9, 3.819948065902923*^9}, {3.8221852591351533`*^9, 
+   3.822185259412125*^9}, {3.8233254695842333`*^9, 3.8233254702972383`*^9}, {
+   3.857308399852775*^9, 3.857308399852775*^9}, 3.906827753313318*^9, {
+   3.906871618032697*^9, 3.906871618667078*^9}, {3.907240336103186*^9, 
+   3.907240371335797*^9}, 3.911796778564459*^9, 3.913801448198976*^9, {
+   3.918468973222936*^9, 3.918469006849031*^9}, {3.918532040276354*^9, 
+   3.918532047515755*^9}, {3.921033464788587*^9, 3.9210334978939247`*^9}, {
+   3.9250809788698063`*^9, 3.925080981189981*^9}, {3.925522251785504*^9, 
+   3.925522251789381*^9}, {3.9277293134957848`*^9, 3.927729350900528*^9}, {
+   3.928498851106419*^9, 3.9284988576137543`*^9}, 3.929319007619768*^9, {
+   3.9295092805420346`*^9, 3.9295092816155853`*^9}, {3.930199010277949*^9, 
+   3.930199011163381*^9}, {3.9305898944055233`*^9, 3.930589895161936*^9}, {
+   3.931778538932579*^9, 3.9317785432834606`*^9}, {3.932165553296713*^9, 
+   3.932165565607422*^9}, {3.932170861149441*^9, 3.9321708618347664`*^9}, {
+   3.93363496667041*^9, 3.933634967264139*^9}, 3.9338935903804855`*^9, 
+   3.936018968731291*^9, 3.936445030637203*^9, {3.936938141578333*^9, 
+   3.936938146319166*^9}, {3.93702285945833*^9, 3.937022861971895*^9}, 
+   3.9396481299331303`*^9, {3.9396961860733624`*^9, 3.9396961895583076`*^9}, {
+   3.9630893103016415`*^9, 3.9630893442609825`*^9}, {3.9630894003882484`*^9, 
+   3.963089409725132*^9}, {3.9673724276217976`*^9, 3.9673724300374184`*^9}, {
+   3.9831704726810303`*^9, 3.9831705053206444`*^9}, {3.983170551289892*^9, 
+   3.9831705524646435`*^9}, {3.983599381069002*^9, 3.9835993817413597`*^9}, {
+   3.983601691199339*^9, 3.98360169664835*^9}, {3.9836017694723816`*^9, 
+   3.9836017905295696`*^9}, 3.9836020200162716`*^9, {3.984055748124901*^9, 
+   3.9840557488143177`*^9}, {3.984132289364929*^9, 3.9841322940982647`*^9}, {
+   3.984178743298731*^9, 3.98417874596002*^9}, {3.9841787875511208`*^9, 
+   3.9841787875521164`*^9}, {3.985514511032812*^9, 3.985514559512089*^9}, {
+   3.98592348130422*^9, 3.9859234843993435`*^9}, {3.985993871199505*^9, 
+   3.9859939018070908`*^9}, {3.985993944412649*^9, 3.985993944413645*^9}, {
+   3.987547594272459*^9, 3.987547595312458*^9}, {3.9875519347033367`*^9, 
+   3.987551958079294*^9}, {3.987551991399311*^9, 3.987551991435171*^9}, {
+   3.98763548021089*^9, 3.9876354808992405`*^9}, {3.995516396314438*^9, 
+   3.995516434337799*^9}, {3.9973042151888084`*^9, 3.997304223684967*^9}, {
+   3.998654278734997*^9, 3.9986542937253723`*^9}, {3.9986562900264225`*^9, 
+   3.9986563205105247`*^9}, {3.998656377059145*^9, 3.998656377059145*^9}, {
+   3.9988015920563717`*^9, 3.998801592685463*^9}, 3.9988023328095303`*^9, {
+   3.998802377267618*^9, 3.998802377268957*^9}, {4.003635759012535*^9, 
+   4.0036357912528667`*^9}, {4.0036360348382664`*^9, 4.0036360572362633`*^9}, 
+   4.004095300302902*^9, {4.004102407130911*^9, 4.004102436267357*^9}, {
+   4.0041051068364887`*^9, 4.004105114923134*^9}, {4.004237522071594*^9, 
+   4.0042375424445057`*^9}, {4.0043637677280693`*^9, 
+   4.0043637677290688`*^9}, {4.0043638488328953`*^9, 
+   4.0043639015353737`*^9}, {4.0043666918280106`*^9, 4.00436671213344*^9}, {
+   4.004366744410187*^9, 
+   4.004366744411175*^9}},ExpressionUUID->"3c597bae-74db-f340-9fcc-\
+04070be68b77"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{958, 1004},
+WindowMargins->{{Automatic, -4.5}, {Automatic, 0}},
+WindowTitle->"BDPU-LatentClass Methods and User Guide",
+TaggingRules-><|
+ "DOI" -> "https://doi.org/10.5281/zenodo.24447295", "PreferredCitation" -> 
+  "Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: \
+Methods and User Guide. Ver. 1.0.0. Hellenic Complex Systems Laboratory; \
+2026. https://doi.org/10.5281/zenodo.24447295"|>,
+CellContext->"Global`",
+FontFamily->"Source Sans Pro",
+Magnification:>1.3 Inherited,
+FrontEndVersion->"15.0 for Microsoft Windows (64-bit) (July 2, 2026)",
+StyleDefinitions->FrontEnd`FileName[{}, "Default.nb", CharacterEncoding -> 
+  "UTF-8"],
+ExpressionUUID->"d14c8ab6-a2cc-b444-a8d0-83e34ade2afe"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Start"->{
+  Cell[7038, 187, 310, 6, 79, "Section",ExpressionUUID->"15540a3d-f868-2445-9c18-e69fb7022847",
+   CellTags->"Start"]},
+ "lCHelperStart"->{
+  Cell[7669, 202, 3614, 92, 73, "Output",ExpressionUUID->"2208f7dd-c54f-5649-bf53-d0d8bb2185de",
+   CellTags->"lCHelperStart"]},
+ "Model"->{
+  Cell[13560, 353, 275, 5, 79, "Section",ExpressionUUID->"40184b46-1f9c-f74f-9470-b81e48dab176",
+   CellTags->"Model"]},
+ "Uncertainty"->{
+  Cell[17710, 460, 289, 6, 79, "Section",ExpressionUUID->"e7264fea-5c13-4b43-8d6b-5ca501823ea8",
+   CellTags->"Uncertainty"]},
+ "Reference"->{
+  Cell[20262, 511, 208, 3, 79, "Section",ExpressionUUID->"62fbe35c-34ec-3345-99a3-9486040776d0",
+   CellTags->"Reference"]},
+ "Custom"->{
+  Cell[24082, 598, 196, 3, 79, "Section",ExpressionUUID->"39a6685a-73b0-904e-a32a-53bed0eaf3d9",
+   CellTags->"Custom"]},
+ "Examples"->{
+  Cell[25570, 630, 143, 2, 79, "Section",ExpressionUUID->"b6f2abf4-8156-2e4c-b71d-1092660b295a",
+   CellTags->"Examples"]},
+ "lCExampleProbability"->{
+  Cell[26737, 660, 1355, 33, 135, "Input",ExpressionUUID->"6c43cdc3-5d61-d544-887a-4076078f7c2b",
+   Evaluatable->True,
+   CellTags->"lCExampleProbability"],
+  Cell[28095, 695, 621, 14, 33, "Message",ExpressionUUID->"01fe005d-f2e6-2c4a-b344-b903d9b5ca12",
+   CellTags->"lCExampleProbability"],
+  Cell[28719, 711, 5837, 88, 147, "Message",ExpressionUUID->"b068f962-8547-ba4e-a6c7-664d40426520",
+   CellTags->"lCExampleProbability"],
+  Cell[34559, 801, 5605, 115, 138, "Output",ExpressionUUID->"8cec21ab-8d4c-2e49-9fd0-92bf4a9282ee",
+   CellTags->"lCExampleProbability"]},
+ "lCExampleUncertainty"->{
+  Cell[41208, 947, 797, 19, 86, "Input",ExpressionUUID->"e962857c-17fe-444c-ba3c-ad14b2340613",
+   Evaluatable->True,
+   CellTags->"lCExampleUncertainty"],
+  Cell[42008, 968, 620, 14, 33, "Message",ExpressionUUID->"7efff858-f1c6-0449-b26d-ac5eb1cf9b33",
+   CellTags->"lCExampleUncertainty"],
+  Cell[42631, 984, 634, 14, 66, "Output",ExpressionUUID->"6a386b69-7565-b249-acc9-d79f0aab23ff",
+   CellTags->"lCExampleUncertainty"]},
+ "lCExampleAccuracy"->{
+  Cell[44006, 1023, 316, 7, 36, "Input",ExpressionUUID->"5c7e5261-a6d0-a343-9365-8f2b1a3f3b6b",
+   Evaluatable->True,
+   CellTags->"lCExampleAccuracy"],
+  Cell[44325, 1032, 273, 6, 41, "Output",ExpressionUUID->"b1fda473-c703-2d45-aa38-3ed724d047fa",
+   CellTags->"lCExampleAccuracy"]},
+ "lCExampleCurve"->{
+  Cell[45338, 1063, 1243, 32, 110, "Input",ExpressionUUID->"1356781f-a733-ba4f-b1c5-dbdeff55ca78",
+   Evaluatable->True,
+   CellTags->"lCExampleCurve"],
+  Cell[46584, 1097, 495, 12, 33, "Message",ExpressionUUID->"2c0d673e-5b06-5a4e-9ce5-cf1e20387242",
+   CellTags->"lCExampleCurve"],
+  Cell[47082, 1111, 446, 11, 41, "Output",ExpressionUUID->"5acdcf6c-8216-494f-a45f-eae20867cb52",
+   CellTags->"lCExampleCurve"]},
+ "lCExampleFit"->{
+  Cell[48631, 1155, 1103, 28, 135, "Input",ExpressionUUID->"6d1c45a1-d72a-5646-8a6f-3764b910165d",
+   Evaluatable->True,
+   CellTags->"lCExampleFit"],
+  Cell[49737, 1185, 477, 12, 33, "Message",ExpressionUUID->"5195167f-392f-e14d-9d48-df061f7ecccd",
+   CellTags->"lCExampleFit"],
+  Cell[50217, 1199, 4675, 95, 74, "Output",ExpressionUUID->"ec7c1da8-d10f-6c46-908a-abfa07cef5e2",
+   CellTags->"lCExampleFit"]},
+ "lCExampleExport"->{
+  Cell[55580, 1318, 918, 25, 86, "Input",ExpressionUUID->"bf7050a3-bf3a-e140-86ac-92631b66ae7b",
+   Evaluatable->True,
+   CellTags->"lCExampleExport"],
+  Cell[56501, 1345, 4514, 91, 74, "Output",ExpressionUUID->"008ba513-94b5-d74d-8df2-35687eda3357",
+   CellTags->"lCExampleExport"]},
+ "Sources"->{
+  Cell[61076, 1443, 199, 3, 79, "Section",ExpressionUUID->"c8a914ca-54ef-ce4a-b204-fc3dca32a881",
+   CellTags->"Sources"]},
+ "Notation"->{
+  Cell[63581, 1505, 302, 6, 79, "Section",ExpressionUUID->"8681dea1-7e77-454b-8add-17020fb0328b",
+   CellTags->"Notation"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Start", 84345, 1929},
+ {"lCHelperStart", 84485, 1932},
+ {"Model", 84626, 1935},
+ {"Uncertainty", 84765, 1938},
+ {"Reference", 84908, 1941},
+ {"Custom", 85046, 1944},
+ {"Examples", 85183, 1947},
+ {"lCExampleProbability", 85334, 1950},
+ {"lCExampleUncertainty", 85932, 1960},
+ {"lCExampleAccuracy", 86384, 1968},
+ {"lCExampleCurve", 86691, 1974},
+ {"lCExampleFit", 87125, 1982},
+ {"lCExampleExport", 87557, 1990},
+ {"Sources", 87856, 1996},
+ {"Notation", 87995, 1999}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[629, 23, 1679, 28, 110, "Title",ExpressionUUID->"5a7560a2-5181-6d43-82a4-c2218366b036",
+ Evaluatable->False],
+Cell[2311, 53, 1793, 28, 91, "Title",ExpressionUUID->"751af710-be5d-8a4d-9f5e-a8e227267256",
+ Evaluatable->False],
+Cell[4107, 83, 793, 28, 226, "Author",ExpressionUUID->"5161bb9b-1a25-e84f-9dbd-3ba6328a0794"],
+Cell[4903, 113, 379, 7, 69, "Affiliation",ExpressionUUID->"ce61b293-ed82-e94a-8257-c1a60f4d5cba"],
+Cell[CellGroupData[{
+Cell[5307, 124, 261, 4, 79, "Section",ExpressionUUID->"7cdeadb8-e1fa-514c-ae46-e05785037388"],
+Cell[5571, 130, 301, 4, 100, "Text",ExpressionUUID->"d548dafe-312a-b14d-903c-b317b9d9a555"],
+Cell[5875, 136, 1126, 46, 75, "Text",ExpressionUUID->"5ac63f52-586b-e346-82d1-30d10d8c0a43"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7038, 187, 310, 6, 79, "Section",ExpressionUUID->"15540a3d-f868-2445-9c18-e69fb7022847",
+ CellTags->"Start"],
+Cell[7351, 195, 315, 5, 100, "Text",ExpressionUUID->"76b00626-5dce-0e4f-ba03-f3e92b44e842"],
+Cell[7669, 202, 3614, 92, 73, "Output",ExpressionUUID->"2208f7dd-c54f-5649-bf53-d0d8bb2185de",
+ CellTags->"lCHelperStart"],
+Cell[11286, 296, 331, 5, 100, "Text",ExpressionUUID->"1dcfe286-5d9f-df49-9b16-499480803cf0"],
+Cell[CellGroupData[{
+Cell[11642, 305, 180, 4, 69, "Subsection",ExpressionUUID->"c372cb41-b61d-b64e-be1f-3656428e772f"],
+Cell[11825, 311, 367, 5, 100, "Text",ExpressionUUID->"398d64e2-9f7e-a940-a62b-3871ebdca807"],
+Cell[12195, 318, 476, 7, 129, "Text",ExpressionUUID->"9329bfe6-cfc5-f945-9c96-30782ca503a2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12708, 330, 189, 4, 69, "Subsection",ExpressionUUID->"5c541f2f-823f-1a43-ab6a-f39c64f0a1fa"],
+Cell[12900, 336, 361, 5, 100, "Text",ExpressionUUID->"4585f075-fff7-eb45-9654-9c3db8470230"],
+Cell[13264, 343, 247, 4, 72, "Text",ExpressionUUID->"b442cd7c-bd57-c54c-9f75-343a51a16da1"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13560, 353, 275, 5, 79, "Section",ExpressionUUID->"40184b46-1f9c-f74f-9470-b81e48dab176",
+ CellTags->"Model"],
+Cell[CellGroupData[{
+Cell[13860, 362, 274, 6, 69, "Subsection",ExpressionUUID->"7f473582-e2ce-6846-b725-804bee107222"],
+Cell[14137, 370, 468, 6, 129, "Text",ExpressionUUID->"8fad82b2-be03-9143-bd51-0be7d0f3b222"],
+Cell[14608, 378, 642, 9, 33, "DisplayFormula",ExpressionUUID->"0e0f55ce-11f7-f14a-a13e-2025a96a89db"],
+Cell[15253, 389, 366, 5, 100, "Text",ExpressionUUID->"51ddfb04-a7f7-2c49-8259-8a5f9ce291e3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15656, 399, 319, 8, 69, "Subsection",ExpressionUUID->"f407bf78-9e91-f941-a907-aada407385ac"],
+Cell[15978, 409, 402, 5, 129, "Text",ExpressionUUID->"edfc38d6-1252-444c-83aa-6583765e388a"],
+Cell[16383, 416, 916, 31, 55, "DisplayFormula",ExpressionUUID->"1523890f-55ff-224b-96cc-8f9d80a90f83"],
+Cell[17302, 449, 359, 5, 100, "Text",ExpressionUUID->"30ead304-9e3e-fd47-a342-bef1b02ad519"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17710, 460, 289, 6, 79, "Section",ExpressionUUID->"e7264fea-5c13-4b43-8d6b-5ca501823ea8",
+ CellTags->"Uncertainty"],
+Cell[18002, 468, 274, 4, 72, "Text",ExpressionUUID->"af04e5b9-16ce-2946-affc-b0c8b6535f6a"],
+Cell[18279, 474, 405, 5, 34, "DisplayFormula",ExpressionUUID->"d31916f5-0b7d-4641-94e6-dbb8b2ff8d5e"],
+Cell[18687, 481, 562, 8, 157, "Text",ExpressionUUID->"d91cc53e-5b3d-9248-812f-3c01252f9db0"],
+Cell[19252, 491, 605, 8, 186, "Text",ExpressionUUID->"7a6bfe17-728c-0a43-bbd2-7ed977aed3b7"],
+Cell[19860, 501, 365, 5, 100, "Text",ExpressionUUID->"4361642e-1cd9-f441-9ca2-a3bc32f6507e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20262, 511, 208, 3, 79, "Section",ExpressionUUID->"62fbe35c-34ec-3345-99a3-9486040776d0",
+ CellTags->"Reference"],
+Cell[CellGroupData[{
+Cell[20495, 518, 258, 6, 69, "Subsection",ExpressionUUID->"0365d67f-1083-6c46-89b6-3be54c234665"],
+Cell[20756, 526, 429, 5, 129, "Text",ExpressionUUID->"92ccbb8d-6e35-9e47-8abe-a51fe85c8494"],
+Cell[21188, 533, 395, 5, 100, "Text",ExpressionUUID->"8506a3f1-476c-ad45-b146-6593cd5ba504"],
+Cell[21586, 540, 518, 7, 157, "Text",ExpressionUUID->"a73117cf-d1f5-8a4b-815f-72b48e9f4f75"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22141, 552, 228, 6, 69, "Subsection",ExpressionUUID->"52b642c2-496b-964d-81f9-aca571aece50"],
+Cell[22372, 560, 429, 5, 129, "Text",ExpressionUUID->"c6ca479d-a3fc-7940-b744-5e6926c52f95"],
+Cell[22804, 567, 547, 7, 157, "Text",ExpressionUUID->"c016b8f1-30df-3f41-9eec-8f471888eec7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23388, 579, 224, 6, 69, "Subsection",ExpressionUUID->"80bf8029-4ad1-2f4f-b39a-083475bb2202"],
+Cell[23615, 587, 418, 5, 129, "Text",ExpressionUUID->"3193b909-6a19-2643-b0b8-fe42aab1c363"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24082, 598, 196, 3, 79, "Section",ExpressionUUID->"39a6685a-73b0-904e-a32a-53bed0eaf3d9",
+ CellTags->"Custom"],
+Cell[24281, 603, 380, 5, 100, "Text",ExpressionUUID->"34614867-88a7-d54b-ae0b-f4c773ea9678"],
+Cell[24664, 610, 558, 8, 157, "Text",ExpressionUUID->"3a3729bc-457b-754e-9593-843c2db8a5c6"],
+Cell[25225, 620, 308, 5, 100, "Text",ExpressionUUID->"758aeabd-c190-f246-87e4-1aeb8cca5cbf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25570, 630, 143, 2, 79, "Section",ExpressionUUID->"b6f2abf4-8156-2e4c-b71d-1092660b295a",
+ CellTags->"Examples"],
+Cell[25716, 634, 343, 5, 100, "Text",ExpressionUUID->"f0daf43d-4837-2242-ab30-0b19e2a61edf"],
+Cell[CellGroupData[{
+Cell[26084, 643, 208, 3, 69, "Subsection",ExpressionUUID->"b3ac8742-0faa-4344-a43b-469cc305dac8"],
+Cell[26295, 648, 417, 8, 100, "Text",ExpressionUUID->"bb2801e6-19be-834a-9cb7-d5ae36a1fe18"],
+Cell[CellGroupData[{
+Cell[26737, 660, 1355, 33, 135, "Input",ExpressionUUID->"6c43cdc3-5d61-d544-887a-4076078f7c2b",
+ Evaluatable->True,
+ CellTags->"lCExampleProbability"],
+Cell[28095, 695, 621, 14, 33, "Message",ExpressionUUID->"01fe005d-f2e6-2c4a-b344-b903d9b5ca12",
+ CellTags->"lCExampleProbability"],
+Cell[28719, 711, 5837, 88, 147, "Message",ExpressionUUID->"b068f962-8547-ba4e-a6c7-664d40426520",
+ CellTags->"lCExampleProbability"],
+Cell[34559, 801, 5605, 115, 138, "Output",ExpressionUUID->"8cec21ab-8d4c-2e49-9fd0-92bf4a9282ee",
+ CellTags->"lCExampleProbability"]
+}, Open  ]],
+Cell[40179, 919, 221, 3, 72, "Text",ExpressionUUID->"ae113357-7824-0f4f-8014-1625726a1e7d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40437, 927, 188, 4, 69, "Subsection",ExpressionUUID->"d9a76efe-b789-a648-b85b-ac8bac10568c"],
+Cell[40628, 933, 555, 10, 157, "Text",ExpressionUUID->"6df25a29-6bdd-2e40-98ca-29ca065119c6"],
+Cell[CellGroupData[{
+Cell[41208, 947, 797, 19, 86, "Input",ExpressionUUID->"e962857c-17fe-444c-ba3c-ad14b2340613",
+ Evaluatable->True,
+ CellTags->"lCExampleUncertainty"],
+Cell[42008, 968, 620, 14, 33, "Message",ExpressionUUID->"7efff858-f1c6-0449-b26d-ac5eb1cf9b33",
+ CellTags->"lCExampleUncertainty"],
+Cell[42631, 984, 634, 14, 66, "Output",ExpressionUUID->"6a386b69-7565-b249-acc9-d79f0aab23ff",
+ CellTags->"lCExampleUncertainty"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43314, 1004, 187, 4, 69, "Subsection",ExpressionUUID->"c93d4912-9719-1f4f-9b86-d2d844446e68"],
+Cell[43504, 1010, 477, 9, 129, "Text",ExpressionUUID->"9c435f09-0767-8743-a0a3-7393a1808692"],
+Cell[CellGroupData[{
+Cell[44006, 1023, 316, 7, 36, "Input",ExpressionUUID->"5c7e5261-a6d0-a343-9365-8f2b1a3f3b6b",
+ Evaluatable->True,
+ CellTags->"lCExampleAccuracy"],
+Cell[44325, 1032, 273, 6, 41, "Output",ExpressionUUID->"b1fda473-c703-2d45-aa38-3ed724d047fa",
+ CellTags->"lCExampleAccuracy"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44647, 1044, 175, 4, 69, "Subsection",ExpressionUUID->"df6791a3-2a8a-4341-b7c3-d5a150d368be"],
+Cell[44825, 1050, 488, 9, 100, "Text",ExpressionUUID->"4483077b-590d-ed4c-be51-770c2627406d"],
+Cell[CellGroupData[{
+Cell[45338, 1063, 1243, 32, 110, "Input",ExpressionUUID->"1356781f-a733-ba4f-b1c5-dbdeff55ca78",
+ Evaluatable->True,
+ CellTags->"lCExampleCurve"],
+Cell[46584, 1097, 495, 12, 33, "Message",ExpressionUUID->"2c0d673e-5b06-5a4e-9ce5-cf1e20387242",
+ CellTags->"lCExampleCurve"],
+Cell[47082, 1111, 446, 11, 41, "Output",ExpressionUUID->"5acdcf6c-8216-494f-a45f-eae20867cb52",
+ CellTags->"lCExampleCurve"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47577, 1128, 177, 4, 69, "Subsection",ExpressionUUID->"69fc58b2-c0c7-9941-81cb-9fa5014c4ba2"],
+Cell[47757, 1134, 527, 10, 129, "Text",ExpressionUUID->"b024408d-21ad-8449-a2b3-5d1358831048"],
+Cell[48287, 1146, 319, 5, 100, "Text",ExpressionUUID->"1b33b5c1-60f5-5f4b-9e3b-f1aa01ac9017"],
+Cell[CellGroupData[{
+Cell[48631, 1155, 1103, 28, 135, "Input",ExpressionUUID->"6d1c45a1-d72a-5646-8a6f-3764b910165d",
+ Evaluatable->True,
+ CellTags->"lCExampleFit"],
+Cell[49737, 1185, 477, 12, 33, "Message",ExpressionUUID->"5195167f-392f-e14d-9d48-df061f7ecccd",
+ CellTags->"lCExampleFit"],
+Cell[50217, 1199, 4675, 95, 74, "Output",ExpressionUUID->"ec7c1da8-d10f-6c46-908a-abfa07cef5e2",
+ CellTags->"lCExampleFit"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[54941, 1300, 183, 4, 69, "Subsection",ExpressionUUID->"e24389ab-d8af-6a44-9f4a-aec9dc144342"],
+Cell[55127, 1306, 428, 8, 100, "Text",ExpressionUUID->"6ab36ccc-3d26-8f43-a997-4bc2c78df4f9"],
+Cell[CellGroupData[{
+Cell[55580, 1318, 918, 25, 86, "Input",ExpressionUUID->"bf7050a3-bf3a-e140-86ac-92631b66ae7b",
+ Evaluatable->True,
+ CellTags->"lCExampleExport"],
+Cell[56501, 1345, 4514, 91, 74, "Output",ExpressionUUID->"008ba513-94b5-d74d-8df2-35687eda3357",
+ CellTags->"lCExampleExport"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[61076, 1443, 199, 3, 79, "Section",ExpressionUUID->"c8a914ca-54ef-ce4a-b204-fc3dca32a881",
+ CellTags->"Sources"],
+Cell[61278, 1448, 931, 19, 129, "Text",ExpressionUUID->"1b84de38-9b2c-374f-97ae-e5f5a06e3997"],
+Cell[62212, 1469, 489, 11, 72, "Text",ExpressionUUID->"228ee0a2-438c-6645-bb43-fd9294ae9e42"],
+Cell[62704, 1482, 466, 11, 72, "Text",ExpressionUUID->"0add8c86-d801-4a49-8ab7-1df526ffa616"],
+Cell[63173, 1495, 371, 5, 100, "Text",ExpressionUUID->"49878377-255c-ee43-bfcf-0831d192eb3d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[63581, 1505, 302, 6, 79, "Section",ExpressionUUID->"8681dea1-7e77-454b-8add-17020fb0328b",
+ CellTags->"Notation"],
+Cell[63886, 1513, 6095, 159, 823, "Text",ExpressionUUID->"e499f039-1230-0e4c-9617-e8ba4a6afc8e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[70018, 1677, 2072, 33, 79, "Section",ExpressionUUID->"d81d0919-bfcd-264c-966a-ce45c5993b5a"],
+Cell[72093, 1712, 2442, 35, 147, "Subsubsection",ExpressionUUID->"24f79e9d-eef6-b242-8a5b-3002b3e27360"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[74572, 1752, 3625, 53, 79, "Section",ExpressionUUID->"3f1cb34c-39e5-084f-b635-77ba93b433a2"],
+Cell[78200, 1807, 5281, 97, 191, "Text",ExpressionUUID->"3c597bae-74db-f340-9fcc-04070be68b77"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
