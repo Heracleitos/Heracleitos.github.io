@@ -21,7 +21,7 @@ These notes confirm which agent-readiness items are handled by repository files 
 
 - `.well-known/agent-skills/discover-hcsl/SKILL.md`: `sha256:2fcc3a1288176f3c9d5061b7077b670688dfe2145dc53b941b6889b84c9dff68`
 - `.well-known/agent-skills/index.json`: `sha256:d983417dcaf950de2c8f7dc8e62dcd8386ec32c53f5a9921e9f775fe45a3b8da`
-- `.well-known/mcp/server-card.json`: `sha256:0450acfd9fe999fcbf9e8a88e982da8e4b6ee7de1dd4b8b6b5d5074653ef29b9`
+- `.well-known/mcp/server-card.json`: `sha256:68cd199f8eec61dc2f47310a54088d14ded5cee8d413851fa2fc2568cb7668f5`
 - `.well-known/api-catalog`: `sha256:9e749611d873d738fdf3bcbb3004f173c4e75a073a7e79f663b9cb82761cb39a`
 
 ## Cloudflare Requirements
@@ -102,7 +102,7 @@ Preferred DNS-AID style if the DNS provider accepts the provisional `endpoint` a
 
 ```zone
 _index._agents.hcsl.com. 3600 IN SVCB 1 www.hcsl.com. alpn="h2" port=443 endpoint="/.well-known/agent-skills/index.json" cap-sha256="2YNBfcr5UN4sj33I5i3Ng4bsMsU_Wpkh6fd1_kWjuNo"
-_mcp._agents.hcsl.com.   3600 IN SVCB 1 www.hcsl.com. alpn="mcp,h2" port=443 endpoint="/.well-known/mcp/server-card.json" cap-sha256="BFCs_Z_pmfy_noqI6YLajktu594d1Li2tdUHRlPvKbk"
+_mcp._agents.hcsl.com.   3600 IN SVCB 1 www.hcsl.com. alpn="mcp,h2" port=443 endpoint="/.well-known/mcp/server-card.json" cap-sha256="aM0Zn47sYdwvRzEKVAiNFN7VzujUE4UfovwlaMt2aPU"
 _a2a._agents.hcsl.com.   3600 IN SVCB 1 www.hcsl.com. alpn="a2a,h2" port=443 endpoint="/.well-known/api-catalog" cap-sha256="nnSWEdhz1zj987y7MATxc8TnWgc6fnn2Y7nLgnYcs5o"
 ```
 
@@ -110,7 +110,7 @@ RFC 9460-compatible private-key presentation if the DNS provider rejects provisi
 
 ```zone
 _index._agents.hcsl.com. 3600 IN SVCB 1 www.hcsl.com. alpn="h2" port=443 key65000="/.well-known/agent-skills/index.json" key65001="2YNBfcr5UN4sj33I5i3Ng4bsMsU_Wpkh6fd1_kWjuNo"
-_mcp._agents.hcsl.com.   3600 IN SVCB 1 www.hcsl.com. alpn="mcp,h2" port=443 key65000="/.well-known/mcp/server-card.json" key65001="BFCs_Z_pmfy_noqI6YLajktu594d1Li2tdUHRlPvKbk"
+_mcp._agents.hcsl.com.   3600 IN SVCB 1 www.hcsl.com. alpn="mcp,h2" port=443 key65000="/.well-known/mcp/server-card.json" key65001="aM0Zn47sYdwvRzEKVAiNFN7VzujUE4UfovwlaMt2aPU"
 _a2a._agents.hcsl.com.   3600 IN SVCB 1 www.hcsl.com. alpn="a2a,h2" port=443 key65000="/.well-known/api-catalog" key65001="nnSWEdhz1zj987y7MATxc8TnWgc6fnn2Y7nLgnYcs5o"
 ```
 
@@ -118,7 +118,7 @@ Optional exact-host variants:
 
 ```zone
 _index._agents.www.hcsl.com. 3600 IN SVCB 1 www.hcsl.com. alpn="h2" port=443 endpoint="/.well-known/agent-skills/index.json" cap-sha256="2YNBfcr5UN4sj33I5i3Ng4bsMsU_Wpkh6fd1_kWjuNo"
-_mcp._agents.www.hcsl.com.   3600 IN SVCB 1 www.hcsl.com. alpn="mcp,h2" port=443 endpoint="/.well-known/mcp/server-card.json" cap-sha256="BFCs_Z_pmfy_noqI6YLajktu594d1Li2tdUHRlPvKbk"
+_mcp._agents.www.hcsl.com.   3600 IN SVCB 1 www.hcsl.com. alpn="mcp,h2" port=443 endpoint="/.well-known/mcp/server-card.json" cap-sha256="aM0Zn47sYdwvRzEKVAiNFN7VzujUE4UfovwlaMt2aPU"
 _a2a._agents.www.hcsl.com.   3600 IN SVCB 1 www.hcsl.com. alpn="a2a,h2" port=443 endpoint="/.well-known/api-catalog" cap-sha256="nnSWEdhz1zj987y7MATxc8TnWgc6fnn2Y7nLgnYcs5o"
 ```
 

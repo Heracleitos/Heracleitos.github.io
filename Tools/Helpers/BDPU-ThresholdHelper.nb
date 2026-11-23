@@ -5,18 +5,6 @@
 
 (* CreatedBy='Wolfram 15.0' *)
 
-(*CacheID: 234*)
-(* Internal cache information:
-NotebookFileLineBreakTest
-NotebookFileLineBreakTest
-NotebookDataPosition[       154,          7]
-NotebookDataLength[   4809900,      79194]
-NotebookOptionsPosition[   4788036,      78807]
-NotebookOutlinePosition[   4795894,      78964]
-CellTagsIndexPosition[   4795133,      78940]
-WindowTitle->BDPU-Threshold Methods and User Guide
-WindowFrame->Normal*)
-
 (* Beginning of Notebook Content *)
 Notebook[{
 
@@ -5463,13 +5451,7 @@ generates plots.\>\""}]}], ",", " ",
 reference endpoint.  \>\"", ",", " ", 
                     RowBox[{"Button", "[", 
                     RowBox[{"\"\<Help and methods\>\"", ",", " ", 
-                    RowBox[{"NotebookOpen", "[", 
-                    RowBox[{"FileNameJoin", "[", 
-                    RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"NotebookDirectory", "[", "]"}], ",", 
-                    " ", "\"\<BDPU-ThresholdHelper.nb\>\""}], "}"}], "]"}], 
-                    "]"}], ",", " ", 
+                    RowBox[{"With", "[", RowBox[{RowBox[{"{", RowBox[{RowBox[{"dir", "=", RowBox[{"NotebookDirectory", "[", RowBox[{"EvaluationNotebook", "[", "]"}], "]"}]}], ",", RowBox[{"name", "=", "\"BDPU-ThresholdHelper.nb\""}]}], "}"}], ",", RowBox[{"With", "[", RowBox[{RowBox[{"{", RowBox[{"path", "=", RowBox[{"SelectFirst", "[", RowBox[{RowBox[{"{", RowBox[{RowBox[{"FileNameJoin", "[", RowBox[{"{", RowBox[{"dir", ",", "name"}], "}"}], "]"}], ",", RowBox[{"FileNameJoin", "[", RowBox[{"{", RowBox[{RowBox[{"ParentDirectory", "[", "dir", "]"}], ",", "\"Helpers\"", ",", "name"}], "}"}], "]"}]}], "}"}], ",", "FileExistsQ", ",", "$Failed"}], "]"}]}], "}"}], ",", RowBox[{"If", "[", RowBox[{RowBox[{"StringQ", "[", "path", "]"}], ",", RowBox[{"NotebookOpen", "[", "path", "]"}], ",", RowBox[{"MessageDialog", "[", "\"Helper notebook not found.\"", "]"}]}], "]"}]}], "]"}]}], "]"}], ",", " ", 
                     RowBox[{"Method", " ", "->", " ", "\"\<Queued\>\""}]}], 
                     "]"}]}], "}"}], "]"}], ",", 
                    " ", "\"\<ManipulateLabel\>\""}], "]"}]}], "}"}], ",", " ", 
@@ -8820,13 +8802,7 @@ generates plots.\>\""}]}], ",", " ",
 reference endpoint.  \>\"", ",", " ", 
                     RowBox[{"Button", "[", 
                     RowBox[{"\"\<Help and methods\>\"", ",", " ", 
-                    RowBox[{"NotebookOpen", "[", 
-                    RowBox[{"FileNameJoin", "[", 
-                    RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"NotebookDirectory", "[", "]"}], ",", 
-                    " ", "\"\<BDPU-ThresholdHelper.nb\>\""}], "}"}], "]"}], 
-                    "]"}], ",", " ", 
+                    RowBox[{"With", "[", RowBox[{RowBox[{"{", RowBox[{RowBox[{"dir", "=", RowBox[{"NotebookDirectory", "[", RowBox[{"EvaluationNotebook", "[", "]"}], "]"}]}], ",", RowBox[{"name", "=", "\"BDPU-ThresholdHelper.nb\""}]}], "}"}], ",", RowBox[{"With", "[", RowBox[{RowBox[{"{", RowBox[{"path", "=", RowBox[{"SelectFirst", "[", RowBox[{RowBox[{"{", RowBox[{RowBox[{"FileNameJoin", "[", RowBox[{"{", RowBox[{"dir", ",", "name"}], "}"}], "]"}], ",", RowBox[{"FileNameJoin", "[", RowBox[{"{", RowBox[{RowBox[{"ParentDirectory", "[", "dir", "]"}], ",", "\"Helpers\"", ",", "name"}], "}"}], "]"}]}], "}"}], ",", "FileExistsQ", ",", "$Failed"}], "]"}]}], "}"}], ",", RowBox[{"If", "[", RowBox[{RowBox[{"StringQ", "[", "path", "]"}], ",", RowBox[{"NotebookOpen", "[", "path", "]"}], ",", RowBox[{"MessageDialog", "[", "\"Helper notebook not found.\"", "]"}]}], "]"}]}], "]"}]}], "]"}], ",", " ", 
                     RowBox[{"Method", " ", "->", " ", "\"\<Queued\>\""}]}], 
                     "]"}]}], "}"}], "]"}], ",", 
                     " ", "\"\<ManipulateLabel\>\""}], "]"}]}], "}"}], ",", 
@@ -25965,8 +25941,7 @@ Automatic]}}, \\n              Alignment -> {Left, Top}, FrameStyle -> \
 Blend[{Blue, Cyan}, 0.35]], Style[Row[{\\n                \\\"Research \
 software; same-visit latent reference endpoint.  \\\", \\n                \
 Button[\\\"Help and methods\\\", \
-NotebookOpen[FileNameJoin[{NotebookDirectory[], \\n                    \
-\\\"BDPU-ThresholdHelper.nb\\\"}]], Method -> \\\"Queued\\\"]}], \\n          \
+With[{dir = NotebookDirectory[EvaluationNotebook[]], name = \\\"BDPU-ThresholdHelper.nb\\\"}, With[{path = SelectFirst[{FileNameJoin[{dir, name}], FileNameJoin[{ParentDirectory[dir], \\\"Helpers\\\", name}]}, FileExistsQ, $Failed]}, If[StringQ[path], NotebookOpen[path], MessageDialog[\\\"Helper notebook not found.\\\"]]]], Method -> \\\"Queued\\\"]}], \\n          \
     \\\"ManipulateLabel\\\"]}, Spacings -> 1], \\\"Manipulate\\\"], \
 Initialization :> \\n          If[StringLength[defs] > 0, \
 ToExpression[defs]]]]; , Null, \\n    nfBayesInterfaceSource = \
@@ -26462,8 +26437,7 @@ Calculate generates plots.\\\", Method -> \\n                            \
                 Alignment -> {Left, Top}, FrameStyle -> Blend[{Blue, Cyan}, \
 0.35]], Style[Row[\\n                   {\\\"Research software; same-visit \
 latent reference endpoint.  \\\", Button[\\n                     \\\"Help and \
-methods\\\", NotebookOpen[FileNameJoin[{NotebookDirectory[], \\n              \
-          \\\"BDPU-ThresholdHelper.nb\\\"}]], Method -> \\\"Queued\\\"]}], \
+methods\\\", With[{dir = NotebookDirectory[EvaluationNotebook[]], name = \\\"BDPU-ThresholdHelper.nb\\\"}, With[{path = SelectFirst[{FileNameJoin[{dir, name}], FileNameJoin[{ParentDirectory[dir], \\\"Helpers\\\", name}]}, FileExistsQ, $Failed]}, If[StringQ[path], NotebookOpen[path], MessageDialog[\\\"Helper notebook not found.\\\"]]]], Method -> \\\"Queued\\\"]}], \
 \\n                  \\\"ManipulateLabel\\\"]}, Spacings -> 1], \
 \\\"Manipulate\\\"], Initialization :> \\n              If[StringLength[defs] \
 > 0, ToExpression[defs]]]]; ], InputForm, \\n       PageWidth -> Infinity]; \
@@ -41681,8 +41655,7 @@ density = Missing[\\\"Reset\\\"]; \\n                     status = \
 -> Automatic]}}, \\n           Alignment -> {Left, Top}, FrameStyle -> \
 Blend[{Blue, Cyan}, 0.35]], Style[\\n           Row[{\\\"Research software; \
 same-visit latent reference endpoint.  \\\", \\n             Button[\\\"Help \
-and methods\\\", NotebookOpen[FileNameJoin[{NotebookDirectory[], \\n          \
-       \\\"BDPU-ThresholdHelper.nb\\\"}]], Method -> \\\"Queued\\\"]}], \\n   \
+and methods\\\", With[{dir = NotebookDirectory[EvaluationNotebook[]], name = \\\"BDPU-ThresholdHelper.nb\\\"}, With[{path = SelectFirst[{FileNameJoin[{dir, name}], FileNameJoin[{ParentDirectory[dir], \\\"Helpers\\\", name}]}, FileExistsQ, $Failed]}, If[StringQ[path], NotebookOpen[path], MessageDialog[\\\"Helper notebook not found.\\\"]]]], Method -> \\\"Queued\\\"]}], \\n   \
         \\\"ManipulateLabel\\\"]}, Spacings -> 1], \\\"Manipulate\\\"], \\n   \
    Initialization :> If[StringLength[defs] > 0, ToExpression[defs]]]]; , \
 Null, \\n ClearAll[bduSimRealQ, bduSimFail, BayesianSimulationDistribution, \
@@ -78832,373 +78805,3 @@ StyleDefinitions->Notebook[{
 ExpressionUUID->"f8c41ddf-66c0-0f4f-b47e-d762e5c0fe54"
 ]
 (* End of Notebook Content *)
-
-(* Internal cache information *)
-(*CellTagsOutline
-CellTagsIndex->{
- "Start"->{
-  Cell[6896, 154, 252, 4, 73, "Section",ExpressionUUID->"639b54fd-df92-844c-a5db-bd52b6d4efcb",
-   CellTags->"Start"]},
- "BDPUStart"->{
-  Cell[7151, 160, 5324, 129, 93, "Output",ExpressionUUID->"adf39feb-dcd8-6444-afa7-7d4f34124fea",
-   CellTags->"BDPUStart"]},
- "Scope"->{
-  Cell[20692, 420, 125, 2, 73, "Section",ExpressionUUID->"2b8d84b9-d21e-b145-bbe8-61f94ccd7b75",
-   CellTags->"Scope"]},
- "Model"->{
-  Cell[23241, 471, 212, 3, 73, "Section",ExpressionUUID->"3eb4fba5-4efe-be4c-90e9-a2c5ce180009",
-   CellTags->"Model"]},
- "Uncertainty"->{
-  Cell[27443, 533, 226, 4, 73, "Section",ExpressionUUID->"c00d2743-eb06-024d-8e0c-bdba71eb1020",
-   CellTags->"Uncertainty"]},
- "CaseStudy"->{
-  Cell[29641, 567, 137, 2, 73, "Section",ExpressionUUID->"11335672-0190-c54c-b496-df7d8479ec92",
-   CellTags->"CaseStudy"]},
- "FormalCaseStudyTable"->{
-  Cell[29781, 571, 1958, 20, 208, "Output",ExpressionUUID->"be9a5dc7-c1bc-d04f-8781-83e7aefd5b8c",
-   CellTags->"FormalCaseStudyTable"]},
- "BDPUWorkedExample"->{
-  Cell[33236, 621, 889, 18, 148, "Input",ExpressionUUID->"e1c717b8-c175-9046-bc00-4d7290ca173d",
-   CellTags->{"BDPUWorkedExample", "BDPUReferenceExample"}],
-  Cell[34128, 641, 947, 19, 84, "Output",ExpressionUUID->"25dd65b0-b7e3-ab41-976b-dfa9856bfada",
-   CellTags->{"BDPUWorkedExample", "BDPUReferenceExample"}],
-  Cell[53572, 949, 807, 17, 70, "Input",ExpressionUUID->"30e9f306-11f6-644d-9de8-a0fe440df9ea",
-   CellTags->{"BDPUWorkedExample", "BDPUAgeExample"}],
-  Cell[54382, 968, 686, 14, 70, "Output",ExpressionUUID->"9f0522be-7c3b-144d-9f90-a5344d849db7",
-   CellTags->{"BDPUWorkedExample", "BDPUAgeExample"}],
-  Cell[55887, 1006, 2427, 58, 70, "Input",ExpressionUUID->"a8f75f20-6c3e-e643-88eb-7324d646515c",
-   CellTags->{"BDPUWorkedExample", "BDPURefitExample"}],
-  Cell[58317, 1066, 612, 12, 70, "Output",ExpressionUUID->"7d4adb2b-df3c-4847-8d41-17b90eec4bb1",
-   CellTags->{"BDPUWorkedExample", "BDPURefitExample"}],
-  Cell[60043, 1108, 3260, 73, 70, "Input",ExpressionUUID->"3a900ccb-4331-f546-b869-3480435fcfb0",
-   CellTags->{"BDPUWorkedExample", "BDPUSimulationExample"}],
-  Cell[63306, 1183, 1193, 24, 70, "Output",ExpressionUUID->"cf4ffe89-b2a9-244f-a92c-0eb4e8449e16",
-   CellTags->{"BDPUWorkedExample", "BDPUSimulationExample"}]},
- "BDPUReferenceExample"->{
-  Cell[33236, 621, 889, 18, 148, "Input",ExpressionUUID->"e1c717b8-c175-9046-bc00-4d7290ca173d",
-   CellTags->{"BDPUWorkedExample", "BDPUReferenceExample"}],
-  Cell[34128, 641, 947, 19, 84, "Output",ExpressionUUID->"25dd65b0-b7e3-ab41-976b-dfa9856bfada",
-   CellTags->{"BDPUWorkedExample", "BDPUReferenceExample"}]},
- "Holdout"->{
-  Cell[36397, 690, 210, 3, 73, "Section",ExpressionUUID->"bc4ffa4a-9bc9-9d41-88d6-2b7e5f0b7148",
-   CellTags->"Holdout"]},
- "BDPUHoldoutTable20261018"->{
-  Cell[37781, 710, 8964, 91, 185, "Output",ExpressionUUID->"4bd072ed-16ee-9246-9e6f-29d23abb01d1",
-   CellTags->"BDPUHoldoutTable20261018"]},
- "Fitting"->{
-  Cell[49068, 836, 220, 3, 73, "Section",ExpressionUUID->"1916b00f-4ce3-ce42-9546-9617aeb98db9",
-   CellTags->"Fitting"]},
- "BDPUAgeExample"->{
-  Cell[53572, 949, 807, 17, 70, "Input",ExpressionUUID->"30e9f306-11f6-644d-9de8-a0fe440df9ea",
-   CellTags->{"BDPUWorkedExample", "BDPUAgeExample"}],
-  Cell[54382, 968, 686, 14, 70, "Output",ExpressionUUID->"9f0522be-7c3b-144d-9f90-a5344d849db7",
-   CellTags->{"BDPUWorkedExample", "BDPUAgeExample"}]},
- "BDPURefitExample"->{
-  Cell[55887, 1006, 2427, 58, 70, "Input",ExpressionUUID->"a8f75f20-6c3e-e643-88eb-7324d646515c",
-   CellTags->{"BDPUWorkedExample", "BDPURefitExample"}],
-  Cell[58317, 1066, 612, 12, 70, "Output",ExpressionUUID->"7d4adb2b-df3c-4847-8d41-17b90eec4bb1",
-   CellTags->{"BDPUWorkedExample", "BDPURefitExample"}]},
- "BDPUSimulationExample"->{
-  Cell[60043, 1108, 3260, 73, 70, "Input",ExpressionUUID->"3a900ccb-4331-f546-b869-3480435fcfb0",
-   CellTags->{"BDPUWorkedExample", "BDPUSimulationExample"}],
-  Cell[63306, 1183, 1193, 24, 70, "Output",ExpressionUUID->"cf4ffe89-b2a9-244f-a92c-0eb4e8449e16",
-   CellTags->{"BDPUWorkedExample", "BDPUSimulationExample"}]},
- "Checks"->{
-  Cell[65012, 1223, 146, 2, 73, "Section",ExpressionUUID->"a1214d7f-c4f0-a542-a897-c795facb0ade",
-   CellTags->"Checks"]},
- "Implementation"->{
-  Cell[116986, 2176, 152, 3, 73, "Section",ExpressionUUID->"9c96c05b-bdad-a546-a293-bf088ad4d90a",
-   CellTags->"Implementation"]},
- "BDPUInitialization"->{
-  Cell[117940, 2192, 309618, 6657, 70, "Input",ExpressionUUID->"4b4abb5c-571b-e94f-bba3-f98da2566dcf",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[427703, 8856, 892283, 14080, 70, "Input",ExpressionUUID->"0031750f-ee82-3c45-8f90-06853df7481d",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[1320130, 22943, 120109, 2481, 70, "Input",ExpressionUUID->"8f8f5ff4-0591-ad4a-90db-fdb5e37737f1",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[1440390, 25431, 2979217, 45942, 70, "Input",ExpressionUUID->"d7c827b8-090f-3f4b-91e2-4c9cef16423d",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[4419758, 71380, 327323, 6662, 70, "Input",ExpressionUUID->"3aa3614a-d672-8e4b-8ab8-d2b1f0becbd1",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[4747234, 78049, 19412, 307, 70, "Input",ExpressionUUID->"a594f7d7-c1be-f048-a475-4c22fa43ce05",
-   InitializationCell->True,
-   CellTags->{"BDPUInitialization", "BDPUExactOptimization"}]},
- "BDPUExactOptimization"->{
-  Cell[4747234, 78049, 19412, 307, 70, "Input",ExpressionUUID->"a594f7d7-c1be-f048-a475-4c22fa43ce05",
-   InitializationCell->True,
-   CellTags->{"BDPUInitialization", "BDPUExactOptimization"}]},
- "Notation"->{
-  Cell[4766695, 78362, 225, 3, 49, "Section",ExpressionUUID->"3699f09c-07e7-d744-b6b8-04e2c14f44d8",
-   CellTags->"Notation"]}
- }
-*)
-(*CellTagsIndex
-CellTagsIndex->{
- {"Start", 4789330, 78838},
- {"BDPUStart", 4789466, 78841},
- {"Scope", 4789604, 78844},
- {"Model", 4789737, 78847},
- {"Uncertainty", 4789876, 78850},
- {"CaseStudy", 4790019, 78853},
- {"FormalCaseStudyTable", 4790171, 78856},
- {"BDPUWorkedExample", 4790333, 78859},
- {"BDPUReferenceExample", 4791611, 78876},
- {"Holdout", 4791942, 78881},
- {"BDPUHoldoutTable20261018", 4792096, 78884},
- {"Fitting", 4792252, 78887},
- {"BDPUAgeExample", 4792396, 78890},
- {"BDPURefitExample", 4792723, 78895},
- {"BDPUSimulationExample", 4793062, 78900},
- {"Checks", 4793397, 78905},
- {"Implementation", 4793541, 78908},
- {"BDPUInitialization", 4793698, 78911},
- {"BDPUExactOptimization", 4794771, 78930},
- {"Notation", 4794982, 78934}
- }
-*)
-(*NotebookFileOutline
-Notebook[{
-Cell[CellGroupData[{
-Cell[627, 23, 1504, 25, 102, "Title",ExpressionUUID->"0e376cc4-e77a-474e-89da-771a7725f16a",
- Evaluatable->False],
-Cell[2134, 50, 1741, 27, 84, "Title",ExpressionUUID->"566aca32-6f98-4a46-a7cb-7f0f4ee7cabb",
- Evaluatable->False],
-Cell[3878, 79, 793, 28, 209, "Author",ExpressionUUID->"03eef85d-a730-a645-93f6-94a3bc271222"],
-Cell[4674, 109, 425, 11, 63, "Affiliation",ExpressionUUID->"98794e58-45a7-944e-8701-46e2bb3a3b38"],
-Cell[CellGroupData[{
-Cell[5124, 124, 226, 4, 73, "Section",ExpressionUUID->"6915e0b5-01b5-1240-8a54-570ffa8cffdb"],
-Cell[5353, 130, 412, 6, 93, "Text",ExpressionUUID->"56966892-af19-9b48-8069-d95e5a54c491"],
-Cell[5768, 138, 1091, 11, 66, "Text",ExpressionUUID->"04731542-59cb-a542-b4dc-f7bbb5be3644"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[6896, 154, 252, 4, 73, "Section",ExpressionUUID->"639b54fd-df92-844c-a5db-bd52b6d4efcb",
- CellTags->"Start"],
-Cell[7151, 160, 5324, 129, 93, "Output",ExpressionUUID->"adf39feb-dcd8-6444-afa7-7d4f34124fea",
- CellTags->"BDPUStart"],
-Cell[CellGroupData[{
-Cell[12500, 293, 182, 4, 63, "Subsection",ExpressionUUID->"683b1dc8-0fcc-f14f-ad30-3e449b78c18c"],
-Cell[12685, 299, 853, 24, 93, "Text",ExpressionUUID->"60bf40ae-4f7d-884c-a026-72a56f413018"],
-Cell[13541, 325, 848, 7, 119, "Text",ExpressionUUID->"03a16134-5032-4c40-b8c8-1441493f734b"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[14426, 337, 185, 4, 63, "Subsection",ExpressionUUID->"90f9b895-9e24-7047-adbd-3aa5c0172c70"],
-Cell[14614, 343, 682, 6, 119, "Text",ExpressionUUID->"e3c28dee-4dcd-aa41-9c1d-e5e8edccc226"],
-Cell[15299, 351, 984, 9, 171, "Text",ExpressionUUID->"59368a98-1de3-134c-82b8-cbaaf4dd7be0"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[16320, 365, 188, 4, 63, "Subsection",ExpressionUUID->"6d42a69b-28b0-5449-8a1d-3a98e1988e8b"],
-Cell[16511, 371, 856, 7, 93, "Text",ExpressionUUID->"b8a1f4fc-fd24-3740-9dd2-d4377101bed2"],
-Cell[17370, 380, 513, 5, 119, "Text",ExpressionUUID->"b873abd8-cbda-e246-8d2f-26eaa097320b"],
-Cell[17886, 387, 431, 4, 119, "Text",ExpressionUUID->"6da170cc-a94f-524f-80dd-487fad304fae"],
-Cell[18320, 393, 580, 4, 93, "Text",ExpressionUUID->"ce7f6166-2125-974d-a276-8485ec480921"],
-Cell[18903, 399, 828, 6, 119, "Text",ExpressionUUID->"41890ef5-3654-844e-b451-fd52ff567f84"],
-Cell[19734, 407, 909, 7, 119, "Text",ExpressionUUID->"1f02d864-5adc-9b4d-bc97-507b8ef10455"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[20692, 420, 125, 2, 73, "Section",ExpressionUUID->"2b8d84b9-d21e-b145-bbe8-61f94ccd7b75",
- CellTags->"Scope"],
-Cell[20820, 424, 472, 4, 119, "Text",ExpressionUUID->"1827247e-d651-c54f-b3a6-ea9976ce5ef9"],
-Cell[21295, 430, 644, 6, 171, "Text",ExpressionUUID->"8f29f289-9e19-4947-9029-8d0daf102f12"],
-Cell[CellGroupData[{
-Cell[21964, 440, 178, 4, 63, "Subsection",ExpressionUUID->"2aa3e0de-c845-7b4a-8168-20c89d0dfb9c"],
-Cell[22145, 446, 399, 4, 93, "Text",ExpressionUUID->"51163c7d-6b5e-5e49-b884-49effc8c2c94"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[22581, 455, 179, 4, 63, "Subsection",ExpressionUUID->"d293bd01-a5b2-0745-b0c2-1d524bc4d9a6"],
-Cell[22763, 461, 429, 4, 119, "Text",ExpressionUUID->"b7fac083-0f7e-aa43-9953-f42773a83810"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[23241, 471, 212, 3, 73, "Section",ExpressionUUID->"3eb4fba5-4efe-be4c-90e9-a2c5ce180009",
- CellTags->"Model"],
-Cell[23456, 476, 828, 8, 224, "Text",ExpressionUUID->"9404bf8c-2d12-224f-94b2-e7df696c531b"],
-Cell[24287, 486, 658, 6, 171, "Text",ExpressionUUID->"61a60d23-7e55-af43-a345-cce18379bd6d"],
-Cell[24948, 494, 246, 2, 30, "DisplayFormula",ExpressionUUID->"9a9caac9-6b15-624d-90fd-016fdff66d25"],
-Cell[25197, 498, 234, 2, 30, "DisplayFormula",ExpressionUUID->"77a8c7d6-f846-5142-b348-11429d283a0e"],
-Cell[25434, 502, 430, 4, 50, "DisplayFormula",ExpressionUUID->"7ae48b55-1cf7-fe40-9dc1-f4cfa2db60be"],
-Cell[25867, 508, 255, 2, 30, "DisplayFormula",ExpressionUUID->"5fe6c1b0-86d4-0f48-a197-fdd11fe37c58"],
-Cell[26125, 512, 430, 4, 31, "DisplayFormula",ExpressionUUID->"cb885772-711b-cb4b-860b-e375a69ba995"],
-Cell[26558, 518, 490, 5, 31, "DisplayFormula",ExpressionUUID->"719fc088-20f6-804d-8799-f07ece96bf61"],
-Cell[27051, 525, 355, 3, 35, "DisplayFormula",ExpressionUUID->"40d33ff1-796f-8241-a6f9-6d4d17872613"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[27443, 533, 226, 4, 73, "Section",ExpressionUUID->"c00d2743-eb06-024d-8e0c-bdba71eb1020",
- CellTags->"Uncertainty"],
-Cell[27672, 539, 851, 8, 197, "Text",ExpressionUUID->"bb732cb4-468d-a14b-9cda-9837feffb061"],
-Cell[28526, 549, 481, 5, 119, "Text",ExpressionUUID->"59f046cc-5fce-ee4f-a910-9c55b6fc896c"],
-Cell[29010, 556, 594, 6, 145, "Text",ExpressionUUID->"36917143-c60a-204a-bb54-ed07103182d0"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[29641, 567, 137, 2, 73, "Section",ExpressionUUID->"11335672-0190-c54c-b496-df7d8479ec92",
- CellTags->"CaseStudy"],
-Cell[29781, 571, 1958, 20, 208, "Output",ExpressionUUID->"be9a5dc7-c1bc-d04f-8781-83e7aefd5b8c",
- CellTags->"FormalCaseStudyTable"],
-Cell[31742, 593, 857, 8, 224, "Text",ExpressionUUID->"c0808eae-f72f-254f-9302-d4c2add93c95"],
-Cell[CellGroupData[{
-Cell[32624, 605, 192, 4, 63, "Subsection",ExpressionUUID->"adfe9491-6625-2149-b515-acbc1e3752ce"],
-Cell[32819, 611, 392, 6, 93, "Text",ExpressionUUID->"b0efc8a5-08fb-8247-b8dc-396dfdcaacb8"],
-Cell[CellGroupData[{
-Cell[33236, 621, 889, 18, 148, "Input",ExpressionUUID->"e1c717b8-c175-9046-bc00-4d7290ca173d",
- CellTags->{"BDPUWorkedExample", "BDPUReferenceExample"}],
-Cell[34128, 641, 947, 19, 84, "Output",ExpressionUUID->"25dd65b0-b7e3-ab41-976b-dfa9856bfada",
- CellTags->{"BDPUWorkedExample", "BDPUReferenceExample"}]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[35124, 666, 182, 4, 63, "Subsection",ExpressionUUID->"aee6063b-642d-004c-aa0d-f4deeb33ee58"],
-Cell[35309, 672, 618, 6, 145, "Text",ExpressionUUID->"bbd95691-3be5-1a43-b0b3-ff0e0f22ba5f"],
-Cell[35930, 680, 418, 4, 119, "Text",ExpressionUUID->"13fe5301-fd7d-f44a-8c7c-80f7d29f4811"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[36397, 690, 210, 3, 73, "Section",ExpressionUUID->"bc4ffa4a-9bc9-9d41-88d6-2b7e5f0b7148",
- CellTags->"Holdout"],
-Cell[36610, 695, 537, 5, 145, "Text",ExpressionUUID->"bfe86f71-9f9b-f94b-90f4-59122e7e6f13"],
-Cell[37150, 702, 628, 6, 145, "Text",ExpressionUUID->"2e8aabc0-27e2-0b48-8632-a142ab0c5420"],
-Cell[37781, 710, 8964, 91, 185, "Output",ExpressionUUID->"4bd072ed-16ee-9246-9e6f-29d23abb01d1",
- CellTags->"BDPUHoldoutTable20261018"],
-Cell[46748, 803, 690, 7, 171, "Text",ExpressionUUID->"b05a9207-2f17-1a47-9d82-65a6a8170508"],
-Cell[47441, 812, 534, 5, 145, "Text",ExpressionUUID->"3458aa46-5677-7446-907a-f1eca1a36f57"],
-Cell[47978, 819, 667, 6, 171, "Text",ExpressionUUID->"046e9254-8614-3740-b77f-c3d8245b3d7d"],
-Cell[48648, 827, 383, 4, 93, "Text",ExpressionUUID->"b42936e3-8502-734e-b78c-56f9db337561"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[49068, 836, 220, 3, 73, "Section",ExpressionUUID->"1916b00f-4ce3-ce42-9546-9617aeb98db9",
- CellTags->"Fitting"],
-Cell[49291, 841, 286, 4, 66, "Text",ExpressionUUID->"91fa443b-bdb5-f942-89d9-99b4d6bb1fc1"],
-Cell[CellGroupData[{
-Cell[49602, 849, 175, 4, 63, "Subsection",ExpressionUUID->"06e69bd6-b292-d34f-8e05-84bf86c4d794"],
-Cell[49780, 855, 312, 6, 70, "Text",ExpressionUUID->"567a42ee-9047-9848-ae80-2c84c2000800"],
-Cell[50095, 863, 433, 7, 70, "Text",ExpressionUUID->"ea91457b-9987-9f44-b753-c68750a7d8e7"],
-Cell[50531, 872, 411, 8, 70, "Text",ExpressionUUID->"17239b7e-8d62-8a41-898a-3f273addfd4f"],
-Cell[50945, 882, 406, 7, 70, "Text",ExpressionUUID->"4961fe85-66e3-e64f-8957-41079e39e17c"],
-Cell[51354, 891, 269, 5, 70, "Text",ExpressionUUID->"f05c0cd2-be2f-644c-b39b-14d6726b75dd"],
-Cell[51626, 898, 294, 6, 70, "Text",ExpressionUUID->"0edc1323-0afb-b74f-9f91-44a722fdfadf"],
-Cell[51923, 906, 345, 6, 70, "Text",ExpressionUUID->"5b71c82f-52c4-a946-916b-e1c3ae7bcd59"],
-Cell[52271, 914, 396, 7, 70, "Text",ExpressionUUID->"a9deb466-2346-7b4d-986e-585f02bbbfd9"],
-Cell[52670, 923, 385, 7, 70, "Text",ExpressionUUID->"ee60136e-a267-bb49-a6fc-00123af2d41f"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[53092, 935, 187, 4, 43, "Subsection",ExpressionUUID->"af411ef5-900f-6c4a-969d-39d8f33648e7"],
-Cell[53282, 941, 265, 4, 70, "Text",ExpressionUUID->"31dce056-0499-6d49-977e-c65838d1292d"],
-Cell[CellGroupData[{
-Cell[53572, 949, 807, 17, 70, "Input",ExpressionUUID->"30e9f306-11f6-644d-9de8-a0fe440df9ea",
- CellTags->{"BDPUWorkedExample", "BDPUAgeExample"}],
-Cell[54382, 968, 686, 14, 70, "Output",ExpressionUUID->"9f0522be-7c3b-144d-9f90-a5344d849db7",
- CellTags->{"BDPUWorkedExample", "BDPUAgeExample"}]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[55117, 988, 184, 4, 43, "Subsection",ExpressionUUID->"92f4286c-db3c-be47-94b4-238cd3722499"],
-Cell[55304, 994, 558, 8, 70, "Text",ExpressionUUID->"04f9dc28-61d4-3b49-a175-0243a633cc37"],
-Cell[CellGroupData[{
-Cell[55887, 1006, 2427, 58, 70, "Input",ExpressionUUID->"a8f75f20-6c3e-e643-88eb-7324d646515c",
- CellTags->{"BDPUWorkedExample", "BDPURefitExample"}],
-Cell[58317, 1066, 612, 12, 70, "Output",ExpressionUUID->"7d4adb2b-df3c-4847-8d41-17b90eec4bb1",
- CellTags->{"BDPUWorkedExample", "BDPURefitExample"}]
-}, Open  ]],
-Cell[58944, 1081, 443, 6, 70, "Text",ExpressionUUID->"41887fc1-4324-9746-b713-29ea160cca64"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[59424, 1092, 192, 4, 43, "Subsection",ExpressionUUID->"8660c213-49a8-a74a-852a-cdf5e5381c0d"],
-Cell[59619, 1098, 399, 6, 70, "Text",ExpressionUUID->"6217e5c8-56a6-5848-82ab-0f2aaec0cb14"],
-Cell[CellGroupData[{
-Cell[60043, 1108, 3260, 73, 70, "Input",ExpressionUUID->"3a900ccb-4331-f546-b869-3480435fcfb0",
- CellTags->{"BDPUWorkedExample", "BDPUSimulationExample"}],
-Cell[63306, 1183, 1193, 24, 70, "Output",ExpressionUUID->"cf4ffe89-b2a9-244f-a92c-0eb4e8449e16",
- CellTags->{"BDPUWorkedExample", "BDPUSimulationExample"}]
-}, Open  ]],
-Cell[64514, 1210, 449, 7, 70, "Text",ExpressionUUID->"0a32a47f-9107-1a40-bf44-4ccdd6512de1"]
-}, Closed]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[65012, 1223, 146, 2, 73, "Section",ExpressionUUID->"a1214d7f-c4f0-a542-a897-c795facb0ade",
- CellTags->"Checks"],
-Cell[65161, 1227, 670, 6, 171, "Text",ExpressionUUID->"860d0b1a-95ce-ea47-a6fc-21edffb5a3fd"],
-Cell[65834, 1235, 450, 4, 119, "Text",ExpressionUUID->"53e97a7b-a972-ad42-a09f-327d5b42dd4b"],
-Cell[66287, 1241, 468, 5, 119, "Text",ExpressionUUID->"68607c56-3103-924f-90b5-9d8d8b07bd46"],
-Cell[CellGroupData[{
-Cell[66780, 1250, 1093, 28, 77, "Input",ExpressionUUID->"44a7b027-f925-0040-aa19-d7af8b3703e7"],
-Cell[67876, 1280, 46782, 846, 360, "Output",ExpressionUUID->"33e90691-f75f-7046-b895-bc777c6f78c7"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[114695, 2131, 181, 4, 63, "Subsection",ExpressionUUID->"f7242e47-51a0-a349-9220-143184577776"],
-Cell[114879, 2137, 423, 4, 119, "Text",ExpressionUUID->"4a5cbb1b-a679-d34a-820f-5b22d54614af"],
-Cell[115305, 2143, 417, 4, 93, "Text",ExpressionUUID->"212c8c77-a472-a341-95a6-65aacc8fd3ac"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[115759, 2152, 193, 4, 63, "Subsection",ExpressionUUID->"3ec7c36e-4bf7-284b-9051-a348cd98652b"],
-Cell[115955, 2158, 398, 4, 93, "Text",ExpressionUUID->"8e24b504-1147-e842-b831-4174d1f8f7ad"],
-Cell[116356, 2164, 581, 6, 145, "Text",ExpressionUUID->"e6e199e1-dcfd-5c43-8ce3-d75b7d2f1aa5"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[116986, 2176, 152, 3, 73, "Section",ExpressionUUID->"9c96c05b-bdad-a546-a293-bf088ad4d90a",
- CellTags->"Implementation"],
-Cell[117141, 2181, 662, 5, 70, "Text",ExpressionUUID->"88eb2a94-2af4-7340-9f5d-d0604e29a0c8"],
-Cell[CellGroupData[{
-Cell[117828, 2190, 109, 0, 70, "Subsubsection",ExpressionUUID->"5abe6d3a-22b3-7144-b25c-034a769b752d"],
-Cell[117940, 2192, 309618, 6657, 70, "Input",ExpressionUUID->"4b4abb5c-571b-e94f-bba3-f98da2566dcf",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[427595, 8854, 105, 0, 70, "Subsubsection",ExpressionUUID->"edf79c95-1847-1b4d-985a-773a572416e0"],
-Cell[427703, 8856, 892283, 14080, 70, "Input",ExpressionUUID->"0031750f-ee82-3c45-8f90-06853df7481d",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[1320023, 22941, 104, 0, 70, "Subsubsection",ExpressionUUID->"49dacf9a-8bce-954f-b4d4-2aed4f5e9a2d"],
-Cell[1320130, 22943, 120109, 2481, 70, "Input",ExpressionUUID->"8f8f5ff4-0591-ad4a-90db-fdb5e37737f1",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[1440276, 25429, 111, 0, 70, "Subsubsection",ExpressionUUID->"450fdae9-f35b-fe49-a385-13a0f3b9903a"],
-Cell[1440390, 25431, 2979217, 45942, 70, "Input",ExpressionUUID->"d7c827b8-090f-3f4b-91e2-4c9cef16423d",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[4419644, 71378, 111, 0, 70, "Subsubsection",ExpressionUUID->"0d25674a-3bdc-f548-b972-fca0fc9172b2"],
-Cell[4419758, 71380, 327323, 6662, 70, "Input",ExpressionUUID->"3aa3614a-d672-8e4b-8ab8-d2b1f0becbd1",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[4747118, 78047, 113, 0, 70, "Subsubsection",ExpressionUUID->"ca4b9bbb-b06f-0c43-8c93-5d20d4670a6d"],
-Cell[4747234, 78049, 19412, 307, 70, "Input",ExpressionUUID->"a594f7d7-c1be-f048-a475-4c22fa43ce05",
- InitializationCell->True,
- CellTags->{"BDPUInitialization", "BDPUExactOptimization"}]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[4766695, 78362, 225, 3, 49, "Section",ExpressionUUID->"3699f09c-07e7-d744-b6b8-04e2c14f44d8",
- CellTags->"Notation"],
-Cell[4766923, 78367, 7463, 202, 895, "Text",ExpressionUUID->"37088ae6-f4e2-6d48-8546-594e338e5ed9"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[4774423, 78574, 1978, 29, 73, "Section",ExpressionUUID->"4ac89200-0343-a140-833e-dd29090faa3e"],
-Cell[4776404, 78605, 2539, 36, 122, "Subsection",ExpressionUUID->"37f1968c-2656-394a-8ff1-99a24deb59c7"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[4778980, 78646, 2013, 31, 73, "Section",ExpressionUUID->"6170741f-b080-c54f-8c4c-77e1813c3be4"],
-Cell[CellGroupData[{
-Cell[4781018, 78681, 3437, 70, 164, "Subsection",ExpressionUUID->"25041472-316a-8b43-aa24-0d0b0b845b83"],
-Cell[4784458, 78753, 3538, 49, 40, "Text",ExpressionUUID->"7c77f937-cfee-e649-a5f0-dc24809fdd24"]
-}, Open  ]]
-}, Open  ]]
-}, Open  ]]
-}
-]
-*)
-
-(* End of internal cache information *)
-

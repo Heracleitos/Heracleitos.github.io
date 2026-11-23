@@ -1,12 +1,12 @@
 # BDPU-LatentClass
 
-Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: Latent-Class Probabilities and Uncertainty from Paired Quantitative Assays. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.92955750
+Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: Latent-Class Probabilities and Uncertainty from Paired Quantitative Assays. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.24455076
 
 BDPU-LatentClass estimates latent-class probabilities from paired quantitative assays in the absence of a gold standard. It uses a two-class Gaussian mixture with class-specific covariance and identifies the target class by its higher mean log concentration on the first assay. The Wolfram notebook reports both class probabilities, credible intervals, and parameter, analytical measurement, and total standard uncertainties.
 
 Source: [BDPU-LatentClass.nb](BDPU-LatentClass.nb)
 
-Supplement: [SBDPU-LC.zip](../../Supplements/SBDPU-LC.zip) (Helper DOI 10.5281/zenodo.81648111)
+Supplement: [SBDPU-LC.zip](../../Supplements/SBDPU-LC.zip) (Helper DOI 10.5281/zenodo.24455254)
 
 Technical Report: [XXXII](../../TR/hcsltr32/index.html)
 

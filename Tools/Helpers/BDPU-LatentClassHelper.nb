@@ -5,18 +5,6 @@
 
 (* CreatedBy='Wolfram 15.0' *)
 
-(*CacheID: 234*)
-(* Internal cache information:
-NotebookFileLineBreakTest
-NotebookFileLineBreakTest
-NotebookDataPosition[       154,          7]
-NotebookDataLength[     99122,       2207]
-NotebookOptionsPosition[     83509,       1908]
-NotebookOutlinePosition[     88657,       2024]
-CellTagsIndexPosition[     88143,       2005]
-WindowTitle->BDPU-LatentClass Methods and User Guide
-WindowFrame->Normal*)
-
 (* Beginning of Notebook Content *)
 Notebook[{
 
@@ -201,21 +189,17 @@ FPG.\
 \>", "Text",ExpressionUUID->"76b00626-5dce-0e4f-ba03-f3e92b44e842"],
 
 Cell[BoxData[
- DynamicModuleBox[{message$$, busy$$, companion$$}, 
+ DynamicModuleBox[{message$$, busy$$, companion$$, companionPath$$}, 
   TagBox[GridBox[{
      {
       TemplateBox[{
         ButtonBox[
-        "\"Open calculator\"", ButtonFunction :> With[{path$ = FileNameJoin[{
-               NotebookDirectory[
-                EvaluationNotebook[]], 
-               "BayesianDiagnosticProbabilityAndUncertainty.nb"}]}, 
+        "\"Open calculator\"", ButtonFunction :> With[{path$ = companionPath$$[NotebookDirectory[EvaluationNotebook[]]]}, 
            If[
             TrueQ[
              companion$$[path$, False]], 
             NotebookOpen[path$], message$$ = 
-            "Place the matching BDPU-LC calculator notebook in the same \
-folder as this helper."]], Method -> "Queued", Appearance -> Automatic, 
+            "Could not find the matching BDPU-LatentClass.nb calculator."]], Method -> "Queued", Appearance -> Automatic, 
          Evaluator -> Automatic], 
         TemplateBox[{12}, "Spacer1"], 
         ButtonBox["\"Load functions for examples\"", ButtonFunction :> If[
@@ -226,15 +210,11 @@ folder as this helper."]], Method -> "Queued", Appearance -> Automatic,
               TrueQ[
                CheckAbort[
                 companion$$[
-                 FileNameJoin[{
-                   NotebookDirectory[
-                    EvaluationNotebook[]], 
-                   "BayesianDiagnosticProbabilityAndUncertainty.nb"}], True], 
+                 companionPath$$[NotebookDirectory[EvaluationNotebook[]]], True], 
                 False]], 
               "Functions are ready. Select an example input cell and press \
 Shift+Enter.", 
-              "Loading failed. Keep both updated notebooks together and try \
-again."]; busy$$ = False], Enabled -> Dynamic[
+              "Could not load the functions from BDPU-LatentClass.nb."]; busy$$ = False], Enabled -> Dynamic[
            Not[
             TrueQ[busy$$]]], Method -> "Queued", Appearance -> Automatic, 
          Evaluator -> Automatic]},
@@ -254,10 +234,12 @@ again."]; busy$$ = False], Enabled -> Dynamic[
     GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{0.4}}}],
    "Column"],
   DynamicModuleValues:>{},
-  Initialization:>(companion$$ = Function[{file, initialize}, 
-     Module[{book, engine}, If[
-        Not[
-         FileExistsQ[file]], 
+  Initialization:>(
+   companionPath$$ = Function[{dir}, With[{name = "BDPU-LatentClass.nb"},
+     SelectFirst[{FileNameJoin[{dir, name}],
+       FileNameJoin[{ParentDirectory[dir], "BayesianDiagnosticUncertaintyLatentClass", name}]}, FileExistsQ, $Failed]]];
+   companion$$ = Function[{file, initialize}, 
+     Module[{book, engine, parsed}, If[!StringQ[file] || !FileExistsQ[file], 
         Return[False, Module]]; book = Quiet[
          Check[
           Get[file], $Failed]]; If[Head[book] =!= Notebook, 
@@ -274,20 +256,18 @@ again."]; busy$$ = False], Enabled -> Dynamic[
         Return[False, Module]]; If[
         Not[
          TrueQ[initialize]], 
-        Return[True, Module]]; And[
-        Block[{$Context = "Global`", $ContextPath = {"System`", "Global`"}}, 
-         Quiet[
-          Check[ToExpression[
-             First[engine], StandardForm]; True, False]]], 
-        And[
-        DownValues[lCProbability] =!= {}, 
-         DownValues[lCPriorProbability] =!= {}, DownValues[lCFit] =!= {}, 
-         AssociationQ[ngsDefaultFit], 
-         AssociationQ[ngsDefaultRecord], 
-         AssociationQ[ngsDefaultCurves], 
-         TrueQ[ngsDefaultFit["model"] == "BDPU-LC-0.1"]]]]]),
+        Return[True, Module]]; Block[{$Context = "Global`", $ContextPath = {"System`", "Global`"}},
+         Quiet[Check[
+          parsed = ToExpression[First[engine], StandardForm, HoldComplete];
+          If[Head[parsed] =!= HoldComplete, Return[False, Module]];
+          ClearAll[Global`lcDefaultFit, Global`lcDefaultRecord, Global`lcDefaultResult,
+            Global`lcTrainingData, Global`lcDefaultCurves];
+          ReleaseHold[parsed];
+          DownValues[Global`lCProbability] =!= {} &&
+           DownValues[Global`lCPriorProbability] =!= {} && DownValues[Global`lCFit] =!= {} &&
+           TrueQ[Global`lcReferenceReadyQ[]], False]]]]]),
   SynchronousInitialization->True,
-  UnsavedVariables:>{message$$, busy$$, companion$$}]], "Output",
+  UnsavedVariables:>{message$$, busy$$, companion$$, companionPath$$}]], "Output",
  GeneratedCell->False,
  CellAutoOverwrite->False,
  FontWeight->"Plain",
@@ -295,7 +275,7 @@ again."]; busy$$ = False], Enabled -> Dynamic[
   "lCHelperStart",ExpressionUUID->"2208f7dd-c54f-5649-bf53-d0d8bb2185de"],
 
 Cell["\<\
-Keep the two notebooks in the same folder. Open calculator opens the main \
+Keep the downloaded notebooks together or retain the website folder layout. Open calculator opens the main \
 notebook. To run the examples here in a fresh kernel, choose Load functions \
 for examples. This loads the functions and embedded reference fit from the \
 companion calculator.\
@@ -691,230 +671,27 @@ Cell[BoxData[
   4.0043191568401833`*^9, 4.004319158256502*^9}},
  CellTags->"lCExampleProbability",
  CellLabel->
-  "In[274]:=",ExpressionUUID->"6c43cdc3-5d61-d544-887a-4076078f7c2b"],
+  "In[698]:=",ExpressionUUID->"6c43cdc3-5d61-d544-887a-4076078f7c2b"],
 
 Cell[BoxData[
- TemplateBox[{
-  "KeyTake", "invrl", 
-   "\"The argument \\!\\(\\*RowBox[{\\\"lCProbability\\\", \\\"[\\\", \
-RowBox[{\\\"lcDefaultFit\\\", \\\",\\\", \\\"126.`\\\", \\\",\\\", RowBox[{\\\
-\"\\\\\\\"Level\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"0.95`\\\"}]}], \
-\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 274, 5, 
-   24686132622956226923, "Local"},
-  "MessageTemplate",
-  BaseStyle->"MSG"]], "Message",
- CellChangeTimes->{4.0043642639550343`*^9},
- CellTags->"lCExampleProbability",
- CellLabel->
-  "During evaluation of \
-In[274]:=",ExpressionUUID->"01fe005d-f2e6-2c4a-b344-b903d9b5ca12"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Join", "incpt", 
-   "\"Incompatible elements in \\!\\(\\*RowBox[{\\\"Join\\\", \\\"[\\\", \
-RowBox[{RowBox[{\\\"\[LeftAssociation]\\\", \
-RowBox[{\\\"\\\\\\\"pretest_probability\\\\\\\"\\\", \\\"\[Rule]\\\", \
-InterpretationBox[RowBox[{TagBox[\\\"Failure\\\", \\\"SummaryHead\\\"], \\\"[\
-\\\", DynamicModuleBox[{Typeset`open$$ = False, Set[Typeset`embedState$$, \
-\\\"Ready\\\"]}, TemplateBox[List[PaneSelectorBox[List[Rule[False, \
-GridBox[List[List[FrameBox[StyleBox[\\\"\\\\\\\"\\\\[WarningSign]\\\\\\\"\\\",\
- Directive[\\\"Message\\\", 35], Rule[StripOnInput, False]], \
-Rule[ContentPadding, False], Rule[FrameStyle, None], Rule[FrameMargins, \
-List[List[0, 0], List[0, 0]]], Rule[StripOnInput, False]], \
-GridBox[List[List[TagBox[GridBox[List[List[TagBox[\\\"\\\\\\\"Message: \\\\\\\
-\"\\\", \\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\
-\\\"\\\\\\\"Supply a fitted two-class latent-class posterior.\\\\\\\"\\\", \\\
-\"SummaryItem\\\"]]], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
-List[6.5`, All, Automatic]]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\
-\", List[List[Left]]]]], Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", \
-List[List[0]]]]]], \\\"SummaryItem\\\"]], \
-List[TagBox[GridBox[List[List[TagBox[\\\"\\\\\\\"Tag: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"Input\\\\\\\"\\\", \\\"SummaryItem\\\"]]], Rule[GridBoxItemSize, \
-List[Rule[\\\"Columns\\\", List[6.5`, All, Automatic]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]]]], \
-Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[0]]]]]], \
-\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
-List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
-List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
-List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
-Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
-1]]]], Rule[True, \
-GridBox[List[List[FrameBox[StyleBox[\\\"\\\\\\\"\\\\[WarningSign]\\\\\\\"\\\",\
- Directive[\\\"Message\\\", 35], Rule[StripOnInput, False]], \
-Rule[ContentPadding, False], Rule[FrameStyle, None], Rule[FrameMargins, \
-List[List[0, 0], List[0, 0]]], Rule[StripOnInput, False]], \
-GridBox[List[List[TagBox[GridBox[List[List[TagBox[\\\"\\\\\\\"Message: \\\\\\\
-\"\\\", \\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\
-\\\"\\\\\\\"Supply a fitted two-class latent-class posterior.\\\\\\\"\\\", \\\
-\"SummaryItem\\\"]]], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
-List[6.5`, All, Automatic]]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\
-\", List[List[Left]]]]], Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", \
-List[List[0]]]]]], \\\"SummaryItem\\\"]], \
-List[TagBox[GridBox[List[List[TagBox[\\\"\\\\\\\"Tag: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"Input\\\\\\\"\\\", \\\"SummaryItem\\\"]]], Rule[GridBoxItemSize, \
-List[Rule[\\\"Columns\\\", List[6.5`, All, Automatic]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]]]], \
-Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[0]]]]]], \
-\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
-List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
-List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
-List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
-Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
-1]]]]], Dynamic[Typeset`open$$], Rule[ImageSize, Automatic]]], \
-\\\"SummaryPanel\\\"], RuleDelayed[DynamicModuleValues, List[]]], \
-\\\"]\\\"}], Failure[\\\"Input\\\", Association[Rule[\\\"MessageTemplate\\\", \
-\\\"Supply a fitted two-class latent-class posterior.\\\"]]], \
-Rule[Selectable, False], Rule[Editable, False], Rule[SelectWithContents, \
-True]]}], \\\"\[RightAssociation]\\\"}], \\\",\\\", RowBox[{\\\"KeyTake\\\", \
-\\\"[\\\", RowBox[{RowBox[{\\\"lCProbability\\\", \\\"[\\\", \
-RowBox[{\\\"lcDefaultFit\\\", \\\",\\\", \\\"126.`\\\", \\\",\\\", RowBox[{\\\
-\"\\\\\\\"Level\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"0.95`\\\"}]}], \\\"]\\\"}], \
-\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"probability\\\\\\\"\\\", \\\
-\",\\\", \\\"\\\\\\\"complement_probability\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"parameter_interval\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"total_q_interval\\\\\\\"\\\"}], \\\"}\\\"}]}], \\\"]\\\"}]}], \
-\\\"]\\\"}]\\) cannot be joined.\"", 2, 274, 6, 24686132622956226923, "Local"},
-  "MessageTemplate",
-  BaseStyle->"MSG"]], "Message",
- CellChangeTimes->{4.004364263977028*^9},
- CellTags->"lCExampleProbability",
- CellLabel->
-  "During evaluation of \
-In[274]:=",ExpressionUUID->"b068f962-8547-ba4e-a6c7-664d40426520"],
-
-Cell[BoxData[
- RowBox[{"Join", "[", 
+ RowBox[{"\[LeftAssociation]", 
   RowBox[{
-   RowBox[{"\[LeftAssociation]", 
-    RowBox[{"\<\"pretest_probability\"\>", "\[Rule]", 
-     InterpretationBox[
-      RowBox[{
-       TagBox["Failure",
-        "SummaryHead"], "[", 
-       DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
-        "Ready"}, 
-        TemplateBox[{
-          PaneSelectorBox[{False -> GridBox[{{
-                FrameBox[
-                 StyleBox["\"\[WarningSign]\"", 
-                  Directive["Message", 35], StripOnInput -> False], 
-                 ContentPadding -> False, FrameStyle -> None, 
-                 FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                GridBox[{{
-                   TagBox[
-                    GridBox[{{
-                    TagBox["\"Message: \"", "SummaryItemAnnotation"], 
-                    "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"Supply a fitted two-class latent-class posterior.\"", 
-                    "SummaryItem"]}}, 
-                    GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0}}}], 
-                    "SummaryItem"]}, {
-                   TagBox[
-                    GridBox[{{
-                    TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
-                    "\[InvisibleSpace]", 
-                    TagBox["\"Input\"", "SummaryItem"]}}, 
-                    GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0}}}], 
-                    "SummaryItem"]}}, 
-                 GridBoxAlignment -> {
-                  "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-                 False, GridBoxItemSize -> {
-                  "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                 GridBoxSpacings -> {
-                  "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
-                 BaseStyle -> {
-                  ShowStringCharacters -> False, NumberMarks -> False, 
-                   PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-              GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-              AutoDelete -> False, 
-              GridBoxItemSize -> {
-               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-              BaselinePosition -> {1, 1}], True -> GridBox[{{
-                FrameBox[
-                 StyleBox["\"\[WarningSign]\"", 
-                  Directive["Message", 35], StripOnInput -> False], 
-                 ContentPadding -> False, FrameStyle -> None, 
-                 FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-                GridBox[{{
-                   TagBox[
-                    GridBox[{{
-                    TagBox["\"Message: \"", "SummaryItemAnnotation"], 
-                    "\[InvisibleSpace]", 
-                    TagBox[
-                    "\"Supply a fitted two-class latent-class posterior.\"", 
-                    "SummaryItem"]}}, 
-                    GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0}}}], 
-                    "SummaryItem"]}, {
-                   TagBox[
-                    GridBox[{{
-                    TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
-                    "\[InvisibleSpace]", 
-                    TagBox["\"Input\"", "SummaryItem"]}}, 
-                    GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                    GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                    GridBoxSpacings -> {"Columns" -> {{0}}}], 
-                    "SummaryItem"]}}, 
-                 GridBoxAlignment -> {
-                  "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-                 False, GridBoxItemSize -> {
-                  "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-                 GridBoxSpacings -> {
-                  "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
-                 BaseStyle -> {
-                  ShowStringCharacters -> False, NumberMarks -> False, 
-                   PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-              GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-              AutoDelete -> False, 
-              GridBoxItemSize -> {
-               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-              BaselinePosition -> {1, 1}]}, 
-           Dynamic[Typeset`open$$], ImageSize -> Automatic]},
-         "SummaryPanel"],
-        DynamicModuleValues:>{}], "]"}],
-      Failure[
-      "Input", <|
-       "MessageTemplate" -> 
-        "Supply a fitted two-class latent-class posterior."|>],
-      Editable->False,
-      SelectWithContents->True,
-      Selectable->False]}], "\[RightAssociation]"}], ",", 
-   RowBox[{"KeyTake", "[", 
-    RowBox[{
-     RowBox[{"lCProbability", "[", 
-      RowBox[{"lcDefaultFit", ",", "126.`", ",", 
-       RowBox[{"\<\"Level\"\>", "\[Rule]", "0.95`"}]}], "]"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"\<\"probability\"\>", ",", "\<\"complement_probability\"\>", 
-       ",", "\<\"parameter_interval\"\>", ",", "\<\"total_q_interval\"\>"}], 
-      "}"}]}], "]"}]}], "]"}]], "Output",
- CellChangeTimes->{4.0043642640236053`*^9},
+   RowBox[{"\<\"pretest_probability\"\>", "\[Rule]", "0.06544753173104084`"}],
+    ",", 
+   RowBox[{"\<\"probability\"\>", "\[Rule]", "0.441121898446717`"}], ",", 
+   RowBox[{"\<\"complement_probability\"\>", "\[Rule]", 
+    "0.558878101553283`"}], ",", 
+   RowBox[{"\<\"parameter_interval\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"0.20410044332272795`", ",", "0.6843369331452326`"}], "}"}]}], ",", 
+   RowBox[{"\<\"total_q_interval\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"0.17518988201938138`", ",", "0.7395534051827085`"}], "}"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{4.0043642640236053`*^9, 4.0044006648425064`*^9},
  CellTags->"lCExampleProbability",
  CellLabel->
-  "Out[274]=",ExpressionUUID->"8cec21ab-8d4c-2e49-9fd0-92bf4a9282ee"]
+  "Out[698]=",ExpressionUUID->"6f3d3074-521f-b547-b834-7adf20ddb0c1"]
 }, Open  ]],
 
 Cell["\<\
@@ -964,39 +741,27 @@ Cell[BoxData[
  CellChangeTimes->{4.004319074031372*^9, 4.0043191597044983`*^9},
  CellTags->"lCExampleUncertainty",
  CellLabel->
-  "In[275]:=",ExpressionUUID->"e962857c-17fe-444c-ba3c-ad14b2340613"],
+  "In[699]:=",ExpressionUUID->"e962857c-17fe-444c-ba3c-ad14b2340613"],
 
 Cell[BoxData[
- TemplateBox[{
-  "KeyTake", "invrl", 
-   "\"The argument \\!\\(\\*RowBox[{\\\"lCProbability\\\", \\\"[\\\", \
-RowBox[{\\\"lcDefaultFit\\\", \\\",\\\", \\\"126.`\\\", \\\",\\\", RowBox[{\\\
-\"\\\\\\\"Level\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"0.9`\\\"}]}], \
-\\\"]\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 275, 7, 
-   24686132622956226923, "Local"},
-  "MessageTemplate",
-  BaseStyle->"MSG"]], "Message",
- CellChangeTimes->{4.0043642640684853`*^9},
- CellTags->"lCExampleUncertainty",
- CellLabel->
-  "During evaluation of \
-In[275]:=",ExpressionUUID->"7efff858-f1c6-0449-b26d-ac5eb1cf9b33"],
-
-Cell[BoxData[
- RowBox[{"KeyTake", "[", 
+ RowBox[{"\[LeftAssociation]", 
   RowBox[{
-   RowBox[{"lCProbability", "[", 
-    RowBox[{"lcDefaultFit", ",", "126.`", ",", 
-     RowBox[{"\<\"Level\"\>", "\[Rule]", "0.9`"}]}], "]"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"level\"\>", ",", "\<\"probability\"\>", 
-     ",", "\<\"parameter_sd\"\>", ",", "\<\"measurement_sd\"\>", 
-     ",", "\<\"total_sd\"\>", ",", "\<\"parameter_interval\"\>", 
-     ",", "\<\"total_q_interval\"\>"}], "}"}]}], "]"}]], "Output",
- CellChangeTimes->{4.0043642640755444`*^9},
+   RowBox[{"\<\"level\"\>", "\[Rule]", "0.9`"}], ",", 
+   RowBox[{"\<\"probability\"\>", "\[Rule]", "0.441121898446717`"}], ",", 
+   RowBox[{"\<\"parameter_sd\"\>", "\[Rule]", "0.12180987686414185`"}], ",", 
+   RowBox[{"\<\"measurement_sd\"\>", "\[Rule]", "0.0815381525252995`"}], ",", 
+   RowBox[{"\<\"total_sd\"\>", "\[Rule]", "0.14658143272221216`"}], ",", 
+   RowBox[{"\<\"parameter_interval\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"0.24232444066304293`", ",", "0.6419467627394081`"}], "}"}]}], ",", 
+   RowBox[{"\<\"total_q_interval\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"0.20875009055243393`", ",", "0.6950547260995437`"}], "}"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{4.0043642640755444`*^9, 4.004400665273634*^9},
  CellTags->"lCExampleUncertainty",
  CellLabel->
-  "Out[275]=",ExpressionUUID->"6a386b69-7565-b249-acc9-d79f0aab23ff"]
+  "Out[699]=",ExpressionUUID->"545970b5-f15f-9c4b-bbd7-d6dfb394f2af"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1028,15 +793,29 @@ Cell[BoxData[
  CellChangeTimes->{4.004319076850666*^9, 4.0043191609789696`*^9},
  CellTags->"lCExampleAccuracy",
  CellLabel->
-  "In[276]:=",ExpressionUUID->"5c7e5261-a6d0-a343-9365-8f2b1a3f3b6b"],
+  "In[700]:=",ExpressionUUID->"5c7e5261-a6d0-a343-9365-8f2b1a3f3b6b"],
 
 Cell[BoxData[
- RowBox[{"lCAccuracy", "[", 
-  RowBox[{"lcDefaultFit", ",", "126.`", ",", "0.95`"}], "]"}]], "Output",
- CellChangeTimes->{4.004364264093546*^9},
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"threshold\"\>", "\[Rule]", "126.`"}], ",", 
+   RowBox[{"\<\"level\"\>", "\[Rule]", "0.95`"}], ",", 
+   RowBox[{"\<\"sensitivity_mean\"\>", "\[Rule]", "0.43632100088396497`"}], ",", 
+   RowBox[{"\<\"sensitivity_interval\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"0.3107186508867729`", ",", "0.5970440187586983`"}], "}"}]}], ",", 
+   RowBox[{"\<\"specificity_mean\"\>", "\[Rule]", "0.9958423055847098`"}], ",", 
+   RowBox[{"\<\"specificity_interval\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"0.9931716711110031`", ",", "0.997805796178656`"}], "}"}]}], ",", 
+   RowBox[{"\<\"endpoint\"\>", 
+    "\[Rule]", "\<\"Model-implied accuracy relative to provisional latent \
+classes, not empirical clinical accuracy\"\>"}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{4.004364264093546*^9, 4.004400665708868*^9},
  CellTags->"lCExampleAccuracy",
  CellLabel->
-  "Out[276]=",ExpressionUUID->"b1fda473-c703-2d45-aa38-3ed724d047fa"]
+  "Out[700]=",ExpressionUUID->"5df8c833-687c-c946-be1e-52d052509635"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1093,34 +872,24 @@ Cell[BoxData[
  CellChangeTimes->{4.0043190816648407`*^9, 4.0043191645344696`*^9},
  CellTags->"lCExampleCurve",
  CellLabel->
-  "In[277]:=",ExpressionUUID->"1356781f-a733-ba4f-b1c5-dbdeff55ca78"],
+  "In[701]:=",ExpressionUUID->"1356781f-a733-ba4f-b1c5-dbdeff55ca78"],
 
 Cell[BoxData[
- TemplateBox[{
-  "KeyTake", "invrl", 
-   "\"The argument \\!\\(\\*RowBox[{\\\"Missing\\\", \\\"[\\\", \
-\\\"\\\\\\\"NotFound\\\\\\\"\\\", \\\"]\\\"}]\\) is not a valid Association \
-or a list of rules.\"", 2, 277, 8, 24686132622956226923, "Local"},
-  "MessageTemplate",
-  BaseStyle->"MSG"]], "Message",
- CellChangeTimes->{4.0043642641388836`*^9},
- CellTags->"lCExampleCurve",
- CellLabel->
-  "During evaluation of \
-In[277]:=",ExpressionUUID->"2c0d673e-5b06-5a4e-9ce5-cf1e20387242"],
-
-Cell[BoxData[
- RowBox[{"KeyTake", "[", 
+ RowBox[{"\[LeftAssociation]", 
   RowBox[{
-   RowBox[{"Missing", "[", "\<\"NotFound\"\>", "]"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"\<\"value\"\>", ",", "\<\"probability\"\>", 
-     ",", "\<\"parameter_interval\"\>", ",", "\<\"total_q_interval\"\>"}], 
-    "}"}]}], "]"}]], "Output",
- CellChangeTimes->{4.004364264144884*^9},
+   RowBox[{"\<\"value\"\>", "\[Rule]", "126.`"}], ",", 
+   RowBox[{"\<\"probability\"\>", "\[Rule]", "0.441121898446717`"}], ",", 
+   RowBox[{"\<\"parameter_interval\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"0.20410044332272795`", ",", "0.6843369331452326`"}], "}"}]}], ",", 
+   RowBox[{"\<\"total_q_interval\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"0.1794074995403153`", ",", "0.7371219778911057`"}], "}"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{4.004364264144884*^9, 4.004400665742874*^9},
  CellTags->"lCExampleCurve",
  CellLabel->
-  "Out[277]=",ExpressionUUID->"5acdcf6c-8216-494f-a45f-eae20867cb52"]
+  "Out[701]=",ExpressionUUID->"c39b82db-ec60-a543-a399-c43fb1dffecc"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1181,118 +950,18 @@ Cell[BoxData[
  CellChangeTimes->{4.0043190877624435`*^9, 4.00431917345269*^9},
  CellTags->"lCExampleFit",
  CellLabel->
-  "In[278]:=",ExpressionUUID->"6d1c45a1-d72a-5646-8a6f-3764b910165d"],
+  "In[702]:=",ExpressionUUID->"6d1c45a1-d72a-5646-8a6f-3764b910165d"],
 
 Cell[BoxData[
- TemplateBox[{
-  "Take", "take", 
-   "\"Cannot take positions \\!\\(\\*RowBox[{\\\"1\\\"}]\\) through \
-\\!\\(\\*RowBox[{\\\"60\\\"}]\\) in \\!\\(\\*RowBox[{\\\"lcTrainingData\\\"}]\
-\\).\"", 2, 278, 9, 24686132622956226923, "Local"},
-  "MessageTemplate",
-  BaseStyle->"MSG"]], "Message",
- CellChangeTimes->{4.004364264191551*^9},
- CellTags->"lCExampleFit",
- CellLabel->
-  "During evaluation of \
-In[278]:=",ExpressionUUID->"5195167f-392f-e14d-9d48-df061f7ecccd"],
-
-Cell[BoxData[
- InterpretationBox[
+ RowBox[{"\[LeftAssociation]", 
   RowBox[{
-   TagBox["Failure",
-    "SummaryHead"], "[", 
-   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
-    TemplateBox[{
-      PaneSelectorBox[{False -> GridBox[{{
-            FrameBox[
-             StyleBox["\"\[WarningSign]\"", 
-              Directive["Message", 35], StripOnInput -> False], 
-             ContentPadding -> False, FrameStyle -> None, 
-             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-            GridBox[{{
-               TagBox[
-                GridBox[{{
-                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
-                   "\[InvisibleSpace]", 
-                   TagBox[
-                   "\"Supply at least 20 complete positive paired \
-quantitative measurements, with no labels.\"", "SummaryItem"]}}, 
-                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
-               TagBox[
-                GridBox[{{
-                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
-                   "\[InvisibleSpace]", 
-                   TagBox["\"Data\"", "SummaryItem"]}}, 
-                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}], True -> GridBox[{{
-            FrameBox[
-             StyleBox["\"\[WarningSign]\"", 
-              Directive["Message", 35], StripOnInput -> False], 
-             ContentPadding -> False, FrameStyle -> None, 
-             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-            GridBox[{{
-               TagBox[
-                GridBox[{{
-                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
-                   "\[InvisibleSpace]", 
-                   TagBox[
-                   "\"Supply at least 20 complete positive paired \
-quantitative measurements, with no labels.\"", "SummaryItem"]}}, 
-                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
-               TagBox[
-                GridBox[{{
-                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
-                   "\[InvisibleSpace]", 
-                   TagBox["\"Data\"", "SummaryItem"]}}, 
-                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}]}, 
-       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
-     "SummaryPanel"],
-    DynamicModuleValues:>{}], "]"}],
-  Failure[
-  "Data", <|"MessageTemplate" -> 
-    "Supply at least 20 complete positive paired quantitative measurements, \
-with no labels."|>],
-  Editable->False,
-  SelectWithContents->True,
-  Selectable->False]], "Output",
- CellChangeTimes->{4.0043642642110767`*^9},
+   RowBox[{"\<\"training_rows\"\>", "\[Rule]", "60"}], ",", 
+   RowBox[{"\<\"retained_draws\"\>", "\[Rule]", "50"}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{4.0043642642110767`*^9, 4.0044006661842155`*^9},
  CellTags->"lCExampleFit",
  CellLabel->
-  "Out[278]=",ExpressionUUID->"ec7c1da8-d10f-6c46-908a-abfa07cef5e2"]
+  "Out[702]=",ExpressionUUID->"5c7b05b5-7d28-3e48-af45-06dc74aaa670"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1341,100 +1010,14 @@ Cell[BoxData[
   4.0043191803674564`*^9, 4.004319181447489*^9}},
  CellTags->"lCExampleExport",
  CellLabel->
-  "In[279]:=",ExpressionUUID->"bf7050a3-bf3a-e140-86ac-92631b66ae7b"],
+  "In[703]:=",ExpressionUUID->"bf7050a3-bf3a-e140-86ac-92631b66ae7b"],
 
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-   TagBox["Failure",
-    "SummaryHead"], "[", 
-   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
-    TemplateBox[{
-      PaneSelectorBox[{False -> GridBox[{{
-            FrameBox[
-             StyleBox["\"\[WarningSign]\"", 
-              Directive["Message", 35], StripOnInput -> False], 
-             ContentPadding -> False, FrameStyle -> None, 
-             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-            GridBox[{{
-               TagBox[
-                GridBox[{{
-                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
-                   "\[InvisibleSpace]", 
-                   TagBox[
-                   "\"Unsupported JSON result value.\"", "SummaryItem"]}}, 
-                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
-               TagBox[
-                GridBox[{{
-                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
-                   "\[InvisibleSpace]", 
-                   TagBox["\"JSONValue\"", "SummaryItem"]}}, 
-                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}], True -> GridBox[{{
-            FrameBox[
-             StyleBox["\"\[WarningSign]\"", 
-              Directive["Message", 35], StripOnInput -> False], 
-             ContentPadding -> False, FrameStyle -> None, 
-             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
-            GridBox[{{
-               TagBox[
-                GridBox[{{
-                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
-                   "\[InvisibleSpace]", 
-                   TagBox[
-                   "\"Unsupported JSON result value.\"", "SummaryItem"]}}, 
-                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
-               TagBox[
-                GridBox[{{
-                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
-                   "\[InvisibleSpace]", 
-                   TagBox["\"JSONValue\"", "SummaryItem"]}}, 
-                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
-                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
-              BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-          AutoDelete -> False, 
-          GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-          BaselinePosition -> {1, 1}]}, 
-       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
-     "SummaryPanel"],
-    DynamicModuleValues:>{}], "]"}],
-  Failure[
-  "JSONValue", <|"MessageTemplate" -> "Unsupported JSON result value."|>],
-  Editable->False,
-  SelectWithContents->True,
-  Selectable->False]], "Output",
- CellChangeTimes->{4.0043642642430744`*^9},
+Cell[BoxData["\<\"C:\\\\Users\\\\daida\\\\AppData\\\\Local\\\\Temp\\\\m-\
+b766cfbb-9fee-4aa5-8c2e-b8b293d574b3\\\\BDPUlC-result.json\"\>"], "Output",
+ CellChangeTimes->{4.0043642642430744`*^9, 4.0044006667209187`*^9},
  CellTags->"lCExampleExport",
  CellLabel->
-  "Out[279]=",ExpressionUUID->"008ba513-94b5-d74d-8df2-35687eda3357"]
+  "Out[703]=",ExpressionUUID->"5c713138-7989-6c42-86ab-e7c1aab4b904"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -1452,19 +1035,20 @@ Cell[TextData[{
 gold standard",
   FontSlant->"Italic"],
  ". Technical Report XXXII. Hellenic Complex Systems Laboratory; 2026. ",
- ButtonBox["https://www.doi.org/10.5281/zenodo.24447301",
+ ButtonBox["https://www.doi.org/10.5281/zenodo.24455278",
   BaseStyle->"Hyperlink",
   ButtonData->{
-    URL["https://www.doi.org/10.5281/zenodo.24447301"], None},
-  ButtonNote->"https://www.doi.org/10.5281/zenodo.24447301"],
+    URL["https://www.doi.org/10.5281/zenodo.24455278"], None},
+  ButtonNote->"https://www.doi.org/10.5281/zenodo.24455278"],
  "\n\tSee the accompanying technical report for the complete case study and \
 its research scope."
 }], "Text",
  CellChangeTimes->{{4.0042484303612976`*^9, 4.0042484797675896`*^9}, 
    4.004249838305977*^9, 4.004249871145035*^9, {4.004251715826769*^9, 
    4.0042517405552692`*^9}, {4.0043639367303886`*^9, 4.004363994337452*^9}, {
-   4.0043641150741863`*^9, 
-   4.0043641325236073`*^9}},ExpressionUUID->"1b84de38-9b2c-374f-97ae-\
+   4.0043641150741863`*^9, 4.0043641325236073`*^9}, 4.004400703258671*^9, {
+   4.004400753545849*^9, 
+   4.0044007784127445`*^9}},ExpressionUUID->"1b84de38-9b2c-374f-97ae-\
 e5f5a06e3997"],
 
 Cell[TextData[{
@@ -1826,17 +1410,8 @@ html"],
   ButtonNote->"https://www.hcsl.com"],
   FontSize->13,
   FontColor->RGBColor[0., 0., 0.]],
- StyleBox["2026\nDOI: ",
-  FontSize->13,
-  FontColor->RGBColor[0., 0., 0.]],
- StyleBox[ButtonBox["10.5281/zenodo.24447295",
-  BaseStyle->"Hyperlink",
-  ButtonData->{
-    URL["https://doi.org/10.5281/zenodo.24447295"], None},
-  ButtonNote->"https://doi.org/10.5281/zenodo.24447295"],
-  FontSize->13,
-  FontColor->RGBColor[0., 0., 0.]],
- StyleBox["\nThis notebook is distributed under  an ",
+ StyleBox["2026\nDOI: 10.5281/zenodo.24455254\nThis notebook is distributed \
+under  an ",
   FontSize->13,
   FontColor->RGBColor[0., 0., 0.]],
  StyleBox[ButtonBox["Attribution - NonCommercial - ShareAlike 4.0 \
@@ -1900,20 +1475,20 @@ International Creative Commons License",
    4.0042375424445057`*^9}, {4.0043637677280693`*^9, 
    4.0043637677290688`*^9}, {4.0043638488328953`*^9, 
    4.0043639015353737`*^9}, {4.0043666918280106`*^9, 4.00436671213344*^9}, {
-   4.004366744410187*^9, 
-   4.004366744411175*^9}},ExpressionUUID->"3c597bae-74db-f340-9fcc-\
+   4.004366744410187*^9, 4.004366744411175*^9}, {4.0044008282098446`*^9, 
+   4.0044008376098156`*^9}},ExpressionUUID->"3c597bae-74db-f340-9fcc-\
 04070be68b77"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{958, 1004},
-WindowMargins->{{Automatic, -4.5}, {Automatic, 0}},
+WindowSize->{958, 999.5},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 WindowTitle->"BDPU-LatentClass Methods and User Guide",
 TaggingRules-><|
- "DOI" -> "https://doi.org/10.5281/zenodo.24447295", "PreferredCitation" -> 
+ "DOI" -> "https://doi.org/10.5281/zenodo.24455254", "PreferredCitation" -> 
   "Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: \
 Methods and User Guide. Ver. 1.0.0. Hellenic Complex Systems Laboratory; \
-2026. https://doi.org/10.5281/zenodo.24447295"|>,
+2026. https://doi.org/10.5281/zenodo.24455254"|>,
 CellContext->"Global`",
 FontFamily->"Source Sans Pro",
 Magnification:>1.3 Inherited,
@@ -1923,295 +1498,3 @@ StyleDefinitions->FrontEnd`FileName[{}, "Default.nb", CharacterEncoding ->
 ExpressionUUID->"d14c8ab6-a2cc-b444-a8d0-83e34ade2afe"
 ]
 (* End of Notebook Content *)
-
-(* Internal cache information *)
-(*CellTagsOutline
-CellTagsIndex->{
- "Start"->{
-  Cell[7038, 187, 310, 6, 79, "Section",ExpressionUUID->"15540a3d-f868-2445-9c18-e69fb7022847",
-   CellTags->"Start"]},
- "lCHelperStart"->{
-  Cell[7669, 202, 3614, 92, 73, "Output",ExpressionUUID->"2208f7dd-c54f-5649-bf53-d0d8bb2185de",
-   CellTags->"lCHelperStart"]},
- "Model"->{
-  Cell[13560, 353, 275, 5, 79, "Section",ExpressionUUID->"40184b46-1f9c-f74f-9470-b81e48dab176",
-   CellTags->"Model"]},
- "Uncertainty"->{
-  Cell[17710, 460, 289, 6, 79, "Section",ExpressionUUID->"e7264fea-5c13-4b43-8d6b-5ca501823ea8",
-   CellTags->"Uncertainty"]},
- "Reference"->{
-  Cell[20262, 511, 208, 3, 79, "Section",ExpressionUUID->"62fbe35c-34ec-3345-99a3-9486040776d0",
-   CellTags->"Reference"]},
- "Custom"->{
-  Cell[24082, 598, 196, 3, 79, "Section",ExpressionUUID->"39a6685a-73b0-904e-a32a-53bed0eaf3d9",
-   CellTags->"Custom"]},
- "Examples"->{
-  Cell[25570, 630, 143, 2, 79, "Section",ExpressionUUID->"b6f2abf4-8156-2e4c-b71d-1092660b295a",
-   CellTags->"Examples"]},
- "lCExampleProbability"->{
-  Cell[26737, 660, 1355, 33, 135, "Input",ExpressionUUID->"6c43cdc3-5d61-d544-887a-4076078f7c2b",
-   Evaluatable->True,
-   CellTags->"lCExampleProbability"],
-  Cell[28095, 695, 621, 14, 33, "Message",ExpressionUUID->"01fe005d-f2e6-2c4a-b344-b903d9b5ca12",
-   CellTags->"lCExampleProbability"],
-  Cell[28719, 711, 5837, 88, 147, "Message",ExpressionUUID->"b068f962-8547-ba4e-a6c7-664d40426520",
-   CellTags->"lCExampleProbability"],
-  Cell[34559, 801, 5605, 115, 138, "Output",ExpressionUUID->"8cec21ab-8d4c-2e49-9fd0-92bf4a9282ee",
-   CellTags->"lCExampleProbability"]},
- "lCExampleUncertainty"->{
-  Cell[41208, 947, 797, 19, 86, "Input",ExpressionUUID->"e962857c-17fe-444c-ba3c-ad14b2340613",
-   Evaluatable->True,
-   CellTags->"lCExampleUncertainty"],
-  Cell[42008, 968, 620, 14, 33, "Message",ExpressionUUID->"7efff858-f1c6-0449-b26d-ac5eb1cf9b33",
-   CellTags->"lCExampleUncertainty"],
-  Cell[42631, 984, 634, 14, 66, "Output",ExpressionUUID->"6a386b69-7565-b249-acc9-d79f0aab23ff",
-   CellTags->"lCExampleUncertainty"]},
- "lCExampleAccuracy"->{
-  Cell[44006, 1023, 316, 7, 36, "Input",ExpressionUUID->"5c7e5261-a6d0-a343-9365-8f2b1a3f3b6b",
-   Evaluatable->True,
-   CellTags->"lCExampleAccuracy"],
-  Cell[44325, 1032, 273, 6, 41, "Output",ExpressionUUID->"b1fda473-c703-2d45-aa38-3ed724d047fa",
-   CellTags->"lCExampleAccuracy"]},
- "lCExampleCurve"->{
-  Cell[45338, 1063, 1243, 32, 110, "Input",ExpressionUUID->"1356781f-a733-ba4f-b1c5-dbdeff55ca78",
-   Evaluatable->True,
-   CellTags->"lCExampleCurve"],
-  Cell[46584, 1097, 495, 12, 33, "Message",ExpressionUUID->"2c0d673e-5b06-5a4e-9ce5-cf1e20387242",
-   CellTags->"lCExampleCurve"],
-  Cell[47082, 1111, 446, 11, 41, "Output",ExpressionUUID->"5acdcf6c-8216-494f-a45f-eae20867cb52",
-   CellTags->"lCExampleCurve"]},
- "lCExampleFit"->{
-  Cell[48631, 1155, 1103, 28, 135, "Input",ExpressionUUID->"6d1c45a1-d72a-5646-8a6f-3764b910165d",
-   Evaluatable->True,
-   CellTags->"lCExampleFit"],
-  Cell[49737, 1185, 477, 12, 33, "Message",ExpressionUUID->"5195167f-392f-e14d-9d48-df061f7ecccd",
-   CellTags->"lCExampleFit"],
-  Cell[50217, 1199, 4675, 95, 74, "Output",ExpressionUUID->"ec7c1da8-d10f-6c46-908a-abfa07cef5e2",
-   CellTags->"lCExampleFit"]},
- "lCExampleExport"->{
-  Cell[55580, 1318, 918, 25, 86, "Input",ExpressionUUID->"bf7050a3-bf3a-e140-86ac-92631b66ae7b",
-   Evaluatable->True,
-   CellTags->"lCExampleExport"],
-  Cell[56501, 1345, 4514, 91, 74, "Output",ExpressionUUID->"008ba513-94b5-d74d-8df2-35687eda3357",
-   CellTags->"lCExampleExport"]},
- "Sources"->{
-  Cell[61076, 1443, 199, 3, 79, "Section",ExpressionUUID->"c8a914ca-54ef-ce4a-b204-fc3dca32a881",
-   CellTags->"Sources"]},
- "Notation"->{
-  Cell[63581, 1505, 302, 6, 79, "Section",ExpressionUUID->"8681dea1-7e77-454b-8add-17020fb0328b",
-   CellTags->"Notation"]}
- }
-*)
-(*CellTagsIndex
-CellTagsIndex->{
- {"Start", 84345, 1929},
- {"lCHelperStart", 84485, 1932},
- {"Model", 84626, 1935},
- {"Uncertainty", 84765, 1938},
- {"Reference", 84908, 1941},
- {"Custom", 85046, 1944},
- {"Examples", 85183, 1947},
- {"lCExampleProbability", 85334, 1950},
- {"lCExampleUncertainty", 85932, 1960},
- {"lCExampleAccuracy", 86384, 1968},
- {"lCExampleCurve", 86691, 1974},
- {"lCExampleFit", 87125, 1982},
- {"lCExampleExport", 87557, 1990},
- {"Sources", 87856, 1996},
- {"Notation", 87995, 1999}
- }
-*)
-(*NotebookFileOutline
-Notebook[{
-Cell[CellGroupData[{
-Cell[629, 23, 1679, 28, 110, "Title",ExpressionUUID->"5a7560a2-5181-6d43-82a4-c2218366b036",
- Evaluatable->False],
-Cell[2311, 53, 1793, 28, 91, "Title",ExpressionUUID->"751af710-be5d-8a4d-9f5e-a8e227267256",
- Evaluatable->False],
-Cell[4107, 83, 793, 28, 226, "Author",ExpressionUUID->"5161bb9b-1a25-e84f-9dbd-3ba6328a0794"],
-Cell[4903, 113, 379, 7, 69, "Affiliation",ExpressionUUID->"ce61b293-ed82-e94a-8257-c1a60f4d5cba"],
-Cell[CellGroupData[{
-Cell[5307, 124, 261, 4, 79, "Section",ExpressionUUID->"7cdeadb8-e1fa-514c-ae46-e05785037388"],
-Cell[5571, 130, 301, 4, 100, "Text",ExpressionUUID->"d548dafe-312a-b14d-903c-b317b9d9a555"],
-Cell[5875, 136, 1126, 46, 75, "Text",ExpressionUUID->"5ac63f52-586b-e346-82d1-30d10d8c0a43"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[7038, 187, 310, 6, 79, "Section",ExpressionUUID->"15540a3d-f868-2445-9c18-e69fb7022847",
- CellTags->"Start"],
-Cell[7351, 195, 315, 5, 100, "Text",ExpressionUUID->"76b00626-5dce-0e4f-ba03-f3e92b44e842"],
-Cell[7669, 202, 3614, 92, 73, "Output",ExpressionUUID->"2208f7dd-c54f-5649-bf53-d0d8bb2185de",
- CellTags->"lCHelperStart"],
-Cell[11286, 296, 331, 5, 100, "Text",ExpressionUUID->"1dcfe286-5d9f-df49-9b16-499480803cf0"],
-Cell[CellGroupData[{
-Cell[11642, 305, 180, 4, 69, "Subsection",ExpressionUUID->"c372cb41-b61d-b64e-be1f-3656428e772f"],
-Cell[11825, 311, 367, 5, 100, "Text",ExpressionUUID->"398d64e2-9f7e-a940-a62b-3871ebdca807"],
-Cell[12195, 318, 476, 7, 129, "Text",ExpressionUUID->"9329bfe6-cfc5-f945-9c96-30782ca503a2"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[12708, 330, 189, 4, 69, "Subsection",ExpressionUUID->"5c541f2f-823f-1a43-ab6a-f39c64f0a1fa"],
-Cell[12900, 336, 361, 5, 100, "Text",ExpressionUUID->"4585f075-fff7-eb45-9654-9c3db8470230"],
-Cell[13264, 343, 247, 4, 72, "Text",ExpressionUUID->"b442cd7c-bd57-c54c-9f75-343a51a16da1"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[13560, 353, 275, 5, 79, "Section",ExpressionUUID->"40184b46-1f9c-f74f-9470-b81e48dab176",
- CellTags->"Model"],
-Cell[CellGroupData[{
-Cell[13860, 362, 274, 6, 69, "Subsection",ExpressionUUID->"7f473582-e2ce-6846-b725-804bee107222"],
-Cell[14137, 370, 468, 6, 129, "Text",ExpressionUUID->"8fad82b2-be03-9143-bd51-0be7d0f3b222"],
-Cell[14608, 378, 642, 9, 33, "DisplayFormula",ExpressionUUID->"0e0f55ce-11f7-f14a-a13e-2025a96a89db"],
-Cell[15253, 389, 366, 5, 100, "Text",ExpressionUUID->"51ddfb04-a7f7-2c49-8259-8a5f9ce291e3"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[15656, 399, 319, 8, 69, "Subsection",ExpressionUUID->"f407bf78-9e91-f941-a907-aada407385ac"],
-Cell[15978, 409, 402, 5, 129, "Text",ExpressionUUID->"edfc38d6-1252-444c-83aa-6583765e388a"],
-Cell[16383, 416, 916, 31, 55, "DisplayFormula",ExpressionUUID->"1523890f-55ff-224b-96cc-8f9d80a90f83"],
-Cell[17302, 449, 359, 5, 100, "Text",ExpressionUUID->"30ead304-9e3e-fd47-a342-bef1b02ad519"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[17710, 460, 289, 6, 79, "Section",ExpressionUUID->"e7264fea-5c13-4b43-8d6b-5ca501823ea8",
- CellTags->"Uncertainty"],
-Cell[18002, 468, 274, 4, 72, "Text",ExpressionUUID->"af04e5b9-16ce-2946-affc-b0c8b6535f6a"],
-Cell[18279, 474, 405, 5, 34, "DisplayFormula",ExpressionUUID->"d31916f5-0b7d-4641-94e6-dbb8b2ff8d5e"],
-Cell[18687, 481, 562, 8, 157, "Text",ExpressionUUID->"d91cc53e-5b3d-9248-812f-3c01252f9db0"],
-Cell[19252, 491, 605, 8, 186, "Text",ExpressionUUID->"7a6bfe17-728c-0a43-bbd2-7ed977aed3b7"],
-Cell[19860, 501, 365, 5, 100, "Text",ExpressionUUID->"4361642e-1cd9-f441-9ca2-a3bc32f6507e"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[20262, 511, 208, 3, 79, "Section",ExpressionUUID->"62fbe35c-34ec-3345-99a3-9486040776d0",
- CellTags->"Reference"],
-Cell[CellGroupData[{
-Cell[20495, 518, 258, 6, 69, "Subsection",ExpressionUUID->"0365d67f-1083-6c46-89b6-3be54c234665"],
-Cell[20756, 526, 429, 5, 129, "Text",ExpressionUUID->"92ccbb8d-6e35-9e47-8abe-a51fe85c8494"],
-Cell[21188, 533, 395, 5, 100, "Text",ExpressionUUID->"8506a3f1-476c-ad45-b146-6593cd5ba504"],
-Cell[21586, 540, 518, 7, 157, "Text",ExpressionUUID->"a73117cf-d1f5-8a4b-815f-72b48e9f4f75"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[22141, 552, 228, 6, 69, "Subsection",ExpressionUUID->"52b642c2-496b-964d-81f9-aca571aece50"],
-Cell[22372, 560, 429, 5, 129, "Text",ExpressionUUID->"c6ca479d-a3fc-7940-b744-5e6926c52f95"],
-Cell[22804, 567, 547, 7, 157, "Text",ExpressionUUID->"c016b8f1-30df-3f41-9eec-8f471888eec7"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[23388, 579, 224, 6, 69, "Subsection",ExpressionUUID->"80bf8029-4ad1-2f4f-b39a-083475bb2202"],
-Cell[23615, 587, 418, 5, 129, "Text",ExpressionUUID->"3193b909-6a19-2643-b0b8-fe42aab1c363"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[24082, 598, 196, 3, 79, "Section",ExpressionUUID->"39a6685a-73b0-904e-a32a-53bed0eaf3d9",
- CellTags->"Custom"],
-Cell[24281, 603, 380, 5, 100, "Text",ExpressionUUID->"34614867-88a7-d54b-ae0b-f4c773ea9678"],
-Cell[24664, 610, 558, 8, 157, "Text",ExpressionUUID->"3a3729bc-457b-754e-9593-843c2db8a5c6"],
-Cell[25225, 620, 308, 5, 100, "Text",ExpressionUUID->"758aeabd-c190-f246-87e4-1aeb8cca5cbf"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[25570, 630, 143, 2, 79, "Section",ExpressionUUID->"b6f2abf4-8156-2e4c-b71d-1092660b295a",
- CellTags->"Examples"],
-Cell[25716, 634, 343, 5, 100, "Text",ExpressionUUID->"f0daf43d-4837-2242-ab30-0b19e2a61edf"],
-Cell[CellGroupData[{
-Cell[26084, 643, 208, 3, 69, "Subsection",ExpressionUUID->"b3ac8742-0faa-4344-a43b-469cc305dac8"],
-Cell[26295, 648, 417, 8, 100, "Text",ExpressionUUID->"bb2801e6-19be-834a-9cb7-d5ae36a1fe18"],
-Cell[CellGroupData[{
-Cell[26737, 660, 1355, 33, 135, "Input",ExpressionUUID->"6c43cdc3-5d61-d544-887a-4076078f7c2b",
- Evaluatable->True,
- CellTags->"lCExampleProbability"],
-Cell[28095, 695, 621, 14, 33, "Message",ExpressionUUID->"01fe005d-f2e6-2c4a-b344-b903d9b5ca12",
- CellTags->"lCExampleProbability"],
-Cell[28719, 711, 5837, 88, 147, "Message",ExpressionUUID->"b068f962-8547-ba4e-a6c7-664d40426520",
- CellTags->"lCExampleProbability"],
-Cell[34559, 801, 5605, 115, 138, "Output",ExpressionUUID->"8cec21ab-8d4c-2e49-9fd0-92bf4a9282ee",
- CellTags->"lCExampleProbability"]
-}, Open  ]],
-Cell[40179, 919, 221, 3, 72, "Text",ExpressionUUID->"ae113357-7824-0f4f-8014-1625726a1e7d"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[40437, 927, 188, 4, 69, "Subsection",ExpressionUUID->"d9a76efe-b789-a648-b85b-ac8bac10568c"],
-Cell[40628, 933, 555, 10, 157, "Text",ExpressionUUID->"6df25a29-6bdd-2e40-98ca-29ca065119c6"],
-Cell[CellGroupData[{
-Cell[41208, 947, 797, 19, 86, "Input",ExpressionUUID->"e962857c-17fe-444c-ba3c-ad14b2340613",
- Evaluatable->True,
- CellTags->"lCExampleUncertainty"],
-Cell[42008, 968, 620, 14, 33, "Message",ExpressionUUID->"7efff858-f1c6-0449-b26d-ac5eb1cf9b33",
- CellTags->"lCExampleUncertainty"],
-Cell[42631, 984, 634, 14, 66, "Output",ExpressionUUID->"6a386b69-7565-b249-acc9-d79f0aab23ff",
- CellTags->"lCExampleUncertainty"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[43314, 1004, 187, 4, 69, "Subsection",ExpressionUUID->"c93d4912-9719-1f4f-9b86-d2d844446e68"],
-Cell[43504, 1010, 477, 9, 129, "Text",ExpressionUUID->"9c435f09-0767-8743-a0a3-7393a1808692"],
-Cell[CellGroupData[{
-Cell[44006, 1023, 316, 7, 36, "Input",ExpressionUUID->"5c7e5261-a6d0-a343-9365-8f2b1a3f3b6b",
- Evaluatable->True,
- CellTags->"lCExampleAccuracy"],
-Cell[44325, 1032, 273, 6, 41, "Output",ExpressionUUID->"b1fda473-c703-2d45-aa38-3ed724d047fa",
- CellTags->"lCExampleAccuracy"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[44647, 1044, 175, 4, 69, "Subsection",ExpressionUUID->"df6791a3-2a8a-4341-b7c3-d5a150d368be"],
-Cell[44825, 1050, 488, 9, 100, "Text",ExpressionUUID->"4483077b-590d-ed4c-be51-770c2627406d"],
-Cell[CellGroupData[{
-Cell[45338, 1063, 1243, 32, 110, "Input",ExpressionUUID->"1356781f-a733-ba4f-b1c5-dbdeff55ca78",
- Evaluatable->True,
- CellTags->"lCExampleCurve"],
-Cell[46584, 1097, 495, 12, 33, "Message",ExpressionUUID->"2c0d673e-5b06-5a4e-9ce5-cf1e20387242",
- CellTags->"lCExampleCurve"],
-Cell[47082, 1111, 446, 11, 41, "Output",ExpressionUUID->"5acdcf6c-8216-494f-a45f-eae20867cb52",
- CellTags->"lCExampleCurve"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[47577, 1128, 177, 4, 69, "Subsection",ExpressionUUID->"69fc58b2-c0c7-9941-81cb-9fa5014c4ba2"],
-Cell[47757, 1134, 527, 10, 129, "Text",ExpressionUUID->"b024408d-21ad-8449-a2b3-5d1358831048"],
-Cell[48287, 1146, 319, 5, 100, "Text",ExpressionUUID->"1b33b5c1-60f5-5f4b-9e3b-f1aa01ac9017"],
-Cell[CellGroupData[{
-Cell[48631, 1155, 1103, 28, 135, "Input",ExpressionUUID->"6d1c45a1-d72a-5646-8a6f-3764b910165d",
- Evaluatable->True,
- CellTags->"lCExampleFit"],
-Cell[49737, 1185, 477, 12, 33, "Message",ExpressionUUID->"5195167f-392f-e14d-9d48-df061f7ecccd",
- CellTags->"lCExampleFit"],
-Cell[50217, 1199, 4675, 95, 74, "Output",ExpressionUUID->"ec7c1da8-d10f-6c46-908a-abfa07cef5e2",
- CellTags->"lCExampleFit"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[54941, 1300, 183, 4, 69, "Subsection",ExpressionUUID->"e24389ab-d8af-6a44-9f4a-aec9dc144342"],
-Cell[55127, 1306, 428, 8, 100, "Text",ExpressionUUID->"6ab36ccc-3d26-8f43-a997-4bc2c78df4f9"],
-Cell[CellGroupData[{
-Cell[55580, 1318, 918, 25, 86, "Input",ExpressionUUID->"bf7050a3-bf3a-e140-86ac-92631b66ae7b",
- Evaluatable->True,
- CellTags->"lCExampleExport"],
-Cell[56501, 1345, 4514, 91, 74, "Output",ExpressionUUID->"008ba513-94b5-d74d-8df2-35687eda3357",
- CellTags->"lCExampleExport"]
-}, Open  ]]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[61076, 1443, 199, 3, 79, "Section",ExpressionUUID->"c8a914ca-54ef-ce4a-b204-fc3dca32a881",
- CellTags->"Sources"],
-Cell[61278, 1448, 931, 19, 129, "Text",ExpressionUUID->"1b84de38-9b2c-374f-97ae-e5f5a06e3997"],
-Cell[62212, 1469, 489, 11, 72, "Text",ExpressionUUID->"228ee0a2-438c-6645-bb43-fd9294ae9e42"],
-Cell[62704, 1482, 466, 11, 72, "Text",ExpressionUUID->"0add8c86-d801-4a49-8ab7-1df526ffa616"],
-Cell[63173, 1495, 371, 5, 100, "Text",ExpressionUUID->"49878377-255c-ee43-bfcf-0831d192eb3d"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[63581, 1505, 302, 6, 79, "Section",ExpressionUUID->"8681dea1-7e77-454b-8add-17020fb0328b",
- CellTags->"Notation"],
-Cell[63886, 1513, 6095, 159, 823, "Text",ExpressionUUID->"e499f039-1230-0e4c-9617-e8ba4a6afc8e"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[70018, 1677, 2072, 33, 79, "Section",ExpressionUUID->"d81d0919-bfcd-264c-966a-ce45c5993b5a"],
-Cell[72093, 1712, 2442, 35, 147, "Subsubsection",ExpressionUUID->"24f79e9d-eef6-b242-8a5b-3002b3e27360"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[74572, 1752, 3625, 53, 79, "Section",ExpressionUUID->"3f1cb34c-39e5-084f-b635-77ba93b433a2"],
-Cell[78200, 1807, 5281, 97, 191, "Text",ExpressionUUID->"3c597bae-74db-f340-9fcc-04070be68b77"]
-}, Open  ]]
-}, Open  ]]
-}
-]
-*)
-
-(* End of internal cache information *)
-

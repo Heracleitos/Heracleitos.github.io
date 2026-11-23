@@ -12,7 +12,7 @@ Source Notebook: [BDPU-Threshold.nb](BayesianDiagnosticUncertaintyThreshold/BDPU
 
 Supplement: [SBDPU-T.zip](../Supplements/SBDPU-T.zip)
 
-2. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: Latent-Class Probabilities and Uncertainty from Paired Quantitative Assays. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.92955750
+2. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: Latent-Class Probabilities and Uncertainty from Paired Quantitative Assays. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.24455076
 
 Source Notebook: [BDPU-LatentClass.nb](BayesianDiagnosticUncertaintyLatentClass/BDPU-LatentClass.nb)
 
@@ -134,7 +134,7 @@ Source Notebook: [ReceiverOperatingCharacteristicCurvesAndUncertaintyOfMeasure.n
 
 Source Notebook: [BDPU-ThresholdHelper.nb](Helpers/BDPU-ThresholdHelper.nb)
 
-2. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: Methods and User Guide. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.24447295
+2. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-LatentClass: Methods and User Guide. Ver. 1.0.0. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.24455254
 
 Source Notebook: [BDPU-LatentClassHelper.nb](Helpers/BDPU-LatentClassHelper.nb)
 

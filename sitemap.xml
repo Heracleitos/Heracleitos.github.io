@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 https://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.hcsl.com/</loc>
     <lastmod>2026-11-22</lastmod>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Glossary/index.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
@@ -147,12 +147,12 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Cat.html</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/CatP.html</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/Cat.html</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -352,7 +352,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr28/index.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -362,7 +362,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr30/index.html</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -377,7 +377,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Documents/BayesianDiagnosticUncertaintyInterface.pdf</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -412,7 +412,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Documents/Nutrition.pdf</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -497,7 +497,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr14/hcsltr14.pdf</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -532,12 +532,12 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr21/hcsltr21.pdf</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr22/hcsltr22.pdf</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -547,7 +547,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr24/hcsltr24.pdf</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -562,7 +562,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr27/hcsltr27.pdf</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -572,7 +572,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr29/hcsltr29.pdf</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -757,7 +757,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/.well-known/mcp/server-card.json</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -772,12 +772,15 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyThreshold/index.html</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
+    <image:image>
+      <image:loc>https://www.hcsl.com/Images/BDPU-Threshold.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyThreshold/BDPU-Threshold.nb</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -787,42 +790,45 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr31/hcsltr31.pdf</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Supplements/SBDPU-T.zip</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyLatentClass/index.html</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
+    <image:image>
+      <image:loc>https://www.hcsl.com/Images/BDPU-LatentClass.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyLatentClass/BDPU-LatentClass.nb</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr32/index.html</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/TR/hcsltr32/hcsltr32.pdf</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Supplements/SBDPU-LC.zip</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Documents/BayesianDiagnosticMeasuresInterface.pdf</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -832,12 +838,12 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Publications/Networks.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Supplements/hcsltr21s1.zip</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -847,12 +853,12 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Supplements/hcsltr22s.zip</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Supplements/hcsltr24s.zip</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -877,7 +883,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Supplements/SBDU.zip</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -887,12 +893,12 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Supplements/SM.zip</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Supplements/SUDAM.zip</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -902,12 +908,17 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Helpers/BDPU-LatentClassHelper.nb</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/Helpers/BDPU-ThresholdHelper.nb</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.hcsl.com/Supplements/SBM.zip</loc>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
 </urlset>

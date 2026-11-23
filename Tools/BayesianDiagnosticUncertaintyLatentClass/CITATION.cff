@@ -15,6 +15,6 @@ version: 1.0.0
 identifiers:
   - description: "This is the archived snapshot of version 1.0.0 of BDPU-LatentClass"
     type: doi
-    value: "10.5281/zenodo.92955750"
+    value: "10.5281/zenodo.24455076"
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyLatentClass/index.html"

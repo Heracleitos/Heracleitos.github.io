@@ -5,18 +5,6 @@
 
 (* CreatedBy='Wolfram 15.0' *)
 
-(*CacheID: 234*)
-(* Internal cache information:
-NotebookFileLineBreakTest
-NotebookFileLineBreakTest
-NotebookDataPosition[       154,          7]
-NotebookDataLength[   4702786,      77391]
-NotebookOptionsPosition[   4696258,      77245]
-NotebookOutlinePosition[   4699354,      77321]
-CellTagsIndexPosition[   4699158,      77313]
-WindowTitle->BDPU-Threshold
-WindowFrame->Normal*)
-
 (* Beginning of Notebook Content *)
 Notebook[{
 
@@ -477,10 +465,7 @@ estimate alone does not establish a clinical diagnosis.\"\>"},
       {
        ButtonBox["\<\"Open Help and Methods\"\>",
         Appearance->Automatic,
-        ButtonFunction:>NotebookOpen[
-          FileNameJoin[{
-            NotebookDirectory[
-             EvaluationNotebook[]], "BDPU-ThresholdHelper.nb"}]],
+        ButtonFunction:>With[{dir = NotebookDirectory[EvaluationNotebook[]], name = "BDPU-ThresholdHelper.nb"}, With[{path = SelectFirst[{FileNameJoin[{dir, name}], FileNameJoin[{ParentDirectory[dir], "Helpers", name}]}, FileExistsQ, $Failed]}, If[StringQ[path], NotebookOpen[path], MessageDialog["Helper notebook not found."]]]],
         Evaluator->Automatic,
         Method->"Queued"]}
      },
@@ -572,7 +557,7 @@ Cell[BoxData[
             
             RowBox[{"\"\<DOI\>\"", 
              "\[Rule]", \
-"\"\<https://www.doi.org/10.5281/zenodo.24443936\>\""}], ",", 
+"\"\<https://doi.org/10.5281/zenodo.24443936\>\""}], ",", 
             
             RowBox[{"\"\<PreferredCitation\>\"", 
              "\[Rule]", "\"\<Chatzimichail T, Chatzimichail RA, Hatjimihail \
@@ -3859,13 +3844,7 @@ generates plots.\>\""}]}], ",", " ",
 reference endpoint.  \>\"", ",", " ", 
                     RowBox[{"Button", "[", 
                     RowBox[{"\"\<Help and methods\>\"", ",", " ", 
-                    RowBox[{"NotebookOpen", "[", 
-                    RowBox[{"FileNameJoin", "[", 
-                    RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"NotebookDirectory", "[", "]"}], ",", 
-                    " ", "\"\<BDPU-ThresholdHelper.nb\>\""}], "}"}], "]"}], 
-                    "]"}], ",", " ", 
+                    RowBox[{"With", "[", RowBox[{RowBox[{"{", RowBox[{RowBox[{"dir", "=", RowBox[{"NotebookDirectory", "[", RowBox[{"EvaluationNotebook", "[", "]"}], "]"}]}], ",", RowBox[{"name", "=", "\"BDPU-ThresholdHelper.nb\""}]}], "}"}], ",", RowBox[{"With", "[", RowBox[{RowBox[{"{", RowBox[{"path", "=", RowBox[{"SelectFirst", "[", RowBox[{RowBox[{"{", RowBox[{RowBox[{"FileNameJoin", "[", RowBox[{"{", RowBox[{"dir", ",", "name"}], "}"}], "]"}], ",", RowBox[{"FileNameJoin", "[", RowBox[{"{", RowBox[{RowBox[{"ParentDirectory", "[", "dir", "]"}], ",", "\"Helpers\"", ",", "name"}], "}"}], "]"}]}], "}"}], ",", "FileExistsQ", ",", "$Failed"}], "]"}]}], "}"}], ",", RowBox[{"If", "[", RowBox[{RowBox[{"StringQ", "[", "path", "]"}], ",", RowBox[{"NotebookOpen", "[", "path", "]"}], ",", RowBox[{"MessageDialog", "[", "\"Helper notebook not found.\"", "]"}]}], "]"}]}], "]"}]}], "]"}], ",", " ", 
                     RowBox[{"Method", " ", "->", " ", "\"\<Queued\>\""}]}], 
                     "]"}]}], "}"}], "]"}], ",", 
                    " ", "\"\<ManipulateLabel\>\""}], "]"}]}], "}"}], ",", " ", 
@@ -7228,13 +7207,7 @@ generates plots.\>\""}]}], ",", " ",
 reference endpoint.  \>\"", ",", " ", 
                     RowBox[{"Button", "[", 
                     RowBox[{"\"\<Help and methods\>\"", ",", " ", 
-                    RowBox[{"NotebookOpen", "[", 
-                    RowBox[{"FileNameJoin", "[", 
-                    RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"NotebookDirectory", "[", "]"}], ",", 
-                    " ", "\"\<BDPU-ThresholdHelper.nb\>\""}], "}"}], "]"}], 
-                    "]"}], ",", " ", 
+                    RowBox[{"With", "[", RowBox[{RowBox[{"{", RowBox[{RowBox[{"dir", "=", RowBox[{"NotebookDirectory", "[", RowBox[{"EvaluationNotebook", "[", "]"}], "]"}]}], ",", RowBox[{"name", "=", "\"BDPU-ThresholdHelper.nb\""}]}], "}"}], ",", RowBox[{"With", "[", RowBox[{RowBox[{"{", RowBox[{"path", "=", RowBox[{"SelectFirst", "[", RowBox[{RowBox[{"{", RowBox[{RowBox[{"FileNameJoin", "[", RowBox[{"{", RowBox[{"dir", ",", "name"}], "}"}], "]"}], ",", RowBox[{"FileNameJoin", "[", RowBox[{"{", RowBox[{RowBox[{"ParentDirectory", "[", "dir", "]"}], ",", "\"Helpers\"", ",", "name"}], "}"}], "]"}]}], "}"}], ",", "FileExistsQ", ",", "$Failed"}], "]"}]}], "}"}], ",", RowBox[{"If", "[", RowBox[{RowBox[{"StringQ", "[", "path", "]"}], ",", RowBox[{"NotebookOpen", "[", "path", "]"}], ",", RowBox[{"MessageDialog", "[", "\"Helper notebook not found.\"", "]"}]}], "]"}]}], "]"}]}], "]"}], ",", " ", 
                     RowBox[{"Method", " ", "->", " ", "\"\<Queued\>\""}]}], 
                     "]"}]}], "}"}], "]"}], ",", 
                     " ", "\"\<ManipulateLabel\>\""}], "]"}]}], "}"}], ",", 
@@ -24396,8 +24369,7 @@ Automatic]}}, \\n              Alignment -> {Left, Top}, FrameStyle -> \
 Blend[{Blue, Cyan}, 0.35]], Style[Row[{\\n                \\\"Research \
 software; same-visit latent reference endpoint.  \\\", \\n                \
 Button[\\\"Help and methods\\\", \
-NotebookOpen[FileNameJoin[{NotebookDirectory[], \\n                    \
-\\\"BDPU-ThresholdHelper.nb\\\"}]], Method -> \\\"Queued\\\"]}], \\n          \
+With[{dir = NotebookDirectory[EvaluationNotebook[]], name = \\\"BDPU-ThresholdHelper.nb\\\"}, With[{path = SelectFirst[{FileNameJoin[{dir, name}], FileNameJoin[{ParentDirectory[dir], \\\"Helpers\\\", name}]}, FileExistsQ, $Failed]}, If[StringQ[path], NotebookOpen[path], MessageDialog[\\\"Helper notebook not found.\\\"]]]], Method -> \\\"Queued\\\"]}], \\n          \
     \\\"ManipulateLabel\\\"]}, Spacings -> 1], \\\"Manipulate\\\"], \
 Initialization :> \\n          If[StringLength[defs] > 0, \
 ToExpression[defs]]]]; , Null, \\n    nfBayesInterfaceSource = \
@@ -24893,8 +24865,7 @@ Calculate generates plots.\\\", Method -> \\n                            \
                 Alignment -> {Left, Top}, FrameStyle -> Blend[{Blue, Cyan}, \
 0.35]], Style[Row[\\n                   {\\\"Research software; same-visit \
 latent reference endpoint.  \\\", Button[\\n                     \\\"Help and \
-methods\\\", NotebookOpen[FileNameJoin[{NotebookDirectory[], \\n              \
-          \\\"BDPU-ThresholdHelper.nb\\\"}]], Method -> \\\"Queued\\\"]}], \
+methods\\\", With[{dir = NotebookDirectory[EvaluationNotebook[]], name = \\\"BDPU-ThresholdHelper.nb\\\"}, With[{path = SelectFirst[{FileNameJoin[{dir, name}], FileNameJoin[{ParentDirectory[dir], \\\"Helpers\\\", name}]}, FileExistsQ, $Failed]}, If[StringQ[path], NotebookOpen[path], MessageDialog[\\\"Helper notebook not found.\\\"]]]], Method -> \\\"Queued\\\"]}], \
 \\n                  \\\"ManipulateLabel\\\"]}, Spacings -> 1], \
 \\\"Manipulate\\\"], Initialization :> \\n              If[StringLength[defs] \
 > 0, ToExpression[defs]]]]; ], InputForm, \\n       PageWidth -> Infinity]; \
@@ -40112,8 +40083,7 @@ density = Missing[\\\"Reset\\\"]; \\n                     status = \
 -> Automatic]}}, \\n           Alignment -> {Left, Top}, FrameStyle -> \
 Blend[{Blue, Cyan}, 0.35]], Style[\\n           Row[{\\\"Research software; \
 same-visit latent reference endpoint.  \\\", \\n             Button[\\\"Help \
-and methods\\\", NotebookOpen[FileNameJoin[{NotebookDirectory[], \\n          \
-       \\\"BDPU-ThresholdHelper.nb\\\"}]], Method -> \\\"Queued\\\"]}], \\n   \
+and methods\\\", With[{dir = NotebookDirectory[EvaluationNotebook[]], name = \\\"BDPU-ThresholdHelper.nb\\\"}, With[{path = SelectFirst[{FileNameJoin[{dir, name}], FileNameJoin[{ParentDirectory[dir], \\\"Helpers\\\", name}]}, FileExistsQ, $Failed]}, If[StringQ[path], NotebookOpen[path], MessageDialog[\\\"Helper notebook not found.\\\"]]]], Method -> \\\"Queued\\\"]}], \\n   \
         \\\"ManipulateLabel\\\"]}, Spacings -> 1], \\\"Manipulate\\\"], \\n   \
    Initialization :> If[StringLength[defs] > 0, ToExpression[defs]]]]; , \
 Null, \\n ClearAll[bduSimRealQ, bduSimFail, BayesianSimulationDistribution, \
@@ -77248,7 +77218,7 @@ WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 WindowTitle->"BDPU-Threshold",
 ShowCellBracket->Automatic,
 TaggingRules-><|
- "DOI" -> "https://www.doi.org/10.5281/zenodo.24443936", "PreferredCitation" -> 
+ "DOI" -> "https://doi.org/10.5281/zenodo.24443936", "PreferredCitation" -> 
   "Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-Threshold: \
 Estimating Conditional Disease Probability, Decomposing Uncertainty, and \
 Simulating Test Results. Ver. 1.0.0. Hellenic Complex Systems Laboratory; \
@@ -77262,140 +77232,3 @@ StyleDefinitions->FrontEnd`FileName[{}, "Default.nb", CharacterEncoding ->
 ExpressionUUID->"5825fcaf-8772-354b-ad38-ff4cafd4b21c"
 ]
 (* End of Notebook Content *)
-
-(* Internal cache information *)
-(*CellTagsOutline
-CellTagsIndex->{
- "BDPUStart"->{
-  Cell[5115, 104, 17880, 423, 116, "Output",ExpressionUUID->"b56e8a9d-75a8-474d-b28b-ef6be75af7c5",
-   CellTags->"BDPUStart"]},
- "BDPUInitialization"->{
-  Cell[23685, 551, 311671, 6711, 70, "Input",ExpressionUUID->"1bd9f710-b63f-fd47-b6b4-d9b15cd95f57",
-   CellGroupingRules->"InputGrouping",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[335578, 7273, 892381, 14083, 70, "Input",ExpressionUUID->"6efb53a5-bb4d-7947-af00-157ce43340ea",
-   CellOpen->True,
-   CellGroupingRules->"InputGrouping",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[1228180, 21367, 120207, 2484, 70, "Input",ExpressionUUID->"ad7e3d56-2276-b14b-9efb-c1b2882f0327",
-   CellOpen->True,
-   CellGroupingRules->"InputGrouping",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[1348615, 23862, 2979313, 45945, 70, "Input",ExpressionUUID->"2ea59924-c43c-7244-94dd-a318af378a7c",
-   CellOpen->True,
-   CellGroupingRules->"InputGrouping",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[4328156, 69818, 327419, 6665, 70, "Input",ExpressionUUID->"044a7a79-68b1-a246-9864-55b21d5cfcd7",
-   CellOpen->True,
-   CellGroupingRules->"InputGrouping",
-   InitializationCell->True,
-   CellTags->"BDPUInitialization"],
-  Cell[4655805, 76494, 19508, 310, 70, "Input",ExpressionUUID->"8a89ec8a-c109-3041-b9f4-b0301fae66da",
-   CellOpen->True,
-   CellGroupingRules->"InputGrouping",
-   InitializationCell->True,
-   CellTags->{"BDPUInitialization", "BDPUExactOptimization"}]},
- "BDPUExactOptimization"->{
-  Cell[4655805, 76494, 19508, 310, 70, "Input",ExpressionUUID->"8a89ec8a-c109-3041-b9f4-b0301fae66da",
-   CellOpen->True,
-   CellGroupingRules->"InputGrouping",
-   InitializationCell->True,
-   CellTags->{"BDPUInitialization", "BDPUExactOptimization"}]},
- "BDPUNotation"->{
-  Cell[4675362, 76810, 235, 4, 67, "Section",ExpressionUUID->"ed3dff38-e9c1-5f46-a736-bb215272b819",
-   CellTags->"BDPUNotation"]}
- }
-*)
-(*CellTagsIndex
-CellTagsIndex->{
- {"BDPUStart", 4697177, 77268},
- {"BDPUInitialization", 4697330, 77271},
- {"BDPUExactOptimization", 4698730, 77301},
- {"BDPUNotation", 4699003, 77307}
- }
-*)
-(*NotebookFileOutline
-Notebook[{
-Cell[CellGroupData[{
-Cell[604, 23, 1504, 25, 93, "Title",ExpressionUUID->"60cb8e85-459b-d24e-aff7-414abaeb58f5",
- Evaluatable->False],
-Cell[2111, 50, 1684, 18, 114, "Title",ExpressionUUID->"6f9adb7b-1abd-f845-8ece-81b572e83961",
- Evaluatable->False],
-Cell[3798, 70, 951, 22, 191, "Author",ExpressionUUID->"153b445d-a91d-7e4e-9255-41377bae7897"],
-Cell[4752, 94, 360, 8, 58, "Affiliation",ExpressionUUID->"fd5c9514-1a49-8248-a4f8-6b6e2981e24a"],
-Cell[5115, 104, 17880, 423, 116, "Output",ExpressionUUID->"b56e8a9d-75a8-474d-b28b-ef6be75af7c5",
- CellTags->"BDPUStart"],
-Cell[CellGroupData[{
-Cell[23020, 531, 347, 8, 67, "Section",ExpressionUUID->"c4328579-ac54-be4c-bb56-17c9b666edcf"],
-Cell[CellGroupData[{
-Cell[23392, 543, 290, 6, 58, "Subsection",ExpressionUUID->"0a4a3496-a70f-9248-b923-c72fa35c68d5"],
-Cell[23685, 551, 311671, 6711, 70, "Input",ExpressionUUID->"1bd9f710-b63f-fd47-b6b4-d9b15cd95f57",
- CellGroupingRules->"InputGrouping",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[335393, 7267, 182, 4, 40, "Subsection",ExpressionUUID->"58d67bef-538e-784b-a90b-e535201d5002"],
-Cell[335578, 7273, 892381, 14083, 70, "Input",ExpressionUUID->"6efb53a5-bb4d-7947-af00-157ce43340ea",
- CellOpen->True,
- CellGroupingRules->"InputGrouping",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[1227996, 21361, 181, 4, 40, "Subsection",ExpressionUUID->"e19e933e-0b21-0241-9fa4-4f6561032c01"],
-Cell[1228180, 21367, 120207, 2484, 70, "Input",ExpressionUUID->"ad7e3d56-2276-b14b-9efb-c1b2882f0327",
- CellOpen->True,
- CellGroupingRules->"InputGrouping",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[1348424, 23856, 188, 4, 40, "Subsection",ExpressionUUID->"a299107d-6711-754f-a686-e92db966b67b"],
-Cell[1348615, 23862, 2979313, 45945, 70, "Input",ExpressionUUID->"2ea59924-c43c-7244-94dd-a318af378a7c",
- CellOpen->True,
- CellGroupingRules->"InputGrouping",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[4327965, 69812, 188, 4, 40, "Subsection",ExpressionUUID->"d4d12d25-7f3a-8346-80fa-c943e994f9d5"],
-Cell[4328156, 69818, 327419, 6665, 70, "Input",ExpressionUUID->"044a7a79-68b1-a246-9864-55b21d5cfcd7",
- CellOpen->True,
- CellGroupingRules->"InputGrouping",
- InitializationCell->True,
- CellTags->"BDPUInitialization"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[4655612, 76488, 190, 4, 40, "Subsection",ExpressionUUID->"7fabc0a7-0d68-754f-b2b9-9d0554e82b0e"],
-Cell[4655805, 76494, 19508, 310, 70, "Input",ExpressionUUID->"8a89ec8a-c109-3041-b9f4-b0301fae66da",
- CellOpen->True,
- CellGroupingRules->"InputGrouping",
- InitializationCell->True,
- CellTags->{"BDPUInitialization", "BDPUExactOptimization"}]
-}, Closed]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[4675362, 76810, 235, 4, 67, "Section",ExpressionUUID->"ed3dff38-e9c1-5f46-a736-bb215272b819",
- CellTags->"BDPUNotation"],
-Cell[4675600, 76816, 7414, 202, 820, "Text",ExpressionUUID->"a1819835-40e4-9a44-9ba2-d7934a922252"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[4683051, 77023, 1980, 30, 70, "Section",ExpressionUUID->"e6fc1e33-7321-4240-a0d7-bde4ce137a33"],
-Cell[4685034, 77055, 2442, 35, 70, "Subsubsection",ExpressionUUID->"4c5191fc-014a-e648-875e-55a6c410ae3d"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[4687513, 77095, 3518, 49, 70, "Section",ExpressionUUID->"a0a8075d-6667-744f-a0ec-96cebf21f93c"],
-Cell[4691034, 77146, 5196, 95, 70, "Text",ExpressionUUID->"a5cc3c95-d773-ff48-a50f-65515d08f107"]
-}, Open  ]]
-}, Open  ]]
-}
-]
-*)
-
-(* End of internal cache information *)
-
