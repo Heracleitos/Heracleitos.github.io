@@ -2,7 +2,7 @@
 
 Available through the Hellenic Complex Systems Laboratory (HCSL) official website at https://www.hcsl.com/TR/.
 
-1. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. Latent class probabilities and uncertainty estimation without a gold standard. Technical Report XXXII. Hellenic Complex Systems Laboratory; 18 November 2026. https://doi.org/10.5281/zenodo.24447301 ([Full Text](hcsltr32/hcsltr32.pdf))
+1. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. Latent class probabilities and uncertainty estimation without a gold standard. Technical Report XXXII. Hellenic Complex Systems Laboratory; 18 November 2026. https://doi.org/10.5281/zenodo.24455278 ([Full Text](hcsltr32/hcsltr32.pdf))
 2. Chatzimichail T, Chatzimichail RA, Hatjimihail AT. BDPU-Threshold: Probability and uncertainty estimation for a reference concentration threshold. Technical Report XXXI. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.24445993 ([Full Text](hcsltr31/hcsltr31.pdf))
 3. Chatzimichail C, Hatjimihail AT. Accompaniment Instruments Frequencies, Networks and Configurations. Technical Report XXX. Hellenic Complex Systems Laboratory; 2026. https://doi.org/10.5281/zenodo.23067849
 4. Chatzimichail RA, Chatzimichail T, Hatjimihail AT. Uncertainty Estimation of Diagnostic Accuracy Measures Under Parametric Distributions. Technical Report XXIX. Hellenic Complex Systems Laboratory; 2025. https://doi.org/10.5281/zenodo.23085657

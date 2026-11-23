@@ -1,6 +1,6 @@
 # HCSL Technical Report XXXII
 
-Chatzimichail T, Chatzimichail RA, Hatjimihail AT. Latent class probabilities and uncertainty estimation without a gold standard. Technical Report XXXII. Hellenic Complex Systems Laboratory; 18 November 2026. https://doi.org/10.5281/zenodo.24447301
+Chatzimichail T, Chatzimichail RA, Hatjimihail AT. Latent class probabilities and uncertainty estimation without a gold standard. Technical Report XXXII. Hellenic Complex Systems Laboratory; 18 November 2026. https://doi.org/10.5281/zenodo.24455278
 
 [Full Text (PDF)](hcsltr32.pdf) | [Supplementary Notebooks (ZIP)](../../Supplements/SBDPU-LC.zip)
 
