@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Glossary/index.html</loc>
-    <lastmod>2026-11-23</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
@@ -142,7 +142,17 @@
   </url>
   <url>
     <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/index.html</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyThreshold/index.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyLatentClass/index.html</loc>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -366,6 +376,16 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://www.hcsl.com/TR/hcsltr31/index.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.hcsl.com/TR/hcsltr32/index.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
     <loc>https://www.hcsl.com/Documents/BayesianDiagnosisInterface.pdf</loc>
     <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
@@ -581,6 +601,16 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://www.hcsl.com/TR/hcsltr31/hcsltr31.pdf</loc>
+    <lastmod>2026-11-23</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.hcsl.com/TR/hcsltr32/hcsltr32.pdf</loc>
+    <lastmod>2026-11-23</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
     <loc>https://www.hcsl.com/Tools/BayesianDiagnosis/BayesianDiagnosis.nb</loc>
     <lastmod>2026-06-25</lastmod>
     <priority>0.64</priority>
@@ -593,6 +623,16 @@
   <url>
     <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertainty/BayesianDiagnosticUncertainty.nb</loc>
     <lastmod>2026-08-12</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyThreshold/BDPU-Threshold.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.hcsl.com/Tools/BayesianDiagnosticUncertaintyLatentClass/BDPU-LatentClass.html</loc>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -884,6 +924,21 @@
   <url>
     <loc>https://www.hcsl.com/Supplements/SBDI.zip</loc>
     <lastmod>2026-10-09</lastmod>
+    <priority>0.64</priority>
+  </url>
+   <url>
+    <loc>https://www.hcsl.com/Supplements/SBDPU-LC.zip</loc>
+    <lastmod>2026-11-23</lastmod>
+    <priority>0.64</priority>
+  </url>
+   <url>
+    <loc>https://www.hcsl.com/Supplements/SBDPU-T.zip</loc>
+    <lastmod>2026-11-23</lastmod>
+    <priority>0.64</priority>
+  </url>
+   <url>
+    <loc>https://www.hcsl.com/Supplements/SBDPU-T-V.zip</loc>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
